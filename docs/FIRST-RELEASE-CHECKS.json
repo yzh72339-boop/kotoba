@@ -1,0 +1,65 @@
+{
+  "checked_at_utc": "2026-10-05T09:44:42.564233+00:00",
+  "remote_database": {
+    "versions": [
+      "001",
+      "002",
+      "003",
+      "004",
+      "005",
+      "006",
+      "007",
+      "008",
+      "009"
+    ],
+    "tables": 43,
+    "restrictive_table_fences": 42,
+    "restrictive_storage_fences": 2,
+    "catalog_verifications": "passed_from_user_receipts",
+    "owner_account": "created, email confirmed, pinned UID and profile/languages verified by user SQL receipt",
+    "real_login_and_rls_behavior": "Anonymous vocabulary denial verified; owner/nonowner sessions pending"
+  },
+  "local": {
+    "public_environment_validation": "passed",
+    "node_tests": {
+      "passed": 57,
+      "failed": 0
+    },
+    "npm_install": {
+      "status": "passed",
+      "packages_added": 373
+    },
+    "typecheck": {
+      "exit_code": 0,
+      "status": "passed"
+    },
+    "lint": {
+      "exit_code": 0,
+      "status": "passed_zero_warnings"
+    },
+    "build": {
+      "exit_code": 0,
+      "status": "passed",
+      "next_version": "15.5.27",
+      "pwa_version": "kotoba-2.4.0-ea422db55bb8",
+      "offline_assets": 17
+    },
+    "data_api": {
+      "exit_code": 0,
+      "status": "reached",
+      "anonymous_vocabulary_status": 401,
+      "postgres_code": "42501",
+      "anonymous_denied": true,
+      "owner_access": "pending"
+    },
+    "pgtap": "80 assertions supplied; not executed",
+    "browser_device_acceptance": "Unauthenticated login gate passed 8 viewports; real owner/device/PWA installation pending",
+    "deployed_application": "none; existing Sites project remains owner-private, version 0, no live URL",
+    "auth_settings": {
+      "status": 200,
+      "google_enabled": true,
+      "email_enabled": true,
+      "public_signup_disabled": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {schedule,dueCards} from '../lib/srs.ts';
+const now=1700000000000;
+test('Again schedules one minute and increments lapses',()=>{const r=schedule(undefined,'a','Again',now);assert.equal(r.due,now+60000);assert.equal(r.repetitions,0);assert.equal(r.lapses,1)});
+test('successful recalls progress from one to three days',()=>{const first=schedule(undefined,'a','Good',now);assert.equal(first.interval,1);const second=schedule(first,'a','Good',first.due);assert.equal(second.interval,3);assert.ok(schedule(second,'a','Good',second.due).interval>3)});
+test('Hard retains a minimum ease after repeated ratings',()=>{let r;for(let i=0;i<40;i++)r=schedule(r,'a','Hard',now);assert.equal(r.ease,1.3);assert.ok(r.interval>=1)});
+test('Easy schedules beyond Good',()=>{assert.ok(schedule(undefined,'a','Easy',now).interval>schedule(undefined,'a','Good',now).interval)});
+test('due queue includes new cards and excludes future cards',()=>{const cards=[{id:'new'},{id:'future'},{id:'due'}];const reviews={future:schedule(undefined,'future','Good',now),due:{...schedule(undefined,'due','Good',now),due:now}};assert.deepEqual(dueCards(cards,reviews,now).map(c=>c.id),['new','due'])});
+test('half-day rounding agrees with PostgreSQL decimal arithmetic',()=>{const previous={id:'a',due:now,interval:25,ease:2.3,repetitions:3,lapses:0};assert.equal(schedule(previous,'a','Good',now).interval,58);assert.equal(schedule({...previous,ease:2.1,interval:5},'a','Good',now).interval,11)});
+test('long-lived cards retain finite bounded dates after many easy recalls',()=>{let r;for(let i=0;i<100;i++)r=schedule(r,'a','Easy',now);assert.equal(r.interval,36500);assert.ok(Number.isFinite(r.due));assert.ok(!Number.isNaN(new Date(r.due).getTime()))});

@@ -1,0 +1,34 @@
+[
+  {
+    "version": "001",
+    "name": "kotoba"
+  },
+  {
+    "version": "002",
+    "name": "personal_backend"
+  },
+  {
+    "version": "003",
+    "name": "sync_and_srs"
+  },
+  {
+    "version": "004",
+    "name": "ai_requests_and_content"
+  },
+  {
+    "version": "005",
+    "name": "hardening_and_projection"
+  },
+  {
+    "version": "006",
+    "name": "personal_audio_and_memory"
+  },
+  {
+    "version": "007",
+    "name": "audio_position_identity"
+  },
+  {
+    "version": "008",
+    "name": "phase_one_private_account"
+  }
+]

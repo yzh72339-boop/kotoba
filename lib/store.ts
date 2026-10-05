@@ -1,0 +1,23 @@
+import type {Language,Word} from './content';
+import type {Review,Rating} from './srs';
+import type {DailySession} from './daily-session';
+export type Session={id:string;day:string;minutes:number;type:string;count:number;language?:Language;at?:number};
+export type Profile={name:string;language:Language;level:string;goal:string;dailyGoal:number;onboarded:boolean;nativeLanguage?:string;timezone?:string;explanationLevel?:'simple'|'normal'|'detailed'|'immersion'};
+export type LanguageProfile={level:string;goal:string;interests:string[];targetLevel?:string};
+export type SavedWord=Word&{language:Language;source:string;firstSeen:number;tags:string[]};
+export type Sentence={id:string;language:Language;sentence:string;translation:string;source:string;date:number;notes:string;vocabulary:string[];grammar:string[]};
+export type Mistake={id:string;language:Language;area:string;pattern:string;original:string;correction:string;source:string;at:number;resolved:boolean};
+export type ReviewEvent={id:string;language:Language;cardId:string;rating:Rating;at:number};
+export type Position={progress:number;index?:number;offset?:number;mediaId?:string;updatedAt:number};
+export type SpeakingEntry={id:string;language:Language;text:string;feedback:string;at:number};
+export type AudioFile={language:Language;title:string;storagePath:string;mimeType:string;size:number;updatedAt:number};
+export type ChatMessage={id:string;role:'user'|'assistant';text:string;at:number;language:Language};
+export type DailyPlan={day:string;language:Language;minutes:number;focus:string;reason:string;generatedBy:'rules'|'ai';reviewCount:number;weak:string[];at:number};
+export type AppState={version:2;activeSession:DailySession|null;profile:Profile;languageProfiles:Record<Language,LanguageProfile>;reviews:Record<string,Review>;reviewHistory:ReviewEvent[];saved:string[];notes:Record<string,string>;completed:string[];sessions:Session[];theme:'light'|'dark';conversations:ChatMessage[];dictionary:Record<string,SavedWord>;sentences:Sentence[];mistakes:Mistake[];readingPositions:Record<string,Position>;listeningPositions:Record<string,Position>;audioFiles:Record<string,AudioFile>;speakingHistory:SpeakingEntry[];dailyPlans:Record<string,DailyPlan>;settings:{audioRate:number;notifications:boolean;dailyReminder:boolean;reviewReminder:boolean;weeklyReport:boolean;autoBackup:boolean};_clock:Record<string,number>;_deleted:Record<string,number>};
+export const initialState:AppState={version:2,activeSession:null,profile:{name:'Alex',language:'ja',level:'N3',goal:'日常交流',dailyGoal:20,onboarded:false},languageProfiles:{ja:{level:'N3',goal:'日常交流',interests:['日常生活','旅行']},en:{level:'B1',goal:'日常交流',interests:['日常生活','文化']}},reviews:{},reviewHistory:[],saved:[],notes:{},completed:[],sessions:[],theme:'light',conversations:[],dictionary:{},sentences:[],mistakes:[],readingPositions:{},listeningPositions:{},audioFiles:{},speakingHistory:[],dailyPlans:{},settings:{audioRate:1,notifications:false,dailyReminder:false,reviewReminder:false,weeklyReport:false,autoBackup:false},_clock:{},_deleted:{}};
+export const STORAGE_KEY='kotoba.v1';
+export function migrateState(value:unknown):AppState{if(!value||typeof value!=='object')return structuredClone(initialState);const p=value as Omit<Partial<AppState>,'version'>&{version:number};if(p.version!==1&&p.version!==2)return structuredClone(initialState);const state={...structuredClone(initialState),...p,version:2 as const,profile:{...initialState.profile,...p.profile},settings:{...initialState.settings,...p.settings},languageProfiles:{...initialState.languageProfiles,...p.languageProfiles}};if(p.version===1){state.languageProfiles[state.profile.language]={...state.languageProfiles[state.profile.language],level:state.profile.level,goal:state.profile.goal};state.conversations=(p.conversations??[]).map((m,i)=>({...m,id:m.id??`legacy-chat-${i}`,at:m.at??0,language:m.language??state.profile.language}));}return state;}
+export function loadState():AppState{try{return migrateState(JSON.parse(localStorage.getItem(STORAGE_KEY)||'null'))}catch{return structuredClone(initialState)}}
+export function today(){const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
+export function minutesToday(s:AppState){return s.sessions.filter(x=>x.day===today()).reduce((sum,x)=>sum+x.minutes,0);}
+export function streak(s:AppState){const days=new Set(s.sessions.map(x=>x.day));let count=0;const d=new Date();if(!days.has(d.toLocaleDateString('en-CA')))d.setDate(d.getDate()-1);while(days.has(d.toLocaleDateString('en-CA'))){count++;d.setDate(d.getDate()-1);}return count;}

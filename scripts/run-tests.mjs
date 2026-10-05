@@ -1,0 +1,2 @@
+import {spawnSync} from 'node:child_process';
+for(const file of ['tests/srs.test.mjs','tests/sync.test.mjs','tests/sync-coordinator.test.mjs','tests/audio-state.test.mjs','tests/personal-session.test.mjs','tests/fluid-session.test.mjs','tests/course-library.test.mjs','tests/auth-callback.test.mjs','tests/auth-cache.test.mjs','tests/install-prompt.test.mjs','tests/phase-one.test.mjs']){const r=spawnSync(process.execPath,[file],{stdio:'inherit'});if(r.status!==0)process.exit(r.status??1)}

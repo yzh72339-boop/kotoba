@@ -1,0 +1,16 @@
+[
+  {
+    "migration_002_verification": {
+      "problems": [], "ledger_rls": true, "storage_rls": true,
+      "found_tables": 41, "expected_tables": 41, "owner_table_rls": true,
+      "private_buckets": 3, "owner_configured": true,
+      "migration_versions": ["001", "002"], "profiles_backfilled": true,
+      "ensure_rls_unchanged": true, "rls_helper_unchanged": true,
+      "signup_guard_present": true, "migration_002_recorded": true,
+      "legacy_tables_preserved": true, "progress_revision_ready": true,
+      "browser_owner_table_access": false, "auth_profile_trigger_present": true,
+      "browser_ledger_schema_access": false, "browser_private_schema_access": false,
+      "owner_function_live_auth_check": true, "owner_function_browser_permissions": true
+    }
+  }
+]

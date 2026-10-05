@@ -1,0 +1,3 @@
+import {coursePack} from './course-library';
+import type {Language,Word} from './content';
+export function reviewContent(language:Language,level?:string):Word[]{const pack=coursePack(language,level??(language==='ja'?'N3':'B1'));return [...pack.words,...pack.grammars.map(g=>({id:g.id,word:g.title,pronunciation:'Grammar pattern',meaning:g.meaning,example:g.example,translation:g.translation,tag:`${g.level} · Grammar`})),...pack.episodes.flatMap(e=>e.lines.map((line,i)=>({id:e.id===`episode-${language}`?`sentence-${language}-${i}`:`sentence-${e.id}-${i}`,word:line.text,pronunciation:'Recall the meaning',meaning:line.translation,example:line.text,translation:line.translation,tag:`${e.level} · Sentence`})))]}

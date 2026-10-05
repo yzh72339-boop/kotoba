@@ -1,0 +1,21 @@
+[
+  {
+    "migration_004_failure_inventory": {
+      "ai_requests_exists": false,
+      "migration_versions": [
+        "001",
+        "002",
+        "003"
+      ],
+      "public_table_count": 41,
+      "starter_article_ids": 0,
+      "starter_grammar_ids": 0,
+      "ensure_rls_unchanged": true,
+      "rls_helper_unchanged": true,
+      "starter_listening_ids": 0,
+      "migration_004_recorded": false,
+      "starter_grammar_titles": 0,
+      "claim_ai_request_exists": false
+    }
+  }
+]

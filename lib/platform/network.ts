@@ -1,0 +1,1 @@
+export const network={isOnline:()=>typeof navigator==='undefined'||navigator.onLine,subscribe:(fn:(online:boolean)=>void)=>{const online=()=>fn(true),offline=()=>fn(false);window.addEventListener('online',online);window.addEventListener('offline',offline);return()=>{window.removeEventListener('online',online);window.removeEventListener('offline',offline)}}};

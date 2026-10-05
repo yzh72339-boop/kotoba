@@ -1,0 +1,13 @@
+{
+  "source": "user_screenshot",
+  "attachment_name": "1000053969.jpg",
+  "result_column": "migration_002_verification",
+  "visible_row_count": 1,
+  "visible_fields": {
+    "problems": [],
+    "ledger_rls": true,
+    "storage_rls": true
+  },
+  "completeness": "partial",
+  "full_verification_status": "pending"
+}

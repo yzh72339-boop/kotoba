@@ -1,0 +1,27 @@
+# Dependencies / build output
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# QA/auth/session artifacts
+qa-artifacts/
+*storage-state*.json
+*auth-state*.json
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

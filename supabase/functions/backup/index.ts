@@ -1,0 +1,8 @@
+import {privateClients,cors} from '../_shared/auth.ts';
+import {z} from 'https://esm.sh/zod@3';
+const bodySchema=z.object({format:z.literal('json').default('json')});
+Deno.serve(async(req:Request)=>{const headers=cors(req),reply=(status:number,data:unknown)=>new Response(JSON.stringify(data),{status,headers});if(req.method==='OPTIONS')return new Response(null,{status:204,headers});if(req.method!=='POST'||!headers['Access-Control-Allow-Origin'])return reply(403,{error:'Not allowed'});try{bodySchema.parse(await req.json());const {client,user}=await privateClients(req);
+ const {data:records,error:exportError}=await client.rpc('export_personal_archive');if(exportError||!records)throw new Error('ARCHIVE_READ_FAILED');
+ const at=new Date().toISOString(),text=JSON.stringify({format:'kotoba-relational-backup',schemaVersion:2,createdAt:at,records});const bytes=new TextEncoder().encode(text),digest=await crypto.subtle.digest('SHA-256',bytes);const checksum=Array.from(new Uint8Array(digest),b=>b.toString(16).padStart(2,'0')).join('');if(bytes.length>104857600)throw new Error('ARCHIVE_TOO_LARGE');const path=`${user.id}/${at.replace(/[:.]/g,'-')}-${crypto.randomUUID()}.json`;
+ const {error}=await client.storage.from('personal-backups').upload(path,new Blob([text],{type:'application/json'}),{upsert:false});if(error)throw error;const {error:metadataError}=await client.from('backups').insert({user_id:user.id,storage_path:path,format:'json',schema_version:2,byte_count:bytes.length,checksum});if(metadataError){await client.storage.from('personal-backups').remove([path]);throw metadataError}return reply(200,{path,checksum,bytes:bytes.length,createdAt:at});
+ }catch{return reply(503,{error:'Backup did not complete. Existing backups are unchanged.'})}});

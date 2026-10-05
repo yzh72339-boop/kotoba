@@ -1,0 +1,36 @@
+{
+  "failed_command": "timeout 35s npm install --cache /workspace/.cache/kotoba-npm --proxy \"$HTTPS_PROXY\" --fetch-retries=0 --fetch-timeout=12000 --no-audit --no-fund",
+  "cwd": "/workspace/sites/kotoba",
+  "npm_version": "11.9.0",
+  "node_version": "v24.19.0",
+  "error": {
+    "code": "EPERM",
+    "syscall": "connect",
+    "errno": -1,
+    "address": "172.31.5.237",
+    "port": 8080,
+    "target": "https://registry.npmjs.org/@eslint%2feslintrc",
+    "proxy": "proxy:8080"
+  },
+  "log_path": "/workspace/.cache/kotoba-npm/_logs/2026-10-05T08_56_01_500Z-debug-0.log",
+  "filesystem_probe": {
+    "path": "/workspace/.cache/kotoba-npm",
+    "create_write_read_delete": "passed",
+    "mode": "700"
+  },
+  "independent_tcp_probe": {
+    "dns": "resolved",
+    "connect": "EPERM"
+  },
+  "cloud_outbound_policy": "unrestricted and enforced",
+  "command_sandbox_network": "restricted",
+  "conclusion": "The command sandbox rejects the socket connection to the inherited Cloud proxy; not a filesystem failure or npm-specific problem. Exact kernel enforcement mechanism not separately established.",
+  "additional_network_probe": "succeeded after environment permissions changed",
+  "database_mutations": false,
+  "resolution": {
+    "network_access_enabled": true,
+    "registry_http_status": 200,
+    "npm_install": "passed without changing registry, proxy or filesystem permissions",
+    "confirmed_cause": "Previous command network sandbox restriction"
+  }
+}

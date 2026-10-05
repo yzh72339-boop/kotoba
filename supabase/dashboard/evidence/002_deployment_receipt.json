@@ -1,0 +1,9 @@
+{
+  "source": "user_screenshot",
+  "attachment_name": "1000053967.jpg",
+  "visible_version_records": [
+    { "version": "001", "name": "kotoba" },
+    { "version": "002", "name": "personal_backend" }
+  ],
+  "migration_002_verification": "pending"
+}

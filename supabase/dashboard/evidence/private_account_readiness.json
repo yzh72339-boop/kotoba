@@ -1,0 +1,23 @@
+[
+  {
+    "private_account_readiness": {
+      "languages": [
+        {
+          "level": "B1",
+          "primary": false,
+          "language": "en"
+        },
+        {
+          "level": "N3",
+          "primary": true,
+          "language": "ja"
+        }
+      ],
+      "email_confirmed": true,
+      "owner_uid_bound": true,
+      "profile_created": true,
+      "owner_auth_users": 1,
+      "owner_configured": true
+    }
+  }
+]

@@ -1,0 +1,45 @@
+[
+  {
+    "migration_008_verification": {
+      "problems": [],
+      "ledger_rls": true,
+      "storage_rls": true,
+      "found_tables": 43,
+      "expected_tables": 43,
+      "owner_table_rls": true,
+      "private_buckets": 3,
+      "owner_auth_users": 0,
+      "owner_configured": true,
+      "migration_versions": [
+        "001",
+        "002",
+        "003",
+        "004",
+        "005",
+        "006",
+        "007",
+        "008"
+      ],
+      "ensure_rls_unchanged": true,
+      "owner_account_status": "not_created",
+      "owner_base_preserved": true,
+      "rls_helper_unchanged": true,
+      "signup_guard_present": true,
+      "migration_008_recorded": true,
+      "owner_column_unchanged": true,
+      "prior_columns_unchanged": true,
+      "prior_policies_unchanged": true,
+      "new_constraints_unchanged": true,
+      "owner_identity_consistent": true,
+      "browser_owner_table_access": false,
+      "prior_constraints_unchanged": true,
+      "auth_profile_trigger_present": true,
+      "browser_ledger_schema_access": false,
+      "prior_app_triggers_unchanged": true,
+      "browser_private_schema_access": false,
+      "installed_functions_unchanged": true,
+      "existing_tables_and_data_preserved": true,
+      "prior_learning_functions_preserved": true
+    }
+  }
+]

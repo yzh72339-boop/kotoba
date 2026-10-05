@@ -1,0 +1,14 @@
+[
+  {
+    "version": "001",
+    "name": "kotoba"
+  },
+  {
+    "version": "002",
+    "name": "personal_backend"
+  },
+  {
+    "version": "003",
+    "name": "sync_and_srs"
+  }
+]
