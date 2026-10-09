@@ -29,7 +29,18 @@
       "supp-ja-n5-1",
       "supp-ja-n5-6",
       "supp-ja-n5-11",
-      "supp-ja-n5-14"
+      "supp-ja-n5-14",
+      "course-ja-n3-5",
+      "ja-kurashi",
+      "ja-shuukan",
+      "ja-hitsuyou",
+      "ja-shippai",
+      "ja-ryuu",
+      "context-ja-n3-921aee81fdfc",
+      "context-ja-n3-8767e0fcaa01",
+      "context-ja-n3-8b49277561d6",
+      "context-ja-n3-878ca289cde3",
+      "context-ja-n3-19caeb42418b"
     ],
     "grammar": [
       {
@@ -142,7 +153,18 @@
       "course-ja-n5-9",
       "supp-ja-n5-1",
       "supp-ja-n5-12",
-      "supp-ja-n5-13"
+      "supp-ja-n5-13",
+      "course-ja-n3-1",
+      "course-ja-n3-3",
+      "course-ja-n3-5",
+      "course-ja-n3-7",
+      "ja-setsumei",
+      "ja-hitsuyou",
+      "ja-kakunin",
+      "ja-kangae",
+      "context-ja-n3-7f4874ef9c23",
+      "context-ja-n3-01f77e1f6d65",
+      "context-ja-n3-6a4d38a5a394"
     ],
     "grammar": [
       {
@@ -251,7 +273,11 @@
       "course-ja-n5-9",
       "supp-ja-n5-1",
       "supp-ja-n5-5",
-      "supp-ja-n5-7"
+      "supp-ja-n5-7",
+      "ja-shuukan",
+      "ja-seikou",
+      "context-ja-n3-33174dbd1d09",
+      "context-ja-n3-fb57032f2466"
     ],
     "grammar": [
       {
@@ -368,7 +394,13 @@
       "lex-ja-n5-jikan",
       "lex-ja-n5-shigoto",
       "complete-ja-n5-4912771a42",
-      "course-ja-n4-12"
+      "course-ja-n4-12",
+      "course-ja-n3-5",
+      "ja-hitsuyou",
+      "ja-kakunin",
+      "context-ja-n3-8a73c41eb720",
+      "context-ja-n3-8c4c988f1257",
+      "context-ja-n3-19caeb42418b"
     ],
     "grammar": [
       {

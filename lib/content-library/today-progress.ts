@@ -6,7 +6,8 @@ import {scopedSessionProgress,storedCoursePlan} from './daily-course-plan';
 // The learning engine still decides independently whether to start a new plan.
 export function todayCourseProgress(state:AppState,now=Date.now()){
  const current=scopedSessionProgress(state);
- if(current.session)return current;
+ if(current.session&&!current.session.done)return current;
+ if(current.session?.done&&today(state.profile.timezone,current.session.startedAt)===today(state.profile.timezone,now))return current;
  try{
   const session:DailySession=JSON.parse(state.notes[`paused-course-session-${state.profile.language}-${state.profile.level}`]??'null');
   const plan=storedCoursePlan(state,session);
@@ -16,5 +17,5 @@ export function todayCourseProgress(state:AppState,now=Date.now()){
    return {session,steps:current.steps,completed:current.steps.length};
   }
  }catch{/* Invalid legacy/draft data never fabricates completion. */}
- return current;
+ return {...current,session:null,completed:0};
 }

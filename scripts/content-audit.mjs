@@ -2,6 +2,7 @@ import {writeFile} from 'node:fs/promises';
 import {loadDocuments} from './content-files.mjs';
 import {documentLength,contentLevels} from '../lib/content-library/schema.ts';
 import {allCourseWords,coursePack} from '../lib/course-library.ts';
+import {wordOccursInText} from '../lib/vocabulary-occurrence.ts';
 const targets={ja:{grammar:[70,100,150,180,180],reading:[50,60,70,60,50]},en:{grammar:[60,80,100,120,120,100],reading:[40,50,60,60,50,40]}};
 const minimum={ja:[80,150,300,500,800],en:[80,150,250,400,600,800]};
 const issues=[],warnings=[];const answerPositions={grammar:{},reading:{}};let documents=[];
@@ -22,7 +23,7 @@ for(const d of documents){
  }else{
   for(const ref of d.vocabulary)if(!vocab[d.language].has(ref))issues.push(`${d.id}: unknown vocabulary ${ref}`);
   for(const g of d.grammar){if(!grammarIds.has(g.id)||grammarLanguages.get(g.id)!==d.language)issues.push(`${d.id}: unknown grammar ${g.id}`);if(!d.paragraphs.some(p=>p.includes(g.surface)))issues.push(`${d.id}: grammar surface missing: ${g.surface}`)}
-  for(const ref of d.vocabulary){const word=vocab[d.language].get(ref);if(word&&!d.paragraphs.some(p=>p.toLowerCase().includes(word.word.toLowerCase())))issues.push(`${d.id}: linked word absent: ${word.word}`)}
+  for(const ref of d.vocabulary){const word=vocab[d.language].get(ref);if(word&&!d.paragraphs.some(p=>wordOccursInText(p,word.word,d.language)))issues.push(`${d.id}: linked word absent: ${word.word}`)}
   const length=documentLength(d),floor=minimum[d.language][contentLevels[d.language].indexOf(d.level)];if(length<floor)warnings.push(`${d.id}: length ${length}, expected at least ${floor}`);
  }
 }

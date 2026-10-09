@@ -1,0 +1,476 @@
+[
+  {
+    "id": "context-en-b2-569257584329",
+    "word": "productivity",
+    "pronunciation": "/ˌprɒdʌkˈtɪvəti/",
+    "meaning": "生产率；工作效率",
+    "example": "The trial measured productivity as well as staff wellbeing.",
+    "translation": "试验既衡量了工作效率，也衡量了员工身心状态。",
+    "tag": "B2 · noun",
+    "related": "measure productivity",
+    "pos": "noun",
+    "senses": [
+      "生产率",
+      "工作效率"
+    ],
+    "collocations": [
+      "measure productivity"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-7195c8fc1a5a",
+    "word": "headline",
+    "pronunciation": "/ˈhedlaɪn/",
+    "meaning": "新闻标题",
+    "example": "The headline made a stronger claim than the study.",
+    "translation": "新闻标题提出了比研究更强的结论。",
+    "tag": "B2 · noun",
+    "related": "a misleading headline",
+    "pos": "noun",
+    "senses": [
+      "新闻标题"
+    ],
+    "collocations": [
+      "a misleading headline"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-d02ebcfcdcff",
+    "word": "trial",
+    "pronunciation": "/ˈtraɪəl/",
+    "meaning": "试验；试用",
+    "example": "The shop announced a six-week trial.",
+    "translation": "商店宣布进行为期六周的试行。",
+    "tag": "B2 · noun",
+    "related": "a short trial",
+    "pos": "noun",
+    "senses": [
+      "试验",
+      "试用"
+    ],
+    "collocations": [
+      "a short trial"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-87b769732b7d",
+    "word": "establish",
+    "pronunciation": "/ɪˈstæblɪʃ/",
+    "meaning": "确立；证实",
+    "example": "One trial cannot establish that a policy works everywhere.",
+    "translation": "一次试验不能证实一项政策在所有地方都有效。",
+    "tag": "B2 · verb",
+    "related": "establish a link",
+    "pos": "verb",
+    "senses": [
+      "确立",
+      "证实"
+    ],
+    "collocations": [
+      "establish a link"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-5e812433b3eb",
+    "word": "commitment",
+    "pronunciation": "/kəˈmɪtmənt/",
+    "meaning": "承诺；已安排的事项",
+    "example": "The calendar does not show every commitment.",
+    "translation": "日历不会显示每一项已经安排好的事情。",
+    "tag": "B2 · noun",
+    "related": "a prior commitment",
+    "pos": "noun",
+    "senses": [
+      "承诺",
+      "已安排的事项"
+    ],
+    "collocations": [
+      "a prior commitment"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-a619d16682ae",
+    "word": "coordinate",
+    "pronunciation": "/kəʊˈɔːdɪneɪt/",
+    "meaning": "协调",
+    "example": "We use the calendar to coordinate meetings.",
+    "translation": "我们用日历协调会议安排。",
+    "tag": "B2 · verb",
+    "related": "coordinate meetings",
+    "pos": "verb",
+    "senses": [
+      "协调"
+    ],
+    "collocations": [
+      "coordinate meetings"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-77b4abb76142",
+    "word": "harvest",
+    "pronunciation": "/ˈhɑːvɪst/",
+    "meaning": "收成；收获",
+    "example": "The harvest was smaller despite longer hours of work.",
+    "translation": "尽管劳动时间更长，收成却更少。",
+    "tag": "B2 · noun",
+    "related": "the final harvest",
+    "pos": "noun",
+    "senses": [
+      "收成",
+      "收获"
+    ],
+    "collocations": [
+      "the final harvest"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-42907836d326",
+    "word": "crop",
+    "pronunciation": "/krɒp/",
+    "meaning": "庄稼；作物",
+    "example": "A crop may need a different position.",
+    "translation": "一种作物可能需要换个种植位置。",
+    "tag": "B2 · noun",
+    "related": "grow a crop",
+    "pos": "noun",
+    "senses": [
+      "庄稼",
+      "作物"
+    ],
+    "collocations": [
+      "grow a crop"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-4e5a8c201a72",
+    "word": "criticism",
+    "pronunciation": "/ˈkrɪtɪsɪzəm/",
+    "meaning": "批评",
+    "example": "I read the brief message as criticism.",
+    "translation": "我把那条简短消息理解成了批评。",
+    "tag": "B2 · noun",
+    "related": "respond to criticism",
+    "pos": "noun",
+    "senses": [
+      "批评"
+    ],
+    "collocations": [
+      "respond to criticism"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-45dedf04ee1d",
+    "word": "defensive",
+    "pronunciation": "/dɪˈfensɪv/",
+    "meaning": "防御性的；急于辩解的",
+    "example": "I deleted my defensive reply and asked a question.",
+    "translation": "我删掉了急于辩解的回复，转而提问。",
+    "tag": "B2 · adjective",
+    "related": "a defensive reply",
+    "pos": "adjective",
+    "senses": [
+      "防御性的",
+      "急于辩解的"
+    ],
+    "collocations": [
+      "a defensive reply"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-78a074064ecf",
+    "word": "permanent",
+    "pronunciation": "/ˈpɜːmənənt/",
+    "meaning": "永久的；长期不变的",
+    "example": "The trial was not a permanent change.",
+    "translation": "这次试行并不是永久性变更。",
+    "tag": "B2 · adjective",
+    "related": "a permanent change",
+    "pos": "adjective",
+    "senses": [
+      "永久的",
+      "长期不变的"
+    ],
+    "collocations": [
+      "a permanent change"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-e8261a2ca397",
+    "word": "withdraw",
+    "pronunciation": "/wɪðˈdrɔː/",
+    "meaning": "撤回；取消",
+    "example": "The owner may withdraw the offer after the trial.",
+    "translation": "试行后，店主可能撤回这项优惠。",
+    "tag": "B2 · verb",
+    "related": "withdraw an offer",
+    "pos": "verb",
+    "senses": [
+      "撤回",
+      "取消"
+    ],
+    "collocations": [
+      "withdraw an offer"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-a20a7986dae5",
+    "word": "participate",
+    "pronunciation": "/pɑːˈtɪsɪpeɪt/",
+    "meaning": "参与",
+    "example": "Customers could participate in the trial.",
+    "translation": "顾客可以参与这次试行。",
+    "tag": "B2 · verb",
+    "related": "participate in a trial",
+    "pos": "verb",
+    "senses": [
+      "参与"
+    ],
+    "collocations": [
+      "participate in a trial"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-c8d464ae3926",
+    "word": "roughly",
+    "pronunciation": "/ˈrʌfli/",
+    "meaning": "大约；大致",
+    "example": "The number of completed projects stayed roughly the same.",
+    "translation": "完成的项目数大致保持不变。",
+    "tag": "B2 · adverb",
+    "related": "roughly unchanged",
+    "pos": "adverb",
+    "senses": [
+      "大约",
+      "大致"
+    ],
+    "collocations": [
+      "roughly unchanged"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-f4bee56e5d29",
+    "word": "representative",
+    "pronunciation": "/ˌreprɪˈzentətɪv/",
+    "meaning": "有代表性的",
+    "example": "The small group was not representative of all employees.",
+    "translation": "这个小群体不能代表所有员工。",
+    "tag": "B2 · adjective",
+    "related": "a representative sample",
+    "pos": "adjective",
+    "senses": [
+      "有代表性的"
+    ],
+    "collocations": [
+      "a representative sample"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-ebd8c4165cd0",
+    "word": "wellbeing",
+    "pronunciation": "/ˌwelˈbiːɪŋ/",
+    "meaning": "身心健康；幸福感",
+    "example": "Working hours can affect staff wellbeing.",
+    "translation": "工作时间会影响员工的身心健康。",
+    "tag": "B2 · noun",
+    "related": "staff wellbeing",
+    "pos": "noun",
+    "senses": [
+      "身心健康",
+      "幸福感"
+    ],
+    "collocations": [
+      "staff wellbeing"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-d6d443c1181e",
+    "word": "interpretation",
+    "pronunciation": "/ɪnˌtɜːprɪˈteɪʃən/",
+    "meaning": "解释；理解方式",
+    "example": "My interpretation of the message was too negative.",
+    "translation": "我对那条消息的理解过于消极。",
+    "tag": "B2 · noun",
+    "related": "a different interpretation",
+    "pos": "noun",
+    "senses": [
+      "解释",
+      "理解方式"
+    ],
+    "collocations": [
+      "a different interpretation"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-18b7ee01afe3",
+    "word": "permission to",
+    "pronunciation": "/pəˈmɪʃən tə/",
+    "meaning": "获准做某事",
+    "example": "An empty calendar is not permission to book a meeting.",
+    "translation": "日历上的空白不意味着可以安排会议。",
+    "tag": "B2 · phrase",
+    "related": "permission to enter",
+    "pos": "phrase",
+    "senses": [
+      "获准做某事"
+    ],
+    "collocations": [
+      "permission to enter"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-eceaf07918f1",
+    "word": "on the strength of",
+    "pronunciation": "/ɒn ðə streŋθ əv/",
+    "meaning": "凭借；基于",
+    "example": "The council changed its policy on the strength of one report.",
+    "translation": "委员会仅凭一份报告就改变了政策。",
+    "tag": "B2 · phrase",
+    "related": "on the strength of evidence",
+    "pos": "phrase",
+    "senses": [
+      "凭借",
+      "基于"
+    ],
+    "collocations": [
+      "on the strength of evidence"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-c051b428d20f",
+    "word": "turn out",
+    "pronunciation": "/tɜːn aʊt/",
+    "meaning": "结果是；原来是",
+    "example": "The delay may turn out to be useful.",
+    "translation": "这次延误最终可能会有帮助。",
+    "tag": "B2 · phrase",
+    "related": "turn out to be",
+    "pos": "phrase",
+    "senses": [
+      "结果是",
+      "原来是"
+    ],
+    "collocations": [
+      "turn out to be"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  }
+]

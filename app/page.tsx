@@ -45,6 +45,7 @@ function App(){
  useEffect(()=>{const color=effectiveTheme==='dark'?'#14161A':'#F4F5F7';document.querySelectorAll<HTMLMetaElement>('meta[name="theme-color"]').forEach(meta=>{meta.content=color})},[effectiveTheme]);
  const [catalog,setCatalog]=useState<ContentEntry[]>([]);
  const [libraryEpoch,setLibraryEpoch]=useState(0);
+ useEffect(()=>{let frame=0;const update=()=>{frame=0;document.documentElement.dataset.headerScrolled=String(window.scrollY>12)};const scroll=()=>{if(!frame)frame=requestAnimationFrame(update)};update();window.addEventListener('scroll',scroll,{passive:true});return()=>{window.removeEventListener('scroll',scroll);cancelAnimationFrame(frame);delete document.documentElement.dataset.headerScrolled}},[]);
  useEffect(()=>{const back=()=>setLibraryEpoch(v=>v+1);window.addEventListener('popstate',back);return()=>window.removeEventListener('popstate',back)},[]);
 
  const onboardingShown=useRef(false);

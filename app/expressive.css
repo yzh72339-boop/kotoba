@@ -230,5 +230,26 @@ html[data-scene-transition=active] .expressive-experience :is(.library-grammar>s
 .expressive-experience .library-list .library-cover{width:72px;height:98px;flex-shrink:0;object-fit:cover;border-radius:10px}
 .expressive-experience .library-list>button>svg{flex-shrink:0}
 ::view-transition{pointer-events:none}
+
+/* 2.7: a browsable phone dictionary, with the selected word in a focused sheet. */
+.dictionary-result-count{font-size:13px;line-height:1.7;color:var(--secondary);margin:0 0 12px}
+.focus-next-course{margin-top:10px;color:#bcc7da;font-size:12px;line-height:1.7}
+html[data-header-scrolled=true] .expressive-experience .topbar{background:var(--card);box-shadow:0 3px 12px #1018280b}
+.expressive-experience .topbar{transition:background var(--motion-state) ease,box-shadow var(--motion-state) ease}
+.modal .word-detail{padding:0;border:0;box-shadow:none;background:transparent}
+.modal .word-detail h1{font-size:clamp(27px,8vw,38px);overflow-wrap:anywhere}
+.modal .word-learning-info{display:none}
+.modal .word-detail>section{margin-top:20px;padding-top:14px;border-top:1px solid var(--line)}
+.modal .word-detail>.btn{width:100%;margin-top:12px;min-height:48px}
+.modal .word-detail-pronunciation{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+@media(max-width:639px){
+ .expressive-experience .vocabulary-workspace{display:block}
+ .expressive-experience .vocabulary-index{display:block;width:100%;min-width:0;max-height:none;border:0;padding:0;overflow:visible}
+ .expressive-experience .vocabulary-index>button{display:grid;grid-template-columns:1fr auto;gap:4px 12px;width:100%;text-align:left;padding:16px 12px;border-radius:0;border-bottom:1px solid var(--line);min-height:72px}
+ .expressive-experience .vocabulary-index>button strong{font-size:18px;line-height:1.55;overflow-wrap:anywhere}
+ .expressive-experience .vocabulary-index>button>span{font-size:13px;line-height:1.7;text-align:right;max-width:150px;overflow-wrap:anywhere}
+ .expressive-experience .vocabulary-index>button small{grid-column:1/-1;font-size:14px;line-height:1.7;color:var(--secondary);white-space:normal}
+ .expressive-experience .dictionary-pager{display:flex;gap:8px;align-items:center;justify-content:space-between;margin:16px 0}
+}
 [lang=ja]{font-family:-apple-system,BlinkMacSystemFont,"Hiragino Sans","Hiragino Kaku Gothic ProN","Yu Gothic","Noto Sans JP",sans-serif}
 .reading-text [lang=zh-CN]{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans SC",sans-serif}

@@ -27,7 +27,12 @@
       "course-ja-n5-7",
       "course-ja-n5-9",
       "supp-ja-n5-10",
-      "supp-ja-n5-14"
+      "supp-ja-n5-14",
+      "lex-ja-n5-jikan",
+      "context-ja-n5-e7a1013567c7",
+      "context-ja-n5-61c4363ce176",
+      "context-ja-n5-10409d9c1d52",
+      "context-ja-n5-9f6466f3ba25"
     ],
     "grammar": [
       {
@@ -134,7 +139,16 @@
       "course-ja-n5-4",
       "course-ja-n5-8",
       "supp-ja-n5-1",
-      "supp-ja-n5-2"
+      "supp-ja-n5-2",
+      "supp-ja-n5-4",
+      "supp-ja-n5-10",
+      "supp-ja-n5-11",
+      "supp-ja-n5-13",
+      "lex-ja-n5-kuruma",
+      "complete-ja-n5-22df192e24",
+      "complete-ja-n5-991f96a8ce",
+      "context-ja-n5-3e3b44b2d12c",
+      "context-ja-n5-d758e6593cea"
     ],
     "grammar": [
       {
@@ -241,7 +255,12 @@
       "course-ja-n5-4",
       "course-ja-n5-6",
       "course-ja-n5-7",
-      "course-ja-n5-9"
+      "course-ja-n5-9",
+      "course-ja-n5-12",
+      "supp-ja-n5-1",
+      "supp-ja-n5-14",
+      "context-ja-n5-cd3d6a6a50a7",
+      "context-ja-n5-81a5dcbd0f61"
     ],
     "grammar": [
       {
@@ -348,7 +367,15 @@
       "course-ja-n5-4",
       "course-ja-n5-5",
       "course-ja-n5-7",
-      "course-ja-n5-8"
+      "course-ja-n5-8",
+      "course-ja-n5-9",
+      "supp-ja-n5-1",
+      "supp-ja-n5-4",
+      "supp-ja-n5-10",
+      "context-ja-n5-c0c06d072788",
+      "context-ja-n5-a1b31685cfd3",
+      "context-ja-n5-10409d9c1d52",
+      "context-ja-n5-dc43cfece374"
     ],
     "grammar": [
       {

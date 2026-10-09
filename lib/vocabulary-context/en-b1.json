@@ -1,0 +1,473 @@
+[
+  {
+    "id": "context-en-b1-81985271129f",
+    "word": "resident",
+    "pronunciation": "/ˈrezɪdənt/",
+    "meaning": "居民",
+    "example": "A resident brought a lamp to the repair table.",
+    "translation": "一位居民把一盏灯带到了维修桌。",
+    "tag": "B1 · noun",
+    "related": "local residents",
+    "pos": "noun",
+    "senses": [
+      "居民"
+    ],
+    "collocations": [
+      "local residents"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-20097e1d5bf9",
+    "word": "volunteer",
+    "pronunciation": "/ˌvɒlənˈtɪə/",
+    "meaning": "志愿者",
+    "example": "A volunteer helped me check the lamp.",
+    "translation": "一位志愿者帮我检查了台灯。",
+    "tag": "B1 · noun",
+    "related": "a local volunteer",
+    "pos": "noun",
+    "senses": [
+      "志愿者"
+    ],
+    "collocations": [
+      "a local volunteer"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-91f365fef75e",
+    "word": "expert",
+    "pronunciation": "/ˈekspɜːt/",
+    "meaning": "专家",
+    "example": "I expected an expert to repair it for me.",
+    "translation": "我原以为专家会替我修好它。",
+    "tag": "B1 · noun",
+    "related": "ask an expert",
+    "pos": "noun",
+    "senses": [
+      "专家"
+    ],
+    "collocations": [
+      "ask an expert"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-a632d5994dcf",
+    "word": "collect",
+    "pronunciation": "/kəˈlekt/",
+    "meaning": "收集；领取",
+    "example": "I returned to collect my lamp.",
+    "translation": "我回来领取我的台灯。",
+    "tag": "B1 · verb",
+    "related": "collect an item",
+    "pos": "verb",
+    "senses": [
+      "收集",
+      "领取"
+    ],
+    "collocations": [
+      "collect an item"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-e40e35df4804",
+    "word": "expect",
+    "pronunciation": "/ɪkˈspekt/",
+    "meaning": "预期；期待",
+    "example": "I expect the course to take two weeks.",
+    "translation": "我预计这门课要花两周。",
+    "tag": "B1 · verb",
+    "related": "expect a result",
+    "pos": "verb",
+    "senses": [
+      "预期",
+      "期待"
+    ],
+    "collocations": [
+      "expect a result"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-2f20fc3ce04a",
+    "word": "familiar",
+    "pronunciation": "/fəˈmɪliə/",
+    "meaning": "熟悉的",
+    "example": "The words looked familiar, but I could not recall them.",
+    "translation": "这些词看着熟悉，但我想不起来。",
+    "tag": "B1 · adjective",
+    "related": "familiar words",
+    "pos": "adjective",
+    "senses": [
+      "熟悉的"
+    ],
+    "collocations": [
+      "familiar words"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-fcdfdbb48123",
+    "word": "recall",
+    "pronunciation": "/rɪˈkɔːl/",
+    "meaning": "回想；回忆",
+    "example": "I can recall the meaning without looking.",
+    "translation": "不用看，我就能回想起意思。",
+    "tag": "B1 · verb",
+    "related": "recall a detail",
+    "pos": "verb",
+    "senses": [
+      "回想",
+      "回忆"
+    ],
+    "collocations": [
+      "recall a detail"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-3855bdba7509",
+    "word": "exact",
+    "pronunciation": "/ɪɡˈzækt/",
+    "meaning": "准确的；确切的",
+    "example": "I could not remember the exact time.",
+    "translation": "我记不起确切时间。",
+    "tag": "B1 · adjective",
+    "related": "the exact meaning",
+    "pos": "adjective",
+    "senses": [
+      "准确的",
+      "确切的"
+    ],
+    "collocations": [
+      "the exact meaning"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-e47f37f3ad9b",
+    "word": "booking",
+    "pronunciation": "/ˈbʊkɪŋ/",
+    "meaning": "预订",
+    "example": "The booking system showed only one free desk.",
+    "translation": "预订系统显示只有一张空桌。",
+    "tag": "B1 · noun",
+    "related": "a booking system",
+    "pos": "noun",
+    "senses": [
+      "预订"
+    ],
+    "collocations": [
+      "a booking system"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-33e0248e0f9e",
+    "word": "printer",
+    "pronunciation": "/ˈprɪntə/",
+    "meaning": "打印机",
+    "example": "The desk beside the printer was noisy.",
+    "translation": "打印机旁边的桌位很吵。",
+    "tag": "B1 · noun",
+    "related": "use a printer",
+    "pos": "noun",
+    "senses": [
+      "打印机"
+    ],
+    "collocations": [
+      "use a printer"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-7c046786c526",
+    "word": "default",
+    "pronunciation": "/dɪˈfɔːlt/",
+    "meaning": "默认选项；默认的",
+    "example": "The manager changed the default choice.",
+    "translation": "经理更改了默认选项。",
+    "tag": "B1 · noun",
+    "related": "the default choice",
+    "pos": "noun",
+    "senses": [
+      "默认选项",
+      "默认的"
+    ],
+    "collocations": [
+      "the default choice"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-378a19ea5ad3",
+    "word": "route",
+    "pronunciation": "/ruːt/",
+    "meaning": "路线",
+    "example": "We found a shorter route to the station.",
+    "translation": "我们找到了一条到车站更短的路线。",
+    "tag": "B1 · noun",
+    "related": "choose a route",
+    "pos": "noun",
+    "senses": [
+      "路线"
+    ],
+    "collocations": [
+      "choose a route"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-d91e8156e660",
+    "word": "heavy",
+    "pronunciation": "/ˈhevi/",
+    "meaning": "重的；沉重的",
+    "example": "I was carrying a heavy bag.",
+    "translation": "我背着一个很重的包。",
+    "tag": "B1 · adjective",
+    "related": "a heavy bag",
+    "pos": "adjective",
+    "senses": [
+      "重的",
+      "沉重的"
+    ],
+    "collocations": [
+      "a heavy bag"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-138677a131e1",
+    "word": "instead",
+    "pronunciation": "/ɪnˈsted/",
+    "meaning": "反而；代替",
+    "example": "I took the bus instead.",
+    "translation": "我改坐了公共汽车。",
+    "tag": "B1 · adverb",
+    "related": "walk instead",
+    "pos": "adverb",
+    "senses": [
+      "反而",
+      "代替"
+    ],
+    "collocations": [
+      "walk instead"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-e393876fd7c1",
+    "word": "waste",
+    "pronunciation": "/weɪst/",
+    "meaning": "浪费",
+    "example": "Repeating the lesson is not a waste of time.",
+    "translation": "重复学这一课并非浪费时间。",
+    "tag": "B1 · noun",
+    "related": "a waste of time",
+    "pos": "noun",
+    "senses": [
+      "浪费"
+    ],
+    "collocations": [
+      "a waste of time"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-9be9bedcd048",
+    "word": "neighbourhood",
+    "pronunciation": "/ˈneɪbəhʊd/",
+    "meaning": "街区；邻里",
+    "example": "Our neighbourhood holds a monthly repair event.",
+    "translation": "我们街区每月举办一次维修活动。",
+    "tag": "B1 · noun",
+    "related": "in the neighbourhood",
+    "pos": "noun",
+    "senses": [
+      "街区",
+      "邻里"
+    ],
+    "collocations": [
+      "in the neighbourhood"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-3865cc97fbf8",
+    "word": "introduce",
+    "pronunciation": "/ˌɪntrəˈdjuːs/",
+    "meaning": "介绍；引入",
+    "example": "Our office will introduce a new booking system.",
+    "translation": "我们办公室将引入新的预订系统。",
+    "tag": "B1 · verb",
+    "related": "introduce a system",
+    "pos": "verb",
+    "senses": [
+      "介绍",
+      "引入"
+    ],
+    "collocations": [
+      "introduce a system"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-1aafc8764abe",
+    "word": "noticeable",
+    "pronunciation": "/ˈnəʊtɪsəbəl/",
+    "meaning": "明显的；可察觉的",
+    "example": "There was a noticeable change in the noise level.",
+    "translation": "噪声水平出现了明显变化。",
+    "tag": "B1 · adjective",
+    "related": "a noticeable change",
+    "pos": "adjective",
+    "senses": [
+      "明显的",
+      "可察觉的"
+    ],
+    "collocations": [
+      "a noticeable change"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-465add195399",
+    "word": "permission",
+    "pronunciation": "/pəˈmɪʃən/",
+    "meaning": "许可",
+    "example": "Ask for permission before moving the desk.",
+    "translation": "挪动桌子前要先征得许可。",
+    "tag": "B1 · noun",
+    "related": "ask for permission",
+    "pos": "noun",
+    "senses": [
+      "许可"
+    ],
+    "collocations": [
+      "ask for permission"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-40d9d526ce27",
+    "word": "review",
+    "pronunciation": "/rɪˈvjuː/",
+    "meaning": "复习；审查",
+    "example": "A short review helped me recall the words.",
+    "translation": "一次简短复习帮助我回忆起这些词。",
+    "tag": "B1 · verb",
+    "related": "review a lesson",
+    "pos": "verb",
+    "senses": [
+      "复习",
+      "审查"
+    ],
+    "collocations": [
+      "review a lesson"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  }
+]

@@ -29,7 +29,20 @@
       "course-en-a1-4",
       "supp-en-a1-5",
       "supp-en-a1-9",
-      "supp-en-a1-11"
+      "supp-en-a1-11",
+      "course-en-a2-2",
+      "course-en-a2-3",
+      "course-en-a2-11",
+      "supp-en-a2-7",
+      "lex-en-a2-plan",
+      "lex-en-a2-ready",
+      "lex-en-a2-problem",
+      "context-en-a2-18b0146f89bd",
+      "context-en-a2-c1a40fd33b1f",
+      "context-en-a2-0bc00c5c4875",
+      "context-en-a2-7ee589231406",
+      "context-en-a2-0adf28081e9e",
+      "context-en-a2-b534bce614c1"
     ],
     "grammar": [
       {
@@ -144,7 +157,12 @@
       "course-en-a1-7",
       "course-en-a1-12",
       "supp-en-a1-9",
-      "complete-en-a1-day"
+      "complete-en-a1-day",
+      "course-en-a2-4",
+      "lex-en-a2-problem",
+      "complete-en-a2-start",
+      "context-en-a2-6244a0cdf6d4",
+      "context-en-a2-de0bf51602dc"
     ],
     "grammar": [
       {
@@ -261,7 +279,12 @@
       "supp-en-a1-8",
       "complete-en-a1-room",
       "complete-en-a1-want",
-      "lex-en-a2-learn"
+      "lex-en-a2-learn",
+      "context-en-a2-7dd77c696675",
+      "context-en-a2-b5596e43e9d5",
+      "context-en-a2-28b29574e693",
+      "context-en-a2-3392d281d1a2",
+      "context-en-a2-1d7d727c4b54"
     ],
     "grammar": [
       {
@@ -370,7 +393,14 @@
       "supp-en-a1-13",
       "lex-en-a1-person",
       "complete-en-a1-day",
-      "complete-en-a1-help"
+      "complete-en-a1-help",
+      "supp-en-a2-6",
+      "supp-en-a2-13",
+      "lex-en-a2-problem",
+      "context-en-a2-7dd77c696675",
+      "context-en-a2-899af0678ed4",
+      "context-en-a2-c9d18f62dc31",
+      "context-en-a2-6162ff073e3e"
     ],
     "grammar": [
       {

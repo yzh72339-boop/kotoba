@@ -1,3 +1,15 @@
+# V2.7 — current source checkpoint (2026-10-09)
+
+Package 2.7.0; branch feature/kotoba-2-7. Silver/graphite/blue is the only current visual system. **887 vocabulary cards (+220), 150 grammar, 62 readings (+2)**. Every supported grade meets the phase minimum. Full curriculum still lacks 1,638 documents; vocabulary is not exhaustive.
+
+178 Node tests, TypeScript, zero-warning ESLint and production build pass; content/vocabulary audit errors and content length warnings are zero. Full Chromium phone matrix and core/offline fixture workflow pass; final release evidence is recorded in the delivery. Real Supabase read-only connectivity/anonymous denial were rechecked. Production owner CRUD/RLS, second-device, installed PWA and physical mobile tests remain unverified.
+
+No migrations 001–011, Auth/RLS, SRS semantics or sync protocol changes. New lexical content is additive and all original 667 payloads/IDs are hash-guarded. See [2.7 checkpoint](KOTOBA-2.7-CHECKPOINT.md), [changelog](../CHANGELOG.md) and [word counts](../VOCABULARY-AUDIT.md).
+
+The following 2.6 and earlier checkpoints are historical, superseded by this section.
+
+---
+
 # Latest UI acceptance — 2026-10-09
 
 This section supersedes historical UI/test counts below. Package remains 2.6.0.

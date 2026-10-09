@@ -33,7 +33,10 @@
       "course-ja-n5-9",
       "supp-ja-n5-2",
       "supp-ja-n5-8",
-      "lex-ja-n5-jikan"
+      "lex-ja-n5-jikan",
+      "context-ja-n1-567602d5cbf9",
+      "context-ja-n1-574b77870c91",
+      "context-ja-n1-d776036b8214"
     ],
     "grammar": [
       {
@@ -154,7 +157,9 @@
       "supp-ja-n5-2",
       "supp-ja-n5-11",
       "supp-ja-n5-12",
-      "lex-ja-n5-jikan"
+      "lex-ja-n5-jikan",
+      "supp-ja-n1-10",
+      "context-ja-n1-66d4afa02dd0"
     ],
     "grammar": [
       {
@@ -271,7 +276,9 @@
       "lex-ja-n5-shigoto",
       "lex-ja-n5-yomu",
       "lex-ja-n5-kaku",
-      "complete-ja-n5-4912771a42"
+      "complete-ja-n5-4912771a42",
+      "context-ja-n1-d8513ee129ba",
+      "context-ja-n1-12ffaa228a33"
     ],
     "grammar": [
       {

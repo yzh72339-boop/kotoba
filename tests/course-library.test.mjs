@@ -98,7 +98,7 @@ test('N2 practical vocabulary is available to learning without replacing old car
  const pack=coursePack('ja','N2');
  const added=pack.words.filter(word=>word.sourceRef==='N2 practical expansion');
  assert.equal(added.length,100);
- assert.equal(new Set(pack.words.map(word=>word.word.normalize('NFC').toLowerCase())).size,150);
+ assert.equal(new Set(pack.words.map(word=>word.word.normalize('NFC').toLowerCase())).size,170);
  assert.equal(pack.words[0].id,'course-ja-n2-1');
  assert.equal(pack.words[0].word,'課題');
  for(const word of added){

@@ -1,5 +1,5 @@
 /* Build rewrites this version and app asset list. Private API responses are never cached. */
-const VERSION='kotoba-2.6.0-dev';
+const VERSION='kotoba-2.7.0-dev';
 const SHELL=VERSION+'-shell',CONTENT=VERSION+'-content',DOWNLOADS='kotoba-personal-downloads';
 const PRECACHE=['/','/manifest.webmanifest','/icons/icon-192.png','/icons/icon-512.png','/icons/maskable-512.png','/cafe-editorial.svg','/images/reading-japan.jpg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(SHELL).then(cache=>cache.addAll(PRECACHE))));

@@ -27,7 +27,11 @@
   "vocabulary": [
     "lex-ja-n5-shigoto",
     "lex-ja-n5-jikan",
-    "complete-ja-n4-a709b05c38"
+    "complete-ja-n4-a709b05c38",
+    "ja-hitsuyou",
+    "ja-yotei",
+    "context-ja-n3-1e0590afa955",
+    "context-ja-n3-aaf0f54bae67"
   ],
   "grammar": [
     {

@@ -29,7 +29,12 @@
       "course-ja-n5-7",
       "supp-ja-n5-1",
       "supp-ja-n5-13",
-      "lex-ja-n5-kaeru"
+      "lex-ja-n5-kaeru",
+      "course-ja-n4-6",
+      "supp-ja-n4-5",
+      "context-ja-n4-a4f4230150c9",
+      "context-ja-n4-f4545c27fd7e",
+      "context-ja-n4-4a66a59563e6"
     ],
     "grammar": [
       {
@@ -142,7 +147,12 @@
       "course-ja-n5-11",
       "supp-ja-n5-1",
       "supp-ja-n5-12",
-      "complete-ja-n5-b72d6f67e8"
+      "complete-ja-n5-b72d6f67e8",
+      "course-ja-n4-8",
+      "complete-ja-n4-f9b670ca44",
+      "context-ja-n4-ccac6705a441",
+      "context-ja-n4-5ab3495ab33e",
+      "context-ja-n4-76e8a3d591fe"
     ],
     "grammar": [
       {
@@ -259,7 +269,13 @@
       "supp-ja-n5-10",
       "supp-ja-n5-11",
       "supp-ja-n5-14",
-      "lex-ja-n5-jikan"
+      "lex-ja-n5-jikan",
+      "course-ja-n4-6",
+      "complete-ja-n4-5dcc8d49b6",
+      "context-ja-n4-0c347f41b357",
+      "context-ja-n4-aa712d09fade",
+      "context-ja-n4-bf7d33cb13c0",
+      "context-ja-n4-b79e21c15fdf"
     ],
     "grammar": [
       {
@@ -368,7 +384,13 @@
       "course-ja-n5-4",
       "supp-ja-n5-2",
       "supp-ja-n5-4",
-      "supp-ja-n5-5"
+      "supp-ja-n5-5",
+      "course-ja-n4-12",
+      "complete-ja-n4-7177787c6e",
+      "complete-ja-n4-fb69b1ae94",
+      "context-ja-n4-6db7b2668222",
+      "context-ja-n4-18ea607f0b66",
+      "context-ja-n4-babcbd209cc5"
     ],
     "grammar": [
       {

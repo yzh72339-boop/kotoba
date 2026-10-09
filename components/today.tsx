@@ -14,7 +14,7 @@ import {latestReading,learningStatistics} from '@/lib/learning-statistics';
 import {sessionCourse,lastCourse,courseInProgress} from '@/lib/content-library/session-course';
 import {DailyFocus} from './daily-focus';
 import {DailyPlanPreview} from './daily-plan-preview';
-import {scopedSession,scopedSessionProgress} from '@/lib/content-library/daily-course-plan';
+import {coursePlan,storedCoursePlan,scopedSession,scopedSessionProgress} from '@/lib/content-library/daily-course-plan';
 import {LearningSaveStatus} from './learning-save-status';
 import {fetchCatalog} from '@/lib/content-library/client';
 import type {ContentEntry} from '@/lib/content-library/schema';
@@ -33,7 +33,7 @@ export function Learn(){
  const progress=scopedSessionProgress(state),scoped=progress.session;const inProgress=Boolean(scoped&&!scoped.done);
  const entries=catalog?.filter(e=>e.language===state.profile.language&&e.level===state.profile.level);
  const grammarEntries=entries?.filter(e=>e.kind==='grammar'),readingEntries=entries?.filter(e=>e.kind==='reading');
- const due=reviewOverview(state).ready,continuedReading=latestReading(state);
+ const due=reviewOverview(state).due,continuedReading=latestReading(state);
  const last=lastCourse(state);const resumed=catalog?.find(e=>e.id===last?.id&&courseInProgress(state,e));const nextGrammar=resumed?.kind==='grammar'?resumed:catalog?sessionCourse(state,'grammar',catalog):undefined;
  const stepNames={Review:'复习',Grammar:'语法',Reading:'阅读',Speaking:'口语'};
  const completed=progress.completed;
@@ -69,7 +69,7 @@ export function Learn(){
 
 function MobileToday({onSetup,catalog}:{onSetup:()=>void;catalog:ContentEntry[]}){
  const {state,navigate}=useStudy();const ja=state.profile.language==='ja';const due=reviewOverview(state).due;
- const stats=learningStatistics(state,'day'),reading=latestReading(state),nextReading=sessionCourse(state,'reading',catalog),grammar=sessionCourse(state,'grammar',catalog);
+ const stats=learningStatistics(state,'day'),reading=latestReading(state),plan=storedCoursePlan(state,scopedSession(state))??(catalog.length?coursePlan(state,catalog):null),nextReading=catalog.find(e=>e.id===plan?.reading.id)??sessionCourse(state,'reading',catalog),grammar=sessionCourse(state,'grammar',catalog);const readingLevel=catalog.find(e=>e.id===reading?.id)?.level??nextReading?.level;
  const days=weekDays(Date.now(),state.profile.timezone);
  const date=new Intl.DateTimeFormat('zh-CN',{timeZone:validTimeZone(state.profile.timezone),month:'long',day:'numeric',weekday:'short'}).format(Date.now());
  return <div className="mobile-today">
@@ -78,7 +78,7 @@ function MobileToday({onSetup,catalog}:{onSetup:()=>void;catalog:ContentEntry[]}
   <DailyFocus catalog={catalog}><FocusProgress/></DailyFocus>
   <div className="today-quick-stats"><button onClick={()=>navigate('Review')}><Repeat2 size={19}/><span><strong>{due}</strong><small>待复习</small></span><ArrowRight size={16}/></button><button onClick={()=>navigate('Vocabulary')}><Layers size={19}/><span><strong>{stats.newWords}</strong><small>今日已学新词</small></span><ArrowRight size={16}/></button></div>
   <LearningSaveStatus/>
-  {(reading||nextReading)&&<section className="mobile-next"><SectionHeading title={reading?'继续阅读':'关联阅读'} aside={<button className="text-link" onClick={()=>navigate('Reading')}>查看全部 <ArrowRight size={14}/></button>}/><button className="linked-reading-row" onClick={()=>navigate('Reading',{content:reading?.id??nextReading?.id,legacy:reading?.legacy})}><span className="reading-cover-mini" aria-hidden="true">{ja?<Image src="/images/reading-japan.jpg" width={124} height={120} alt="" unoptimized/>:<BookOpen size={24}/>}</span><span><strong>{reading?.title??nextReading?.title}</strong><small>{state.profile.level} · {reading?`已读 ${Math.round(reading.progress)}%`:`约 ${nextReading?.minutes} 分钟`}</small></span><ArrowRight size={18}/></button></section>}
+  {(reading||nextReading)&&<section className="mobile-next"><SectionHeading title={reading?'继续阅读':'关联阅读'} aside={<button className="text-link" onClick={()=>navigate('Reading')}>查看全部 <ArrowRight size={14}/></button>}/><button className="linked-reading-row" onClick={()=>navigate('Reading',{content:reading?.id??nextReading?.id,legacy:reading?.legacy})}><span className="reading-cover-mini" aria-hidden="true">{ja?<Image src="/images/reading-japan.jpg" width={124} height={120} alt="" unoptimized/>:<BookOpen size={24}/>}</span><span><strong>{reading?.title??nextReading?.title}</strong><small>{readingLevel??'阅读'} · {reading?`已读 ${Math.round(reading.progress)}%`:`约 ${nextReading?.minutes} 分钟`}</small></span><ArrowRight size={18}/></button></section>}
   <section className="mobile-next"><SectionHeading title="按内容学习" aside={<span className="subtle">{state.profile.level}</span>}/>{[{name:'语法',detail:grammar?.title??'查看当前等级资料',icon:Type,page:'Grammar' as const,content:grammar?.id},{name:'听力',detail:'听读与跟读',icon:Headphones,page:'Listening' as const,content:undefined}].map(n=><button key={n.name} onClick={()=>navigate(n.page,n.content?{content:n.content}:undefined)}><span className="plan-icon"><n.icon size={19}/></span><div><strong>{n.name}</strong><small>{n.detail}</small></div><ArrowRight size={17}/></button>)}</section>
   <DailyPlanPreview catalog={catalog}/>
   <section className="mobile-week"><SectionHeading title="本周学习"/><div className="week-dots">{days.map((day,i)=><div key={day}><span className={state.sessions.some(s=>sessionDay(s,state.profile.timezone)===day)?'filled':''}/><small>{['一','二','三','四','五','六','日'][i]}</small></div>)}</div></section>

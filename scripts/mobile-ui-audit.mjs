@@ -4,6 +4,7 @@ import {createRequire} from 'node:module';
 const {chromium}=createRequire(import.meta.url)('playwright');
 import {mkdir,writeFile,readFile,copyFile} from 'node:fs/promises';
 import {initialState} from '../lib/store.ts';
+import {schedule} from '../lib/srs.ts';
 const output=process.env.UI_AUDIT_DIR??'/workspace/deliverables/kotoba-silver-ui';
 const origin=process.env.APP_URL??'http://127.0.0.1:4174';
 const before=process.env.BEFORE_APP_URL;
@@ -21,6 +22,7 @@ async function setup(width,{dark=false,motion='no-preference',video=false,worker
  let snapshot=structuredClone(initialState),revision=0;
  snapshot.profile={...snapshot.profile,name:'Learner',level:'N2',onboarded:true,timezone:'Asia/Tokyo'};snapshot.languageProfiles.ja.level='N2';snapshot.theme=dark?'dark':'light';
  snapshot.notes['app-theme-preference']=dark?'dark':'light';
+ snapshot.reviews['course-ja-n2-1']=schedule(undefined,'course-ja-n2-1','Good',Date.now()-3*86400000);
  const stamp=Date.now();for(const key of ['profile/name','profile/level','profile/onboarded','profile/timezone','theme','languageProfiles/ja'])snapshot._clock[key]=stamp;
  await context.route(`https://${backendHost}/**`,async route=>{
   const url=new URL(route.request().url()),path=url.pathname;let data;
@@ -60,6 +62,12 @@ try{
  const {context,page}=await setup(390,{video:true});failurePage=page;
  await page.goto(origin);await ready(page);await capture(page,'after-home-390');
  await page.getByRole('button',{name:'开始学习',exact:true}).click();
+ await page.locator('.reveal-btn').click();
+ await page.locator('.rating-buttons button').nth(2).evaluate(button=>{button.click();button.click()});
+ await page.waitForTimeout(350);
+ const ratings=await page.evaluate(async()=>{const db=await new Promise(r=>{const q=indexedDB.open('kotoba-personal');q.onsuccess=()=>r(q.result)});const state=await new Promise(r=>{const q=db.transaction('state').objectStore('state').get('learning');q.onsuccess=()=>r(q.result)});db.close();return state.reviewHistory.filter(r=>r.cardId==='course-ja-n2-1').length});
+ if(ratings!==1)throw new Error(`Repeated review produced ${ratings} events`);
+ report.checks.push('one actual due-card rating updates history exactly once despite rapid repeated click');
  await page.getByRole('button',{name:'继续 · 理解新语法',exact:true}).waitFor({state:'visible'});
  await page.getByRole('button',{name:'继续 · 理解新语法',exact:true}).click();
  await page.locator('.library-grammar').waitFor();await page.waitForTimeout(650);await capture(page,'after-grammar-390');
@@ -102,6 +110,24 @@ try{
  await page.evaluate(()=>{const buttons=document.querySelectorAll('.bottom-nav button');buttons[1].click();buttons[2].click();buttons[0].click()});await page.waitForTimeout(700);await page.locator('.mobile-today').waitFor();if(new URL(page.url()).hash!=='#Today')throw new Error('rapid navigation ended on stale route');report.checks.push('rapid three-way navigation retains latest route and completed state');
  await page.goBack();await page.waitForTimeout(650);await page.locator('.library-workspace').waitFor();report.checks.push('browser Back restores the prior library route');
  await context.close();await copyFile(await page.video().path(),`${output}/mobile-learning-flow.webm`);
+ const dictionary=await setup(390);failurePage=dictionary.page;
+ await dictionary.page.goto(`${origin}/#Vocabulary`);await ready(dictionary.page);
+ await dictionary.page.getByRole('textbox',{name:'搜索私人词典'}).fill('電源');
+ await dictionary.page.locator('.vocabulary-index>button').first().click();
+ const wordPanel=dictionary.page.getByRole('dialog');await wordPanel.waitFor();
+ await wordPanel.getByRole('button',{name:'Add to learning',exact:true}).click();
+ await capture(dictionary.page,'after-vocabulary-sheet-390');
+ await dictionary.page.getByRole('button',{name:'关闭',exact:true}).click();await dictionary.page.reload();await ready(dictionary.page);
+ await dictionary.page.getByRole('textbox',{name:'搜索私人词典'}).fill('電源');await dictionary.page.locator('.vocabulary-index>button').first().click();
+ await dictionary.page.getByRole('dialog').getByRole('button',{name:'In your learning library',exact:true}).waitFor();
+ await dictionary.page.getByRole('button',{name:'关闭',exact:true}).click();
+ await dictionary.page.getByRole('button',{name:'更多功能',exact:true}).click();await dictionary.page.getByRole('dialog').getByRole('button',{name:'English',exact:true}).click();
+ await dictionary.page.waitForTimeout(700);
+ if(await dictionary.page.getByRole('textbox',{name:'搜索私人词典'}).inputValue()!=='')throw new Error('Language switch retained Japanese dictionary search');
+ await dictionary.page.getByRole('textbox',{name:'搜索私人词典'}).fill('recall');await dictionary.page.locator('.vocabulary-index>button').first().click();
+ await dictionary.page.getByRole('dialog').waitFor();await capture(dictionary.page,'after-english-vocabulary-sheet-390');
+ report.checks.push('new vocabulary mobile sheet → add → reload preserves stable learning card; language switch clears stale dictionary search');
+ await dictionary.context.close();
  for(const dark of [true,false]){
   const {context,page}=await setup(390,{dark,motion:dark?'no-preference':'reduce'});await page.goto(origin);await ready(page);await capture(page,dark?'after-home-dark-390':'after-home-reduced-motion-390');await context.close();
  }

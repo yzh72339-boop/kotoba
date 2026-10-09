@@ -1,0 +1,465 @@
+[
+  {
+    "id": "context-en-a1-e105abda26c7",
+    "word": "chair",
+    "pronunciation": "/tʃeə/",
+    "meaning": "椅子",
+    "example": "There is a chair next to the table.",
+    "translation": "桌子旁边有一把椅子。",
+    "tag": "A1 · noun",
+    "related": "sit on a chair",
+    "pos": "noun",
+    "senses": [
+      "椅子"
+    ],
+    "collocations": [
+      "sit on a chair"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-ef39f94cffe7",
+    "word": "outside",
+    "pronunciation": "/ˌaʊtˈsaɪd/",
+    "meaning": "在外面",
+    "example": "Our table is outside.",
+    "translation": "我们的桌子在外面。",
+    "tag": "A1 · adverb",
+    "related": "wait outside",
+    "pos": "adverb",
+    "senses": [
+      "在外面"
+    ],
+    "collocations": [
+      "wait outside"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-94be113ebcdc",
+    "word": "people",
+    "pronunciation": "/ˈpiːpəl/",
+    "meaning": "人们",
+    "example": "There are three people at the bus stop.",
+    "translation": "公交站有三个人。",
+    "tag": "A1 · noun",
+    "related": "many people",
+    "pos": "noun",
+    "senses": [
+      "人们"
+    ],
+    "collocations": [
+      "many people"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-34c970a96210",
+    "word": "coat",
+    "pronunciation": "/kəʊt/",
+    "meaning": "外套",
+    "example": "I have a red coat.",
+    "translation": "我有一件红色外套。",
+    "tag": "A1 · noun",
+    "related": "wear a coat",
+    "pos": "noun",
+    "senses": [
+      "外套"
+    ],
+    "collocations": [
+      "wear a coat"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-6cd8ef2c5947",
+    "word": "umbrella",
+    "pronunciation": "/ʌmˈbrelə/",
+    "meaning": "伞",
+    "example": "Take the blue umbrella.",
+    "translation": "拿那把蓝色的伞。",
+    "tag": "A1 · noun",
+    "related": "an umbrella",
+    "pos": "noun",
+    "senses": [
+      "伞"
+    ],
+    "collocations": [
+      "an umbrella"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-9125290ec277",
+    "word": "blue",
+    "pronunciation": "/bluː/",
+    "meaning": "蓝色的",
+    "example": "My bag is blue.",
+    "translation": "我的包是蓝色的。",
+    "tag": "A1 · adjective",
+    "related": "a blue bag",
+    "pos": "adjective",
+    "senses": [
+      "蓝色的"
+    ],
+    "collocations": [
+      "a blue bag"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-c9f12e7078e2",
+    "word": "red",
+    "pronunciation": "/red/",
+    "meaning": "红色的",
+    "example": "This is a red umbrella.",
+    "translation": "这是一把红色的伞。",
+    "tag": "A1 · adjective",
+    "related": "a red coat",
+    "pos": "adjective",
+    "senses": [
+      "红色的"
+    ],
+    "collocations": [
+      "a red coat"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-77fe8a9eea5b",
+    "word": "bus",
+    "pronunciation": "/bʌs/",
+    "meaning": "公共汽车",
+    "example": "We wait for the bus.",
+    "translation": "我们等公共汽车。",
+    "tag": "A1 · noun",
+    "related": "take the bus",
+    "pos": "noun",
+    "senses": [
+      "公共汽车"
+    ],
+    "collocations": [
+      "take the bus"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-3056e7306e90",
+    "word": "classroom",
+    "pronunciation": "/ˈklɑːsruːm/",
+    "meaning": "教室",
+    "example": "Our classroom has a big table.",
+    "translation": "我们的教室有一张大桌子。",
+    "tag": "A1 · noun",
+    "related": "in the classroom",
+    "pos": "noun",
+    "senses": [
+      "教室"
+    ],
+    "collocations": [
+      "in the classroom"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-c724b849bea2",
+    "word": "door",
+    "pronunciation": "/dɔː/",
+    "meaning": "门",
+    "example": "The table is near the door.",
+    "translation": "桌子在门旁边。",
+    "tag": "A1 · noun",
+    "related": "open the door",
+    "pos": "noun",
+    "senses": [
+      "门"
+    ],
+    "collocations": [
+      "open the door"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-c3295bb40ff3",
+    "word": "bag",
+    "pronunciation": "/bæɡ/",
+    "meaning": "包",
+    "example": "This is not my bag.",
+    "translation": "这不是我的包。",
+    "tag": "A1 · noun",
+    "related": "a school bag",
+    "pos": "noun",
+    "senses": [
+      "包"
+    ],
+    "collocations": [
+      "a school bag"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-5cad89f88017",
+    "word": "bottle",
+    "pronunciation": "/ˈbɒtəl/",
+    "meaning": "瓶子",
+    "example": "Put the bottle on the table.",
+    "translation": "把瓶子放在桌上。",
+    "tag": "A1 · noun",
+    "related": "a water bottle",
+    "pos": "noun",
+    "senses": [
+      "瓶子"
+    ],
+    "collocations": [
+      "a water bottle"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-bf928ee29adf",
+    "word": "black",
+    "pronunciation": "/blæk/",
+    "meaning": "黑色的",
+    "example": "The two bags are black.",
+    "translation": "这两个包是黑色的。",
+    "tag": "A1 · adjective",
+    "related": "a black bag",
+    "pos": "adjective",
+    "senses": [
+      "黑色的"
+    ],
+    "collocations": [
+      "a black bag"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-8597f16f7574",
+    "word": "inside",
+    "pronunciation": "/ˌɪnˈsaɪd/",
+    "meaning": "在里面",
+    "example": "My book is inside the bag.",
+    "translation": "我的书在包里。",
+    "tag": "A1 · adverb",
+    "related": "look inside",
+    "pos": "adverb",
+    "senses": [
+      "在里面"
+    ],
+    "collocations": [
+      "look inside"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-d1b107c334b2",
+    "word": "town",
+    "pronunciation": "/taʊn/",
+    "meaning": "城镇",
+    "example": "My family lives in another town.",
+    "translation": "我的家人住在另一个镇上。",
+    "tag": "A1 · noun",
+    "related": "a small town",
+    "pos": "noun",
+    "senses": [
+      "城镇"
+    ],
+    "collocations": [
+      "a small town"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-ee4c87b73d98",
+    "word": "Sunday",
+    "pronunciation": "/ˈsʌndeɪ/",
+    "meaning": "星期日",
+    "example": "I call my father on Sunday.",
+    "translation": "我星期日给爸爸打电话。",
+    "tag": "A1 · noun",
+    "related": "on Sunday",
+    "pos": "noun",
+    "senses": [
+      "星期日"
+    ],
+    "collocations": [
+      "on Sunday"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-1eb46be3a2d9",
+    "word": "call",
+    "pronunciation": "/kɔːl/",
+    "meaning": "打电话；呼叫",
+    "example": "I call my mother in the morning.",
+    "translation": "我早上给妈妈打电话。",
+    "tag": "A1 · verb",
+    "related": "call a friend",
+    "pos": "verb",
+    "senses": [
+      "打电话",
+      "呼叫"
+    ],
+    "collocations": [
+      "call a friend"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-3ee6133c3bd2",
+    "word": "box",
+    "pronunciation": "/bɒks/",
+    "meaning": "盒子；箱子",
+    "example": "The books are in a box.",
+    "translation": "书在一个箱子里。",
+    "tag": "A1 · noun",
+    "related": "a book box",
+    "pos": "noun",
+    "senses": [
+      "盒子",
+      "箱子"
+    ],
+    "collocations": [
+      "a book box"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-0088bd98cf39",
+    "word": "glass",
+    "pronunciation": "/ɡlɑːs/",
+    "meaning": "玻璃；玻璃杯",
+    "example": "The box has a glass door.",
+    "translation": "这个箱子有一扇玻璃门。",
+    "tag": "A1 · noun",
+    "related": "a glass door",
+    "pos": "noun",
+    "senses": [
+      "玻璃",
+      "玻璃杯"
+    ],
+    "collocations": [
+      "a glass door"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-0af590172d2e",
+    "word": "lock",
+    "pronunciation": "/lɒk/",
+    "meaning": "锁",
+    "example": "The door has no lock.",
+    "translation": "这扇门没有锁。",
+    "tag": "A1 · noun",
+    "related": "a door lock",
+    "pos": "noun",
+    "senses": [
+      "锁"
+    ],
+    "collocations": [
+      "a door lock"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  }
+]
