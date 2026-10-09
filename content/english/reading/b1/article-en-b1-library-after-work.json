@@ -1,0 +1,118 @@
+{
+  "id": "article-en-b1-library-after-work",
+  "level": "B1",
+  "title": "A library after work",
+  "topic": "community",
+  "genre": "story",
+  "paragraphs": [
+    "I used to walk straight home after work. By the time I arrived, I was usually too tired to do anything except make dinner and look at my phone. The public library was only two streets away, but I thought of it as a place for students. One rainy Tuesday, I went inside to wait for the weather to improve. I stayed much longer than I had planned.",
+    "Near the entrance, a librarian was helping a man complete an online form. Two people were quietly discussing a job application at another table. I had expected long rows of books and strict rules about silence. There were books, of course, but there were also sockets, comfortable chairs and a notice about an evening reading group. Nobody asked me to buy anything before sitting down.",
+    "The following week, I returned with a book I had owned for years without getting past the first chapter. At home, I would often leave a book open while answering messages. In the library, I put my phone in my bag. After reading for twenty minutes, I realised that the problem had not been the book. I had simply never given it my full attention.",
+    "I now stop at the library twice a week. I do not always read the same kind of book, and I have not suddenly become an expert on literature. Sometimes I only read five pages. What matters is having a place where I can slow down without feeling that I should order another coffee or finish a piece of work.",
+    "Last month, the library asked visitors how it could improve its evening service. I suggested keeping a few tables available for people who came alone, rather than using every room for organised events. Groups need space, but so do people who are not ready to join one. That rainy Tuesday taught me something I had not expected: a useful public place can welcome you before you know what you want from it."
+  ],
+  "translation": [
+    "以前下班后，我总会直接走回家。到家时通常已经累得只想做饭和看手机。公共图书馆只隔着两条街，但我一直认为那是学生去的地方。一个下雨的周二，我进去等天气好转，却待了比原计划更久的时间。",
+    "入口附近，一位馆员在帮助一个男人填写在线表格。另一张桌旁，两个人在轻声讨论求职申请。我原以为那里只有一排排书和严格的安静规定。当然有书，但也有插座、舒适的椅子和晚间读书小组的告示。没人要求我先买东西才能坐下。",
+    "第二周，我带着一本买了多年却一直没读完第一章的书又来了。在家里，我常会把书摊开，一边回复消息。在图书馆，我把手机放进包里。读了二十分钟后，我意识到问题不在书，而是我从未全神贯注地读它。",
+    "如今我每周去图书馆两次。我并不是一直读同类的书，也没有突然变成文学专家。有时只读五页。重要的是，有一个地方让我放慢脚步，而不用觉得必须再点一杯咖啡或完成一项工作。",
+    "上个月，图书馆征求访客对晚间服务的意见。我建议为独自来的人保留一些桌子，不要把每个房间都用于组织活动。小组需要空间，暂时不想参加小组的人也需要。那个雨天让我意外地明白：一个有用的公共空间，可以在你还不知道自己需要什么时，就接纳你。"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-b1-used-to-and-would",
+      "surface": "used to"
+    },
+    {
+      "id": "grammar-en-b1-gerunds-after-prepositions",
+      "surface": "without getting"
+    }
+  ],
+  "notes": [
+    "The article uses a personal experience to discuss access to public space; it does not claim that every library provides the same services."
+  ],
+  "questions": [
+    {
+      "id": "article-en-b1-library-after-work-q1",
+      "type": "main-idea",
+      "prompt": "What changes the narrator’s view of the library?",
+      "options": [
+        "An unexpected visit reveals a place to read and rest.",
+        "A teacher requires the narrator to study there.",
+        "The library starts selling inexpensive coffee."
+      ],
+      "answer": 0,
+      "explanation": "一次偶然来访让作者发现图书馆不只是学生读书的场所。"
+    },
+    {
+      "id": "article-en-b1-library-after-work-q2",
+      "type": "detail",
+      "prompt": "Why does the narrator return with an old book?",
+      "options": [
+        "To sell it to the librarian.",
+        "To give it to the man filling in a form.",
+        "To finish a book they had struggled to read at home."
+      ],
+      "answer": 2,
+      "explanation": "第三段说作者带来了多年未能读过第一章的书。"
+    },
+    {
+      "id": "article-en-b1-library-after-work-q3",
+      "type": "inference",
+      "prompt": "What does “Nobody asked me to buy anything” suggest?",
+      "options": [
+        "Every visitor must borrow a book.",
+        "The space is available without a purchase.",
+        "The library does not allow visitors to bring possessions."
+      ],
+      "answer": 1,
+      "explanation": "作者借这句突出公共空间没有消费门槛。"
+    },
+    {
+      "id": "article-en-b1-library-after-work-q4",
+      "type": "grammar",
+      "prompt": "What does “I used to walk straight home” imply?",
+      "options": [
+        "That was the narrator’s past routine, but it has changed.",
+        "The narrator will walk home later today.",
+        "The narrator is learning how to walk."
+      ],
+      "answer": 0,
+      "explanation": "used to 描述过去的习惯，并与现在形成对比。"
+    },
+    {
+      "id": "article-en-b1-library-after-work-q5",
+      "type": "author-intent",
+      "prompt": "Why does the narrator ask for tables for visitors who come alone?",
+      "options": [
+        "Reading groups should be banned.",
+        "People who come alone need to buy coffee.",
+        "Organised groups should not take away all space for individual use."
+      ],
+      "answer": 2,
+      "explanation": "最后一段兼顾团体与独自使用空间的人，没有否定组织活动。"
+    }
+  ],
+  "kind": "reading",
+  "language": "en",
+  "difficulty": 3,
+  "tags": [
+    "community",
+    "critical-reading"
+  ],
+  "estimatedMinutes": 5,
+  "vocabulary": [
+    "course-en-a1-3",
+    "course-en-a1-6",
+    "supp-en-a1-5",
+    "supp-en-a1-7",
+    "supp-en-a1-8",
+    "supp-en-a1-13",
+    "supp-en-a1-16",
+    "lex-en-a1-time",
+    "lex-en-a1-work",
+    "complete-en-a1-room",
+    "complete-en-a1-week",
+    "complete-en-a1-want"
+  ]
+}

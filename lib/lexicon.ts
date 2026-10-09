@@ -1,4 +1,4 @@
-import type {Language,Word} from './content.ts';
+import type {Word} from './content.ts';
 import type {AppState} from './store.ts';
 
 export type LexiconMeta={level:string;partOfSpeech:string;senses:string[];collocations:string[];synonyms:string[];antonyms:string[];topics:string[];frequency:'high'|'medium'|'low';register:'neutral'|'informal'|'formal'|'academic';source:string};

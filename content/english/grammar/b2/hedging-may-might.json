@@ -1,0 +1,127 @@
+{
+  "id": "grammar-en-b2-hedging-may-might",
+  "kind": "grammar",
+  "language": "en",
+  "level": "B2",
+  "difficulty": 4,
+  "tags": [
+    "writing",
+    "conversation"
+  ],
+  "title": "May and might: making a careful claim",
+  "pattern": "may / might + verb (uncertainty)",
+  "meaningZh": "可能；有保留地表达判断",
+  "meaningEn": "Expressing possibility without claiming certainty",
+  "explanation": "may 和 might 可以表达一个判断有可能成立，帮助说话者避免把有限证据说成确定事实。二者后接动词原形，谈过去时可用 may have 或 might have 加过去分词。might 常让语气更试探，但它们之间不存在通用、精确的概率数字。表示许可的 may 是另一种用法；这里讨论的是对事实或结果的推测。",
+  "usage": "写报告、解读数据、讨论原因或提出尚待验证的解释时使用。应同时说明证据范围，而不是只靠一个 may 就把结论说得可靠。",
+  "nuance": "The change may help. 只是表示存在帮助的可能，不能理解为已经证实有效。may not 表示可能不成立，不等于禁止；must not 才常用于禁止。",
+  "structure": [
+    "may / might + 动词原形",
+    "may / might have + 过去分词",
+    "may / might not + 动词原形"
+  ],
+  "formation": [
+    "may / might + 动词原形",
+    "may / might have + 过去分词",
+    "may / might not + 动词原形"
+  ],
+  "examples": [
+    {
+      "target": "The new timetable may reduce waiting times.",
+      "zh": "新的时刻表可能缩短等待时间。"
+    },
+    {
+      "target": "A small sample might miss an important difference.",
+      "zh": "小样本可能漏掉重要差异。"
+    },
+    {
+      "target": "The increase may not continue next year.",
+      "zh": "明年这种增长可能不会继续。"
+    },
+    {
+      "target": "Some participants might have misunderstood the instructions.",
+      "zh": "有些参与者可能误解了说明。"
+    }
+  ],
+  "notes": [
+    "学习者等级为课程编排参考；CEFR 并未提供一份逐条固定的语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The new timetable may reduces waiting times.",
+      "correct": "The new timetable may reduce waiting times.",
+      "explanation": "情态动词后接动词原形，即使主语是第三人称单数，也不加 -s。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-b2-third-conditional",
+      "explanation": "比较确定性与过去的假设：情态词表达判断强度，条件结构说明假设成立的前提。"
+    }
+  ],
+  "prerequisites": [],
+  "relatedGrammar": [
+    "grammar-en-b2-third-conditional"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-b2-hedging-may-might-meaning",
+      "kind": "meaning",
+      "prompt": "What is the main purpose of this pattern?",
+      "options": [
+        "可能；有保留地表达判断",
+        "表示说话者已经证明结果必然发生",
+        "只用于说明眼前正在发生的动作"
+      ],
+      "acceptedAnswers": [
+        "可能；有保留地表达判断"
+      ],
+      "explanation": "The change may help. 只是表示存在帮助的可能，不能理解为已经证实有效。may not 表示可能不成立，不等于禁止；must not 才常用于禁止。"
+    },
+    {
+      "id": "grammar-en-b2-hedging-may-might-fill",
+      "kind": "fill",
+      "prompt": "A small sample might _____ an important difference.",
+      "options": [
+        "miss",
+        "misses",
+        "to miss"
+      ],
+      "acceptedAnswers": [
+        "miss"
+      ],
+      "explanation": "may / might + 动词原形 / may / might have + 过去分词 / may / might not + 动词原形"
+    },
+    {
+      "id": "grammar-en-b2-hedging-may-might-context",
+      "kind": "context",
+      "prompt": "数据显示有限样本中的变化，但尚未验证普遍效果，哪种表述合适？",
+      "options": [
+        "The change may help in this setting.",
+        "The change certainly works everywhere."
+      ],
+      "acceptedAnswers": [
+        "The change may help in this setting."
+      ],
+      "explanation": "may 和 might 可以表达一个判断有可能成立，帮助说话者避免把有限证据说成确定事实。二者后接动词原形，谈过去时可用 may have 或 might have 加过去分词。might 常让语气更试探，但它们之间不存在通用、精确的概率数字。表示许可的 may 是另一种用法；这里讨论的是对事实或结果的推测。"
+    },
+    {
+      "id": "grammar-en-b2-hedging-may-might-translation",
+      "kind": "translation",
+      "prompt": "新的时刻表可能缩短等待时间。",
+      "acceptedAnswers": [
+        "The new timetable may reduce waiting times."
+      ],
+      "explanation": "这是自然的参考表达；其他准确表达可以对照结构自行确认。"
+    },
+    {
+      "id": "grammar-en-b2-hedging-may-might-sentence",
+      "kind": "sentence",
+      "prompt": "按正确顺序组合：times / waiting / reduce / may / timetable / new / The",
+      "acceptedAnswers": [
+        "The new timetable may reduce waiting times."
+      ],
+      "explanation": "注意主从句、动词结构与修饰语的位置。"
+    }
+  ]
+}

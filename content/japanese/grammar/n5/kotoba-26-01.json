@@ -1,0 +1,631 @@
+[
+  {
+    "id": "grammar-ja-n5-de-place",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "N + で（动作场所）：在某地进行动作",
+    "pattern": "N + で（动作场所）",
+    "meaningZh": "在某地进行动作",
+    "meaningEn": "Location of an action",
+    "explanation": "で标记动作发生的场所，后面通常是读、写、吃等行为。に标记存在的位置，不能因为中文都译成“在”就混用。先判断句末说的是做什么，还是有什么。",
+    "usage": "说明活动地点",
+    "nuance": "公園で走ります描述跑步地点；公園に犬がいます描述狗的存在。",
+    "structure": [
+      "地点名词 + で + 动作动词"
+    ],
+    "formation": [
+      "地点名词 + で + 动作动词"
+    ],
+    "examples": [
+      {
+        "target": "図書館で本を読みます。",
+        "reading": "としょかんでほんをよみます。",
+        "zh": "我在图书馆读书。"
+      },
+      {
+        "target": "家でご飯を食べます。",
+        "reading": "いえでごはんをたべます。",
+        "zh": "我在家吃饭。"
+      },
+      {
+        "target": "教室で日本語を勉強します。",
+        "reading": "きょうしつでにほんごをべんきょうします。",
+        "zh": "我在教室学日语。"
+      },
+      {
+        "target": "公園で写真を撮ります。",
+        "reading": "こうえんでしゃしんをとります。",
+        "zh": "我在公园拍照。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在说明活动地点中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "教室に日本語を勉強します。",
+        "correct": "教室で日本語を勉強します。",
+        "explanation": "学习的场所用で，而不是存在位置的に。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n5-de-place-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n図書館で本を読みます。",
+        "options": [
+          "我在图书馆读书。",
+          "我在家吃饭。",
+          "我在教室学日语。"
+        ],
+        "acceptedAnswers": [
+          "我在图书馆读书。"
+        ],
+        "explanation": "図書館で本を読みます。：我在图书馆读书。 で标记动作发生的场所，后面通常是读、写、吃等行为。に标记存在的位置，不能因为中文都译成“在”就混用。先判断句末说的是做什么，还是有什么。"
+      },
+      {
+        "id": "grammar-ja-n5-de-place-fill",
+        "kind": "fill",
+        "prompt": "図書館（　）本を読みます。",
+        "options": [
+          "に",
+          "を",
+          "で"
+        ],
+        "acceptedAnswers": [
+          "で"
+        ],
+        "explanation": "読む是动作，图书馆是动作场所。"
+      },
+      {
+        "id": "grammar-ja-n5-de-place-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n学习的场所用で，而不是存在位置的に。",
+        "options": [
+          "教室に日本語を勉強します。",
+          "教室で日本語を勉強します。"
+        ],
+        "acceptedAnswers": [
+          "教室で日本語を勉強します。"
+        ],
+        "explanation": "学习的场所用で，而不是存在位置的に。"
+      },
+      {
+        "id": "grammar-ja-n5-de-place-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我在公园拍照。",
+        "acceptedAnswers": [
+          "公園で写真を撮ります。"
+        ],
+        "explanation": "公園で写真を撮ります。 公園で走ります描述跑步地点；公園に犬がいます描述狗的存在。"
+      },
+      {
+        "id": "grammar-ja-n5-de-place-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n教室で日本語を勉強します。",
+        "options": [
+          "我在家吃饭。",
+          "我在教室学日语。",
+          "我在图书馆读书。"
+        ],
+        "acceptedAnswers": [
+          "我在教室学日语。"
+        ],
+        "explanation": "原句对应“我在教室学日语。”。公園で走ります描述跑步地点；公園に犬がいます描述狗的存在。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n5-ni-existence",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "N + に（存在位置）：某物或某人在某处",
+    "pattern": "N + に（存在位置）",
+    "meaningZh": "某物或某人在某处",
+    "meaningEn": "Location with aru and iru",
+    "explanation": "に标记人或物存在的位置。非生命物通常用あります，人和动物用います。句子的重点是“在哪里有”，与描述某地进行动作的で不同。否定和过去时不改变地点助词。",
+    "usage": "描述物品与人的位置",
+    "nuance": "あります也可以表示有活动；本课先掌握静态位置。",
+    "structure": [
+      "位置名词 + に + 人/物 + が + います/あります"
+    ],
+    "formation": [
+      "位置名词 + に + 人/物 + が + います/あります"
+    ],
+    "examples": [
+      {
+        "target": "机の上に本があります。",
+        "reading": "つくえのうえにほんがあります。",
+        "zh": "桌子上有书。"
+      },
+      {
+        "target": "駅に友達がいます。",
+        "reading": "えきにともだちがいます。",
+        "zh": "朋友在车站。"
+      },
+      {
+        "target": "部屋に猫がいます。",
+        "reading": "へやにねこがいます。",
+        "zh": "房间里有猫。"
+      },
+      {
+        "target": "かばんの中に鍵があります。",
+        "reading": "かばんのなかにかぎがあります。",
+        "zh": "包里有钥匙。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在描述物品与人的位置中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "机の上で本があります。",
+        "correct": "机の上に本があります。",
+        "explanation": "静态存在位置应接に。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n5-ni-existence-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n机の上に本があります。",
+        "options": [
+          "房间里有猫。",
+          "桌子上有书。",
+          "朋友在车站。"
+        ],
+        "acceptedAnswers": [
+          "桌子上有书。"
+        ],
+        "explanation": "机の上に本があります。：桌子上有书。 に标记人或物存在的位置。非生命物通常用あります，人和动物用います。句子的重点是“在哪里有”，与描述某地进行动作的で不同。否定和过去时不改变地点助词。"
+      },
+      {
+        "id": "grammar-ja-n5-ni-existence-fill",
+        "kind": "fill",
+        "prompt": "部屋（　）猫がいます。",
+        "options": [
+          "を",
+          "に",
+          "で"
+        ],
+        "acceptedAnswers": [
+          "に"
+        ],
+        "explanation": "这里说明猫的存在位置。"
+      },
+      {
+        "id": "grammar-ja-n5-ni-existence-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n静态存在位置应接に。",
+        "options": [
+          "机の上に本があります。",
+          "机の上で本があります。"
+        ],
+        "acceptedAnswers": [
+          "机の上に本があります。"
+        ],
+        "explanation": "静态存在位置应接に。"
+      },
+      {
+        "id": "grammar-ja-n5-ni-existence-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n包里有钥匙。",
+        "acceptedAnswers": [
+          "かばんの中に鍵があります。"
+        ],
+        "explanation": "かばんの中に鍵があります。 あります也可以表示有活动；本课先掌握静态位置。"
+      },
+      {
+        "id": "grammar-ja-n5-ni-existence-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n部屋に猫がいます。",
+        "options": [
+          "房间里有猫。",
+          "桌子上有书。",
+          "朋友在车站。"
+        ],
+        "acceptedAnswers": [
+          "房间里有猫。"
+        ],
+        "explanation": "原句对应“房间里有猫。”。あります也可以表示有活动；本课先掌握静态位置。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n5-wo-object",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "N + を：动作直接作用的对象",
+    "pattern": "N + を",
+    "meaningZh": "动作直接作用的对象",
+    "meaningEn": "Direct object marker",
+    "explanation": "を跟在名词后标记读什么、吃什么、买什么等直接对象，书写为を，通常读お。不能把对象的を和话题的は视作任意替换；は会改变信息结构。本课先练习完整的对象与动作组合。",
+    "usage": "说明动作对象",
+    "nuance": "を也有经过地点等用法；本课限定直接宾语。",
+    "structure": [
+      "名词 + を + 他动词"
+    ],
+    "formation": [
+      "名词 + を + 他动词"
+    ],
+    "examples": [
+      {
+        "target": "水を飲みます。",
+        "reading": "みずをのみます。",
+        "zh": "我喝水。"
+      },
+      {
+        "target": "新聞を読みます。",
+        "reading": "しんぶんをよみます。",
+        "zh": "我读报纸。"
+      },
+      {
+        "target": "映画を見ます。",
+        "reading": "えいがをみます。",
+        "zh": "我看电影。"
+      },
+      {
+        "target": "パンを買います。",
+        "reading": "ぱんをかいます。",
+        "zh": "我买面包。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在说明动作对象中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "水に飲みます。",
+        "correct": "水を飲みます。",
+        "explanation": "水是饮む的直接对象，应使用を。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n5-wo-object-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n水を飲みます。",
+        "options": [
+          "我读报纸。",
+          "我看电影。",
+          "我喝水。"
+        ],
+        "acceptedAnswers": [
+          "我喝水。"
+        ],
+        "explanation": "水を飲みます。：我喝水。 を跟在名词后标记读什么、吃什么、买什么等直接对象，书写为を，通常读お。不能把对象的を和话题的は视作任意替换；は会改变信息结构。本课先练习完整的对象与动作组合。"
+      },
+      {
+        "id": "grammar-ja-n5-wo-object-fill",
+        "kind": "fill",
+        "prompt": "新聞（　）読みます。",
+        "options": [
+          "を",
+          "に",
+          "で"
+        ],
+        "acceptedAnswers": [
+          "を"
+        ],
+        "explanation": "报纸是被读的对象。"
+      },
+      {
+        "id": "grammar-ja-n5-wo-object-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n水是饮む的直接对象，应使用を。",
+        "options": [
+          "水に飲みます。",
+          "水を飲みます。"
+        ],
+        "acceptedAnswers": [
+          "水を飲みます。"
+        ],
+        "explanation": "水是饮む的直接对象，应使用を。"
+      },
+      {
+        "id": "grammar-ja-n5-wo-object-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我买面包。",
+        "acceptedAnswers": [
+          "パンを買います。"
+        ],
+        "explanation": "パンを買います。 を也有经过地点等用法；本课限定直接宾语。"
+      },
+      {
+        "id": "grammar-ja-n5-wo-object-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n映画を見ます。",
+        "options": [
+          "我喝水。",
+          "我读报纸。",
+          "我看电影。"
+        ],
+        "acceptedAnswers": [
+          "我看电影。"
+        ],
+        "explanation": "原句对应“我看电影。”。を也有经过地点等用法；本课限定直接宾语。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n5-tai-wish",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "Vます词干 + たい：想做某事",
+    "pattern": "Vます词干 + たい",
+    "meaningZh": "想做某事",
+    "meaningEn": "Desire to do something",
+    "explanation": "动词ます形去掉ます再接たい表达说话人的愿望。たい按い形容词变化，否定是たくない，过去是たかった。直接陈述他人的愿望需注意信息来源，可引用其说法；不随意替别人断言内心。",
+    "usage": "表达自己的愿望",
+    "nuance": "邀请对方吃东西通常用食べませんか，不把たい当作通用邀请形式。",
+    "structure": [
+      "読みます → 読み + たい"
+    ],
+    "formation": [
+      "読みます → 読み + たい"
+    ],
+    "examples": [
+      {
+        "target": "日本へ行きたいです。",
+        "reading": "にほんへいきたいです。",
+        "zh": "我想去日本。"
+      },
+      {
+        "target": "温かいお茶を飲みたいです。",
+        "reading": "あたたかいおちゃをのみたいです。",
+        "zh": "我想喝热茶。"
+      },
+      {
+        "target": "今日は早く寝たいです。",
+        "reading": "きょうははやくねたいです。",
+        "zh": "我今天想早点睡。"
+      },
+      {
+        "target": "この本を読みたいです。",
+        "reading": "このほんをよみたいです。",
+        "zh": "我想读这本书。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在表达自己的愿望中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "日本へ行くたいです。",
+        "correct": "日本へ行きたいです。",
+        "explanation": "行きます去ます得到行き，再接たい。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-masu-stem"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n5-tai-wish-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n日本へ行きたいです。",
+        "options": [
+          "我想去日本。",
+          "我想喝热茶。",
+          "我今天想早点睡。"
+        ],
+        "acceptedAnswers": [
+          "我想去日本。"
+        ],
+        "explanation": "日本へ行きたいです。：我想去日本。 动词ます形去掉ます再接たい表达说话人的愿望。たい按い形容词变化，否定是たくない，过去是たかった。直接陈述他人的愿望需注意信息来源，可引用其说法；不随意替别人断言内心。"
+      },
+      {
+        "id": "grammar-ja-n5-tai-wish-fill",
+        "kind": "fill",
+        "prompt": "この本を（　）です。",
+        "options": [
+          "読むたい",
+          "読んだたい",
+          "読みたい"
+        ],
+        "acceptedAnswers": [
+          "読みたい"
+        ],
+        "explanation": "たい接ます词干，不接辞书形。"
+      },
+      {
+        "id": "grammar-ja-n5-tai-wish-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n行きます去ます得到行き，再接たい。",
+        "options": [
+          "日本へ行きたいです。",
+          "日本へ行くたいです。"
+        ],
+        "acceptedAnswers": [
+          "日本へ行きたいです。"
+        ],
+        "explanation": "行きます去ます得到行き，再接たい。"
+      },
+      {
+        "id": "grammar-ja-n5-tai-wish-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我想读这本书。",
+        "acceptedAnswers": [
+          "この本を読みたいです。"
+        ],
+        "explanation": "この本を読みたいです。 邀请对方吃东西通常用食べませんか，不把たい当作通用邀请形式。"
+      },
+      {
+        "id": "grammar-ja-n5-tai-wish-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n今日は早く寝たいです。",
+        "options": [
+          "我想喝热茶。",
+          "我今天想早点睡。",
+          "我想去日本。"
+        ],
+        "acceptedAnswers": [
+          "我今天想早点睡。"
+        ],
+        "explanation": "原句对应“我今天想早点睡。”。邀请对方吃东西通常用食べませんか，不把たい当作通用邀请形式。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n5-masenka-invite",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "Vませんか：要不要一起做某事",
+    "pattern": "Vませんか",
+    "meaningZh": "要不要一起做某事",
+    "meaningEn": "Polite invitation",
+    "explanation": "否定疑问形式ませんか可礼貌邀请对方一起行动，并不表示断定对方不做。回答可以接受，也可以说明不方便。与自己的意愿たい不同，这个形式关注对方是否愿意参加，适合提出可选择的建议。",
+    "usage": "邀请一起活动",
+    "nuance": "单独问过去没有做吗不是本课邀请义，要看时态和场景。",
+    "structure": [
+      "休みます → 休みませんか"
+    ],
+    "formation": [
+      "休みます → 休みませんか"
+    ],
+    "examples": [
+      {
+        "target": "一緒に昼ご飯を食べませんか。",
+        "reading": "いっしょにひるごはんをたべませんか。",
+        "zh": "要不要一起吃午饭？"
+      },
+      {
+        "target": "週末、映画を見ませんか。",
+        "reading": "しゅうまつ、えいがをみませんか。",
+        "zh": "周末要不要看电影？"
+      },
+      {
+        "target": "少し休みませんか。",
+        "reading": "すこしやすみませんか。",
+        "zh": "要不要休息一下？"
+      },
+      {
+        "target": "図書館へ行きませんか。",
+        "reading": "としょかんへいきませんか。",
+        "zh": "要不要去图书馆？"
+      }
+    ],
+    "notes": [
+      "学习目标：能在邀请一起活动中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "一緒に食べるませんか。",
+        "correct": "一緒に食べませんか。",
+        "explanation": "食べる的ます形为食べます，邀请为食べませんか。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-masu-stem"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n5-masenka-invite-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n一緒に昼ご飯を食べませんか。",
+        "options": [
+          "要不要休息一下？",
+          "要不要一起吃午饭？",
+          "周末要不要看电影？"
+        ],
+        "acceptedAnswers": [
+          "要不要一起吃午饭？"
+        ],
+        "explanation": "一緒に昼ご飯を食べませんか。：要不要一起吃午饭？ 否定疑问形式ませんか可礼貌邀请对方一起行动，并不表示断定对方不做。回答可以接受，也可以说明不方便。与自己的意愿たい不同，这个形式关注对方是否愿意参加，适合提出可选择的建议。"
+      },
+      {
+        "id": "grammar-ja-n5-masenka-invite-fill",
+        "kind": "fill",
+        "prompt": "邀请一起休息：少し（　）。",
+        "options": [
+          "休んだませんか",
+          "休みませんか",
+          "休むませんか"
+        ],
+        "acceptedAnswers": [
+          "休みませんか"
+        ],
+        "explanation": "从ます形改为ませんか，提出邀请。"
+      },
+      {
+        "id": "grammar-ja-n5-masenka-invite-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n食べる的ます形为食べます，邀请为食べませんか。",
+        "options": [
+          "一緒に食べるませんか。",
+          "一緒に食べませんか。"
+        ],
+        "acceptedAnswers": [
+          "一緒に食べませんか。"
+        ],
+        "explanation": "食べる的ます形为食べます，邀请为食べませんか。"
+      },
+      {
+        "id": "grammar-ja-n5-masenka-invite-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n要不要去图书馆？",
+        "acceptedAnswers": [
+          "図書館へ行きませんか。"
+        ],
+        "explanation": "図書館へ行きませんか。 单独问过去没有做吗不是本课邀请义，要看时态和场景。"
+      },
+      {
+        "id": "grammar-ja-n5-masenka-invite-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n少し休みませんか。",
+        "options": [
+          "要不要休息一下？",
+          "要不要一起吃午饭？",
+          "周末要不要看电影？"
+        ],
+        "acceptedAnswers": [
+          "要不要休息一下？"
+        ],
+        "explanation": "原句对应“要不要休息一下？”。单独问过去没有做吗不是本课邀请义，要看时态和场景。"
+      }
+    ]
+  }
+]

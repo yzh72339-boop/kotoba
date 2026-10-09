@@ -7,7 +7,7 @@
 - public 创建 12 表：languages、users、profiles、courses、lessons、vocabulary、grammar、reviews、study_sessions、user_progress、ai_conversations、ai_usage。
 - 创建索引、PK/FK/约束、两函数 create_user_profile() / consume_ai_request(uuid)、Auth AFTER INSERT 触发器 on_auth_user_created。
 - 显式给每张 public 表 ENABLE RLS，并创建个人行归属 policy、关闭内容读取的 policy、全表阶段性关闭访问的 restrictive policy。撤销 anon/authenticated/PUBLIC 表权限，包含 TRUNCATE / REFERENCES / TRIGGER。
-- Auth 新建账户的服务端触发器只允许 yzh72339@gmail.com；已有 Auth 用户回填对应 users / profiles，暂时全部没有浏览器学习数据访问权。后续唯一 UUID 绑定仍由后续版本建立，本阶段不称完整账号系统已验证。
+- Auth 新建账户的服务端触发器只允许 owner@example.com；已有 Auth 用户回填对应 users / profiles，暂时全部没有浏览器学习数据访问权。后续唯一 UUID 绑定仍由后续版本建立，本阶段不称完整账号系统已验证。
 - pgcrypto 未安装时创建；已安装时保留。
 - 部署入口创建/使用 supabase_migrations schema，并新建私有 RLS schema_migrations 版本记录表，登记实际执行的 001 SQL。它是部署元数据，不是第二份业务 migration。
 - 无 DROP、DELETE FROM、TRUNCATE、旧表重建、RESET。INSERT 仅语言种子、Auth 回填与版本记录。
@@ -22,7 +22,7 @@
 
 ## 只执行 001，然后验证
 
-1. Project ocbydnsqennrumowqxvu → SQL Editor → New query → postgres。
+1. Project your-project → SQL Editor → New query → postgres。
 2. 整份执行 `supabase/dashboard/001_deploy.sql` 一次。它包含 BEGIN / COMMIT 和空数据库检查，遇到已有表、记录或配置变化立即报错。不要选片段执行，不要重复运行。
 3. 成功最后返回一行 version=001、name=kotoba。
 4. 新查询整份执行 `supabase/dashboard/001_verify.sql`。只有 SELECT / catalog 读取，不创建对象、写入数据或改变角色。

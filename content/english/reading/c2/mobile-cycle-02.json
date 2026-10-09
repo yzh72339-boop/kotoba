@@ -1,0 +1,129 @@
+{
+  "id": "article-en-c2-measurement-and-public-space",
+  "kind": "reading",
+  "language": "en",
+  "level": "C2",
+  "difficulty": 5,
+  "tags": [
+    "mobile-cycle",
+    "社会"
+  ],
+  "title": "The value that a count leaves out",
+  "topic": "社会",
+  "genre": "opinion",
+  "estimatedMinutes": 10,
+  "paragraphs": [
+    "When a public library publishes its annual figures, the apparent simplicity is reassuring. Visits, loans and event attendance give residents something definite to discuss. A councillor can ask whether a programme reached more people than the year before; a manager can investigate a sudden decline. Without such records, a claim about public value may become no more than an attractive story. Yet the opposite assumption is equally dangerous: that whatever can be counted most readily must be the best account of what a library contributes. The argument is not between evidence and sentiment, but between different uses of evidence.",
+    "Consider a library that wants to evaluate a new evening session. A visitor arrives, looks for a quiet place to complete a job application, asks one question and leaves without borrowing a book. Another borrows five books but never opens them. A loan count distinguishes the two visits sharply, while telling us little about their relative importance. This is not an argument for discarding loan records. It is a reminder that a measure acquires meaning through the question it is intended to answer. The same figure can be informative for managing stock and inadequate for judging the whole service.",
+    "A broader framework might include several measures: use of study spaces, enquiries answered, attendance at activities and accounts of what visitors were trying to do. That looks more balanced, but adding columns does not dissolve the underlying judgement. Someone still decides which activities to classify, which experiences to ask about and how to interpret a change. Nor can a questionnaire speak for people who never enter the building. Those excluded by transport, opening hours or an unwelcoming previous encounter may remain invisible precisely because the service is easiest to study from inside.",
+    "Only after the library had spoken to people who rarely visited did the meaning of its evening figures become clearer. Some residents could not attend earlier, while others found the later journey home difficult. An increase in attendance therefore suggested improved access for one group, not an uncomplicated improvement for everyone. It would be misleading to treat those responses as a verdict on every evening programme. They were better understood as clues about particular constraints, prompting questions that a total could not formulate by itself.",
+    "The case for accountability remains strong. Public institutions cannot simply ask to be trusted because their work feels worthwhile. They should explain what they intended, what happened and what they learned. But accountability is weakened, rather than strengthened, when a single indicator becomes a substitute for explanation. A target can reward the easiest activity to register and encourage staff to neglect work whose benefit appears slowly. The problem is especially subtle when the target is reasonable in isolation. It may still become distorting when treated as the only outcome that matters.",
+    "Suppose that a staff member spends an hour helping one visitor understand a difficult form. The interaction may reduce the number of enquiries that can be completed that afternoon. Judged solely by throughput, it looks inefficient. Judged by whether the visitor can now act independently, it may represent exactly the support the library exists to offer. Neither perspective automatically settles the question of how staff time should be allocated. The point is that a defensible decision must acknowledge the trade-off instead of concealing it inside a score that appears to make the decision on its own.",
+    "Personal accounts are not a convenient escape from this difficulty. A vivid story can capture attention while being highly unrepresentative. People willing to describe a positive experience may differ from those who quietly leave disappointed. Institutions can also select stories that flatter a programme already under review. The answer is not to dismiss testimony, but to state how it was gathered, what it can illuminate and what it cannot establish. The discipline applied to numbers should also apply to narratives; neither becomes impartial merely by changing its format.",
+    "There is an additional constraint: collecting information uses time and can intrude on the experience being studied. A visitor seeking a calm space should not have to justify that need through repeated surveys. Staff cannot record every helpful exchange without turning attention away from the exchange itself. More measurement is therefore not automatically better measurement. A proportionate approach might combine routine counts with occasional, carefully chosen enquiries, leaving room for staff to record unexpected problems. It should also allow people to decline participation without losing access to the service.",
+    "The strongest public report would make disagreement visible. It would explain why one outcome was prioritised, identify who benefited and acknowledge who may still face obstacles. Where uncertainty remained, it would distinguish a provisional interpretation from a claim supported across several sources. Such a report might be less tidy than a ranking of branches from best to worst. It would also be more useful to a resident trying to understand why a local decision was made, or to a future manager deciding whether the circumstances have changed enough to reconsider it.",
+    "In the end, a count is a beginning of public reasoning, not its completion. Libraries need records that can challenge comforting assumptions, and they need explanations that can challenge misleading readings of those records. A figure should make a conversation more precise without making it prematurely final. This is a demanding standard because it leaves judgement in view, with all its uncertainty and responsibility. It is nevertheless preferable to the appearance of objectivity produced when an institution measures only what is convenient and then quietly mistakes convenience for value."
+  ],
+  "translation": [
+    "公共图书馆公布年度数字时，那种表面上的简单让人安心。到访、借阅和活动人数给居民明确的讨论对象。议员能问项目是否比去年触及更多人，管理者能调查骤降。没有记录，公共价值的主张可能只是动听故事。但另一种假设同样危险：最容易统计的东西就是最好的价值说明。争论不是证据与情感之争，而是证据不同用法之间的争论。",
+    "设想一家图书馆评估晚间服务。有人来找安静地方填求职申请，问了一个问题便离开，未借书。另一个人借了五本却从未打开。借阅统计明显区分两次到访，却几乎不能说明其相对重要性。这并非要抛弃借阅记录，而是提醒：指标要结合它所回答的问题才能获得含义。同一数字可能有助于库存管理，却不足以评价整个服务。",
+    "更广泛的框架可纳入学习空间使用、咨询、活动参与和访客目标等多种指标。这样似乎均衡，但增加列数并不会消除背后的判断。仍有人决定怎样分类、询问哪些体验、怎样解释变化。问卷也无法替从不进楼的人发言。因交通、开放时间或不愉快旧经历而被排除者，可能恰因从馆内最容易调查而持续隐形。",
+    "只有与很少来访的人交谈后，图书馆才更清楚晚间数字的含义。一些居民早些时候不能来，另一些则晚间返家困难。参与增加因此表明一群人的可及性改善，并非所有人都无条件受益。把这些回答当作对一切晚间项目的判决会误导；更合适的是把它们视为特定限制的线索，引出总数本身无法提出的问题。",
+    "问责的必要性依然充分。公共机构不能只因其工作感觉有意义就要求信任，而应解释目标、结果和所学。但单一指标替代解释，会削弱而非加强问责。目标可能奖励最容易登记的活动，鼓励忽视效益缓慢出现的工作。尤其微妙的是，一个目标单独看可能合理，若被当成唯一重要成果却仍会造成扭曲。",
+    "假设工作人员用一小时帮一位访客理解难懂的表格，可能减少当日下午完成的咨询数。仅按处理数量看，这不高效；按访客如今能否独立行动看，可能正是图书馆应该提供的支持。任何一种角度都不能自动决定人员时间如何分配。可辩护的决定必须承认权衡，而不是把它藏进一个看似能自行作决定的分数里。",
+    "个人叙述也不是方便的逃避途径。鲜活故事能吸引注意，却可能极不具代表性。愿分享积极体验者，可能与失望后默默离开者不同；机构也可挑选美化被审查项目的故事。不应否定证言，而应交代怎样收集、能说明什么、不能证成什么。对数字的规范也要用于叙述，形式变化不会让任何一方自动公正。",
+    "还有一个限制：收集信息耗时，也可能干扰所研究的体验。寻求宁静空间者，不该被迫反复接受调查来证明需求；记录每次帮助也会让员工从互动本身分心。因此更多测量未必是更好测量。适度做法可结合日常统计与偶尔精心选择的询问，留出记录意外问题的空间，也允许拒绝参与而不失去服务。",
+    "最有力的公开报告会让分歧可见：解释为何优先某项成果，指出谁受益，承认谁仍面临障碍；仍有不确定性时，区分暂时解释和多种来源支持的主张。这样的报告或许不如分馆从好到差的排名整齐，却更能帮助居民理解本地决定，或帮助未来管理者判断环境是否已足够变化，需要重新考虑。",
+    "最终，统计是公共推理的起点，不是终点。图书馆需要能挑战令人安心的假设的记录，也需要能挑战误读的解释。数字应使讨论更精确，而非过早结束。这个标准要求很高，因为判断及其不确定性和责任始终可见。但仍好过一种貌似客观的状态：只测方便的东西，再悄悄把方便当成价值。"
+  ],
+  "vocabulary": [
+    "lex-en-c1-accountability",
+    "en-perspective",
+    "en-subtle",
+    "supp-en-b2-15"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-c2-limiting-fronting-inversion",
+      "surface": "Only after the library had spoken"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-c2-measurement-and-public-space-q1",
+      "type": "main-idea",
+      "prompt": "Which position is most consistent with the essay?",
+      "options": [
+        "Quantitative evidence should be replaced by positive stories.",
+        "Public value is explained best by placing measures in a transparent, contestable argument.",
+        "Institutions should stop evaluating services whose effects are hard to count."
+      ],
+      "answer": 1,
+      "explanation": "作者要求数字、叙述、判断与限制共同组成可解释且可重新审视的公共推理，并未拒绝评估。"
+    },
+    {
+      "id": "article-en-c2-measurement-and-public-space-q2",
+      "type": "inference",
+      "prompt": "What does the evening-session example challenge?",
+      "options": [
+        "The inference that a higher total necessarily improves access for everyone.",
+        "The possibility that any resident benefited.",
+        "The need to consult people outside the building."
+      ],
+      "answer": 0,
+      "explanation": "一些群体受益，另一些遇到返家障碍；总数提高不能推出普遍改善。"
+    },
+    {
+      "id": "article-en-c2-measurement-and-public-space-q3",
+      "type": "vocabulary",
+      "prompt": "What does “throughput” refer to in the sixth paragraph?",
+      "options": [
+        "The private feelings of individual visitors",
+        "The age of the forms being explained",
+        "The volume of enquiries handled in a period"
+      ],
+      "answer": 2,
+      "explanation": "前文说一小时帮助一人减少完成咨询数量；throughput在此是单位时间处理量。"
+    },
+    {
+      "id": "article-en-c2-measurement-and-public-space-q4",
+      "type": "grammar",
+      "prompt": "Where does inversion occur in “Only after the library had spoken … did the meaning … become clearer”?",
+      "options": [
+        "In both the after-clause and the main clause",
+        "In the main clause after the fronted limiting adverbial",
+        "Only inside the after-clause"
+      ],
+      "answer": 1,
+      "explanation": "had spoken保留从句正常主谓语序，主句用did + subject + become倒装。"
+    },
+    {
+      "id": "article-en-c2-measurement-and-public-space-q5",
+      "type": "author-intent",
+      "prompt": "Why does the writer criticise both selected stories and single indicators?",
+      "options": [
+        "To apply the same scrutiny to different forms of evidence",
+        "To argue that every account is intentionally false",
+        "To show that numerical totals and stories have identical uses"
+      ],
+      "answer": 0,
+      "explanation": "第七段明确把数字的规范也用于叙述；证据形式不同，但均需审查收集和适用范围。"
+    },
+    {
+      "id": "article-en-c2-measurement-and-public-space-q6",
+      "type": "inference",
+      "prompt": "What would the proposed report make possible that a ranking might not?",
+      "options": [
+        "Eliminating all uncertainty about outcomes",
+        "Automatically deciding how staff should spend every hour",
+        "Understanding and revisiting the judgement behind a local decision"
+      ],
+      "answer": 2,
+      "explanation": "第九段强调交代权衡、受益者和不确定性，帮助居民理解与后续管理者重新考虑。"
+    }
+  ],
+  "notes": [
+    "原创评论，图书馆场景是用于论证的假设案例，未引用或虚构真实机构统计。",
+    "C2编排依据是论证密度、修辞和证据限制的细读要求；相关语法也可能在更低等级开始接触，并非官方CEFR唯一归级。"
+  ]
+}

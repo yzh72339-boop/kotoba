@@ -1,0 +1,1 @@
+export function PageLoading(){return <div className="page-loading" role="status" aria-busy="true"><span className="subtle">正在打开学习空间…</span><div className="loading-skeleton skeleton-heading"/><div className="loading-skeleton skeleton-line"/><div className="loading-skeleton skeleton-panel"/></div>}

@@ -43,7 +43,7 @@ begin
  if (select array_agg(m.version order by m.version) from supabase_migrations.schema_migrations m) is distinct from array['001','002','003','004','005','006']
   or not exists(select 1 from supabase_migrations.schema_migrations m where m.version='006' and m.name='personal_audio_and_memory') then raise exception 'Expected only verified migrations 001 through 006';end if;
  if (select array_agg(c.relname::text order by c.relname::text) from pg_catalog.pg_class c join pg_catalog.pg_namespace n on n.oid=c.relnamespace where n.nspname='public' and c.relkind in ('r','p')) is distinct from v_tables then raise exception 'Public table inventory differs from verified 006';end if;
- if (select count(*) from private.app_owner)<>1 or not exists(select 1 from private.app_owner o where o.email='yzh72339@gmail.com') then raise exception 'Private owner differs';end if;
+ if (select count(*) from private.app_owner)<>1 or not exists(select 1 from private.app_owner o where o.email='owner@example.com') then raise exception 'Private owner differs';end if;
  if to_regprocedure('private.project_state_v6(uuid,jsonb)') is not null
   or exists(select 1 from pg_catalog.pg_attribute a where not a.attisdropped and ((a.attrelid='public.personal_audio_files'::regclass and a.attname='source_updated_at') or (a.attrelid='public.listening_progress'::regclass and a.attname='media_id'))) then raise exception 'A 007 object already exists; stop instead of overwriting';end if;
  lock table auth.users in share row exclusive mode;

@@ -12,9 +12,9 @@
 
 ## 当前唯一控制台步骤
 
-1. Supabase项目ocbydnsqennrumowqxvu → Authentication → Sign In / Providers → User Signups，关闭Allow new users to sign up并保存。界面可能将此设置放在Authentication Settings。保持Google和Email Provider启用。Dashboard Admin创建账号不依赖公共注册开关。
+1. Supabase项目your-project → Authentication → Sign In / Providers → User Signups，关闭Allow new users to sign up并保存。界面可能将此设置放在Authentication Settings。保持Google和Email Provider启用。Dashboard Admin创建账号不依赖公共注册开关。
 2. Authentication → Users → Add user → Create user。
-3. Email填yzh72339@gmail.com。设置自己的私人密码，只在Dashboard填写，不发送到聊天；启用Auto Confirm User并创建。若此邮箱已经存在，不要重复创建或删除账号，保留原UUID。
+3. Email填owner@example.com。设置自己的私人密码，只在Dashboard填写，不发送到聊天；启用Auto Confirm User并创建。若此邮箱已经存在，不要重复创建或删除账号，保留原UUID。
 4. SQL Editor → New query → postgres，执行supabase/dashboard/account_readiness.sql。这是只读账号检查，不是第10份migration。
 5. 返回private_account_readiness：owner_auth_users应为1，所有布尔值true，languages包含en/B1、ja/N3，只有ja.primary为true。提交检查结果即可，不提供密码或Token。
 
@@ -22,7 +22,7 @@
 
 ## 本机运行（账号检查通过后）
 
-源码包不含.env.local。安装Node.js24，在项目根创建.env.local，设置NEXT_PUBLIC_SUPABASE_URL=https://ocbydnsqennrumowqxvu.supabase.co、NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY（Dashboard复制的真实Publishable Key）、ALLOWED_USER_EMAIL=yzh72339@gmail.com、SITE_ORIGIN=http://localhost:3000。不要将任何Secret加入NEXT_PUBLIC_*。
+源码包不含.env.local。安装Node.js24，在项目根创建.env.local，设置NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co、NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY（Dashboard复制的真实Publishable Key）、ALLOWED_USER_EMAIL=owner@example.com、SITE_ORIGIN=http://localhost:3000。不要将任何Secret加入NEXT_PUBLIC_*。
 
 ```sh
 npm ci

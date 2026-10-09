@@ -66,7 +66,7 @@ npm run build
 
 只有成功构建的 `out/` 可以发布。HTTPS 为安装、Service Worker 与麦克风的必要条件；localhost 可用于开发。托管应保证 `manifest.webmanifest` 是 JSON，`sw.js` 是 JavaScript，并允许每次检查新版本（例如 `Cache-Control: no-cache`）；指纹静态资源可长期缓存。
 
-`.openai/hosting.json` 已登记 Sites 项目 ID；没有构建与实际部署成功前，不要把预期域名当作已上线网站。
+开源包不包含原部署的 hosting 绑定；请使用你自己的 HTTPS 托管配置。没有实际部署成功前，不要把预期域名当作已上线网站。
 
 ## 5. 验收
 

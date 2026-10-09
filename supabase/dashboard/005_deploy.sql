@@ -36,7 +36,7 @@ begin
  if (select array_agg(c.relname::text order by c.relname::text) from pg_catalog.pg_class c join pg_catalog.pg_namespace n on n.oid=c.relnamespace
   where n.nspname='public' and c.relkind in ('r','p')) is distinct from v_tables then
   raise exception 'Public table inventory differs from verified 004';end if;
- if (select count(*) from private.app_owner)<>1 or not exists(select 1 from private.app_owner o where o.email='yzh72339@gmail.com') then
+ if (select count(*) from private.app_owner)<>1 or not exists(select 1 from private.app_owner o where o.email='owner@example.com') then
   raise exception 'Private owner configuration differs';end if;
  if current_setting('server_version_num')::int<150000 then raise exception 'This foreign-key action requires PostgreSQL 15 or newer';end if;
  lock table auth.users in share row exclusive mode;

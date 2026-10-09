@@ -1,0 +1,104 @@
+{
+  "id": "article-en-a2-library-weekend",
+  "kind": "reading",
+  "language": "en",
+  "level": "A2",
+  "difficulty": 2,
+  "tags": [
+    "daily-life",
+    "mobile-core"
+  ],
+  "title": "A different Saturday plan",
+  "topic": "社区",
+  "genre": "story",
+  "estimatedMinutes": 3,
+  "paragraphs": [
+    "Last Saturday, I met my friend Maya at a small library. We wanted a quiet place to read, but there was a notice on the door. The library was going to close early that day because a pipe needed repairs. We had only one hour.",
+    "At first, Maya was disappointed. She had a long list of things to do. Then the librarian showed us a table with free books. Some were old travel guides, and others were short stories. We each chose one book and sat outside in the sun. A child nearby asked Maya about the pictures in her book. They talked for ten minutes.",
+    "On the way home, Maya said, “Next weekend, I am going to bring my younger brother here. He thinks every library is silent and boring.” I told her about the book box near my school. Now we have a new plan. We are going to collect a few books for it and leave a short note inside each one.",
+    "Our morning did not follow the plan, but it gave us a better idea. Sometimes a small change can show you a place in a different way."
+  ],
+  "translation": [
+    "上星期六，我和朋友玛雅在一家小图书馆见面，想找安静的地方读书。但门上贴了通知：因为水管维修，图书馆当天会提早关门。我们只有一小时。",
+    "起初玛雅很失望，她计划做很多事。后来管理员带我们看了一张摆着免费书籍的桌子。有旧旅行指南，也有短篇故事。我们各选了一本，坐到户外晒太阳。旁边一个孩子问玛雅书里的图片，两人聊了十分钟。",
+    "回家路上玛雅说：“下周末我打算带弟弟来。他觉得图书馆都是安静又无聊的。”我向她介绍学校附近的书箱。我们有了新计划：收集几本书放进去，并在每本书里留一张短笺。",
+    "早晨没有按计划进行，却给了我们更好的想法。有时一个小变化会让你从不同角度认识一个地方。"
+  ],
+  "vocabulary": [
+    "course-en-a1-4",
+    "course-en-a1-6",
+    "lex-en-a2-plan"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-a2-going-to-plan",
+      "surface": "I am going to bring"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-a2-library-weekend-q1",
+      "type": "detail",
+      "prompt": "Why did the library close early?",
+      "options": [
+        "A pipe needed repairs.",
+        "The librarian wanted to travel.",
+        "There were no books."
+      ],
+      "answer": 0,
+      "explanation": "第一段明确交代水管需要维修。"
+    },
+    {
+      "id": "article-en-a2-library-weekend-q2",
+      "type": "inference",
+      "prompt": "Why does Maya want to bring her brother?",
+      "options": [
+        "She wants him to repair the pipe.",
+        "She needs him to buy a travel guide.",
+        "She wants him to see a different side of libraries."
+      ],
+      "answer": 2,
+      "explanation": "孩子与玛雅的交谈，和弟弟觉得图书馆无聊形成对照。"
+    },
+    {
+      "id": "article-en-a2-library-weekend-q3",
+      "type": "grammar",
+      "prompt": "What does “I am going to bring my younger brother here” express?",
+      "options": [
+        "A habit on every weekday.",
+        "A plan Maya has already formed.",
+        "An action that finished last year."
+      ],
+      "answer": 1,
+      "explanation": "这里going to说明已经形成的未来意图。"
+    },
+    {
+      "id": "article-en-a2-library-weekend-q4",
+      "type": "main-idea",
+      "prompt": "Which title fits the message of the story?",
+      "options": [
+        "A changed plan can bring a new idea.",
+        "Every library must stay silent.",
+        "Never visit a place without a list."
+      ],
+      "answer": 0,
+      "explanation": "末段直接总结计划变化带来的新发现。"
+    },
+    {
+      "id": "article-en-a2-library-weekend-supplement-26-1",
+      "type": "author-intent",
+      "prompt": "Why does the writer mention Maya’s younger brother?",
+      "options": [
+        "To prove all children dislike books.",
+        "To explain why the pipe broke.",
+        "To show how the visit may change someone’s idea of a library."
+      ],
+      "answer": 2,
+      "explanation": "Her brother considers libraries silent and boring; the conversation outside gives Maya a reason to bring him and broaden that view."
+    }
+  ],
+  "notes": [
+    "过去时叙述当天经历，going to转到已形成的未来计划。",
+    "阅读时先找事件如何改变，再判断作者的态度。"
+  ]
+}

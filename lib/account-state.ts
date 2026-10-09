@@ -20,6 +20,6 @@ export function initialAccountState(account:PrivateAccount,systemTheme:'light'|'
  const at=timestamp(profile.updated_at),primaryAt=timestamp(account.languages.find(language=>language.language_code===primary)?.updated_at??profile.updated_at);
  for(const key of ['name','dailyGoal','nativeLanguage','timezone','explanationLevel'])state._clock[`profile/${key}`]=at;
  for(const key of ['language','level','goal'])state._clock[`profile/${key}`]=primaryAt;
- state.theme=profile.theme==='system'?systemTheme:profile.theme;state._clock.theme=at;
+ state.theme=profile.theme==='system'?systemTheme:profile.theme;state._clock.theme=at;if(profile.theme==='system'){state.notes['app-theme-preference']='system';state._clock['notes/app-theme-preference']=at;}
  return state;
 }

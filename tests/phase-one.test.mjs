@@ -6,7 +6,7 @@ import {verifiedOwnerForProject,privateAccessAllowed} from '../lib/private-acces
 import {initialState} from '../lib/store.ts';
 import {mergeStates,stampChanges} from '../lib/sync-state.ts';
 
-const url='https://ocbydnsqennrumowqxvu.supabase.co',key='sb_publishable_test_public_key_123456';
+const url='https://your-project.supabase.co',key='sb_publishable_test_public_key_123456';
 const cached={id:'owner-id',projectUrl:url,verifiedAt:100};
 test('new Publishable Key uses the project root URL',()=>{
  assert.deepEqual(parseSupabasePublicConfig(`${url}/`,key),{ok:true,url,publishableKey:key});

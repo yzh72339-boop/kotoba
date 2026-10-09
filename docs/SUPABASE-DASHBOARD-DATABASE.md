@@ -4,7 +4,7 @@
 
 # 数据库迁移已完成：下一阶段为首次运行
 
-真实项目 ocbydnsqennrumowqxvu 的001–009已由用户逐份执行并提交完整只读验证，全部通过。43张表、42个业务表限制策略、2个最终Storage限制策略、3个private buckets。全部回执见supabase/dashboard/evidence。
+真实项目 your-project 的001–009已由用户逐份执行并提交完整只读验证，全部通过。43张表、42个业务表限制策略、2个最终Storage限制策略、3个private buckets。全部回执见supabase/dashboard/evidence。
 
 不要重跑部署SQL，不执行旧的整批入口、不执行远程reset。当前未新增migration。
 

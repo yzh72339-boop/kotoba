@@ -7,7 +7,7 @@ with owner as (
  join owner o on lower(u.email)=o.email
 )
 select jsonb_build_object(
- 'owner_configured',exists(select 1 from owner o where o.email='yzh72339@gmail.com'),
+ 'owner_configured',exists(select 1 from owner o where o.email='owner@example.com'),
  'owner_auth_users',(select count(*) from matching_users),
  'email_confirmed',exists(select 1 from matching_users u where u.email_confirmed_at is not null),
  'owner_uid_bound',exists(select 1 from owner o join matching_users u on u.id=o.user_id),

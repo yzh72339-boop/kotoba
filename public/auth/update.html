@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="color-scheme" content="light dark">
+  <title>Kotoba · 安全更新</title>
+  <style>
+    :root{font-family:system-ui,sans-serif;color:#181818;background:#fafaf8;color-scheme:light dark}
+    body{margin:0;padding:24px;min-height:100dvh;box-sizing:border-box;display:grid;place-items:center}
+    main{max-width:440px;width:100%}h1{font-size:28px;letter-spacing:-.04em}p{line-height:1.8;color:#737373}
+    button,a{display:block;box-sizing:border-box;width:100%;min-height:48px;margin-top:12px;padding:14px 18px;border-radius:10px;border:1px solid #e8e8e5;font:inherit;text-align:center;text-decoration:none}
+    button{background:#adc2ad;color:#181818;cursor:pointer}button:disabled{opacity:.5;cursor:default}[hidden]{display:none}a{color:inherit}#status{min-height:64px}
+    @media(prefers-color-scheme:dark){:root{background:#111;color:#f5f5f5}p{color:#999}button,a{border-color:#292929}}
+  </style>
+</head>
+<body>
+  <main>
+    <strong>kotoba.</strong>
+    <h1>安全更新应用</h1>
+    <p>如果安装版一直显示旧版本，可以在这里重新检查更新。请先在应用中完成 Sync now；尚未同步的数据也会保留在本设备。</p>
+    <p>此操作只更新应用代码，保留学习记录、登录状态、笔记和离线下载。</p>
+    <p id="status" role="status" aria-live="polite">准备好后点击检查更新。需要网络连接。</p>
+    <button id="check">检查更新</button>
+    <button id="activate" hidden disabled>安装更新并返回 Kotoba</button>
+    <a href="/">返回 Kotoba</a>
+  </main>
+  <script>
+    const status=document.getElementById('status'),check=document.getElementById('check'),activate=document.getElementById('activate');
+    let registration=null,reloading=false,timer;
+    function showWaiting(){
+      if(!registration?.waiting)return false;
+      clearTimeout(timer);status.textContent='新版本已下载。点击安装后返回应用，学习记录会保留。';
+      activate.hidden=false;activate.disabled=false;check.disabled=false;return true;
+    }
+    function watch(worker){
+      if(!worker)return;
+      worker.addEventListener('statechange',()=>{
+        if(worker.state==='installed')showWaiting();
+        if(worker.state==='redundant'){clearTimeout(timer);status.textContent='更新未安装成功。请确认联网、重新在浏览器登录此私人网站，然后重试。不会删除任何学习数据。';check.disabled=false;}
+      });
+    }
+    check.addEventListener('click',async()=>{
+      if(!navigator.onLine){status.textContent='请联网后再检查更新。';return;}
+      if(!('serviceWorker' in navigator)){status.textContent='请使用 Chrome 或 Safari，通过 HTTPS 打开此页面。';return;}
+      check.disabled=true;status.textContent='正在检查并下载新版应用…';
+      try{
+        registration=await navigator.serviceWorker.register('/sw.js',{scope:'/',updateViaCache:'none'});
+        if(showWaiting())return;
+        registration.addEventListener('updatefound',()=>watch(registration.installing));watch(registration.installing);
+        await registration.update();
+        if(showWaiting())return;
+        clearTimeout(timer);timer=setTimeout(()=>{if(showWaiting())return;check.disabled=false;status.textContent=registration.installing?'新版仍在下载，请稍候，再点击检查更新。':'暂未发现等待安装的更新。可返回应用检查；若仍显示旧版，请提供此页面截图。';},20000);
+      }catch{check.disabled=false;status.textContent='检查更新失败。请确认网络及网站登录状态后重试。学习数据未被清除。';}
+    });
+    activate.addEventListener('click',()=>{
+      if(!registration?.waiting){status.textContent='更新状态已变化，请重新检查。';activate.disabled=true;return;}
+      reloading=true;activate.disabled=true;status.textContent='正在激活新版应用…';registration.waiting.postMessage({type:'ACTIVATE_UPDATE'});
+    });
+    navigator.serviceWorker?.addEventListener('controllerchange',()=>{if(reloading)location.replace('/');});
+  </script>
+</body>
+</html>

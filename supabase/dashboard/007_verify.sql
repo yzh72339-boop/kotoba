@@ -68,7 +68,7 @@ select jsonb_build_object(
  'new_columns_unchanged',coalesce(md5((select jsonb_agg(to_jsonb(a) order by a.attrelid,a.attnum) from pg_catalog.pg_attribute a where (a.attrelid='public.personal_audio_files'::regclass and a.attname='source_updated_at') or (a.attrelid='public.listening_progress'::regclass and a.attname='media_id'))::text)=(select l.hashes->>'new_columns' from ledger l),false),
  'installed_function_unchanged',coalesce(md5((select to_jsonb(p) from pg_catalog.pg_proc p where p.oid=to_regprocedure('private.project_state(uuid,jsonb)'))::text)=(select l.hashes->>'installed_function' from ledger l),false),
  'new_columns_unfilled',not exists(select 1 from public.personal_audio_files a where a.source_updated_at is not null) and not exists(select 1 from public.listening_progress p where p.media_id is not null),
- 'owner_configured',(select count(*)=1 and bool_and(o.email='yzh72339@gmail.com') from private.app_owner o),
+ 'owner_configured',(select count(*)=1 and bool_and(o.email='owner@example.com') from private.app_owner o),
  'owner_table_rls',(select c.relrowsecurity from pg_catalog.pg_class c where c.oid='private.app_owner'::regclass),
  'browser_private_schema_access',has_schema_privilege('anon','private','USAGE') or has_schema_privilege('authenticated','private','USAGE'),
  'browser_owner_table_access',exists(select 1 from (values('anon'),('authenticated')) r(role_name) cross join (values('SELECT'),('INSERT'),('UPDATE'),('DELETE'),('TRUNCATE'),('REFERENCES'),('TRIGGER')) p(privilege) where has_table_privilege(r.role_name,'private.app_owner',p.privilege)),

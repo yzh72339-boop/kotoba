@@ -18,7 +18,7 @@ select pg_advisory_xact_lock(hashtext('kotoba-dashboard-bootstrap'));
 do $$begin
  if current_setting('server_version_num')::integer<150000 then raise exception 'PostgreSQL 15 or newer required';end if;
  if current_user<>'postgres' then raise exception 'Use the postgres SQL Editor role';end if;
- if (select count(*) from auth.users where lower(email)='yzh72339@gmail.com')>1 then raise exception 'Multiple matching Auth accounts: review identity before proceeding';end if;
+ if (select count(*) from auth.users where lower(email)='owner@example.com')>1 then raise exception 'Multiple matching Auth accounts: review identity before proceeding';end if;
  if exists(select 1 from pg_catalog.pg_class c join pg_catalog.pg_namespace n on n.oid=c.relnamespace where n.nspname='public' and c.relkind in ('r','p'))
     or to_regnamespace('private') is not null
     or exists(select 1 from pg_catalog.pg_proc p join pg_catalog.pg_namespace n on n.oid=p.pronamespace where n.nspname='public' and not exists(select 1 from pg_catalog.pg_depend d where d.classid='pg_proc'::regclass and d.objid=p.oid and d.deptype='e'))
@@ -46,7 +46,7 @@ for(const file of files){
  bundle+=`insert into supabase_migrations.schema_migrations(version,name,statements) values('${version}','${name}',array[${delimiter}${sql}${delimiter}]);\n`;
 }
 bundle+=`\n-- Server-side whitelist; no Auth account is created and no password is stored here.
-select public.configure_private_owner('yzh72339@gmail.com');
+select public.configure_private_owner('owner@example.com');
 commit;
 select version,name from supabase_migrations.schema_migrations order by version;
 `;

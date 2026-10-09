@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#F7F6FB">
+<title>更新 Kotoba</title>
+<style>
+:root{color-scheme:light dark;--bg:#f7f6fb;--fg:#211b33;--muted:#696476;--line:#e3dfed;--accent:#6744da;--on:#fff}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font-family:Inter,-apple-system,BlinkMacSystemFont,"Noto Sans SC",sans-serif;line-height:1.7}main{max-width:540px;margin:auto;padding:calc(52px + env(safe-area-inset-top)) 24px calc(40px + env(safe-area-inset-bottom))}.brand{font-size:24px;font-weight:650;letter-spacing:-1px;margin-bottom:64px}h1{font-size:32px;letter-spacing:-1px;line-height:1.25}p,li{color:var(--muted);font-size:15px}ol{padding-left:22px}li{margin:10px 0}.actions{display:grid;gap:12px;margin:28px 0}button,.back{font:inherit;border-radius:10px;min-height:48px;padding:12px 18px}button{cursor:pointer;color:var(--on);background:var(--accent);border:0}button:disabled{opacity:.5;cursor:default}.back{display:block;border:1px solid var(--line);color:var(--fg);text-decoration:none;text-align:center}button:focus-visible,a:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:4px}.confirm{display:flex;gap:12px;align-items:flex-start;font-size:14px;padding:12px 0;cursor:pointer;min-height:48px}.confirm input{width:22px;height:22px;flex-shrink:0;margin:3px 0}.status{border-top:1px solid var(--line);padding-top:20px;min-height:85px;overflow-wrap:anywhere}small{display:block;color:var(--muted);font-size:12px;margin-top:8px}[hidden]{display:none!important}@media(prefers-color-scheme:dark){:root{--bg:#100e17;--fg:#f7f4ff;--muted:#b1aaba;--line:#332c41;--accent:#6744da;--on:#fff}}@media(max-width:374px){main{padding-inline:16px}h1{font-size:28px}}
+body{background:radial-gradient(ellipse at 80% 0%,#805af21a,transparent 55%),var(--bg)}
+.brand{color:var(--accent);margin-bottom:42px}h1{font-weight:650;font-size:36px;letter-spacing:-1.3px;text-wrap:balance}
+button,.back{border-radius:14px;font-weight:600}button{background:linear-gradient(115deg,#7754ed,#5834bd);box-shadow:0 5px 18px #6744da22;transition:transform 140ms,background 180ms}button:not(:disabled):active{transform:scale(.98)}
+.status{padding:20px;border:1px solid var(--line);border-radius:18px;background:var(--bg)}
+@media(prefers-reduced-motion:reduce){button{transition:none}button:not(:disabled):active{transform:none}}
+</style>
+</head>
+<body><main>
+<div class="brand">kotoba.</div><h1>更新你的学习空间。</h1>
+<p>这个独立页面可以检查新版本，即使安装版仍显示旧首页。它不会删除学习数据、离线队列、备份或登录信息。</p>
+<ol><li>先在原应用中点击 Sync now，确认 synced。</li><li>关闭其他 Kotoba 窗口，保留这个更新页面。</li><li>检查新版本，再点击安装更新。</li></ol>
+<div class="actions"><button id="check" type="button">检查并下载更新</button>
+<label id="confirmation" class="confirm" hidden><input id="confirmed" type="checkbox"><span>我已同步进度，并关闭其他 Kotoba 窗口。</span></label>
+<button id="activate" type="button" hidden disabled>安装更新</button>
+<a class="back" href="/#Settings">返回 Kotoba</a></div>
+<div class="status" role="status" aria-live="polite"><span id="status">保持联网，点击上方按钮开始。</span><small id="build"></small></div>
+</main><script src="/api/app-update.js"></script></body></html>

@@ -47,7 +47,7 @@ with expected(name) as (select unnest(array[
 select jsonb_build_object(
  'expected_tables',(select count(*) from expected),
  'problems',coalesce((select jsonb_agg(jsonb_build_object('check',kind,'detail',detail) order by kind,detail) from problems),'[]'::jsonb),
- 'private_owner_configured',exists(select 1 from private.app_owner where email='yzh72339@gmail.com'),
+ 'private_owner_configured',exists(select 1 from private.app_owner where email='owner@example.com'),
  'owner_auth_uuid_bound',exists(select 1 from private.app_owner where user_id is not null),
  'private_config_rls',(select relrowsecurity from pg_catalog.pg_class where oid='private.app_owner'::regclass),
  'storage',coalesce((select jsonb_agg(jsonb_build_object('id',id,'public',public) order by id) from storage.buckets where id in ('personal-audio','personal-backups','personal-content')),'[]'::jsonb),

@@ -1,0 +1,741 @@
+[
+  {
+    "id": "grammar-en-b2-nondefining-relatives",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B2",
+    "difficulty": 4,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "N, who / which …,：提供补充信息的关系从句",
+    "pattern": "N, who / which …,",
+    "meaningZh": "提供补充信息的关系从句",
+    "meaningEn": "Supplementary relative clauses",
+    "explanation": "非限定关系从句补充已可识别的对象信息，用逗号分隔。它不同于限定从句，不负责筛选“是哪一个”。一般使用who或which，不用that，也不随意省略关系词。删去补充部分后主句仍能完整辨认对象。",
+    "usage": "为已知人物或事物补充说明",
+    "nuance": "逗号可能改变所指范围，并非只是书面装饰。",
+    "structure": [
+      "已识别名词, who/which + 从句, 主句"
+    ],
+    "formation": [
+      "已识别名词, who/which + 从句, 主句"
+    ],
+    "examples": [
+      {
+        "target": "Maya, who lives nearby, joined us.",
+        "zh": "住在附近的玛雅也加入了我们。"
+      },
+      {
+        "target": "The bridge, which opened last year, is busy.",
+        "zh": "这座桥去年开放，现在车流很多。"
+      },
+      {
+        "target": "My brother, who is a nurse, works nights.",
+        "zh": "我哥哥是一名护士，他上夜班。"
+      },
+      {
+        "target": "This report, which I read yesterday, is useful.",
+        "zh": "我昨天读的这份报告很有用。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在为已知人物或事物补充说明中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Maya, that lives nearby, joined us.",
+        "correct": "Maya, who lives nearby, joined us.",
+        "explanation": "非限定关系从句用who而不用that。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b1-defining-relative-clauses"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-b2-nondefining-relatives-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nMaya, who lives nearby, joined us.",
+        "options": [
+          "住在附近的玛雅也加入了我们。",
+          "这座桥去年开放，现在车流很多。",
+          "我哥哥是一名护士，他上夜班。"
+        ],
+        "acceptedAnswers": [
+          "住在附近的玛雅也加入了我们。"
+        ],
+        "explanation": "Maya, who lives nearby, joined us.：住在附近的玛雅也加入了我们。 非限定关系从句补充已可识别的对象信息，用逗号分隔。它不同于限定从句，不负责筛选“是哪一个”。一般使用who或which，不用that，也不随意省略关系词。删去补充部分后主句仍能完整辨认对象。"
+      },
+      {
+        "id": "grammar-en-b2-nondefining-relatives-fill",
+        "kind": "fill",
+        "prompt": "补充说明：Maya, (　) lives nearby, joined us.",
+        "options": [
+          "that",
+          "what",
+          "who"
+        ],
+        "acceptedAnswers": [
+          "who"
+        ],
+        "explanation": "补充人的信息使用who；非限定句不使用that。"
+      },
+      {
+        "id": "grammar-en-b2-nondefining-relatives-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n非限定关系从句用who而不用that。",
+        "options": [
+          "Maya, that lives nearby, joined us.",
+          "Maya, who lives nearby, joined us."
+        ],
+        "acceptedAnswers": [
+          "Maya, who lives nearby, joined us."
+        ],
+        "explanation": "非限定关系从句用who而不用that。"
+      },
+      {
+        "id": "grammar-en-b2-nondefining-relatives-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我昨天读的这份报告很有用。",
+        "acceptedAnswers": [
+          "This report, which I read yesterday, is useful."
+        ],
+        "explanation": "This report, which I read yesterday, is useful. 逗号可能改变所指范围，并非只是书面装饰。"
+      },
+      {
+        "id": "grammar-en-b2-nondefining-relatives-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nMy brother, who is a nurse, works nights.",
+        "options": [
+          "这座桥去年开放，现在车流很多。",
+          "我哥哥是一名护士，他上夜班。",
+          "住在附近的玛雅也加入了我们。"
+        ],
+        "acceptedAnswers": [
+          "我哥哥是一名护士，他上夜班。"
+        ],
+        "explanation": "原句对应“我哥哥是一名护士，他上夜班。”。逗号可能改变所指范围，并非只是书面装饰。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b2-reported-statements",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B2",
+    "difficulty": 4,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "said that + 从句：转述别人说的话",
+    "pattern": "said that + 从句",
+    "meaningZh": "转述别人说的话",
+    "meaningEn": "Reporting statements",
+    "explanation": "转述陈述时常随过去的said把时态后移，并按转述视角调整代词和时间。后移不总是强制：仍成立的事实可保留现在时。重点是明确谁说了什么以及陈述在转述时是否仍成立，而非只做词形替换。",
+    "usage": "准确转述陈述",
+    "nuance": "say不直接接人作宾语；tell通常需要告诉的对象。",
+    "structure": [
+      "said that + 转述从句；tell + 人 + that从句"
+    ],
+    "formation": [
+      "said that + 转述从句；tell + 人 + that从句"
+    ],
+    "examples": [
+      {
+        "target": "Maya said that she was tired.",
+        "zh": "玛雅说她累了。"
+      },
+      {
+        "target": "He told me that he had lost his key.",
+        "zh": "他告诉我他丢了钥匙。"
+      },
+      {
+        "target": "They said that they would arrive later.",
+        "zh": "他们说他们会晚些到。"
+      },
+      {
+        "target": "The guide said that the museum opens at nine.",
+        "zh": "导游说博物馆九点开门。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在准确转述陈述中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "He said me that he was tired.",
+        "correct": "He told me that he was tired.",
+        "explanation": "tell可直接接对象me，say须用said to me。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b1-past-perfect-sequence"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-b2-reported-statements-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nMaya said that she was tired.",
+        "options": [
+          "他们说他们会晚些到。",
+          "玛雅说她累了。",
+          "他告诉我他丢了钥匙。"
+        ],
+        "acceptedAnswers": [
+          "玛雅说她累了。"
+        ],
+        "explanation": "Maya said that she was tired.：玛雅说她累了。 转述陈述时常随过去的said把时态后移，并按转述视角调整代词和时间。后移不总是强制：仍成立的事实可保留现在时。重点是明确谁说了什么以及陈述在转述时是否仍成立，而非只做词形替换。"
+      },
+      {
+        "id": "grammar-en-b2-reported-statements-fill",
+        "kind": "fill",
+        "prompt": "转述过去的疲惫：Maya said she (　) tired.",
+        "options": [
+          "will",
+          "was",
+          "has"
+        ],
+        "acceptedAnswers": [
+          "was"
+        ],
+        "explanation": "am在本语境转为was；主语随说话人转为she。"
+      },
+      {
+        "id": "grammar-en-b2-reported-statements-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\ntell可直接接对象me，say须用said to me。",
+        "options": [
+          "He told me that he was tired.",
+          "He said me that he was tired."
+        ],
+        "acceptedAnswers": [
+          "He told me that he was tired."
+        ],
+        "explanation": "tell可直接接对象me，say须用said to me。"
+      },
+      {
+        "id": "grammar-en-b2-reported-statements-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n导游说博物馆九点开门。",
+        "acceptedAnswers": [
+          "The guide said that the museum opens at nine."
+        ],
+        "explanation": "The guide said that the museum opens at nine. say不直接接人作宾语；tell通常需要告诉的对象。"
+      },
+      {
+        "id": "grammar-en-b2-reported-statements-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nThey said that they would arrive later.",
+        "options": [
+          "他们说他们会晚些到。",
+          "玛雅说她累了。",
+          "他告诉我他丢了钥匙。"
+        ],
+        "acceptedAnswers": [
+          "他们说他们会晚些到。"
+        ],
+        "explanation": "原句对应“他们说他们会晚些到。”。say不直接接人作宾语；tell通常需要告诉的对象。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b2-reported-questions",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B2",
+    "difficulty": 4,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "asked + if / whether / wh + 陈述语序：转述问题",
+    "pattern": "asked + if / whether / wh + 陈述语序",
+    "meaningZh": "转述问题",
+    "meaningEn": "Reported questions",
+    "explanation": "间接转述问题后用陈述语序，不保留直接问句的助动词倒装。是非问句用if或whether，信息问句保留wh词。时态与人称按转述语境调整，末尾是否问号取决于整个主句是否为提问。",
+    "usage": "转述别人询问的内容",
+    "nuance": "asked where I lived不是asked where did I live。",
+    "structure": [
+      "asked + wh/if/whether + 主语 + 谓语"
+    ],
+    "formation": [
+      "asked + wh/if/whether + 主语 + 谓语"
+    ],
+    "examples": [
+      {
+        "target": "She asked where I lived.",
+        "zh": "她问我住在哪里。"
+      },
+      {
+        "target": "He asked whether the shop was open.",
+        "zh": "他问商店是否开着。"
+      },
+      {
+        "target": "They asked when the train would leave.",
+        "zh": "他们问火车什么时候开。"
+      },
+      {
+        "target": "Maya asked if I needed help.",
+        "zh": "玛雅问我是否需要帮助。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在转述别人询问的内容中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She asked where did I live.",
+        "correct": "She asked where I lived.",
+        "explanation": "转述从句取消did倒装，谓语回到陈述过去式。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b1-indirect-questions"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-b2-reported-questions-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nShe asked where I lived.",
+        "options": [
+          "他问商店是否开着。",
+          "他们问火车什么时候开。",
+          "她问我住在哪里。"
+        ],
+        "acceptedAnswers": [
+          "她问我住在哪里。"
+        ],
+        "explanation": "She asked where I lived.：她问我住在哪里。 间接转述问题后用陈述语序，不保留直接问句的助动词倒装。是非问句用if或whether，信息问句保留wh词。时态与人称按转述语境调整，末尾是否问号取决于整个主句是否为提问。"
+      },
+      {
+        "id": "grammar-en-b2-reported-questions-fill",
+        "kind": "fill",
+        "prompt": "She asked (　).",
+        "options": [
+          "where I lived",
+          "where did I live",
+          "where do I lived"
+        ],
+        "acceptedAnswers": [
+          "where I lived"
+        ],
+        "explanation": "间接问句使用陈述语序。"
+      },
+      {
+        "id": "grammar-en-b2-reported-questions-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n转述从句取消did倒装，谓语回到陈述过去式。",
+        "options": [
+          "She asked where did I live.",
+          "She asked where I lived."
+        ],
+        "acceptedAnswers": [
+          "She asked where I lived."
+        ],
+        "explanation": "转述从句取消did倒装，谓语回到陈述过去式。"
+      },
+      {
+        "id": "grammar-en-b2-reported-questions-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n玛雅问我是否需要帮助。",
+        "acceptedAnswers": [
+          "Maya asked if I needed help."
+        ],
+        "explanation": "Maya asked if I needed help. asked where I lived不是asked where did I live。"
+      },
+      {
+        "id": "grammar-en-b2-reported-questions-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nThey asked when the train would leave.",
+        "options": [
+          "她问我住在哪里。",
+          "他问商店是否开着。",
+          "他们问火车什么时候开。"
+        ],
+        "acceptedAnswers": [
+          "他们问火车什么时候开。"
+        ],
+        "explanation": "原句对应“他们问火车什么时候开。”。asked where I lived不是asked where did I live。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b2-causative-have-get",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B2",
+    "difficulty": 4,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "have / get + object + past participle：让别人完成某项服务",
+    "pattern": "have / get + object + past participle",
+    "meaningZh": "让别人完成某项服务",
+    "meaningEn": "Arranged services",
+    "explanation": "have/get something done通常表示安排他人完成服务，不是自己亲手做。宾语是服务的对象，过去分词表达对象受到的行动。have的时态随主句变化。还存在不幸遭遇义，如had his bag stolen，需要根据上下文判断。",
+    "usage": "说明安排维修、检查和服务",
+    "nuance": "I repaired it亲自修；I had it repaired安排修理。",
+    "structure": [
+      "have/get + 对象 + 过去分词"
+    ],
+    "formation": [
+      "have/get + 对象 + 过去分词"
+    ],
+    "examples": [
+      {
+        "target": "I had my bicycle repaired.",
+        "zh": "我请人修了自行车。"
+      },
+      {
+        "target": "She gets her hair cut here.",
+        "zh": "她在这里理发。"
+      },
+      {
+        "target": "We will have the windows cleaned.",
+        "zh": "我们会请人清洗窗户。"
+      },
+      {
+        "target": "He had his eyes tested yesterday.",
+        "zh": "他昨天做了视力检查。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在说明安排维修、检查和服务中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I had my bicycle repair.",
+        "correct": "I had my bicycle repaired.",
+        "explanation": "服务对象后使用表示被动结果的过去分词。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b1-passive-processes"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-b2-causative-have-get-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nI had my bicycle repaired.",
+        "options": [
+          "我请人修了自行车。",
+          "她在这里理发。",
+          "我们会请人清洗窗户。"
+        ],
+        "acceptedAnswers": [
+          "我请人修了自行车。"
+        ],
+        "explanation": "I had my bicycle repaired.：我请人修了自行车。 have/get something done通常表示安排他人完成服务，不是自己亲手做。宾语是服务的对象，过去分词表达对象受到的行动。have的时态随主句变化。还存在不幸遭遇义，如had his bag stolen，需要根据上下文判断。"
+      },
+      {
+        "id": "grammar-en-b2-causative-have-get-fill",
+        "kind": "fill",
+        "prompt": "安排别人修理：I had my bicycle (　).",
+        "options": [
+          "repair",
+          "repairing",
+          "repaired"
+        ],
+        "acceptedAnswers": [
+          "repaired"
+        ],
+        "explanation": "bicycle是被维修的对象，使用过去分词。"
+      },
+      {
+        "id": "grammar-en-b2-causative-have-get-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n服务对象后使用表示被动结果的过去分词。",
+        "options": [
+          "I had my bicycle repaired.",
+          "I had my bicycle repair."
+        ],
+        "acceptedAnswers": [
+          "I had my bicycle repaired."
+        ],
+        "explanation": "服务对象后使用表示被动结果的过去分词。"
+      },
+      {
+        "id": "grammar-en-b2-causative-have-get-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n他昨天做了视力检查。",
+        "acceptedAnswers": [
+          "He had his eyes tested yesterday."
+        ],
+        "explanation": "He had his eyes tested yesterday. I repaired it亲自修；I had it repaired安排修理。"
+      },
+      {
+        "id": "grammar-en-b2-causative-have-get-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nWe will have the windows cleaned.",
+        "options": [
+          "她在这里理发。",
+          "我们会请人清洗窗户。",
+          "我请人修了自行车。"
+        ],
+        "acceptedAnswers": [
+          "我们会请人清洗窗户。"
+        ],
+        "explanation": "原句对应“我们会请人清洗窗户。”。I repaired it亲自修；I had it repaired安排修理。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b2-past-modal-deduction",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B2",
+    "difficulty": 4,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "must / might / can’t + have + 分词：推测过去发生的情况",
+    "pattern": "must / might / can’t + have + 分词",
+    "meaningZh": "推测过去发生的情况",
+    "meaningEn": "Deductions about past events",
+    "explanation": "情态动词加have和过去分词用于对过去的推测。must have表达强证据下的确信，might have保留可能，can’t have表示认为不可能。它们不是过去义务：had to describes obligation。推测必须建立在可说明的证据上。",
+    "usage": "根据线索推测过去",
+    "nuance": "must have left不是他当时必须离开，而是现在推断他已离开。",
+    "structure": [
+      "modal + have + 过去分词"
+    ],
+    "formation": [
+      "modal + have + 过去分词"
+    ],
+    "examples": [
+      {
+        "target": "She must have left already.",
+        "zh": "她一定已经离开了。"
+      },
+      {
+        "target": "He might have missed the bus.",
+        "zh": "他可能错过了公交车。"
+      },
+      {
+        "target": "They cannot have finished in five minutes.",
+        "zh": "他们不可能五分钟就完成了。"
+      },
+      {
+        "target": "We may have sent the wrong file.",
+        "zh": "我们可能发错文件了。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在根据线索推测过去中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She must has left already.",
+        "correct": "She must have left already.",
+        "explanation": "must后have不随she改为has。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b2-hedging-may-might"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-b2-past-modal-deduction-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nShe must have left already.",
+        "options": [
+          "他们不可能五分钟就完成了。",
+          "她一定已经离开了。",
+          "他可能错过了公交车。"
+        ],
+        "acceptedAnswers": [
+          "她一定已经离开了。"
+        ],
+        "explanation": "She must have left already.：她一定已经离开了。 情态动词加have和过去分词用于对过去的推测。must have表达强证据下的确信，might have保留可能，can’t have表示认为不可能。它们不是过去义务：had to describes obligation。推测必须建立在可说明的证据上。"
+      },
+      {
+        "id": "grammar-en-b2-past-modal-deduction-fill",
+        "kind": "fill",
+        "prompt": "过去推测：She must (　) already.",
+        "options": [
+          "has left",
+          "have left",
+          "left"
+        ],
+        "acceptedAnswers": [
+          "have left"
+        ],
+        "explanation": "情态动词后接原形have再接过去分词。"
+      },
+      {
+        "id": "grammar-en-b2-past-modal-deduction-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nmust后have不随she改为has。",
+        "options": [
+          "She must has left already.",
+          "She must have left already."
+        ],
+        "acceptedAnswers": [
+          "She must have left already."
+        ],
+        "explanation": "must后have不随she改为has。"
+      },
+      {
+        "id": "grammar-en-b2-past-modal-deduction-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我们可能发错文件了。",
+        "acceptedAnswers": [
+          "We may have sent the wrong file."
+        ],
+        "explanation": "We may have sent the wrong file. must have left不是他当时必须离开，而是现在推断他已离开。"
+      },
+      {
+        "id": "grammar-en-b2-past-modal-deduction-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nThey cannot have finished in five minutes.",
+        "options": [
+          "他们不可能五分钟就完成了。",
+          "她一定已经离开了。",
+          "他可能错过了公交车。"
+        ],
+        "acceptedAnswers": [
+          "他们不可能五分钟就完成了。"
+        ],
+        "explanation": "原句对应“他们不可能五分钟就完成了。”。must have left不是他当时必须离开，而是现在推断他已离开。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b2-mixed-conditionals",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B2",
+    "difficulty": 4,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "if + past perfect, would + V（现在结果）：过去假设与当前结果",
+    "pattern": "if + past perfect, would + V（现在结果）",
+    "meaningZh": "过去假设与当前结果",
+    "meaningEn": "A past condition with a present result",
+    "explanation": "混合条件句把未实现的过去条件与现在结果连接。条件用过去完成时，当前结果用would加原形；若结果也在过去则用would have。先确认两个时间点，再选择形式，不将所有非现实条件都套成第三条件句。",
+    "usage": "讨论过去选择的当前影响",
+    "nuance": "now可以明确主句结果属于现在。",
+    "structure": [
+      "if + had + 分词；would/could + 原形（当前结果）"
+    ],
+    "formation": [
+      "if + had + 分词；would/could + 原形（当前结果）"
+    ],
+    "examples": [
+      {
+        "target": "If I had accepted the job, I would live in Tokyo now.",
+        "zh": "如果当时接受那份工作，我现在会住在东京。"
+      },
+      {
+        "target": "If she had slept well, she would feel better now.",
+        "zh": "如果她昨晚睡好，现在会舒服些。"
+      },
+      {
+        "target": "We would know the answer if we had read the report.",
+        "zh": "如果读过报告，我们现在就会知道答案。"
+      },
+      {
+        "target": "If he had saved more, he could afford the course now.",
+        "zh": "如果他之前多存些钱，现在就能负担课程费用。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在讨论过去选择的当前影响中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "If I had accepted the job, I would have lived there now.",
+        "correct": "If I had accepted the job, I would live there now.",
+        "explanation": "本语境描述现在的居住状态，用would live。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b2-third-conditional",
+      "grammar-en-b1-second-conditional"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-b2-mixed-conditionals-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nIf I had accepted the job, I would live in Tokyo now.",
+        "options": [
+          "如果她昨晚睡好，现在会舒服些。",
+          "如果读过报告，我们现在就会知道答案。",
+          "如果当时接受那份工作，我现在会住在东京。"
+        ],
+        "acceptedAnswers": [
+          "如果当时接受那份工作，我现在会住在东京。"
+        ],
+        "explanation": "If I had accepted the job, I would live in Tokyo now.：如果当时接受那份工作，我现在会住在东京。 混合条件句把未实现的过去条件与现在结果连接。条件用过去完成时，当前结果用would加原形；若结果也在过去则用would have。先确认两个时间点，再选择形式，不将所有非现实条件都套成第三条件句。"
+      },
+      {
+        "id": "grammar-en-b2-mixed-conditionals-fill",
+        "kind": "fill",
+        "prompt": "过去条件、现在结果：If she had slept well, she (　) better now.",
+        "options": [
+          "would feel",
+          "would have felt",
+          "had felt"
+        ],
+        "acceptedAnswers": [
+          "would feel"
+        ],
+        "explanation": "now给出当前结果，不用过去结果的would have felt。"
+      },
+      {
+        "id": "grammar-en-b2-mixed-conditionals-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n本语境描述现在的居住状态，用would live。",
+        "options": [
+          "If I had accepted the job, I would live there now.",
+          "If I had accepted the job, I would have lived there now."
+        ],
+        "acceptedAnswers": [
+          "If I had accepted the job, I would live there now."
+        ],
+        "explanation": "本语境描述现在的居住状态，用would live。"
+      },
+      {
+        "id": "grammar-en-b2-mixed-conditionals-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n如果他之前多存些钱，现在就能负担课程费用。",
+        "acceptedAnswers": [
+          "If he had saved more, he could afford the course now."
+        ],
+        "explanation": "If he had saved more, he could afford the course now. now可以明确主句结果属于现在。"
+      },
+      {
+        "id": "grammar-en-b2-mixed-conditionals-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nWe would know the answer if we had read the report.",
+        "options": [
+          "如果当时接受那份工作，我现在会住在东京。",
+          "如果她昨晚睡好，现在会舒服些。",
+          "如果读过报告，我们现在就会知道答案。"
+        ],
+        "acceptedAnswers": [
+          "如果读过报告，我们现在就会知道答案。"
+        ],
+        "explanation": "原句对应“如果读过报告，我们现在就会知道答案。”。now可以明确主句结果属于现在。"
+      }
+    ]
+  }
+]

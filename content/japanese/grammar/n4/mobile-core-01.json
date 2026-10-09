@@ -1,0 +1,130 @@
+{
+  "id": "grammar-ja-n4-nagara",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "daily-life",
+    "mobile-core"
+  ],
+  "title": "〜ながら：同时做两件事",
+  "pattern": "Vます词干 + ながら",
+  "meaningZh": "一边……一边……",
+  "meaningEn": "Two actions by the same person happening at the same time",
+  "explanation": "用动词ます形去掉ます，再接ながら，表示同一个人同时做两件事。ながら前的动作是背景，句末动作通常是主要动作，例如音楽を聞きながら料理します，重点是做饭。不适合把两个不同主体的动作强行连接，也不是任何发生在同一天的事情都能用；两项活动必须在时间上重叠。",
+  "usage": "描述做家务、学习、通勤等同时进行的活动。",
+  "nuance": "学习重点是同时进行义。知っていながら等表示逆接的用法属于另一种较高级语境，不应混为一谈。",
+  "structure": [
+    "聞きます → 聞き + ながら",
+    "Vます词干 + ながら + 主要动作"
+  ],
+  "formation": [
+    "聞きます → 聞き + ながら",
+    "Vます词干 + ながら + 主要动作"
+  ],
+  "examples": [
+    {
+      "target": "音楽を聞きながら料理します。",
+      "reading": "おんがくをききながらりょうりします。",
+      "zh": "我一边听音乐一边做饭。",
+      "en": "I cook while listening to music."
+    },
+    {
+      "target": "友達と話しながら駅まで歩きました。",
+      "reading": "ともだちとはなしながらえきまであるきました。",
+      "zh": "我和朋友边聊边走到了车站。",
+      "en": "I walked to the station while talking with a friend."
+    },
+    {
+      "target": "コーヒーを飲みながら本を読んでいます。",
+      "reading": "こーひーをのみながらほんをよんでいます。",
+      "zh": "我一边喝咖啡一边看书。",
+      "en": "I am reading while drinking coffee."
+    },
+    {
+      "target": "地図を見ながら店を探しました。",
+      "reading": "ちずをみながらみせをさがしました。",
+      "zh": "我边看地图边找店。",
+      "en": "I looked for the shop while checking a map."
+    }
+  ],
+  "notes": [
+    "等级用于学习路径编排，语境与完整句子比单独记规则更重要。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は勉強しながら、妹は料理します。",
+      "correct": "私は音楽を聞きながら勉強します。",
+      "explanation": "同时进行义的ながら通常要求前后动作主体一致；两个不同人的活动可用间接时间表达。"
+    }
+  ],
+  "comparison": [],
+  "prerequisites": [
+    "grammar-ja-n5-masu-stem"
+  ],
+  "relatedGrammar": [],
+  "exercises": [
+    {
+      "id": "grammar-ja-n4-nagara-1",
+      "kind": "meaning",
+      "prompt": "地図を見ながら歩きます。重点动作是什么？",
+      "options": [
+        "走路",
+        "看地图是唯一动作",
+        "先看完地图再走"
+      ],
+      "acceptedAnswers": [
+        "走路"
+      ],
+      "explanation": "句末的歩きます是主要动作，見ながら是伴随活动。"
+    },
+    {
+      "id": "grammar-ja-n4-nagara-2",
+      "kind": "transform",
+      "prompt": "把「聞きます」变成「一边听……」的连接形式。",
+      "acceptedAnswers": [
+        "聞きながら"
+      ],
+      "explanation": "去掉ます后接ながら：聞き＋ながら。"
+    },
+    {
+      "id": "grammar-ja-n4-nagara-3",
+      "kind": "context",
+      "prompt": "同一个人边喝茶边读书，哪句合适？",
+      "options": [
+        "お茶を飲む前に本を読みます。",
+        "お茶を飲みながら本を読みます。",
+        "お茶を飲んだ後で本を読みます。"
+      ],
+      "acceptedAnswers": [
+        "お茶を飲みながら本を読みます。"
+      ],
+      "explanation": "ながら表示同时，後で与前に表示先后。"
+    },
+    {
+      "id": "grammar-ja-n4-nagara-4",
+      "kind": "translation",
+      "prompt": "把“我边听音乐边学习”译成日语。",
+      "acceptedAnswers": [
+        "音楽を聞きながら勉強します。",
+        "私は音楽を聞きながら勉強します。"
+      ],
+      "explanation": "主要动作是勉強します；音乐是背景活动。"
+    },
+    {
+      "id": "grammar-ja-n4-nagara-example-meaning-26",
+      "kind": "context",
+      "prompt": "在本课语境中，哪项最准确理解这句话？\n地図を見ながら店を探しました。",
+      "options": [
+        "我边看地图边找店。",
+        "我一边听音乐一边做饭。",
+        "我和朋友边聊边走到了车站。"
+      ],
+      "acceptedAnswers": [
+        "我边看地图边找店。"
+      ],
+      "explanation": "本句的中文是“我边看地图边找店。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。学习重点是同时进行义。知っていながら等表示逆接的用法属于另一种较高级语境，不应混为一谈。"
+    }
+  ]
+}

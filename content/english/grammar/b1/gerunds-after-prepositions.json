@@ -1,0 +1,121 @@
+{
+  "id": "grammar-en-b1-gerunds-after-prepositions",
+  "kind": "grammar",
+  "language": "en",
+  "level": "B1",
+  "difficulty": 3,
+  "tags": [
+    "writing",
+    "conversation"
+  ],
+  "title": "After a preposition, use an -ing form",
+  "pattern": "preposition + -ing",
+  "meaningZh": "介词后的动名词结构",
+  "meaningEn": "Naming an action after a preposition",
+  "explanation": "介词后通常接名词、代词或具有名词功能的动名词，而不是直接接动词原形。谈到动作时，把动词改为 -ing 形式：without checking、by practising、after arriving。要特别分辨 to：在 look forward to 或 be used to 中，to 是介词，后接 -ing；在 want to do 中，to 属于不定式结构，后接动词原形。",
+  "usage": "描述方式、先后顺序、避免某个动作，或在固定搭配中提到一项活动。",
+  "nuance": "by doing 常说明达到结果的手段，without doing 强调某动作没有发生；after doing 说明先后关系，本身不保证两个动作同时发生。",
+  "structure": [
+    "介词 + 动词 -ing",
+    "look forward to + 名词 / 动词 -ing",
+    "without + 动词 -ing"
+  ],
+  "formation": [
+    "介词 + 动词 -ing",
+    "look forward to + 名词 / 动词 -ing",
+    "without + 动词 -ing"
+  ],
+  "examples": [
+    {
+      "target": "She left without checking the final page.",
+      "zh": "她没检查最后一页就离开了。"
+    },
+    {
+      "target": "You can reduce waste by repairing what you already own.",
+      "zh": "你可以通过修理已有物品来减少浪费。"
+    },
+    {
+      "target": "After moving to a new city, he joined a local choir.",
+      "zh": "搬到新城市后，他加入了当地合唱团。"
+    },
+    {
+      "target": "I am looking forward to hearing your ideas.",
+      "zh": "我期待听到你的想法。"
+    }
+  ],
+  "notes": [
+    "学习者等级为课程编排参考；CEFR 并未提供一份逐条固定的语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I am looking forward to hear your ideas.",
+      "correct": "I am looking forward to hearing your ideas.",
+      "explanation": "look forward to 中的 to 是介词，不是 want to do 一类不定式中的 to。"
+    }
+  ],
+  "comparison": [],
+  "prerequisites": [],
+  "relatedGrammar": [],
+  "exercises": [
+    {
+      "id": "grammar-en-b1-gerunds-after-prepositions-meaning",
+      "kind": "meaning",
+      "prompt": "What is the main purpose of this pattern?",
+      "options": [
+        "介词后的动名词结构",
+        "表示说话者已经证明结果必然发生",
+        "只用于说明眼前正在发生的动作"
+      ],
+      "acceptedAnswers": [
+        "介词后的动名词结构"
+      ],
+      "explanation": "by doing 常说明达到结果的手段，without doing 强调某动作没有发生；after doing 说明先后关系，本身不保证两个动作同时发生。"
+    },
+    {
+      "id": "grammar-en-b1-gerunds-after-prepositions-fill",
+      "kind": "fill",
+      "prompt": "She left without _____ the final page.",
+      "options": [
+        "checking",
+        "check",
+        "to check"
+      ],
+      "acceptedAnswers": [
+        "checking"
+      ],
+      "explanation": "介词 + 动词 -ing / look forward to + 名词 / 动词 -ing / without + 动词 -ing"
+    },
+    {
+      "id": "grammar-en-b1-gerunds-after-prepositions-context",
+      "kind": "context",
+      "prompt": "表达“通过修理来减少浪费”，选哪种接续？",
+      "options": [
+        "by repairing",
+        "by repair",
+        "by to repair"
+      ],
+      "acceptedAnswers": [
+        "by repairing"
+      ],
+      "explanation": "介词后通常接名词、代词或具有名词功能的动名词，而不是直接接动词原形。谈到动作时，把动词改为 -ing 形式：without checking、by practising、after arriving。要特别分辨 to：在 look forward to 或 be used to 中，to 是介词，后接 -ing；在 want to do 中，to 属于不定式结构，后接动词原形。"
+    },
+    {
+      "id": "grammar-en-b1-gerunds-after-prepositions-translation",
+      "kind": "translation",
+      "prompt": "她没检查最后一页就离开了。",
+      "acceptedAnswers": [
+        "She left without checking the final page."
+      ],
+      "explanation": "这是自然的参考表达；其他准确表达可以对照结构自行确认。"
+    },
+    {
+      "id": "grammar-en-b1-gerunds-after-prepositions-sentence",
+      "kind": "sentence",
+      "prompt": "按正确顺序组合：page / final / the / checking / without / left / She",
+      "acceptedAnswers": [
+        "She left without checking the final page."
+      ],
+      "explanation": "注意主从句、动词结构与修饰语的位置。"
+    }
+  ]
+}

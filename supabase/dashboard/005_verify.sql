@@ -73,7 +73,7 @@ select jsonb_build_object(
  'constraints_unchanged',coalesce(md5((select jsonb_agg(to_jsonb(c) order by c.oid) from pg_catalog.pg_constraint c where (c.conrelid='public.user_progress'::regclass and c.conname='bounded_personal_snapshot') or (c.conrelid='public.mistakes'::regclass and c.conname='mistakes_vocabulary_owner'))::text)=(select l.hashes->>'constraints' from ledger l),false),
  'snapshot_limit_bytes',16777216,
  'mistake_user_id_not_null',(select a.attnotnull from pg_catalog.pg_attribute a where a.attrelid='public.mistakes'::regclass and a.attname='user_id'),
- 'owner_configured',(select count(*)=1 and bool_and(o.email='yzh72339@gmail.com') from private.app_owner o),
+ 'owner_configured',(select count(*)=1 and bool_and(o.email='owner@example.com') from private.app_owner o),
  'owner_table_rls',(select c.relrowsecurity from pg_catalog.pg_class c where c.oid='private.app_owner'::regclass),
  'browser_private_schema_access',has_schema_privilege('anon','private','USAGE') or has_schema_privilege('authenticated','private','USAGE'),
  'browser_owner_table_access',exists(select 1 from (values('anon'),('authenticated')) r(role_name) cross join (values('SELECT'),('INSERT'),('UPDATE'),('DELETE'),('TRUNCATE'),('REFERENCES'),('TRIGGER')) p(privilege) where has_table_privilege(r.role_name,'private.app_owner',p.privilege)),

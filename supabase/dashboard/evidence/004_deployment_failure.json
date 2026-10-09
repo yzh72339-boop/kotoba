@@ -1,9 +1,0 @@
-{
-  "source": "user screenshot 1000053976.jpg",
-  "sqlstate": "42702",
-  "full_error_received": false,
-  "failed_statement": "004 migration ledger INSERT",
-  "diagnosis": "Deployment loop variable t conflicts with unqualified derived-table column t in seed fingerprint aggregation.",
-  "repair": "Qualify q.t, q.id and q.data in the generator. Canonical 004 migration body unchanged.",
-  "remote_status": "User full read-only inventory confirms only versions001002003,41 tables,no persisted004 table/RPC/ledger or starter identities,and unchanged RLS helpers. Corrected004 redeployment/verification pending."
-}

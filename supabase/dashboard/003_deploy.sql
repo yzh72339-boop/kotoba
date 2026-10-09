@@ -184,7 +184,7 @@ begin
   raise exception 'Public table inventory differs from verified 002';
  end if;
  if to_regclass('private.app_owner') is null then raise exception 'Private owner configuration is missing';end if;
- if (select count(*) from private.app_owner)<>1 or not exists(select 1 from private.app_owner where email='yzh72339@gmail.com') then
+ if (select count(*) from private.app_owner)<>1 or not exists(select 1 from private.app_owner where email='owner@example.com') then
   raise exception 'Private owner email differs from server configuration';
  end if;
  if exists(select 1 from unnest(array['public.record_review(uuid,uuid,text,timestamptz,integer)','public.sync_personal_state(bigint,text,jsonb)','public.personal_progress(text)','private.resolve_id(uuid,text,text)','private.validate_review_target()','private.create_review_item()','private.create_grammar_review()','private.project_state(uuid,jsonb)']) s where to_regprocedure(s) is not null) then

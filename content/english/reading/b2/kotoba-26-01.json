@@ -1,0 +1,359 @@
+[
+  {
+    "id": "article-en-b2-data-garden",
+    "kind": "reading",
+    "language": "en",
+    "level": "B2",
+    "difficulty": 4,
+    "tags": [
+      "kotoba-26",
+      "环境"
+    ],
+    "title": "What the garden numbers miss",
+    "topic": "环境",
+    "genre": "opinion",
+    "estimatedMinutes": 5,
+    "paragraphs": [
+      "Our community garden keeps a record of how much food it produces. At the end of summer, volunteers weigh the final harvest and compare it with the previous year. The figures are useful: they can show whether a new watering method has helped or whether a crop needs a different position. This year, however, the harvest was smaller despite longer hours of work. Several members wondered whether the project was becoming less successful.",
+      "A volunteer suggested that we examine what those extra hours involved. Some were spent teaching new members how to use the tools. Others involved making a wider path so that an older participant could reach the beds. Neither activity immediately produced vegetables. Both made it possible for more people to take part. If we had counted only kilograms, we would have treated the time spent on access and learning as a cost with no return.",
+      "This does not mean that the harvest no longer matters. People grow food partly because they want to eat it, and resources are limited. A project that repeatedly produces little may need to change its methods. But we should avoid using one measure as if it described every purpose. The garden is a place to produce food, learn skills and build relationships. Those purposes sometimes support each other and sometimes compete for the same afternoon.",
+      "We decided to keep the harvest figures and add a short account of other work. Rather than collect personal stories from everyone, we asked volunteers to note changes to the shared space and skills taught during a session. People could choose not to appear in any description. The information would not become a second competition. Its purpose was to explain the first number, not to create a score for kindness or friendship.",
+      "When the report was finished, the smaller harvest still appeared on the first page. We did not hide it behind a cheerful photograph. Beside it, we described why part of the work had changed and what we intended to test next season. The result was not a perfect picture of the garden. It was a more honest basis for deciding what to do next. A useful report should make a difficult conversation possible, rather than remove the need to have it.",
+      "Before the next season, we will agree on which changes to test and who will record them. That should prevent us from inventing a new explanation only after seeing results we dislike. Context is most useful when its collection is planned."
+    ],
+    "translation": [
+      "社区花园记录产量，夏末称收成与去年比，数字能提示浇水方法和作物位置。今年工时更多、产量却少，有人疑项目退步。",
+      "有人建议看新增工时做什么：教新人用工具、拓宽路让老人到菜床。都非直接产菜，却让更多人参与。若只算公斤，学习与可达时间会被视无回报成本。",
+      "非说收成无关，种食为吃且资源有限，持续低产可改法。但一指标非所有目的。园同时产食、教技能、建关系，目标有时相助、有时抢同一下午。",
+      "保留收成数字，加其他工作简记，非采人人故事，而记共同空间改变和技能教学。可不入描述，信息非第二场竞赛，解释原数字而非善良友情评分。",
+      "完报告小收成仍首面，不用喜照掩饰。旁解释劳动改变和下季试验。非完美画像，却更诚实地支持下一步。报告应使难讨论可发生，而非抹去必要。",
+      "下季前会约定试什么、谁记录，避免看到不喜欢的结果才临时编解释。语境信息的收集预先规划更有用。"
+    ],
+    "vocabulary": [
+      "course-en-a1-10",
+      "supp-en-a1-6",
+      "supp-en-a1-11",
+      "en-take",
+      "lex-en-a1-time",
+      "lex-en-a1-work"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-b2-third-conditional",
+        "surface": "If we had counted"
+      },
+      {
+        "id": "grammar-en-c1-however-linking",
+        "surface": "however"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-b2-data-garden-q1",
+        "type": "main-idea",
+        "prompt": "What does the writer propose?",
+        "options": [
+          "Keep production data but interpret it alongside other purposes.",
+          "Replace all numbers with positive stories.",
+          "Stop growing food and only teach."
+        ],
+        "answer": 0,
+        "explanation": "第三、四段保留数据、补理解，不全面取消。"
+      },
+      {
+        "id": "article-en-b2-data-garden-q2",
+        "type": "detail",
+        "prompt": "Why were some extra hours needed?",
+        "options": [
+          "To weigh every vegetable twice.",
+          "To prepare a competition for visitors.",
+          "To teach tool use and improve access."
+        ],
+        "answer": 2,
+        "explanation": "第二段两项新增劳动。"
+      },
+      {
+        "id": "article-en-b2-data-garden-q3",
+        "type": "inference",
+        "prompt": "What risk does a second score create?",
+        "options": [
+          "It would remove the need to record harvests.",
+          "It could turn relationships into another competition.",
+          "It would inevitably reduce water costs."
+        ],
+        "answer": 1,
+        "explanation": "第四段不打善良友情分，防新竞赛。"
+      },
+      {
+        "id": "article-en-b2-data-garden-q4",
+        "type": "grammar",
+        "prompt": "“If we had counted only kilograms” presents what?",
+        "options": [
+          "An unreal past approach and its hypothetical result.",
+          "A guaranteed future harvest.",
+          "A factual statement that teaching never occurred."
+        ],
+        "answer": 0,
+        "explanation": "第三条件句反事实讨论过去若只算公斤会怎样。"
+      },
+      {
+        "id": "article-en-b2-data-garden-q5",
+        "type": "author-intent",
+        "prompt": "Why mention the smaller harvest remained on page one?",
+        "options": [
+          "To claim it was the largest harvest.",
+          "To encourage readers to ignore it.",
+          "To show that added context is not an excuse to hide inconvenient data."
+        ],
+        "answer": 2,
+        "explanation": "结尾不掩数据，解释与粉饰分开。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-en-b2-message-tone",
+    "kind": "reading",
+    "language": "en",
+    "level": "B2",
+    "difficulty": 4,
+    "tags": [
+      "kotoba-26",
+      "人际关系"
+    ],
+    "title": "Before you send the message",
+    "topic": "人际关系",
+    "genre": "essay",
+    "estimatedMinutes": 5,
+    "paragraphs": [
+      "A colleague once sent me a message that consisted of three words: “Please check again.” I had spent the morning preparing a table of figures, so I read the message as criticism of my care. I started writing a defensive reply. Then I stopped and asked which part needed checking. It turned out that a total had changed because another team had sent new information. The message had been brief, but the meaning I attached to it had been much larger. I must have read the tone too quickly.",
+      "Short messages are common at work because people need to move quickly. Yet speed does not remove the need for context. A reader who has different information may fill the gap with their own worries. This is especially likely when the reader is tired or when an earlier exchange has been difficult. A neutral request can then appear to be a judgement about someone’s ability. Neither person has to be deliberately unkind for the conversation to go wrong.",
+      "There are two easy responses to this problem, and both are incomplete. One is to demand that every message contain a full explanation. That would make routine communication unnecessarily heavy. The other is to tell readers never to take anything personally. This places all responsibility on the person with less context and ignores how language signals a relationship. A better response is to identify the small piece of information that makes the request understandable.",
+      "My colleague now adds a reason when asking for a change: “New figures arrived. Could you check the total again?” I try to ask a concrete question before deciding what a brief message implies. Neither habit guarantees a pleasant conversation every time. Both reduce the chance that we will argue about an intention nobody actually had. The extra words do not replace trust, but they can protect it when we are working under pressure.",
+      "The experience also changed the way I revise my own messages. I look for words that evaluate a person when I only mean to describe a task. “This is wrong” may be accurate, but “The total includes last month’s figures” makes the next step clearer. Clarity is not the same as avoiding disagreement. It means giving disagreement a specific object. When people can see exactly what needs to change, they can spend less energy defending themselves and more energy correcting the work.",
+      "I also check whether a request really requires a reply immediately. Giving someone a reasonable time to respond can be as important as choosing polite words, especially when their task needs uninterrupted attention.",
+      "Later, my colleague said that she had been updating several tables at once. Her brief request had come from a busy moment, not from a wish to judge my work. That explanation gave me context, without turning either of us into the villain of the story."
+    ],
+    "translation": [
+      "同事发“请再检查”三词，我一早做表，以为批评不仔细，准备防御回复。问检查何处后才知另一团队新信息改变总数。消息短，我赋予意义很大。 我一定是太快地判断了语气。",
+      "工作短消息为快，但速度不消除语境需求。信息不同的读者用忧虑填空，疲劳或此前交流不顺更易把中性请求读成能力判断。不需有人故意刻薄，仍可误会。",
+      "两易答都不完整：要求每条全解释太重；叫读者永不当个人事，又把责任全给缺语境者、忽视关系信号。更好找使请求可理解的小信息。",
+      "同事现在加理由“新数字到了，可再查总数？”我先具体问再推意图。非保证次次愉快，却减少争不存在的意图。附字非替信任，可在压力下保护它。",
+      "也改变我的修稿：只讲任务时删评人的词。“错了”可能准确，“总数包含上月”更明确下一步。清楚非回避分歧，而给它具体对象，少自卫、多纠正。",
+      "也检查是否真的需立即回复。给合理回复时间可能与措辞礼貌同样重要，尤其当任务需要不受打断的注意力时。",
+      "后来同事说她当时在同时更新几张表。短请求出于繁忙，而非想评判我的工作。这个解释提供语境，无须把任何一方说成故事中的坏人。"
+    ],
+    "vocabulary": [
+      "course-en-a1-11",
+      "supp-en-a1-4",
+      "supp-en-a1-8",
+      "supp-en-a1-9",
+      "supp-en-a1-11",
+      "supp-en-a1-13"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-b2-reported-questions",
+        "surface": "asked which part needed checking"
+      },
+      {
+        "id": "grammar-en-b2-past-modal-deduction",
+        "surface": "must have read"
+      },
+      {
+        "id": "grammar-en-b2-reported-statements",
+        "surface": "said that she had been updating"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-b2-message-tone-q1",
+        "type": "detail",
+        "prompt": "Why did the total need checking?",
+        "options": [
+          "The writer had ignored all instructions.",
+          "The colleague wanted a different font.",
+          "New information had arrived from another team."
+        ],
+        "answer": 2,
+        "explanation": "第一段明确新信息改变总数。"
+      },
+      {
+        "id": "article-en-b2-message-tone-q2",
+        "type": "inference",
+        "prompt": "Why is “never take it personally” insufficient?",
+        "options": [
+          "Readers always know the full situation.",
+          "It ignores the sender’s role in providing context.",
+          "All messages are intended as insults."
+        ],
+        "answer": 1,
+        "explanation": "第三段指出把责任全放缺语境者。"
+      },
+      {
+        "id": "article-en-b2-message-tone-q3",
+        "type": "main-idea",
+        "prompt": "What is the recommended approach?",
+        "options": [
+          "Add the specific context needed to understand a request.",
+          "Write long explanations for every routine message.",
+          "Avoid disagreeing about any work."
+        ],
+        "answer": 0,
+        "explanation": "第三四段主张少量关键语境及具体询问。"
+      },
+      {
+        "id": "article-en-b2-message-tone-q4",
+        "type": "vocabulary",
+        "prompt": "What does “giving disagreement a specific object” mean here?",
+        "options": [
+          "Buying an object as an apology.",
+          "Making the other person the target.",
+          "Identifying the exact part of the work being disputed."
+        ],
+        "answer": 2,
+        "explanation": "最后用含上月数字的总数替抽象人身判断。"
+      },
+      {
+        "id": "article-en-b2-message-tone-q5",
+        "type": "author-intent",
+        "prompt": "Why say the habits do not guarantee pleasant conversations?",
+        "options": [
+          "To argue that trust is unnecessary.",
+          "To limit the claim without denying their usefulness.",
+          "To admit that adding context never helps."
+        ],
+        "answer": 1,
+        "explanation": "作者承认方法非万能，仍认为减少误会。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-en-b2-temporary-trial",
+    "kind": "reading",
+    "language": "en",
+    "level": "B2",
+    "difficulty": 4,
+    "tags": [
+      "kotoba-26",
+      "商业"
+    ],
+    "title": "A trial with an ending",
+    "topic": "商业",
+    "genre": "news-style",
+    "estimatedMinutes": 5,
+    "paragraphs": [
+      "A small bookshop recently tested a later closing time on Thursdays. The owner, who works in the shop herself, had heard that people working nearby could not arrive before six. Opening until eight seemed like an obvious solution, but it would also increase staff hours and heating costs. Instead of announcing a permanent change, she arranged a six-week trial. A notice explained both the new hours and the date when the old schedule might return. Customers knew they were participating in a test, not receiving a promise that could never be withdrawn.",
+      "During the first two weeks, sales were modest. Several visitors browsed without buying anything. One employee suggested that the trial had already failed. The owner asked for more detail: were those visitors new customers, and did they return on another day? She did not claim that browsing was equivalent to a sale. She wanted to know whether the later opening was creating a relationship that the daily total could not show immediately.",
+      "At the same time, staff members recorded when work felt busiest and whether the later shift created problems at home. A popular trial could still be unreasonable if it depended on hidden costs for employees. The owner had the heating system checked and asked workers which evenings they could realistically cover. These conversations produced information that a sales chart alone could not supply. A decision about opening hours was also a decision about whose time would become less flexible.",
+      "After six weeks, the shop kept one late evening but closed at seven rather than eight. More visitors had arrived between six and seven than in the final hour. Two employees could cover that period without changing their usual travel arrangements. The owner published a short explanation of the decision beside the notice. Some customers were disappointed, but they could see why the final choice differed from the original experiment.",
+      "The lesson is not that every business should run exactly the same trial. Different shops have different costs, visitors and responsibilities. The useful feature was the clear boundary: a start, an ending and a question to answer. Because the change was temporary, people could discuss it without pretending that uncertainty had disappeared. The result was a smaller adjustment than some expected, but one the shop could honestly maintain. Experiments become more valuable when they make room for a decision other than the one that first sounded attractive.",
+      "The owner kept the original trial notes for the next review. If conditions change, she can compare a new proposal with the reasons for this decision rather than rely only on memory.",
+      "If we had made the change permanent immediately, we would now have fewer options, the owner reflected. The temporary arrangement allowed her to learn before committing, while giving customers a clear account of what might change."
+    ],
+    "translation": [
+      "小书店试周四晚关。附近工作者六点前来不了，八点看似解法却增工时暖费。店主先六周试验，通知新时间和可能恢复旧表日期，顾客知是试验非永诺。 店主自己也在店里工作。",
+      "前两周销售少，有人只逛。员工认为已失败，店主问是否新客、是否别日回来。非把浏览等同销售，而想知晚开是否产生当日总额未显的关系。",
+      "同时员工记忙点、晚班家庭问题。人气好但依赖员工隐形成本仍不合理。店主安排检查供暖，问可承担晚间，图表无法提供这些。营业时间决定也是谁时间不灵活的决定。",
+      "六周后保留晚开一天至七点而非八。六至七客多于末小时，两员工可不改通勤地覆盖。通知旁简解释，虽部分失望，能懂为何不同。",
+      "教训非所有店照搬，而明确开始、结束和问题。暂时性使人承认未知地讨论。最终比预想调整小，却可诚实维持。实验允许结论不同于最初好听方案，才更有价值。",
+      "店主保留试验记录供下次评估。情况变化时可对照此次决定理由，而不只依赖记忆。",
+      "店主反思：如果当初立即改成永久安排，现在的选择就会更少。临时安排让她在承诺前先了解，同时明确告诉顾客哪些可能变化。"
+    ],
+    "vocabulary": [
+      "course-en-a1-3",
+      "supp-en-a1-5",
+      "supp-en-a1-9",
+      "supp-en-a1-11",
+      "supp-en-a1-12",
+      "lex-en-a1-time"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-b2-causative-have-get",
+        "surface": "had the heating system checked"
+      },
+      {
+        "id": "grammar-en-b2-nondefining-relatives",
+        "surface": "who works in the shop herself"
+      },
+      {
+        "id": "grammar-en-b2-mixed-conditionals",
+        "surface": "would now have fewer options"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-b2-temporary-trial-q1",
+        "type": "detail",
+        "prompt": "How long was the trial?",
+        "options": [
+          "One year.",
+          "Six weeks.",
+          "Two weeks."
+        ],
+        "answer": 1,
+        "explanation": "首段明确六周，第二段只前两周观察。"
+      },
+      {
+        "id": "article-en-b2-temporary-trial-q2",
+        "type": "inference",
+        "prompt": "Why examine visitors who did not buy?",
+        "options": [
+          "They might form relationships leading to later visits.",
+          "Browsing is always financially identical to a sale.",
+          "Employees should never count sales."
+        ],
+        "answer": 0,
+        "explanation": "第二段提出后来回访的可能，并明确不等价销售。"
+      },
+      {
+        "id": "article-en-b2-temporary-trial-q3",
+        "type": "detail",
+        "prompt": "What was the final closing time on the late evening?",
+        "options": [
+          "Eight.",
+          "Six.",
+          "Seven."
+        ],
+        "answer": 2,
+        "explanation": "第四段晚至七点。"
+      },
+      {
+        "id": "article-en-b2-temporary-trial-q4",
+        "type": "grammar",
+        "prompt": "What does “had the heating system checked” imply?",
+        "options": [
+          "The owner necessarily repaired it herself.",
+          "The owner arranged for someone to check it.",
+          "The system checked the owner."
+        ],
+        "answer": 1,
+        "explanation": "have+宾语+分词表示安排服务。"
+      },
+      {
+        "id": "article-en-b2-temporary-trial-q5",
+        "type": "main-idea",
+        "prompt": "What made the experiment useful?",
+        "options": [
+          "A defined question and ending allowed a sustainable adjustment.",
+          "It proved every shop should close at eight.",
+          "It removed all disagreement and uncertainty."
+        ],
+        "answer": 0,
+        "explanation": "末段强调边界与可接受非原想结果。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  }
+]

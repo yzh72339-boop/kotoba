@@ -1,27 +1,25 @@
-# Dependencies / build output
 node_modules/
 .next/
 out/
-dist/
-coverage/
-*.tsbuildinfo
-
-# Local environment and secrets
-.env
-.env.*
+.env*
 !.env.example
-*.pem
-*.key
-*.p12
-*.pfx
-
-# QA/auth/session artifacts
+*.tsbuildinfo
 qa-artifacts/
 *storage-state*.json
 *auth-state*.json
+supabase/.temp/
 
-# OS/editor noise
+public/content/library/
+
+# Private credentials and local user data
+.env.edge.local
+*.pem
+*.key
+backups/
+exports/
+recordings/
+.openai/
+supabase/dashboard/evidence/
 .DS_Store
-Thumbs.db
-.vscode/
-.idea/
+
+/node_modules

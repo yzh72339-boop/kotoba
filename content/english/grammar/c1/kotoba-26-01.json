@@ -1,0 +1,1123 @@
+[
+  {
+    "id": "grammar-en-c1-it-cleft",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "It is / was X that …：突出对照中的焦点",
+    "pattern": "It is / was X that …",
+    "meaningZh": "突出对照中的焦点",
+    "meaningEn": "Contrastive focus with an it-cleft",
+    "explanation": "it分裂句把句子分成焦点与背景，突出时间、原因或人物等需要纠正的信息。that从句中的已知部分不应重复焦点成分。它不是任意加长句子；使用前应明确听者可能把哪个信息理解错。",
+    "usage": "纠正误解并突出关键因素",
+    "nuance": "It was cost that mattered隐含区别于速度等其他因素。",
+    "structure": [
+      "It is/was + 焦点 + that/who + 背景从句"
+    ],
+    "formation": [
+      "It is/was + 焦点 + that/who + 背景从句"
+    ],
+    "examples": [
+      {
+        "target": "It was cost that changed our decision.",
+        "zh": "改变我们决定的是成本。"
+      },
+      {
+        "target": "It was on Monday that they called.",
+        "zh": "他们打来电话是在星期一。"
+      },
+      {
+        "target": "It is the method that needs revision.",
+        "zh": "需要修改的是方法。"
+      },
+      {
+        "target": "It was Maya who found the error.",
+        "zh": "发现错误的人是玛雅。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在纠正误解并突出关键因素中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "It was cost what changed our decision.",
+        "correct": "It was cost that changed our decision.",
+        "explanation": "it分裂句连接成分使用that，而不是what。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b1-defining-relative-clauses"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c1-it-cleft-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nIt was cost that changed our decision.",
+        "options": [
+          "改变我们决定的是成本。",
+          "他们打来电话是在星期一。",
+          "需要修改的是方法。"
+        ],
+        "acceptedAnswers": [
+          "改变我们决定的是成本。"
+        ],
+        "explanation": "It was cost that changed our decision.：改变我们决定的是成本。 it分裂句把句子分成焦点与背景，突出时间、原因或人物等需要纠正的信息。that从句中的已知部分不应重复焦点成分。它不是任意加长句子；使用前应明确听者可能把哪个信息理解错。"
+      },
+      {
+        "id": "grammar-en-c1-it-cleft-fill",
+        "kind": "fill",
+        "prompt": "突出成本：It was cost (　) changed our decision.",
+        "options": [
+          "what",
+          "whose",
+          "that"
+        ],
+        "acceptedAnswers": [
+          "that"
+        ],
+        "explanation": "that连接焦点与余下的命题。"
+      },
+      {
+        "id": "grammar-en-c1-it-cleft-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nit分裂句连接成分使用that，而不是what。",
+        "options": [
+          "It was cost what changed our decision.",
+          "It was cost that changed our decision."
+        ],
+        "acceptedAnswers": [
+          "It was cost that changed our decision."
+        ],
+        "explanation": "it分裂句连接成分使用that，而不是what。"
+      },
+      {
+        "id": "grammar-en-c1-it-cleft-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n发现错误的人是玛雅。",
+        "acceptedAnswers": [
+          "It was Maya who found the error."
+        ],
+        "explanation": "It was Maya who found the error. It was cost that mattered隐含区别于速度等其他因素。"
+      },
+      {
+        "id": "grammar-en-c1-it-cleft-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nIt is the method that needs revision.",
+        "options": [
+          "他们打来电话是在星期一。",
+          "需要修改的是方法。",
+          "改变我们决定的是成本。"
+        ],
+        "acceptedAnswers": [
+          "需要修改的是方法。"
+        ],
+        "explanation": "原句对应“需要修改的是方法。”。It was cost that mattered隐含区别于速度等其他因素。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c1-what-cleft",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "What … is …：把已知需求与新焦点分开",
+    "pattern": "What … is …",
+    "meaningZh": "把已知需求与新焦点分开",
+    "meaningEn": "Focus with a wh-cleft",
+    "explanation": "what分裂句用一个完整的what从句建立背景，再通过be引出焦点。What we need is time强调需要的究竟是什么。what在从句中已有成分作用，不再加入重复宾语。动词形式焦点可因句型用不定式或原形，本课以名词焦点为主。",
+    "usage": "突出需求和关键发现",
+    "nuance": "不同于it分裂句，背景what从句先出现。",
+    "structure": [
+      "What + 完整从句 + be + 焦点"
+    ],
+    "formation": [
+      "What + 完整从句 + be + 焦点"
+    ],
+    "examples": [
+      {
+        "target": "What we need is a clear plan.",
+        "zh": "我们需要的是一个清晰的计划。"
+      },
+      {
+        "target": "What surprised me was the silence.",
+        "zh": "令我意外的是沉默。"
+      },
+      {
+        "target": "What matters is how we use the data.",
+        "zh": "重要的是如何使用数据。"
+      },
+      {
+        "target": "What she requested was a written explanation.",
+        "zh": "她要求的是书面解释。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在突出需求和关键发现中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "What we need it is a clear plan.",
+        "correct": "What we need is a clear plan.",
+        "explanation": "what已填充need的宾语位置，不再重复it。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-c1-it-cleft",
+        "explanation": "what分裂句先陈列需求背景，it分裂句可以直接突出对照焦点。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-c1-it-cleft"
+    ],
+    "relatedGrammar": [
+      "grammar-en-c1-it-cleft"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-c1-what-cleft-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nWhat we need is a clear plan.",
+        "options": [
+          "重要的是如何使用数据。",
+          "我们需要的是一个清晰的计划。",
+          "令我意外的是沉默。"
+        ],
+        "acceptedAnswers": [
+          "我们需要的是一个清晰的计划。"
+        ],
+        "explanation": "What we need is a clear plan.：我们需要的是一个清晰的计划。 what分裂句用一个完整的what从句建立背景，再通过be引出焦点。What we need is time强调需要的究竟是什么。what在从句中已有成分作用，不再加入重复宾语。动词形式焦点可因句型用不定式或原形，本课以名词焦点为主。"
+      },
+      {
+        "id": "grammar-en-c1-what-cleft-fill",
+        "kind": "fill",
+        "prompt": "突出所需：What we need (　) a clear plan.",
+        "options": [
+          "be",
+          "is",
+          "are"
+        ],
+        "acceptedAnswers": [
+          "is"
+        ],
+        "explanation": "what we need整体作为从句主语，常以单数处理。"
+      },
+      {
+        "id": "grammar-en-c1-what-cleft-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nwhat已填充need的宾语位置，不再重复it。",
+        "options": [
+          "What we need is a clear plan.",
+          "What we need it is a clear plan."
+        ],
+        "acceptedAnswers": [
+          "What we need is a clear plan."
+        ],
+        "explanation": "what已填充need的宾语位置，不再重复it。"
+      },
+      {
+        "id": "grammar-en-c1-what-cleft-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n她要求的是书面解释。",
+        "acceptedAnswers": [
+          "What she requested was a written explanation."
+        ],
+        "explanation": "What she requested was a written explanation. 不同于it分裂句，背景what从句先出现。"
+      },
+      {
+        "id": "grammar-en-c1-what-cleft-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nWhat matters is how we use the data.",
+        "options": [
+          "重要的是如何使用数据。",
+          "我们需要的是一个清晰的计划。",
+          "令我意外的是沉默。"
+        ],
+        "acceptedAnswers": [
+          "重要的是如何使用数据。"
+        ],
+        "explanation": "原句对应“重要的是如何使用数据。”。不同于it分裂句，背景what从句先出现。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c1-negative-fronting",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "Never / Rarely + auxiliary + subject：否定或限制副词前置的倒装",
+    "pattern": "Never / Rarely + auxiliary + subject",
+    "meaningZh": "否定或限制副词前置的倒装",
+    "meaningEn": "Emphatic negative fronting",
+    "explanation": "否定或限制副词放句首时，常触发助动词与主语倒装。没有助动词的一般时需借助do。Never have I seen强调经验上的从未，不是普通疑问。句首并非任意副词都倒装，否定范围应覆盖主句。",
+    "usage": "在正式表达中强调罕见或不存在",
+    "nuance": "Rarely强调少见，语气与Never的完全否定不同。",
+    "structure": [
+      "否定副词 + 助动词 + 主语 + 主要动词"
+    ],
+    "formation": [
+      "否定副词 + 助动词 + 主语 + 主要动词"
+    ],
+    "examples": [
+      {
+        "target": "Never have I seen such a change.",
+        "zh": "我从未见过这样的变化。"
+      },
+      {
+        "target": "Rarely does the team miss a deadline.",
+        "zh": "这个团队很少错过截止日期。"
+      },
+      {
+        "target": "Seldom had she received such detailed feedback.",
+        "zh": "她此前很少收到如此详细的反馈。"
+      },
+      {
+        "target": "Never did he explain the delay.",
+        "zh": "他始终没有解释延误。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在在正式表达中强调罕见或不存在中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Rarely the team misses a deadline.",
+        "correct": "Rarely does the team miss a deadline.",
+        "explanation": "限制副词前置需要助动词倒装。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b1-present-perfect-and-past-simple"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c1-negative-fronting-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nNever have I seen such a change.",
+        "options": [
+          "这个团队很少错过截止日期。",
+          "她此前很少收到如此详细的反馈。",
+          "我从未见过这样的变化。"
+        ],
+        "acceptedAnswers": [
+          "我从未见过这样的变化。"
+        ],
+        "explanation": "Never have I seen such a change.：我从未见过这样的变化。 否定或限制副词放句首时，常触发助动词与主语倒装。没有助动词的一般时需借助do。Never have I seen强调经验上的从未，不是普通疑问。句首并非任意副词都倒装，否定范围应覆盖主句。"
+      },
+      {
+        "id": "grammar-en-c1-negative-fronting-fill",
+        "kind": "fill",
+        "prompt": "正式强调很少迟到：Rarely (　) a deadline.",
+        "options": [
+          "does the team miss",
+          "the team misses",
+          "does the team misses"
+        ],
+        "acceptedAnswers": [
+          "does the team miss"
+        ],
+        "explanation": "does倒装后miss用原形。"
+      },
+      {
+        "id": "grammar-en-c1-negative-fronting-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n限制副词前置需要助动词倒装。",
+        "options": [
+          "Rarely the team misses a deadline.",
+          "Rarely does the team miss a deadline."
+        ],
+        "acceptedAnswers": [
+          "Rarely does the team miss a deadline."
+        ],
+        "explanation": "限制副词前置需要助动词倒装。"
+      },
+      {
+        "id": "grammar-en-c1-negative-fronting-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n他始终没有解释延误。",
+        "acceptedAnswers": [
+          "Never did he explain the delay."
+        ],
+        "explanation": "Never did he explain the delay. Rarely强调少见，语气与Never的完全否定不同。"
+      },
+      {
+        "id": "grammar-en-c1-negative-fronting-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nSeldom had she received such detailed feedback.",
+        "options": [
+          "我从未见过这样的变化。",
+          "这个团队很少错过截止日期。",
+          "她此前很少收到如此详细的反馈。"
+        ],
+        "acceptedAnswers": [
+          "她此前很少收到如此详细的反馈。"
+        ],
+        "explanation": "原句对应“她此前很少收到如此详细的反馈。”。Rarely强调少见，语气与Never的完全否定不同。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c1-concession-even",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "even though / even if：事实让步与假设让步",
+    "pattern": "even though / even if",
+    "meaningZh": "事实让步与假设让步",
+    "meaningEn": "Factual and hypothetical concession",
+    "explanation": "even though通常将前项作为事实承认，even if则说明即便假设条件成立，后项仍成立。判断重点是信息地位，而非单纯中文“即使”。让步关系指出通常预期未被满足，不能与因果because直接等同。",
+    "usage": "区分承认事实和保留假设",
+    "nuance": "even if不承诺前项确实发生。",
+    "structure": [
+      "已承認事实 even though；未確定假设 even if"
+    ],
+    "formation": [
+      "已承認事实 even though；未確定假设 even if"
+    ],
+    "examples": [
+      {
+        "target": "Even though it rained, the event continued.",
+        "zh": "虽然下雨了，活动仍继续。"
+      },
+      {
+        "target": "Even if it rains, we will continue.",
+        "zh": "即使下雨，我们也会继续。"
+      },
+      {
+        "target": "She stayed even though she was tired.",
+        "zh": "虽然累了，她仍留下。"
+      },
+      {
+        "target": "Even if the cost rises, the service will remain free.",
+        "zh": "即使成本上涨，服务仍会免费。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在区分承认事实和保留假设中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Even though it rains tomorrow, we will continue.（并未确知会下雨）",
+        "correct": "Even if it rains tomorrow, we will continue.",
+        "explanation": "未确定的未来条件宜用even if，不把它当作既定事实。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b1-first-conditional"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c1-concession-even-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nEven though it rained, the event continued.",
+        "options": [
+          "虽然下雨了，活动仍继续。",
+          "即使下雨，我们也会继续。",
+          "虽然累了，她仍留下。"
+        ],
+        "acceptedAnswers": [
+          "虽然下雨了，活动仍继续。"
+        ],
+        "explanation": "Even though it rained, the event continued.：虽然下雨了，活动仍继续。 even though通常将前项作为事实承认，even if则说明即便假设条件成立，后项仍成立。判断重点是信息地位，而非单纯中文“即使”。让步关系指出通常预期未被满足，不能与因果because直接等同。"
+      },
+      {
+        "id": "grammar-en-c1-concession-even-fill",
+        "kind": "fill",
+        "prompt": "成本是否上涨未知： (　) the cost rises, it will remain free.",
+        "options": [
+          "Even though",
+          "Because",
+          "Even if"
+        ],
+        "acceptedAnswers": [
+          "Even if"
+        ],
+        "explanation": "未知的上涨作为让步假设，用even if。"
+      },
+      {
+        "id": "grammar-en-c1-concession-even-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n未确定的未来条件宜用even if，不把它当作既定事实。",
+        "options": [
+          "Even if it rains tomorrow, we will continue.",
+          "Even though it rains tomorrow, we will continue.（并未确知会下雨）"
+        ],
+        "acceptedAnswers": [
+          "Even if it rains tomorrow, we will continue."
+        ],
+        "explanation": "未确定的未来条件宜用even if，不把它当作既定事实。"
+      },
+      {
+        "id": "grammar-en-c1-concession-even-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n即使成本上涨，服务仍会免费。",
+        "acceptedAnswers": [
+          "Even if the cost rises, the service will remain free."
+        ],
+        "explanation": "Even if the cost rises, the service will remain free. even if不承诺前项确实发生。"
+      },
+      {
+        "id": "grammar-en-c1-concession-even-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nShe stayed even though she was tired.",
+        "options": [
+          "即使下雨，我们也会继续。",
+          "虽然累了，她仍留下。",
+          "虽然下雨了，活动仍继续。"
+        ],
+        "acceptedAnswers": [
+          "虽然累了，她仍留下。"
+        ],
+        "explanation": "原句对应“虽然累了，她仍留下。”。even if不承诺前项确实发生。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c1-reduced-relatives",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "N + V-ing / past participle：名词后的简化修饰从句",
+    "pattern": "N + V-ing / past participle",
+    "meaningZh": "名词后的简化修饰从句",
+    "meaningEn": "Reduced relative clauses",
+    "explanation": "分词置于名词后可压缩关系从句，ing常表示主动关系，过去分词常表示被动关系。压缩后需保留可正确识别的施受关系和时间，不将每个关系从句机械删成分词。它与修饰全句主语的句首分词从句位置和作用不同。",
+    "usage": "简洁限定某类对象",
+    "nuance": "reports published yesterday指昨天被发布的报告。",
+    "structure": [
+      "主动修饰 V-ing；被动修饰 过去分词"
+    ],
+    "formation": [
+      "主动修饰 V-ing；被动修饰 过去分词"
+    ],
+    "examples": [
+      {
+        "target": "Students waiting outside should come in.",
+        "zh": "在外面等候的学生应进来。"
+      },
+      {
+        "target": "The report published yesterday contains an error.",
+        "zh": "昨天发布的报告有一处错误。"
+      },
+      {
+        "target": "Anyone wishing to attend must register.",
+        "zh": "任何想参加的人都须登记。"
+      },
+      {
+        "target": "The materials used in the trial were recycled.",
+        "zh": "试验所用的材料是回收材料。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在简洁限定某类对象中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The report publishing yesterday contains an error.",
+        "correct": "The report published yesterday contains an error.",
+        "explanation": "报告受到发布动作，不能用主动publishing。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-c1-participle-clause-shared-subject",
+        "explanation": "名词后分词限定该名词；句首分词从句描述主句主体的附带关系。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-b1-defining-relative-clauses"
+    ],
+    "relatedGrammar": [
+      "grammar-en-c1-participle-clause-shared-subject"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-c1-reduced-relatives-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nStudents waiting outside should come in.",
+        "options": [
+          "任何想参加的人都须登记。",
+          "在外面等候的学生应进来。",
+          "昨天发布的报告有一处错误。"
+        ],
+        "acceptedAnswers": [
+          "在外面等候的学生应进来。"
+        ],
+        "explanation": "Students waiting outside should come in.：在外面等候的学生应进来。 分词置于名词后可压缩关系从句，ing常表示主动关系，过去分词常表示被动关系。压缩后需保留可正确识别的施受关系和时间，不将每个关系从句机械删成分词。它与修饰全句主语的句首分词从句位置和作用不同。"
+      },
+      {
+        "id": "grammar-en-c1-reduced-relatives-fill",
+        "kind": "fill",
+        "prompt": "被发布的报告：the report (　) yesterday",
+        "options": [
+          "publishes",
+          "published",
+          "publishing"
+        ],
+        "acceptedAnswers": [
+          "published"
+        ],
+        "explanation": "report是被发布者，用published。"
+      },
+      {
+        "id": "grammar-en-c1-reduced-relatives-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n报告受到发布动作，不能用主动publishing。",
+        "options": [
+          "The report publishing yesterday contains an error.",
+          "The report published yesterday contains an error."
+        ],
+        "acceptedAnswers": [
+          "The report published yesterday contains an error."
+        ],
+        "explanation": "报告受到发布动作，不能用主动publishing。"
+      },
+      {
+        "id": "grammar-en-c1-reduced-relatives-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n试验所用的材料是回收材料。",
+        "acceptedAnswers": [
+          "The materials used in the trial were recycled."
+        ],
+        "explanation": "The materials used in the trial were recycled. reports published yesterday指昨天被发布的报告。"
+      },
+      {
+        "id": "grammar-en-c1-reduced-relatives-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nAnyone wishing to attend must register.",
+        "options": [
+          "任何想参加的人都须登记。",
+          "在外面等候的学生应进来。",
+          "昨天发布的报告有一处错误。"
+        ],
+        "acceptedAnswers": [
+          "任何想参加的人都须登记。"
+        ],
+        "explanation": "原句对应“任何想参加的人都须登记。”。reports published yesterday指昨天被发布的报告。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c1-nominalisation",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "动词／形容词 → 名词短语：用名词化组织正式信息",
+    "pattern": "动词／形容词 → 名词短语",
+    "meaningZh": "用名词化组织正式信息",
+    "meaningEn": "Nominalisation in formal register",
+    "explanation": "名词化将过程包装为可讨论的对象，适合报告中的摘要、对比和因果链，但可能隐藏执行者或使句子笨重。应保留责任主体及必要动词，不能以名词越多越高级判断质量。介词后的名词化常代替完整从句。",
+    "usage": "组织报告和比较过程",
+    "nuance": "the rejection of the proposal需要上下文说明由谁拒绝。",
+    "structure": [
+      "名词化 + 合适介词；保留行动者信息"
+    ],
+    "formation": [
+      "名词化 + 合适介词；保留行动者信息"
+    ],
+    "examples": [
+      {
+        "target": "The reduction in costs made expansion possible.",
+        "zh": "成本的降低使扩展成为可能。"
+      },
+      {
+        "target": "Their refusal to negotiate delayed the agreement.",
+        "zh": "他们拒绝谈判，延误了协议。"
+      },
+      {
+        "target": "The introduction of a new system caused confusion.",
+        "zh": "新系统的引入引起了混乱。"
+      },
+      {
+        "target": "We need clarification of the rules.",
+        "zh": "我们需要对规则作出澄清。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在组织报告和比较过程中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "We need clarify of the rules.",
+        "correct": "We need clarification of the rules.",
+        "explanation": "of前使用名词clarification，不直接使用动词clarify。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b1-gerunds-after-prepositions"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c1-nominalisation-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nThe reduction in costs made expansion possible.",
+        "options": [
+          "他们拒绝谈判，延误了协议。",
+          "新系统的引入引起了混乱。",
+          "成本的降低使扩展成为可能。"
+        ],
+        "acceptedAnswers": [
+          "成本的降低使扩展成为可能。"
+        ],
+        "explanation": "The reduction in costs made expansion possible.：成本的降低使扩展成为可能。 名词化将过程包装为可讨论的对象，适合报告中的摘要、对比和因果链，但可能隐藏执行者或使句子笨重。应保留责任主体及必要动词，不能以名词越多越高级判断质量。介词后的名词化常代替完整从句。"
+      },
+      {
+        "id": "grammar-en-c1-nominalisation-fill",
+        "kind": "fill",
+        "prompt": "将clarify名词化：We need (　) of the rules.",
+        "options": [
+          "clarification",
+          "clarify",
+          "clarifies"
+        ],
+        "acceptedAnswers": [
+          "clarification"
+        ],
+        "explanation": "need后此处是名词宾语clarification。"
+      },
+      {
+        "id": "grammar-en-c1-nominalisation-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nof前使用名词clarification，不直接使用动词clarify。",
+        "options": [
+          "We need clarification of the rules.",
+          "We need clarify of the rules."
+        ],
+        "acceptedAnswers": [
+          "We need clarification of the rules."
+        ],
+        "explanation": "of前使用名词clarification，不直接使用动词clarify。"
+      },
+      {
+        "id": "grammar-en-c1-nominalisation-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我们需要对规则作出澄清。",
+        "acceptedAnswers": [
+          "We need clarification of the rules."
+        ],
+        "explanation": "We need clarification of the rules. the rejection of the proposal需要上下文说明由谁拒绝。"
+      },
+      {
+        "id": "grammar-en-c1-nominalisation-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nThe introduction of a new system caused confusion.",
+        "options": [
+          "成本的降低使扩展成为可能。",
+          "他们拒绝谈判，延误了协议。",
+          "新系统的引入引起了混乱。"
+        ],
+        "acceptedAnswers": [
+          "新系统的引入引起了混乱。"
+        ],
+        "explanation": "原句对应“新系统的引入引起了混乱。”。the rejection of the proposal需要上下文说明由谁拒绝。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c1-seem-appear-stance",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "seem / appear + to V：保留证据强度的判断",
+    "pattern": "seem / appear + to V",
+    "meaningZh": "保留证据强度的判断",
+    "meaningEn": "Epistemic stance with raising verbs",
+    "explanation": "seem和appear加不定式表达基于迹象的判断而非直接断言。to have done将推断对象置于先前时间。主语与表面动词一致，但语义判断关注不定式的命题。不要与want等描述主体愿望的动词混淆。",
+    "usage": "在分析中谨慎陈述判断",
+    "nuance": "appears to have worked并不等于已经确证有效。",
+    "structure": [
+      "seem/appear + to V；先前事件 to have + 过去分词"
+    ],
+    "formation": [
+      "seem/appear + to V；先前事件 to have + 过去分词"
+    ],
+    "examples": [
+      {
+        "target": "The policy appears to work.",
+        "zh": "这项政策看起来有效。"
+      },
+      {
+        "target": "She seems to have misunderstood the question.",
+        "zh": "她似乎误解了问题。"
+      },
+      {
+        "target": "The results appear to be consistent.",
+        "zh": "结果似乎一致。"
+      },
+      {
+        "target": "There seems to be a mistake in the total.",
+        "zh": "总数似乎有误。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在在分析中谨慎陈述判断中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The policy appears work.",
+        "correct": "The policy appears to work.",
+        "explanation": "appear连接谓语命题时需要不定式to work。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b2-past-modal-deduction"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c1-seem-appear-stance-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nThe policy appears to work.",
+        "options": [
+          "这项政策看起来有效。",
+          "她似乎误解了问题。",
+          "结果似乎一致。"
+        ],
+        "acceptedAnswers": [
+          "这项政策看起来有效。"
+        ],
+        "explanation": "The policy appears to work.：这项政策看起来有效。 seem和appear加不定式表达基于迹象的判断而非直接断言。to have done将推断对象置于先前时间。主语与表面动词一致，但语义判断关注不定式的命题。不要与want等描述主体愿望的动词混淆。"
+      },
+      {
+        "id": "grammar-en-c1-seem-appear-stance-fill",
+        "kind": "fill",
+        "prompt": "对先前误解作推断：She seems (　) the question.",
+        "options": [
+          "have misunderstand",
+          "to misunderstood",
+          "to have misunderstood"
+        ],
+        "acceptedAnswers": [
+          "to have misunderstood"
+        ],
+        "explanation": "完成不定式表示误解早于当前推断。"
+      },
+      {
+        "id": "grammar-en-c1-seem-appear-stance-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nappear连接谓语命题时需要不定式to work。",
+        "options": [
+          "The policy appears work.",
+          "The policy appears to work."
+        ],
+        "acceptedAnswers": [
+          "The policy appears to work."
+        ],
+        "explanation": "appear连接谓语命题时需要不定式to work。"
+      },
+      {
+        "id": "grammar-en-c1-seem-appear-stance-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n总数似乎有误。",
+        "acceptedAnswers": [
+          "There seems to be a mistake in the total."
+        ],
+        "explanation": "There seems to be a mistake in the total. appears to have worked并不等于已经确证有效。"
+      },
+      {
+        "id": "grammar-en-c1-seem-appear-stance-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nThe results appear to be consistent.",
+        "options": [
+          "她似乎误解了问题。",
+          "结果似乎一致。",
+          "这项政策看起来有效。"
+        ],
+        "acceptedAnswers": [
+          "结果似乎一致。"
+        ],
+        "explanation": "原句对应“结果似乎一致。”。appears to have worked并不等于已经确证有效。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c1-however-linking",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "however / nevertheless：承认前项后转向相反信息",
+    "pattern": "however / nevertheless",
+    "meaningZh": "承认前项后转向相反信息",
+    "meaningEn": "Concessive discourse linking",
+    "explanation": "however和nevertheless是语篇连接副词，不像but直接连接两个主句。书面语可用句号或分号分隔，再用逗号引出副词。连接关系是承认前项而后项仍成立，需要读者看到预期与实际之间的转折。",
+    "usage": "组织论证中的让步转折",
+    "nuance": "however也有“无论多么”用法，本课只教连接副词。",
+    "structure": [
+      "主句. However, 主句. / 主句; however, 主句."
+    ],
+    "formation": [
+      "主句. However, 主句. / 主句; however, 主句."
+    ],
+    "examples": [
+      {
+        "target": "The trial was small. Nevertheless, the findings matter.",
+        "zh": "试验规模很小，但其结果仍然重要。"
+      },
+      {
+        "target": "The route is shorter; however, it is less safe.",
+        "zh": "这条路线较短，不过不太安全。"
+      },
+      {
+        "target": "We had little funding. Nevertheless, work continued.",
+        "zh": "我们资金很少，但工作仍继续。"
+      },
+      {
+        "target": "The method is useful. However, it has limitations.",
+        "zh": "这个方法有用，不过也有局限。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在组织论证中的让步转折中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The method is useful, however, it has limitations.",
+        "correct": "The method is useful. However, it has limitations.",
+        "explanation": "仅逗号不能将两个独立主句用however连接。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-c1-concession-even"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c1-however-linking-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nThe trial was small. Nevertheless, the findings matter.",
+        "options": [
+          "我们资金很少，但工作仍继续。",
+          "试验规模很小，但其结果仍然重要。",
+          "这条路线较短，不过不太安全。"
+        ],
+        "acceptedAnswers": [
+          "试验规模很小，但其结果仍然重要。"
+        ],
+        "explanation": "The trial was small. Nevertheless, the findings matter.：试验规模很小，但其结果仍然重要。 however和nevertheless是语篇连接副词，不像but直接连接两个主句。书面语可用句号或分号分隔，再用逗号引出副词。连接关系是承认前项而后项仍成立，需要读者看到预期与实际之间的转折。"
+      },
+      {
+        "id": "grammar-en-c1-however-linking-fill",
+        "kind": "fill",
+        "prompt": "两个主句正确衔接：The route is shorter(　) however, it is less safe.",
+        "options": [
+          " because ",
+          "; ",
+          ", "
+        ],
+        "acceptedAnswers": [
+          "; "
+        ],
+        "explanation": "however不是并列连词，使用分号或句号而非逗号粘连。"
+      },
+      {
+        "id": "grammar-en-c1-however-linking-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n仅逗号不能将两个独立主句用however连接。",
+        "options": [
+          "The method is useful. However, it has limitations.",
+          "The method is useful, however, it has limitations."
+        ],
+        "acceptedAnswers": [
+          "The method is useful. However, it has limitations."
+        ],
+        "explanation": "仅逗号不能将两个独立主句用however连接。"
+      },
+      {
+        "id": "grammar-en-c1-however-linking-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n这个方法有用，不过也有局限。",
+        "acceptedAnswers": [
+          "The method is useful. However, it has limitations."
+        ],
+        "explanation": "The method is useful. However, it has limitations. however也有“无论多么”用法，本课只教连接副词。"
+      },
+      {
+        "id": "grammar-en-c1-however-linking-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nWe had little funding. Nevertheless, work continued.",
+        "options": [
+          "我们资金很少，但工作仍继续。",
+          "试验规模很小，但其结果仍然重要。",
+          "这条路线较短，不过不太安全。"
+        ],
+        "acceptedAnswers": [
+          "我们资金很少，但工作仍继续。"
+        ],
+        "explanation": "原句对应“我们资金很少，但工作仍继续。”。however也有“无论多么”用法，本课只教连接副词。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c1-conditional-inversion",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "Had / Were / Should + subject：正式条件句省略if的倒装",
+    "pattern": "Had / Were / Should + subject",
+    "meaningZh": "正式条件句省略if的倒装",
+    "meaningEn": "Formal conditional inversion",
+    "explanation": "正式条件句可在特定助动词前置时省略if：Had用于过去非现实条件，Were用于假想，Should用于可能情况。保留主句正确的时间关系，不可把任意动词前置来省略if。语气正式，不比普通if句更符合事实。",
+    "usage": "在报告和正式通知中表达条件",
+    "nuance": "Should you need help通常是礼貌的开放条件。",
+    "structure": [
+      "Had/Were/Should + 主语 + 剩余谓语"
+    ],
+    "formation": [
+      "Had/Were/Should + 主语 + 剩余谓语"
+    ],
+    "examples": [
+      {
+        "target": "Had I known, I would have waited.",
+        "zh": "如果当时知道，我会等候。"
+      },
+      {
+        "target": "Were the price lower, we would buy it.",
+        "zh": "如果价格更低，我们会买。"
+      },
+      {
+        "target": "Should you need help, contact the desk.",
+        "zh": "如果需要帮助，请联系服务台。"
+      },
+      {
+        "target": "Had they left earlier, they would have arrived on time.",
+        "zh": "如果他们早些出发，就会准时到达。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在在报告和正式通知中表达条件中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Had if I known, I would have waited.",
+        "correct": "Had I known, I would have waited.",
+        "explanation": "倒装已经替代if，不能同时保留if。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b2-third-conditional"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c1-conditional-inversion-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nHad I known, I would have waited.",
+        "options": [
+          "如果价格更低，我们会买。",
+          "如果需要帮助，请联系服务台。",
+          "如果当时知道，我会等候。"
+        ],
+        "acceptedAnswers": [
+          "如果当时知道，我会等候。"
+        ],
+        "explanation": "Had I known, I would have waited.：如果当时知道，我会等候。 正式条件句可在特定助动词前置时省略if：Had用于过去非现实条件，Were用于假想，Should用于可能情况。保留主句正确的时间关系，不可把任意动词前置来省略if。语气正式，不比普通if句更符合事实。"
+      },
+      {
+        "id": "grammar-en-c1-conditional-inversion-fill",
+        "kind": "fill",
+        "prompt": "过去假设省略if：(　) known, I would have waited.",
+        "options": [
+          "Had I",
+          "I had",
+          "Did I"
+        ],
+        "acceptedAnswers": [
+          "Had I"
+        ],
+        "explanation": "Had I known对应If I had known。"
+      },
+      {
+        "id": "grammar-en-c1-conditional-inversion-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n倒装已经替代if，不能同时保留if。",
+        "options": [
+          "Had if I known, I would have waited.",
+          "Had I known, I would have waited."
+        ],
+        "acceptedAnswers": [
+          "Had I known, I would have waited."
+        ],
+        "explanation": "倒装已经替代if，不能同时保留if。"
+      },
+      {
+        "id": "grammar-en-c1-conditional-inversion-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n如果他们早些出发，就会准时到达。",
+        "acceptedAnswers": [
+          "Had they left earlier, they would have arrived on time."
+        ],
+        "explanation": "Had they left earlier, they would have arrived on time. Should you need help通常是礼貌的开放条件。"
+      },
+      {
+        "id": "grammar-en-c1-conditional-inversion-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nShould you need help, contact the desk.",
+        "options": [
+          "如果当时知道，我会等候。",
+          "如果价格更低，我们会买。",
+          "如果需要帮助，请联系服务台。"
+        ],
+        "acceptedAnswers": [
+          "如果需要帮助，请联系服务台。"
+        ],
+        "explanation": "原句对应“如果需要帮助，请联系服务台。”。Should you need help通常是礼貌的开放条件。"
+      }
+    ]
+  }
+]

@@ -1,0 +1,139 @@
+{
+  "id": "grammar-ja-n5-te-mo-ii-permission",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N5",
+  "difficulty": 1,
+  "tags": [
+    "mobile-cycle",
+    "usage-in-context"
+  ],
+  "title": "〜てもいいです：询问和给予许可",
+  "pattern": "Vて + もいいです",
+  "meaningZh": "可以……；做……也可以",
+  "meaningEn": "Ask for or give permission",
+  "explanation": "把动词变成て形，再接もいいです，可以询问或给予许可。疑问句〜てもいいですか是“我可以……吗”，回答〜てもいいです是“可以……”。这里的いい不是评价动作做得好，而是认可某个行为。肯定回答只表明被允许，不表示义务。向老师、店员或初次见面的人询问时，保留ですか更合适；亲近的人之间可说〜てもいい？。",
+  "usage": "在图书馆、课堂、商店等场景询问规则，或允许对方使用物品。",
+  "nuance": "对象和场合会影响礼貌程度。断然许可他人隐含你有权决定；对上级或客人给予许可时宜考虑更合适的表达。",
+  "structure": [
+    "Vて形 + もいいです",
+    "Vて形 + もいいですか",
+    "読む → 読んで；見る → 見て；使う → 使って；する → して"
+  ],
+  "formation": [
+    "Vて形 + もいいです",
+    "Vて形 + もいいですか",
+    "読む → 読んで；見る → 見て；使う → 使って；する → して"
+  ],
+  "examples": [
+    {
+      "target": "この本を読んでもいいですか。",
+      "reading": "このほんをよんでもいいですか。",
+      "zh": "我可以读这本书吗？",
+      "en": "May I read this book?"
+    },
+    {
+      "target": "ここに座ってもいいです。",
+      "reading": "ここにすわってもいいです。",
+      "zh": "你可以坐在这里。",
+      "en": "You may sit here."
+    },
+    {
+      "target": "このペンを使ってもいいですか。",
+      "reading": "このぺんをつかってもいいですか。",
+      "zh": "我可以用这支笔吗？",
+      "en": "May I use this pen?"
+    },
+    {
+      "target": "写真を撮ってもいいですか。",
+      "reading": "しゃしんをとってもいいですか。",
+      "zh": "我可以拍照吗？",
+      "en": "May I take a photograph?"
+    }
+  ],
+  "notes": [
+    "て形的具体变化需结合动词类别练习；不是简单把末尾统一换成て。",
+    "否定许可常用〜てはいけません。本课先掌握肯定许可和询问，不把“允许不做”与“禁止做”混在一起。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この本を読むもいいですか。",
+      "correct": "この本を読んでもいいですか。",
+      "explanation": "动词先变て形：読む→読んで，不能把辞书形直接接もいい。"
+    },
+    {
+      "wrong": "ここに座ってもいいです。だから、必ず座ってください。",
+      "correct": "ここに座ってもいいです。座るかどうかは自分で決めてください。",
+      "explanation": "许可不是必须执行；坐不坐仍由对方决定。"
+    }
+  ],
+  "comparison": [],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form"
+  ],
+  "relatedGrammar": [],
+  "exercises": [
+    {
+      "id": "grammar-ja-n5-te-mo-ii-permission-1",
+      "kind": "meaning",
+      "prompt": "「この本を読んでもいいですか」在做什么？",
+      "options": [
+        "评价书的质量",
+        "请求读书的许可",
+        "要求别人必须读书"
+      ],
+      "acceptedAnswers": [
+        "请求读书的许可"
+      ],
+      "explanation": "〜てもいいですか询问说话者能否做某事，并非评论书好不好。"
+    },
+    {
+      "id": "grammar-ja-n5-te-mo-ii-permission-2",
+      "kind": "transform",
+      "prompt": "把「使う」变成询问“可以用吗”的礼貌形式。",
+      "acceptedAnswers": [
+        "使ってもいいですか。",
+        "使ってもいいですか"
+      ],
+      "explanation": "使う的て形是使って，后接もいいですか。"
+    },
+    {
+      "id": "grammar-ja-n5-te-mo-ii-permission-3",
+      "kind": "context",
+      "prompt": "你想在店里拍照，哪句适合向店员询问许可？",
+      "options": [
+        "写真を撮ります。",
+        "写真を撮ってください。",
+        "写真を撮ってもいいですか。"
+      ],
+      "acceptedAnswers": [
+        "写真を撮ってもいいですか。"
+      ],
+      "explanation": "撮ります只陈述要拍照；撮ってください请求对方拍，均不等于询问自己能否拍。"
+    },
+    {
+      "id": "grammar-ja-n5-te-mo-ii-permission-4",
+      "kind": "translation",
+      "prompt": "把“我可以坐在这里吗？”译成日语。",
+      "acceptedAnswers": [
+        "ここに座ってもいいですか。",
+        "ここに座ってもいいですか"
+      ],
+      "explanation": "座る→座って；地点ここに与许可疑问一起使用。"
+    },
+    {
+      "id": "grammar-ja-n5-te-mo-ii-permission-example-meaning-26",
+      "kind": "context",
+      "prompt": "在本课语境中，哪项最准确理解这句话？\n写真を撮ってもいいですか。",
+      "options": [
+        "我可以读这本书吗？",
+        "你可以坐在这里。",
+        "我可以拍照吗？"
+      ],
+      "acceptedAnswers": [
+        "我可以拍照吗？"
+      ],
+      "explanation": "本句的中文是“我可以拍照吗？”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。对象和场合会影响礼貌程度。断然许可他人隐含你有权决定；对上级或客人给予许可时宜考虑更合适的表达。"
+    }
+  ]
+}

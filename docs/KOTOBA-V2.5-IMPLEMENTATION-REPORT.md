@@ -84,7 +84,7 @@
 
 ## J. Known Issues
 
-1. 原 Sites 项目 `appgprj_6ac1a9e96d98819186da139d6549225e` 对当前账号返回 `project_not_found`。**未发布到原网址，也未创建替代 Site。** 原所有者须在原项目源码仓库应用此源码包/补丁并完成发布，或通过平台提供有效的编辑权限。
+1. 原 Sites 项目 `YOUR_HOSTING_PROJECT_ID` 对当前账号返回 `project_not_found`。**未发布到原网址，也未创建替代 Site。** 原所有者须在原项目源码仓库应用此源码包/补丁并完成发布，或通过平台提供有效的编辑权限。
 2. 私人账号、生产 Supabase、RLS 实际读写、跨设备同步、AI Edge Function、Safari/Android/PWA 真机均未在当前环境完成端到端验收。
 3. AI Edge Function 仍使用一次性 `invoke` 响应，没有真实流式输出；V2.5 改善了请求中和失败状态，未伪造流式动画。
 4. 浏览器语音识别与朗读取决于设备支持；发音评分仍未接入。口语未提交草稿保存在同标签页 `sessionStorage`，跨设备不会同步。

@@ -26,7 +26,7 @@
 
 ## 当前人工步骤
 
-1. 005部署回执已收到，当前不重跑005_deploy.sql。Supabase项目ocbydnsqennrumowqxvu → SQL Editor → New query，角色postgres。
+1. 005部署回执已收到，当前不重跑005_deploy.sql。Supabase项目your-project → SQL Editor → New query，角色postgres。
 2. 已返回001/kotoba、002/personal_backend、003/sync_and_srs、004/ai_requests_and_content、005/hardening_and_projection；这是部署登记，不是完整验收。
 3. 新查询完整执行005_verify.sql，只读，不调用RPC、不更改角色/JWT、不写fixture。
 4. 返回完整migration_005_verification。预期problems=[]、expected/found_tables=42、snapshot_limit_bytes=16777216、private_buckets=3；三个browser_*_access=false，其余布尔检查true。

@@ -1,0 +1,1113 @@
+[
+  {
+    "id": "grammar-en-a2-past-simple",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A2",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "V过去式 / did + V：已结束时间内发生的事",
+    "pattern": "V过去式 / did + V",
+    "meaningZh": "已结束时间内发生的事",
+    "meaningEn": "Events in a finished past time",
+    "explanation": "一般过去时描述在已结束时间发生的事件。肯定用过去式，否定和疑问用did加原形，不重复过去变化。过去动作可以依次叙述，与强调当前关联的现在完成时有不同视角。",
+    "usage": "叙述过去发生的事件",
+    "nuance": "yesterday或last week通常给出已结束时间范围。",
+    "structure": [
+      "肯定 V过去式；否定 did not + V原形"
+    ],
+    "formation": [
+      "肯定 V过去式；否定 did not + V原形"
+    ],
+    "examples": [
+      {
+        "target": "We visited the museum yesterday.",
+        "zh": "我们昨天参观了博物馆。"
+      },
+      {
+        "target": "She bought a ticket last night.",
+        "zh": "她昨晚买了票。"
+      },
+      {
+        "target": "I did not call him.",
+        "zh": "我没有打电话给他。"
+      },
+      {
+        "target": "Did you enjoy the film?",
+        "zh": "你喜欢那部电影吗？"
+      }
+    ],
+    "notes": [
+      "学习目标：能在叙述过去发生的事件中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Did you enjoyed the film?",
+        "correct": "Did you enjoy the film?",
+        "explanation": "did后用原形enjoy。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-a1-present-simple-routine"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a2-past-simple-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nWe visited the museum yesterday.",
+        "options": [
+          "我们昨天参观了博物馆。",
+          "她昨晚买了票。",
+          "我没有打电话给他。"
+        ],
+        "acceptedAnswers": [
+          "我们昨天参观了博物馆。"
+        ],
+        "explanation": "We visited the museum yesterday.：我们昨天参观了博物馆。 一般过去时描述在已结束时间发生的事件。肯定用过去式，否定和疑问用did加原形，不重复过去变化。过去动作可以依次叙述，与强调当前关联的现在完成时有不同视角。"
+      },
+      {
+        "id": "grammar-en-a2-past-simple-fill",
+        "kind": "fill",
+        "prompt": "She (　) a ticket last night.",
+        "options": [
+          "buy",
+          "buys",
+          "bought"
+        ],
+        "acceptedAnswers": [
+          "bought"
+        ],
+        "explanation": "last night为结束的过去时间，用bought。"
+      },
+      {
+        "id": "grammar-en-a2-past-simple-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\ndid后用原形enjoy。",
+        "options": [
+          "Did you enjoyed the film?",
+          "Did you enjoy the film?"
+        ],
+        "acceptedAnswers": [
+          "Did you enjoy the film?"
+        ],
+        "explanation": "did后用原形enjoy。"
+      },
+      {
+        "id": "grammar-en-a2-past-simple-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n你喜欢那部电影吗？",
+        "acceptedAnswers": [
+          "Did you enjoy the film?"
+        ],
+        "explanation": "Did you enjoy the film? yesterday或last week通常给出已结束时间范围。"
+      },
+      {
+        "id": "grammar-en-a2-past-simple-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nI did not call him.",
+        "options": [
+          "她昨晚买了票。",
+          "我没有打电话给他。",
+          "我们昨天参观了博物馆。"
+        ],
+        "acceptedAnswers": [
+          "我没有打电话给他。"
+        ],
+        "explanation": "原句对应“我没有打电话给他。”。yesterday或last week通常给出已结束时间范围。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a2-present-continuous",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A2",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "am / is / are + V-ing：正在进行或暂时的活动",
+    "pattern": "am / is / are + V-ing",
+    "meaningZh": "正在进行或暂时的活动",
+    "meaningEn": "An ongoing or temporary activity",
+    "explanation": "现在进行时需要be和ing两部分，描述当前正在做的或暂时的情况。与一般现在时的固定习惯不同。know等状态动词通常不用进行时；语境中的“现在”可是一段阶段，不必恰好此秒。",
+    "usage": "描述正在进行和暂时活动",
+    "nuance": "I work here是一般情况，I am working here this week是暂时安排。",
+    "structure": [
+      "be + V-ing，be与主语一致"
+    ],
+    "formation": [
+      "be + V-ing，be与主语一致"
+    ],
+    "examples": [
+      {
+        "target": "I am reading now.",
+        "zh": "我现在正在读书。"
+      },
+      {
+        "target": "They are repairing the road.",
+        "zh": "他们正在修路。"
+      },
+      {
+        "target": "She is staying with her sister this week.",
+        "zh": "她这周暂住在姐姐家。"
+      },
+      {
+        "target": "We are waiting for the bus.",
+        "zh": "我们正在等公交车。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在描述正在进行和暂时活动中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I reading now.",
+        "correct": "I am reading now.",
+        "explanation": "进行时不可省去am。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-a1-be-identity"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a2-present-continuous-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nI am reading now.",
+        "options": [
+          "她这周暂住在姐姐家。",
+          "我现在正在读书。",
+          "他们正在修路。"
+        ],
+        "acceptedAnswers": [
+          "我现在正在读书。"
+        ],
+        "explanation": "I am reading now.：我现在正在读书。 现在进行时需要be和ing两部分，描述当前正在做的或暂时的情况。与一般现在时的固定习惯不同。know等状态动词通常不用进行时；语境中的“现在”可是一段阶段，不必恰好此秒。"
+      },
+      {
+        "id": "grammar-en-a2-present-continuous-fill",
+        "kind": "fill",
+        "prompt": "They (　) repairing the road.",
+        "options": [
+          "do",
+          "are",
+          "is"
+        ],
+        "acceptedAnswers": [
+          "are"
+        ],
+        "explanation": "they与are一致。"
+      },
+      {
+        "id": "grammar-en-a2-present-continuous-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n进行时不可省去am。",
+        "options": [
+          "I am reading now.",
+          "I reading now."
+        ],
+        "acceptedAnswers": [
+          "I am reading now."
+        ],
+        "explanation": "进行时不可省去am。"
+      },
+      {
+        "id": "grammar-en-a2-present-continuous-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我们正在等公交车。",
+        "acceptedAnswers": [
+          "We are waiting for the bus."
+        ],
+        "explanation": "We are waiting for the bus. I work here是一般情况，I am working here this week是暂时安排。"
+      },
+      {
+        "id": "grammar-en-a2-present-continuous-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nShe is staying with her sister this week.",
+        "options": [
+          "她这周暂住在姐姐家。",
+          "我现在正在读书。",
+          "他们正在修路。"
+        ],
+        "acceptedAnswers": [
+          "她这周暂住在姐姐家。"
+        ],
+        "explanation": "原句对应“她这周暂住在姐姐家。”。I work here是一般情况，I am working here this week是暂时安排。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a2-past-continuous",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A2",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "was / were + V-ing：过去某时正在进行",
+    "pattern": "was / were + V-ing",
+    "meaningZh": "过去某时正在进行",
+    "meaningEn": "An activity in progress in the past",
+    "explanation": "过去进行时描述过去某时的活动背景，可与一般过去时的插入事件搭配。was用于I和第三人称单数，were用于you及复数。它不表示所有过去动作，只突出当时正在进行的一段过程。",
+    "usage": "描述过去背景与被打断的活动",
+    "nuance": "when the phone rang给出插入事件，was cooking给出背景。",
+    "structure": [
+      "was/were + V-ing"
+    ],
+    "formation": [
+      "was/were + V-ing"
+    ],
+    "examples": [
+      {
+        "target": "I was cooking when the phone rang.",
+        "zh": "电话响时我正在做饭。"
+      },
+      {
+        "target": "They were walking at six.",
+        "zh": "他们六点时正在走路。"
+      },
+      {
+        "target": "She was reading on the train.",
+        "zh": "她当时在火车上读书。"
+      },
+      {
+        "target": "We were waiting when it started to rain.",
+        "zh": "开始下雨时我们正在等待。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在描述过去背景与被打断的活动中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "They was walking at six.",
+        "correct": "They were walking at six.",
+        "explanation": "they为复数，过去be用were。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-a2-present-continuous",
+      "grammar-en-a2-past-simple"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a2-past-continuous-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nI was cooking when the phone rang.",
+        "options": [
+          "他们六点时正在走路。",
+          "她当时在火车上读书。",
+          "电话响时我正在做饭。"
+        ],
+        "acceptedAnswers": [
+          "电话响时我正在做饭。"
+        ],
+        "explanation": "I was cooking when the phone rang.：电话响时我正在做饭。 过去进行时描述过去某时的活动背景，可与一般过去时的插入事件搭配。was用于I和第三人称单数，were用于you及复数。它不表示所有过去动作，只突出当时正在进行的一段过程。"
+      },
+      {
+        "id": "grammar-en-a2-past-continuous-fill",
+        "kind": "fill",
+        "prompt": "They (　) walking at six yesterday.",
+        "options": [
+          "were",
+          "was",
+          "are"
+        ],
+        "acceptedAnswers": [
+          "were"
+        ],
+        "explanation": "过去时间加复数主语使用were。"
+      },
+      {
+        "id": "grammar-en-a2-past-continuous-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nthey为复数，过去be用were。",
+        "options": [
+          "They was walking at six.",
+          "They were walking at six."
+        ],
+        "acceptedAnswers": [
+          "They were walking at six."
+        ],
+        "explanation": "they为复数，过去be用were。"
+      },
+      {
+        "id": "grammar-en-a2-past-continuous-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n开始下雨时我们正在等待。",
+        "acceptedAnswers": [
+          "We were waiting when it started to rain."
+        ],
+        "explanation": "We were waiting when it started to rain. when the phone rang给出插入事件，was cooking给出背景。"
+      },
+      {
+        "id": "grammar-en-a2-past-continuous-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nShe was reading on the train.",
+        "options": [
+          "电话响时我正在做饭。",
+          "他们六点时正在走路。",
+          "她当时在火车上读书。"
+        ],
+        "acceptedAnswers": [
+          "她当时在火车上读书。"
+        ],
+        "explanation": "原句对应“她当时在火车上读书。”。when the phone rang给出插入事件，was cooking给出背景。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a2-comparatives",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A2",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "形容词-er / more + 形容词 + than：比较两者的程度",
+    "pattern": "形容词-er / more + 形容词 + than",
+    "meaningZh": "比较两者的程度",
+    "meaningEn": "Comparing two things",
+    "explanation": "较短形容词常加er，较长形容词常用more，比较对象用than连接。不能more和er双重标记；good的比较级是better。比较需要同一维度，例如价格和价格、路程和路程。",
+    "usage": "比较两个选项",
+    "nuance": "形容词音节只是规则参考，需学习实际常用形式。",
+    "structure": [
+      "短形容词-er / more + 长形容词 + than"
+    ],
+    "formation": [
+      "短形容词-er / more + 长形容词 + than"
+    ],
+    "examples": [
+      {
+        "target": "This bag is smaller than mine.",
+        "zh": "这个包比我的小。"
+      },
+      {
+        "target": "The train is faster than the bus.",
+        "zh": "火车比公交车快。"
+      },
+      {
+        "target": "This lesson is more difficult than the last one.",
+        "zh": "这一课比上一课难。"
+      },
+      {
+        "target": "Today is better than yesterday.",
+        "zh": "今天比昨天好。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在比较两个选项中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "This bag is more smaller than mine.",
+        "correct": "This bag is smaller than mine.",
+        "explanation": "more与-er不重复使用。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a2-comparatives-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nThis bag is smaller than mine.",
+        "options": [
+          "这个包比我的小。",
+          "火车比公交车快。",
+          "这一课比上一课难。"
+        ],
+        "acceptedAnswers": [
+          "这个包比我的小。"
+        ],
+        "explanation": "This bag is smaller than mine.：这个包比我的小。 较短形容词常加er，较长形容词常用more，比较对象用than连接。不能more和er双重标记；good的比较级是better。比较需要同一维度，例如价格和价格、路程和路程。"
+      },
+      {
+        "id": "grammar-en-a2-comparatives-fill",
+        "kind": "fill",
+        "prompt": "The train is (　) than the bus.",
+        "options": [
+          "more faster",
+          "fastest",
+          "faster"
+        ],
+        "acceptedAnswers": [
+          "faster"
+        ],
+        "explanation": "fast直接加er，不再加more。"
+      },
+      {
+        "id": "grammar-en-a2-comparatives-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nmore与-er不重复使用。",
+        "options": [
+          "This bag is smaller than mine.",
+          "This bag is more smaller than mine."
+        ],
+        "acceptedAnswers": [
+          "This bag is smaller than mine."
+        ],
+        "explanation": "more与-er不重复使用。"
+      },
+      {
+        "id": "grammar-en-a2-comparatives-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n今天比昨天好。",
+        "acceptedAnswers": [
+          "Today is better than yesterday."
+        ],
+        "explanation": "Today is better than yesterday. 形容词音节只是规则参考，需学习实际常用形式。"
+      },
+      {
+        "id": "grammar-en-a2-comparatives-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nThis lesson is more difficult than the last one.",
+        "options": [
+          "火车比公交车快。",
+          "这一课比上一课难。",
+          "这个包比我的小。"
+        ],
+        "acceptedAnswers": [
+          "这一课比上一课难。"
+        ],
+        "explanation": "原句对应“这一课比上一课难。”。形容词音节只是规则参考，需学习实际常用形式。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a2-superlatives",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A2",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "the + 最高级：范围内程度最高",
+    "pattern": "the + 最高级",
+    "meaningZh": "范围内程度最高",
+    "meaningEn": "A maximum within a group",
+    "explanation": "最高级比较一个群体中程度最突出的成员，通常有the。较短形容词加est，较长用most，good变best。必须理解比较范围，不能把两者直接比较和整个群体的最高级混在一起。",
+    "usage": "从多个选项中找最突出者",
+    "nuance": "my best friend已有物主限定词，不再加the。",
+    "structure": [
+      "the + -est / most + 形容词"
+    ],
+    "formation": [
+      "the + -est / most + 形容词"
+    ],
+    "examples": [
+      {
+        "target": "This is the smallest room.",
+        "zh": "这是最小的房间。"
+      },
+      {
+        "target": "May is the busiest month here.",
+        "zh": "五月是这里最忙的月份。"
+      },
+      {
+        "target": "This is the most useful tool.",
+        "zh": "这是最有用的工具。"
+      },
+      {
+        "target": "He is the tallest person in our class.",
+        "zh": "他是我们班最高的人。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在从多个选项中找最突出者中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "This is the most smallest room.",
+        "correct": "This is the smallest room.",
+        "explanation": "-est已标记最高级，不与most重叠。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-a2-comparatives"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a2-superlatives-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nThis is the smallest room.",
+        "options": [
+          "这是最有用的工具。",
+          "这是最小的房间。",
+          "五月是这里最忙的月份。"
+        ],
+        "acceptedAnswers": [
+          "这是最小的房间。"
+        ],
+        "explanation": "This is the smallest room.：这是最小的房间。 最高级比较一个群体中程度最突出的成员，通常有the。较短形容词加est，较长用most，good变best。必须理解比较范围，不能把两者直接比较和整个群体的最高级混在一起。"
+      },
+      {
+        "id": "grammar-en-a2-superlatives-fill",
+        "kind": "fill",
+        "prompt": "This is (　) useful tool of the three.",
+        "options": [
+          "mostest",
+          "the most",
+          "more"
+        ],
+        "acceptedAnswers": [
+          "the most"
+        ],
+        "explanation": "三个选项中最高程度用the most。"
+      },
+      {
+        "id": "grammar-en-a2-superlatives-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n-est已标记最高级，不与most重叠。",
+        "options": [
+          "This is the most smallest room.",
+          "This is the smallest room."
+        ],
+        "acceptedAnswers": [
+          "This is the smallest room."
+        ],
+        "explanation": "-est已标记最高级，不与most重叠。"
+      },
+      {
+        "id": "grammar-en-a2-superlatives-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n他是我们班最高的人。",
+        "acceptedAnswers": [
+          "He is the tallest person in our class."
+        ],
+        "explanation": "He is the tallest person in our class. my best friend已有物主限定词，不再加the。"
+      },
+      {
+        "id": "grammar-en-a2-superlatives-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nThis is the most useful tool.",
+        "options": [
+          "这是最有用的工具。",
+          "这是最小的房间。",
+          "五月是这里最忙的月份。"
+        ],
+        "acceptedAnswers": [
+          "这是最有用的工具。"
+        ],
+        "explanation": "原句对应“这是最有用的工具。”。my best friend已有物主限定词，不再加the。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a2-some-any",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A2",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "some / any + N：一定量与不限定数量",
+    "pattern": "some / any + N",
+    "meaningZh": "一定量与不限定数量",
+    "meaningEn": "Indefinite quantities",
+    "explanation": "some常用于肯定句，any常用于否定或中性询问。提出希望对方接受的邀请或请求时疑问句也可用some，如Would you like some tea。不能只按问号机械选择any，需要理解说话意图。",
+    "usage": "询问是否有物品及提供食物",
+    "nuance": "any在肯定句可表示任何一个，本课先练习基础数量用法。",
+    "structure": [
+      "肯定 some；否定/中性询问 any；邀请可用 some"
+    ],
+    "formation": [
+      "肯定 some；否定/中性询问 any；邀请可用 some"
+    ],
+    "examples": [
+      {
+        "target": "I have some questions.",
+        "zh": "我有一些问题。"
+      },
+      {
+        "target": "We do not have any milk.",
+        "zh": "我们没有牛奶。"
+      },
+      {
+        "target": "Are there any seats?",
+        "zh": "还有座位吗？"
+      },
+      {
+        "target": "Would you like some tea?",
+        "zh": "你想喝点茶吗？"
+      }
+    ],
+    "notes": [
+      "学习目标：能在询问是否有物品及提供食物中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "We do not have some milk.（中性说明一点也没有）",
+        "correct": "We do not have any milk.",
+        "explanation": "中性的数量否定通常用any。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a2-some-any-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nI have some questions.",
+        "options": [
+          "我们没有牛奶。",
+          "还有座位吗？",
+          "我有一些问题。"
+        ],
+        "acceptedAnswers": [
+          "我有一些问题。"
+        ],
+        "explanation": "I have some questions.：我有一些问题。 some常用于肯定句，any常用于否定或中性询问。提出希望对方接受的邀请或请求时疑问句也可用some，如Would you like some tea。不能只按问号机械选择any，需要理解说话意图。"
+      },
+      {
+        "id": "grammar-en-a2-some-any-fill",
+        "kind": "fill",
+        "prompt": "中性询问：Are there (　) seats?",
+        "options": [
+          "any",
+          "a",
+          "much"
+        ],
+        "acceptedAnswers": [
+          "any"
+        ],
+        "explanation": "seats为复数，中性询问用any。"
+      },
+      {
+        "id": "grammar-en-a2-some-any-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n中性的数量否定通常用any。",
+        "options": [
+          "We do not have any milk.",
+          "We do not have some milk.（中性说明一点也没有）"
+        ],
+        "acceptedAnswers": [
+          "We do not have any milk."
+        ],
+        "explanation": "中性的数量否定通常用any。"
+      },
+      {
+        "id": "grammar-en-a2-some-any-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n你想喝点茶吗？",
+        "acceptedAnswers": [
+          "Would you like some tea?"
+        ],
+        "explanation": "Would you like some tea? any在肯定句可表示任何一个，本课先练习基础数量用法。"
+      },
+      {
+        "id": "grammar-en-a2-some-any-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nAre there any seats?",
+        "options": [
+          "我有一些问题。",
+          "我们没有牛奶。",
+          "还有座位吗？"
+        ],
+        "acceptedAnswers": [
+          "还有座位吗？"
+        ],
+        "explanation": "原句对应“还有座位吗？”。any在肯定句可表示任何一个，本课先练习基础数量用法。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a2-must-have-to",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A2",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "must / have to + V：必须；有必要",
+    "pattern": "must / have to + V",
+    "meaningZh": "必须；有必要",
+    "meaningEn": "Obligation",
+    "explanation": "must与have to都可表达必须，have to可更方便用于过去和不同人称。关键是其否定不同：must not表示禁止，do not have to表示没有必要，不能把两者都译成“不用”。本课先围绕规定与必要性练习。",
+    "usage": "说明要求与必要性",
+    "nuance": "过去必须常用had to，而不是将must变为过去词形。",
+    "structure": [
+      "没有必要 do not have to；禁止 must not"
+    ],
+    "formation": [
+      "没有必要 do not have to；禁止 must not"
+    ],
+    "examples": [
+      {
+        "target": "You must wear a helmet.",
+        "zh": "你必须戴头盔。"
+      },
+      {
+        "target": "We have to leave early.",
+        "zh": "我们必须早点离开。"
+      },
+      {
+        "target": "You must not enter this room.",
+        "zh": "你禁止进入这个房间。"
+      },
+      {
+        "target": "You do not have to pay today.",
+        "zh": "你今天不必付款。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在说明要求与必要性中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "You must not pay.（想表达不必付钱）",
+        "correct": "You do not have to pay.",
+        "explanation": "must not表示不允许，不等于没有必要。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-a1-can-ability"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a2-must-have-to-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nYou must wear a helmet.",
+        "options": [
+          "你必须戴头盔。",
+          "我们必须早点离开。",
+          "你禁止进入这个房间。"
+        ],
+        "acceptedAnswers": [
+          "你必须戴头盔。"
+        ],
+        "explanation": "You must wear a helmet.：你必须戴头盔。 must与have to都可表达必须，have to可更方便用于过去和不同人称。关键是其否定不同：must not表示禁止，do not have to表示没有必要，不能把两者都译成“不用”。本课先围绕规定与必要性练习。"
+      },
+      {
+        "id": "grammar-en-a2-must-have-to-fill",
+        "kind": "fill",
+        "prompt": "无需付款：You (　) pay today.",
+        "options": [
+          "must not",
+          "cannot",
+          "do not have to"
+        ],
+        "acceptedAnswers": [
+          "do not have to"
+        ],
+        "explanation": "无需并非禁止，使用do not have to。"
+      },
+      {
+        "id": "grammar-en-a2-must-have-to-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nmust not表示不允许，不等于没有必要。",
+        "options": [
+          "You must not pay.（想表达不必付钱）",
+          "You do not have to pay."
+        ],
+        "acceptedAnswers": [
+          "You do not have to pay."
+        ],
+        "explanation": "must not表示不允许，不等于没有必要。"
+      },
+      {
+        "id": "grammar-en-a2-must-have-to-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n你今天不必付款。",
+        "acceptedAnswers": [
+          "You do not have to pay today."
+        ],
+        "explanation": "You do not have to pay today. 过去必须常用had to，而不是将must变为过去词形。"
+      },
+      {
+        "id": "grammar-en-a2-must-have-to-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nYou must not enter this room.",
+        "options": [
+          "我们必须早点离开。",
+          "你禁止进入这个房间。",
+          "你必须戴头盔。"
+        ],
+        "acceptedAnswers": [
+          "你禁止进入这个房间。"
+        ],
+        "explanation": "原句对应“你禁止进入这个房间。”。过去必须常用had to，而不是将must变为过去词形。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a2-a-few-a-little",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A2",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "a few / a little：少量但有一些",
+    "pattern": "a few / a little",
+    "meaningZh": "少量但有一些",
+    "meaningEn": "A small positive quantity",
+    "explanation": "a few用于复数可数名词，a little用于不可数名词，都强调仍有一些。省去a的few/little常强调不足，因此冠词不只是可有可无。要先判断名词可数性，再考虑说话人的数量评价。",
+    "usage": "说明少量物品、时间或资源",
+    "nuance": "a few friends是几个朋友，few friends强调朋友很少。",
+    "structure": [
+      "a few + 复数可数；a little + 不可数"
+    ],
+    "formation": [
+      "a few + 复数可数；a little + 不可数"
+    ],
+    "examples": [
+      {
+        "target": "I have a few questions.",
+        "zh": "我有几个问题。"
+      },
+      {
+        "target": "We have a little time.",
+        "zh": "我们还有一点时间。"
+      },
+      {
+        "target": "She bought a few apples.",
+        "zh": "她买了几个苹果。"
+      },
+      {
+        "target": "Please add a little water.",
+        "zh": "请加一点水。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在说明少量物品、时间或资源中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Please add a few water.",
+        "correct": "Please add a little water.",
+        "explanation": "water不可数，使用a little。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-a1-plural-nouns"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a2-a-few-a-little-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nI have a few questions.",
+        "options": [
+          "她买了几个苹果。",
+          "我有几个问题。",
+          "我们还有一点时间。"
+        ],
+        "acceptedAnswers": [
+          "我有几个问题。"
+        ],
+        "explanation": "I have a few questions.：我有几个问题。 a few用于复数可数名词，a little用于不可数名词，都强调仍有一些。省去a的few/little常强调不足，因此冠词不只是可有可无。要先判断名词可数性，再考虑说话人的数量评价。"
+      },
+      {
+        "id": "grammar-en-a2-a-few-a-little-fill",
+        "kind": "fill",
+        "prompt": "We have (　) time.",
+        "options": [
+          "a many",
+          "a little",
+          "a few"
+        ],
+        "acceptedAnswers": [
+          "a little"
+        ],
+        "explanation": "time在这里是不可数名词。"
+      },
+      {
+        "id": "grammar-en-a2-a-few-a-little-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nwater不可数，使用a little。",
+        "options": [
+          "Please add a little water.",
+          "Please add a few water."
+        ],
+        "acceptedAnswers": [
+          "Please add a little water."
+        ],
+        "explanation": "water不可数，使用a little。"
+      },
+      {
+        "id": "grammar-en-a2-a-few-a-little-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n请加一点水。",
+        "acceptedAnswers": [
+          "Please add a little water."
+        ],
+        "explanation": "Please add a little water. a few friends是几个朋友，few friends强调朋友很少。"
+      },
+      {
+        "id": "grammar-en-a2-a-few-a-little-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nShe bought a few apples.",
+        "options": [
+          "她买了几个苹果。",
+          "我有几个问题。",
+          "我们还有一点时间。"
+        ],
+        "acceptedAnswers": [
+          "她买了几个苹果。"
+        ],
+        "explanation": "原句对应“她买了几个苹果。”。a few friends是几个朋友，few friends强调朋友很少。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a2-will-spontaneous",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A2",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "will + V（即时决定）：当场作出的决定",
+    "pattern": "will + V（即时决定）",
+    "meaningZh": "当场作出的决定",
+    "meaningEn": "A decision made at the moment",
+    "explanation": "will可用于当场作出的决定、主动提供帮助或承诺。going to通常强调已经形成的计划。两者不是所有语境都互斥，但在刚看到需要帮助时I’ll help体现即时回应，不能把它机械当作远近未来区分。",
+    "usage": "回应现场情况和主动帮忙",
+    "nuance": "will后原形；I’ll是I will的缩写。",
+    "structure": [
+      "will + 动词原形"
+    ],
+    "formation": [
+      "will + 动词原形"
+    ],
+    "examples": [
+      {
+        "target": "The phone is ringing. I will answer it.",
+        "zh": "电话响了，我来接。"
+      },
+      {
+        "target": "You look tired. I will carry the bag.",
+        "zh": "你看起来累了，我来拿包。"
+      },
+      {
+        "target": "I will send you the address tonight.",
+        "zh": "我今晚会把地址发给你。"
+      },
+      {
+        "target": "We will help you with the boxes.",
+        "zh": "我们会帮你搬这些箱子。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在回应现场情况和主动帮忙中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I will to help you.",
+        "correct": "I will help you.",
+        "explanation": "情态动词will后直接接原形。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-a2-going-to-plan",
+        "explanation": "will可作即时回应，going to更突出事先的意图；并非单纯按时间远近选择。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-a2-going-to-plan"
+    ],
+    "relatedGrammar": [
+      "grammar-en-a2-going-to-plan"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-a2-will-spontaneous-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nThe phone is ringing. I will answer it.",
+        "options": [
+          "你看起来累了，我来拿包。",
+          "我今晚会把地址发给你。",
+          "电话响了，我来接。"
+        ],
+        "acceptedAnswers": [
+          "电话响了，我来接。"
+        ],
+        "explanation": "The phone is ringing. I will answer it.：电话响了，我来接。 will可用于当场作出的决定、主动提供帮助或承诺。going to通常强调已经形成的计划。两者不是所有语境都互斥，但在刚看到需要帮助时I’ll help体现即时回应，不能把它机械当作远近未来区分。"
+      },
+      {
+        "id": "grammar-en-a2-will-spontaneous-fill",
+        "kind": "fill",
+        "prompt": "现场决定接电话：I will (　) it.",
+        "options": [
+          "answer",
+          "answered",
+          "to answer"
+        ],
+        "acceptedAnswers": [
+          "answer"
+        ],
+        "explanation": "will后不使用过去式或to。"
+      },
+      {
+        "id": "grammar-en-a2-will-spontaneous-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n情态动词will后直接接原形。",
+        "options": [
+          "I will to help you.",
+          "I will help you."
+        ],
+        "acceptedAnswers": [
+          "I will help you."
+        ],
+        "explanation": "情态动词will后直接接原形。"
+      },
+      {
+        "id": "grammar-en-a2-will-spontaneous-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我们会帮你搬这些箱子。",
+        "acceptedAnswers": [
+          "We will help you with the boxes."
+        ],
+        "explanation": "We will help you with the boxes. will后原形；I’ll是I will的缩写。"
+      },
+      {
+        "id": "grammar-en-a2-will-spontaneous-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nI will send you the address tonight.",
+        "options": [
+          "电话响了，我来接。",
+          "你看起来累了，我来拿包。",
+          "我今晚会把地址发给你。"
+        ],
+        "acceptedAnswers": [
+          "我今晚会把地址发给你。"
+        ],
+        "explanation": "原句对应“我今晚会把地址发给你。”。will后原形；I’ll是I will的缩写。"
+      }
+    ]
+  }
+]

@@ -6,7 +6,7 @@
 
 ## 当前唯一人工操作
 
-Supabase项目ocbydnsqennrumowqxvu → Authentication → Sign In / Providers → User Signups（部分界面为Authentication Settings）→ 关闭Allow new users to sign up → Save。保持Google和Email providers启用。新读取的Auth settings HTTP200、Google enabled=true、Email enabled=true，但disable_signup=false。这说明关闭注册尚未生效；不能根据账号检查推断注册开关已关闭。
+Supabase项目your-project → Authentication → Sign In / Providers → User Signups（部分界面为Authentication Settings）→ 关闭Allow new users to sign up → Save。保持Google和Email providers启用。新读取的Auth settings HTTP200、Google enabled=true、Email enabled=true，但disable_signup=false。这说明关闭注册尚未生效；不能根据账号检查推断注册开关已关闭。
 
 保存后告诉助手“公共注册已关闭”。助手可以使用Publishable Key只读验证/auth/v1/settings中的disable_signup=true；不需要任何Secret。
 

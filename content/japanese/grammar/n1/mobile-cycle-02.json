@@ -1,0 +1,139 @@
+{
+  "id": "grammar-ja-n1-wo-motte-endpoint",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N1",
+  "difficulty": 5,
+  "tags": [
+    "mobile-cycle",
+    "usage-in-context"
+  ],
+  "title": "〜をもって：正式宣布结束时间",
+  "pattern": "時点を表す名詞 + をもって",
+  "meaningZh": "以……为截止；于……结束",
+  "meaningEn": "Mark an official endpoint",
+  "explanation": "时间名词后接をもって，可以在正式通知中标明某项服务、活动或受理工作的结束界点。例如本日をもって終了します不是“用今天来结束”，而是正式宣布到今天为止。后面常见終了、閉店、退任等表达。公告通常按所在单位的业务规则理解具体截止时间，单独一句本日をもって并不自动说明今天几点；需要精确时应同时写明时刻。",
+  "usage": "服务结束、活动闭幕、募集截止、退任等书面公告或正式发言。",
+  "nuance": "语体正式，不宜把普通见面时间“六点见”机械改成六時をもって会いましょう。名词をもって还可能表示手段或根据，本课只学习时间界点义。",
+  "structure": [
+    "本日／今月末／三月三十一日 + をもって + 終了する",
+    "具体时刻 + をもって + 受け付けを終了する"
+  ],
+  "formation": [
+    "本日／今月末／三月三十一日 + をもって + 終了する",
+    "具体时刻 + をもって + 受け付けを終了する"
+  ],
+  "examples": [
+    {
+      "target": "本日をもって、この窓口での受け付けを終了します。",
+      "reading": "ほんじつをもって、このまどぐちでのうけつけをしゅうりょうします。",
+      "zh": "本窗口将于今日结束受理。",
+      "en": "Applications at this counter will close today."
+    },
+    {
+      "target": "午後五時をもって、申し込みを締め切ります。",
+      "reading": "ごごごじをもって、もうしこみをしめきります。",
+      "zh": "报名将于下午五点截止。",
+      "en": "Registration will close at five in the afternoon."
+    },
+    {
+      "target": "三月三十一日をもって、会長を退任いたします。",
+      "reading": "さんがつさんじゅういちにちをもって、かいちょうをたいにんいたします。",
+      "zh": "我将于三月三十一日卸任会长。",
+      "en": "I will step down as chair on March thirty-first."
+    },
+    {
+      "target": "今月末をもって、旧サイトの公開を終了する予定です。",
+      "reading": "こんげつまつをもって、きゅうさいとのこうかいをしゅうりょうするよていです。",
+      "zh": "旧网站计划于本月末停止公开。",
+      "en": "The old site is scheduled to close at the end of this month."
+    }
+  ],
+  "notes": [
+    "をもって的其他义项应另行比较；不能因为出现同一形式就一律翻成截止时间。",
+    "まで也可表示持续到某个界点，但をもって更突出正式宣告结束；细读后续谓语和具体时间说明。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "明日六時をもって、駅で会いましょう。",
+      "correct": "明日六時に、駅で会いましょう。",
+      "explanation": "日常约定见面用に；时间界点的をもって通常与结束、截止等正式宣告搭配。"
+    },
+    {
+      "wrong": "本日をもって終了とあるので、締切は必ず午後五時だ。",
+      "correct": "本日をもって終了とあるが、具体的な締切時刻は別に確認する必要がある。",
+      "explanation": "本日只给出日期；不能凭空推出五点这一具体时刻。"
+    }
+  ],
+  "comparison": [],
+  "prerequisites": [],
+  "relatedGrammar": [],
+  "exercises": [
+    {
+      "id": "grammar-ja-n1-wo-motte-endpoint-1",
+      "kind": "meaning",
+      "prompt": "公告「今月末をもって公開を終了します」表达什么？",
+      "options": [
+        "每月底开始公开",
+        "到本月底停止公开",
+        "通过月末证明已公开"
+      ],
+      "acceptedAnswers": [
+        "到本月底停止公开"
+      ],
+      "explanation": "名词今月末给出结束界点，公開を終了说明停止公开。"
+    },
+    {
+      "id": "grammar-ja-n1-wo-motte-endpoint-2",
+      "kind": "context",
+      "prompt": "哪种场合最适合使用本课的をもって？",
+      "options": [
+        "邀请朋友今晚吃饭",
+        "描述每天七点起床",
+        "正式宣布报名截止"
+      ],
+      "acceptedAnswers": [
+        "正式宣布报名截止"
+      ],
+      "explanation": "时间界点义带正式语体，常用于服务、报名或任职结束。"
+    },
+    {
+      "id": "grammar-ja-n1-wo-motte-endpoint-3",
+      "kind": "fill",
+      "prompt": "填写正式公告：“报名于今天下午五点截止。” 申し込みは本日午後五時（　）締め切ります。",
+      "options": [
+        "をもって",
+        "について",
+        "に比べて"
+      ],
+      "acceptedAnswers": [
+        "をもって"
+      ],
+      "explanation": "五時是正式截止界点；について表话题，に比べて表比较。"
+    },
+    {
+      "id": "grammar-ja-n1-wo-motte-endpoint-4",
+      "kind": "translation",
+      "prompt": "把“本窗口将于今日结束受理”译成日语。",
+      "acceptedAnswers": [
+        "本日をもって、この窓口での受け付けを終了します。",
+        "本日をもってこの窓口での受け付けを終了します。"
+      ],
+      "explanation": "用本日をもって说明结束日期，窓口での受け付け指窗口的受理工作。"
+    },
+    {
+      "id": "grammar-ja-n1-wo-motte-endpoint-example-meaning-26",
+      "kind": "context",
+      "prompt": "在本课语境中，哪项最准确理解这句话？\n今月末をもって、旧サイトの公開を終了する予定です。",
+      "options": [
+        "报名将于下午五点截止。",
+        "旧网站计划于本月末停止公开。",
+        "本窗口将于今日结束受理。"
+      ],
+      "acceptedAnswers": [
+        "旧网站计划于本月末停止公开。"
+      ],
+      "explanation": "本句的中文是“旧网站计划于本月末停止公开。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。语体正式，不宜把普通见面时间“六点见”机械改成六時をもって会いましょう。名词をもって还可能表示手段或根据，本课只学习时间界点义。"
+    }
+  ]
+}

@@ -1,0 +1,1100 @@
+[
+  {
+    "id": "grammar-en-a1-be-identity",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A1",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "am / is / are：身份、状态与位置",
+    "pattern": "am / is / are",
+    "meaningZh": "身份、状态与位置",
+    "meaningEn": "Identity, state and location",
+    "explanation": "be与主语一致：I用am，单数第三人称用is，you及复数用are。否定直接加not，疑问将be提前。不能用do再加be，也不要在一般动词前无条件插入be。",
+    "usage": "介绍身份、状态或位置",
+    "nuance": "be不是所有英文句子都必须包含的连接词。",
+    "structure": [
+      "I am; he/she/it is; you/we/they are"
+    ],
+    "formation": [
+      "I am; he/she/it is; you/we/they are"
+    ],
+    "examples": [
+      {
+        "target": "I am a student.",
+        "zh": "我是一名学生。"
+      },
+      {
+        "target": "The shop is open.",
+        "zh": "这家店开着。"
+      },
+      {
+        "target": "We are at home.",
+        "zh": "我们在家。"
+      },
+      {
+        "target": "She is my sister.",
+        "zh": "她是我的姐姐。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在介绍身份、状态或位置中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She are my sister.",
+        "correct": "She is my sister.",
+        "explanation": "she为单数第三人称，be使用is。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a1-be-identity-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nI am a student.",
+        "options": [
+          "我是一名学生。",
+          "这家店开着。",
+          "我们在家。"
+        ],
+        "acceptedAnswers": [
+          "我是一名学生。"
+        ],
+        "explanation": "I am a student.：我是一名学生。 be与主语一致：I用am，单数第三人称用is，you及复数用are。否定直接加not，疑问将be提前。不能用do再加be，也不要在一般动词前无条件插入be。"
+      },
+      {
+        "id": "grammar-en-a1-be-identity-fill",
+        "kind": "fill",
+        "prompt": "We (　) at home.",
+        "options": [
+          "is",
+          "am",
+          "are"
+        ],
+        "acceptedAnswers": [
+          "are"
+        ],
+        "explanation": "we是复数，使用are。"
+      },
+      {
+        "id": "grammar-en-a1-be-identity-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nshe为单数第三人称，be使用is。",
+        "options": [
+          "She are my sister.",
+          "She is my sister."
+        ],
+        "acceptedAnswers": [
+          "She is my sister."
+        ],
+        "explanation": "she为单数第三人称，be使用is。"
+      },
+      {
+        "id": "grammar-en-a1-be-identity-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n她是我的姐姐。",
+        "acceptedAnswers": [
+          "She is my sister."
+        ],
+        "explanation": "She is my sister. be不是所有英文句子都必须包含的连接词。"
+      },
+      {
+        "id": "grammar-en-a1-be-identity-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nWe are at home.",
+        "options": [
+          "这家店开着。",
+          "我们在家。",
+          "我是一名学生。"
+        ],
+        "acceptedAnswers": [
+          "我们在家。"
+        ],
+        "explanation": "原句对应“我们在家。”。be不是所有英文句子都必须包含的连接词。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a1-have-possession",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A1",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "have / has：拥有某物",
+    "pattern": "have / has",
+    "meaningZh": "拥有某物",
+    "meaningEn": "Possession",
+    "explanation": "一般现在时中I、you、we、they用have，第三人称单数用has。用do或does构成疑问及否定时，后面的动词回到have。这里have表示拥有，不是完成时的助动词。",
+    "usage": "描述个人物品与家庭",
+    "nuance": "does已承担人称变化，不能再用has。",
+    "structure": [
+      "主语第三人称单数 + has；does not + have"
+    ],
+    "formation": [
+      "主语第三人称单数 + has；does not + have"
+    ],
+    "examples": [
+      {
+        "target": "I have a small bag.",
+        "zh": "我有一个小包。"
+      },
+      {
+        "target": "Mina has a bicycle.",
+        "zh": "米娜有一辆自行车。"
+      },
+      {
+        "target": "We have two chairs.",
+        "zh": "我们有两把椅子。"
+      },
+      {
+        "target": "He does not have a car.",
+        "zh": "他没有汽车。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在描述个人物品与家庭中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Does he has a car?",
+        "correct": "Does he have a car?",
+        "explanation": "疑问句does后用动词原形have。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-a1-present-simple-routine"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a1-have-possession-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nI have a small bag.",
+        "options": [
+          "我们有两把椅子。",
+          "我有一个小包。",
+          "米娜有一辆自行车。"
+        ],
+        "acceptedAnswers": [
+          "我有一个小包。"
+        ],
+        "explanation": "I have a small bag.：我有一个小包。 一般现在时中I、you、we、they用have，第三人称单数用has。用do或does构成疑问及否定时，后面的动词回到have。这里have表示拥有，不是完成时的助动词。"
+      },
+      {
+        "id": "grammar-en-a1-have-possession-fill",
+        "kind": "fill",
+        "prompt": "Mina (　) a bicycle.",
+        "options": [
+          "having",
+          "has",
+          "have"
+        ],
+        "acceptedAnswers": [
+          "has"
+        ],
+        "explanation": "第三人称肯定句用has。"
+      },
+      {
+        "id": "grammar-en-a1-have-possession-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n疑问句does后用动词原形have。",
+        "options": [
+          "Does he have a car?",
+          "Does he has a car?"
+        ],
+        "acceptedAnswers": [
+          "Does he have a car?"
+        ],
+        "explanation": "疑问句does后用动词原形have。"
+      },
+      {
+        "id": "grammar-en-a1-have-possession-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n他没有汽车。",
+        "acceptedAnswers": [
+          "He does not have a car."
+        ],
+        "explanation": "He does not have a car. does已承担人称变化，不能再用has。"
+      },
+      {
+        "id": "grammar-en-a1-have-possession-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nWe have two chairs.",
+        "options": [
+          "我们有两把椅子。",
+          "我有一个小包。",
+          "米娜有一辆自行车。"
+        ],
+        "acceptedAnswers": [
+          "我们有两把椅子。"
+        ],
+        "explanation": "原句对应“我们有两把椅子。”。does已承担人称变化，不能再用has。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a1-indefinite-article",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A1",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "a / an + 单数可数名词：一个未特指的对象",
+    "pattern": "a / an + 单数可数名词",
+    "meaningZh": "一个未特指的对象",
+    "meaningEn": "An unspecified singular countable noun",
+    "explanation": "a和an用在单数可数名词前，用于首次引入未特指对象。选择由紧接的发音决定，不是只看字母：an hour，a university。复数或不可数名词不能直接套用一个a。",
+    "usage": "首次介绍一个对象",
+    "nuance": "an old book依据old的元音开头发音选an。",
+    "structure": [
+      "辅音音素前 a；元音音素前 an"
+    ],
+    "formation": [
+      "辅音音素前 a；元音音素前 an"
+    ],
+    "examples": [
+      {
+        "target": "I need a pen.",
+        "zh": "我需要一支笔。"
+      },
+      {
+        "target": "She has an umbrella.",
+        "zh": "她有一把伞。"
+      },
+      {
+        "target": "This is an old book.",
+        "zh": "这是一本旧书。"
+      },
+      {
+        "target": "We have a new teacher.",
+        "zh": "我们有一位新老师。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在首次介绍一个对象中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I need an pen.",
+        "correct": "I need a pen.",
+        "explanation": "pen以辅音音素开头，用a。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a1-indefinite-article-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nI need a pen.",
+        "options": [
+          "她有一把伞。",
+          "这是一本旧书。",
+          "我需要一支笔。"
+        ],
+        "acceptedAnswers": [
+          "我需要一支笔。"
+        ],
+        "explanation": "I need a pen.：我需要一支笔。 a和an用在单数可数名词前，用于首次引入未特指对象。选择由紧接的发音决定，不是只看字母：an hour，a university。复数或不可数名词不能直接套用一个a。"
+      },
+      {
+        "id": "grammar-en-a1-indefinite-article-fill",
+        "kind": "fill",
+        "prompt": "She has (　) umbrella.",
+        "options": [
+          "an",
+          "a",
+          "two"
+        ],
+        "acceptedAnswers": [
+          "an"
+        ],
+        "explanation": "umbrella以元音音素开头。"
+      },
+      {
+        "id": "grammar-en-a1-indefinite-article-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\npen以辅音音素开头，用a。",
+        "options": [
+          "I need an pen.",
+          "I need a pen."
+        ],
+        "acceptedAnswers": [
+          "I need a pen."
+        ],
+        "explanation": "pen以辅音音素开头，用a。"
+      },
+      {
+        "id": "grammar-en-a1-indefinite-article-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我们有一位新老师。",
+        "acceptedAnswers": [
+          "We have a new teacher."
+        ],
+        "explanation": "We have a new teacher. an old book依据old的元音开头发音选an。"
+      },
+      {
+        "id": "grammar-en-a1-indefinite-article-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nThis is an old book.",
+        "options": [
+          "我需要一支笔。",
+          "她有一把伞。",
+          "这是一本旧书。"
+        ],
+        "acceptedAnswers": [
+          "这是一本旧书。"
+        ],
+        "explanation": "原句对应“这是一本旧书。”。an old book依据old的元音开头发音选an。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a1-plural-nouns",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A1",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "名词复数 -s / -es：多个可数对象",
+    "pattern": "名词复数 -s / -es",
+    "meaningZh": "多个可数对象",
+    "meaningEn": "Plural countable nouns",
+    "explanation": "可数名词描述两个或更多时通常用复数，常加s，以某些音结尾加es。辅音字母加y通常变为ies，也有children等不规则形式。不可数名词water不用普通复数来计数，应说two bottles of water。",
+    "usage": "数物品和人数",
+    "nuance": "two已经明确数量，名词仍需复数。",
+    "structure": [
+      "box → boxes；city → cities；child → children"
+    ],
+    "formation": [
+      "box → boxes；city → cities；child → children"
+    ],
+    "examples": [
+      {
+        "target": "There are two books.",
+        "zh": "有两本书。"
+      },
+      {
+        "target": "I have three boxes.",
+        "zh": "我有三个盒子。"
+      },
+      {
+        "target": "Two children are here.",
+        "zh": "两个孩子在这里。"
+      },
+      {
+        "target": "These cities are small.",
+        "zh": "这些城市很小。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在数物品和人数中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "There are two book.",
+        "correct": "There are two books.",
+        "explanation": "数量two后的可数名词使用复数books。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a1-plural-nouns-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nThere are two books.",
+        "options": [
+          "有两本书。",
+          "我有三个盒子。",
+          "两个孩子在这里。"
+        ],
+        "acceptedAnswers": [
+          "有两本书。"
+        ],
+        "explanation": "There are two books.：有两本书。 可数名词描述两个或更多时通常用复数，常加s，以某些音结尾加es。辅音字母加y通常变为ies，也有children等不规则形式。不可数名词water不用普通复数来计数，应说two bottles of water。"
+      },
+      {
+        "id": "grammar-en-a1-plural-nouns-fill",
+        "kind": "fill",
+        "prompt": "I have three (　).",
+        "options": [
+          "box",
+          "boxs",
+          "boxes"
+        ],
+        "acceptedAnswers": [
+          "boxes"
+        ],
+        "explanation": "box结尾加es。"
+      },
+      {
+        "id": "grammar-en-a1-plural-nouns-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n数量two后的可数名词使用复数books。",
+        "options": [
+          "There are two books.",
+          "There are two book."
+        ],
+        "acceptedAnswers": [
+          "There are two books."
+        ],
+        "explanation": "数量two后的可数名词使用复数books。"
+      },
+      {
+        "id": "grammar-en-a1-plural-nouns-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n这些城市很小。",
+        "acceptedAnswers": [
+          "These cities are small."
+        ],
+        "explanation": "These cities are small. two已经明确数量，名词仍需复数。"
+      },
+      {
+        "id": "grammar-en-a1-plural-nouns-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nTwo children are here.",
+        "options": [
+          "我有三个盒子。",
+          "两个孩子在这里。",
+          "有两本书。"
+        ],
+        "acceptedAnswers": [
+          "两个孩子在这里。"
+        ],
+        "explanation": "原句对应“两个孩子在这里。”。two已经明确数量，名词仍需复数。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a1-possessive-determiners",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A1",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "my / your / his / her / our / their + N：某人的事物",
+    "pattern": "my / your / his / her / our / their + N",
+    "meaningZh": "某人的事物",
+    "meaningEn": "Possessive determiners",
+    "explanation": "物主限定词放在名词前，描述归属。它们与主语代词不同：she作主语，her放在bag前。选择取决于拥有者而非物品的性别，多个对象并不让my变复数。",
+    "usage": "说明归属关系",
+    "nuance": "my book不再加the；the my book不合规则。",
+    "structure": [
+      "物主限定词 + 名词；主语代词不能直接作限定词"
+    ],
+    "formation": [
+      "物主限定词 + 名词；主语代词不能直接作限定词"
+    ],
+    "examples": [
+      {
+        "target": "This is my bag.",
+        "zh": "这是我的包。"
+      },
+      {
+        "target": "Her coat is blue.",
+        "zh": "她的外套是蓝色的。"
+      },
+      {
+        "target": "Our classroom is quiet.",
+        "zh": "我们的教室很安静。"
+      },
+      {
+        "target": "Their house is near the park.",
+        "zh": "他们的房子在公园附近。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在说明归属关系中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She coat is blue.",
+        "correct": "Her coat is blue.",
+        "explanation": "she是主语代词，名词前使用her。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a1-possessive-determiners-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nThis is my bag.",
+        "options": [
+          "我们的教室很安静。",
+          "这是我的包。",
+          "她的外套是蓝色的。"
+        ],
+        "acceptedAnswers": [
+          "这是我的包。"
+        ],
+        "explanation": "This is my bag.：这是我的包。 物主限定词放在名词前，描述归属。它们与主语代词不同：she作主语，her放在bag前。选择取决于拥有者而非物品的性别，多个对象并不让my变复数。"
+      },
+      {
+        "id": "grammar-en-a1-possessive-determiners-fill",
+        "kind": "fill",
+        "prompt": "She has a coat. (　) coat is blue.",
+        "options": [
+          "Hers",
+          "Her",
+          "She"
+        ],
+        "acceptedAnswers": [
+          "Her"
+        ],
+        "explanation": "coat前用her；hers单独代替名词短语。"
+      },
+      {
+        "id": "grammar-en-a1-possessive-determiners-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nshe是主语代词，名词前使用her。",
+        "options": [
+          "She coat is blue.",
+          "Her coat is blue."
+        ],
+        "acceptedAnswers": [
+          "Her coat is blue."
+        ],
+        "explanation": "she是主语代词，名词前使用her。"
+      },
+      {
+        "id": "grammar-en-a1-possessive-determiners-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n他们的房子在公园附近。",
+        "acceptedAnswers": [
+          "Their house is near the park."
+        ],
+        "explanation": "Their house is near the park. my book不再加the；the my book不合规则。"
+      },
+      {
+        "id": "grammar-en-a1-possessive-determiners-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nOur classroom is quiet.",
+        "options": [
+          "我们的教室很安静。",
+          "这是我的包。",
+          "她的外套是蓝色的。"
+        ],
+        "acceptedAnswers": [
+          "我们的教室很安静。"
+        ],
+        "explanation": "原句对应“我们的教室很安静。”。my book不再加the；the my book不合规则。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a1-demonstratives",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A1",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "this / that / these / those：指示近处或远处的人物",
+    "pattern": "this / that / these / those",
+    "meaningZh": "指示近处或远处的人物",
+    "meaningEn": "Near and distant reference",
+    "explanation": "this和that指单数，these和those指复数；this/these通常指近处，that/those指较远处。代指事物时be也需匹配数量，these are而不是these is。距离也可以是话语中的心理距离。",
+    "usage": "指出具体物品",
+    "nuance": "本课先按可见距离及数量选择形式。",
+    "structure": [
+      "近单 this / 远单 that / 近复 these / 远复 those"
+    ],
+    "formation": [
+      "近单 this / 远单 that / 近复 these / 远复 those"
+    ],
+    "examples": [
+      {
+        "target": "This cup is mine.",
+        "zh": "这个杯子是我的。"
+      },
+      {
+        "target": "That window is open.",
+        "zh": "那扇窗户开着。"
+      },
+      {
+        "target": "These books are new.",
+        "zh": "这些书是新的。"
+      },
+      {
+        "target": "Those chairs are old.",
+        "zh": "那些椅子很旧。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在指出具体物品中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "These book is new.",
+        "correct": "These books are new.",
+        "explanation": "these指复数，名词及be都需要复数形式。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-a1-be-identity"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a1-demonstratives-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nThis cup is mine.",
+        "options": [
+          "那扇窗户开着。",
+          "这些书是新的。",
+          "这个杯子是我的。"
+        ],
+        "acceptedAnswers": [
+          "这个杯子是我的。"
+        ],
+        "explanation": "This cup is mine.：这个杯子是我的。 this和that指单数，these和those指复数；this/these通常指近处，that/those指较远处。代指事物时be也需匹配数量，these are而不是these is。距离也可以是话语中的心理距离。"
+      },
+      {
+        "id": "grammar-en-a1-demonstratives-fill",
+        "kind": "fill",
+        "prompt": "指近处复数书籍：(　) books are new.",
+        "options": [
+          "These",
+          "This",
+          "That"
+        ],
+        "acceptedAnswers": [
+          "These"
+        ],
+        "explanation": "近处且复数使用these。"
+      },
+      {
+        "id": "grammar-en-a1-demonstratives-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nthese指复数，名词及be都需要复数形式。",
+        "options": [
+          "These books are new.",
+          "These book is new."
+        ],
+        "acceptedAnswers": [
+          "These books are new."
+        ],
+        "explanation": "these指复数，名词及be都需要复数形式。"
+      },
+      {
+        "id": "grammar-en-a1-demonstratives-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n那些椅子很旧。",
+        "acceptedAnswers": [
+          "Those chairs are old."
+        ],
+        "explanation": "Those chairs are old. 本课先按可见距离及数量选择形式。"
+      },
+      {
+        "id": "grammar-en-a1-demonstratives-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nThese books are new.",
+        "options": [
+          "这个杯子是我的。",
+          "那扇窗户开着。",
+          "这些书是新的。"
+        ],
+        "acceptedAnswers": [
+          "这些书是新的。"
+        ],
+        "explanation": "原句对应“这些书是新的。”。本课先按可见距离及数量选择形式。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a1-there-is-are",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A1",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "there is / there are：某处存在某物或某人",
+    "pattern": "there is / there are",
+    "meaningZh": "某处存在某物或某人",
+    "meaningEn": "Presenting existence",
+    "explanation": "there is/are首次提出某处有什么。单数及不可数名词通常用is，复数用are。there不是人物代词，不用它代替物品谈性质；介绍之后可用it或they继续描述。",
+    "usage": "介绍地点里有什么",
+    "nuance": "there is a book介绍一本书存在；it is new描述已经提及的书。",
+    "structure": [
+      "there is + 单数/不可数；there are + 复数"
+    ],
+    "formation": [
+      "there is + 单数/不可数；there are + 复数"
+    ],
+    "examples": [
+      {
+        "target": "There is a table in the room.",
+        "zh": "房间里有一张桌子。"
+      },
+      {
+        "target": "There are two windows.",
+        "zh": "有两扇窗户。"
+      },
+      {
+        "target": "There is some water here.",
+        "zh": "这里有一些水。"
+      },
+      {
+        "target": "There are three people outside.",
+        "zh": "外面有三个人。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在介绍地点里有什么中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "There is three people outside.",
+        "correct": "There are three people outside.",
+        "explanation": "people是复数，人有三个，用are。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-a1-be-identity",
+      "grammar-en-a1-plural-nouns"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a1-there-is-are-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nThere is a table in the room.",
+        "options": [
+          "房间里有一张桌子。",
+          "有两扇窗户。",
+          "这里有一些水。"
+        ],
+        "acceptedAnswers": [
+          "房间里有一张桌子。"
+        ],
+        "explanation": "There is a table in the room.：房间里有一张桌子。 there is/are首次提出某处有什么。单数及不可数名词通常用is，复数用are。there不是人物代词，不用它代替物品谈性质；介绍之后可用it或they继续描述。"
+      },
+      {
+        "id": "grammar-en-a1-there-is-are-fill",
+        "kind": "fill",
+        "prompt": "There (　) two windows.",
+        "options": [
+          "is",
+          "am",
+          "are"
+        ],
+        "acceptedAnswers": [
+          "are"
+        ],
+        "explanation": "windows为复数，用are。"
+      },
+      {
+        "id": "grammar-en-a1-there-is-are-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\npeople是复数，人有三个，用are。",
+        "options": [
+          "There is three people outside.",
+          "There are three people outside."
+        ],
+        "acceptedAnswers": [
+          "There are three people outside."
+        ],
+        "explanation": "people是复数，人有三个，用are。"
+      },
+      {
+        "id": "grammar-en-a1-there-is-are-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n外面有三个人。",
+        "acceptedAnswers": [
+          "There are three people outside."
+        ],
+        "explanation": "There are three people outside. there is a book介绍一本书存在；it is new描述已经提及的书。"
+      },
+      {
+        "id": "grammar-en-a1-there-is-are-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nThere is some water here.",
+        "options": [
+          "有两扇窗户。",
+          "这里有一些水。",
+          "房间里有一张桌子。"
+        ],
+        "acceptedAnswers": [
+          "这里有一些水。"
+        ],
+        "explanation": "原句对应“这里有一些水。”。there is a book介绍一本书存在；it is new描述已经提及的书。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a1-can-ability",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A1",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "can + 动词原形：能够做某事",
+    "pattern": "can + 动词原形",
+    "meaningZh": "能够做某事",
+    "meaningEn": "Ability",
+    "explanation": "can后接动词原形，不加to，不因主语第三人称变为cans。疑问直接将can提前，否定为cannot或can’t。这里练习能力义；请求与许可也可用can，但需要根据场景另作判断。",
+    "usage": "描述能力和技能",
+    "nuance": "he can swim不用swims，时态或人称由情态结构承担。",
+    "structure": [
+      "can + 动词原形；否定 cannot"
+    ],
+    "formation": [
+      "can + 动词原形；否定 cannot"
+    ],
+    "examples": [
+      {
+        "target": "I can swim.",
+        "zh": "我会游泳。"
+      },
+      {
+        "target": "She can read Japanese.",
+        "zh": "她能读日语。"
+      },
+      {
+        "target": "We cannot come today.",
+        "zh": "我们今天来不了。"
+      },
+      {
+        "target": "Can you use this computer?",
+        "zh": "你会用这台电脑吗？"
+      }
+    ],
+    "notes": [
+      "学习目标：能在描述能力和技能中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "He can to swim.",
+        "correct": "He can swim.",
+        "explanation": "can直接连接原形，不加to。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a1-can-ability-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nI can swim.",
+        "options": [
+          "我们今天来不了。",
+          "我会游泳。",
+          "她能读日语。"
+        ],
+        "acceptedAnswers": [
+          "我会游泳。"
+        ],
+        "explanation": "I can swim.：我会游泳。 can后接动词原形，不加to，不因主语第三人称变为cans。疑问直接将can提前，否定为cannot或can’t。这里练习能力义；请求与许可也可用can，但需要根据场景另作判断。"
+      },
+      {
+        "id": "grammar-en-a1-can-ability-fill",
+        "kind": "fill",
+        "prompt": "She can (　) Japanese.",
+        "options": [
+          "to read",
+          "read",
+          "reads"
+        ],
+        "acceptedAnswers": [
+          "read"
+        ],
+        "explanation": "情态动词后不加s或to。"
+      },
+      {
+        "id": "grammar-en-a1-can-ability-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\ncan直接连接原形，不加to。",
+        "options": [
+          "He can swim.",
+          "He can to swim."
+        ],
+        "acceptedAnswers": [
+          "He can swim."
+        ],
+        "explanation": "can直接连接原形，不加to。"
+      },
+      {
+        "id": "grammar-en-a1-can-ability-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n你会用这台电脑吗？",
+        "acceptedAnswers": [
+          "Can you use this computer?"
+        ],
+        "explanation": "Can you use this computer? he can swim不用swims，时态或人称由情态结构承担。"
+      },
+      {
+        "id": "grammar-en-a1-can-ability-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nWe cannot come today.",
+        "options": [
+          "我们今天来不了。",
+          "我会游泳。",
+          "她能读日语。"
+        ],
+        "acceptedAnswers": [
+          "我们今天来不了。"
+        ],
+        "explanation": "原句对应“我们今天来不了。”。he can swim不用swims，时态或人称由情态结构承担。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a1-wh-do-questions",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A1",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "Wh + do / does + 主语 + V：询问具体信息",
+    "pattern": "Wh + do / does + 主语 + V",
+    "meaningZh": "询问具体信息",
+    "meaningEn": "Information questions with do",
+    "explanation": "一般现在时用do/does构成关于动作的信息疑问，疑问词先指出问什么，再用助动词。第三人称用does且主要动词为原形。be句型和主语疑问Who lives here不属于本课do结构。",
+    "usage": "询问地点、时间和喜好",
+    "nuance": "Where do you live是提问地点，How do you travel提问方式。",
+    "structure": [
+      "Wh + do/does + 主语 + V原形"
+    ],
+    "formation": [
+      "Wh + do/does + 主语 + V原形"
+    ],
+    "examples": [
+      {
+        "target": "Where do you live?",
+        "zh": "你住在哪里？"
+      },
+      {
+        "target": "What does he eat?",
+        "zh": "他吃什么？"
+      },
+      {
+        "target": "When do they study?",
+        "zh": "他们什么时候学习？"
+      },
+      {
+        "target": "How do you go to school?",
+        "zh": "你怎样去学校？"
+      }
+    ],
+    "notes": [
+      "学习目标：能在询问地点、时间和喜好中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Where does she lives?",
+        "correct": "Where does she live?",
+        "explanation": "does后主要动词不再加s。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-a1-present-simple-routine"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-a1-wh-do-questions-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nWhere do you live?",
+        "options": [
+          "他吃什么？",
+          "他们什么时候学习？",
+          "你住在哪里？"
+        ],
+        "acceptedAnswers": [
+          "你住在哪里？"
+        ],
+        "explanation": "Where do you live?：你住在哪里？ 一般现在时用do/does构成关于动作的信息疑问，疑问词先指出问什么，再用助动词。第三人称用does且主要动词为原形。be句型和主语疑问Who lives here不属于本课do结构。"
+      },
+      {
+        "id": "grammar-en-a1-wh-do-questions-fill",
+        "kind": "fill",
+        "prompt": "What (　) he eat?",
+        "options": [
+          "does",
+          "do",
+          "is"
+        ],
+        "acceptedAnswers": [
+          "does"
+        ],
+        "explanation": "he为第三人称单数，用does。"
+      },
+      {
+        "id": "grammar-en-a1-wh-do-questions-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\ndoes后主要动词不再加s。",
+        "options": [
+          "Where does she lives?",
+          "Where does she live?"
+        ],
+        "acceptedAnswers": [
+          "Where does she live?"
+        ],
+        "explanation": "does后主要动词不再加s。"
+      },
+      {
+        "id": "grammar-en-a1-wh-do-questions-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n你怎样去学校？",
+        "acceptedAnswers": [
+          "How do you go to school?"
+        ],
+        "explanation": "How do you go to school? Where do you live是提问地点，How do you travel提问方式。"
+      },
+      {
+        "id": "grammar-en-a1-wh-do-questions-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nWhen do they study?",
+        "options": [
+          "你住在哪里？",
+          "他吃什么？",
+          "他们什么时候学习？"
+        ],
+        "acceptedAnswers": [
+          "他们什么时候学习？"
+        ],
+        "explanation": "原句对应“他们什么时候学习？”。Where do you live是提问地点，How do you travel提问方式。"
+      }
+    ]
+  }
+]

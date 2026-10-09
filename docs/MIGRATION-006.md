@@ -27,7 +27,7 @@
 
 ## 当前人工步骤
 
-1. Supabase项目ocbydnsqennrumowqxvu → SQL Editor → New query，角色postgres。
+1. Supabase项目your-project → SQL Editor → New query，角色postgres。
 2. 完整执行006_deploy.sql一次。应返回001–006，新增006/personal_audio_and_memory。
 3. 成功后在另一个New query完整执行006_verify.sql。
 4. 返回完整migration_006_verification。预期problems=[]、found/expected_tables=43、audio_rows=0、private_buckets=3、三个browser_*_access=false、其余布尔值true。

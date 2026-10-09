@@ -1,0 +1,794 @@
+[
+  {
+    "id": "grammar-en-b1-present-perfect-and-past-simple",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B1",
+    "difficulty": 3,
+    "tags": [
+      "writing",
+      "everyday-explanation"
+    ],
+    "title": "Present perfect or past simple?",
+    "pattern": "have / has + past participle",
+    "meaningZh": "从现在看过去；与明确过去时间的区别",
+    "meaningEn": "A past event connected to the present",
+    "explanation": "现在完成时把过去的经历、结果或持续情况与现在联系起来。一般过去时把事件放在已经结束的过去时间中，因此 yesterday、last year 等明确结束的时间通常配过去时。现在完成时也常与 for、since 和 yet 连用，但 for 本身并不规定时态：I lived there for two years 可以指已经结束的居住经历。选择时态时先判断时间范围与现在的关系，而不要只认一个时间词。",
+    "usage": "询问至今的经历、报告当前相关的变化，或谈论持续到现在的情况。",
+    "nuance": "I have lost my keys 强调现在找不到钥匙；I lost my keys yesterday 叙述昨天的事件。实际使用也会受语境和英语变体影响。",
+    "structure": [
+      "have / has + past participle",
+      "have not / has not + past participle",
+      "一般过去时 + 明确结束的过去时间"
+    ],
+    "formation": [
+      "have / has + past participle",
+      "have not / has not + past participle",
+      "一般过去时 + 明确结束的过去时间"
+    ],
+    "examples": [
+      {
+        "target": "I have worked here since March.",
+        "zh": "我从三月起就在这里工作，现在仍在这里。"
+      },
+      {
+        "target": "We have not received the application yet.",
+        "zh": "我们还没有收到申请。"
+      },
+      {
+        "target": "Have you ever repaired a bicycle?",
+        "zh": "你曾经修过自行车吗？"
+      },
+      {
+        "target": "I met the manager yesterday.",
+        "zh": "我昨天见到了经理。"
+      }
+    ],
+    "notes": [
+      "CEFR 等级用于课程编排，并非官方逐条语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I have met the manager yesterday.",
+        "correct": "I met the manager yesterday.",
+        "explanation": "yesterday 把事件放在明确结束的过去时间，通常用一般过去时。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-b1-past-perfect-sequence",
+        "explanation": "现在完成时从现在回看；过去完成时从另一个过去时刻回看。"
+      }
+    ],
+    "prerequisites": [],
+    "relatedGrammar": [
+      "grammar-en-b1-past-perfect-sequence"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-b1-present-perfect-and-past-simple-meaning",
+        "kind": "meaning",
+        "prompt": "I have lost my keys. 为什么说话人可能使用现在完成时？",
+        "options": [
+          "强调过去丢失对现在仍有影响",
+          "明确说明是在昨天丢失",
+          "表示明天才会丢失"
+        ],
+        "acceptedAnswers": [
+          "强调过去丢失对现在仍有影响"
+        ],
+        "explanation": "I have lost my keys 强调现在找不到钥匙；I lost my keys yesterday 叙述昨天的事件。实际使用也会受语境和英语变体影响。"
+      },
+      {
+        "id": "grammar-en-b1-present-perfect-and-past-simple-fill",
+        "kind": "fill",
+        "prompt": "I _____ here since March.",
+        "options": [
+          "have worked",
+          "has worked",
+          "have working"
+        ],
+        "acceptedAnswers": [
+          "have worked"
+        ],
+        "explanation": "have / has + past participle / have not / has not + past participle / 一般过去时 + 明确结束的过去时间"
+      },
+      {
+        "id": "grammar-en-b1-present-perfect-and-past-simple-translation",
+        "kind": "translation",
+        "prompt": "我从三月起就在这里工作，现在仍在这里。",
+        "acceptedAnswers": [
+          "I have worked here since March."
+        ],
+        "explanation": "参考表达：I have worked here since March.注意本课的时间、语序或动词接续；其他自然表达可自行对照。"
+      },
+      {
+        "id": "grammar-en-b1-present-perfect-and-past-simple-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\nI met the manager yesterday.",
+        "options": [
+          "我从三月起就在这里工作，现在仍在这里。",
+          "我们还没有收到申请。",
+          "我昨天见到了经理。"
+        ],
+        "acceptedAnswers": [
+          "我昨天见到了经理。"
+        ],
+        "explanation": "本句的中文是“我昨天见到了经理。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。I have lost my keys 强调现在找不到钥匙；I lost my keys yesterday 叙述昨天的事件。实际使用也会受语境和英语变体影响。"
+      },
+      {
+        "id": "grammar-en-b1-present-perfect-and-past-simple-mistake-check-26",
+        "kind": "error",
+        "prompt": "根据本课的用法边界，选择正确的表达。",
+        "options": [
+          "I have met the manager yesterday.",
+          "I met the manager yesterday."
+        ],
+        "acceptedAnswers": [
+          "I met the manager yesterday."
+        ],
+        "explanation": "yesterday 把事件放在明确结束的过去时间，通常用一般过去时。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b1-past-perfect-sequence",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B1",
+    "difficulty": 3,
+    "tags": [
+      "writing",
+      "everyday-explanation"
+    ],
+    "title": "Past perfect: before another past event",
+    "pattern": "had + past participle",
+    "meaningZh": "在另一过去事件之前已经……",
+    "meaningEn": "An event completed before a past reference point",
+    "explanation": "过去完成时用 had 加过去分词，把某件事放在另一个过去参考点之前。它帮助叙述者回看更早发生的事，并不要求一段过去故事里的每个动词都用过去完成时。若 before、after 或上下文已经清楚说明先后关系，一般过去时在许多语境中也可以自然使用。先确定正在叙述的过去时刻，再判断是否需要退回更早的时间。",
+    "usage": "讲述迟到、误解或发现某事时，说明此前已经发生的事件。",
+    "nuance": "When I arrived, the train had left 明确火车在到达前离开；When I arrived, the train left 往往呈现另一种先后关系。",
+    "structure": [
+      "had + past participle",
+      "had not + past participle",
+      "Had + 主语 + past participle?"
+    ],
+    "formation": [
+      "had + past participle",
+      "had not + past participle",
+      "Had + 主语 + past participle?"
+    ],
+    "examples": [
+      {
+        "target": "When we reached the office, the meeting had started.",
+        "zh": "我们到达办公室时，会议已经开始了。"
+      },
+      {
+        "target": "She had saved a copy before her laptop stopped working.",
+        "zh": "电脑出故障之前，她已经保存了副本。"
+      },
+      {
+        "target": "I could not enter because I had forgotten my key.",
+        "zh": "我进不去，因为忘带了钥匙。"
+      },
+      {
+        "target": "Had they checked the figures before publishing the report?",
+        "zh": "发布报告前，他们核对过数字吗？"
+      }
+    ],
+    "notes": [
+      "CEFR 等级用于课程编排，并非官方逐条语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The meeting had began.",
+        "correct": "The meeting had begun.",
+        "explanation": "had 后需要过去分词 begun，而不是一般过去式 began。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-b1-present-perfect-and-past-simple",
+        "explanation": "had 的参考点在过去；have / has 的参考点在现在。"
+      }
+    ],
+    "prerequisites": [],
+    "relatedGrammar": [
+      "grammar-en-b1-present-perfect-and-past-simple"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-b1-past-perfect-sequence-meaning",
+        "kind": "meaning",
+        "prompt": "When I arrived, the train had left. 哪件事发生在前？",
+        "options": [
+          "我到达在先，火车离开在后",
+          "两件事必定同时发生",
+          "火车离开在先，我到达在后"
+        ],
+        "acceptedAnswers": [
+          "火车离开在先，我到达在后"
+        ],
+        "explanation": "When I arrived, the train had left 明确火车在到达前离开；When I arrived, the train left 往往呈现另一种先后关系。"
+      },
+      {
+        "id": "grammar-en-b1-past-perfect-sequence-fill",
+        "kind": "fill",
+        "prompt": "The meeting _____ before we arrived.",
+        "options": [
+          "had begin",
+          "had began",
+          "had begun"
+        ],
+        "acceptedAnswers": [
+          "had begun"
+        ],
+        "explanation": "had + past participle / had not + past participle / Had + 主语 + past participle?"
+      },
+      {
+        "id": "grammar-en-b1-past-perfect-sequence-translation",
+        "kind": "translation",
+        "prompt": "我们到达办公室时，会议已经开始了。",
+        "acceptedAnswers": [
+          "When we reached the office, the meeting had started."
+        ],
+        "explanation": "参考表达：When we reached the office, the meeting had started.注意本课的时间、语序或动词接续；其他自然表达可自行对照。"
+      },
+      {
+        "id": "grammar-en-b1-past-perfect-sequence-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\nHad they checked the figures before publishing the report?",
+        "options": [
+          "电脑出故障之前，她已经保存了副本。",
+          "发布报告前，他们核对过数字吗？",
+          "我们到达办公室时，会议已经开始了。"
+        ],
+        "acceptedAnswers": [
+          "发布报告前，他们核对过数字吗？"
+        ],
+        "explanation": "本句的中文是“发布报告前，他们核对过数字吗？”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。When I arrived, the train had left 明确火车在到达前离开；When I arrived, the train left 往往呈现另一种先后关系。"
+      },
+      {
+        "id": "grammar-en-b1-past-perfect-sequence-mistake-check-26",
+        "kind": "error",
+        "prompt": "根据本课的用法边界，选择正确的表达。",
+        "options": [
+          "The meeting had began.",
+          "The meeting had begun."
+        ],
+        "acceptedAnswers": [
+          "The meeting had begun."
+        ],
+        "explanation": "had 后需要过去分词 begun，而不是一般过去式 began。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b1-defining-relative-clauses",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B1",
+    "difficulty": 3,
+    "tags": [
+      "writing",
+      "everyday-explanation"
+    ],
+    "title": "Relative clauses: identifying the person or thing",
+    "pattern": "noun + who / which / that + clause",
+    "meaningZh": "用于识别对象的关系从句",
+    "meaningEn": "A clause that identifies which person or thing is meant",
+    "explanation": "限制性关系从句紧跟名词，帮助听者识别具体是哪一个人或物。who 常指人，which 指物，that 可用于两者。关系词在从句中作宾语时常可以省略，如 the book I bought；作主语时通常不能省略，如 the person who called。不要在关系词已经承担宾语功能后再重复写 it 或 him。这里不讨论用逗号补充信息的非限制性从句。",
+    "usage": "介绍某个具体人物、筛选物品或说明所指对象。",
+    "nuance": "the people who work here 限定这里工作的人，未必指所有人；限制性从句通常不使用逗号将它与名词隔开。",
+    "structure": [
+      "人 + who / that + 从句",
+      "物 + which / that + 从句",
+      "宾语关系词可省略；主语关系词一般不可省略"
+    ],
+    "formation": [
+      "人 + who / that + 从句",
+      "物 + which / that + 从句",
+      "宾语关系词可省略；主语关系词一般不可省略"
+    ],
+    "examples": [
+      {
+        "target": "The person who called left a message.",
+        "zh": "打电话来的人留了口信。"
+      },
+      {
+        "target": "This is the book that helped me understand the topic.",
+        "zh": "这就是帮助我理解这个主题的书。"
+      },
+      {
+        "target": "The bag I bought yesterday has a broken zip.",
+        "zh": "我昨天买的包拉链坏了。"
+      },
+      {
+        "target": "We need a room which has enough natural light.",
+        "zh": "我们需要一个自然采光足够的房间。"
+      }
+    ],
+    "notes": [
+      "CEFR 等级用于课程编排，并非官方逐条语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The book that I bought it is on the desk.",
+        "correct": "The book that I bought is on the desk.",
+        "explanation": "that 已经表示 bought 的宾语，不能再重复 it。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-b1-indirect-questions",
+        "explanation": "关系从句用于识别名词；间接问句用于嵌入一个想知道的问题，两者的句子功能不同。"
+      }
+    ],
+    "prerequisites": [],
+    "relatedGrammar": [
+      "grammar-en-b1-indirect-questions"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-b1-defining-relative-clauses-meaning",
+        "kind": "meaning",
+        "prompt": "The woman who lives next door is a doctor. 从句的作用是？",
+        "options": [
+          "提出她是否住在隔壁的问题",
+          "限定说明具体是哪一位女士",
+          "表明所有女士都住在隔壁"
+        ],
+        "acceptedAnswers": [
+          "限定说明具体是哪一位女士"
+        ],
+        "explanation": "the people who work here 限定这里工作的人，未必指所有人；限制性从句通常不使用逗号将它与名词隔开。"
+      },
+      {
+        "id": "grammar-en-b1-defining-relative-clauses-fill",
+        "kind": "fill",
+        "prompt": "The person _____ called left a message.",
+        "options": [
+          "who he",
+          "which it",
+          "who"
+        ],
+        "acceptedAnswers": [
+          "who"
+        ],
+        "explanation": "人 + who / that + 从句 / 物 + which / that + 从句 / 宾语关系词可省略；主语关系词一般不可省略"
+      },
+      {
+        "id": "grammar-en-b1-defining-relative-clauses-translation",
+        "kind": "translation",
+        "prompt": "打电话来的人留了口信。",
+        "acceptedAnswers": [
+          "The person who called left a message."
+        ],
+        "explanation": "参考表达：The person who called left a message.注意本课的时间、语序或动词接续；其他自然表达可自行对照。"
+      },
+      {
+        "id": "grammar-en-b1-defining-relative-clauses-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\nWe need a room which has enough natural light.",
+        "options": [
+          "我们需要一个自然采光足够的房间。",
+          "打电话来的人留了口信。",
+          "这就是帮助我理解这个主题的书。"
+        ],
+        "acceptedAnswers": [
+          "我们需要一个自然采光足够的房间。"
+        ],
+        "explanation": "本句的中文是“我们需要一个自然采光足够的房间。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。the people who work here 限定这里工作的人，未必指所有人；限制性从句通常不使用逗号将它与名词隔开。"
+      },
+      {
+        "id": "grammar-en-b1-defining-relative-clauses-mistake-check-26",
+        "kind": "error",
+        "prompt": "根据本课的用法边界，选择正确的表达。",
+        "options": [
+          "The book that I bought it is on the desk.",
+          "The book that I bought is on the desk."
+        ],
+        "acceptedAnswers": [
+          "The book that I bought is on the desk."
+        ],
+        "explanation": "that 已经表示 bought 的宾语，不能再重复 it。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b1-indirect-questions",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B1",
+    "difficulty": 3,
+    "tags": [
+      "writing",
+      "everyday-explanation"
+    ],
+    "title": "Indirect questions: a question inside a sentence",
+    "pattern": "question word + subject + verb",
+    "meaningZh": "嵌入式问句；陈述语序",
+    "meaningEn": "Embedding a question with statement word order",
+    "explanation": "在 Could you tell me、Do you know 或 I wonder 后嵌入一个问题时，嵌入部分通常使用陈述语序，而不是直接问句中的主谓倒装。Where is the office? 变为 Do you know where the office is?。如果原句是 yes/no 问句，则可用 if 或 whether 引入。外层句子如果在提问，整句仍可带问号；不是说所有含间接问句的句子都不能提问。",
+    "usage": "较礼貌地询问信息，或表达自己不知道的事。",
+    "nuance": "Could you tell me 让提问更委婉，但仍需要正确调整内层语序；不要只给原来的问句加一个礼貌开头。",
+    "structure": [
+      "疑问词 + 主语 + 谓语",
+      "if / whether + 主语 + 谓语",
+      "外层是否为问句决定整句标点"
+    ],
+    "formation": [
+      "疑问词 + 主语 + 谓语",
+      "if / whether + 主语 + 谓语",
+      "外层是否为问句决定整句标点"
+    ],
+    "examples": [
+      {
+        "target": "Could you tell me where the office is?",
+        "zh": "你能告诉我办公室在哪里吗？"
+      },
+      {
+        "target": "I wonder how much the repair costs.",
+        "zh": "我想知道修理要多少钱。"
+      },
+      {
+        "target": "Do you know whether the library is open today?",
+        "zh": "你知道图书馆今天是否开放吗？"
+      },
+      {
+        "target": "She asked when the next train would arrive.",
+        "zh": "她问下一班火车什么时候到。"
+      }
+    ],
+    "notes": [
+      "CEFR 等级用于课程编排，并非官方逐条语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Could you tell me where is the office?",
+        "correct": "Could you tell me where the office is?",
+        "explanation": "嵌入的 where 从句使用 the office is 的陈述语序。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-b1-defining-relative-clauses",
+        "explanation": "间接问句通常跟在询问或认知表达后，不是修饰前面的名词。"
+      }
+    ],
+    "prerequisites": [],
+    "relatedGrammar": [
+      "grammar-en-b1-defining-relative-clauses"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-b1-indirect-questions-meaning",
+        "kind": "meaning",
+        "prompt": "Could you tell me where the station is? 为什么用 the station is？",
+        "options": [
+          "嵌入的疑问从句使用陈述语序",
+          "所有疑问句都不能用倒装语序",
+          "站的位置是一种将来假设"
+        ],
+        "acceptedAnswers": [
+          "嵌入的疑问从句使用陈述语序"
+        ],
+        "explanation": "Could you tell me 让提问更委婉，但仍需要正确调整内层语序；不要只给原来的问句加一个礼貌开头。"
+      },
+      {
+        "id": "grammar-en-b1-indirect-questions-fill",
+        "kind": "fill",
+        "prompt": "Do you know where _____?",
+        "options": [
+          "the office is",
+          "is the office",
+          "the office does is"
+        ],
+        "acceptedAnswers": [
+          "the office is"
+        ],
+        "explanation": "疑问词 + 主语 + 谓语 / if / whether + 主语 + 谓语 / 外层是否为问句决定整句标点"
+      },
+      {
+        "id": "grammar-en-b1-indirect-questions-translation",
+        "kind": "translation",
+        "prompt": "你能告诉我办公室在哪里吗？",
+        "acceptedAnswers": [
+          "Could you tell me where the office is?"
+        ],
+        "explanation": "参考表达：Could you tell me where the office is?。注意本课的时间、语序或动词接续；其他自然表达可自行对照。"
+      },
+      {
+        "id": "grammar-en-b1-indirect-questions-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\nShe asked when the next train would arrive.",
+        "options": [
+          "她问下一班火车什么时候到。",
+          "你能告诉我办公室在哪里吗？",
+          "我想知道修理要多少钱。"
+        ],
+        "acceptedAnswers": [
+          "她问下一班火车什么时候到。"
+        ],
+        "explanation": "本句的中文是“她问下一班火车什么时候到。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。Could you tell me 让提问更委婉，但仍需要正确调整内层语序；不要只给原来的问句加一个礼貌开头。"
+      },
+      {
+        "id": "grammar-en-b1-indirect-questions-mistake-check-26",
+        "kind": "error",
+        "prompt": "根据本课的用法边界，选择正确的表达。",
+        "options": [
+          "Could you tell me where is the office?",
+          "Could you tell me where the office is?"
+        ],
+        "acceptedAnswers": [
+          "Could you tell me where the office is?"
+        ],
+        "explanation": "嵌入的 where 从句使用 the office is 的陈述语序。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b1-second-conditional",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B1",
+    "difficulty": 3,
+    "tags": [
+      "writing",
+      "everyday-explanation"
+    ],
+    "title": "Second conditional: an imagined present or future",
+    "pattern": "if + past form, would + verb",
+    "meaningZh": "假设现在或未来并非现实的情况",
+    "meaningEn": "An unreal or remote present or future possibility",
+    "explanation": "第二条件句用 if 加过去形式来表达与现在现实不同，或说话者认为较不可能的未来情况，结果从句常用 would 加动词原形。这里的过去形式主要表示假设距离，不一定表示过去时间。If I were 是常见的正式或固定表达，尤其是 If I were you；口语中某些语境也能听到 was。不能把第二条件句与反思已结束过去的第三条件句混为一谈。",
+    "usage": "设想不同资源、环境或选择时，讨论可能结果与建议。",
+    "nuance": "If I had more time, I would walk to work 通常说明现在没有足够时间；它不表示昨天已经步行上班。",
+    "structure": [
+      "If + 主语 + 过去形式, 主语 + would + 动词原形",
+      "结果从句也可用 could / might",
+      "If I were you, I would …"
+    ],
+    "formation": [
+      "If + 主语 + 过去形式, 主语 + would + 动词原形",
+      "结果从句也可用 could / might",
+      "If I were you, I would …"
+    ],
+    "examples": [
+      {
+        "target": "If I had more time, I would walk to work.",
+        "zh": "如果我有更多时间，我会步行上班。"
+      },
+      {
+        "target": "If the room were quieter, we could record the interview here.",
+        "zh": "如果房间更安静，我们就可以在这里录采访。"
+      },
+      {
+        "target": "I would choose a smaller flat if I lived alone.",
+        "zh": "如果我独居，我会选一套更小的公寓。"
+      },
+      {
+        "target": "If I were you, I would check the contract first.",
+        "zh": "如果我是你，我会先检查合同。"
+      }
+    ],
+    "notes": [
+      "CEFR 等级用于课程编排，并非官方逐条语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "If I had more time, I would walked to work.",
+        "correct": "If I had more time, I would walk to work.",
+        "explanation": "would 后用动词原形。过去形式放在条件从句，不能因此把结果动词也改为过去式。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-b2-third-conditional",
+        "explanation": "第二条件句假设现在或未来；第三条件句用 had done 与 would have done 假设已经结束的过去。"
+      }
+    ],
+    "prerequisites": [],
+    "relatedGrammar": [
+      "grammar-en-b2-third-conditional"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-b1-second-conditional-meaning",
+        "kind": "meaning",
+        "prompt": "If I had more time, I would take a course. 这里的 had 通常表示？",
+        "options": [
+          "必然说明过去已经上过课程",
+          "表示比另一个过去动作更早完成",
+          "设想与当前情况有距离的条件"
+        ],
+        "acceptedAnswers": [
+          "设想与当前情况有距离的条件"
+        ],
+        "explanation": "If I had more time, I would walk to work 通常说明现在没有足够时间；它不表示昨天已经步行上班。"
+      },
+      {
+        "id": "grammar-en-b1-second-conditional-fill",
+        "kind": "fill",
+        "prompt": "If I had more time, I would _____ to work.",
+        "options": [
+          "walking",
+          "walked",
+          "walk"
+        ],
+        "acceptedAnswers": [
+          "walk"
+        ],
+        "explanation": "If + 主语 + 过去形式, 主语 + would + 动词原形 / 结果从句也可用 could / might / If I were you, I would …"
+      },
+      {
+        "id": "grammar-en-b1-second-conditional-translation",
+        "kind": "translation",
+        "prompt": "如果我有更多时间，我会步行上班。",
+        "acceptedAnswers": [
+          "If I had more time, I would walk to work."
+        ],
+        "explanation": "参考表达：If I had more time, I would walk to work.注意本课的时间、语序或动词接续；其他自然表达可自行对照。"
+      },
+      {
+        "id": "grammar-en-b1-second-conditional-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\nIf I were you, I would check the contract first.",
+        "options": [
+          "如果我有更多时间，我会步行上班。",
+          "如果房间更安静，我们就可以在这里录采访。",
+          "如果我是你，我会先检查合同。"
+        ],
+        "acceptedAnswers": [
+          "如果我是你，我会先检查合同。"
+        ],
+        "explanation": "本句的中文是“如果我是你，我会先检查合同。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。If I had more time, I would walk to work 通常说明现在没有足够时间；它不表示昨天已经步行上班。"
+      },
+      {
+        "id": "grammar-en-b1-second-conditional-mistake-check-26",
+        "kind": "error",
+        "prompt": "根据本课的用法边界，选择正确的表达。",
+        "options": [
+          "If I had more time, I would walked to work.",
+          "If I had more time, I would walk to work."
+        ],
+        "acceptedAnswers": [
+          "If I had more time, I would walk to work."
+        ],
+        "explanation": "would 后用动词原形。过去形式放在条件从句，不能因此把结果动词也改为过去式。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b1-passive-processes",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B1",
+    "difficulty": 3,
+    "tags": [
+      "writing",
+      "everyday-explanation"
+    ],
+    "title": "Passive voice: focus on a process or result",
+    "pattern": "be + past participle",
+    "meaningZh": "被动语态；把过程或受事放在焦点",
+    "meaningEn": "Focusing on what happens to something",
+    "explanation": "被动语态用 be 的适当形式加过去分词，把接受动作的事物或人放到主语位置。时态主要由 be 表示，如 is checked、was checked。只有有合适宾语的动作才能这样改写；arrive 等不及物动词不能简单套成 was arrived。执行者未知、不重要或已经明确时可省略 by 短语，但不应为了显得正式而把每句话都改成被动。",
+    "usage": "说明申请流程、制作过程或不需要强调执行者的结果。",
+    "nuance": "The application was rejected 说明结果，却没有解释由谁、为何拒绝；被动语态不能替代需要明确责任的说明。",
+    "structure": [
+      "am / is / are + past participle",
+      "was / were + past participle",
+      "可选：by + 执行者"
+    ],
+    "formation": [
+      "am / is / are + past participle",
+      "was / were + past participle",
+      "可选：by + 执行者"
+    ],
+    "examples": [
+      {
+        "target": "Each application is checked before a decision is made.",
+        "zh": "每份申请都会在作决定之前经过审核。"
+      },
+      {
+        "target": "The bridge was repaired last winter.",
+        "zh": "这座桥在去年冬天修好了。"
+      },
+      {
+        "target": "The documents were sent by email.",
+        "zh": "文件已通过电子邮件发送。"
+      },
+      {
+        "target": "This chair is made from recycled wood.",
+        "zh": "这把椅子用回收木材制成。"
+      }
+    ],
+    "notes": [
+      "CEFR 等级用于课程编排，并非官方逐条语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The bridge was repair last winter.",
+        "correct": "The bridge was repaired last winter.",
+        "explanation": "be 后需要过去分词 repaired，不能直接用动词原形 repair。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-b1-past-perfect-sequence",
+        "explanation": "被动结构说明动作如何作用于主语；过去完成时说明时间先后，二者可以组合而不是互相替代。"
+      }
+    ],
+    "prerequisites": [],
+    "relatedGrammar": [
+      "grammar-en-b1-past-perfect-sequence"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-b1-passive-processes-meaning",
+        "kind": "meaning",
+        "prompt": "The samples are checked every morning. 句子的焦点是？",
+        "options": [
+          "检查必定已经永久结束",
+          "样本受到的处理，执行者没有被指出",
+          "样本主动检查别人"
+        ],
+        "acceptedAnswers": [
+          "样本受到的处理，执行者没有被指出"
+        ],
+        "explanation": "The application was rejected 说明结果，却没有解释由谁、为何拒绝；被动语态不能替代需要明确责任的说明。"
+      },
+      {
+        "id": "grammar-en-b1-passive-processes-fill",
+        "kind": "fill",
+        "prompt": "The documents were _____ by email.",
+        "options": [
+          "sending",
+          "send",
+          "sent"
+        ],
+        "acceptedAnswers": [
+          "sent"
+        ],
+        "explanation": "am / is / are + past participle / was / were + past participle / 可选：by + 执行者"
+      },
+      {
+        "id": "grammar-en-b1-passive-processes-translation",
+        "kind": "translation",
+        "prompt": "每份申请都会在作决定之前经过审核。",
+        "acceptedAnswers": [
+          "Each application is checked before a decision is made."
+        ],
+        "explanation": "参考表达：Each application is checked before a decision is made.注意本课的时间、语序或动词接续；其他自然表达可自行对照。"
+      },
+      {
+        "id": "grammar-en-b1-passive-processes-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\nThis chair is made from recycled wood.",
+        "options": [
+          "这把椅子用回收木材制成。",
+          "每份申请都会在作决定之前经过审核。",
+          "这座桥在去年冬天修好了。"
+        ],
+        "acceptedAnswers": [
+          "这把椅子用回收木材制成。"
+        ],
+        "explanation": "本句的中文是“这把椅子用回收木材制成。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。The application was rejected 说明结果，却没有解释由谁、为何拒绝；被动语态不能替代需要明确责任的说明。"
+      },
+      {
+        "id": "grammar-en-b1-passive-processes-mistake-check-26",
+        "kind": "error",
+        "prompt": "根据本课的用法边界，选择正确的表达。",
+        "options": [
+          "The bridge was repair last winter.",
+          "The bridge was repaired last winter."
+        ],
+        "acceptedAnswers": [
+          "The bridge was repaired last winter."
+        ],
+        "explanation": "be 后需要过去分词 repaired，不能直接用动词原形 repair。"
+      }
+    ]
+  }
+]

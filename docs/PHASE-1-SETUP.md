@@ -16,7 +16,7 @@ Publishable Key 不提供 DDL 管理权限。使用自己的 Supabase CLI 登录
 
 ```sh
 npx supabase login
-npx supabase link --project-ref ocbydnsqennrumowqxvu
+npx supabase link --project-ref your-project
 npx supabase migration list
 npx supabase db push --dry-run
 npx supabase db push
@@ -31,23 +31,23 @@ Migration 008 保证：唯一邮箱绑定唯一 Auth UUID；该账号已确认�
 迁移完成后，在 **Supabase → SQL Editor → New query** 执行以下服务器配置数据操作（不是替代 schema migration）：
 
 ```sql
-select public.configure_private_owner('yzh72339@gmail.com');
+select public.configure_private_owner('owner@example.com');
 ```
 
-随后在 **Authentication → Users → Add user → Create user** 创建 `yzh72339@gmail.com`，启用 **Auto Confirm User**。设置自己的私人密码，只填写在该控制台；不要发送到聊天。不要使用 Invite user 流程，不需要发送邀请邮件。若此邮箱已存在，保留原 UUID，确认其邮件已验证，不要另建一个账号。
+随后在 **Authentication → Users → Add user → Create user** 创建 `owner@example.com`，启用 **Auto Confirm User**。设置自己的私人密码，只填写在该控制台；不要发送到聊天。不要使用 Invite user 流程，不需要发送邀请邮件。若此邮箱已存在，保留原 UUID，确认其邮件已验证，不要另建一个账号。
 
 这种控制台初始化方式无需给开发环境提供 service-role Key。若使用可选 `npm run backend:configure` 自动初始化，才需要服务器私密 `.env.local` 中的 `SUPABASE_SERVICE_ROLE_KEY`；该 Key 位于项目 **Settings → API Keys → Legacy API Keys → service_role**。`PRIVATE_ACCOUNT_PASSWORD` 只用于可选密码初始化，账号建好后移除它。
 
 ## 3. Google Cloud 创建 Web OAuth Client
 
 1. 打开 Google Cloud Console，选择或创建自己的项目。
-2. 打开 **Google Auth Platform → Branding / Audience**。名称使用 Kotoba Personal；使用 External 测试模式时，在 **Test users** 添加 `yzh72339@gmail.com`。授权范围只需要 `openid`、`email`、`profile`。
+2. 打开 **Google Auth Platform → Branding / Audience**。名称使用 Kotoba Personal；使用 External 测试模式时，在 **Test users** 添加 `owner@example.com`。授权范围只需要 `openid`、`email`、`profile`。
 3. 打开 **Clients → Create client → Web application**。旧界面路径为 **APIs & Services → Credentials → Create credentials → OAuth client ID**。
 4. **Authorized JavaScript origins** 填 `http://localhost:3000`。正式部署后再添加实际应用的 HTTPS origin，不带页面路径。
 5. **Authorized redirect URIs** 填：
 
 ```text
-https://ocbydnsqennrumowqxvu.supabase.co/auth/v1/callback
+https://your-project.supabase.co/auth/v1/callback
 ```
 
 保存后会生成 Client ID 和 Client Secret。Client Secret 只粘贴到下一步的 Supabase 服务器配置，不发到聊天，不写入 `NEXT_PUBLIC_*`。

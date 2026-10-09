@@ -1,0 +1,266 @@
+[
+  {
+    "id": "grammar-en-b2-remember-stop-gerund-infinitive",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B2",
+    "difficulty": 4,
+    "tags": [
+      "writing",
+      "everyday-explanation"
+    ],
+    "title": "Remember and stop: -ing or to do?",
+    "pattern": "remember / stop + -ing versus to do",
+    "meaningZh": "动名词与不定式改变含义",
+    "meaningEn": "When the following verb form changes the meaning",
+    "explanation": "remember doing 表示记得已经发生过的行为，remember to do 表示记住要完成的事情。stop doing 表示停止该动作，stop to do 则表示暂停正在做的事，以便做另一动作。不要把它概括成所有动词都“动名词表示过去，不定式表示未来”，因为这只是特定动词的意义差异，且时间还受整个句子的时态与语境影响。",
+    "usage": "准确说明记忆、提醒与暂停的目的。",
+    "nuance": "He stopped to check the map 不表示停止看地图，而是停下其他活动，目的是查看地图。",
+    "structure": [
+      "remember + -ing：记得发生过",
+      "remember + to do：记住要做",
+      "stop + -ing：停止该动作；stop + to do：停下来做另一件事"
+    ],
+    "formation": [
+      "remember + -ing：记得发生过",
+      "remember + to do：记住要做",
+      "stop + -ing：停止该动作；stop + to do：停下来做另一件事"
+    ],
+    "examples": [
+      {
+        "target": "I remember meeting her at the workshop.",
+        "zh": "我记得在研讨会上见过她。"
+      },
+      {
+        "target": "Please remember to lock the door.",
+        "zh": "请记得锁门。"
+      },
+      {
+        "target": "He stopped checking his phone during meetings.",
+        "zh": "他不再在开会时查看手机。"
+      },
+      {
+        "target": "We stopped to check the map.",
+        "zh": "我们停下来查看地图。"
+      }
+    ],
+    "notes": [
+      "CEFR 等级用于课程编排，并非官方逐条语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "We stopped checking the map.（要表达“停下步行去看地图”）",
+        "correct": "We stopped to check the map.",
+        "explanation": "stopped checking 是停止看地图；说明停下其他活动去看地图，要用 to check。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-b1-gerunds-after-prepositions",
+        "explanation": "介词后用 -ing 是句法接续；remember 和 stop 后的选择还涉及动词本身的含义变化。"
+      }
+    ],
+    "prerequisites": [],
+    "relatedGrammar": [
+      "grammar-en-b1-gerunds-after-prepositions"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-b2-remember-stop-gerund-infinitive-meaning",
+        "kind": "meaning",
+        "prompt": "She stopped to check the map. 她停下来的目的是什么？",
+        "options": [
+          "停下其他活动，以便查看地图",
+          "停止查看地图，不再看它",
+          "回想自己以前看过地图"
+        ],
+        "acceptedAnswers": [
+          "停下其他活动，以便查看地图"
+        ],
+        "explanation": "He stopped to check the map 不表示停止看地图，而是停下其他活动，目的是查看地图。"
+      },
+      {
+        "id": "grammar-en-b2-remember-stop-gerund-infinitive-fill",
+        "kind": "fill",
+        "prompt": "Please remember _____ the door before you leave.",
+        "options": [
+          "to lock",
+          "locking",
+          "to locking"
+        ],
+        "acceptedAnswers": [
+          "to lock"
+        ],
+        "explanation": "remember + -ing：记得发生过 / remember + to do：记住要做 / stop + -ing：停止该动作；stop + to do：停下来做另一件事"
+      },
+      {
+        "id": "grammar-en-b2-remember-stop-gerund-infinitive-translation",
+        "kind": "translation",
+        "prompt": "我记得在研讨会上见过她。",
+        "acceptedAnswers": [
+          "I remember meeting her at the workshop."
+        ],
+        "explanation": "参考表达：I remember meeting her at the workshop.注意本课的时间、语序或动词接续；其他自然表达可自行对照。"
+      },
+      {
+        "id": "grammar-en-b2-remember-stop-gerund-infinitive-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\nWe stopped to check the map.",
+        "options": [
+          "请记得锁门。",
+          "我们停下来查看地图。",
+          "我记得在研讨会上见过她。"
+        ],
+        "acceptedAnswers": [
+          "我们停下来查看地图。"
+        ],
+        "explanation": "本句的中文是“我们停下来查看地图。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。He stopped to check the map 不表示停止看地图，而是停下其他活动，目的是查看地图。"
+      },
+      {
+        "id": "grammar-en-b2-remember-stop-gerund-infinitive-mistake-check-26",
+        "kind": "error",
+        "prompt": "根据本课的用法边界，选择正确的表达。",
+        "options": [
+          "We stopped checking the map.（要表达“停下步行去看地图”）",
+          "We stopped to check the map."
+        ],
+        "acceptedAnswers": [
+          "We stopped to check the map."
+        ],
+        "explanation": "stopped checking 是停止看地图；说明停下其他活动去看地图，要用 to check。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b2-wish-unreal-present",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B2",
+    "difficulty": 4,
+    "tags": [
+      "writing",
+      "everyday-explanation"
+    ],
+    "title": "Wish: a present you want to be different",
+    "pattern": "wish + past form (unreal present)",
+    "meaningZh": "希望现在的情况有所不同",
+    "meaningEn": "Wishing for a different present situation",
+    "explanation": "wish 后接过去形式，常表示希望当前的事实与现实不同。I wish I had more time 通常说明现在时间不够，而不是说过去已经拥有更多时间。be 在较正式表达中常用 were；could 可以表达希望具备某种能力。不要用这个结构来说明完全可能的未来愿望：对具体的可实现未来，hope 往往更合适。对过去的遗憾则常用 wish 加过去完成时。",
+    "usage": "表达当前的不满足、无法实现的想法或希望拥有某种能力。",
+    "nuance": "I wish I knew the answer 表示现在不知道；I hope you find the answer 是期待未来发生，语气与现实关系不同。",
+    "structure": [
+      "wish + 主语 + 过去形式",
+      "wish + 主语 + were …",
+      "wish + 主语 + could + 动词原形"
+    ],
+    "formation": [
+      "wish + 主语 + 过去形式",
+      "wish + 主语 + were …",
+      "wish + 主语 + could + 动词原形"
+    ],
+    "examples": [
+      {
+        "target": "I wish I had more time to read.",
+        "zh": "我希望自己现在有更多时间读书。"
+      },
+      {
+        "target": "She wishes the office were closer to home.",
+        "zh": "她希望办公室离家更近些。"
+      },
+      {
+        "target": "I wish I could explain it more clearly.",
+        "zh": "我希望自己能把它解释得更清楚。"
+      },
+      {
+        "target": "They wish they knew how to repair the bike.",
+        "zh": "他们希望自己知道怎么修自行车。"
+      }
+    ],
+    "notes": [
+      "CEFR 等级用于课程编排，并非官方逐条语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I wish I have more time.（表示希望现在与事实不同）",
+        "correct": "I wish I had more time.",
+        "explanation": "表达当前不真实的愿望时，wish 后用过去形式 had，不用 have。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-b1-second-conditional",
+        "explanation": "wish 直接表达希望现实不同；第二条件句进一步说明假设改变后可能的结果。"
+      }
+    ],
+    "prerequisites": [],
+    "relatedGrammar": [
+      "grammar-en-b1-second-conditional"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-b2-wish-unreal-present-meaning",
+        "kind": "meaning",
+        "prompt": "I wish I knew the answer. 对现在的情况暗示什么？",
+        "options": [
+          "说话人刚刚确认自己知道答案",
+          "说话人要求别人必须知道答案",
+          "说话人现在不知道答案，希望有所不同"
+        ],
+        "acceptedAnswers": [
+          "说话人现在不知道答案，希望有所不同"
+        ],
+        "explanation": "I wish I knew the answer 表示现在不知道；I hope you find the answer 是期待未来发生，语气与现实关系不同。"
+      },
+      {
+        "id": "grammar-en-b2-wish-unreal-present-fill",
+        "kind": "fill",
+        "prompt": "I wish I _____ the answer.",
+        "options": [
+          "knowing",
+          "know",
+          "knew"
+        ],
+        "acceptedAnswers": [
+          "knew"
+        ],
+        "explanation": "wish + 主语 + 过去形式 / wish + 主语 + were … / wish + 主语 + could + 动词原形"
+      },
+      {
+        "id": "grammar-en-b2-wish-unreal-present-translation",
+        "kind": "translation",
+        "prompt": "我希望自己现在有更多时间读书。",
+        "acceptedAnswers": [
+          "I wish I had more time to read."
+        ],
+        "explanation": "参考表达：I wish I had more time to read.注意本课的时间、语序或动词接续；其他自然表达可自行对照。"
+      },
+      {
+        "id": "grammar-en-b2-wish-unreal-present-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\nThey wish they knew how to repair the bike.",
+        "options": [
+          "她希望办公室离家更近些。",
+          "他们希望自己知道怎么修自行车。",
+          "我希望自己现在有更多时间读书。"
+        ],
+        "acceptedAnswers": [
+          "他们希望自己知道怎么修自行车。"
+        ],
+        "explanation": "本句的中文是“他们希望自己知道怎么修自行车。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。I wish I knew the answer 表示现在不知道；I hope you find the answer 是期待未来发生，语气与现实关系不同。"
+      },
+      {
+        "id": "grammar-en-b2-wish-unreal-present-mistake-check-26",
+        "kind": "error",
+        "prompt": "根据本课的用法边界，选择正确的表达。",
+        "options": [
+          "I wish I have more time.（表示希望现在与事实不同）",
+          "I wish I had more time."
+        ],
+        "acceptedAnswers": [
+          "I wish I had more time."
+        ],
+        "explanation": "表达当前不真实的愿望时，wish 后用过去形式 had，不用 have。"
+      }
+    ]
+  }
+]

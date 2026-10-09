@@ -1,0 +1,370 @@
+[
+  {
+    "id": "grammar-ja-n5-plain-form",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "动词变形",
+      "接续基础"
+    ],
+    "kind": "grammar",
+    "title": "动词普通形：现在与过去",
+    "pattern": "V辞书形／ない形／た形／なかった形",
+    "meaningZh": "用普通形陈述动作和状态",
+    "meaningEn": "plain verb forms for present, negative and past",
+    "explanation": "普通形是一组形式，并不只指动词辞书形。现在肯定用辞书形，现在否定用ない形，过去肯定用た形，过去否定用なかった形。普通形既用于亲近关系中的句末，也用于语法句型和从句的接续；它不意味着任何场合都适合直接对人用随意语气。",
+    "usage": "读懂从句和语法接续时，先判断肯定、否定与时态。",
+    "nuance": "接续普通形与对话的礼貌程度是两个不同问题。",
+    "structure": [
+      "読む→読まない→読んだ→読まなかった",
+      "食べる→食べない→食べた→食べなかった"
+    ],
+    "formation": [
+      "読む→読まない→読んだ→読まなかった",
+      "食べる→食べない→食べた→食べなかった"
+    ],
+    "examples": [
+      {
+        "target": "毎朝、新聞を読む。",
+        "reading": "まいあさ、しんぶんをよむ。",
+        "zh": "每天早上读报纸。"
+      },
+      {
+        "target": "今日は新聞を読まない。",
+        "reading": "きょうはしんぶんをよまない。",
+        "zh": "今天不读报纸。"
+      },
+      {
+        "target": "昨日、図書館で本を読んだ。",
+        "reading": "きのう、としょかんでほんをよんだ。",
+        "zh": "昨天在图书馆读了书。"
+      },
+      {
+        "target": "昨日は本を読まなかった。",
+        "reading": "きのうはほんをよまなかった。",
+        "zh": "昨天没有读书。"
+      }
+    ],
+    "notes": [
+      "先确认动词类别，再进行变形。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "昨日、本を読みる。",
+        "correct": "昨日、本を読んだ。",
+        "explanation": "「読みる」不是「読む」的过去形式；过去肯定需用对应た形。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-nai-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n5-plain-form-meaning",
+        "kind": "meaning",
+        "prompt": "选择本课说明的功能。",
+        "options": [
+          "用普通形陈述动作和状态",
+          "不改变动词，只添加中文语序",
+          "所有形式都表示将来"
+        ],
+        "acceptedAnswers": [
+          "用普通形陈述动作和状态"
+        ],
+        "explanation": "接续普通形与对话的礼貌程度是两个不同问题。"
+      },
+      {
+        "id": "grammar-ja-n5-plain-form-transform",
+        "kind": "transform",
+        "prompt": "把「読みました」变为普通形。",
+        "acceptedAnswers": [
+          "読んだ"
+        ],
+        "explanation": "読む→読まない→読んだ→読まなかった；食べる→食べない→食べた→食べなかった"
+      },
+      {
+        "id": "grammar-ja-n5-plain-form-error",
+        "kind": "error",
+        "prompt": "纠正句子：昨日、本を読みる。",
+        "acceptedAnswers": [
+          "昨日、本を読んだ。"
+        ],
+        "explanation": "「読みる」不是「読む」的过去形式；过去肯定需用对应た形。"
+      },
+      {
+        "id": "grammar-ja-n5-plain-form-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n昨日は本を読まなかった。",
+        "options": [
+          "昨天没有读书。",
+          "每天早上读报纸。",
+          "今天不读报纸。"
+        ],
+        "acceptedAnswers": [
+          "昨天没有读书。"
+        ],
+        "explanation": "本句的中文是“昨天没有读书。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。接续普通形与对话的礼貌程度是两个不同问题。"
+      },
+      {
+        "id": "grammar-ja-n5-plain-form-mistake-check-26",
+        "kind": "error",
+        "prompt": "根据本课的用法边界，选择正确的表达。",
+        "options": [
+          "昨日、本を読みる。",
+          "昨日、本を読んだ。"
+        ],
+        "acceptedAnswers": [
+          "昨日、本を読んだ。"
+        ],
+        "explanation": "「読みる」不是「読む」的过去形式；过去肯定需用对应た形。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n5-nai-form",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "动词变形",
+      "接续基础"
+    ],
+    "kind": "grammar",
+    "title": "动词ない形",
+    "pattern": "Vない形",
+    "meaningZh": "不做……；动作的普通否定",
+    "meaningEn": "the plain negative form of a verb",
+    "explanation": "五段动词通常将词尾转成あ段再加ない，词尾う要变成わ。上一段、下一段动词去掉る加ない；する变成しない，来る变成来ない（こない）。「ある」的普通否定是「ない」，不是「あらない」。学习前先识别动词类别，不能只看是否以る结尾。",
+    "usage": "表达不做某事，并作为义务、禁止和条件句的接续基础。",
+    "nuance": "ない形本身不自动表示禁止；禁止需要进一步的句型或语境。",
+    "structure": [
+      "書く→書かない；買う→買わない",
+      "食べる→食べない；する→しない；来る→来ない"
+    ],
+    "formation": [
+      "書く→書かない；買う→買わない",
+      "食べる→食べない；する→しない；来る→来ない"
+    ],
+    "examples": [
+      {
+        "target": "今日は肉を食べない。",
+        "reading": "きょうはにくをたべない。",
+        "zh": "今天不吃肉。"
+      },
+      {
+        "target": "週末は車を使わない。",
+        "reading": "しゅうまつはくるまをつかわない。",
+        "zh": "周末不用车。"
+      },
+      {
+        "target": "明日は学校に来ない。",
+        "reading": "あしたはがっこうにこない。",
+        "zh": "明天不来学校。"
+      },
+      {
+        "target": "今、お金がない。",
+        "reading": "いま、おかねがない。",
+        "zh": "现在没有钱。"
+      }
+    ],
+    "notes": [
+      "先确认动词类别，再进行变形。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "今日は何も買うない。",
+        "correct": "今日は何も買わない。",
+        "explanation": "词尾う变ない形时转成わ，不是把ない直接加在辞书形之后。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n5-nai-form-meaning",
+        "kind": "meaning",
+        "prompt": "选择本课说明的功能。",
+        "options": [
+          "不做……；动作的普通否定",
+          "不改变动词，只添加中文语序",
+          "所有形式都表示将来"
+        ],
+        "acceptedAnswers": [
+          "不做……；动作的普通否定"
+        ],
+        "explanation": "ない形本身不自动表示禁止；禁止需要进一步的句型或语境。"
+      },
+      {
+        "id": "grammar-ja-n5-nai-form-transform",
+        "kind": "transform",
+        "prompt": "把「使う」变为普通否定形式。",
+        "acceptedAnswers": [
+          "使わない"
+        ],
+        "explanation": "書く→書かない；買う→買わない；食べる→食べない；する→しない；来る→来ない"
+      },
+      {
+        "id": "grammar-ja-n5-nai-form-error",
+        "kind": "error",
+        "prompt": "纠正句子：今日は何も買うない。",
+        "acceptedAnswers": [
+          "今日は何も買わない。"
+        ],
+        "explanation": "词尾う变ない形时转成わ，不是把ない直接加在辞书形之后。"
+      },
+      {
+        "id": "grammar-ja-n5-nai-form-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n今、お金がない。",
+        "options": [
+          "现在没有钱。",
+          "今天不吃肉。",
+          "周末不用车。"
+        ],
+        "acceptedAnswers": [
+          "现在没有钱。"
+        ],
+        "explanation": "本句的中文是“现在没有钱。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。ない形本身不自动表示禁止；禁止需要进一步的句型或语境。"
+      },
+      {
+        "id": "grammar-ja-n5-nai-form-mistake-check-26",
+        "kind": "error",
+        "prompt": "根据本课的用法边界，选择正确的表达。",
+        "options": [
+          "今日は何も買うない。",
+          "今日は何も買わない。"
+        ],
+        "acceptedAnswers": [
+          "今日は何も買わない。"
+        ],
+        "explanation": "词尾う变ない形时转成わ，不是把ない直接加在辞书形之后。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n5-masu-stem",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "动词变形",
+      "接续基础"
+    ],
+    "kind": "grammar",
+    "title": "动词ます词干",
+    "pattern": "Vます形去掉ます",
+    "meaningZh": "取出ます前面的词干，用于复合表达",
+    "meaningEn": "the verb stem before masu",
+    "explanation": "这里不是将任意辞书形的结尾剪掉。先找出正确的ます形，再去掉ます。例如読む是読みます，所以词干是読み；食べる是食べます，所以词干是食べ。する的词干是し，来る的词干读作き。这个词干用于想做、容易做、开始做等许多表达。",
+    "usage": "理解「たい、やすい、始める、かねる」等句型的接续。",
+    "nuance": "词干通常不是可以独立结束完整句子的时态形式。",
+    "structure": [
+      "読む→読みます→読み",
+      "食べる→食べます→食べ；する→し"
+    ],
+    "formation": [
+      "読む→読みます→読み",
+      "食べる→食べます→食べ；する→し"
+    ],
+    "examples": [
+      {
+        "target": "この本を読みたい。",
+        "reading": "このほんをよみたい。",
+        "zh": "我想读这本书。"
+      },
+      {
+        "target": "この椅子は座りやすい。",
+        "reading": "このいすはすわりやすい。",
+        "zh": "这把椅子很容易坐。"
+      },
+      {
+        "target": "午後から資料を読み始めた。",
+        "reading": "ごごからしりょうをよみはじめた。",
+        "zh": "下午开始读资料。"
+      },
+      {
+        "target": "もう一度確認したい。",
+        "reading": "もういちどかくにんしたい。",
+        "zh": "我想再确认一次。"
+      }
+    ],
+    "notes": [
+      "先确认动词类别，再进行变形。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "この本を読むたい。",
+        "correct": "この本を読みたい。",
+        "explanation": "たい前面接ます词干，所以「読む」先变为「読み」。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n5-masu-stem-meaning",
+        "kind": "meaning",
+        "prompt": "选择本课说明的功能。",
+        "options": [
+          "取出ます前面的词干，用于复合表达",
+          "不改变动词，只添加中文语序",
+          "所有形式都表示将来"
+        ],
+        "acceptedAnswers": [
+          "取出ます前面的词干，用于复合表达"
+        ],
+        "explanation": "词干通常不是可以独立结束完整句子的时态形式。"
+      },
+      {
+        "id": "grammar-ja-n5-masu-stem-transform",
+        "kind": "transform",
+        "prompt": "取出「話します」的ます词干。",
+        "acceptedAnswers": [
+          "話し"
+        ],
+        "explanation": "読む→読みます→読み；食べる→食べます→食べ；する→し"
+      },
+      {
+        "id": "grammar-ja-n5-masu-stem-error",
+        "kind": "error",
+        "prompt": "纠正句子：この本を読むたい。",
+        "acceptedAnswers": [
+          "この本を読みたい。"
+        ],
+        "explanation": "たい前面接ます词干，所以「読む」先变为「読み」。"
+      },
+      {
+        "id": "grammar-ja-n5-masu-stem-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\nもう一度確認したい。",
+        "options": [
+          "我想再确认一次。",
+          "我想读这本书。",
+          "这把椅子很容易坐。"
+        ],
+        "acceptedAnswers": [
+          "我想再确认一次。"
+        ],
+        "explanation": "本句的中文是“我想再确认一次。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。词干通常不是可以独立结束完整句子的时态形式。"
+      },
+      {
+        "id": "grammar-ja-n5-masu-stem-mistake-check-26",
+        "kind": "error",
+        "prompt": "根据本课的用法边界，选择正确的表达。",
+        "options": [
+          "この本を読むたい。",
+          "この本を読みたい。"
+        ],
+        "acceptedAnswers": [
+          "この本を読みたい。"
+        ],
+        "explanation": "たい前面接ます词干，所以「読む」先变为「読み」。"
+      }
+    ]
+  }
+]

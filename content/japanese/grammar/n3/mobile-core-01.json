@@ -1,0 +1,138 @@
+{
+  "id": "grammar-ja-n3-you-ni-suru",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N3",
+  "difficulty": 3,
+  "tags": [
+    "daily-life",
+    "mobile-core"
+  ],
+  "title": "〜ようにする：把行动变成习惯",
+  "pattern": "V辞书形／ない形 + ようにする",
+  "meaningZh": "尽量……；努力做到……",
+  "meaningEn": "Make an effort to do something regularly",
+  "explanation": "动词辞书形或ない形后接ようにする，表示有意识地安排、努力做到某个行为。ようにしています强调已经持续实施的习惯，ようにしてください则是请对方注意做到。它说明行动意图和努力，不能保证结果必定实现。不要与表示能力或状态变化的ようになる混用：読めるようになった说能力变了，読むようにしている说主动建立阅读习惯。",
+  "usage": "说明健康、学习、沟通方面的习惯，或提出有持续性的提醒。",
+  "nuance": "单次明确决定通常用ことにする；ようにする更强调努力、安排或重复执行，但也可用于确保某个条件实现。",
+  "structure": [
+    "V辞书形 + ようにする",
+    "Vない形 + ようにする",
+    "持续习惯：〜ようにしている"
+  ],
+  "formation": [
+    "V辞书形 + ようにする",
+    "Vない形 + ようにする",
+    "持续习惯：〜ようにしている"
+  ],
+  "examples": [
+    {
+      "target": "毎日、短い記事を読むようにしています。",
+      "reading": "まいにち、みじかいきじをよむようにしています。",
+      "zh": "我尽量每天读一篇短文章。",
+      "en": "I make a point of reading a short article every day."
+    },
+    {
+      "target": "寝る前にスマートフォンを見ないようにしています。",
+      "reading": "ねるまえにすまーとふぉんをみないようにしています。",
+      "zh": "我尽量不在睡前看手机。",
+      "en": "I try not to look at my phone before bed."
+    },
+    {
+      "target": "予定が変わったら、早めに連絡するようにしてください。",
+      "reading": "よていがかわったら、はやめにれんらくするようにしてください。",
+      "zh": "如果计划变了，请尽早联系。",
+      "en": "Please make sure to get in touch early if your plans change."
+    },
+    {
+      "target": "分からないことは、その日のうちに聞くようにします。",
+      "reading": "わからないことは、そのひのうちにきくようにします。",
+      "zh": "不明白的事，我会尽量当天问清楚。",
+      "en": "I will try to ask about things I do not understand that same day."
+    }
+  ],
+  "notes": [
+    "等级用于学习路径编排，语境与完整句子比单独记规则更重要。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "練習したので、日本語が話せるようにしています。",
+      "correct": "練習したので、日本語が話せるようになりました。",
+      "explanation": "已经获得能力是状态变化，用ようになる；ようにする强调主动努力。"
+    }
+  ],
+  "comparison": [],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form",
+    "grammar-ja-n5-nai-form"
+  ],
+  "relatedGrammar": [],
+  "exercises": [
+    {
+      "id": "grammar-ja-n3-you-ni-suru-1",
+      "kind": "meaning",
+      "prompt": "毎日復習するようにしています。表示什么？",
+      "options": [
+        "有意识地保持复习习惯",
+        "已经完全掌握全部内容",
+        "昨天只复习过一次"
+      ],
+      "acceptedAnswers": [
+        "有意识地保持复习习惯"
+      ],
+      "explanation": "ようにしている强调持续采取行动，不能推出已经掌握。"
+    },
+    {
+      "id": "grammar-ja-n3-you-ni-suru-2",
+      "kind": "fill",
+      "prompt": "表示“尽量不熬夜”：夜更かしを（　）ようにしています。",
+      "options": [
+        "しなかった",
+        "した",
+        "しない"
+      ],
+      "acceptedAnswers": [
+        "しない"
+      ],
+      "explanation": "否定行为习惯使用动词ない形，する变为しない。"
+    },
+    {
+      "id": "grammar-ja-n3-you-ni-suru-3",
+      "kind": "context",
+      "prompt": "经过练习，现在能读懂日语了，应选择哪句？",
+      "options": [
+        "日本語を読んだようです。",
+        "日本語が読めるようになりました。",
+        "日本語が読めるようにしています。"
+      ],
+      "acceptedAnswers": [
+        "日本語が読めるようになりました。"
+      ],
+      "explanation": "能力的变化用ようになる；行为安排用ようにする。"
+    },
+    {
+      "id": "grammar-ja-n3-you-ni-suru-4",
+      "kind": "translation",
+      "prompt": "把“我尽量每天读书”译成日语。",
+      "acceptedAnswers": [
+        "毎日本を読むようにしています。",
+        "毎日、本を読むようにしています。"
+      ],
+      "explanation": "読む是辞书形；ようにしています表示持续习惯。"
+    },
+    {
+      "id": "grammar-ja-n3-you-ni-suru-example-meaning-26",
+      "kind": "context",
+      "prompt": "在本课语境中，哪项最准确理解这句话？\n分からないことは、その日のうちに聞くようにします。",
+      "options": [
+        "我尽量每天读一篇短文章。",
+        "我尽量不在睡前看手机。",
+        "不明白的事，我会尽量当天问清楚。"
+      ],
+      "acceptedAnswers": [
+        "不明白的事，我会尽量当天问清楚。"
+      ],
+      "explanation": "本句的中文是“不明白的事，我会尽量当天问清楚。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。单次明确决定通常用ことにする；ようにする更强调努力、安排或重复执行，但也可用于确保某个条件实现。"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "id": "grammar-en-c1-participle-clause-shared-subject",
+  "kind": "grammar",
+  "language": "en",
+  "level": "C1",
+  "difficulty": 4,
+  "tags": [
+    "mobile-cycle",
+    "usage-in-context"
+  ],
+  "title": "Participle clauses：压缩背景，保持主体一致",
+  "pattern": "-ing / -ed / having + past participle, main clause",
+  "meaningZh": "分词从句表达背景、原因或先后，通常与主句同一主体",
+  "meaningEn": "Compress context while keeping the subject clear",
+  "explanation": "句首分词从句可以把时间、原因或伴随信息压缩到主句之外。Using the survey results, the team revised its plan中，使用结果的人必须是the team。Having reviewed the figures强调审阅先于主句动作；Supported by volunteers表示被志愿者支持，采用过去分词表达被动关系。主语通常不写出，但要能从主句主语清楚恢复。不能让不可能做该动作的名词充当主句主语，否则会产生悬垂分词。",
+  "usage": "较正式的报告、说明和叙述中，背景关系清晰时减少重复主语。",
+  "nuance": "分词本身不标时态，时间依靠主句和上下文；having done突出已完成的前置动作。连接关系模糊时，完整的because或after从句往往更清楚。",
+  "structure": [
+    "V-ing ..., subject + finite verb",
+    "Past participle ..., subject + finite verb",
+    "Having + past participle ..., subject + finite verb"
+  ],
+  "formation": [
+    "V-ing ..., subject + finite verb",
+    "Past participle ..., subject + finite verb",
+    "Having + past participle ..., subject + finite verb"
+  ],
+  "examples": [
+    {
+      "target": "Having reviewed the survey, the team revised its opening hours.",
+      "zh": "团队审阅调查后，调整了开放时间。"
+    },
+    {
+      "target": "Supported by local volunteers, the library kept the repair desk open.",
+      "zh": "在本地志愿者支持下，图书馆继续开放维修咨询台。"
+    },
+    {
+      "target": "Using the same questions each month, we compared the responses.",
+      "zh": "我们每月使用相同问题来比较回答。"
+    },
+    {
+      "target": "Not knowing who had collected the data, I checked the source first.",
+      "zh": "因为不知道数据是谁收集的，我先查了来源。"
+    }
+  ],
+  "notes": [
+    "本课不涵盖主语独立的absolute constructions；不能将少数例外当作悬垂结构普遍可接受的理由。",
+    "学会展开为完整从句：After the team had reviewed the survey, it revised its plan."
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Having reviewed the survey, the opening hours were changed.",
+      "correct": "Having reviewed the survey, the team changed the opening hours.",
+      "explanation": "原句的主句主语opening hours不能审阅调查；改成真正完成审阅的team，或写完整after从句。"
+    },
+    {
+      "wrong": "Supported the library, volunteers stayed late.",
+      "correct": "Supporting the library, volunteers stayed late.",
+      "explanation": "若volunteers是提供支持的人，需主动-ing；Supported by volunteers的被动主语应是受支持的对象。"
+    }
+  ],
+  "comparison": [],
+  "prerequisites": [
+    "grammar-en-b1-passive-processes"
+  ],
+  "relatedGrammar": [],
+  "exercises": [
+    {
+      "id": "grammar-en-c1-participle-clause-shared-subject-1",
+      "kind": "meaning",
+      "prompt": "Having reviewed the survey, the team revised the plan. 哪项关系最明确？",
+      "options": [
+        "修改后才审阅",
+        "审阅和修改必然同时",
+        "审阅已先行完成"
+      ],
+      "acceptedAnswers": [
+        "审阅已先行完成"
+      ],
+      "explanation": "having reviewed标记在主句动作之前完成的审阅。"
+    },
+    {
+      "id": "grammar-en-c1-participle-clause-shared-subject-2",
+      "kind": "error",
+      "prompt": "Which sentence avoids a dangling participle?",
+      "options": [
+        "Using the survey, the team revised its plan.",
+        "Using the survey, the plan was revised.",
+        "Having used the survey, the plan looked better."
+      ],
+      "acceptedAnswers": [
+        "Using the survey, the team revised its plan."
+      ],
+      "explanation": "team能使用调查；plan不能成为using或having used的动作主体。"
+    },
+    {
+      "id": "grammar-en-c1-participle-clause-shared-subject-3",
+      "kind": "fill",
+      "prompt": "The library receives support. Choose the correct opening: ___ by volunteers, the library stays open late.",
+      "options": [
+        "Supporting",
+        "Supported",
+        "Having support"
+      ],
+      "acceptedAnswers": [
+        "Supported"
+      ],
+      "explanation": "by volunteers标记施事，library是被支持者，因此用过去分词Supported。"
+    },
+    {
+      "id": "grammar-en-c1-participle-clause-shared-subject-4",
+      "kind": "sentence",
+      "prompt": "Arrange a natural sentence with these units: the team revised its plan / Having reviewed the survey",
+      "acceptedAnswers": [
+        "Having reviewed the survey, the team revised its plan."
+      ],
+      "explanation": "先放背景分词从句，再用逗号连接有明确主语的完整主句。"
+    },
+    {
+      "id": "grammar-en-c1-participle-clause-shared-subject-example-meaning-26",
+      "kind": "context",
+      "prompt": "在本课语境中，哪项最准确理解这句话？\nNot knowing who had collected the data, I checked the source first.",
+      "options": [
+        "因为不知道数据是谁收集的，我先查了来源。",
+        "团队审阅调查后，调整了开放时间。",
+        "在本地志愿者支持下，图书馆继续开放维修咨询台。"
+      ],
+      "acceptedAnswers": [
+        "因为不知道数据是谁收集的，我先查了来源。"
+      ],
+      "explanation": "本句的中文是“因为不知道数据是谁收集的，我先查了来源。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。分词本身不标时态，时间依靠主句和上下文；having done突出已完成的前置动作。连接关系模糊时，完整的because或after从句往往更清楚。"
+    }
+  ]
+}

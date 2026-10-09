@@ -1,0 +1,454 @@
+[
+  {
+    "id": "article-ja-n4-first-workshop",
+    "kind": "reading",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "饮食"
+    ],
+    "title": "初めての料理教室",
+    "topic": "饮食",
+    "genre": "story",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "私は料理があまり得意ではありません。友達に誘われて、小さな料理教室へ行ったことがあります。その日は雨でしたが、教室は明るくて、先生も親切そうでした。",
+      "先生は「まず野菜を切ってみましょう」と言いました。私はゆっくり切りました。友達は早く切れますが、私を待ってくれました。家で一人で作るより、安心しました。",
+      "帰る前に、次の授業のために材料を買っておきました。うまく作ることだけでなく、誰かと一緒に学ぶことも楽しいと思いました。"
+    ],
+    "translation": [
+      "我不太擅长做饭。受朋友邀请，我曾去过一家小烹饪教室。那天下雨，但教室很明亮，老师也看起来很亲切。",
+      "老师让我们先试着切菜。我慢慢切，朋友虽能切得快，却等着我。比起在家独自做，我更放心。",
+      "回家前我为下一次课先买好了材料。我觉得不仅是做好料理，和别人一起学习也很愉快。"
+    ],
+    "vocabulary": [
+      "course-ja-n5-1",
+      "course-ja-n5-6",
+      "course-ja-n5-7",
+      "supp-ja-n5-1",
+      "supp-ja-n5-13",
+      "lex-ja-n5-kaeru"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-ja-n4-ta-koto-ga-aru",
+        "surface": "行ったことがあります"
+      },
+      {
+        "id": "grammar-ja-n4-te-miru",
+        "surface": "切ってみましょう"
+      },
+      {
+        "id": "grammar-ja-n4-te-oku",
+        "surface": "買っておきました"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-ja-n4-first-workshop-q1",
+        "type": "detail",
+        "prompt": "作者はなぜ教室へ行きましたか。",
+        "options": [
+          "友達に誘われたから",
+          "自分が先生だから",
+          "店で働くため"
+        ],
+        "answer": 0,
+        "explanation": "第一段说受朋友邀请。"
+      },
+      {
+        "id": "article-ja-n4-first-workshop-q2",
+        "type": "detail",
+        "prompt": "友達は何をしましたか。",
+        "options": [
+          "野菜を全部捨てました",
+          "先に帰りました",
+          "作者を待ちました"
+        ],
+        "answer": 2,
+        "explanation": "第二段说明朋友没有催促，而是等待。"
+      },
+      {
+        "id": "article-ja-n4-first-workshop-q3",
+        "type": "grammar",
+        "prompt": "「材料を買っておきました」の目的は何ですか。",
+        "options": [
+          "先生に見せないこと",
+          "次の授業の準備",
+          "料理を全部食べること"
+        ],
+        "answer": 1,
+        "explanation": "ておく在末段表示为后续课做准备。"
+      },
+      {
+        "id": "article-ja-n4-first-workshop-q4",
+        "type": "inference",
+        "prompt": "作者が安心したのはなぜですか。",
+        "options": [
+          "一緒に学ぶ人がいたから",
+          "雨が止んだから",
+          "何も作らなかったから"
+        ],
+        "answer": 0,
+        "explanation": "第二段将家里独做与教室有人支持对照。"
+      },
+      {
+        "id": "article-ja-n4-first-workshop-q5",
+        "type": "main-idea",
+        "prompt": "作者は何の楽しさに気づきましたか。",
+        "options": [
+          "早く切る競争",
+          "高い材料を買うこと",
+          "誰かと学ぶこと"
+        ],
+        "answer": 2,
+        "explanation": "末段明确说与别人一起学习也有乐趣。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-ja-n4-missed-bus",
+    "kind": "reading",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "旅行"
+    ],
+    "title": "乗れなかったバス",
+    "topic": "旅行",
+    "genre": "story",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "日曜日、私は友達と町の市場へ行くつもりでした。駅で待ち合わせましたが、道が混んでいたので、私は五分遅れました。バスはもう出てしまいました。",
+      "次のバスまで四十分ありました。友達は「駅の近くの店を見てみませんか」と言いました。小さな店で古い地図を見つけました。地図には、川の近くに市場があると書いてありました。",
+      "歩いて二十分で着きました。来週も市場へ行くつもりですが、今度は早く家を出たほうがいいと思います。友達を待たせたくありません。"
+    ],
+    "translation": [
+      "星期日我打算和朋友去镇上的集市。我们约在车站见面，但因路上拥堵，我迟到五分钟。公交车已经开走了。",
+      "离下一班还有四十分钟。朋友建议看看车站附近的店。我们在小店找到一张旧地图，写着河边有集市。",
+      "我们步行二十分钟抵达。下周还打算去，不过下次最好早点出门。我不想再让朋友等。"
+    ],
+    "vocabulary": [
+      "course-ja-n5-1",
+      "course-ja-n5-7",
+      "course-ja-n5-11",
+      "supp-ja-n5-1",
+      "supp-ja-n5-12",
+      "complete-ja-n5-b72d6f67e8"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-ja-n4-tsumori",
+        "surface": "行くつもり"
+      },
+      {
+        "id": "grammar-ja-n4-node-reason",
+        "surface": "混んでいたので"
+      },
+      {
+        "id": "grammar-ja-n4-hou-ga-ii",
+        "surface": "出たほうがいい"
+      },
+      {
+        "id": "grammar-ja-n4-te-shimau",
+        "surface": "出てしまいました"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-ja-n4-missed-bus-q1",
+        "type": "detail",
+        "prompt": "作者は何分遅れましたか。",
+        "options": [
+          "二十分",
+          "四十分",
+          "五分"
+        ],
+        "answer": 2,
+        "explanation": "五分钟是迟到时间，其他数字指步行和候车。"
+      },
+      {
+        "id": "article-ja-n4-missed-bus-q2",
+        "type": "detail",
+        "prompt": "次のバスまで何分ありましたか。",
+        "options": [
+          "十分",
+          "四十分",
+          "五分"
+        ],
+        "answer": 1,
+        "explanation": "第二段明确四十分钟。"
+      },
+      {
+        "id": "article-ja-n4-missed-bus-q3",
+        "type": "inference",
+        "prompt": "なぜ歩いて市場へ行けましたか。",
+        "options": [
+          "地図で場所が分かったから",
+          "バスがすぐ来たから",
+          "友達が店を買ったから"
+        ],
+        "answer": 0,
+        "explanation": "旧地图提供河边的位置，步行可达。"
+      },
+      {
+        "id": "article-ja-n4-missed-bus-q4",
+        "type": "grammar",
+        "prompt": "「行くつもり」は何を表しますか。",
+        "options": [
+          "歩行の禁止",
+          "過去の経験だけ",
+          "事前の計画"
+        ],
+        "answer": 2,
+        "explanation": "つもり描述已形成的意向，不等于经历句型。"
+      },
+      {
+        "id": "article-ja-n4-missed-bus-q5",
+        "type": "author-intent",
+        "prompt": "作者が次回早く出たい理由は何ですか。",
+        "options": [
+          "市場を避けるため",
+          "友達を待たせないため",
+          "古い地図を捨てるため"
+        ],
+        "answer": 1,
+        "explanation": "末句说明不想再让朋友等。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-ja-n4-readable-menu",
+    "kind": "reading",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "工作"
+    ],
+    "title": "読みやすいメニュー",
+    "topic": "工作",
+    "genre": "practical",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "私は小さい喫茶店で働いています。先月、店のメニューを新しくしました。前のメニューは字が小さくて読みにくかったので、お客さんからよく質問がありました。",
+      "今のメニューは字を大きくして、写真も少し入れています。全部の料理に写真をつけると、かえって見にくくなります。大切な情報だけを短く書くほうがいいと、店長に言われました。",
+      "今日、一人のお客さんが「選びやすくなりましたね」と言いました。私はうれしくなりました。新しいメニューは、店のためだけでなく、お客さんの時間のためでもあります。"
+    ],
+    "translation": [
+      "我在一家小咖啡馆工作。上个月我们更新了菜单。旧菜单字小、难读，顾客经常询问。",
+      "现在菜单把字变大，加入少量图片。如果给每道菜都配图，反而难看清。店长说最好简要写出关键信息。",
+      "今天一位顾客说变得好选了，我很高兴。新菜单不只是为了店，也是为了顾客的时间。"
+    ],
+    "vocabulary": [
+      "course-ja-n5-1",
+      "course-ja-n5-3",
+      "supp-ja-n5-10",
+      "supp-ja-n5-11",
+      "supp-ja-n5-14",
+      "lex-ja-n5-jikan"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-ja-n4-yasui-nikui",
+        "surface": "読みにくかった"
+      },
+      {
+        "id": "grammar-ja-n4-hou-ga-ii",
+        "surface": "書くほうがいい"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-ja-n4-readable-menu-q1",
+        "type": "detail",
+        "prompt": "前のメニューの問題は何ですか。",
+        "options": [
+          "写真が大きすぎる",
+          "字が小さい",
+          "料理が一つしかない"
+        ],
+        "answer": 1,
+        "explanation": "第一段的问题是文字小且难读。"
+      },
+      {
+        "id": "article-ja-n4-readable-menu-q2",
+        "type": "inference",
+        "prompt": "なぜ全料理に写真をつけませんか。",
+        "options": [
+          "情報が多すぎると見にくいから",
+          "写真は禁止だから",
+          "客が写真を嫌うから"
+        ],
+        "answer": 0,
+        "explanation": "第二段说明全部配图反而降低可读性。"
+      },
+      {
+        "id": "article-ja-n4-readable-menu-q3",
+        "type": "grammar",
+        "prompt": "「選びやすい」はどんな意味ですか。",
+        "options": [
+          "値段が必ず安い",
+          "料理が必ず多い",
+          "選ぶことが簡単"
+        ],
+        "answer": 2,
+        "explanation": "やすい指动作容易，而不自动表示价格低。"
+      },
+      {
+        "id": "article-ja-n4-readable-menu-q4",
+        "type": "detail",
+        "prompt": "店長は何を勧めましたか。",
+        "options": [
+          "小さい字を使う",
+          "重要な情報を短く書く",
+          "説明を全部消す"
+        ],
+        "answer": 1,
+        "explanation": "店长建议只简要写重要信息。"
+      },
+      {
+        "id": "article-ja-n4-readable-menu-q5",
+        "type": "main-idea",
+        "prompt": "文章の中心は何ですか。",
+        "options": [
+          "読みやすさは客の助けになる",
+          "写真が多いほどよい",
+          "店の人だけがメニューを読む"
+        ],
+        "answer": 0,
+        "explanation": "最后强调顾客的时间与选择便利。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-ja-n4-before-trip",
+    "kind": "reading",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "旅行"
+    ],
+    "title": "旅行の前の小さな準備",
+    "topic": "旅行",
+    "genre": "practical",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "明日、私は母と初めて海の近くの町へ行きます。今夜は荷物を用意しておくつもりです。母は「雨が降りそうだから、傘も入れたほうがいい」と言いました。",
+      "私は切符を机の上に置きましたが、忘れてしまうかもしれません。そこで、すぐかばんに入れました。携帯電話の電池も確認しました。ホテルの住所は紙に書いておきました。",
+      "たくさんの物を持つと歩きにくくなるので、必要な物だけを選びました。準備が終わりました。今日は早く寝て、明日の朝を楽しみにしています。"
+    ],
+    "translation": [
+      "明天我与母亲第一次去海边小镇。今晚打算预先准备行李。母亲说看起来要下雨，最好也装上伞。",
+      "我把票放桌上，却担心会忘记，便马上装进包。也检查了手机电量，把酒店地址先写在纸上。",
+      "东西太多会难走，所以只选必需品。准备完成了。今天早点睡，我期待着明天的早晨。"
+    ],
+    "vocabulary": [
+      "course-ja-n5-1",
+      "course-ja-n5-3",
+      "course-ja-n5-4",
+      "supp-ja-n5-2",
+      "supp-ja-n5-4",
+      "supp-ja-n5-5"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-ja-n4-te-oku",
+        "surface": "書いておきました"
+      },
+      {
+        "id": "grammar-ja-n4-sou-appearance",
+        "surface": "雨が降りそう"
+      },
+      {
+        "id": "grammar-ja-n4-tsumori",
+        "surface": "用意しておくつもり"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-ja-n4-before-trip-q1",
+        "type": "detail",
+        "prompt": "二人はどこへ行きますか。",
+        "options": [
+          "海の近くの町",
+          "山の学校",
+          "いつもの職場"
+        ],
+        "answer": 0,
+        "explanation": "第一段明确海边小镇。"
+      },
+      {
+        "id": "article-ja-n4-before-trip-q2",
+        "type": "detail",
+        "prompt": "住所は何に書きましたか。",
+        "options": [
+          "切符の裏だけ",
+          "店のメニュー",
+          "紙"
+        ],
+        "answer": 2,
+        "explanation": "第二段说纸上。"
+      },
+      {
+        "id": "article-ja-n4-before-trip-q3",
+        "type": "inference",
+        "prompt": "なぜ切符をすぐかばんに入れましたか。",
+        "options": [
+          "切符を売るため",
+          "忘れる心配があったから",
+          "母に見せたくないから"
+        ],
+        "answer": 1,
+        "explanation": "担心忘记是采取行动的直接理由。"
+      },
+      {
+        "id": "article-ja-n4-before-trip-q4",
+        "type": "grammar",
+        "prompt": "「雨が降りそう」の判断はどのようなものですか。",
+        "options": [
+          "見える兆候からの予想",
+          "昨日雨が降った事実",
+          "誰かから聞いた話だけ"
+        ],
+        "answer": 0,
+        "explanation": "动词ます词干加そう表示迹象预测，非传闻结构。"
+      },
+      {
+        "id": "article-ja-n4-before-trip-q5",
+        "type": "main-idea",
+        "prompt": "作者はどのように準備しましたか。",
+        "options": [
+          "できるだけ全部持った",
+          "住所を覚えず何もしなかった",
+          "必要な物を選び、忘れ物を防いだ"
+        ],
+        "answer": 2,
+        "explanation": "文章强调必要性与防忘，不是带越多越好。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  }
+]

@@ -1,16 +1,19 @@
 {
   "name": "kotoba",
-  "version": "2.5.2",
+  "version": "2.6.0",
   "private": true,
   "scripts": {
     "dev": "node scripts/check-public-environment.mjs development && next dev --hostname 0.0.0.0",
-    "build": "node scripts/check-public-environment.mjs && next build && node scripts/finalize-pwa.mjs",
+    "build": "node --import tsx scripts/build-content.mjs && node scripts/check-public-environment.mjs && next build && node scripts/finalize-pwa.mjs",
     "typecheck": "tsc --noEmit",
     "test": "node scripts/run-tests.mjs",
     "backend:configure": "node --env-file=.env.local scripts/configure-private-account.mjs",
     "qa:responsive": "node scripts/responsive-audit.mjs",
     "backend:check": "node scripts/check-supabase-connection.mjs",
-    "lint": "eslint app components lib scripts tests --max-warnings=0"
+    "lint": "eslint app components lib scripts tests --max-warnings=0",
+    "content:audit": "node --import tsx scripts/content-audit.mjs",
+    "content:build": "node --import tsx scripts/build-content.mjs",
+    "test:content:backend": "node --import tsx scripts/test-content-backend.mjs"
   },
   "dependencies": {
     "next": "^15.5.0",

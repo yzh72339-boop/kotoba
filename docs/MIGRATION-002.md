@@ -11,7 +11,7 @@
 - 原 Profile 的名字和每日目标回填到新 Profile。其余旧学习数据保留在 legacy_*，本版本没有自动导入新结构，不能宣称旧词汇或旧复习记录已经完成格式转换。
 - user_progress 增加 revision 列；不修改已有 snapshot 内容。
 - 创建三个 Private bucket：personal-audio、personal-backups、personal-content；四个 CRUD policies 及两条仅限制这些 bucket 的 restrictive fences。路径首段必须为当前 auth.uid()，未关联 bucket 保持原权限。
-- 部署入口调用 configure_private_owner，数据库内唯一邮箱为 yzh72339@gmail.com；不是前端白名单。配置表立即启用 RLS，撤销浏览器表/schema 权限。is_private_owner 在本阶段检查 JWT 邮箱、当前 auth.users 邮箱与邮箱确认状态；固定到唯一 Auth UUID 的进一步配置由 008 处理，本阶段不宣称最终身份系统验收。
+- 部署入口调用 configure_private_owner，数据库内唯一邮箱为 owner@example.com；不是前端白名单。配置表立即启用 RLS，撤销浏览器表/schema 权限。is_private_owner 在本阶段检查 JWT 邮箱、当前 auth.users 邮箱与邮箱确认状态；固定到唯一 Auth UUID 的进一步配置由 008 处理，本阶段不宣称最终身份系统验收。
 - 所有个人父表 policies 包含 auth.uid() 与 user_id / id；旧个人表也带行归属；例句/搭配和句子关系检查父对象归属；复习日志和 AI 消息使用含 user_id 的复合 FK。内容表仅 owner 可见。
 - 全部 41 张 public 表撤销 PUBLIC / anon / authenticated 所有权限，包含 RLS 不能拦截的 TRUNCATE。当前浏览器不能直接读写学习表；后续版本建立 RPC、固定 owner 身份并明确授予最终最小权限。is_private_owner 仅 authenticated 可调用，配置和 trigger functions 不开放给浏览器。
 
@@ -25,7 +25,7 @@ ensure_rls 继续自动 ENABLE RLS，源文件也显式 ENABLE RLS，两者兼�
 
 ## 执行与验收
 
-1. Supabase 项目 ocbydnsqennrumowqxvu → SQL Editor → New query，角色 postgres。
+1. Supabase 项目 your-project → SQL Editor → New query，角色 postgres。
 2. 整份运行 002_deploy.sql，一次只执行 002；不要选片段，不重复执行，不运行 003。
 3. 成功返回 001 / kotoba 与 002 / personal_backend 两行版本记录。
 4. 新查询整份运行 002_verify.sql。只有 SELECT / 元数据读取；不写数据，不切换角色。

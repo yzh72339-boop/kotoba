@@ -1,0 +1,133 @@
+{
+  "id": "grammar-ja-n5-te-iru",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N5",
+  "difficulty": 1,
+  "tags": [
+    "aspect",
+    "daily-life"
+  ],
+  "title": "〜ている：进行与结果状态",
+  "pattern": "〜ている",
+  "meaningZh": "正在……；保持某种状态；经常……",
+  "meaningEn": "An action in progress, a resulting state, or a repeated activity",
+  "explanation": "动词て形后接いる，并不总是相当于中文的“正在”。読む、話す等持续动作常表示动作正在进行；結婚する、知る、住む等表达中，则常表示已经发生的变化或持续存在的状态。结合动词性质和时间词理解：毎日走っています可表示习惯，而今走っています常表示此刻正在跑。初学时应把整个表达连同语境一起记住，而不是机械替换一个中文词。",
+  "usage": "描述眼前的动作、目前的生活状态或一段时期内反复发生的活动。",
+  "nuance": "結婚しています通常表示“已婚”，不是婚礼正在进行。知っています表示“知道”；否定“我不知道”通常说知りません，而不是简单套用知っていません。",
+  "structure": [
+    "动作持续：読む → 読んでいる",
+    "结果状态：結婚する → 結婚している",
+    "礼貌体：〜ています"
+  ],
+  "formation": [
+    "动词て形 + いる",
+    "礼貌体：动词て形 + います",
+    "一般否定：动词て形 + いない / いません"
+  ],
+  "examples": [
+    {
+      "target": "今、本を読んでいます。",
+      "reading": "いま、ほんをよんでいます。",
+      "zh": "我现在正在读书。",
+      "en": "I am reading a book now."
+    },
+    {
+      "target": "姉は結婚しています。",
+      "reading": "あねはけっこんしています。",
+      "zh": "我姐姐已经结婚了。",
+      "en": "My older sister is married."
+    },
+    {
+      "target": "毎朝、公園で走っています。",
+      "reading": "まいあさ、こうえんではしっています。",
+      "zh": "我每天早上都在公园跑步。",
+      "en": "I run in the park every morning."
+    },
+    {
+      "target": "田中さんは大阪に住んでいます。",
+      "reading": "たなかさんはおおさかにすんでいます。",
+      "zh": "田中先生住在大阪。",
+      "en": "Mr Tanaka lives in Osaka."
+    }
+  ],
+  "notes": [
+    "口语中常省略い：読んでる。初学写作先使用完整形式。",
+    "不同义项会在更高等级的时态、体貌课程中进一步比较。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "姉は結婚しています。＝姐姐正在举行婚礼。",
+      "correct": "姉は結婚しています。＝姐姐已婚。",
+      "explanation": "这里强调结婚之后持续的状态。若明确描述婚礼正在举行，需要婚礼活动的语境或別的表达。"
+    }
+  ],
+  "comparison": [],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form"
+  ],
+  "relatedGrammar": [],
+  "exercises": [
+    {
+      "id": "grammar-ja-n5-te-iru-meaning",
+      "kind": "meaning",
+      "prompt": "姉は結婚しています。通常是什么意思？",
+      "options": [
+        "姐姐已婚。",
+        "姐姐正在举行婚礼。",
+        "姐姐明天一定结婚。"
+      ],
+      "acceptedAnswers": [
+        "姐姐已婚。"
+      ],
+      "explanation": "結婚しています通常是结果状态。"
+    },
+    {
+      "id": "grammar-ja-n5-te-iru-context",
+      "kind": "context",
+      "prompt": "哪句最明确地表示此刻正在发生的动作？",
+      "options": [
+        "今、本を読んでいます。",
+        "大阪に住んでいます。",
+        "毎朝、走っています。"
+      ],
+      "acceptedAnswers": [
+        "今、本を読んでいます。"
+      ],
+      "explanation": "今和持续动作読む共同构成进行中的语境。"
+    },
+    {
+      "id": "grammar-ja-n5-te-iru-transform",
+      "kind": "transform",
+      "prompt": "把 読む 改成表示正在读的礼貌形式。",
+      "acceptedAnswers": [
+        "読んでいます"
+      ],
+      "explanation": "読む的て形为読んで，再接います。"
+    },
+    {
+      "id": "grammar-ja-n5-te-iru-translation",
+      "kind": "translation",
+      "prompt": "我现在正在读书。",
+      "acceptedAnswers": [
+        "今、本を読んでいます。",
+        "私は今、本を読んでいます。"
+      ],
+      "explanation": "日语通常可以省略语境中明确的主语。"
+    },
+    {
+      "id": "grammar-ja-n5-te-iru-example-meaning-26",
+      "kind": "context",
+      "prompt": "在本课语境中，哪项最准确理解这句话？\n田中さんは大阪に住んでいます。",
+      "options": [
+        "我姐姐已经结婚了。",
+        "田中先生住在大阪。",
+        "我现在正在读书。"
+      ],
+      "acceptedAnswers": [
+        "田中先生住在大阪。"
+      ],
+      "explanation": "本句的中文是“田中先生住在大阪。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。結婚しています通常表示“已婚”，不是婚礼正在进行。知っています表示“知道”；否定“我不知道”通常说知りません，而不是简单套用知っていません。"
+    }
+  ]
+}

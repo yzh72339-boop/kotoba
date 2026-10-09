@@ -1,0 +1,1109 @@
+[
+  {
+    "id": "grammar-en-c2-negation-scope",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C2",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "not all / not necessarily：否定的作用域与推论限制",
+    "pattern": "not all / not necessarily",
+    "meaningZh": "否定的作用域与推论限制",
+    "meaningEn": "Scope of negation",
+    "explanation": "not all否定全称，含义是并非所有，而非一个都没有。not necessarily否定必然性，不直接断言相反命题。高级阅读中必须区分被否定的是数量、原因、程度还是整项命题，否则会把谨慎限制读成彻底反对。",
+    "usage": "分析限定性论断",
+    "nuance": "a result is not necessarily wrong保留正确的可能，不断言正确。",
+    "structure": [
+      "not + 全称/必然副词 = 限制其全称/必然范围"
+    ],
+    "formation": [
+      "not + 全称/必然副词 = 限制其全称/必然范围"
+    ],
+    "examples": [
+      {
+        "target": "Not all delays are avoidable.",
+        "zh": "并非所有延误都可避免。"
+      },
+      {
+        "target": "A larger sample is not necessarily a better one.",
+        "zh": "更大的样本并不必然更好。"
+      },
+      {
+        "target": "The policy does not always help beginners.",
+        "zh": "这项政策并非总能帮助初学者。"
+      },
+      {
+        "target": "Not every objection is a rejection of the idea.",
+        "zh": "并非每项异议都是否定这个想法。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在分析限定性论断中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Not all delays are avoidable means no delays are avoidable.",
+        "correct": "Not all delays are avoidable means at least some are not avoidable.",
+        "explanation": "部分否定不同于全称否定，不能推出一个都无法避免。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-c1-seem-appear-stance"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c2-negation-scope-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nNot all delays are avoidable.",
+        "options": [
+          "并非所有延误都可避免。",
+          "更大的样本并不必然更好。",
+          "这项政策并非总能帮助初学者。"
+        ],
+        "acceptedAnswers": [
+          "并非所有延误都可避免。"
+        ],
+        "explanation": "Not all delays are avoidable.：并非所有延误都可避免。 not all否定全称，含义是并非所有，而非一个都没有。not necessarily否定必然性，不直接断言相反命题。高级阅读中必须区分被否定的是数量、原因、程度还是整项命题，否则会把谨慎限制读成彻底反对。"
+      },
+      {
+        "id": "grammar-en-c2-negation-scope-fill",
+        "kind": "fill",
+        "prompt": "Not all delays are avoidable意味着什么？",
+        "options": [
+          "No delay is avoidable.",
+          "Every delay is avoidable.",
+          "Some delays may be unavoidable."
+        ],
+        "acceptedAnswers": [
+          "Some delays may be unavoidable."
+        ],
+        "explanation": "否定所有可避免，只要求并非全部，不等于全部不可避免。"
+      },
+      {
+        "id": "grammar-en-c2-negation-scope-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n部分否定不同于全称否定，不能推出一个都无法避免。",
+        "options": [
+          "Not all delays are avoidable means no delays are avoidable.",
+          "Not all delays are avoidable means at least some are not avoidable."
+        ],
+        "acceptedAnswers": [
+          "Not all delays are avoidable means at least some are not avoidable."
+        ],
+        "explanation": "部分否定不同于全称否定，不能推出一个都无法避免。"
+      },
+      {
+        "id": "grammar-en-c2-negation-scope-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n并非每项异议都是否定这个想法。",
+        "acceptedAnswers": [
+          "Not every objection is a rejection of the idea."
+        ],
+        "explanation": "Not every objection is a rejection of the idea. a result is not necessarily wrong保留正确的可能，不断言正确。"
+      },
+      {
+        "id": "grammar-en-c2-negation-scope-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nThe policy does not always help beginners.",
+        "options": [
+          "更大的样本并不必然更好。",
+          "这项政策并非总能帮助初学者。",
+          "并非所有延误都可避免。"
+        ],
+        "acceptedAnswers": [
+          "这项政策并非总能帮助初学者。"
+        ],
+        "explanation": "原句对应“这项政策并非总能帮助初学者。”。a result is not necessarily wrong保留正确的可能，不断言正确。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c2-free-choice-ever",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C2",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "whatever / whoever / whichever：不论具体哪一个",
+    "pattern": "whatever / whoever / whichever",
+    "meaningZh": "不论具体哪一个",
+    "meaningEn": "Free-choice and concessive -ever forms",
+    "explanation": "ever复合词可构成自由选择的名词性成分，也可引导让步从句。Whatever you choose作条件背景时表示无论选什么；take whichever you prefer则填充宾语。不要把普通what疑问的未知与无论选择的开放范围混淆。",
+    "usage": "表达开放选择与不变结果",
+    "nuance": "which限定已知选择范围，what未必限定。",
+    "structure": [
+      "-ever从句可作成分或让步背景；however + 副词/形容词"
+    ],
+    "formation": [
+      "-ever从句可作成分或让步背景；however + 副词/形容词"
+    ],
+    "examples": [
+      {
+        "target": "Whatever you decide, we will support you.",
+        "zh": "不论你如何决定，我们都会支持你。"
+      },
+      {
+        "target": "Take whichever route is safer.",
+        "zh": "选两条路线中较安全的那条。"
+      },
+      {
+        "target": "Whoever leads the project will need patience.",
+        "zh": "无论谁负责这个项目，都需要耐心。"
+      },
+      {
+        "target": "However carefully we plan, delays remain possible.",
+        "zh": "不论规划多么细致，仍可能延误。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在表达开放选择与不变结果中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "However we carefully plan, delays remain possible.",
+        "correct": "However carefully we plan, delays remain possible.",
+        "explanation": "程度让步however后先接carefully，再接主语谓语。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b1-defining-relative-clauses"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c2-free-choice-ever-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nWhatever you decide, we will support you.",
+        "options": [
+          "无论谁负责这个项目，都需要耐心。",
+          "不论你如何决定，我们都会支持你。",
+          "选两条路线中较安全的那条。"
+        ],
+        "acceptedAnswers": [
+          "不论你如何决定，我们都会支持你。"
+        ],
+        "explanation": "Whatever you decide, we will support you.：不论你如何决定，我们都会支持你。 ever复合词可构成自由选择的名词性成分，也可引导让步从句。Whatever you choose作条件背景时表示无论选什么；take whichever you prefer则填充宾语。不要把普通what疑问的未知与无论选择的开放范围混淆。"
+      },
+      {
+        "id": "grammar-en-c2-free-choice-ever-fill",
+        "kind": "fill",
+        "prompt": "不论决定什么：(　) you decide, we will support you.",
+        "options": [
+          "Which",
+          "Whatever",
+          "What"
+        ],
+        "acceptedAnswers": [
+          "Whatever"
+        ],
+        "explanation": "whatever强调各种决定下支持不变。"
+      },
+      {
+        "id": "grammar-en-c2-free-choice-ever-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n程度让步however后先接carefully，再接主语谓语。",
+        "options": [
+          "However carefully we plan, delays remain possible.",
+          "However we carefully plan, delays remain possible."
+        ],
+        "acceptedAnswers": [
+          "However carefully we plan, delays remain possible."
+        ],
+        "explanation": "程度让步however后先接carefully，再接主语谓语。"
+      },
+      {
+        "id": "grammar-en-c2-free-choice-ever-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n不论规划多么细致，仍可能延误。",
+        "acceptedAnswers": [
+          "However carefully we plan, delays remain possible."
+        ],
+        "explanation": "However carefully we plan, delays remain possible. which限定已知选择范围，what未必限定。"
+      },
+      {
+        "id": "grammar-en-c2-free-choice-ever-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nWhoever leads the project will need patience.",
+        "options": [
+          "无论谁负责这个项目，都需要耐心。",
+          "不论你如何决定，我们都会支持你。",
+          "选两条路线中较安全的那条。"
+        ],
+        "acceptedAnswers": [
+          "无论谁负责这个项目，都需要耐心。"
+        ],
+        "explanation": "原句对应“无论谁负责这个项目，都需要耐心。”。which限定已知选择范围，what未必限定。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c2-sentential-which",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C2",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "主句, which + 谓语：关系词指向整个前述命题",
+    "pattern": "主句, which + 谓语",
+    "meaningZh": "关系词指向整个前述命题",
+    "meaningEn": "Sentential relative which",
+    "explanation": "which在非限定从句中可以指向整个前述情况，而不只最近的名词。阅读时先检查谓语是否评价一件事，如surprised us，再决定先行内容。此用法不用what或that代替，写作中避免指向含混而让责任关系模糊。",
+    "usage": "评价先前整件事的后果",
+    "nuance": "which was unexpected可能评价整个事件，需由语义辨认。",
+    "structure": [
+      "完整命题, which + 对该情况的评价"
+    ],
+    "formation": [
+      "完整命题, which + 对该情况的评价"
+    ],
+    "examples": [
+      {
+        "target": "She declined the offer, which surprised us.",
+        "zh": "她拒绝了邀约，这令我们意外。"
+      },
+      {
+        "target": "The deadline moved, which gave us more time.",
+        "zh": "截止日期延后了，这给了我们更多时间。"
+      },
+      {
+        "target": "No one objected, which was unusual.",
+        "zh": "无人反对，这很不寻常。"
+      },
+      {
+        "target": "They published the data, which improved transparency.",
+        "zh": "他们公布了数据，这提升了透明度。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在评价先前整件事的后果中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "She declined the offer, what surprised us.",
+        "correct": "She declined the offer, which surprised us.",
+        "explanation": "补充性关系连接词使用which，不是what。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b2-nondefining-relatives"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c2-sentential-which-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nShe declined the offer, which surprised us.",
+        "options": [
+          "截止日期延后了，这给了我们更多时间。",
+          "无人反对，这很不寻常。",
+          "她拒绝了邀约，这令我们意外。"
+        ],
+        "acceptedAnswers": [
+          "她拒绝了邀约，这令我们意外。"
+        ],
+        "explanation": "She declined the offer, which surprised us.：她拒绝了邀约，这令我们意外。 which在非限定从句中可以指向整个前述情况，而不只最近的名词。阅读时先检查谓语是否评价一件事，如surprised us，再决定先行内容。此用法不用what或that代替，写作中避免指向含混而让责任关系模糊。"
+      },
+      {
+        "id": "grammar-en-c2-sentential-which-fill",
+        "kind": "fill",
+        "prompt": "评价整件拒绝事件：She declined the offer, (　) surprised us.",
+        "options": [
+          "which",
+          "what",
+          "that"
+        ],
+        "acceptedAnswers": [
+          "which"
+        ],
+        "explanation": "which可回指前述拒绝的整个事实。"
+      },
+      {
+        "id": "grammar-en-c2-sentential-which-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n补充性关系连接词使用which，不是what。",
+        "options": [
+          "She declined the offer, what surprised us.",
+          "She declined the offer, which surprised us."
+        ],
+        "acceptedAnswers": [
+          "She declined the offer, which surprised us."
+        ],
+        "explanation": "补充性关系连接词使用which，不是what。"
+      },
+      {
+        "id": "grammar-en-c2-sentential-which-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n他们公布了数据，这提升了透明度。",
+        "acceptedAnswers": [
+          "They published the data, which improved transparency."
+        ],
+        "explanation": "They published the data, which improved transparency. which was unexpected可能评价整个事件，需由语义辨认。"
+      },
+      {
+        "id": "grammar-en-c2-sentential-which-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nNo one objected, which was unusual.",
+        "options": [
+          "她拒绝了邀约，这令我们意外。",
+          "截止日期延后了，这给了我们更多时间。",
+          "无人反对，这很不寻常。"
+        ],
+        "acceptedAnswers": [
+          "无人反对，这很不寻常。"
+        ],
+        "explanation": "原句对应“无人反对，这很不寻常。”。which was unexpected可能评价整个事件，需由语义辨认。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c2-tentative-would-have-thought",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C2",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "I would have thought …：委婉表达与现状不符的预期",
+    "pattern": "I would have thought …",
+    "meaningZh": "委婉表达与现状不符的预期",
+    "meaningEn": "Distanced expectations",
+    "explanation": "I would have thought常用来委婉表示原本预期，与对方信息或实际情况有所冲突。完成形式不必叙述一次真实完成的思考，而有交际上的距离和缓和作用。它可以暗含质疑，不能只按字面时间解释。",
+    "usage": "礼貌表达意外、保留或异议",
+    "nuance": "比You are wrong温和，却仍可能被理解为批评。",
+    "structure": [
+      "would have thought/expected + 内容从句"
+    ],
+    "formation": [
+      "would have thought/expected + 内容从句"
+    ],
+    "examples": [
+      {
+        "target": "I would have thought they needed more evidence.",
+        "zh": "我原本以为他们需要更多证据。"
+      },
+      {
+        "target": "I would have expected a clearer explanation.",
+        "zh": "我本来会期待更清晰的解释。"
+      },
+      {
+        "target": "You would have thought the problem was obvious.",
+        "zh": "按理人们会觉得问题很明显。"
+      },
+      {
+        "target": "I would have thought a trial was necessary.",
+        "zh": "我本以为试验是必要的。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在礼貌表达意外、保留或异议中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I would have think a trial was necessary.",
+        "correct": "I would have thought a trial was necessary.",
+        "explanation": "have后需过去分词thought。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b2-third-conditional"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c2-tentative-would-have-thought-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nI would have thought they needed more evidence.",
+        "options": [
+          "我原本以为他们需要更多证据。",
+          "我本来会期待更清晰的解释。",
+          "按理人们会觉得问题很明显。"
+        ],
+        "acceptedAnswers": [
+          "我原本以为他们需要更多证据。"
+        ],
+        "explanation": "I would have thought they needed more evidence.：我原本以为他们需要更多证据。 I would have thought常用来委婉表示原本预期，与对方信息或实际情况有所冲突。完成形式不必叙述一次真实完成的思考，而有交际上的距离和缓和作用。它可以暗含质疑，不能只按字面时间解释。"
+      },
+      {
+        "id": "grammar-en-c2-tentative-would-have-thought-fill",
+        "kind": "fill",
+        "prompt": "委婉表达出乎预料的原预期：I (　) a trial was necessary.",
+        "options": [
+          "will have think",
+          "would thinking",
+          "would have thought"
+        ],
+        "acceptedAnswers": [
+          "would have thought"
+        ],
+        "explanation": "这里通过交际距离缓和质疑，不是将thought改为原形。"
+      },
+      {
+        "id": "grammar-en-c2-tentative-would-have-thought-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nhave后需过去分词thought。",
+        "options": [
+          "I would have thought a trial was necessary.",
+          "I would have think a trial was necessary."
+        ],
+        "acceptedAnswers": [
+          "I would have thought a trial was necessary."
+        ],
+        "explanation": "have后需过去分词thought。"
+      },
+      {
+        "id": "grammar-en-c2-tentative-would-have-thought-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我本以为试验是必要的。",
+        "acceptedAnswers": [
+          "I would have thought a trial was necessary."
+        ],
+        "explanation": "I would have thought a trial was necessary. 比You are wrong温和，却仍可能被理解为批评。"
+      },
+      {
+        "id": "grammar-en-c2-tentative-would-have-thought-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nYou would have thought the problem was obvious.",
+        "options": [
+          "我本来会期待更清晰的解释。",
+          "按理人们会觉得问题很明显。",
+          "我原本以为他们需要更多证据。"
+        ],
+        "acceptedAnswers": [
+          "按理人们会觉得问题很明显。"
+        ],
+        "explanation": "原句对应“按理人们会觉得问题很明显。”。比You are wrong温和，却仍可能被理解为批评。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c2-lest-prevention",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C2",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "lest + 主语 + 原形 / should + V：以免发生不希望的事",
+    "pattern": "lest + 主语 + 原形 / should + V",
+    "meaningZh": "以免发生不希望的事",
+    "meaningEn": "Formal preventive purpose",
+    "explanation": "lest在正式或文学表达中引出要防止的结果，后面可用原形虚拟式或should加原形。它本身已有防止的否定意味，通常不再加not造成逻辑反转。与unless的条件例外不同，它说明行动的预防目的。",
+    "usage": "在正式说明中表达预防目的",
+    "nuance": "普通表达可用so that … not；lest语域明显更正式。",
+    "structure": [
+      "lest + 主语 + 动词原形；亦可 should + V"
+    ],
+    "formation": [
+      "lest + 主语 + 动词原形；亦可 should + V"
+    ],
+    "examples": [
+      {
+        "target": "We kept a copy lest the original be lost.",
+        "zh": "我们保留副本，以免原件丢失。"
+      },
+      {
+        "target": "She spoke quietly lest she disturb the others.",
+        "zh": "她轻声说话，以免打扰别人。"
+      },
+      {
+        "target": "They checked again lest an error should remain.",
+        "zh": "他们又检查了一遍，以免留下错误。"
+      },
+      {
+        "target": "He noted the date lest he forget it.",
+        "zh": "他记下日期，以免忘记。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在在正式说明中表达预防目的中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "We kept a copy lest the original is lost.",
+        "correct": "We kept a copy lest the original be lost.",
+        "explanation": "本课正式原形虚拟结构用be，而非一般陈述is。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-c1-conditional-inversion"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c2-lest-prevention-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nWe kept a copy lest the original be lost.",
+        "options": [
+          "他们又检查了一遍，以免留下错误。",
+          "我们保留副本，以免原件丢失。",
+          "她轻声说话，以免打扰别人。"
+        ],
+        "acceptedAnswers": [
+          "我们保留副本，以免原件丢失。"
+        ],
+        "explanation": "We kept a copy lest the original be lost.：我们保留副本，以免原件丢失。 lest在正式或文学表达中引出要防止的结果，后面可用原形虚拟式或should加原形。它本身已有防止的否定意味，通常不再加not造成逻辑反转。与unless的条件例外不同，它说明行动的预防目的。"
+      },
+      {
+        "id": "grammar-en-c2-lest-prevention-fill",
+        "kind": "fill",
+        "prompt": "正式预防：lest the original (　) lost",
+        "options": [
+          "being",
+          "be",
+          "is"
+        ],
+        "acceptedAnswers": [
+          "be"
+        ],
+        "explanation": "虚拟原形be标记要避免的结果。"
+      },
+      {
+        "id": "grammar-en-c2-lest-prevention-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n本课正式原形虚拟结构用be，而非一般陈述is。",
+        "options": [
+          "We kept a copy lest the original is lost.",
+          "We kept a copy lest the original be lost."
+        ],
+        "acceptedAnswers": [
+          "We kept a copy lest the original be lost."
+        ],
+        "explanation": "本课正式原形虚拟结构用be，而非一般陈述is。"
+      },
+      {
+        "id": "grammar-en-c2-lest-prevention-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n他记下日期，以免忘记。",
+        "acceptedAnswers": [
+          "He noted the date lest he forget it."
+        ],
+        "explanation": "He noted the date lest he forget it. 普通表达可用so that … not；lest语域明显更正式。"
+      },
+      {
+        "id": "grammar-en-c2-lest-prevention-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nThey checked again lest an error should remain.",
+        "options": [
+          "他们又检查了一遍，以免留下错误。",
+          "我们保留副本，以免原件丢失。",
+          "她轻声说话，以免打扰别人。"
+        ],
+        "acceptedAnswers": [
+          "他们又检查了一遍，以免留下错误。"
+        ],
+        "explanation": "原句对应“他们又检查了一遍，以免留下错误。”。普通表达可用so that … not；lest语域明显更正式。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c2-as-if-past-perfect",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C2",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "as if / as though + past perfect：对过去情形保持非现实距离",
+    "pattern": "as if / as though + past perfect",
+    "meaningZh": "对过去情形保持非现实距离",
+    "meaningEn": "Distanced comparison about a prior event",
+    "explanation": "as if后用过去完成时可把比较对象放在先前且非现实或未认可的情形。时态后移在此表达认知距离，不只是时间。上下文也可能允许事实性比较而用普通时态，因此应分清说话人是否认可假设。",
+    "usage": "描述仿佛经历过的行为和态度",
+    "nuance": "as if he had seen it并不证明他真的见过。",
+    "structure": [
+      "as if/as though + had + 过去分词（先前、非现实距离）"
+    ],
+    "formation": [
+      "as if/as though + had + 过去分词（先前、非现实距离）"
+    ],
+    "examples": [
+      {
+        "target": "He spoke as if he had witnessed the event.",
+        "zh": "他说得仿佛亲眼目睹了事件。"
+      },
+      {
+        "target": "She looked at me as though I had interrupted her.",
+        "zh": "她看着我，仿佛我打断了她。"
+      },
+      {
+        "target": "They celebrated as if they had already won.",
+        "zh": "他们庆祝得好像已经赢了。"
+      },
+      {
+        "target": "He reacted as though the decision had been final.",
+        "zh": "他的反应仿佛决定早已定案。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在描述仿佛经历过的行为和态度中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "They celebrated as if they had already win.",
+        "correct": "They celebrated as if they had already won.",
+        "explanation": "had后用过去分词won。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b2-wish-unreal-present"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c2-as-if-past-perfect-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nHe spoke as if he had witnessed the event.",
+        "options": [
+          "她看着我，仿佛我打断了她。",
+          "他们庆祝得好像已经赢了。",
+          "他说得仿佛亲眼目睹了事件。"
+        ],
+        "acceptedAnswers": [
+          "他说得仿佛亲眼目睹了事件。"
+        ],
+        "explanation": "He spoke as if he had witnessed the event.：他说得仿佛亲眼目睹了事件。 as if后用过去完成时可把比较对象放在先前且非现实或未认可的情形。时态后移在此表达认知距离，不只是时间。上下文也可能允许事实性比较而用普通时态，因此应分清说话人是否认可假设。"
+      },
+      {
+        "id": "grammar-en-c2-as-if-past-perfect-fill",
+        "kind": "fill",
+        "prompt": "并未获胜却提前庆祝：as if they (　) already won",
+        "options": [
+          "had",
+          "have",
+          "will"
+        ],
+        "acceptedAnswers": [
+          "had"
+        ],
+        "explanation": "had won表达先前的假想完成，不确认已获胜。"
+      },
+      {
+        "id": "grammar-en-c2-as-if-past-perfect-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nhad后用过去分词won。",
+        "options": [
+          "They celebrated as if they had already won.",
+          "They celebrated as if they had already win."
+        ],
+        "acceptedAnswers": [
+          "They celebrated as if they had already won."
+        ],
+        "explanation": "had后用过去分词won。"
+      },
+      {
+        "id": "grammar-en-c2-as-if-past-perfect-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n他的反应仿佛决定早已定案。",
+        "acceptedAnswers": [
+          "He reacted as though the decision had been final."
+        ],
+        "explanation": "He reacted as though the decision had been final. as if he had seen it并不证明他真的见过。"
+      },
+      {
+        "id": "grammar-en-c2-as-if-past-perfect-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nThey celebrated as if they had already won.",
+        "options": [
+          "他说得仿佛亲眼目睹了事件。",
+          "她看着我，仿佛我打断了她。",
+          "他们庆祝得好像已经赢了。"
+        ],
+        "acceptedAnswers": [
+          "他们庆祝得好像已经赢了。"
+        ],
+        "explanation": "原句对应“他们庆祝得好像已经赢了。”。as if he had seen it并不证明他真的见过。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c2-mandative-subjunctive",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C2",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "recommend / demand that + subject + V原形：正式要求中的原形虚拟式",
+    "pattern": "recommend / demand that + subject + V原形",
+    "meaningZh": "正式要求中的原形虚拟式",
+    "meaningEn": "The mandative subjunctive",
+    "explanation": "建议、要求或重要性表达后的that从句可以用原形虚拟式，主语第三人称也不加s，be保持be。此形式表达期望而不是已经成立的事实。英式英语常也用should，不能把合理的语体差异判成错误。",
+    "usage": "正式提出尚待执行的要求",
+    "nuance": "insist在“坚持认为某事实”义时可以用陈述时态，不必虚拟。",
+    "structure": [
+      "要求性that从句 + V原形；否定 not + V"
+    ],
+    "formation": [
+      "要求性that从句 + V原形；否定 not + V"
+    ],
+    "examples": [
+      {
+        "target": "They recommended that he remain in office.",
+        "zh": "他们建议他留任。"
+      },
+      {
+        "target": "It is essential that every file be checked.",
+        "zh": "每份文件都必须被检查。"
+      },
+      {
+        "target": "She demanded that the report be released.",
+        "zh": "她要求公布报告。"
+      },
+      {
+        "target": "We suggest that Maya lead the meeting.",
+        "zh": "我们建议由玛雅主持会议。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在正式提出尚待执行的要求中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "We suggest that Maya leads the meeting.（采用原形虚拟式）",
+        "correct": "We suggest that Maya lead the meeting.",
+        "explanation": "原形虚拟式不因Maya是单数而加s。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b2-reported-statements"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c2-mandative-subjunctive-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nThey recommended that he remain in office.",
+        "options": [
+          "他们建议他留任。",
+          "每份文件都必须被检查。",
+          "她要求公布报告。"
+        ],
+        "acceptedAnswers": [
+          "他们建议他留任。"
+        ],
+        "explanation": "They recommended that he remain in office.：他们建议他留任。 建议、要求或重要性表达后的that从句可以用原形虚拟式，主语第三人称也不加s，be保持be。此形式表达期望而不是已经成立的事实。英式英语常也用should，不能把合理的语体差异判成错误。"
+      },
+      {
+        "id": "grammar-en-c2-mandative-subjunctive-fill",
+        "kind": "fill",
+        "prompt": "正式要求：It is essential that every file (　) checked.",
+        "options": [
+          "is being",
+          "has",
+          "be"
+        ],
+        "acceptedAnswers": [
+          "be"
+        ],
+        "explanation": "原形虚拟be表达应做之事而非当前事实。"
+      },
+      {
+        "id": "grammar-en-c2-mandative-subjunctive-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n原形虚拟式不因Maya是单数而加s。",
+        "options": [
+          "We suggest that Maya leads the meeting.（采用原形虚拟式）",
+          "We suggest that Maya lead the meeting."
+        ],
+        "acceptedAnswers": [
+          "We suggest that Maya lead the meeting."
+        ],
+        "explanation": "原形虚拟式不因Maya是单数而加s。"
+      },
+      {
+        "id": "grammar-en-c2-mandative-subjunctive-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我们建议由玛雅主持会议。",
+        "acceptedAnswers": [
+          "We suggest that Maya lead the meeting."
+        ],
+        "explanation": "We suggest that Maya lead the meeting. insist在“坚持认为某事实”义时可以用陈述时态，不必虚拟。"
+      },
+      {
+        "id": "grammar-en-c2-mandative-subjunctive-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nShe demanded that the report be released.",
+        "options": [
+          "每份文件都必须被检查。",
+          "她要求公布报告。",
+          "他们建议他留任。"
+        ],
+        "acceptedAnswers": [
+          "她要求公布报告。"
+        ],
+        "explanation": "原句对应“她要求公布报告。”。insist在“坚持认为某事实”义时可以用陈述时态，不必虚拟。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c2-no-more-than-comparison",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C2",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "no more X than Y：用对照否定两项相似断言",
+    "pattern": "no more X than Y",
+    "meaningZh": "用对照否定两项相似断言",
+    "meaningEn": "A rhetorical negative comparison",
+    "explanation": "no more A than B可用一个明显不成立的B来否定A，强调A同样不成立。它与not more A than B的数量比较不同，也不同于no more than three的仅仅三个。解读时要区分固定修辞框架与实际数量范围。",
+    "usage": "解析修辞性反驳",
+    "nuance": "B必须在语境中作为不成立的类比，否则句子容易含混。",
+    "structure": [
+      "no more A than B：用B的不成立反驳A"
+    ],
+    "formation": [
+      "no more A than B：用B的不成立反驳A"
+    ],
+    "examples": [
+      {
+        "target": "A label is no more a guarantee than a slogan is.",
+        "zh": "标签并不是保证，正如口号不是保证。"
+      },
+      {
+        "target": "He is no more a doctor than I am.",
+        "zh": "他和我一样都不是医生。"
+      },
+      {
+        "target": "Speed is no more a measure of care than volume is.",
+        "zh": "速度并不衡量用心程度，音量也一样。"
+      },
+      {
+        "target": "A deadline is no more a plan than a wish is.",
+        "zh": "截止日期不是计划，就像愿望不是计划。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在解析修辞性反驳中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "A deadline is no more than a plan than a wish is.",
+        "correct": "A deadline is no more a plan than a wish is.",
+        "explanation": "修辞比较no more后先接被否定的描述，than只引入对照项。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-c2-negation-scope"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c2-no-more-than-comparison-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nA label is no more a guarantee than a slogan is.",
+        "options": [
+          "速度并不衡量用心程度，音量也一样。",
+          "标签并不是保证，正如口号不是保证。",
+          "他和我一样都不是医生。"
+        ],
+        "acceptedAnswers": [
+          "标签并不是保证，正如口号不是保证。"
+        ],
+        "explanation": "A label is no more a guarantee than a slogan is.：标签并不是保证，正如口号不是保证。 no more A than B可用一个明显不成立的B来否定A，强调A同样不成立。它与not more A than B的数量比较不同，也不同于no more than three的仅仅三个。解读时要区分固定修辞框架与实际数量范围。"
+      },
+      {
+        "id": "grammar-en-c2-no-more-than-comparison-fill",
+        "kind": "fill",
+        "prompt": "已知说话人非医生：He is no more a doctor than I am暗示什么？",
+        "options": [
+          "Only he is a doctor.",
+          "Neither is a doctor.",
+          "Both are doctors."
+        ],
+        "acceptedAnswers": [
+          "Neither is a doctor."
+        ],
+        "explanation": "在指定语境中，两者都不是医生。"
+      },
+      {
+        "id": "grammar-en-c2-no-more-than-comparison-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n修辞比较no more后先接被否定的描述，than只引入对照项。",
+        "options": [
+          "A deadline is no more a plan than a wish is.",
+          "A deadline is no more than a plan than a wish is."
+        ],
+        "acceptedAnswers": [
+          "A deadline is no more a plan than a wish is."
+        ],
+        "explanation": "修辞比较no more后先接被否定的描述，than只引入对照项。"
+      },
+      {
+        "id": "grammar-en-c2-no-more-than-comparison-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n截止日期不是计划，就像愿望不是计划。",
+        "acceptedAnswers": [
+          "A deadline is no more a plan than a wish is."
+        ],
+        "explanation": "A deadline is no more a plan than a wish is. B必须在语境中作为不成立的类比，否则句子容易含混。"
+      },
+      {
+        "id": "grammar-en-c2-no-more-than-comparison-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nSpeed is no more a measure of care than volume is.",
+        "options": [
+          "速度并不衡量用心程度，音量也一样。",
+          "标签并不是保证，正如口号不是保证。",
+          "他和我一样都不是医生。"
+        ],
+        "acceptedAnswers": [
+          "速度并不衡量用心程度，音量也一样。"
+        ],
+        "explanation": "原句对应“速度并不衡量用心程度，音量也一样。”。B必须在语境中作为不成立的类比，否则句子容易含混。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c2-for-infinitive-subject",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C2",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "for + NP + to V：明确不定式命题的主体",
+    "pattern": "for + NP + to V",
+    "meaningZh": "明确不定式命题的主体",
+    "meaningEn": "An explicit subject in a for-infinitive",
+    "explanation": "for名词短语加to不定式可以在表语、主语或名词后明确谁执行该动作。It is unusual for her to leave描述一整件事的异常，不是给她一个评价。不要误加that，代词用宾格，并注意与of her to help评价人的特质不同。",
+    "usage": "分析命题主体和评价对象",
+    "nuance": "for her to leave的主体是her，评价的是离开这一情况。",
+    "structure": [
+      "for + 宾格NP + to V"
+    ],
+    "formation": [
+      "for + 宾格NP + to V"
+    ],
+    "examples": [
+      {
+        "target": "It is unusual for her to leave early.",
+        "zh": "她早退这件事很不寻常。"
+      },
+      {
+        "target": "For the plan to succeed, everyone must cooperate.",
+        "zh": "要让计划成功，所有人必须合作。"
+      },
+      {
+        "target": "There was no reason for them to wait.",
+        "zh": "他们没有理由等待。"
+      },
+      {
+        "target": "It is important for us to hear both sides.",
+        "zh": "听取双方意见对我们很重要。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在分析命题主体和评价对象中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "It is unusual for she to leave early.",
+        "correct": "It is unusual for her to leave early.",
+        "explanation": "for后的代词使用宾格her而不是主格she。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-c1-what-cleft"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-c2-for-infinitive-subject-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nIt is unusual for her to leave early.",
+        "options": [
+          "要让计划成功，所有人必须合作。",
+          "他们没有理由等待。",
+          "她早退这件事很不寻常。"
+        ],
+        "acceptedAnswers": [
+          "她早退这件事很不寻常。"
+        ],
+        "explanation": "It is unusual for her to leave early.：她早退这件事很不寻常。 for名词短语加to不定式可以在表语、主语或名词后明确谁执行该动作。It is unusual for her to leave描述一整件事的异常，不是给她一个评价。不要误加that，代词用宾格，并注意与of her to help评价人的特质不同。"
+      },
+      {
+        "id": "grammar-en-c2-for-infinitive-subject-fill",
+        "kind": "fill",
+        "prompt": "明确不定式主体：It is important (　) both sides.",
+        "options": [
+          "for us to hear",
+          "for we to hear",
+          "that us to hear"
+        ],
+        "acceptedAnswers": [
+          "for us to hear"
+        ],
+        "explanation": "for后的代词用宾格us，接不定式to hear。"
+      },
+      {
+        "id": "grammar-en-c2-for-infinitive-subject-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nfor后的代词使用宾格her而不是主格she。",
+        "options": [
+          "It is unusual for she to leave early.",
+          "It is unusual for her to leave early."
+        ],
+        "acceptedAnswers": [
+          "It is unusual for her to leave early."
+        ],
+        "explanation": "for后的代词使用宾格her而不是主格she。"
+      },
+      {
+        "id": "grammar-en-c2-for-infinitive-subject-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n听取双方意见对我们很重要。",
+        "acceptedAnswers": [
+          "It is important for us to hear both sides."
+        ],
+        "explanation": "It is important for us to hear both sides. for her to leave的主体是her，评价的是离开这一情况。"
+      },
+      {
+        "id": "grammar-en-c2-for-infinitive-subject-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nThere was no reason for them to wait.",
+        "options": [
+          "她早退这件事很不寻常。",
+          "要让计划成功，所有人必须合作。",
+          "他们没有理由等待。"
+        ],
+        "acceptedAnswers": [
+          "他们没有理由等待。"
+        ],
+        "explanation": "原句对应“他们没有理由等待。”。for her to leave的主体是her，评价的是离开这一情况。"
+      }
+    ]
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "id": "grammar-en-a1-present-simple-routine",
+  "kind": "grammar",
+  "language": "en",
+  "level": "A1",
+  "difficulty": 1,
+  "tags": [
+    "daily-life",
+    "mobile-core"
+  ],
+  "title": "Present simple：日常习惯",
+  "pattern": "subject + base verb / third-person -s",
+  "meaningZh": "描述习惯与通常情况",
+  "meaningEn": "Habits, routines and things that are generally true",
+  "explanation": "一般现在时描述通常发生的事，而不一定是此刻正在做的动作。I、you、we、they后用动词原形；he、she、it后通常加s或es。实义动词否定句用do not或does not，疑问句把do或does放在主语前；用了does，后面的动词要回到原形。be动词的句子另用am、is、are，不可机械加do。",
+  "usage": "介绍作息、工作、喜好和固定安排。",
+  "nuance": "I read at night表示习惯，I am reading now强调此刻动作。always等频率词通常放在实义动词前。",
+  "structure": [
+    "I / you / we / they + base verb",
+    "He / she / it + verb-s",
+    "Do / Does + subject + base verb?",
+    "Subject + do not / does not + base verb"
+  ],
+  "formation": [
+    "I / you / we / they + base verb",
+    "He / she / it + verb-s",
+    "Do / Does + subject + base verb?",
+    "Subject + do not / does not + base verb"
+  ],
+  "examples": [
+    {
+      "target": "I read a book before bed.",
+      "zh": "我睡前读书。"
+    },
+    {
+      "target": "She works at a small school.",
+      "zh": "她在一所小学校工作。"
+    },
+    {
+      "target": "Does your friend drink coffee?",
+      "zh": "你朋友喝咖啡吗？"
+    },
+    {
+      "target": "We do not work on Sunday.",
+      "zh": "我们星期天不工作。"
+    }
+  ],
+  "notes": [
+    "等级用于学习路径编排，语境与完整句子比单独记规则更重要。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Does she reads every day?",
+      "correct": "Does she read every day?",
+      "explanation": "does已经承担第三人称单数变化，read保留原形。"
+    }
+  ],
+  "comparison": [],
+  "prerequisites": [],
+  "relatedGrammar": [],
+  "exercises": [
+    {
+      "id": "grammar-en-a1-present-simple-routine-1",
+      "kind": "meaning",
+      "prompt": "I read before bed. 通常表达什么？",
+      "options": [
+        "睡前读书的习惯",
+        "此刻一定正在读",
+        "过去已经停止的习惯"
+      ],
+      "acceptedAnswers": [
+        "睡前读书的习惯"
+      ],
+      "explanation": "一般现在时说明习惯，未必是此刻正在发生。"
+    },
+    {
+      "id": "grammar-en-a1-present-simple-routine-2",
+      "kind": "fill",
+      "prompt": "She ___ at a school.",
+      "options": [
+        "work",
+        "working",
+        "works"
+      ],
+      "acceptedAnswers": [
+        "works"
+      ],
+      "explanation": "主语She是第三人称单数，work加s。"
+    },
+    {
+      "id": "grammar-en-a1-present-simple-routine-3",
+      "kind": "error",
+      "prompt": "纠正：Does he drinks coffee?",
+      "acceptedAnswers": [
+        "Does he drink coffee?"
+      ],
+      "explanation": "does后面的实义动词用原形drink。"
+    },
+    {
+      "id": "grammar-en-a1-present-simple-routine-4",
+      "kind": "translation",
+      "prompt": "把“我们每天读书”译成英语。",
+      "acceptedAnswers": [
+        "We read every day.",
+        "We read books every day."
+      ],
+      "explanation": "We后用动词原形；every day表示频率。"
+    },
+    {
+      "id": "grammar-en-a1-present-simple-routine-example-meaning-26",
+      "kind": "context",
+      "prompt": "在本课语境中，哪项最准确理解这句话？\nWe do not work on Sunday.",
+      "options": [
+        "她在一所小学校工作。",
+        "我们星期天不工作。",
+        "我睡前读书。"
+      ],
+      "acceptedAnswers": [
+        "我们星期天不工作。"
+      ],
+      "explanation": "本句的中文是“我们星期天不工作。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。I read at night表示习惯，I am reading now强调此刻动作。always等频率词通常放在实义动词前。"
+    }
+  ]
+}

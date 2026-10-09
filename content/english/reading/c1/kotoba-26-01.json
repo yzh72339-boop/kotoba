@@ -1,0 +1,468 @@
+[
+  {
+    "id": "article-en-c1-research-caption",
+    "kind": "reading",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "科学"
+    ],
+    "title": "The sentence beneath the chart",
+    "topic": "科学",
+    "genre": "academic-style",
+    "estimatedMinutes": 6,
+    "paragraphs": [
+      "At a university exhibition, I stopped beside a chart showing a steady increase in the number of birds observed in a city park. The caption read, “Urban wildlife is recovering.” It was a reassuring statement, particularly for visitors who had read gloomy reports about the environment. The student standing beside the display explained how volunteers had recorded sightings every weekend. Her enthusiasm was genuine, and the work clearly required patience. Yet the sentence beneath the chart seemed to make a larger claim than the observations alone could support. A count of sightings is not automatically a count of birds, still less a measure of an entire urban ecosystem.",
+      "The student did not object when I asked how the records had been collected. In the second year, more volunteers had joined, and the route had been extended to a pond beyond the original boundary. These were sensible changes if the purpose was to involve people and discover more species. They also made a simple comparison between years difficult. More birds might have been present, but more eyes had been looking in more places. What the chart showed was an increase in recorded encounters. What remained uncertain was how much of that increase reflected a change in the population rather than a change in the method.",
+      "It would be easy to treat this as an argument against volunteer research. That would be a mistake. Professional studies also face changing conditions and imperfect observations. The important difference is not whether the observer receives a salary, but whether the report makes the limits of the comparison visible. A volunteer project may provide valuable evidence of where a species occurs, invite useful questions and help identify places requiring further study. None of those contributions depends on claiming that it has settled a broader question. Caution about interpretation can strengthen a project by making its real achievements easier to recognise.",
+      "We discussed a different caption: “Volunteers recorded more bird sightings along an expanded route.” The revised sentence was less dramatic. It also opened a more interesting conversation. Had the same sections been compared separately, the team might have estimated whether sightings there had changed. They could not reconstruct every detail of the previous year, but they still had notes about dates, weather and locations. The student said they would publish those conditions alongside the next chart. This was not an admission that the work was useless. It was an invitation for readers to understand how the result had been produced and what a fair comparison would require.",
+      "Captions matter because many readers meet a chart without reading the full report. A short sentence can quietly turn a local observation into a general conclusion. Once that sentence is repeated in a newsletter or social message, the qualifications are even less likely to travel with it. This gives the writer a responsibility to choose the scope carefully. “We observed” is not merely a weaker version of “there are.” It tells the reader which kind of knowledge is being offered. Similarly, “appears to have increased” allows uncertainty but does not explain its source unless the method is described. A vague hedge cannot do all the work of a clear account. Rarely does a single chart show every condition behind the result.",
+      "When I returned to the display, the student had not erased the chart. She had added a handwritten note about the new route and the extra volunteers. Visitors still stopped to look. Some asked about the pond; others offered to join the next walk. The chart had lost an apparently simple answer and gained a visible method. For a public exhibition, that may be a better outcome. Science communication should help people distinguish evidence from expectation without persuading them that uncertainty means nothing can be known. The useful question was no longer whether the park was simply improving or declining. It was what we could observe next, under which conditions, to learn more."
+    ],
+    "translation": [
+      "大学展览图显示公园鸟类观察次数上升，说明却称城市野生生态恢复。志愿者每周观察的努力真实且有价值，但目击数不自动等于鸟数，更非全城市生态指标；文字断言比证据更大。",
+      "询问后知第二年更多人加入、路线扩至池塘，有利于参与和发现物种，却使年度直接对比困难。可能鸟增，也可能更多眼睛看更大范围。图能说明记录遭遇增，不能确定种群与方法各贡献多少。",
+      "这不应被读成反对志愿研究，职业研究也有条件变化。差异非薪资，而是报告是否显露对比限制。志愿项目可提供分布证据、提出问题、指出后续研究地，价值无需声称解决大问题。谨慎解释反而显露真实成就。",
+      "改为“志愿者在扩大的路线记录更多目击”较平实却引出好问题。若单独比共同路段，可估那里是否变化。不能重建所有旧细节，但日期天气地点记录仍可用。下次公布条件非自认无用，而让读者理解结果来历及公平比较需要。",
+      "许多读者只看图不读报告，短说明会把局部观察变一般结论，转述时限制更易丢。作者须控制范围。“我们观察”非弱化版“存在”，而说明知识类型；“似乎增加”留未知，却非方法解释，模糊谨慎词不能替清楚说明。 一张图表很少能展示结果背后的所有条件。",
+      "再去看图还在，只加路线与人数注。访客仍看，问池塘或报名。图失简单答案却获可见方法，公共传播可更好：帮助区分证据和预期，不让未知等于无知。下一问非简单改善或退化，而是什么条件再观察能学更多。"
+    ],
+    "vocabulary": [
+      "supp-en-a1-11",
+      "supp-en-a1-13",
+      "supp-en-a1-16",
+      "lex-en-a1-work",
+      "lex-en-a1-meet",
+      "complete-en-a1-city"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-c1-what-cleft",
+        "surface": "What the chart showed"
+      },
+      {
+        "id": "grammar-en-c1-conditional-inversion",
+        "surface": "Had the same sections been compared"
+      },
+      {
+        "id": "grammar-en-c1-negative-fronting",
+        "surface": "Rarely does a single chart show"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-c1-research-caption-q1",
+        "type": "main-idea",
+        "prompt": "Which principle does the article defend?",
+        "options": [
+          "Match the scope of a claim to the conditions under which evidence was collected.",
+          "Avoid public charts because they always mislead.",
+          "Treat all unpaid research as unreliable."
+        ],
+        "answer": 0,
+        "explanation": "全文保留研究价值，但要求断言与采集方法相配。"
+      },
+      {
+        "id": "article-en-c1-research-caption-q2",
+        "type": "detail",
+        "prompt": "Which two changes complicated the year-to-year comparison?",
+        "options": [
+          "Fewer birds and a shorter weekend.",
+          "A new university and a missing chart.",
+          "More volunteers and a longer route."
+        ],
+        "answer": 2,
+        "explanation": "第二段说明观察者与观察范围皆变。"
+      },
+      {
+        "id": "article-en-c1-research-caption-q3",
+        "type": "inference",
+        "prompt": "Why might caution strengthen the project?",
+        "options": [
+          "It makes further observations unnecessary.",
+          "It makes its actual contribution distinguishable from an unsupported broader claim.",
+          "It proves the park population definitely grew."
+        ],
+        "answer": 1,
+        "explanation": "第三段指出谨慎能显露分布等真实价值。"
+      },
+      {
+        "id": "article-en-c1-research-caption-q4",
+        "type": "grammar",
+        "prompt": "What does “Had the same sections been compared” imply?",
+        "options": [
+          "It introduces a hypothetical past method not actually used as described.",
+          "It asks whether the same volunteers received salaries.",
+          "It confirms every original condition was identical."
+        ],
+        "answer": 0,
+        "explanation": "Had倒装省略if，讨论未采用的比较办法。"
+      },
+      {
+        "id": "article-en-c1-research-caption-q5",
+        "type": "author-intent",
+        "prompt": "Why distinguish “we observed” from “there are”?",
+        "options": [
+          "To recommend replacing every fact with an opinion.",
+          "To claim all observation is purely subjective.",
+          "To show that wording identifies the type and limits of knowledge offered."
+        ],
+        "answer": 2,
+        "explanation": "第五段明确描述知识类别，不只强弱语气。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-en-c1-historic-caption",
+    "kind": "reading",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "历史"
+    ],
+    "title": "Whose past is on the wall?",
+    "topic": "历史",
+    "genre": "essay",
+    "estimatedMinutes": 6,
+    "paragraphs": [
+      "The photograph in the station showed a crowd beside a steam train. Beneath it, a polished sign announced the arrival of modern life in the town. I had passed the image many times without questioning the caption. Then a local historian pointed out a row of people standing behind the engine. They were workers who had laid the track, and several had travelled from villages whose names did not appear anywhere on the wall. The train was easy to recognise as a symbol of change. The work that made it move was present in the picture but almost absent from the story.",
+      "The historian was not asking the station to replace celebration with blame. A railway can expand opportunities, and people may reasonably remember its opening with pride. Her question was about the scale at which progress was described. For a merchant, a new route might have meant access to a larger market. For someone living beside the construction site, it might have meant losing a familiar path or accepting months of noise. These experiences were not necessarily opposites. One person could benefit from a service while also paying part of its cost. A public history becomes thin when it forces those positions into a choice between grateful supporters and obstructive critics.",
+      "Finding the workers’ names was not straightforward. Records surviving in the town office mainly described contracts and payments. They identified companies more reliably than individuals. Family accounts supplied different kinds of detail: where people stayed, what they ate and how long they were away. Such memories could not establish every date with confidence, but they could suggest questions that an official ledger had never been designed to answer. The historian checked them against newspapers and letters where possible. When the sources disagreed, she recorded the disagreement instead of combining the accounts into one smooth narrative. The result was less convenient for a short caption and more faithful to the available evidence.",
+      "This approach also changes what a visitor is invited to do. A caption stating that the railway transformed the town offers a completed interpretation. A caption showing how several people experienced that transformation leaves room for comparison. Visitors may recognise an account resembling their own family’s history, or notice how their experience differs. Neither response requires them to deny the train’s importance. What matters is whether the display presents change as something that happened to a place, or something negotiated by people living there. The second version can make a familiar photograph newly visible without pretending that the exhibit contains every voice.",
+      "There are practical limits. A station wall cannot carry the length of a book, and travellers often have only a minute to read. The historian proposed adding two brief accounts and a link to the sources rather than a much longer single paragraph. The main sign could remain, but its confident general statement would be placed beside particular experiences. This is a useful compromise only if the additional material is genuinely accessible. A link that requires an account or leads to an unavailable page merely relocates the omission. Design decisions, including type size and reading order, affect whose history visitors are likely to encounter.",
+      "I now pause at that photograph for a different reason. I still see a train arriving, but I also look for the people who are not facing the camera. Their position does not tell me what they thought, and I cannot invent their feelings to repair the caption. It does remind me that a public account has been selected from a larger field of possible evidence. Good historical writing does not remove selection; it makes the basis of selection open to examination. A display can celebrate an achievement and still allow a reader to ask who worked for it, who benefited and what else changed along the way. It was the choice of caption that first directed my attention, not the age of the photograph."
+    ],
+    "translation": [
+      "车站蒸汽火车旧照下称现代生活到来。我未质疑，直到地方史者指出后排铺轨工，来自牌中未提村落。列车作为变化象征易识别，支撑其运转的劳动虽在图里却近乎缺故事。",
+      "她非要求把庆典替成责难，铁路可增机会值得自豪，而问进步用何尺度描述。商人获市场，工地邻人丢熟路、忍噪；同一个人可受益又承担成本，非简单相反。公共史若只分感恩者和阻碍者便单薄。",
+      "找工名难，镇档主要合同付款，认公司胜个人。家属故事补住宿饮食离家期，虽不能确定全日期却提示账册未设计回答的问题。可行时与报纸信件对照，冲突注明，不合成顺滑故事，虽不便短说明却更忠实证据。",
+      "这改变参观者角色。“铁路改变镇”给完解释，呈各人经历则留比较空间，能见与家史同异，不需否认铁路重要。关键变化是被施于地方，还是居民协商经历的过程。后者可重见熟照又不假装涵盖全声。",
+      "墙非书、旅客仅分钟，建议加两短故事与来源链接，而非一长段。总牌可保留，将总断言旁列具体经历；补充确实可读才算折中，须账号或失效页链接仅迁移遗漏。字号顺序也影响谁的历史被看到。",
+      "如今看列车之外也找未面镜头者。位置不能说明思想，不能编感情来修牌；但提醒公共叙述从更大证据域挑选。好史写不消选择，而让依据可检查。庆成就仍可问谁劳动、谁获益、还改变什么。 最先影响我的关注点的是说明文字的选择，而不是照片年代。"
+    ],
+    "vocabulary": [
+      "course-en-a1-6",
+      "supp-en-a1-1",
+      "supp-en-a1-11",
+      "supp-en-a1-13",
+      "lex-en-a1-person",
+      "lex-en-a1-work"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-c1-reduced-relatives",
+        "surface": "Records surviving"
+      },
+      {
+        "id": "grammar-en-c1-what-cleft",
+        "surface": "What matters"
+      },
+      {
+        "id": "grammar-en-c1-it-cleft",
+        "surface": "It was the choice of caption that"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-c1-historic-caption-q1",
+        "type": "main-idea",
+        "prompt": "What kind of revision does the historian favour?",
+        "options": [
+          "Replacing the photograph with a complete list of every resident.",
+          "Declaring the railway had no benefits.",
+          "A celebration that also exposes particular experiences and the evidence behind its selection."
+        ],
+        "answer": 2,
+        "explanation": "她保留重要性，补个别经历与来源选择。"
+      },
+      {
+        "id": "article-en-c1-historic-caption-q2",
+        "type": "detail",
+        "prompt": "What did official records identify more reliably?",
+        "options": [
+          "Every family’s feelings about the railway.",
+          "Companies rather than individual workers.",
+          "Workers’ daily meals rather than payments."
+        ],
+        "answer": 1,
+        "explanation": "第三段账册合同付款较能辨认公司。"
+      },
+      {
+        "id": "article-en-c1-historic-caption-q3",
+        "type": "inference",
+        "prompt": "Why not merge conflicting sources into a smooth story?",
+        "options": [
+          "Smoothness could conceal the limits and disagreements in the evidence.",
+          "Family accounts were always more accurate.",
+          "The exhibit had unlimited wall space."
+        ],
+        "answer": 0,
+        "explanation": "第三段记录分歧以忠实已有证据。"
+      },
+      {
+        "id": "article-en-c1-historic-caption-q4",
+        "type": "grammar",
+        "prompt": "What does “Records surviving in the town office” mean?",
+        "options": [
+          "Records that the office has not yet created.",
+          "Records that have been destroyed there.",
+          "Records that have survived there."
+        ],
+        "answer": 2,
+        "explanation": "surviving后置主动修饰records。"
+      },
+      {
+        "id": "article-en-c1-historic-caption-q5",
+        "type": "author-intent",
+        "prompt": "Why warn against inventing the photographed people’s feelings?",
+        "options": [
+          "The old caption must be accepted unchanged.",
+          "Inclusion does not justify claims unsupported by evidence.",
+          "Unidentified people should never be mentioned."
+        ],
+        "answer": 1,
+        "explanation": "末段区分发现遗漏与无根据补心理。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-en-c1-flexible-hours",
+    "kind": "reading",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "商业"
+    ],
+    "title": "Who gets to be flexible?",
+    "topic": "商业",
+    "genre": "opinion",
+    "estimatedMinutes": 6,
+    "paragraphs": [
+      "When a company describes its working hours as flexible, the statement sounds like an uncomplicated benefit. Employees can supposedly organise their days around travel, family and periods of concentration. Yet flexibility is a relation between people, not merely a property of a schedule. If one person moves a meeting, another may need to rearrange a school collection or a medical appointment. The freedom to choose a convenient time can create an obligation elsewhere. This does not make flexible work undesirable. It means that its fairness depends on how decisions are made and whose constraints remain visible when the timetable changes.",
+      "In a team I joined, meetings were first arranged through a shared calendar. Everyone could mark when they were unavailable. The system appeared to be fair because the same tool was offered to all. In practice, some people blocked time confidently, while others left their calendars open in case a manager needed them. An empty calendar therefore did not necessarily represent genuine availability. It could represent uncertainty about whether refusing a request was acceptable. The software could display what people entered, but it could not establish the conditions under which they felt able to enter it. A formally equal invitation produced unequal information.",
+      "The team leader responded by agreeing on a few core periods and requiring a reason for changes outside them. She did not ask employees to explain private responsibilities in detail. A simple statement that a time was unavailable was enough. This mattered because making a constraint visible should not require someone to disclose why a particular hour is important. Privacy and coordination are not necessarily competing goals. Clear expectations can allow people to protect personal information while still giving colleagues enough certainty to plan. The new arrangement limited spontaneous changes, but that limit made everyday flexibility more usable.",
+      "There remained exceptions. A client sometimes needed an urgent response, and an unexpected absence could affect the whole group. The team kept a shared note explaining how such cases would be handled and reviewed which people had repeatedly covered them. Without that review, the most cooperative employee could quietly become the permanent solution to everyone else’s difficulty. Counting responses would not be enough; the relevant question was whether the burden had become predictable for one person and invisible to others. Cooperation is sustainable when people can see both the immediate need and the pattern of who keeps meeting it.",
+      "A policy document may use the language of freedom while daily habits communicate something different. If employees receive praise mainly for answering late at night, they may infer that flexible hours mean constant availability. That inference can persist even when the written rule says no one is expected to work after hours. Managers therefore need to examine examples as well as statements. Which actions are publicly thanked? Whose boundaries are respected without comment? What happens when someone uses the option that the policy supposedly grants? These small responses reveal whether a choice is real or exists only on paper.",
+      "The aim is not to produce a schedule without inconvenience. No group can promise that. It is to make inconvenience discussable and to prevent it from being assigned automatically to those least likely to object. A useful flexibility policy offers a way to negotiate changes, refuse some requests and revisit patterns without turning every conflict into a test of commitment. When that structure is in place, employees need not choose between being helpful colleagues and having a life that cannot always move. Flexibility becomes a shared capacity to adapt, rather than one person’s freedom purchased with another person’s uncertainty.",
+      "A review should therefore ask whether the same people keep adapting while others retain the power to make changes. That question concerns the distribution of choice, not merely the number of hours worked."
+    ],
+    "translation": [
+      "弹性工时像无条件福利，却是人与人关系而非时间表属性。一人改会，另一人可能须改接孩子或就医。便利可把义务转移；非说弹性不好，而公平取决于决策及哪些限制被看到。",
+      "我所在组用共享日历人人可标忙，看似公平。但有人大胆封时间，有人怕经理需要而留空。空不必真有空，可能不确定拒绝是否许可。软件显示输入，却不能确认人敢输入的条件。平等邀请可产不平等信息。",
+      "负责人约几个核心时段，段外更改需理由，却不要求详述私人责任，说不可用即可。让限制可见不应以披露私因换取。隐私与协调未必冲突，清楚预期能护私又给同事计划确定性。限制临时改动反而让弹性可用。",
+      "仍有急客与意外缺席，组记处理办法，定期看谁反复补位。否则最合作者悄成万能解方。非只数回复，要看负担是否一人可预见、别人看不到。可持续合作需见眼前需求及长期谁承担。",
+      "文件讲自由，夜晚回复却才被夸，人会推弹性=常可用，即使规则否认。经理须看例子非只宣言：何种行为被感谢、谁边界被尊重、真用选项会怎样。这些揭示选择真还是纸上。",
+      "目标非无不便表，任何组都无法保证，而让不便可讨论，不自动给最不敢反对者。好政策让变更可协商、请求可拒、模式可重审，不把冲突变忠诚测验。如此弹性成共享适应力，非以他人未知购一人自由。",
+      "因此，评估还应询问是否总是同一批人在适应，其他人保有变更权力。问题关乎选择权分配，而非仅工作小时数。"
+    ],
+    "vocabulary": [
+      "course-en-a1-7",
+      "supp-en-a1-1",
+      "supp-en-a1-9",
+      "supp-en-a1-11",
+      "lex-en-a1-time",
+      "lex-en-a1-person"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-c1-seem-appear-stance",
+        "surface": "appeared to be fair"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-c1-flexible-hours-q1",
+        "type": "main-idea",
+        "prompt": "How does the writer redefine flexibility?",
+        "options": [
+          "A ban on responding to emergencies.",
+          "A shared capacity supported by visible constraints and negotiable burdens.",
+          "Unlimited permission to move meetings at any time."
+        ],
+        "answer": 1,
+        "explanation": "结尾主张关系性共同适应、可协商负担。"
+      },
+      {
+        "id": "article-en-c1-flexible-hours-q2",
+        "type": "inference",
+        "prompt": "Why can an empty calendar mislead?",
+        "options": [
+          "Some employees may not feel permitted to block unavailable time.",
+          "The software deletes every private appointment.",
+          "Empty calendars always mean refusal to work."
+        ],
+        "answer": 0,
+        "explanation": "第二段不同信心影响输入，空白非确证有空。"
+      },
+      {
+        "id": "article-en-c1-flexible-hours-q3",
+        "type": "detail",
+        "prompt": "What did the leader avoid requiring?",
+        "options": [
+          "Any notice of unavailable times.",
+          "A method for handling exceptions.",
+          "Detailed explanations of private responsibilities."
+        ],
+        "answer": 2,
+        "explanation": "第三段仅需声明不可用，保护原因隐私。"
+      },
+      {
+        "id": "article-en-c1-flexible-hours-q4",
+        "type": "author-intent",
+        "prompt": "Why discuss praise for late-night responses?",
+        "options": [
+          "Every late response proves an emergency.",
+          "Informal rewards can undermine the written policy’s meaning.",
+          "The company must remove all written policies."
+        ],
+        "answer": 1,
+        "explanation": "第五段示范日常认可与明文选择可能冲突。"
+      },
+      {
+        "id": "article-en-c1-flexible-hours-q5",
+        "type": "vocabulary",
+        "prompt": "What does “purchased with another person’s uncertainty” suggest?",
+        "options": [
+          "One person’s freedom may shift an unacknowledged cost to someone else.",
+          "Employees are paid in calendar software.",
+          "Uncertainty can always be removed by money."
+        ],
+        "answer": 0,
+        "explanation": "修辞强调负担转嫁而非字面购买。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-en-c1-translation-register",
+    "kind": "reading",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "文化"
+    ],
+    "title": "A polite refusal in another language",
+    "topic": "文化",
+    "genre": "essay",
+    "estimatedMinutes": 6,
+    "paragraphs": [
+      "A friend asked me to translate a short refusal for an international event. Her organisation could not accept a proposed date, but she wanted to preserve a cooperative relationship. The original message began with a long expression of appreciation before explaining the difficulty. A literal English translation sounded elaborate and left the decision unclear until the final line. Cutting every expression of gratitude would have made it shorter, but it would also have removed part of the relationship the message was trying to maintain. The task was not simply to choose between a faithful long version and an efficient short one.",
+      "We first separated the message into actions: acknowledge the invitation, state that the date was unavailable, explain only the necessary reason and offer a next step. This made the purpose of each sentence visible. It also showed that not every phrase needed an equivalent phrase in the same position. In the revised version, the refusal appeared early, followed by a concise expression of thanks and an alternative date. The order changed, but the organisation’s intention did not. A reader could understand the decision without having to interpret several polite signals before reaching it. Courtesy was preserved through clarity as well as through vocabulary.",
+      "The difficult part was the explanation. The source referred to internal circumstances without naming them. Expanding this into a detailed account would have invented information; leaving a vague reference might have sounded evasive. We settled on a neutral statement that the team was unavailable on that date. This was less specific than the friend initially wanted, but it accurately marked the boundary of what she was authorised to disclose. Translation cannot repair every gap in the source by guessing. Sometimes the most responsible choice is to preserve a limit and make sure the sentence does not imply more knowledge than the sender has.",
+      "This is particularly important when translating criticism. A softened suggestion in one setting may sound like a firm judgement in another. Conversely, a direct statement of disagreement can be read as personal hostility if the relationship has not been established. No list of polite words can settle these cases automatically. The translator needs to ask who is speaking, to whom, for what purpose and through which medium. A sentence that works in a brief email may fail in a public announcement, where the audience cannot ask a follow-up question. Register involves social expectations, not only a scale from informal words to formal ones.",
+      "We read the final message aloud and asked a colleague to identify the decision and the proposed next action. She found both immediately. That small check did not prove the translation would suit every recipient, but it tested the function most likely to fail. We also compared it with the source to ensure that no promise had been added. The friend had offered to discuss another date, not guaranteed that the event would happen. Losing that distinction would have been more serious than changing the order of thanks. Fidelity sometimes requires protecting the strength of a commitment rather than preserving the surface shape of a sentence. Even if no word is mistranslated, a promise can accidentally become stronger in a different context.",
+      "The translated refusal was ultimately a little shorter and considerably easier to follow. I do not think this means one language is naturally clearer than another. The source had been written for a different set of expectations, and its reader would have understood conventions that the new audience did not share. Good translation notices those differences without turning them into stereotypes about entire cultures. Its aim is to give the recipient a fair opportunity to understand the sender’s action. In this case, that meant making a no visible, keeping a door open and avoiding an accidental yes."
+    ],
+    "translation": [
+      "朋友要译活动日期的婉拒，既不能接受又要保关系。原文长感谢后解释困难，直译英语繁且末行才明决定，全删感谢虽短却删关系。不是忠实长版与高效短版二选一。",
+      "先拆交际行动：认邀请、明不可、必要原因、下一步。看出每句用途，非每短语须同位等值。新版早讲拒，简感谢及另日期，顺序变意图不变。读者不需先解多信号，清楚也保礼貌。",
+      "难处在解释：原文说内部情况却无名，详扩等于编，含糊又似逃避。定中性团队该日不可用，虽不够朋友初想具体，却准确表达授权披露边界。翻译不能猜来修补所有空缺，有时须保限制及信息范围。",
+      "批评时尤其重要：一处软建议另一处似强判断，直接分歧又可能似敌意。礼貌词表不能自动解决；须问谁向谁、目的、媒介。简邮件合适未必公告合适，受众不能追问。语域是社会预期非词汇正式尺度。",
+      "朗读并请同事认决定和下一步，都立即识别。非证适所有人，但测易失功能。又对源看未添诺，朋友仅提议再议日期，非保证活动发生。丢此区分比调感谢序更严重，忠实有时是守承诺强度非表形。 即使没有词语误译，换语境后承诺仍可能意外变强。",
+      "最终略短更易懂，非一语言天然清楚。原文写给共享不同惯例的受众。好译见差异不贴整文化标签，给收件人公平理解机会：明确否、保协商门、避免意外是。"
+    ],
+    "vocabulary": [
+      "course-en-a1-4",
+      "supp-en-a1-9",
+      "supp-en-a1-11",
+      "supp-en-a1-13",
+      "complete-en-a1-like",
+      "complete-en-a1-good"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-c1-nominalisation",
+        "surface": "Translation"
+      },
+      {
+        "id": "grammar-en-c1-concession-even",
+        "surface": "Even if no word is mistranslated"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-c1-translation-register-q1",
+        "type": "main-idea",
+        "prompt": "What is the central criterion for a faithful translation here?",
+        "options": [
+          "Preserve the communicative action and strength of commitment for the new audience.",
+          "Keep every phrase in the original order.",
+          "Replace all polite expressions with direct commands."
+        ],
+        "answer": 0,
+        "explanation": "全文保护婉拒功能与承诺范围而非表面顺序。"
+      },
+      {
+        "id": "article-en-c1-translation-register-q2",
+        "type": "detail",
+        "prompt": "What change was made to the revised message?",
+        "options": [
+          "A guaranteed event was added.",
+          "All thanks were removed.",
+          "The refusal became visible earlier."
+        ],
+        "answer": 2,
+        "explanation": "第二段说明先拒、简谢、另日期。"
+      },
+      {
+        "id": "article-en-c1-translation-register-q3",
+        "type": "inference",
+        "prompt": "Why avoid expanding “internal circumstances”?",
+        "options": [
+          "English cannot describe internal matters.",
+          "The translator lacked authorised information for a detailed explanation.",
+          "The recipient already knew every private detail."
+        ],
+        "answer": 1,
+        "explanation": "第三段明确细节会编信息，授权是边界。"
+      },
+      {
+        "id": "article-en-c1-translation-register-q4",
+        "type": "author-intent",
+        "prompt": "Why test the message with a colleague?",
+        "options": [
+          "To check whether the decision and next step were readily understood.",
+          "To prove it would suit every possible recipient.",
+          "To rank entire cultures by politeness."
+        ],
+        "answer": 0,
+        "explanation": "第五段说明有限功能检查，不声称全面适配。"
+      },
+      {
+        "id": "article-en-c1-translation-register-q5",
+        "type": "vocabulary",
+        "prompt": "What does “avoiding an accidental yes” mean?",
+        "options": [
+          "Prevent the recipient from agreeing to any date.",
+          "Remove every affirmative word from the email.",
+          "Avoid wording that implies an unintended commitment."
+        ],
+        "answer": 2,
+        "explanation": "末句回应原提议非保证，防意外增强承诺。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  }
+]

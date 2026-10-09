@@ -83,7 +83,7 @@ begin
   where n.nspname='public' and c.relkind in ('r','p')) is distinct from expected_tables then
   raise exception 'Public table inventory differs from verified 003';end if;
  if to_regprocedure('public.claim_ai_request(uuid)') is not null then raise exception '004 RPC already exists; do not overwrite or repeat';end if;
- if (select count(*) from private.app_owner)<>1 or not exists(select 1 from private.app_owner where email='yzh72339@gmail.com') then
+ if (select count(*) from private.app_owner)<>1 or not exists(select 1 from private.app_owner where email='owner@example.com') then
   raise exception 'Private owner email differs from server configuration';end if;
  lock table auth.users in share row exclusive mode;
  lock table public.ai_conversations,public.ai_messages,public.ai_usage,public.articles,public.backups,public.client_id_map,public.courses,public.daily_plans,public.downloads,public.grammar,public.grammar_examples,public.grammar_relations,public.languages,public.legacy_ai_conversations,public.legacy_grammar,public.legacy_profiles,public.legacy_reviews,public.legacy_study_sessions,public.legacy_vocabulary,public.lessons,public.listening_episodes,public.listening_progress,public.mistakes,public.personal_notes,public.profiles,public.reading_progress,public.review_items,public.review_logs,public.saved_sentences,public.sentence_grammar,public.sentence_vocabulary,public.speaking_sessions,public.study_sessions,public.sync_batches,public.user_grammar_progress,public.user_languages,public.user_progress,public.users,public.vocabulary,public.vocabulary_collocations,public.vocabulary_examples,private.app_owner in share row exclusive mode;

@@ -16,7 +16,7 @@ create table public.user_progress(user_id uuid primary key references public.use
 create table public.ai_conversations(id uuid primary key default gen_random_uuid(), user_id uuid references public.users on delete cascade not null, role text not null check(role in ('user','assistant')), content text not null check(length(content)<=16000), created_at timestamptz not null default now());
 create table public.ai_usage(user_id uuid references public.users on delete cascade, bucket timestamptz not null, count int not null default 0, primary key(user_id,bucket));
 create or replace function public.create_user_profile() returns trigger language plpgsql security definer set search_path = '' as $$begin
-if lower(coalesce(new.email,''))<>'yzh72339@gmail.com' then
+if lower(coalesce(new.email,''))<>'owner@example.com' then
  raise exception 'Private application: registration is closed';
 end if;
 insert into public.users(id) values(new.id);

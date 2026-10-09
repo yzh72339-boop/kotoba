@@ -1,0 +1,110 @@
+{
+  "id": "article-en-c1-cool-room-study",
+  "kind": "reading",
+  "language": "en",
+  "level": "C1",
+  "difficulty": 4,
+  "tags": [
+    "mobile-cycle",
+    "科学"
+  ],
+  "title": "What a cooler room can—and cannot—prove",
+  "topic": "科学",
+  "genre": "academic-style",
+  "estimatedMinutes": 7,
+  "paragraphs": [
+    "A small design studio wanted to know whether a cooler office would help its staff concentrate. Its manager had heard an apparently persuasive claim: people make fewer mistakes when the temperature is reduced. Rather than treat that claim as settled fact, the studio arranged a two-week trial. During the first week, the usual temperature setting stayed in place. During the second, the setting was lowered. Staff completed a short questionnaire each afternoon and recorded how often they had to correct their work. No specialist equipment was purchased, and participation was voluntary.",
+    "The results initially looked encouraging. Fewer corrections were reported during the cooler week, and several people described feeling more alert. Having reviewed the figures, the team considered recommending a permanent change. Yet one colleague asked a question that the summary did not answer: had the workload been comparable? A difficult client deadline had fallen in the first week. The second had included several routine tasks. The same number of working hours did not necessarily mean the same demand on attention. Temperature was not the only thing that had changed.",
+    "There was also a problem with what counted as a mistake. Some staff recorded every spelling correction, including those caught immediately by software. Others counted only changes requested by a client. A person who checked a document carefully could therefore report more corrections than someone who failed to notice an error at all. The evidence was not worthless, but the measure did not have the stable meaning that the chart suggested. Before comparing totals, the studio needed a shared definition and a reason to believe that staff applied it consistently.",
+    "The questionnaire raised a different issue. Staff knew that the second week was intended to test cooler conditions. They might have paid more attention to how the room felt, or hoped that the trial would lead to a change they already wanted. This does not mean that their answers were dishonest. Expectations can shape sincere reports. Nor would hiding the purpose have solved every difficulty: people could feel the temperature, and a workplace experiment still needed to respect their comfort and consent. A perfect design was not available simply by writing better instructions.",
+    "The studio revised its plan instead of abandoning the question. Using the same definitions throughout, it would compare shorter periods spread across several weeks and record the type of work being done. Each person would note both comfort and concentration, rather than collapsing them into a single score. The team would also check whether the overall pattern concealed disagreement: a setting that suited most people might make a few people consistently uncomfortable. An average could help summarize responses, but it could not decide whose experience deserved consideration.",
+    "Even an improved trial would have limits. The studio was small, its staff mostly worked at desks, and the season affected how warm the building became. A result obtained there would not automatically apply to a crowded workshop or a school classroom. From that perspective, the useful outcome was a local decision with clearly stated uncertainty, not a universal rule about human attention. If the team changed the setting, it would explain why, review the decision later, and make individual adjustments where practical. Learning enough to act is different from proving a claim everywhere.",
+    "The most important change, then, was not a particular number on the thermostat. It was a change in the assumption that a neat comparison must provide a clean answer. The studio learned to ask what had been measured, what else had varied, and whose responses were missing. Those questions made the decision slower, but they also made it easier to explain and revise. A modest trial can support sensible action when its limitations travel with its results. Trouble begins when a useful observation is promoted into a certainty that the study never earned."
+  ],
+  "translation": [
+    "一家小设计工作室想知道，办公室凉一些是否有助于员工集中注意力。经理听说过一个看似有说服力的说法：降低温度能减少错误。工作室没有把它当作定论，而是安排了两周试验。第一周保持原温度，第二周调低。员工每天下午填写简短问卷，记录修改工作的次数。未购买专门设备，参与也是自愿的。",
+    "初步结果令人鼓舞：较凉的一周报告的修改更少，一些人说更清醒。审阅数字后，团队考虑建议永久调温。但一名同事问，工作量是否可比？第一周有难处理的客户截止任务，第二周多为日常任务。同样的工时不一定要求同样的注意力，变化的并不只有温度。",
+    "“错误”的定义也有问题。有些人记录所有拼写修改，包括软件即时发现的；有些人只算客户要求的改动。因此，仔细检查文档的人可能比没发现错误的人报告更多修改。这些证据并非毫无价值，但指标没有图表暗示的稳定含义。比较总数前，需要统一定义，并有理由相信员工一致地运用它。",
+    "问卷还有另一问题。员工知道第二周用于测试较凉环境，可能更注意室温，或希望试验促成自己本来就想要的改变。这不说明回答不诚实，预期也会影响真诚报告。隐瞒目的同样无法解决全部困难：人能感到温度，工作场所试验仍需尊重舒适与同意。仅靠更好的说明并不能得到完美设计。",
+    "工作室没有放弃问题，而是调整方案。它将始终使用相同定义，在几周中比较较短时段，并记录工作类型。每人分别记录舒适度和专注度，而非合成一个分数。团队也会检查总体模式是否掩盖分歧：多数人适应的温度可能持续令少数人不适。平均值有助于概括回答，却不能决定谁的感受值得考虑。",
+    "即使改进后的试验仍有限制。工作室小，员工多在办公桌前工作，季节也影响楼内温度。这里的结果不能自动适用于拥挤的车间或学校教室。从这个角度看，有用的结果是明确说明不确定性的本地决策，而非人类注意力的普遍规律。若调温，团队会解释原因、以后复核，并在可行时作个别调整。了解足够多以采取行动，不等于到处证明一个结论。",
+    "最重要的改变不是温控器上的数字，而是不再假定整齐的对比必能给出清楚答案。团队学会询问测量了什么、还有什么变化、缺了谁的回答。这些问题让决策变慢，却也更容易解释和修改。小规模试验的局限若与结果一起传达，也能支持合理行动。把有用观察升级成研究从未证成的确定结论，才会出问题。"
+  ],
+  "vocabulary": [
+    "course-en-b2-4",
+    "course-en-b2-2",
+    "en-perspective"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-c1-participle-clause-shared-subject",
+      "surface": "Having reviewed the figures"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-c1-cool-room-study-q1",
+      "type": "main-idea",
+      "prompt": "Which conclusion best captures the article?",
+      "options": [
+        "Workplace observations can inform local action if their limits remain explicit.",
+        "Temperature has no influence on attention in any workplace.",
+        "A two-week comparison always establishes a universal effect."
+      ],
+      "answer": 0,
+      "explanation": "作者不否定本地观察，而是强调指标、混杂变化、不同人群与适用范围的限制。"
+    },
+    {
+      "id": "article-en-c1-cool-room-study-q2",
+      "type": "detail",
+      "prompt": "Why might a careful employee report more corrections?",
+      "options": [
+        "The questionnaire required everyone to report more than ten.",
+        "Checking carefully can reveal errors that another employee misses.",
+        "The software only operated in the cooler week."
+      ],
+      "answer": 1,
+      "explanation": "第三段指出发现并改正更多错误不必意味着工作质量更差。"
+    },
+    {
+      "id": "article-en-c1-cool-room-study-q3",
+      "type": "inference",
+      "prompt": "Why record comfort separately from concentration?",
+      "options": [
+        "Comfort must always be ignored in workplace decisions.",
+        "Doing so removes every possible source of bias.",
+        "A single score can hide different experiences and trade-offs."
+      ],
+      "answer": 2,
+      "explanation": "第五段同时讨论拆分指标和平均值掩盖少数人的体验；作者未承诺消除全部偏差。"
+    },
+    {
+      "id": "article-en-c1-cool-room-study-q4",
+      "type": "grammar",
+      "prompt": "Who has reviewed the figures in “Having reviewed the figures, the team considered…”?",
+      "options": [
+        "The team",
+        "The figures",
+        "An unnamed client"
+      ],
+      "answer": 0,
+      "explanation": "分词从句的隐含主体与主句the team一致，having reviewed标明先于considered。"
+    },
+    {
+      "id": "article-en-c1-cool-room-study-q5",
+      "type": "author-intent",
+      "prompt": "What is the purpose of the final warning about certainty?",
+      "options": [
+        "To require specialist equipment for all decisions",
+        "To distinguish useful evidence from claims that exceed it",
+        "To show that all sincere reports are reliable"
+      ],
+      "answer": 1,
+      "explanation": "结尾允许依据有限证据采取行动，但反对把本地观察夸大成确定普遍规律。"
+    }
+  ],
+  "notes": [
+    "原创假设案例，用于练习证据评价；文中没有声称某个具体温度已被科学证明。",
+    "注意measure、result、claim和decision的不同含义：测量与决策有关，但不是同一件事。"
+  ]
+}

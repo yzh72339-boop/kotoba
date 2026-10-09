@@ -1,0 +1,452 @@
+[
+  {
+    "id": "article-en-a2-repair-ticket",
+    "kind": "reading",
+    "language": "en",
+    "level": "A2",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "工作"
+    ],
+    "title": "A bicycle and a plan",
+    "topic": "工作",
+    "genre": "story",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "Last Tuesday, I rode my bicycle to work. Near the station, the back wheel made a strange sound. I stopped at a repair shop. The worker looked at it and said he needed one day to fix it. I was disappointed because I wanted to ride home that evening. He gave me a small ticket with my name on it.",
+      "I walked to the office. It took longer than the bicycle ride, but I noticed a new bookshop on the way. At lunch, my friend said, “I will drive you home.” “Thanks, but I am going to take the bus,” I said. I wanted to check the bus route for days when I could not use my bicycle.",
+      "The next afternoon, the bicycle was ready. I put the repair ticket in a small box at home. The wheel was quiet again. Now I knew two ways to get to work. The problem cost me time, but it also helped me make a better plan for the next rainy day."
+    ],
+    "translation": [
+      "上周二我骑车上班，在车站附近后轮异响。我在维修店停下，店员说需要一天修好。我本想晚上骑回家，失望了。他给我写着名字的小凭条。",
+      "我走到办公室，比骑车久，却发现一家新书店。午间朋友愿开车送我回家，我感谢后表示打算坐公交，想了解不能骑车时的路线。",
+      "翌日午后车修好了。我把凭条存小盒，轮子不再响，也知道两种上班方式。故障费时间，却帮助为雨天作更好的安排。"
+    ],
+    "vocabulary": [
+      "course-en-a1-2",
+      "course-en-a1-3",
+      "course-en-a1-4",
+      "supp-en-a1-5",
+      "supp-en-a1-9",
+      "supp-en-a1-11"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-a2-past-simple",
+        "surface": "I stopped"
+      },
+      {
+        "id": "grammar-en-a2-going-to-plan",
+        "surface": "I am going to take"
+      },
+      {
+        "id": "grammar-en-a2-will-spontaneous",
+        "surface": "I will drive you home"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-a2-repair-ticket-q1",
+        "type": "detail",
+        "prompt": "What was wrong with the bicycle?",
+        "options": [
+          "The back wheel made a strange sound.",
+          "It had no seat.",
+          "The front light was too bright."
+        ],
+        "answer": 0,
+        "explanation": "第一段明确后轮异响。"
+      },
+      {
+        "id": "article-en-a2-repair-ticket-q2",
+        "type": "detail",
+        "prompt": "How long did the repair take?",
+        "options": [
+          "One week.",
+          "One hour.",
+          "One day."
+        ],
+        "answer": 2,
+        "explanation": "店员说一天，翌日下午取车。"
+      },
+      {
+        "id": "article-en-a2-repair-ticket-q3",
+        "type": "inference",
+        "prompt": "Why did the writer choose the bus?",
+        "options": [
+          "Because the bookshop sold tickets.",
+          "To learn another route to work.",
+          "To avoid the friend forever."
+        ],
+        "answer": 1,
+        "explanation": "第二段明确想为不能骑车时了解路线。"
+      },
+      {
+        "id": "article-en-a2-repair-ticket-q4",
+        "type": "grammar",
+        "prompt": "What does “I am going to take the bus” express?",
+        "options": [
+          "A chosen plan.",
+          "An action finished yesterday.",
+          "A rule for all workers."
+        ],
+        "answer": 0,
+        "explanation": "going to此处表达形成的选择。"
+      },
+      {
+        "id": "article-en-a2-repair-ticket-q5",
+        "type": "main-idea",
+        "prompt": "What did the problem help the writer do?",
+        "options": [
+          "Stop going to work.",
+          "Buy a more expensive bicycle.",
+          "Find a second way to travel."
+        ],
+        "answer": 2,
+        "explanation": "末段总结增加出行备选。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-en-a2-garden-water",
+    "kind": "reading",
+    "language": "en",
+    "level": "A2",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "环境"
+    ],
+    "title": "Enough water for the garden",
+    "topic": "环境",
+    "genre": "story",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "Our school garden is small, but many children enjoy it. Last month, the weather was hotter than usual. We had to carry water from the classroom every afternoon. One day, my friend Sam said, “We have a little water left in these bottles. Can we use it?” Our teacher agreed. We put the water in a large box.",
+      "We did not use every kind of water. The teacher told us not to put sweet drinks in the box. We also had to keep the box closed. There were a few plants that needed more water than the others. We put a small card next to each one so that the next group knew what to do.",
+      "By Friday, we were carrying fewer bottles from the classroom. We still checked the plants every day. Saving water did not mean forgetting the garden. It meant using what we had more carefully. Sam was happy, but he did not say that one box could solve every problem. He said we could start with our own small place.",
+      "This week, we are collecting unused water after class. Some children bring water from home; others have no bottles to share. Everyone can still help by checking the plants."
+    ],
+    "translation": [
+      "学校花园不大，但孩子喜欢。上月天气比平时热，每天下午须从教室提水。一天Sam问能否利用瓶中剩水，老师同意，大家把水集中在大箱。",
+      "并非什么水都用，老师说不能放甜饮料，也须盖箱。有几个植物需水更多，我们在旁放卡片，让下一组知道如何处理。",
+      "到周五从教室带瓶更少了，仍每日检查。节水非不管花园，而是更小心使用现有水。Sam高兴，但没说一个箱能解决所有问题，只说从自己的小地方开始。",
+      "这周我们正在课后收集未用完的水。有些孩子从家里带水，其他人没瓶可分享。但所有人仍可帮忙检查植物。"
+    ],
+    "vocabulary": [
+      "course-en-a1-4",
+      "course-en-a1-5",
+      "course-en-a1-7",
+      "course-en-a1-12",
+      "supp-en-a1-9",
+      "complete-en-a1-day"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-a2-a-few-a-little",
+        "surface": "a little water"
+      },
+      {
+        "id": "grammar-en-a2-must-have-to",
+        "surface": "had to keep"
+      },
+      {
+        "id": "grammar-en-a2-present-continuous",
+        "surface": "we are collecting"
+      },
+      {
+        "id": "grammar-en-a2-some-any",
+        "surface": "Some children"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-a2-garden-water-q1",
+        "type": "detail",
+        "prompt": "What made watering harder?",
+        "options": [
+          "A larger classroom.",
+          "Fewer children.",
+          "Hotter weather."
+        ],
+        "answer": 2,
+        "explanation": "首段说明更热，因此每日搬水。"
+      },
+      {
+        "id": "article-en-a2-garden-water-q2",
+        "type": "detail",
+        "prompt": "What could not go in the box?",
+        "options": [
+          "Clean water from the classroom.",
+          "Sweet drinks.",
+          "Water left in bottles."
+        ],
+        "answer": 1,
+        "explanation": "老师明确排除甜饮料。"
+      },
+      {
+        "id": "article-en-a2-garden-water-q3",
+        "type": "grammar",
+        "prompt": "Why is “a little” used before “water”?",
+        "options": [
+          "Water is uncountable here.",
+          "There is no water at all.",
+          "Water is a plural person."
+        ],
+        "answer": 0,
+        "explanation": "不可数water用a little，表示仍有少量。"
+      },
+      {
+        "id": "article-en-a2-garden-water-q4",
+        "type": "inference",
+        "prompt": "What do the cards help with?",
+        "options": [
+          "Making the plants grow without water.",
+          "Replacing all daily checks.",
+          "Sharing information with the next group."
+        ],
+        "answer": 2,
+        "explanation": "卡说明某些植物需水更多，便于交接。"
+      },
+      {
+        "id": "article-en-a2-garden-water-q5",
+        "type": "main-idea",
+        "prompt": "What is the lesson of the story?",
+        "options": [
+          "Plants do not need water on Friday.",
+          "Use local resources carefully and keep checking.",
+          "One box solves every environmental problem."
+        ],
+        "answer": 1,
+        "explanation": "末段限制主张范围，强调从小处做起并继续照护。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-en-a2-photo-choice",
+    "kind": "reading",
+    "language": "en",
+    "level": "A2",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "学校"
+    ],
+    "title": "Choosing a class photo",
+    "topic": "学校",
+    "genre": "story",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "Our class wanted a photo for the school website. We took three pictures on Monday. In the first picture, everyone was smiling, but the room was dark. In the second, the light was better, but two people were looking away. In the third, we were sitting around a table and working on a science project.",
+      "At first, we thought the first picture was the best because everyone looked happy. Our teacher asked what we wanted the photo to show. Mina said, “We want people to see how we learn together, not only how we smile.” We looked at the third picture again. One student was explaining something, and the others were listening.",
+      "We chose the third picture. Before sending it, the teacher checked that everyone was happy to use it online. We also wrote a short sentence about the project. The photo was not the brightest of the three, but it told the story that mattered to us. Choosing the best photo depended on choosing its purpose first."
+    ],
+    "translation": [
+      "班级想给学校网站选照片，周一拍三张。首张人人笑但暗；第二光好却两人没看镜头；第三围桌做科学项目。",
+      "起初觉得首张最好，因为大家开心。老师问照片想表达什么。Mina说要展示共同学习而非只是微笑。再看第三张，一人在说明，其他人听。",
+      "选第三张前，老师确认人人愿网上使用，又写项目短介绍。虽非最亮，却讲重要故事。最好取决于先确定用途。"
+    ],
+    "vocabulary": [
+      "course-en-a1-7",
+      "course-en-a1-12",
+      "supp-en-a1-8",
+      "complete-en-a1-room",
+      "complete-en-a1-want",
+      "lex-en-a2-learn"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-a2-superlatives",
+        "surface": "the best"
+      },
+      {
+        "id": "grammar-en-a2-past-continuous",
+        "surface": "was explaining"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-a2-photo-choice-q1",
+        "type": "detail",
+        "prompt": "What was wrong with the first picture?",
+        "options": [
+          "No one was smiling.",
+          "The room was dark.",
+          "Two people were absent."
+        ],
+        "answer": 1,
+        "explanation": "第一段明确暗，人人仍在笑。"
+      },
+      {
+        "id": "article-en-a2-photo-choice-q2",
+        "type": "detail",
+        "prompt": "What were students doing in the third photo?",
+        "options": [
+          "Working on a science project.",
+          "Waiting for a bus.",
+          "Eating lunch."
+        ],
+        "answer": 0,
+        "explanation": "第一段第三照片拍项目合作。"
+      },
+      {
+        "id": "article-en-a2-photo-choice-q3",
+        "type": "inference",
+        "prompt": "Why did they change their first choice?",
+        "options": [
+          "The first picture disappeared.",
+          "The school refused all smiling pictures.",
+          "They clarified what the photo should communicate."
+        ],
+        "answer": 2,
+        "explanation": "Mina的解释促使目的从微笑转向共同学习。"
+      },
+      {
+        "id": "article-en-a2-photo-choice-q4",
+        "type": "grammar",
+        "prompt": "What does “was explaining” describe?",
+        "options": [
+          "A permanent school rule.",
+          "An activity in progress in the scene.",
+          "A future promise."
+        ],
+        "answer": 1,
+        "explanation": "过去进行时呈现照片中当时活动。"
+      },
+      {
+        "id": "article-en-a2-photo-choice-q5",
+        "type": "author-intent",
+        "prompt": "Why mention permission to use the photo?",
+        "options": [
+          "To show that choosing content also involves people’s consent.",
+          "To say the picture was technically perfect.",
+          "To claim all photos must be dark."
+        ],
+        "answer": 0,
+        "explanation": "选好后仍确认每人同意，体现发布责任。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-en-a2-bus-help",
+    "kind": "reading",
+    "language": "en",
+    "level": "A2",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "社区"
+    ],
+    "title": "A small change at the bus stop",
+    "topic": "社区",
+    "genre": "story",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "I was waiting for the bus when an older man asked me about the timetable. The letters were small, and he could not read them easily. I told him that the next bus was coming in ten minutes. He thanked me, but I thought about people who came to the stop when nobody was there to help.",
+      "The next day, I wrote to the transport office. I did not ask them to change all the stops at once. I sent a photo of this timetable and explained the problem. Two weeks later, a worker came to check it. “We will put a larger version here,” she said. She also checked the height of the notice.",
+      "Now the notice is easier to read. It does not mean that every passenger has the same needs. Some people still need a voice message or someone to explain a route. But the change means fewer people must ask about the next bus. Helping one person that morning also showed me a problem that other people shared."
+    ],
+    "translation": [
+      "我等车时老人问时刻表，字体小、难读。我告诉他下班十分钟后到。他感谢了，我想到无人帮助时来到站的人。",
+      "翌日写运输办公室，不要求一次改全站，而发本处照片说明问题。两周后工作人员来查，说将换更大版本，也检查牌高度。",
+      "现在易读了，不意味所有乘客需求一样，有人仍需语音或解释路线。但问下班时间的人会少些。那早晨帮助一人，也让我发现共同问题。"
+    ],
+    "vocabulary": [
+      "supp-en-a1-4",
+      "supp-en-a1-9",
+      "supp-en-a1-13",
+      "lex-en-a1-person",
+      "complete-en-a1-day",
+      "complete-en-a1-help"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-a2-past-continuous",
+        "surface": "I was waiting"
+      },
+      {
+        "id": "grammar-en-a2-comparatives",
+        "surface": "easier to read"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-a2-bus-help-q1",
+        "type": "detail",
+        "prompt": "Why did the man ask for help?",
+        "options": [
+          "The timetable’s letters were small.",
+          "The bus had no driver.",
+          "He lost a school book."
+        ],
+        "answer": 0,
+        "explanation": "第一段明确小字难读。"
+      },
+      {
+        "id": "article-en-a2-bus-help-q2",
+        "type": "detail",
+        "prompt": "What did the writer send to the office?",
+        "options": [
+          "A new bus ticket.",
+          "Every passenger’s name.",
+          "A photo and an explanation."
+        ],
+        "answer": 2,
+        "explanation": "第二段说发照片说明。"
+      },
+      {
+        "id": "article-en-a2-bus-help-q3",
+        "type": "inference",
+        "prompt": "Why request a change at one stop first?",
+        "options": [
+          "The writer wanted fewer buses.",
+          "The request was concrete and limited.",
+          "Other stops had no passengers."
+        ],
+        "answer": 1,
+        "explanation": "作者给特定地点证据而非一次全改，范围明确。"
+      },
+      {
+        "id": "article-en-a2-bus-help-q4",
+        "type": "grammar",
+        "prompt": "What does “easier to read” compare?",
+        "options": [
+          "The new notice with the earlier one.",
+          "Two different buses’ prices.",
+          "The writer’s age with the man’s."
+        ],
+        "answer": 0,
+        "explanation": "现在通知较之前更易读。"
+      },
+      {
+        "id": "article-en-a2-bus-help-q5",
+        "type": "main-idea",
+        "prompt": "What does the writer learn?",
+        "options": [
+          "Large letters solve every passenger’s need.",
+          "No passenger should ask questions.",
+          "Individual help can reveal a shared design problem."
+        ],
+        "answer": 2,
+        "explanation": "末段既认可改进也保留其他需求，非全能解法。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  }
+]

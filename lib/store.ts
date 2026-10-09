@@ -1,3 +1,4 @@
+import {calendarDay,sessionDay,shiftDay} from './study-calendar';
 import type {Language,Word} from './content';
 import type {Review,Rating} from './srs';
 import type {DailySession} from './daily-session';
@@ -18,6 +19,6 @@ export const initialState:AppState={version:2,activeSession:null,profile:{name:'
 export const STORAGE_KEY='kotoba.v1';
 export function migrateState(value:unknown):AppState{if(!value||typeof value!=='object')return structuredClone(initialState);const p=value as Omit<Partial<AppState>,'version'>&{version:number};if(p.version!==1&&p.version!==2)return structuredClone(initialState);const state={...structuredClone(initialState),...p,version:2 as const,profile:{...initialState.profile,...p.profile},settings:{...initialState.settings,...p.settings},languageProfiles:{...initialState.languageProfiles,...p.languageProfiles}};if(p.version===1){state.languageProfiles[state.profile.language]={...state.languageProfiles[state.profile.language],level:state.profile.level,goal:state.profile.goal};state.conversations=(p.conversations??[]).map((m,i)=>({...m,id:m.id??`legacy-chat-${i}`,at:m.at??0,language:m.language??state.profile.language}));}return state;}
 export function loadState():AppState{try{return migrateState(JSON.parse(localStorage.getItem(STORAGE_KEY)||'null'))}catch{return structuredClone(initialState)}}
-export function today(){const d=new Date();return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;}
-export function minutesToday(s:AppState){return s.sessions.filter(x=>x.day===today()).reduce((sum,x)=>sum+x.minutes,0);}
-export function streak(s:AppState){const days=new Set(s.sessions.map(x=>x.day));let count=0;const d=new Date();if(!days.has(d.toLocaleDateString('en-CA')))d.setDate(d.getDate()-1);while(days.has(d.toLocaleDateString('en-CA'))){count++;d.setDate(d.getDate()-1);}return count;}
+export function today(timeZone?:string,now=Date.now()){return calendarDay(now,timeZone);}
+export function minutesToday(s:AppState,now=Date.now()){const day=today(s.profile.timezone,now);return s.sessions.filter(x=>sessionDay(x,s.profile.timezone)===day).reduce((sum,x)=>sum+x.minutes,0);}
+export function streak(s:AppState,now=Date.now()){const days=new Set(s.sessions.filter(x=>x.minutes>0||x.count>0).map(x=>sessionDay(x,s.profile.timezone)));let count=0;let day=today(s.profile.timezone,now);if(!days.has(day))day=shiftDay(day,-1);while(days.has(day)){count++;day=shiftDay(day,-1)}return count;}

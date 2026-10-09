@@ -1,10 +1,16 @@
 /* Build rewrites this version and app asset list. Private API responses are never cached. */
-const VERSION='kotoba-2.5.0-dev';
+const VERSION='kotoba-2.6.0-dev';
 const SHELL=VERSION+'-shell',CONTENT=VERSION+'-content',DOWNLOADS='kotoba-personal-downloads';
 const PRECACHE=['/','/manifest.webmanifest','/icons/icon-192.png','/icons/icon-512.png','/icons/maskable-512.png','/cafe-editorial.svg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(SHELL).then(cache=>cache.addAll(PRECACHE))));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('kotoba-')&&k!==SHELL&&k!==CONTENT&&k!==DOWNLOADS).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
-self.addEventListener('message',e=>{if(e.data?.type==='ACTIVATE_UPDATE')self.skipWaiting();if(e.data?.type==='SYNC_WHEN_ONLINE')self.clients.matchAll().then(clients=>clients.forEach(client=>client.postMessage({type:'SYNC_REQUESTED'})))});
+self.addEventListener('message',e=>{if(e.data?.type==='RECOVERY_UPDATE'){e.waitUntil((async()=>{
+ const source=e.source,port=e.ports?.[0];
+ if(!port||!source?.id||new URL(source.url).origin!==self.location.origin||new URL(source.url).pathname!=='/api/app-update.html')return;
+ const windows=await self.clients.matchAll({type:'window',includeUncontrolled:true});
+ if(windows.some(client=>client.id!==source.id&&new URL(client.url).origin===self.location.origin)){port.postMessage({status:'blocked'});return;}
+ port.postMessage({status:'activating',version:VERSION});await self.skipWaiting();
+})());return;}if(e.data?.type==='GET_APP_VERSION')e.ports?.[0]?.postMessage({version:VERSION});if(e.data?.type==='ACTIVATE_UPDATE')self.skipWaiting();if(e.data?.type==='SYNC_WHEN_ONLINE')self.clients.matchAll().then(clients=>clients.forEach(client=>client.postMessage({type:'SYNC_REQUESTED'})))});
 async function cacheFirst(request,cacheName){const cache=await caches.open(cacheName),hit=await cache.match(request);if(hit)return hit;const response=await fetch(request);if(response.ok)await cache.put(request,response.clone());return response;}
 async function staleWhileRevalidate(request){const cache=await caches.open(CONTENT),hit=await cache.match(request);const fresh=fetch(request).then(response=>{if(response.ok)void cache.put(request,response.clone());return response});if(hit){fresh.catch(()=>{});return hit}return fresh;}
 self.addEventListener('fetch',e=>{const request=e.request,url=new URL(request.url);if(request.method!=='GET'||url.origin!==self.location.origin)return;

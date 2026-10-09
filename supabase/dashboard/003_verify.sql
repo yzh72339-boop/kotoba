@@ -113,7 +113,7 @@ select jsonb_build_object(
  'installed_functions_unchanged',coalesce(md5((select jsonb_agg(to_jsonb(p) order by p.oid) from pg_catalog.pg_proc p
  where p.oid in (select to_regprocedure(s) from unnest(array['public.record_review(uuid,uuid,text,timestamptz,integer)','public.sync_personal_state(bigint,text,jsonb)','public.personal_progress(text)','private.resolve_id(uuid,text,text)','private.validate_review_target()','private.create_review_item()','private.create_grammar_review()','private.project_state(uuid,jsonb)']) s))::text)=
   (select substring(statements[4] from 'installed_functions_md5=([a-f0-9]{32})') from supabase_migrations.schema_migrations where version='003'),false),
- 'owner_configured',(select count(*)=1 and bool_and(email='yzh72339@gmail.com') from private.app_owner),
+ 'owner_configured',(select count(*)=1 and bool_and(email='owner@example.com') from private.app_owner),
  'owner_table_rls',(select relrowsecurity from pg_catalog.pg_class where oid='private.app_owner'::regclass),
  'browser_private_schema_access',has_schema_privilege('anon','private','USAGE') or has_schema_privilege('authenticated','private','USAGE'),
  'browser_owner_table_access',exists(select 1 from (values('anon'),('authenticated')) r(role_name)

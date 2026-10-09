@@ -13,7 +13,7 @@ const archiveState=z.object({
  saved:z.array(id),notes:z.record(text),completed:z.array(text),theme:z.enum(['light','dark']),
  sessions:z.array(z.object({id,day:z.string().regex(/^\d{4}-\d{2}-\d{2}$/),minutes:z.number().nonnegative(),type:text,count:z.number().int().nonnegative(),language:language.optional(),at:time.optional()})),
  conversations:z.array(z.object({id,role:z.enum(['user','assistant']),text,at:time,language})),
- dictionary:z.record(z.object({id,word:text,pronunciation:text,meaning:text,example:text,translation:text,tag:text,en:text.optional(),related:text.optional(),note:text.optional(),language,source:text,firstSeen:time,tags:z.array(text)})),
+ dictionary:z.record(z.object({id,word:text,pronunciation:text,meaning:text,example:text,translation:text,tag:text,en:text.optional(),related:text.optional(),note:text.optional(),pos:text.optional(),senses:z.array(text).max(100).optional(),collocations:z.array(text).max(100).optional(),synonyms:z.array(text).max(100).optional(),antonyms:z.array(text).max(100).optional(),topics:z.array(text).max(100).optional(),frequency:z.enum(['high','medium','low']).optional(),register:z.enum(['neutral','informal','formal','academic']).optional(),sourceRef:text.optional(),usageNote:text.optional(),language,source:text,firstSeen:time,tags:z.array(text)})),
  sentences:z.array(z.object({id,language,sentence:text,translation:text,source:text,date:time,notes:text,vocabulary:z.array(id),grammar:z.array(id)})),
  mistakes:z.array(z.object({id,language,area:text,pattern:text,original:text,correction:text,source:text,at:time,resolved:z.boolean()})),
  readingPositions:z.record(position),listeningPositions:z.record(position),

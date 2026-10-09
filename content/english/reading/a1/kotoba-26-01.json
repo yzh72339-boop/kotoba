@@ -1,0 +1,434 @@
+[
+  {
+    "id": "article-en-a1-neighbour-table",
+    "kind": "reading",
+    "language": "en",
+    "level": "A1",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "社区"
+    ],
+    "title": "A table outside",
+    "topic": "社区",
+    "genre": "story",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "There is a small table outside our house. My mother puts two chairs next to it. In the morning, our neighbour comes with a book. His name is Omar. He is new here and does not know many people. My mother gives him some water. They talk about the street.",
+      "I come home from school at four. Omar is at the table again. He can draw, and he shows me a picture of our house. I show him my school book. We do not talk for a long time, but tomorrow we can sit here again. A small table can be a good place to meet someone."
+    ],
+    "translation": [
+      "我们屋外有张小桌子。母亲在旁边放两把椅子。早晨邻居带书来。他叫奥马尔，是新搬来的，不认识很多人。母亲给他水，他们聊这条街。",
+      "我四点从学校回来，奥马尔又坐在桌边。他会画画，给我看画的房子。我给他看课本。我们聊得不久，但明天还能再坐这里。小桌子能成为认识人的地方。"
+    ],
+    "vocabulary": [
+      "course-en-a1-2",
+      "course-en-a1-3",
+      "course-en-a1-5",
+      "course-en-a1-6",
+      "course-en-a1-7",
+      "course-en-a1-9"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-a1-there-is-are",
+        "surface": "There is a small table"
+      },
+      {
+        "id": "grammar-en-a1-can-ability",
+        "surface": "He can draw"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-a1-neighbour-table-q1",
+        "type": "detail",
+        "prompt": "Where is the table?",
+        "options": [
+          "Outside the house.",
+          "Inside the school.",
+          "At the station."
+        ],
+        "answer": 0,
+        "explanation": "开头明确屋外。"
+      },
+      {
+        "id": "article-en-a1-neighbour-table-q2",
+        "type": "detail",
+        "prompt": "Who is Omar?",
+        "options": [
+          "The writer’s teacher.",
+          "The writer’s father.",
+          "A new neighbour."
+        ],
+        "answer": 2,
+        "explanation": "第一段介绍他是新邻居。"
+      },
+      {
+        "id": "article-en-a1-neighbour-table-q3",
+        "type": "detail",
+        "prompt": "What can Omar do?",
+        "options": [
+          "Sell chairs.",
+          "Draw.",
+          "Repair the school."
+        ],
+        "answer": 1,
+        "explanation": "第二段说He can draw。"
+      },
+      {
+        "id": "article-en-a1-neighbour-table-q4",
+        "type": "grammar",
+        "prompt": "What does “He can draw” tell us?",
+        "options": [
+          "His ability.",
+          "His address.",
+          "His plan for tomorrow."
+        ],
+        "answer": 0,
+        "explanation": "can此处说明技能。"
+      },
+      {
+        "id": "article-en-a1-neighbour-table-q5",
+        "type": "main-idea",
+        "prompt": "What does the table help people do?",
+        "options": [
+          "Finish school early.",
+          "Find the station.",
+          "Meet and talk."
+        ],
+        "answer": 2,
+        "explanation": "两次桌边交谈展示建立联系。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-en-a1-borrowed-umbrella",
+    "kind": "reading",
+    "language": "en",
+    "level": "A1",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "日常生活"
+    ],
+    "title": "The blue umbrella",
+    "topic": "日常生活",
+    "genre": "story",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "It is raining today. I have a coat, but I do not have an umbrella. My friend Ana has two umbrellas. One is blue and one is red. She says, “Take the blue one.” We walk to the bus stop together. There are three people there. We wait for ten minutes.",
+      "The bus comes, and Ana goes to work. I go to school. After class, I put her umbrella next to my bag. I do not want to forget it. Tomorrow I can give it back to her at the same bus stop. The umbrella is not new, but it keeps my books dry."
+    ],
+    "translation": [
+      "今天下雨。我有外套但没伞。朋友安娜有两把，一蓝一红。她让我拿蓝伞，我们一起步行到公交站，那里有三人，等了十分钟。",
+      "公交来了，安娜去工作，我去学校。课后我把她的伞放包旁，不想忘记。明天可在同一公交站还她。伞不新，却让书保持干燥。"
+    ],
+    "vocabulary": [
+      "course-en-a1-4",
+      "course-en-a1-7",
+      "course-en-a1-8",
+      "course-en-a1-9",
+      "course-en-a1-11",
+      "supp-en-a1-11"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-a1-have-possession",
+        "surface": "Ana has two umbrellas"
+      },
+      {
+        "id": "grammar-en-a1-indefinite-article",
+        "surface": "an umbrella"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-a1-borrowed-umbrella-q1",
+        "type": "detail",
+        "prompt": "Why does the writer need an umbrella?",
+        "options": [
+          "It is very hot.",
+          "Ana wants a new bag.",
+          "It is raining."
+        ],
+        "answer": 2,
+        "explanation": "开头说明下雨而作者没伞。"
+      },
+      {
+        "id": "article-en-a1-borrowed-umbrella-q2",
+        "type": "detail",
+        "prompt": "Which umbrella does the writer take?",
+        "options": [
+          "A new green one.",
+          "The blue one.",
+          "The red one."
+        ],
+        "answer": 1,
+        "explanation": "Ana说Take the blue one。"
+      },
+      {
+        "id": "article-en-a1-borrowed-umbrella-q3",
+        "type": "detail",
+        "prompt": "Where does Ana go?",
+        "options": [
+          "To work.",
+          "To the writer’s school.",
+          "To a bookshop."
+        ],
+        "answer": 0,
+        "explanation": "第二段明确工作。"
+      },
+      {
+        "id": "article-en-a1-borrowed-umbrella-q4",
+        "type": "inference",
+        "prompt": "Why is the umbrella next to the bag?",
+        "options": [
+          "To give it to the teacher.",
+          "To hide it from Ana.",
+          "To help the writer remember it."
+        ],
+        "answer": 2,
+        "explanation": "作者紧接着说明不想忘记。"
+      },
+      {
+        "id": "article-en-a1-borrowed-umbrella-q5",
+        "type": "main-idea",
+        "prompt": "What is the story about?",
+        "options": [
+          "Missing school because of rain.",
+          "Borrowing and returning something useful.",
+          "Buying two new umbrellas."
+        ],
+        "answer": 1,
+        "explanation": "伞帮助上学，并计划归还。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-en-a1-school-labels",
+    "kind": "reading",
+    "language": "en",
+    "level": "A1",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "学校"
+    ],
+    "title": "Labels for the class",
+    "topic": "学校",
+    "genre": "practical",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "Our classroom has a table near the door. Today we put our things on it: books, bags and water bottles. Two bags are black. They look the same. Mina takes my bag, but her book is not inside it. “This is not my book,” she says. We look at the bags together.",
+      "Our teacher gives us small cards. We write our names on them and put them on our bags. Now Mina can find her bag quickly. My card is blue. Her card is white. We do not need new bags. We just need a clear name on each one. Tomorrow we can make cards for our books too."
+    ],
+    "translation": [
+      "教室门边有张桌。今天把书、包和水瓶放上去。两个黑包很像。米娜拿了我的包，却发现里边不是她的书。我们一起查看。",
+      "老师给小卡片，写上名字挂包。现在米娜很快找到自己的包。我的卡蓝，她的白。不需换包，只需每个上有清楚的名字。明天还能给书做卡。"
+    ],
+    "vocabulary": [
+      "course-en-a1-2",
+      "course-en-a1-5",
+      "course-en-a1-6",
+      "course-en-a1-8",
+      "course-en-a1-9",
+      "supp-en-a1-8"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-a1-possessive-determiners",
+        "surface": "her book"
+      },
+      {
+        "id": "grammar-en-a1-demonstratives",
+        "surface": "This is not my book"
+      },
+      {
+        "id": "grammar-en-a1-be-identity",
+        "surface": "Two bags are black"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-a1-school-labels-q1",
+        "type": "detail",
+        "prompt": "Why do the children mix up the bags?",
+        "options": [
+          "There are no books.",
+          "Two bags look the same.",
+          "All cards are blue."
+        ],
+        "answer": 1,
+        "explanation": "首段两黑包很像。"
+      },
+      {
+        "id": "article-en-a1-school-labels-q2",
+        "type": "detail",
+        "prompt": "Who gives them cards?",
+        "options": [
+          "Their teacher.",
+          "Mina’s mother.",
+          "A shop worker."
+        ],
+        "answer": 0,
+        "explanation": "第二段开头明确老师。"
+      },
+      {
+        "id": "article-en-a1-school-labels-q3",
+        "type": "detail",
+        "prompt": "What colour is Mina’s card?",
+        "options": [
+          "Blue.",
+          "Black.",
+          "White."
+        ],
+        "answer": 2,
+        "explanation": "Her card指Mina的卡，是白色。"
+      },
+      {
+        "id": "article-en-a1-school-labels-q4",
+        "type": "grammar",
+        "prompt": "Whose book does “her book” refer to?",
+        "options": [
+          "The writer’s book.",
+          "Mina’s book.",
+          "The teacher’s book."
+        ],
+        "answer": 1,
+        "explanation": "上句Mina拿错包，her指Mina。"
+      },
+      {
+        "id": "article-en-a1-school-labels-q5",
+        "type": "main-idea",
+        "prompt": "How do they solve the problem?",
+        "options": [
+          "They put names on their bags.",
+          "They buy new black bags.",
+          "They leave all books at home."
+        ],
+        "answer": 0,
+        "explanation": "第二段说明用名字标签识别。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-en-a1-weekend-call",
+    "kind": "reading",
+    "language": "en",
+    "level": "A1",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "家庭"
+    ],
+    "title": "A call from home",
+    "topic": "家庭",
+    "genre": "story",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "I live in a small room near my school. My family lives in another town. On Sunday morning, I call my father. “Where do you eat?” he asks. I tell him about a shop near my room. The food is good, but I like our food at home too. My mother joins the call.",
+      "She shows me a new plant on the kitchen table. It has three big leaves. We talk about my classes and their work. We cannot be in the same room today, but we can share a little of our day. After the call, I send them a picture of my desk. There is a photo of our family on it."
+    ],
+    "translation": [
+      "我住学校附近的小房间，家人在另一镇。周日早晨给父亲打电话，他问在哪里吃饭。我介绍附近饭店，饭菜不错，也喜欢家里的菜。母亲加入通话。",
+      "母亲展示厨房桌上的新植物，有三片大叶。我们谈课程和工作。今天不能同处一室，但能分享生活。结束后我发去书桌照，上面有家人合影。"
+    ],
+    "vocabulary": [
+      "course-en-a1-3",
+      "course-en-a1-7",
+      "course-en-a1-8",
+      "course-en-a1-10",
+      "supp-en-a1-1",
+      "supp-en-a1-2"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-a1-wh-do-questions",
+        "surface": "Where do you eat"
+      },
+      {
+        "id": "grammar-en-a1-plural-nouns",
+        "surface": "three big leaves"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-a1-weekend-call-q1",
+        "type": "detail",
+        "prompt": "When does the writer call home?",
+        "options": [
+          "On Sunday morning.",
+          "Every Monday night.",
+          "On Friday afternoon."
+        ],
+        "answer": 0,
+        "explanation": "首段明确周日早晨。"
+      },
+      {
+        "id": "article-en-a1-weekend-call-q2",
+        "type": "detail",
+        "prompt": "What does the mother show?",
+        "options": [
+          "A school book.",
+          "A train ticket.",
+          "A new plant."
+        ],
+        "answer": 2,
+        "explanation": "第二段是厨房桌上植物。"
+      },
+      {
+        "id": "article-en-a1-weekend-call-q3",
+        "type": "detail",
+        "prompt": "Where is the family photo?",
+        "options": [
+          "On the classroom door.",
+          "On the writer’s desk.",
+          "In the food shop."
+        ],
+        "answer": 1,
+        "explanation": "末句指发给家人的书桌照片。"
+      },
+      {
+        "id": "article-en-a1-weekend-call-q4",
+        "type": "inference",
+        "prompt": "Why do they call?",
+        "options": [
+          "To share their lives while apart.",
+          "To choose a new school.",
+          "To buy the same plant."
+        ],
+        "answer": 0,
+        "explanation": "分别谈学习和工作，说明保持联系。"
+      },
+      {
+        "id": "article-en-a1-weekend-call-q5",
+        "type": "main-idea",
+        "prompt": "What is the story’s focus?",
+        "options": [
+          "Learning to cook in a shop.",
+          "Moving to a larger room.",
+          "Keeping in touch with family."
+        ],
+        "answer": 2,
+        "explanation": "通话与照片让异地家人分享日常。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  }
+]

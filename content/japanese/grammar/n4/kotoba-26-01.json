@@ -1,0 +1,1146 @@
+[
+  {
+    "id": "grammar-ja-n4-ta-koto-ga-aru",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "Vた + ことがある：曾经有过某种经历",
+    "pattern": "Vた + ことがある",
+    "meaningZh": "曾经有过某种经历",
+    "meaningEn": "Past experience",
+    "explanation": "动词た形加ことがある表示此前做过某事的经历，不说明具体一次的日期。若直接说昨日或某年发生的单次事件，通常用过去式。否定为ことがない；问句常用于了解对方经验。",
+    "usage": "谈过去的经历",
+    "nuance": "先有经历的意义，才自然谈次数；今朝食べた描述今天早上发生的事。",
+    "structure": [
+      "Vた + ことがある"
+    ],
+    "formation": [
+      "Vた + ことがある"
+    ],
+    "examples": [
+      {
+        "target": "京都へ行ったことがあります。",
+        "reading": "きょうとへいったことがあります。",
+        "zh": "我去过京都。"
+      },
+      {
+        "target": "一人で旅行したことがあります。",
+        "reading": "ひとりでりょこうしたことがあります。",
+        "zh": "我独自旅行过。"
+      },
+      {
+        "target": "この店で食べたことがありません。",
+        "reading": "このみせでたべたことがありません。",
+        "zh": "我没在这家店吃过饭。"
+      },
+      {
+        "target": "富士山を見たことがあります。",
+        "reading": "ふじさんをみたことがあります。",
+        "zh": "我见过富士山。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在谈过去的经历中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "京都へ行くことがあります。（想表达过去经历）",
+        "correct": "京都へ行ったことがあります。",
+        "explanation": "辞书形ことがある表示有时会做，不等于过去做过。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n4-ta-koto-ga-aru-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n京都へ行ったことがあります。",
+        "options": [
+          "我去过京都。",
+          "我独自旅行过。",
+          "我没在这家店吃过饭。"
+        ],
+        "acceptedAnswers": [
+          "我去过京都。"
+        ],
+        "explanation": "京都へ行ったことがあります。：我去过京都。 动词た形加ことがある表示此前做过某事的经历，不说明具体一次的日期。若直接说昨日或某年发生的单次事件，通常用过去式。否定为ことがない；问句常用于了解对方经验。"
+      },
+      {
+        "id": "grammar-ja-n4-ta-koto-ga-aru-fill",
+        "kind": "fill",
+        "prompt": "京都へ（　）ことがあります。",
+        "options": [
+          "行く",
+          "行き",
+          "行った"
+        ],
+        "acceptedAnswers": [
+          "行った"
+        ],
+        "explanation": "经历表达使用た形。"
+      },
+      {
+        "id": "grammar-ja-n4-ta-koto-ga-aru-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n辞书形ことがある表示有时会做，不等于过去做过。",
+        "options": [
+          "京都へ行くことがあります。（想表达过去经历）",
+          "京都へ行ったことがあります。"
+        ],
+        "acceptedAnswers": [
+          "京都へ行ったことがあります。"
+        ],
+        "explanation": "辞书形ことがある表示有时会做，不等于过去做过。"
+      },
+      {
+        "id": "grammar-ja-n4-ta-koto-ga-aru-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我见过富士山。",
+        "acceptedAnswers": [
+          "富士山を見たことがあります。"
+        ],
+        "explanation": "富士山を見たことがあります。 先有经历的意义，才自然谈次数；今朝食べた描述今天早上发生的事。"
+      },
+      {
+        "id": "grammar-ja-n4-ta-koto-ga-aru-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nこの店で食べたことがありません。",
+        "options": [
+          "我独自旅行过。",
+          "我没在这家店吃过饭。",
+          "我去过京都。"
+        ],
+        "acceptedAnswers": [
+          "我没在这家店吃过饭。"
+        ],
+        "explanation": "原句对应“我没在这家店吃过饭。”。先有经历的意义，才自然谈次数；今朝食べた描述今天早上发生的事。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n4-te-miru",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "Vて + みる：试着做某事",
+    "pattern": "Vて + みる",
+    "meaningZh": "试着做某事",
+    "meaningEn": "Try an action",
+    "explanation": "てみる表示通过实际行动试一下，了解结果或感受。不是单纯的“看”，也不表示一定成功。礼貌形式为てみます，建议为てみませんか。与努力争取完成的ようとする相比，更强调尝试后的体验。",
+    "usage": "尝试新办法或体验",
+    "nuance": "見る本来是看，但这里みる作为补助动词通常写平假名。",
+    "structure": [
+      "Vて + みる"
+    ],
+    "formation": [
+      "Vて + みる"
+    ],
+    "examples": [
+      {
+        "target": "この靴を履いてみます。",
+        "reading": "このくつをはいてみます。",
+        "zh": "我试穿这双鞋。"
+      },
+      {
+        "target": "先生に聞いてみます。",
+        "reading": "せんせいにきいてみます。",
+        "zh": "我试着问问老师。"
+      },
+      {
+        "target": "別の道を歩いてみました。",
+        "reading": "べつのみちをあるいてみました。",
+        "zh": "我试着走了另一条路。"
+      },
+      {
+        "target": "日本語で手紙を書いてみます。",
+        "reading": "にほんごでてがみをかいてみます。",
+        "zh": "我试着用日语写信。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在尝试新办法或体验中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "この靴を履くみます。",
+        "correct": "この靴を履いてみます。",
+        "explanation": "补助动词みる前须接て形。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n4-te-miru-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nこの靴を履いてみます。",
+        "options": [
+          "我试着走了另一条路。",
+          "我试穿这双鞋。",
+          "我试着问问老师。"
+        ],
+        "acceptedAnswers": [
+          "我试穿这双鞋。"
+        ],
+        "explanation": "この靴を履いてみます。：我试穿这双鞋。 てみる表示通过实际行动试一下，了解结果或感受。不是单纯的“看”，也不表示一定成功。礼貌形式为てみます，建议为てみませんか。与努力争取完成的ようとする相比，更强调尝试后的体验。"
+      },
+      {
+        "id": "grammar-ja-n4-te-miru-fill",
+        "kind": "fill",
+        "prompt": "先生に（　）みます。",
+        "options": [
+          "聞き",
+          "聞いて",
+          "聞く"
+        ],
+        "acceptedAnswers": [
+          "聞いて"
+        ],
+        "explanation": "聞く的て形为聞いて。"
+      },
+      {
+        "id": "grammar-ja-n4-te-miru-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n补助动词みる前须接て形。",
+        "options": [
+          "この靴を履いてみます。",
+          "この靴を履くみます。"
+        ],
+        "acceptedAnswers": [
+          "この靴を履いてみます。"
+        ],
+        "explanation": "补助动词みる前须接て形。"
+      },
+      {
+        "id": "grammar-ja-n4-te-miru-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我试着用日语写信。",
+        "acceptedAnswers": [
+          "日本語で手紙を書いてみます。"
+        ],
+        "explanation": "日本語で手紙を書いてみます。 見る本来是看，但这里みる作为补助动词通常写平假名。"
+      },
+      {
+        "id": "grammar-ja-n4-te-miru-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n別の道を歩いてみました。",
+        "options": [
+          "我试着走了另一条路。",
+          "我试穿这双鞋。",
+          "我试着问问老师。"
+        ],
+        "acceptedAnswers": [
+          "我试着走了另一条路。"
+        ],
+        "explanation": "原句对应“我试着走了另一条路。”。見る本来是看，但这里みる作为补助动词通常写平假名。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n4-te-oku",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "Vて + おく：预先做好或保持状态",
+    "pattern": "Vて + おく",
+    "meaningZh": "预先做好或保持状态",
+    "meaningEn": "Preparation or leaving a state",
+    "explanation": "ておく表示为后续需要预先做准备，也能表示暂时保持某状态。判断“先做”时要看将来的目的，不是任何先发生的动作都用这个结构。口语中ておく常缩为とく，正式书面练习保留完整形式。",
+    "usage": "为之后的活动做准备",
+    "nuance": "窓を開けておく可指把窗保持开着。",
+    "structure": [
+      "Vて + おく"
+    ],
+    "formation": [
+      "Vて + おく"
+    ],
+    "examples": [
+      {
+        "target": "切符を買っておきます。",
+        "reading": "きっぷをかっておきます。",
+        "zh": "我先买好票。"
+      },
+      {
+        "target": "会議の前に資料を読んでおきます。",
+        "reading": "かいぎのまえにしりょうをよんでおきます。",
+        "zh": "我会在开会前预先读好资料。"
+      },
+      {
+        "target": "明日の服を用意しておきました。",
+        "reading": "あしたのふくをよういしておきました。",
+        "zh": "我提前准备好了明天的衣服。"
+      },
+      {
+        "target": "窓を開けておきます。",
+        "reading": "まどをあけておきます。",
+        "zh": "我把窗户先保持开着。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在为之后的活动做准备中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "資料を読むおきます。",
+        "correct": "資料を読んでおきます。",
+        "explanation": "読む的て形是読んで。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n4-te-oku-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n切符を買っておきます。",
+        "options": [
+          "我会在开会前预先读好资料。",
+          "我提前准备好了明天的衣服。",
+          "我先买好票。"
+        ],
+        "acceptedAnswers": [
+          "我先买好票。"
+        ],
+        "explanation": "切符を買っておきます。：我先买好票。 ておく表示为后续需要预先做准备，也能表示暂时保持某状态。判断“先做”时要看将来的目的，不是任何先发生的动作都用这个结构。口语中ておく常缩为とく，正式书面练习保留完整形式。"
+      },
+      {
+        "id": "grammar-ja-n4-te-oku-fill",
+        "kind": "fill",
+        "prompt": "明日のために、切符を（　）おきます。",
+        "options": [
+          "買って",
+          "買う",
+          "買った"
+        ],
+        "acceptedAnswers": [
+          "買って"
+        ],
+        "explanation": "为明天准备票，买票动作接て形。"
+      },
+      {
+        "id": "grammar-ja-n4-te-oku-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n読む的て形是読んで。",
+        "options": [
+          "資料を読むおきます。",
+          "資料を読んでおきます。"
+        ],
+        "acceptedAnswers": [
+          "資料を読んでおきます。"
+        ],
+        "explanation": "読む的て形是読んで。"
+      },
+      {
+        "id": "grammar-ja-n4-te-oku-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我把窗户先保持开着。",
+        "acceptedAnswers": [
+          "窓を開けておきます。"
+        ],
+        "explanation": "窓を開けておきます。 窓を開けておく可指把窗保持开着。"
+      },
+      {
+        "id": "grammar-ja-n4-te-oku-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n明日の服を用意しておきました。",
+        "options": [
+          "我先买好票。",
+          "我会在开会前预先读好资料。",
+          "我提前准备好了明天的衣服。"
+        ],
+        "acceptedAnswers": [
+          "我提前准备好了明天的衣服。"
+        ],
+        "explanation": "原句对应“我提前准备好了明天的衣服。”。窓を開けておく可指把窗保持开着。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n4-te-shimau",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "Vて + しまう：做完；不由得或遗憾地做了",
+    "pattern": "Vて + しまう",
+    "meaningZh": "做完；不由得或遗憾地做了",
+    "meaningEn": "Completion or regret",
+    "explanation": "てしまう既能强调动作完全结束，也能表达不希望的结果。具体是哪种意义要看上下文，不能所有句子都译成不小心。口语ちゃう和じゃう是缩略形式，读书时先识别完整てしまう再识别缩略。",
+    "usage": "描述完成或遗憾的结果",
+    "nuance": "宿題を全部してしまう突出做完；財布を忘れてしまう通常带遗憾。",
+    "structure": [
+      "Vて + しまう"
+    ],
+    "formation": [
+      "Vて + しまう"
+    ],
+    "examples": [
+      {
+        "target": "宿題を全部してしまいました。",
+        "reading": "しゅくだいをぜんぶしてしまいました。",
+        "zh": "我把作业全部做完了。"
+      },
+      {
+        "target": "財布を忘れてしまいました。",
+        "reading": "さいふをわすれてしまいました。",
+        "zh": "我竟忘带钱包了。"
+      },
+      {
+        "target": "ケーキを全部食べてしまいました。",
+        "reading": "けーきをぜんぶたべてしまいました。",
+        "zh": "我把蛋糕全部吃完了。"
+      },
+      {
+        "target": "電車で寝てしまいました。",
+        "reading": "でんしゃでねてしまいました。",
+        "zh": "我在电车上睡着了。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在描述完成或遗憾的结果中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "財布を忘れるしまいました。",
+        "correct": "財布を忘れてしまいました。",
+        "explanation": "しまう接て形，表示这个结果带来的遗憾。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n4-te-shimau-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n宿題を全部してしまいました。",
+        "options": [
+          "我把作业全部做完了。",
+          "我竟忘带钱包了。",
+          "我把蛋糕全部吃完了。"
+        ],
+        "acceptedAnswers": [
+          "我把作业全部做完了。"
+        ],
+        "explanation": "宿題を全部してしまいました。：我把作业全部做完了。 てしまう既能强调动作完全结束，也能表达不希望的结果。具体是哪种意义要看上下文，不能所有句子都译成不小心。口语ちゃう和じゃう是缩略形式，读书时先识别完整てしまう再识别缩略。"
+      },
+      {
+        "id": "grammar-ja-n4-te-shimau-fill",
+        "kind": "fill",
+        "prompt": "財布を（　）しまいました。",
+        "options": [
+          "忘れる",
+          "忘れた",
+          "忘れて"
+        ],
+        "acceptedAnswers": [
+          "忘れて"
+        ],
+        "explanation": "忘れる的て形是忘れて。"
+      },
+      {
+        "id": "grammar-ja-n4-te-shimau-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nしまう接て形，表示这个结果带来的遗憾。",
+        "options": [
+          "財布を忘れてしまいました。",
+          "財布を忘れるしまいました。"
+        ],
+        "acceptedAnswers": [
+          "財布を忘れてしまいました。"
+        ],
+        "explanation": "しまう接て形，表示这个结果带来的遗憾。"
+      },
+      {
+        "id": "grammar-ja-n4-te-shimau-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我在电车上睡着了。",
+        "acceptedAnswers": [
+          "電車で寝てしまいました。"
+        ],
+        "explanation": "電車で寝てしまいました。 宿題を全部してしまう突出做完；財布を忘れてしまう通常带遗憾。"
+      },
+      {
+        "id": "grammar-ja-n4-te-shimau-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nケーキを全部食べてしまいました。",
+        "options": [
+          "我竟忘带钱包了。",
+          "我把蛋糕全部吃完了。",
+          "我把作业全部做完了。"
+        ],
+        "acceptedAnswers": [
+          "我把蛋糕全部吃完了。"
+        ],
+        "explanation": "原句对应“我把蛋糕全部吃完了。”。宿題を全部してしまう突出做完；財布を忘れてしまう通常带遗憾。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n4-sou-appearance",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "词干 + そうだ（样态）：看起来似乎如此",
+    "pattern": "词干 + そうだ（样态）",
+    "meaningZh": "看起来似乎如此",
+    "meaningEn": "Appearance from observable signs",
+    "explanation": "样态そうだ依据眼前迹象作判断。い形容词去い，な形容词去な后接そう，动词接ます词干。它不是传闻そうだ：おいしそう描述外观，おいしいそうだ转述消息。いい变よさそう，ない变なさそう。",
+    "usage": "根据外观和迹象判断",
+    "nuance": "食べた后确知好吃用おいしい；观察外观用おいしそう。",
+    "structure": [
+      "おいしい → おいしそう；降ります → 降りそう"
+    ],
+    "formation": [
+      "おいしい → おいしそう；降ります → 降りそう"
+    ],
+    "examples": [
+      {
+        "target": "このスープはおいしそうです。",
+        "reading": "このすーぷはおいしそうです。",
+        "zh": "这汤看起来很好喝。"
+      },
+      {
+        "target": "もうすぐ雨が降りそうです。",
+        "reading": "もうすぐあめがふりそうです。",
+        "zh": "看起来快要下雨了。"
+      },
+      {
+        "target": "この椅子は丈夫そうです。",
+        "reading": "このいすはじょうぶそうです。",
+        "zh": "这椅子看起来很结实。"
+      },
+      {
+        "target": "今日は忙しそうですね。",
+        "reading": "きょうはいそがしそうですね。",
+        "zh": "你今天看起来很忙啊。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在根据外观和迹象判断中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "このスープはおいしいそうです。（只根据外观）",
+        "correct": "このスープはおいしそうです。",
+        "explanation": "おいしいそう是传闻，外观判断去い。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-masu-stem"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n4-sou-appearance-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nこのスープはおいしそうです。",
+        "options": [
+          "这椅子看起来很结实。",
+          "这汤看起来很好喝。",
+          "看起来快要下雨了。"
+        ],
+        "acceptedAnswers": [
+          "这汤看起来很好喝。"
+        ],
+        "explanation": "このスープはおいしそうです。：这汤看起来很好喝。 样态そうだ依据眼前迹象作判断。い形容词去い，な形容词去な后接そう，动词接ます词干。它不是传闻そうだ：おいしそう描述外观，おいしいそうだ转述消息。いい变よさそう，ない变なさそう。"
+      },
+      {
+        "id": "grammar-ja-n4-sou-appearance-fill",
+        "kind": "fill",
+        "prompt": "外观看上去好吃：おいし（　）です。",
+        "options": [
+          "くそう",
+          "そう",
+          "いそう"
+        ],
+        "acceptedAnswers": [
+          "そう"
+        ],
+        "explanation": "样态そう去掉い，不是传闻的完整形。"
+      },
+      {
+        "id": "grammar-ja-n4-sou-appearance-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nおいしいそう是传闻，外观判断去い。",
+        "options": [
+          "このスープはおいしいそうです。（只根据外观）",
+          "このスープはおいしそうです。"
+        ],
+        "acceptedAnswers": [
+          "このスープはおいしそうです。"
+        ],
+        "explanation": "おいしいそう是传闻，外观判断去い。"
+      },
+      {
+        "id": "grammar-ja-n4-sou-appearance-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n你今天看起来很忙啊。",
+        "acceptedAnswers": [
+          "今日は忙しそうですね。"
+        ],
+        "explanation": "今日は忙しそうですね。 食べた后确知好吃用おいしい；观察外观用おいしそう。"
+      },
+      {
+        "id": "grammar-ja-n4-sou-appearance-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nこの椅子は丈夫そうです。",
+        "options": [
+          "这椅子看起来很结实。",
+          "这汤看起来很好喝。",
+          "看起来快要下雨了。"
+        ],
+        "acceptedAnswers": [
+          "这椅子看起来很结实。"
+        ],
+        "explanation": "原句对应“这椅子看起来很结实。”。食べた后确知好吃用おいしい；观察外观用おいしそう。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n4-tsumori",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "V辞书形／Vない + つもりだ：打算做或不做",
+    "pattern": "V辞书形／Vない + つもりだ",
+    "meaningZh": "打算做或不做",
+    "meaningEn": "An intention",
+    "explanation": "つもりだ接辞书形或ない形，表达已有的个人打算。它比临时的たい更接近计划，但不保证实施。注意Vないつもり和Vるつもりはない：前者打算不做，后者否定做这件事的意图。",
+    "usage": "说明已形成的打算",
+    "nuance": "正式安排可用予定，つもり强调当事人的意向。",
+    "structure": [
+      "V辞书形 / Vない + つもりだ"
+    ],
+    "formation": [
+      "V辞书形 / Vない + つもりだ"
+    ],
+    "examples": [
+      {
+        "target": "来年、日本へ行くつもりです。",
+        "reading": "らいねん、にほんへいくつもりです。",
+        "zh": "我打算明年去日本。"
+      },
+      {
+        "target": "今日はお酒を飲まないつもりです。",
+        "reading": "きょうはおさけをのまないつもりです。",
+        "zh": "我打算今天不喝酒。"
+      },
+      {
+        "target": "週末は家で休むつもりです。",
+        "reading": "しゅうまつはいえでやすむつもりです。",
+        "zh": "我打算周末在家休息。"
+      },
+      {
+        "target": "毎日少しずつ勉強するつもりです。",
+        "reading": "まいにちすこしずつべんきょうするつもりです。",
+        "zh": "我打算每天学一点。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在说明已形成的打算中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "日本へ行きますつもりです。",
+        "correct": "日本へ行くつもりです。",
+        "explanation": "肯定意图用辞书形接つもり。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-nai-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n4-tsumori-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n来年、日本へ行くつもりです。",
+        "options": [
+          "我打算今天不喝酒。",
+          "我打算周末在家休息。",
+          "我打算明年去日本。"
+        ],
+        "acceptedAnswers": [
+          "我打算明年去日本。"
+        ],
+        "explanation": "来年、日本へ行くつもりです。：我打算明年去日本。 つもりだ接辞书形或ない形，表达已有的个人打算。它比临时的たい更接近计划，但不保证实施。注意Vないつもり和Vるつもりはない：前者打算不做，后者否定做这件事的意图。"
+      },
+      {
+        "id": "grammar-ja-n4-tsumori-fill",
+        "kind": "fill",
+        "prompt": "週末は家で（　）つもりです。",
+        "options": [
+          "休む",
+          "休みます",
+          "休み"
+        ],
+        "acceptedAnswers": [
+          "休む"
+        ],
+        "explanation": "つもり前用普通形，不用ます。"
+      },
+      {
+        "id": "grammar-ja-n4-tsumori-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n肯定意图用辞书形接つもり。",
+        "options": [
+          "日本へ行くつもりです。",
+          "日本へ行きますつもりです。"
+        ],
+        "acceptedAnswers": [
+          "日本へ行くつもりです。"
+        ],
+        "explanation": "肯定意图用辞书形接つもり。"
+      },
+      {
+        "id": "grammar-ja-n4-tsumori-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我打算每天学一点。",
+        "acceptedAnswers": [
+          "毎日少しずつ勉強するつもりです。"
+        ],
+        "explanation": "毎日少しずつ勉強するつもりです。 正式安排可用予定，つもり强调当事人的意向。"
+      },
+      {
+        "id": "grammar-ja-n4-tsumori-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n週末は家で休むつもりです。",
+        "options": [
+          "我打算明年去日本。",
+          "我打算今天不喝酒。",
+          "我打算周末在家休息。"
+        ],
+        "acceptedAnswers": [
+          "我打算周末在家休息。"
+        ],
+        "explanation": "原句对应“我打算周末在家休息。”。正式安排可用予定，つもり强调当事人的意向。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n4-hou-ga-ii",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "Vた／Vない + ほうがいい：最好做或不要做",
+    "pattern": "Vた／Vない + ほうがいい",
+    "meaningZh": "最好做或不要做",
+    "meaningEn": "Advice",
+    "explanation": "建议做某事时通常用た形加ほうがいい，建议不做时用ない形。这里た形不表示已经做完。用来表达忠告时可能显得较直接，对上级或陌生人可适当弱化为いいと思います。",
+    "usage": "提供建议",
+    "nuance": "行ったほうがいい不是建议已经去过，而是最好去。",
+    "structure": [
+      "肯定建议 Vた + ほうがいい；否定建议 Vない + ほうがいい"
+    ],
+    "formation": [
+      "肯定建议 Vた + ほうがいい；否定建议 Vない + ほうがいい"
+    ],
+    "examples": [
+      {
+        "target": "早く寝たほうがいいです。",
+        "reading": "はやくねたほうがいいです。",
+        "zh": "你最好早点睡。"
+      },
+      {
+        "target": "無理をしないほうがいいです。",
+        "reading": "むりをしないほうがいいです。",
+        "zh": "你最好不要勉强自己。"
+      },
+      {
+        "target": "先生に相談したほうがいいです。",
+        "reading": "せんせいにそうだんしたほうがいいです。",
+        "zh": "你最好和老师商量一下。"
+      },
+      {
+        "target": "今日は車で行かないほうがいいです。",
+        "reading": "きょうはくるまでいかないほうがいいです。",
+        "zh": "今天最好不要开车去。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在提供建议中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "無理をしたないほうがいいです。",
+        "correct": "無理をしないほうがいいです。",
+        "explanation": "否定建议直接接ない形，不把た和ない拼起来。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-nai-form",
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n4-hou-ga-ii-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n早く寝たほうがいいです。",
+        "options": [
+          "你最好早点睡。",
+          "你最好不要勉强自己。",
+          "你最好和老师商量一下。"
+        ],
+        "acceptedAnswers": [
+          "你最好早点睡。"
+        ],
+        "explanation": "早く寝たほうがいいです。：你最好早点睡。 建议做某事时通常用た形加ほうがいい，建议不做时用ない形。这里た形不表示已经做完。用来表达忠告时可能显得较直接，对上级或陌生人可适当弱化为いいと思います。"
+      },
+      {
+        "id": "grammar-ja-n4-hou-ga-ii-fill",
+        "kind": "fill",
+        "prompt": "建议早点睡：早く（　）ほうがいいです。",
+        "options": [
+          "寝ます",
+          "寝て",
+          "寝た"
+        ],
+        "acceptedAnswers": [
+          "寝た"
+        ],
+        "explanation": "本课的肯定忠告用た形，不是过去事件。"
+      },
+      {
+        "id": "grammar-ja-n4-hou-ga-ii-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n否定建议直接接ない形，不把た和ない拼起来。",
+        "options": [
+          "無理をしたないほうがいいです。",
+          "無理をしないほうがいいです。"
+        ],
+        "acceptedAnswers": [
+          "無理をしないほうがいいです。"
+        ],
+        "explanation": "否定建议直接接ない形，不把た和ない拼起来。"
+      },
+      {
+        "id": "grammar-ja-n4-hou-ga-ii-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n今天最好不要开车去。",
+        "acceptedAnswers": [
+          "今日は車で行かないほうがいいです。"
+        ],
+        "explanation": "今日は車で行かないほうがいいです。 行ったほうがいい不是建议已经去过，而是最好去。"
+      },
+      {
+        "id": "grammar-ja-n4-hou-ga-ii-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n先生に相談したほうがいいです。",
+        "options": [
+          "你最好不要勉强自己。",
+          "你最好和老师商量一下。",
+          "你最好早点睡。"
+        ],
+        "acceptedAnswers": [
+          "你最好和老师商量一下。"
+        ],
+        "explanation": "原句对应“你最好和老师商量一下。”。行ったほうがいい不是建议已经去过，而是最好去。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n4-node-reason",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "普通形 + ので：因为；由于（说明理由）",
+    "pattern": "普通形 + ので",
+    "meaningZh": "因为；由于（说明理由）",
+    "meaningEn": "Explanatory reason",
+    "explanation": "ので把原因与结果连接，常用于客观解释情况或礼貌说明请求的背景。名词和な形容词普通形接なので。相比から，ので常减少说话人强行给理由的感觉，但并非绝对客观和主观的二分。",
+    "usage": "说明原因和请求背景",
+    "nuance": "寒いので是形容词普通形；学生なので是名词接な。",
+    "structure": [
+      "名词/な形容词 + なので；V/い形容词普通形 + ので"
+    ],
+    "formation": [
+      "名词/な形容词 + なので；V/い形容词普通形 + ので"
+    ],
+    "examples": [
+      {
+        "target": "雨が降っているので、家にいます。",
+        "reading": "あめがふっているので、いえにいます。",
+        "zh": "因为正在下雨，我待在家里。"
+      },
+      {
+        "target": "明日は試験なので、早く寝ます。",
+        "reading": "あしたはしけんなので、はやくねます。",
+        "zh": "因为明天考试，我早点睡。"
+      },
+      {
+        "target": "静かなので、よく眠れます。",
+        "reading": "しずかなので、よくねむれます。",
+        "zh": "因为很安静，我能睡好。"
+      },
+      {
+        "target": "道が混んでいたので、遅れました。",
+        "reading": "みちがこんでいたので、おくれました。",
+        "zh": "因为路上拥堵，我迟到了。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在说明原因和请求背景中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "静かので、よく眠れます。",
+        "correct": "静かなので、よく眠れます。",
+        "explanation": "な形容词接ので时保留な。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n4-node-reason-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n雨が降っているので、家にいます。",
+        "options": [
+          "因为很安静，我能睡好。",
+          "因为正在下雨，我待在家里。",
+          "因为明天考试，我早点睡。"
+        ],
+        "acceptedAnswers": [
+          "因为正在下雨，我待在家里。"
+        ],
+        "explanation": "雨が降っているので、家にいます。：因为正在下雨，我待在家里。 ので把原因与结果连接，常用于客观解释情况或礼貌说明请求的背景。名词和な形容词普通形接なので。相比から，ので常减少说话人强行给理由的感觉，但并非绝对客观和主观的二分。"
+      },
+      {
+        "id": "grammar-ja-n4-node-reason-fill",
+        "kind": "fill",
+        "prompt": "明日は試験（　）、早く寝ます。",
+        "options": [
+          "だので",
+          "なので",
+          "ので"
+        ],
+        "acceptedAnswers": [
+          "なので"
+        ],
+        "explanation": "名词试験后要用なので。"
+      },
+      {
+        "id": "grammar-ja-n4-node-reason-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nな形容词接ので时保留な。",
+        "options": [
+          "静かなので、よく眠れます。",
+          "静かので、よく眠れます。"
+        ],
+        "acceptedAnswers": [
+          "静かなので、よく眠れます。"
+        ],
+        "explanation": "な形容词接ので时保留な。"
+      },
+      {
+        "id": "grammar-ja-n4-node-reason-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n因为路上拥堵，我迟到了。",
+        "acceptedAnswers": [
+          "道が混んでいたので、遅れました。"
+        ],
+        "explanation": "道が混んでいたので、遅れました。 寒いので是形容词普通形；学生なので是名词接な。"
+      },
+      {
+        "id": "grammar-ja-n4-node-reason-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n静かなので、よく眠れます。",
+        "options": [
+          "因为很安静，我能睡好。",
+          "因为正在下雨，我待在家里。",
+          "因为明天考试，我早点睡。"
+        ],
+        "acceptedAnswers": [
+          "因为很安静，我能睡好。"
+        ],
+        "explanation": "原句对应“因为很安静，我能睡好。”。寒いので是形容词普通形；学生なので是名词接な。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n4-yasui-nikui",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "Vます词干 + やすい／にくい：容易做；难以做",
+    "pattern": "Vます词干 + やすい／にくい",
+    "meaningZh": "容易做；难以做",
+    "meaningEn": "Ease or difficulty",
+    "explanation": "动词ます词干加やすい或にくい说明动作容易或难以进行，结果按い形容词变化。这个表达可描述物品可用性，不等于说话人的能力；字が読みにくい是字体难读，不是日语水平低。",
+    "usage": "评价工具与行动难易",
+    "nuance": "食べやすい表示便于食用，不单纯表示好吃。",
+    "structure": [
+      "読みます → 読み + やすい/にくい"
+    ],
+    "formation": [
+      "読みます → 読み + やすい/にくい"
+    ],
+    "examples": [
+      {
+        "target": "この本は読みやすいです。",
+        "reading": "このほんはよみやすいです。",
+        "zh": "这本书很好读。"
+      },
+      {
+        "target": "この靴は歩きにくいです。",
+        "reading": "このくつはあるきにくいです。",
+        "zh": "这双鞋走路不方便。"
+      },
+      {
+        "target": "このペンは書きやすいです。",
+        "reading": "このぺんはかきやすいです。",
+        "zh": "这支笔很好写。"
+      },
+      {
+        "target": "小さい字は読みにくいです。",
+        "reading": "ちいさいじはよみにくいです。",
+        "zh": "小字很难读。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在评价工具与行动难易中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "この本は読むやすいです。",
+        "correct": "この本は読みやすいです。",
+        "explanation": "やすい前接ます词干，不是辞书形。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-masu-stem"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n4-yasui-nikui-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nこの本は読みやすいです。",
+        "options": [
+          "这双鞋走路不方便。",
+          "这支笔很好写。",
+          "这本书很好读。"
+        ],
+        "acceptedAnswers": [
+          "这本书很好读。"
+        ],
+        "explanation": "この本は読みやすいです。：这本书很好读。 动词ます词干加やすい或にくい说明动作容易或难以进行，结果按い形容词变化。这个表达可描述物品可用性，不等于说话人的能力；字が読みにくい是字体难读，不是日语水平低。"
+      },
+      {
+        "id": "grammar-ja-n4-yasui-nikui-fill",
+        "kind": "fill",
+        "prompt": "小さい字は（　）です。",
+        "options": [
+          "読みにくい",
+          "読むにくい",
+          "読んだにくい"
+        ],
+        "acceptedAnswers": [
+          "読みにくい"
+        ],
+        "explanation": "去ます后接にくい表示难读。"
+      },
+      {
+        "id": "grammar-ja-n4-yasui-nikui-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nやすい前接ます词干，不是辞书形。",
+        "options": [
+          "この本は読むやすいです。",
+          "この本は読みやすいです。"
+        ],
+        "acceptedAnswers": [
+          "この本は読みやすいです。"
+        ],
+        "explanation": "やすい前接ます词干，不是辞书形。"
+      },
+      {
+        "id": "grammar-ja-n4-yasui-nikui-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n小字很难读。",
+        "acceptedAnswers": [
+          "小さい字は読みにくいです。"
+        ],
+        "explanation": "小さい字は読みにくいです。 食べやすい表示便于食用，不单纯表示好吃。"
+      },
+      {
+        "id": "grammar-ja-n4-yasui-nikui-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nこのペンは書きやすいです。",
+        "options": [
+          "这本书很好读。",
+          "这双鞋走路不方便。",
+          "这支笔很好写。"
+        ],
+        "acceptedAnswers": [
+          "这支笔很好写。"
+        ],
+        "explanation": "原句对应“这支笔很好写。”。食べやすい表示便于食用，不单纯表示好吃。"
+      }
+    ]
+  }
+]

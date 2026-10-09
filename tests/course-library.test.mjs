@@ -93,3 +93,18 @@ test('normalized lexicon metadata is complete for every course word',()=>{
   }
  }
 });
+
+test('N2 practical vocabulary is available to learning without replacing old cards',()=>{
+ const pack=coursePack('ja','N2');
+ const added=pack.words.filter(word=>word.sourceRef==='N2 practical expansion');
+ assert.equal(added.length,100);
+ assert.equal(new Set(pack.words.map(word=>word.word.normalize('NFC').toLowerCase())).size,150);
+ assert.equal(pack.words[0].id,'course-ja-n2-1');
+ assert.equal(pack.words[0].word,'課題');
+ for(const word of added){
+  assert.ok(word.pronunciation&&word.meaning&&word.example&&word.translation,word.id);
+  assert.ok(word.example.length>word.word.length,`${word.id} contextual example`);
+  assert.ok(word.collocations.length>=2,`${word.id} collocations`);
+  assert.ok(word.topics.length>0&&word.pos,`${word.id} metadata`);
+ }
+});

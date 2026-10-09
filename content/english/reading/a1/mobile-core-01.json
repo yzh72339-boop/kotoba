@@ -1,0 +1,101 @@
+{
+  "id": "article-en-a1-book-box",
+  "kind": "reading",
+  "language": "en",
+  "level": "A1",
+  "difficulty": 1,
+  "tags": [
+    "daily-life",
+    "mobile-core"
+  ],
+  "title": "The book box on our street",
+  "topic": "社区",
+  "genre": "story",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "There is a small book box near my school. It has a glass door, but it has no lock. People leave books there. Other people take them home and read them. No one asks for money.",
+    "I walk past the box every Friday. My friend Anna likes stories about animals. I like books about food. We often find something new. Anna reads on the bus. I read a few pages before bed.",
+    "Today the box is almost empty. I have a book at home that I do not read now. Tomorrow I can put it in the box. Someone else may like it. A book does not need to stay on one shelf forever."
+  ],
+  "translation": [
+    "学校附近有一个小书箱，有玻璃门，却没有锁。人们把书放在那里，其他人可以带回家读。不需要付钱。",
+    "我每个星期五经过书箱。朋友安娜喜欢动物故事，我喜欢关于食物的书。我们常发现新东西。安娜在公交车上读，我在睡前读几页。",
+    "今天书箱几乎空了。我家有一本现在不读的书，明天可以放进去，也许别人会喜欢。一本书不必永远待在同一个书架上。"
+  ],
+  "vocabulary": [
+    "course-en-a1-6",
+    "course-en-a1-7",
+    "course-en-a1-4"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-a1-present-simple-routine",
+      "surface": "Anna reads on the bus"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-a1-book-box-q1",
+      "type": "detail",
+      "prompt": "What is special about the book box?",
+      "options": [
+        "People can take books without paying.",
+        "It is always locked.",
+        "It sells only new books."
+      ],
+      "answer": 0,
+      "explanation": "第一段说没有锁，也没人索要钱。"
+    },
+    {
+      "id": "article-en-a1-book-box-q2",
+      "type": "grammar",
+      "prompt": "Why does the writer use “reads” in “Anna reads on the bus”?",
+      "options": [
+        "The action happened yesterday.",
+        "All verbs after names need -ing.",
+        "Anna is a third-person singular subject."
+      ],
+      "answer": 2,
+      "explanation": "Anna相当于she，一般现在时实义动词加s。"
+    },
+    {
+      "id": "article-en-a1-book-box-q3",
+      "type": "inference",
+      "prompt": "Why will the writer put a book in the box?",
+      "options": [
+        "To keep the box empty.",
+        "To let another person enjoy it.",
+        "To get money from Anna."
+      ],
+      "answer": 1,
+      "explanation": "Someone else may like it说明作者想把阅读机会传给别人。"
+    },
+    {
+      "id": "article-en-a1-book-box-supplement-26-1",
+      "type": "detail",
+      "prompt": "What does the writer plan to do tomorrow?",
+      "options": [
+        "Sell a book to Anna.",
+        "Put a book in the box.",
+        "Lock the glass door."
+      ],
+      "answer": 1,
+      "explanation": "The last paragraph says “Tomorrow I can put it in the box”; the book is already at home."
+    },
+    {
+      "id": "article-en-a1-book-box-supplement-26-2",
+      "type": "main-idea",
+      "prompt": "What is the story mainly about?",
+      "options": [
+        "Sharing books so other people can enjoy them.",
+        "Buying a new shelf for a school.",
+        "Learning how to drive a bus."
+      ],
+      "answer": 0,
+      "explanation": "People leave and take books freely; the writer decides to contribute a book rather than keep it unused."
+    }
+  ],
+  "notes": [
+    "读书箱文章时，区分通常发生的习惯和today描述的当前情况。"
+  ]
+}

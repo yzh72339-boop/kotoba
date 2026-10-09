@@ -1,0 +1,124 @@
+{
+  "id": "grammar-en-a2-going-to-plan",
+  "kind": "grammar",
+  "language": "en",
+  "level": "A2",
+  "difficulty": 2,
+  "tags": [
+    "daily-life",
+    "mobile-core"
+  ],
+  "title": "Be going to：已有打算",
+  "pattern": "am / is / are going to + base verb",
+  "meaningZh": "打算……；有迹象表明将会……",
+  "meaningEn": "An existing intention or a prediction based on present evidence",
+  "explanation": "be going to后接动词原形，用来说明说话前已经形成的打算，也可根据眼前迹象预测事情。be需要跟随主语变化：I am、she is、we are。这里going to中的going不是独立的移动动词；I am going to read不表示正在走去读书。否定词not放在be后，疑问句把be提到主语前。并非所有未来句子都必须用going to，临时决定常用will。",
+  "usage": "讨论周末计划、学习安排，以及根据当前情况作预测。",
+  "nuance": "已有计划用going to很自然；正式确定的约会也常用现在进行时。它与will的区别是语境倾向，并不是任何情况下都完全互斥。",
+  "structure": [
+    "Subject + am / is / are going to + base verb",
+    "Subject + am / is / are not going to + base verb",
+    "Am / Is / Are + subject + going to + base verb?"
+  ],
+  "formation": [
+    "Subject + am / is / are going to + base verb",
+    "Subject + am / is / are not going to + base verb",
+    "Am / Is / Are + subject + going to + base verb?"
+  ],
+  "examples": [
+    {
+      "target": "I am going to borrow a book tomorrow.",
+      "zh": "我打算明天借一本书。"
+    },
+    {
+      "target": "We are going to learn together on Saturday.",
+      "zh": "我们打算星期六一起学习。"
+    },
+    {
+      "target": "Are you going to change your plan?",
+      "zh": "你打算改变计划吗？"
+    },
+    {
+      "target": "Look at those clouds. It is going to rain.",
+      "zh": "看那些云。就要下雨了。"
+    }
+  ],
+  "notes": [
+    "等级用于学习路径编排，语境与完整句子比单独记规则更重要。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She going to studies tonight.",
+      "correct": "She is going to study tonight.",
+      "explanation": "be不能省略；going to后要接原形study，不是studies。"
+    }
+  ],
+  "comparison": [],
+  "prerequisites": [
+    "grammar-en-a1-present-simple-routine"
+  ],
+  "relatedGrammar": [],
+  "exercises": [
+    {
+      "id": "grammar-en-a2-going-to-plan-1",
+      "kind": "meaning",
+      "prompt": "Look at the dark clouds. It is going to rain. 依据是什么？",
+      "options": [
+        "眼前可见的迹象",
+        "昨天的习惯",
+        "一个完成的过去动作"
+      ],
+      "acceptedAnswers": [
+        "眼前可见的迹象"
+      ],
+      "explanation": "going to也可用于基于现有迹象的预测。"
+    },
+    {
+      "id": "grammar-en-a2-going-to-plan-2",
+      "kind": "fill",
+      "prompt": "We ___ going to study together.",
+      "options": [
+        "is",
+        "am",
+        "are"
+      ],
+      "acceptedAnswers": [
+        "are"
+      ],
+      "explanation": "主语We对应are。"
+    },
+    {
+      "id": "grammar-en-a2-going-to-plan-3",
+      "kind": "error",
+      "prompt": "纠正：She is going to reads tonight.",
+      "acceptedAnswers": [
+        "She is going to read tonight."
+      ],
+      "explanation": "going to后面的动词必须用原形。"
+    },
+    {
+      "id": "grammar-en-a2-going-to-plan-4",
+      "kind": "translation",
+      "prompt": "把“我打算明天学习”译成英语。",
+      "acceptedAnswers": [
+        "I am going to study tomorrow.",
+        "I am going to learn tomorrow."
+      ],
+      "explanation": "I对应am，going to后用动词原形。"
+    },
+    {
+      "id": "grammar-en-a2-going-to-plan-example-meaning-26",
+      "kind": "context",
+      "prompt": "在本课语境中，哪项最准确理解这句话？\nLook at those clouds. It is going to rain.",
+      "options": [
+        "看那些云。就要下雨了。",
+        "我打算明天借一本书。",
+        "我们打算星期六一起学习。"
+      ],
+      "acceptedAnswers": [
+        "看那些云。就要下雨了。"
+      ],
+      "explanation": "本句的中文是“看那些云。就要下雨了。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。已有计划用going to很自然；正式确定的约会也常用现在进行时。它与will的区别是语境倾向，并不是任何情况下都完全互斥。"
+    }
+  ]
+}

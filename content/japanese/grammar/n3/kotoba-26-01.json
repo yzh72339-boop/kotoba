@@ -1,0 +1,1167 @@
+[
+  {
+    "id": "grammar-ja-n3-you-ni-naru",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N3",
+    "difficulty": 3,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "V辞书形／Vない + ようになる：变得能够或开始养成某状态",
+    "pattern": "V辞书形／Vない + ようになる",
+    "meaningZh": "变得能够或开始养成某状态",
+    "meaningEn": "A change in ability or habit",
+    "explanation": "ようになる描述以前与现在的变化，可用于能力、习惯或状态。能力变化常用可能形，习惯变化用普通动词。它不是决定要做的ことにする，也不是努力做到的ようにする；关注变化结果而非个人决定。",
+    "usage": "说明能力或习惯的变化",
+    "nuance": "読めるようになる是变得能读，読むようになる是开始读。",
+    "structure": [
+      "可能形 / V辞书形 / Vない + ようになる"
+    ],
+    "formation": [
+      "可能形 / V辞书形 / Vない + ようになる"
+    ],
+    "examples": [
+      {
+        "target": "漢字が読めるようになりました。",
+        "reading": "かんじがよめるようになりました。",
+        "zh": "我变得能读汉字了。"
+      },
+      {
+        "target": "毎朝歩くようになりました。",
+        "reading": "まいあさあるくようになりました。",
+        "zh": "我开始每天早晨散步了。"
+      },
+      {
+        "target": "最近、甘い物を食べないようになりました。",
+        "reading": "さいきん、あまいものをたべないようになりました。",
+        "zh": "最近我开始不吃甜食了。"
+      },
+      {
+        "target": "一人で料理できるようになりました。",
+        "reading": "ひとりでりょうりできるようになりました。",
+        "zh": "我已经能独自做饭了。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在说明能力或习惯的变化中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "漢字が読みますようになりました。",
+        "correct": "漢字が読めるようになりました。",
+        "explanation": "ようになる前用普通形，能力结果用可能形。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n3-you-ni-suru",
+        "explanation": "ようにする强调有意识地努力，ようになる描述变化后的结果。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n3-you-ni-suru"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n3-you-ni-suru"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n3-you-ni-naru-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n漢字が読めるようになりました。",
+        "options": [
+          "我变得能读汉字了。",
+          "我开始每天早晨散步了。",
+          "最近我开始不吃甜食了。"
+        ],
+        "acceptedAnswers": [
+          "我变得能读汉字了。"
+        ],
+        "explanation": "漢字が読めるようになりました。：我变得能读汉字了。 ようになる描述以前与现在的变化，可用于能力、习惯或状态。能力变化常用可能形，习惯变化用普通动词。它不是决定要做的ことにする，也不是努力做到的ようにする；关注变化结果而非个人决定。"
+      },
+      {
+        "id": "grammar-ja-n3-you-ni-naru-fill",
+        "kind": "fill",
+        "prompt": "能力变化：漢字が（　）ようになりました。",
+        "options": [
+          "読みます",
+          "読んで",
+          "読める"
+        ],
+        "acceptedAnswers": [
+          "読める"
+        ],
+        "explanation": "能读用可能形読める。"
+      },
+      {
+        "id": "grammar-ja-n3-you-ni-naru-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nようになる前用普通形，能力结果用可能形。",
+        "options": [
+          "漢字が読みますようになりました。",
+          "漢字が読めるようになりました。"
+        ],
+        "acceptedAnswers": [
+          "漢字が読めるようになりました。"
+        ],
+        "explanation": "ようになる前用普通形，能力结果用可能形。"
+      },
+      {
+        "id": "grammar-ja-n3-you-ni-naru-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我已经能独自做饭了。",
+        "acceptedAnswers": [
+          "一人で料理できるようになりました。"
+        ],
+        "explanation": "一人で料理できるようになりました。 読めるようになる是变得能读，読むようになる是开始读。"
+      },
+      {
+        "id": "grammar-ja-n3-you-ni-naru-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n最近、甘い物を食べないようになりました。",
+        "options": [
+          "我开始每天早晨散步了。",
+          "最近我开始不吃甜食了。",
+          "我变得能读汉字了。"
+        ],
+        "acceptedAnswers": [
+          "最近我开始不吃甜食了。"
+        ],
+        "explanation": "原句对应“最近我开始不吃甜食了。”。読めるようになる是变得能读，読むようになる是开始读。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n3-ta-bakari",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N3",
+    "difficulty": 3,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "Vた + ばかりだ：刚刚做完（主观上不久）",
+    "pattern": "Vた + ばかりだ",
+    "meaningZh": "刚刚做完（主观上不久）",
+    "meaningEn": "A subjectively recent action",
+    "explanation": "たばかり表示说话人认为某事发生后还不久，时间感可以是几分钟也可以是几个月。判断依据不是钟表，而是相对于事情所需的正常发展时间。たところ更常表示刚刚完成的紧接时刻，不能一律互换。",
+    "usage": "说明尚处在刚发生后的阶段",
+    "nuance": "去年入社したばかり仍可能自然，若认为职场经验很短。",
+    "structure": [
+      "Vた + ばかりだ"
+    ],
+    "formation": [
+      "Vた + ばかりだ"
+    ],
+    "examples": [
+      {
+        "target": "昼ご飯を食べたばかりです。",
+        "reading": "ひるごはんをたべたばかりです。",
+        "zh": "我刚吃过午饭。"
+      },
+      {
+        "target": "先月引っ越したばかりです。",
+        "reading": "せんげつひっこしたばかりです。",
+        "zh": "我上个月才刚搬来。"
+      },
+      {
+        "target": "買ったばかりの靴が壊れました。",
+        "reading": "かったばかりのくつがこわれました。",
+        "zh": "才买不久的鞋坏了。"
+      },
+      {
+        "target": "日本に来たばかりです。",
+        "reading": "にほんにきたばかりです。",
+        "zh": "我才刚来日本。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在说明尚处在刚发生后的阶段中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "日本に来るばかりです。（想表达刚来）",
+        "correct": "日本に来たばかりです。",
+        "explanation": "来るばかり不是刚来的表达；需用来た。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n3-ta-bakari-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n昼ご飯を食べたばかりです。",
+        "options": [
+          "才买不久的鞋坏了。",
+          "我刚吃过午饭。",
+          "我上个月才刚搬来。"
+        ],
+        "acceptedAnswers": [
+          "我刚吃过午饭。"
+        ],
+        "explanation": "昼ご飯を食べたばかりです。：我刚吃过午饭。 たばかり表示说话人认为某事发生后还不久，时间感可以是几分钟也可以是几个月。判断依据不是钟表，而是相对于事情所需的正常发展时间。たところ更常表示刚刚完成的紧接时刻，不能一律互换。"
+      },
+      {
+        "id": "grammar-ja-n3-ta-bakari-fill",
+        "kind": "fill",
+        "prompt": "先月（　）ばかりです。",
+        "options": [
+          "引っ越して",
+          "引っ越した",
+          "引っ越す"
+        ],
+        "acceptedAnswers": [
+          "引っ越した"
+        ],
+        "explanation": "完成后的主观近期接た形。"
+      },
+      {
+        "id": "grammar-ja-n3-ta-bakari-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n来るばかり不是刚来的表达；需用来た。",
+        "options": [
+          "日本に来たばかりです。",
+          "日本に来るばかりです。（想表达刚来）"
+        ],
+        "acceptedAnswers": [
+          "日本に来たばかりです。"
+        ],
+        "explanation": "来るばかり不是刚来的表达；需用来た。"
+      },
+      {
+        "id": "grammar-ja-n3-ta-bakari-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我才刚来日本。",
+        "acceptedAnswers": [
+          "日本に来たばかりです。"
+        ],
+        "explanation": "日本に来たばかりです。 去年入社したばかり仍可能自然，若认为职场经验很短。"
+      },
+      {
+        "id": "grammar-ja-n3-ta-bakari-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n買ったばかりの靴が壊れました。",
+        "options": [
+          "才买不久的鞋坏了。",
+          "我刚吃过午饭。",
+          "我上个月才刚搬来。"
+        ],
+        "acceptedAnswers": [
+          "才买不久的鞋坏了。"
+        ],
+        "explanation": "原句对应“才买不久的鞋坏了。”。去年入社したばかり仍可能自然，若认为职场经验很短。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n3-tokoro-stage",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N3",
+    "difficulty": 3,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "Vる／Vている／Vた + ところだ：正要做；正在做；刚做完",
+    "pattern": "Vる／Vている／Vた + ところだ",
+    "meaningZh": "正要做；正在做；刚做完",
+    "meaningEn": "Stage of an action",
+    "explanation": "ところだ根据前面的动词形式表示动作所处阶段。辞书形指马上要开始，ている指正在进行，た形指刚结束。三个形式改变时间关系，不能只把ところ译成“地方”。本课限定可观察的具体动作阶段。",
+    "usage": "交代即时行动阶段",
+    "nuance": "たところ与たばかり相比更强调刚结束的即时性。",
+    "structure": [
+      "Vる = 将开始；Vている = 进行；Vた = 刚结束"
+    ],
+    "formation": [
+      "Vる = 将开始；Vている = 进行；Vた = 刚结束"
+    ],
+    "examples": [
+      {
+        "target": "今から出かけるところです。",
+        "reading": "いまからでかけるところです。",
+        "zh": "我正要出门。"
+      },
+      {
+        "target": "今、資料を読んでいるところです。",
+        "reading": "いま、しりょうをよんでいるところです。",
+        "zh": "我正在读资料。"
+      },
+      {
+        "target": "ちょうど帰ったところです。",
+        "reading": "ちょうどかえったところです。",
+        "zh": "我恰好刚回来。"
+      },
+      {
+        "target": "これから昼ご飯を作るところです。",
+        "reading": "これからひるごはんをつくるところです。",
+        "zh": "我接下来正要做午饭。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在交代即时行动阶段中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "これから出かけたところです。（尚未出门）",
+        "correct": "これから出かけるところです。",
+        "explanation": "尚未开始的动作应接辞书形。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-te-iru",
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n3-tokoro-stage-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n今から出かけるところです。",
+        "options": [
+          "我正在读资料。",
+          "我恰好刚回来。",
+          "我正要出门。"
+        ],
+        "acceptedAnswers": [
+          "我正要出门。"
+        ],
+        "explanation": "今から出かけるところです。：我正要出门。 ところだ根据前面的动词形式表示动作所处阶段。辞书形指马上要开始，ている指正在进行，た形指刚结束。三个形式改变时间关系，不能只把ところ译成“地方”。本课限定可观察的具体动作阶段。"
+      },
+      {
+        "id": "grammar-ja-n3-tokoro-stage-fill",
+        "kind": "fill",
+        "prompt": "刚回来：ちょうど（　）ところです。",
+        "options": [
+          "帰った",
+          "帰る",
+          "帰っている"
+        ],
+        "acceptedAnswers": [
+          "帰った"
+        ],
+        "explanation": "刚结束用た形。"
+      },
+      {
+        "id": "grammar-ja-n3-tokoro-stage-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n尚未开始的动作应接辞书形。",
+        "options": [
+          "これから出かけたところです。（尚未出门）",
+          "これから出かけるところです。"
+        ],
+        "acceptedAnswers": [
+          "これから出かけるところです。"
+        ],
+        "explanation": "尚未开始的动作应接辞书形。"
+      },
+      {
+        "id": "grammar-ja-n3-tokoro-stage-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我接下来正要做午饭。",
+        "acceptedAnswers": [
+          "これから昼ご飯を作るところです。"
+        ],
+        "explanation": "これから昼ご飯を作るところです。 たところ与たばかり相比更强调刚结束的即时性。"
+      },
+      {
+        "id": "grammar-ja-n3-tokoro-stage-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nちょうど帰ったところです。",
+        "options": [
+          "我正要出门。",
+          "我正在读资料。",
+          "我恰好刚回来。"
+        ],
+        "acceptedAnswers": [
+          "我恰好刚回来。"
+        ],
+        "explanation": "原句对应“我恰好刚回来。”。たところ与たばかり相比更强调刚结束的即时性。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n3-tabi-ni",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N3",
+    "difficulty": 3,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "V辞书形／Nの + たびに：每当某事发生时",
+    "pattern": "V辞书形／Nの + たびに",
+    "meaningZh": "每当某事发生时",
+    "meaningEn": "Every time an event occurs",
+    "explanation": "たびに说明每次前项发生，后项都会出现，强调反复关联。名词接のたびに，动词接辞书形。通常用于独立的事件，如访问和旅行，不必用于呼吸等自然持续动作。后项常是体验、变化或反应。",
+    "usage": "描述重复事件与反应",
+    "nuance": "每次都累积的变化也可接たびに，不必是完全一样的后项。",
+    "structure": [
+      "V辞书形 + たびに；N + のたびに"
+    ],
+    "formation": [
+      "V辞书形 + たびに；N + のたびに"
+    ],
+    "examples": [
+      {
+        "target": "この歌を聞くたびに、故郷を思い出します。",
+        "reading": "このうたをきくたびに、ふるさとをおもいだします。",
+        "zh": "每次听这首歌，我都会想起故乡。"
+      },
+      {
+        "target": "旅行のたびに、写真を撮ります。",
+        "reading": "りょこうのたびに、しゃしんをとります。",
+        "zh": "每次旅行我都会拍照。"
+      },
+      {
+        "target": "会うたびに、彼は元気になります。",
+        "reading": "あうたびに、かれはげんきになります。",
+        "zh": "每次见面，他都变得更有精神。"
+      },
+      {
+        "target": "雨が降るたびに、この道は混みます。",
+        "reading": "あめがふるたびに、このみちはこみます。",
+        "zh": "每次下雨，这条路都会拥堵。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在描述重复事件与反应中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "この歌を聞いたたびに思い出します。",
+        "correct": "この歌を聞くたびに思い出します。",
+        "explanation": "一般反复规律使用辞书形聞く。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n3-tabi-ni-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nこの歌を聞くたびに、故郷を思い出します。",
+        "options": [
+          "每次听这首歌，我都会想起故乡。",
+          "每次旅行我都会拍照。",
+          "每次见面，他都变得更有精神。"
+        ],
+        "acceptedAnswers": [
+          "每次听这首歌，我都会想起故乡。"
+        ],
+        "explanation": "この歌を聞くたびに、故郷を思い出します。：每次听这首歌，我都会想起故乡。 たびに说明每次前项发生，后项都会出现，强调反复关联。名词接のたびに，动词接辞书形。通常用于独立的事件，如访问和旅行，不必用于呼吸等自然持续动作。后项常是体验、变化或反应。"
+      },
+      {
+        "id": "grammar-ja-n3-tabi-ni-fill",
+        "kind": "fill",
+        "prompt": "旅行（　）たびに、写真を撮ります。",
+        "options": [
+          "に",
+          "で",
+          "の"
+        ],
+        "acceptedAnswers": [
+          "の"
+        ],
+        "explanation": "名词旅行接の。"
+      },
+      {
+        "id": "grammar-ja-n3-tabi-ni-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n一般反复规律使用辞书形聞く。",
+        "options": [
+          "この歌を聞くたびに思い出します。",
+          "この歌を聞いたたびに思い出します。"
+        ],
+        "acceptedAnswers": [
+          "この歌を聞くたびに思い出します。"
+        ],
+        "explanation": "一般反复规律使用辞书形聞く。"
+      },
+      {
+        "id": "grammar-ja-n3-tabi-ni-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n每次下雨，这条路都会拥堵。",
+        "acceptedAnswers": [
+          "雨が降るたびに、この道は混みます。"
+        ],
+        "explanation": "雨が降るたびに、この道は混みます。 每次都累积的变化也可接たびに，不必是完全一样的后项。"
+      },
+      {
+        "id": "grammar-ja-n3-tabi-ni-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n会うたびに、彼は元気になります。",
+        "options": [
+          "每次旅行我都会拍照。",
+          "每次见面，他都变得更有精神。",
+          "每次听这首歌，我都会想起故乡。"
+        ],
+        "acceptedAnswers": [
+          "每次见面，他都变得更有精神。"
+        ],
+        "explanation": "原句对应“每次见面，他都变得更有精神。”。每次都累积的变化也可接たびに，不必是完全一样的后项。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n3-okage-de",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N3",
+    "difficulty": 3,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "普通形／Nの／な形容词な + おかげで：多亏某原因而有好结果",
+    "pattern": "普通形／Nの／な形容词な + おかげで",
+    "meaningZh": "多亏某原因而有好结果",
+    "meaningEn": "Beneficial cause",
+    "explanation": "おかげで说明因某人、条件或帮助得到有利结果，通常带感谢。名词用のおかげで，な形容词用なおかげで。讽刺语境也可能用于坏结果，但初学时先掌握积极原因，不能把所有“因为”都换成它。",
+    "usage": "表达感谢和有利原因",
+    "nuance": "おかげ强调受益，与せい的责怪态度不同。",
+    "structure": [
+      "Nの / な形容词な / 普通形 + おかげで"
+    ],
+    "formation": [
+      "Nの / な形容词な / 普通形 + おかげで"
+    ],
+    "examples": [
+      {
+        "target": "先生のおかげで、合格できました。",
+        "reading": "せんせいのおかげで、ごうかくできました。",
+        "zh": "多亏老师，我通过了考试。"
+      },
+      {
+        "target": "道が空いていたおかげで、間に合いました。",
+        "reading": "みちがすいていたおかげで、まにあいました。",
+        "zh": "多亏道路畅通，我赶上了。"
+      },
+      {
+        "target": "部屋が静かなおかげで、よく眠れます。",
+        "reading": "へやがしずかなおかげで、よくねむれます。",
+        "zh": "因为房间安静，我睡得很好。"
+      },
+      {
+        "target": "友達が手伝ってくれたおかげで、早く終わりました。",
+        "reading": "ともだちがてつだってくれたおかげで、はやくおわりました。",
+        "zh": "多亏朋友帮忙，我很快做完了。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在表达感谢和有利原因中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "先生なのおかげで合格しました。",
+        "correct": "先生のおかげで合格しました。",
+        "explanation": "名词直接接の，不叠加な。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n4-node-reason"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n3-okage-de-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n先生のおかげで、合格できました。",
+        "options": [
+          "因为房间安静，我睡得很好。",
+          "多亏老师，我通过了考试。",
+          "多亏道路畅通，我赶上了。"
+        ],
+        "acceptedAnswers": [
+          "多亏老师，我通过了考试。"
+        ],
+        "explanation": "先生のおかげで、合格できました。：多亏老师，我通过了考试。 おかげで说明因某人、条件或帮助得到有利结果，通常带感谢。名词用のおかげで，な形容词用なおかげで。讽刺语境也可能用于坏结果，但初学时先掌握积极原因，不能把所有“因为”都换成它。"
+      },
+      {
+        "id": "grammar-ja-n3-okage-de-fill",
+        "kind": "fill",
+        "prompt": "先生（　）おかげで、合格しました。",
+        "options": [
+          "で",
+          "の",
+          "な"
+        ],
+        "acceptedAnswers": [
+          "の"
+        ],
+        "explanation": "先生是名词，接の。"
+      },
+      {
+        "id": "grammar-ja-n3-okage-de-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n名词直接接の，不叠加な。",
+        "options": [
+          "先生なのおかげで合格しました。",
+          "先生のおかげで合格しました。"
+        ],
+        "acceptedAnswers": [
+          "先生のおかげで合格しました。"
+        ],
+        "explanation": "名词直接接の，不叠加な。"
+      },
+      {
+        "id": "grammar-ja-n3-okage-de-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n多亏朋友帮忙，我很快做完了。",
+        "acceptedAnswers": [
+          "友達が手伝ってくれたおかげで、早く終わりました。"
+        ],
+        "explanation": "友達が手伝ってくれたおかげで、早く終わりました。 おかげ强调受益，与せい的责怪态度不同。"
+      },
+      {
+        "id": "grammar-ja-n3-okage-de-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n部屋が静かなおかげで、よく眠れます。",
+        "options": [
+          "因为房间安静，我睡得很好。",
+          "多亏老师，我通过了考试。",
+          "多亏道路畅通，我赶上了。"
+        ],
+        "acceptedAnswers": [
+          "因为房间安静，我睡得很好。"
+        ],
+        "explanation": "原句对应“因为房间安静，我睡得很好。”。おかげ强调受益，与せい的责怪态度不同。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n3-sei-de",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N3",
+    "difficulty": 3,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "普通形／Nの／な形容词な + せいで：由于某原因导致坏结果",
+    "pattern": "普通形／Nの／な形容词な + せいで",
+    "meaningZh": "由于某原因导致坏结果",
+    "meaningEn": "An unwelcome cause",
+    "explanation": "せいで把不好的结果归因于前项，带不满或责怪，程度随语境变化。せいか表示怀疑原因而非确定指责。名词接のせいで，な形容词接なせいで，不能用于真诚感谢别人带来的好处。",
+    "usage": "解释不理想的结果",
+    "nuance": "自分のせい也可承担责任；并不一定责怪他人。",
+    "structure": [
+      "Nの / な形容词な / 普通形 + せいで"
+    ],
+    "formation": [
+      "Nの / な形容词な / 普通形 + せいで"
+    ],
+    "examples": [
+      {
+        "target": "雨のせいで、試合が中止になりました。",
+        "reading": "あめのせいで、しあいがちゅうしになりました。",
+        "zh": "因为下雨，比赛取消了。"
+      },
+      {
+        "target": "寝不足のせいで、集中できません。",
+        "reading": "ねぶそくのせいで、しゅうちゅうできません。",
+        "zh": "由于睡眠不足，我无法集中。"
+      },
+      {
+        "target": "道が混んでいたせいで、遅れました。",
+        "reading": "みちがこんでいたせいで、おくれました。",
+        "zh": "由于堵车，我迟到了。"
+      },
+      {
+        "target": "私のせいで、みんなを待たせました。",
+        "reading": "わたしのせいで、みんなをまたせました。",
+        "zh": "因为我的缘故，让大家等了。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在解释不理想的结果中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "親切に助けてくれた先生のせいで合格しました。（真诚感谢）",
+        "correct": "親切に助けてくれた先生のおかげで合格しました。",
+        "explanation": "积极受益且感谢时用おかげで，不用带责怪的せいで。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n3-okage-de",
+        "explanation": "两者都说明原因；おかげ通常受益，せい通常是不理想结果。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n4-node-reason"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n3-okage-de"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n3-sei-de-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n雨のせいで、試合が中止になりました。",
+        "options": [
+          "由于睡眠不足，我无法集中。",
+          "由于堵车，我迟到了。",
+          "因为下雨，比赛取消了。"
+        ],
+        "acceptedAnswers": [
+          "因为下雨，比赛取消了。"
+        ],
+        "explanation": "雨のせいで、試合が中止になりました。：因为下雨，比赛取消了。 せいで把不好的结果归因于前项，带不满或责怪，程度随语境变化。せいか表示怀疑原因而非确定指责。名词接のせいで，な形容词接なせいで，不能用于真诚感谢别人带来的好处。"
+      },
+      {
+        "id": "grammar-ja-n3-sei-de-fill",
+        "kind": "fill",
+        "prompt": "寝不足（　）せいで、集中できません。",
+        "options": [
+          "の",
+          "な",
+          "を"
+        ],
+        "acceptedAnswers": [
+          "の"
+        ],
+        "explanation": "寝不足作名词接の。"
+      },
+      {
+        "id": "grammar-ja-n3-sei-de-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n积极受益且感谢时用おかげで，不用带责怪的せいで。",
+        "options": [
+          "親切に助けてくれた先生のおかげで合格しました。",
+          "親切に助けてくれた先生のせいで合格しました。（真诚感谢）"
+        ],
+        "acceptedAnswers": [
+          "親切に助けてくれた先生のおかげで合格しました。"
+        ],
+        "explanation": "积极受益且感谢时用おかげで，不用带责怪的せいで。"
+      },
+      {
+        "id": "grammar-ja-n3-sei-de-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n因为我的缘故，让大家等了。",
+        "acceptedAnswers": [
+          "私のせいで、みんなを待たせました。"
+        ],
+        "explanation": "私のせいで、みんなを待たせました。 自分のせい也可承担责任；并不一定责怪他人。"
+      },
+      {
+        "id": "grammar-ja-n3-sei-de-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n道が混んでいたせいで、遅れました。",
+        "options": [
+          "因为下雨，比赛取消了。",
+          "由于睡眠不足，我无法集中。",
+          "由于堵车，我迟到了。"
+        ],
+        "acceptedAnswers": [
+          "由于堵车，我迟到了。"
+        ],
+        "explanation": "原句对应“由于堵车，我迟到了。”。自分のせい也可承担责任；并不一定责怪他人。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n3-you-da-inference",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N3",
+    "difficulty": 3,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "普通形／Nの／な形容词な + ようだ：根据迹象似乎如此",
+    "pattern": "普通形／Nの／な形容词な + ようだ",
+    "meaningZh": "根据迹象似乎如此",
+    "meaningEn": "Inference from evidence",
+    "explanation": "ようだ表示根据看到、听到或其他线索推断，语气保留判断空间。名词用のようだ，な形容词用なようだ；也可表示比喻，但本课聚焦推断。样态そう常基于直接外观，ようだ可综合更广的间接线索。",
+    "usage": "从迹象作判断",
+    "nuance": "不能将证据不足的推断当作已确认的事实。",
+    "structure": [
+      "Nの / な形容词な / 普通形 + ようだ"
+    ],
+    "formation": [
+      "Nの / な形容词な / 普通形 + ようだ"
+    ],
+    "examples": [
+      {
+        "target": "誰もいないようです。",
+        "reading": "だれもいないようです。",
+        "zh": "似乎没有人在。"
+      },
+      {
+        "target": "彼はもう帰ったようです。",
+        "reading": "かれはもうかえったようです。",
+        "zh": "他似乎已经回去了。"
+      },
+      {
+        "target": "この道は静かなようです。",
+        "reading": "このみちはしずかなようです。",
+        "zh": "这条路似乎很安静。"
+      },
+      {
+        "target": "あの人は先生のようです。",
+        "reading": "あのひとはせんせいのようです。",
+        "zh": "那个人似乎是老师。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在从迹象作判断中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "あの人は先生なようです。",
+        "correct": "あの人は先生のようです。",
+        "explanation": "名词的推断形式用のよう。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n3-you-da-inference-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n誰もいないようです。",
+        "options": [
+          "似乎没有人在。",
+          "他似乎已经回去了。",
+          "这条路似乎很安静。"
+        ],
+        "acceptedAnswers": [
+          "似乎没有人在。"
+        ],
+        "explanation": "誰もいないようです。：似乎没有人在。 ようだ表示根据看到、听到或其他线索推断，语气保留判断空间。名词用のようだ，な形容词用なようだ；也可表示比喻，但本课聚焦推断。样态そう常基于直接外观，ようだ可综合更广的间接线索。"
+      },
+      {
+        "id": "grammar-ja-n3-you-da-inference-fill",
+        "kind": "fill",
+        "prompt": "推断职业：先生（　）ようです。",
+        "options": [
+          "な",
+          "だ",
+          "の"
+        ],
+        "acceptedAnswers": [
+          "の"
+        ],
+        "explanation": "名词先生接のようです。"
+      },
+      {
+        "id": "grammar-ja-n3-you-da-inference-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n名词的推断形式用のよう。",
+        "options": [
+          "あの人は先生なようです。",
+          "あの人は先生のようです。"
+        ],
+        "acceptedAnswers": [
+          "あの人は先生のようです。"
+        ],
+        "explanation": "名词的推断形式用のよう。"
+      },
+      {
+        "id": "grammar-ja-n3-you-da-inference-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n那个人似乎是老师。",
+        "acceptedAnswers": [
+          "あの人は先生のようです。"
+        ],
+        "explanation": "あの人は先生のようです。 不能将证据不足的推断当作已确认的事实。"
+      },
+      {
+        "id": "grammar-ja-n3-you-da-inference-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nこの道は静かなようです。",
+        "options": [
+          "他似乎已经回去了。",
+          "这条路似乎很安静。",
+          "似乎没有人在。"
+        ],
+        "acceptedAnswers": [
+          "这条路似乎很安静。"
+        ],
+        "explanation": "原句对应“这条路似乎很安静。”。不能将证据不足的推断当作已确认的事实。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n3-koto-ni-suru",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N3",
+    "difficulty": 3,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "V辞书形／Vない + ことにする：决定做或不做",
+    "pattern": "V辞书形／Vない + ことにする",
+    "meaningZh": "决定做或不做",
+    "meaningEn": "A personal decision",
+    "explanation": "ことにする表示主体作出的决定；ことになる描述安排或变化的结果，不强调由谁决定。否定意图用ない形。ことにしている描述已决定坚持的规则或习惯，和一次决定有不同时间范围。",
+    "usage": "作出自己的选择",
+    "nuance": "決めました也表示决定，ことにする便于直接接完整动作。",
+    "structure": [
+      "V辞书形 / Vない + ことにする"
+    ],
+    "formation": [
+      "V辞书形 / Vない + ことにする"
+    ],
+    "examples": [
+      {
+        "target": "毎日歩くことにしました。",
+        "reading": "まいにちあるくことにしました。",
+        "zh": "我决定每天走路。"
+      },
+      {
+        "target": "今日は外で食べないことにします。",
+        "reading": "きょうはそとでたべないことにします。",
+        "zh": "我决定今天不在外面吃饭。"
+      },
+      {
+        "target": "先生に相談することにしました。",
+        "reading": "せんせいにそうだんすることにしました。",
+        "zh": "我决定向老师咨询。"
+      },
+      {
+        "target": "この仕事を続けることにしました。",
+        "reading": "このしごとをつづけることにしました。",
+        "zh": "我决定继续这份工作。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在作出自己的选择中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "今日は食べますことにします。",
+        "correct": "今日は食べることにします。",
+        "explanation": "こと前用普通形而非ます形。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-nai-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n3-koto-ni-suru-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n毎日歩くことにしました。",
+        "options": [
+          "我决定向老师咨询。",
+          "我决定每天走路。",
+          "我决定今天不在外面吃饭。"
+        ],
+        "acceptedAnswers": [
+          "我决定每天走路。"
+        ],
+        "explanation": "毎日歩くことにしました。：我决定每天走路。 ことにする表示主体作出的决定；ことになる描述安排或变化的结果，不强调由谁决定。否定意图用ない形。ことにしている描述已决定坚持的规则或习惯，和一次决定有不同时间范围。"
+      },
+      {
+        "id": "grammar-ja-n3-koto-ni-suru-fill",
+        "kind": "fill",
+        "prompt": "自己的决定：毎日（　）ことにしました。",
+        "options": [
+          "歩いて",
+          "歩く",
+          "歩きます"
+        ],
+        "acceptedAnswers": [
+          "歩く"
+        ],
+        "explanation": "决定的动作使用辞书形。"
+      },
+      {
+        "id": "grammar-ja-n3-koto-ni-suru-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nこと前用普通形而非ます形。",
+        "options": [
+          "今日は食べることにします。",
+          "今日は食べますことにします。"
+        ],
+        "acceptedAnswers": [
+          "今日は食べることにします。"
+        ],
+        "explanation": "こと前用普通形而非ます形。"
+      },
+      {
+        "id": "grammar-ja-n3-koto-ni-suru-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我决定继续这份工作。",
+        "acceptedAnswers": [
+          "この仕事を続けることにしました。"
+        ],
+        "explanation": "この仕事を続けることにしました。 決めました也表示决定，ことにする便于直接接完整动作。"
+      },
+      {
+        "id": "grammar-ja-n3-koto-ni-suru-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n先生に相談することにしました。",
+        "options": [
+          "我决定向老师咨询。",
+          "我决定每天走路。",
+          "我决定今天不在外面吃饭。"
+        ],
+        "acceptedAnswers": [
+          "我决定向老师咨询。"
+        ],
+        "explanation": "原句对应“我决定向老师咨询。”。決めました也表示决定，ことにする便于直接接完整动作。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n3-koto-ni-naru",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N3",
+    "difficulty": 3,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "V辞书形／Vない + ことになる：安排或结果变成做某事",
+    "pattern": "V辞书形／Vない + ことになる",
+    "meaningZh": "安排或结果变成做某事",
+    "meaningEn": "An arrangement or resulting decision",
+    "explanation": "ことになる用于报告外部安排、协商结果或事情发展，不强调个人主动决定。过去形ことになった表示安排已经确定，动作本身可能还没发生。规章ことになっている指既有制度，不能把它理解成临时决定。",
+    "usage": "报告确定的安排",
+    "nuance": "同一个决定可因叙述视角而用ことにする或ことになる。",
+    "structure": [
+      "V辞书形 / Vない + ことになる"
+    ],
+    "formation": [
+      "V辞书形 / Vない + ことになる"
+    ],
+    "examples": [
+      {
+        "target": "来月、東京で働くことになりました。",
+        "reading": "らいげつ、とうきょうではたらくことになりました。",
+        "zh": "我被安排下个月在东京工作。"
+      },
+      {
+        "target": "会議は午後に開くことになりました。",
+        "reading": "かいぎはごごにひらくことになりました。",
+        "zh": "会议定于下午召开。"
+      },
+      {
+        "target": "今年は旅行に行かないことになりました。",
+        "reading": "ことしはりょこうにいかないことになりました。",
+        "zh": "今年的旅行决定不去了。"
+      },
+      {
+        "target": "二人でこの店を経営することになりました。",
+        "reading": "ふたりでこのみせをけいえいすることになりました。",
+        "zh": "最后安排由我们两人经营这家店。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在报告确定的安排中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "来月、東京で働きますことになりました。",
+        "correct": "来月、東京で働くことになりました。",
+        "explanation": "こと前接普通形。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n3-koto-ni-suru",
+        "explanation": "ことにする突出本人决定；ことになる突出事情最终如何安排。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n3-koto-ni-suru"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n3-koto-ni-suru"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n3-koto-ni-naru-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n来月、東京で働くことになりました。",
+        "options": [
+          "会议定于下午召开。",
+          "今年的旅行决定不去了。",
+          "我被安排下个月在东京工作。"
+        ],
+        "acceptedAnswers": [
+          "我被安排下个月在东京工作。"
+        ],
+        "explanation": "来月、東京で働くことになりました。：我被安排下个月在东京工作。 ことになる用于报告外部安排、协商结果或事情发展，不强调个人主动决定。过去形ことになった表示安排已经确定，动作本身可能还没发生。规章ことになっている指既有制度，不能把它理解成临时决定。"
+      },
+      {
+        "id": "grammar-ja-n3-koto-ni-naru-fill",
+        "kind": "fill",
+        "prompt": "安排已经确定：東京で（　）ことになりました。",
+        "options": [
+          "働く",
+          "働きます",
+          "働いて"
+        ],
+        "acceptedAnswers": [
+          "働く"
+        ],
+        "explanation": "になりました表示安排确定，不把未来动作变为过去形。"
+      },
+      {
+        "id": "grammar-ja-n3-koto-ni-naru-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nこと前接普通形。",
+        "options": [
+          "来月、東京で働きますことになりました。",
+          "来月、東京で働くことになりました。"
+        ],
+        "acceptedAnswers": [
+          "来月、東京で働くことになりました。"
+        ],
+        "explanation": "こと前接普通形。"
+      },
+      {
+        "id": "grammar-ja-n3-koto-ni-naru-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n最后安排由我们两人经营这家店。",
+        "acceptedAnswers": [
+          "二人でこの店を経営することになりました。"
+        ],
+        "explanation": "二人でこの店を経営することになりました。 同一个决定可因叙述视角而用ことにする或ことになる。"
+      },
+      {
+        "id": "grammar-ja-n3-koto-ni-naru-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n今年は旅行に行かないことになりました。",
+        "options": [
+          "我被安排下个月在东京工作。",
+          "会议定于下午召开。",
+          "今年的旅行决定不去了。"
+        ],
+        "acceptedAnswers": [
+          "今年的旅行决定不去了。"
+        ],
+        "explanation": "原句对应“今年的旅行决定不去了。”。同一个决定可因叙述视角而用ことにする或ことになる。"
+      }
+    ]
+  }
+]

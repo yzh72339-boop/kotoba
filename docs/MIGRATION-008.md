@@ -27,7 +27,7 @@
 
 ## 当前人工操作
 
-1. Supabase项目ocbydnsqennrumowqxvu → SQL Editor → New query，角色postgres。
+1. Supabase项目your-project → SQL Editor → New query，角色postgres。
 2. 完整执行008_deploy.sql一次。应返回001–008，新增008/phase_one_private_account。
 3. 成功后新查询执行完整008_verify.sql。
 4. 返回完整migration_008_verification。预期problems=[]、found/expected_tables=43、private_buckets=3、三个browser_*_access=false、其余布尔检查true。

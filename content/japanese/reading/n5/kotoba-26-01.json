@@ -1,0 +1,430 @@
+[
+  {
+    "id": "article-ja-n5-rainy-library",
+    "kind": "reading",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "日常生活"
+    ],
+    "title": "雨の日の図書館",
+    "topic": "日常生活",
+    "genre": "story",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "今日は雨です。私は友達と図書館へ行きます。図書館で本を読みます。友達は日本の料理の本を読みます。私は旅行の本を読みます。",
+      "窓の近くに小さい机があります。そこで少し休みます。昼ご飯は図書館の外で食べます。雨の日も楽しい時間があります。"
+    ],
+    "translation": [
+      "今天下雨。我和朋友去图书馆，在那里读书。朋友读日本料理的书，我读旅行的书。",
+      "窗旁有张小桌子。我们在那里休息一下。午饭在图书馆外吃。下雨天也能有愉快的时光。"
+    ],
+    "vocabulary": [
+      "course-ja-n5-1",
+      "course-ja-n5-3",
+      "course-ja-n5-7",
+      "course-ja-n5-9",
+      "supp-ja-n5-10",
+      "supp-ja-n5-14"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-ja-n5-de-place",
+        "surface": "図書館で本を読みます"
+      },
+      {
+        "id": "grammar-ja-n5-ni-existence",
+        "surface": "机があります"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-ja-n5-rainy-library-q1",
+        "type": "main-idea",
+        "prompt": "二人はどこで過ごしますか。",
+        "options": [
+          "図書館で",
+          "駅で",
+          "学校で"
+        ],
+        "answer": 0,
+        "explanation": "第一段写明两人去图书馆读书。"
+      },
+      {
+        "id": "article-ja-n5-rainy-library-q2",
+        "type": "detail",
+        "prompt": "友達は何の本を読みますか。",
+        "options": [
+          "旅行の本",
+          "車の本",
+          "料理の本"
+        ],
+        "answer": 2,
+        "explanation": "朋友读日本料理的书，叙述者读旅行书。"
+      },
+      {
+        "id": "article-ja-n5-rainy-library-q3",
+        "type": "detail",
+        "prompt": "机はどこにありますか。",
+        "options": [
+          "入口の前",
+          "窓の近く",
+          "図書館の外"
+        ],
+        "answer": 1,
+        "explanation": "第二段明确是窗户附近。"
+      },
+      {
+        "id": "article-ja-n5-rainy-library-q4",
+        "type": "grammar",
+        "prompt": "「図書館で」の「で」は何を示しますか。",
+        "options": [
+          "読む場所",
+          "本の所有者",
+          "図書館へ行く時間"
+        ],
+        "answer": 0,
+        "explanation": "で标记读书动作发生的场所。"
+      },
+      {
+        "id": "article-ja-n5-rainy-library-q5",
+        "type": "inference",
+        "prompt": "雨の日について、作者はどう思っていますか。",
+        "options": [
+          "必ず家にいる",
+          "本は読めない",
+          "楽しい時間もある"
+        ],
+        "answer": 2,
+        "explanation": "末句说雨天也有快乐时间，不认为必须待在家。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-ja-n5-market-bread",
+    "kind": "reading",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "饮食"
+    ],
+    "title": "朝のパン屋",
+    "topic": "饮食",
+    "genre": "story",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "朝、私は母とパン屋へ行きます。店は小さいです。店の前に自転車があります。母はパンを三つ買います。私は水を買います。",
+      "家で一緒に朝ご飯を食べます。母は「明日は新しいパンを食べたいです」と言います。私は今日のパンも好きです。静かな朝です。"
+    ],
+    "translation": [
+      "早晨我和母亲去面包店。店很小，门前有辆自行车。母亲买三个面包，我买水。",
+      "我们在家一起吃早餐。母亲说想明天尝尝新面包。我也喜欢今天的面包。这是一个安静的早晨。"
+    ],
+    "vocabulary": [
+      "course-ja-n5-1",
+      "course-ja-n5-3",
+      "course-ja-n5-4",
+      "course-ja-n5-8",
+      "supp-ja-n5-1",
+      "supp-ja-n5-2"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-ja-n5-wo-object",
+        "surface": "パンを三つ買います"
+      },
+      {
+        "id": "grammar-ja-n5-tai-wish",
+        "surface": "食べたいです"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-ja-n5-market-bread-q1",
+        "type": "detail",
+        "prompt": "母はパンをいくつ買いますか。",
+        "options": [
+          "二つ",
+          "一つ",
+          "三つ"
+        ],
+        "answer": 2,
+        "explanation": "正文明确是三つ。"
+      },
+      {
+        "id": "article-ja-n5-market-bread-q2",
+        "type": "detail",
+        "prompt": "二人はどこで朝ご飯を食べますか。",
+        "options": [
+          "学校で",
+          "家で",
+          "店の前で"
+        ],
+        "answer": 1,
+        "explanation": "第二段开头说家で。"
+      },
+      {
+        "id": "article-ja-n5-market-bread-q3",
+        "type": "grammar",
+        "prompt": "母の「食べたい」は何を表しますか。",
+        "options": [
+          "母の希望",
+          "店の決まり",
+          "昨日の出来事"
+        ],
+        "answer": 0,
+        "explanation": "たい表达母亲希望尝试新面包。"
+      },
+      {
+        "id": "article-ja-n5-market-bread-q4",
+        "type": "inference",
+        "prompt": "作者は今日のパンをどう思っていますか。",
+        "options": [
+          "嫌いです",
+          "食べません",
+          "好きです"
+        ],
+        "answer": 2,
+        "explanation": "作者说今日のパンも好き，说明并未嫌弃。"
+      },
+      {
+        "id": "article-ja-n5-market-bread-q5",
+        "type": "main-idea",
+        "prompt": "この文章は何についてですか。",
+        "options": [
+          "長い旅行",
+          "家族の朝ご飯",
+          "学校の試験"
+        ],
+        "answer": 1,
+        "explanation": "去面包店并在家早餐是整个故事的中心。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-ja-n5-after-class",
+    "kind": "reading",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "学校"
+    ],
+    "title": "授業のあとの約束",
+    "topic": "学校",
+    "genre": "story",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "今日の授業は三時に終わります。私は友達に「少し休みませんか」と言います。友達は「はい。公園へ行きませんか」と言います。",
+      "公園に大きい木があります。私たちは木の下で話します。友達は明日、先生に日本語の本を返します。私は家へ帰って、今日の言葉を書きます。"
+    ],
+    "translation": [
+      "今天课程三点结束。我邀请朋友休息一下。朋友同意并提议去公园。",
+      "公园有棵大树。我们在树下聊天。朋友明天要把日语书还给老师。我回家写下今天的词语。"
+    ],
+    "vocabulary": [
+      "course-ja-n5-1",
+      "course-ja-n5-3",
+      "course-ja-n5-4",
+      "course-ja-n5-6",
+      "course-ja-n5-7",
+      "course-ja-n5-9"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-ja-n5-masenka-invite",
+        "surface": "休みませんか"
+      },
+      {
+        "id": "grammar-ja-n5-ni-existence",
+        "surface": "大きい木があります"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-ja-n5-after-class-q1",
+        "type": "detail",
+        "prompt": "授業は何時に終わりますか。",
+        "options": [
+          "四時",
+          "三時",
+          "二時"
+        ],
+        "answer": 1,
+        "explanation": "第一句给出三点。"
+      },
+      {
+        "id": "article-ja-n5-after-class-q2",
+        "type": "grammar",
+        "prompt": "「休みませんか」の目的は何ですか。",
+        "options": [
+          "一緒に休む誘い",
+          "休むことの禁止",
+          "過去の確認"
+        ],
+        "answer": 0,
+        "explanation": "这里是向朋友提出一起休息的邀请。"
+      },
+      {
+        "id": "article-ja-n5-after-class-q3",
+        "type": "detail",
+        "prompt": "どこで話しますか。",
+        "options": [
+          "教室の中",
+          "家の前",
+          "木の下"
+        ],
+        "answer": 2,
+        "explanation": "第二段明确在树下。"
+      },
+      {
+        "id": "article-ja-n5-after-class-q4",
+        "type": "detail",
+        "prompt": "友達は明日、何をしますか。",
+        "options": [
+          "学校を休みます",
+          "先生に本を返します",
+          "公園で本を買います"
+        ],
+        "answer": 1,
+        "explanation": "朋友计划还书，不是买书。"
+      },
+      {
+        "id": "article-ja-n5-after-class-q5",
+        "type": "main-idea",
+        "prompt": "文章に合う題はどれですか。",
+        "options": [
+          "授業のあと、友達と休む",
+          "一人で長い旅行をする",
+          "新しい先生に会う"
+        ],
+        "answer": 0,
+        "explanation": "中心是课后和朋友休息交谈。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-ja-n5-desk-key",
+    "kind": "reading",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "kotoba-26",
+      "日常生活"
+    ],
+    "title": "鍵を探す朝",
+    "topic": "日常生活",
+    "genre": "story",
+    "estimatedMinutes": 3,
+    "paragraphs": [
+      "朝、私は鍵を探します。かばんの中に本があります。でも、鍵はありません。机の上に水と小さい箱があります。箱の中に鍵があります。",
+      "私は安心します。今日は学校へ早く行きたいです。家の前で友達を待ちます。明日は鍵をかばんに入れます。"
+    ],
+    "translation": [
+      "早晨我找钥匙。包里有书，却没有钥匙。桌上有水和小盒子。钥匙在盒子里。",
+      "我放心了。今天想早点去学校。我在家门前等朋友。明天会把钥匙放进包里。"
+    ],
+    "vocabulary": [
+      "course-ja-n5-1",
+      "course-ja-n5-3",
+      "course-ja-n5-4",
+      "course-ja-n5-5",
+      "course-ja-n5-7",
+      "course-ja-n5-8"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-ja-n5-ni-existence",
+        "surface": "箱の中に鍵があります"
+      },
+      {
+        "id": "grammar-ja-n5-tai-wish",
+        "surface": "早く行きたいです"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-ja-n5-desk-key-q1",
+        "type": "detail",
+        "prompt": "鍵はどこにありましたか。",
+        "options": [
+          "箱の中",
+          "かばんの中",
+          "学校の机"
+        ],
+        "answer": 0,
+        "explanation": "第一段最后发现钥匙在盒子里。"
+      },
+      {
+        "id": "article-ja-n5-desk-key-q2",
+        "type": "detail",
+        "prompt": "かばんの中に何がありますか。",
+        "options": [
+          "鍵",
+          "水",
+          "本"
+        ],
+        "answer": 2,
+        "explanation": "包里有书，并明确没有钥匙。"
+      },
+      {
+        "id": "article-ja-n5-desk-key-q3",
+        "type": "grammar",
+        "prompt": "「行きたい」は何を表しますか。",
+        "options": [
+          "先生の説明",
+          "作者の希望",
+          "友達の禁止"
+        ],
+        "answer": 1,
+        "explanation": "たい说明作者想早点去的意愿。"
+      },
+      {
+        "id": "article-ja-n5-desk-key-q4",
+        "type": "inference",
+        "prompt": "なぜ安心しましたか。",
+        "options": [
+          "鍵が見つかったから",
+          "学校が休みだから",
+          "友達が帰ったから"
+        ],
+        "answer": 0,
+        "explanation": "找到钥匙以后才放心。"
+      },
+      {
+        "id": "article-ja-n5-desk-key-q5",
+        "type": "author-intent",
+        "prompt": "最後の文は何を伝えますか。",
+        "options": [
+          "今日学校へ行かない",
+          "鍵を捨てる",
+          "明日は置く場所を変える"
+        ],
+        "answer": 2,
+        "explanation": "最后说放进包，表示为减少下次找钥匙而改变放置位置。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  }
+]

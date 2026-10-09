@@ -1,0 +1,255 @@
+[
+  {
+    "id": "grammar-en-b1-first-conditional",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B1",
+    "difficulty": 3,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "if + present, will / modal + V：可能发生的条件与结果",
+    "pattern": "if + present, will / modal + V",
+    "meaningZh": "可能发生的条件与结果",
+    "meaningEn": "A plausible future condition",
+    "explanation": "第一条件句表达说话人认为有可能发生的条件与结果。if从句常用现在时表示未来，主句可用will、can或祈使句。并非所有带if的句子都应照此套用，例如谈能力意愿的will有其他用途，本课先掌握普通未来条件。",
+    "usage": "讨论实际未来选择",
+    "nuance": "if从句在前时通常用逗号，主句在前时一般不需要。",
+    "structure": [
+      "if + 现在时；主句 will/modal + 原形"
+    ],
+    "formation": [
+      "if + 现在时；主句 will/modal + 原形"
+    ],
+    "examples": [
+      {
+        "target": "If it rains, we will stay inside.",
+        "zh": "如果下雨，我们会待在室内。"
+      },
+      {
+        "target": "We can start if everyone is ready.",
+        "zh": "如果大家准备好，我们就能开始。"
+      },
+      {
+        "target": "If you need help, call me.",
+        "zh": "如果你需要帮助，给我打电话。"
+      },
+      {
+        "target": "I will send the file if I finish it today.",
+        "zh": "如果今天完成文件，我会发给你。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在讨论实际未来选择中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "If it will rain, we will stay inside.",
+        "correct": "If it rains, we will stay inside.",
+        "explanation": "在本课普通未来条件中，if从句不直接用will作未来预测。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-b1-second-conditional",
+        "explanation": "第一条件句视条件为实际可能；第二条件句将情况设为较遥远或假想。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-a2-will-spontaneous"
+    ],
+    "relatedGrammar": [
+      "grammar-en-b1-second-conditional"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-b1-first-conditional-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nIf it rains, we will stay inside.",
+        "options": [
+          "如果下雨，我们会待在室内。",
+          "如果大家准备好，我们就能开始。",
+          "如果你需要帮助，给我打电话。"
+        ],
+        "acceptedAnswers": [
+          "如果下雨，我们会待在室内。"
+        ],
+        "explanation": "If it rains, we will stay inside.：如果下雨，我们会待在室内。 第一条件句表达说话人认为有可能发生的条件与结果。if从句常用现在时表示未来，主句可用will、can或祈使句。并非所有带if的句子都应照此套用，例如谈能力意愿的will有其他用途，本课先掌握普通未来条件。"
+      },
+      {
+        "id": "grammar-en-b1-first-conditional-fill",
+        "kind": "fill",
+        "prompt": "普通未来条件：If it (　), we will stay inside.",
+        "options": [
+          "will rain",
+          "rained",
+          "rains"
+        ],
+        "acceptedAnswers": [
+          "rains"
+        ],
+        "explanation": "普通预测条件从句使用现在时rains。"
+      },
+      {
+        "id": "grammar-en-b1-first-conditional-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n在本课普通未来条件中，if从句不直接用will作未来预测。",
+        "options": [
+          "If it will rain, we will stay inside.",
+          "If it rains, we will stay inside."
+        ],
+        "acceptedAnswers": [
+          "If it rains, we will stay inside."
+        ],
+        "explanation": "在本课普通未来条件中，if从句不直接用will作未来预测。"
+      },
+      {
+        "id": "grammar-en-b1-first-conditional-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n如果今天完成文件，我会发给你。",
+        "acceptedAnswers": [
+          "I will send the file if I finish it today."
+        ],
+        "explanation": "I will send the file if I finish it today. if从句在前时通常用逗号，主句在前时一般不需要。"
+      },
+      {
+        "id": "grammar-en-b1-first-conditional-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nIf you need help, call me.",
+        "options": [
+          "如果大家准备好，我们就能开始。",
+          "如果你需要帮助，给我打电话。",
+          "如果下雨，我们会待在室内。"
+        ],
+        "acceptedAnswers": [
+          "如果你需要帮助，给我打电话。"
+        ],
+        "explanation": "原句对应“如果你需要帮助，给我打电话。”。if从句在前时通常用逗号，主句在前时一般不需要。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b1-future-time-clauses",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B1",
+    "difficulty": 3,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "when / until / as soon as + present：未来时间从句",
+    "pattern": "when / until / as soon as + present",
+    "meaningZh": "未来时间从句",
+    "meaningEn": "Future reference in a time clause",
+    "explanation": "用when、until、as soon as说明未来事件的时间时，从句通常用现在时，主句可以用will。注意时间从句与间接疑问不同：I don’t know when she will arrive是询问到达时间，不受同一规则机械限制。",
+    "usage": "安排未来事件的先后时机",
+    "nuance": "until表示持续到某点，不等同于before。",
+    "structure": [
+      "时间从句 when/until/as soon as + 现在时"
+    ],
+    "formation": [
+      "时间从句 when/until/as soon as + 现在时"
+    ],
+    "examples": [
+      {
+        "target": "I will call you when I arrive.",
+        "zh": "我到达后会给你打电话。"
+      },
+      {
+        "target": "Wait here until the bus comes.",
+        "zh": "在这里等到公交车来。"
+      },
+      {
+        "target": "We will eat as soon as she gets home.",
+        "zh": "她一到家我们就吃饭。"
+      },
+      {
+        "target": "I will check the door before I leave.",
+        "zh": "我离开前会检查门。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在安排未来事件的先后时机中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Wait here until the bus will come.",
+        "correct": "Wait here until the bus comes.",
+        "explanation": "until时间从句以现在时表达未来。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-en-b1-first-conditional"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-en-b1-future-time-clauses-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nI will call you when I arrive.",
+        "options": [
+          "她一到家我们就吃饭。",
+          "我到达后会给你打电话。",
+          "在这里等到公交车来。"
+        ],
+        "acceptedAnswers": [
+          "我到达后会给你打电话。"
+        ],
+        "explanation": "I will call you when I arrive.：我到达后会给你打电话。 用when、until、as soon as说明未来事件的时间时，从句通常用现在时，主句可以用will。注意时间从句与间接疑问不同：I don’t know when she will arrive是询问到达时间，不受同一规则机械限制。"
+      },
+      {
+        "id": "grammar-en-b1-future-time-clauses-fill",
+        "kind": "fill",
+        "prompt": "未来时间安排：I will call when I (　).",
+        "options": [
+          "arrived",
+          "arrive",
+          "will arrive"
+        ],
+        "acceptedAnswers": [
+          "arrive"
+        ],
+        "explanation": "when引导未来时间从句时使用现在时。"
+      },
+      {
+        "id": "grammar-en-b1-future-time-clauses-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nuntil时间从句以现在时表达未来。",
+        "options": [
+          "Wait here until the bus comes.",
+          "Wait here until the bus will come."
+        ],
+        "acceptedAnswers": [
+          "Wait here until the bus comes."
+        ],
+        "explanation": "until时间从句以现在时表达未来。"
+      },
+      {
+        "id": "grammar-en-b1-future-time-clauses-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n我离开前会检查门。",
+        "acceptedAnswers": [
+          "I will check the door before I leave."
+        ],
+        "explanation": "I will check the door before I leave. until表示持续到某点，不等同于before。"
+      },
+      {
+        "id": "grammar-en-b1-future-time-clauses-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\nWe will eat as soon as she gets home.",
+        "options": [
+          "她一到家我们就吃饭。",
+          "我到达后会给你打电话。",
+          "在这里等到公交车来。"
+        ],
+        "acceptedAnswers": [
+          "她一到家我们就吃饭。"
+        ],
+        "explanation": "原句对应“她一到家我们就吃饭。”。until表示持续到某点，不等同于before。"
+      }
+    ]
+  }
+]

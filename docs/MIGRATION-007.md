@@ -24,7 +24,7 @@
 
 ## 当前人工操作
 
-1. 项目ocbydnsqennrumowqxvu → SQL Editor → New query，角色postgres。
+1. 项目your-project → SQL Editor → New query，角色postgres。
 2. 完整执行007_deploy.sql一次。应返回001–007，新增007/audio_position_identity。
 3. 成功后在新的查询执行完整007_verify.sql。
 4. 返回完整migration_007_verification。预期problems=[]、found/expected_tables=43、private_buckets=3、三个browser_*_access=false、其余布尔检查true。

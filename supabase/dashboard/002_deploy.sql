@@ -260,7 +260,7 @@ begin
  end loop;
 
  execute migration_sql;
- perform public.configure_private_owner('yzh72339@gmail.com');
+ perform public.configure_private_owner('owner@example.com');
 
  foreach t in array array['profiles','vocabulary','grammar','reviews','study_sessions','ai_conversations'] loop
   table_oid:=to_regclass(format('public.%I','legacy_'||t))::oid;
@@ -297,7 +297,7 @@ begin
   migration_sql,
   format(E'-- helper_catalog_md5=%s; ensure_rls_catalog_md5=%s\n',md5(helper_before::text),md5(event_before::text)),
   format(E'-- legacy_oid_and_rows=%s\n',legacy_before::text),
-  format(E'select public.configure_private_owner(%L);\n','yzh72339@gmail.com')
+  format(E'select public.configure_private_owner(%L);\n','owner@example.com')
  ]);
 end;
 $deploy_002$;

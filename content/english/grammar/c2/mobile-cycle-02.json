@@ -1,0 +1,134 @@
+{
+  "id": "grammar-en-c2-limiting-fronting-inversion",
+  "kind": "grammar",
+  "language": "en",
+  "level": "C2",
+  "difficulty": 5,
+  "tags": [
+    "mobile-cycle",
+    "usage-in-context"
+  ],
+  "title": "Only after / Not until：前置限制与倒装",
+  "pattern": "Only after / Not until + adverbial, auxiliary + subject + verb",
+  "meaningZh": "前置限制性时间状语，强调直到某个条件出现才发生",
+  "meaningEn": "Front a limiting time condition for emphasis",
+  "explanation": "把Only after或Not until引出的限制性时间状语置于句首时，主句通常采用助动词在主语前的倒装。Only after the team checked the figures did it publish the report中，after从句保持正常语序，倒装只发生在主句。若主句本来没有助动词，按时态加入do、does或did，实义动词还原原形。此结构使条件或延迟更突出，常见于正式论述；并不把整句变成疑问句。",
+  "usage": "正式评论、论证或叙述中突出必要的前置条件，或强调某动作迟至某时才出现。",
+  "nuance": "Only修饰主语时不触发这条倒装规则，例如Only the manager knew。状语留在句末时也保持普通语序：The team published the report only after checking it。",
+  "structure": [
+    "Only after + noun / -ing / subject + verb, auxiliary + subject + verb",
+    "Not until + time / subject + verb, auxiliary + subject + verb",
+    "No auxiliary in the original main clause → use do / does / did + base verb"
+  ],
+  "formation": [
+    "Only after + noun / -ing / subject + verb, auxiliary + subject + verb",
+    "Not until + time / subject + verb, auxiliary + subject + verb",
+    "No auxiliary in the original main clause → use do / does / did + base verb"
+  ],
+  "examples": [
+    {
+      "target": "Only after the figures were checked did the team publish the report.",
+      "zh": "团队只有在数据核查后才发表报告。"
+    },
+    {
+      "target": "Not until the meeting ended did she explain her objection.",
+      "zh": "直到会议结束，她才解释反对意见。"
+    },
+    {
+      "target": "Only after a second review can we approve the proposal.",
+      "zh": "只有经过第二次审查，我们才能批准提案。"
+    },
+    {
+      "target": "Not until the final page had been read did the assumption become clear.",
+      "zh": "直到读完最后一页，那项假设才变得清楚。"
+    }
+  ],
+  "notes": [
+    "普通语序通常更适合简短日常交流；重点是识别强调范围，而非把每句话写得更复杂。",
+    "Only after A did B不等于A发生后必定B；它限制B出现的条件和时点，不证明因果关系。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Only after did the team check the figures, it published the report.",
+      "correct": "Only after the team checked the figures did it publish the report.",
+      "explanation": "after从句采用正常主谓语序；限制状语前置导致的是主句倒装。"
+    },
+    {
+      "wrong": "Only the librarian did know the answer.",
+      "correct": "Only the librarian knew the answer.",
+      "explanation": "only修饰主语librarian，不是前置限制性状语，通常不进行该类倒装。"
+    },
+    {
+      "wrong": "Not until the meeting ended did she explained her objection.",
+      "correct": "Not until the meeting ended did she explain her objection.",
+      "explanation": "did已经承担过去时，后续实义动词应为原形explain。"
+    }
+  ],
+  "comparison": [],
+  "prerequisites": [
+    "grammar-en-b1-indirect-questions"
+  ],
+  "relatedGrammar": [],
+  "exercises": [
+    {
+      "id": "grammar-en-c2-limiting-fronting-inversion-1",
+      "kind": "context",
+      "prompt": "Choose the sentence that emphasizes a delayed decision and has correct inversion.",
+      "options": [
+        "Not until the evidence arrived the committee changed its view.",
+        "Not until the evidence arrived did the committee change its view.",
+        "Not until did the evidence arrive, the committee changed its view."
+      ],
+      "acceptedAnswers": [
+        "Not until the evidence arrived did the committee change its view."
+      ],
+      "explanation": "until从句不倒装，主句用did + committee + change。"
+    },
+    {
+      "id": "grammar-en-c2-limiting-fronting-inversion-2",
+      "kind": "error",
+      "prompt": "Which sentence normally keeps ordinary word order?",
+      "options": [
+        "Only after checking did she reply.",
+        "Not until noon did she reply.",
+        "Only she knew the answer."
+      ],
+      "acceptedAnswers": [
+        "Only she knew the answer."
+      ],
+      "explanation": "only在第三项修饰主语she，不是限制性状语前置。"
+    },
+    {
+      "id": "grammar-en-c2-limiting-fronting-inversion-3",
+      "kind": "transform",
+      "prompt": "Rewrite using “Only after”, retaining the original meaning: The team published the report only after checking the figures.",
+      "acceptedAnswers": [
+        "Only after checking the figures did the team publish the report."
+      ],
+      "explanation": "原句一般过去时，需要did；publish还原原形，checking的主体仍是team。"
+    },
+    {
+      "id": "grammar-en-c2-limiting-fronting-inversion-4",
+      "kind": "translation",
+      "prompt": "把“直到会议结束，她才解释反对意见”译成使用Not until的句子。",
+      "acceptedAnswers": [
+        "Not until the meeting ended did she explain her objection."
+      ],
+      "explanation": "将Not until时间从句前置；主句借助did倒装，explain不再用过去式。"
+    },
+    {
+      "id": "grammar-en-c2-limiting-fronting-inversion-example-meaning-26",
+      "kind": "context",
+      "prompt": "在本课语境中，哪项最准确理解这句话？\nNot until the final page had been read did the assumption become clear.",
+      "options": [
+        "直到读完最后一页，那项假设才变得清楚。",
+        "团队只有在数据核查后才发表报告。",
+        "直到会议结束，她才解释反对意见。"
+      ],
+      "acceptedAnswers": [
+        "直到读完最后一页，那项假设才变得清楚。"
+      ],
+      "explanation": "本句的中文是“直到读完最后一页，那项假设才变得清楚。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。Only修饰主语时不触发这条倒装规则，例如Only the manager knew。状语留在句末时也保持普通语序：The team published the report only after checking it。"
+    }
+  ]
+}

@@ -167,7 +167,7 @@ select jsonb_build_object(
  'expected_tables',41,
  'found_tables',(select count(*) from tables where oid is not null),
  'problems',coalesce((select jsonb_agg(jsonb_build_object('check',kind,'detail',detail) order by kind,detail) from problems),'[]'::jsonb),
- 'owner_configured',(select count(*)=1 and bool_and(email='yzh72339@gmail.com') from private.app_owner),
+ 'owner_configured',(select count(*)=1 and bool_and(email='owner@example.com') from private.app_owner),
  'owner_table_rls',(select relrowsecurity from pg_catalog.pg_class where oid='private.app_owner'::regclass),
  'browser_private_schema_access',has_schema_privilege('anon','private','USAGE') or has_schema_privilege('authenticated','private','USAGE'),
  'browser_owner_table_access',exists(select 1 from (values('anon'),('authenticated')) r(role_name)

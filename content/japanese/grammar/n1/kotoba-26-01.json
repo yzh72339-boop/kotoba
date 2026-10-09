@@ -1,0 +1,1025 @@
+[
+  {
+    "id": "grammar-ja-n1-ni-itaru",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "V辞书形／N + に至る：发展到某个结果或阶段",
+    "pattern": "V辞书形／N + に至る",
+    "meaningZh": "发展到某个结果或阶段",
+    "meaningEn": "Reach a consequential stage",
+    "explanation": "に至る表示经过程最终到达某状态，常用于报告和分析，并不等于所有日常的“到”。名词可接結論に至る，动词可接中止するに至る。若强调甚至达到极端，可用にまで至る；本课注重有过程依据的结果。",
+    "usage": "分析事件发展与结论",
+    "nuance": "事情的程度发展是重点，简单到车站通常用着く。",
+    "structure": [
+      "V辞书形 / N + に至る"
+    ],
+    "formation": [
+      "V辞书形 / N + に至る"
+    ],
+    "examples": [
+      {
+        "target": "議論を重ね、合意に至った。",
+        "reading": "ぎろんをかさね、ごういにいたった。",
+        "zh": "经过多次讨论，达成了共识。"
+      },
+      {
+        "target": "調査の結果、計画を中止するに至った。",
+        "reading": "ちょうさのけっか、けいかくをちゅうしするにいたった。",
+        "zh": "调查后，最终决定终止计划。"
+      },
+      {
+        "target": "問題は裁判に至った。",
+        "reading": "もんだいはさいばんにいたった。",
+        "zh": "问题发展到了诉讼阶段。"
+      },
+      {
+        "target": "長年の努力が成功に至る道を開いた。",
+        "reading": "ながねんのどりょくがせいこうにいたるみちをひらいた。",
+        "zh": "多年的努力开辟了通往成功的道路。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在分析事件发展与结论中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "合意を至った。",
+        "correct": "合意に至った。",
+        "explanation": "至る是不及物动词，结果阶段使用に。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n1-ni-itaru-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n議論を重ね、合意に至った。",
+        "options": [
+          "经过多次讨论，达成了共识。",
+          "调查后，最终决定终止计划。",
+          "问题发展到了诉讼阶段。"
+        ],
+        "acceptedAnswers": [
+          "经过多次讨论，达成了共识。"
+        ],
+        "explanation": "議論を重ね、合意に至った。：经过多次讨论，达成了共识。 に至る表示经过程最终到达某状态，常用于报告和分析，并不等于所有日常的“到”。名词可接結論に至る，动词可接中止するに至る。若强调甚至达到极端，可用にまで至る；本课注重有过程依据的结果。"
+      },
+      {
+        "id": "grammar-ja-n1-ni-itaru-fill",
+        "kind": "fill",
+        "prompt": "经过讨论达成共识：合意（　）至った。",
+        "options": [
+          "で",
+          "を",
+          "に"
+        ],
+        "acceptedAnswers": [
+          "に"
+        ],
+        "explanation": "到达结果的目标用に。"
+      },
+      {
+        "id": "grammar-ja-n1-ni-itaru-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n至る是不及物动词，结果阶段使用に。",
+        "options": [
+          "合意を至った。",
+          "合意に至った。"
+        ],
+        "acceptedAnswers": [
+          "合意に至った。"
+        ],
+        "explanation": "至る是不及物动词，结果阶段使用に。"
+      },
+      {
+        "id": "grammar-ja-n1-ni-itaru-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n多年的努力开辟了通往成功的道路。",
+        "acceptedAnswers": [
+          "長年の努力が成功に至る道を開いた。"
+        ],
+        "explanation": "長年の努力が成功に至る道を開いた。 事情的程度发展是重点，简单到车站通常用着く。"
+      },
+      {
+        "id": "grammar-ja-n1-ni-itaru-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n問題は裁判に至った。",
+        "options": [
+          "调查后，最终决定终止计划。",
+          "问题发展到了诉讼阶段。",
+          "经过多次讨论，达成了共识。"
+        ],
+        "acceptedAnswers": [
+          "问题发展到了诉讼阶段。"
+        ],
+        "explanation": "原句对应“问题发展到了诉讼阶段。”。事情的程度发展是重点，简单到车站通常用着く。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n1-wo-yoginaku-sareru",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "N + を余儀なくされる：被迫不得不采取某行动",
+    "pattern": "N + を余儀なくされる",
+    "meaningZh": "被迫不得不采取某行动",
+    "meaningEn": "Be forced by circumstances",
+    "explanation": "を余儀なくされる用于客观报告因外部情况被迫做出选择。前接中止、変更、撤退等动作名词，主体是受到影响的一方。主动形式余儀なくさせる表示原因迫使某人行动，不要混淆受动和使动方向。",
+    "usage": "报告外部限制导致的行动",
+    "nuance": "带不情愿或无法另选的意味，比単に変更した更明确。",
+    "structure": [
+      "动作名词 + を余儀なくされる"
+    ],
+    "formation": [
+      "动作名词 + を余儀なくされる"
+    ],
+    "examples": [
+      {
+        "target": "大雨で大会の延期を余儀なくされた。",
+        "reading": "おおあめでたいかいのえんきをよぎなくされた。",
+        "zh": "由于大雨，大会被迫延期。"
+      },
+      {
+        "target": "資金不足で計画の変更を余儀なくされた。",
+        "reading": "しきんぶそくでけいかくのへんこうをよぎなくされた。",
+        "zh": "由于资金不足，被迫改变了计划。"
+      },
+      {
+        "target": "工場は生産の停止を余儀なくされた。",
+        "reading": "こうじょうはせいさんのていしをよぎなくされた。",
+        "zh": "工厂被迫停产。"
+      },
+      {
+        "target": "家族は避難を余儀なくされた。",
+        "reading": "かぞくはひなんをよぎなくされた。",
+        "zh": "一家人被迫撤离。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在报告外部限制导致的行动中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "家族は避難に余儀なくされた。",
+        "correct": "家族は避難を余儀なくされた。",
+        "explanation": "固定结构以を标记被迫采取的行动。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n2-zaru-wo-enai"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n1-wo-yoginaku-sareru-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n大雨で大会の延期を余儀なくされた。",
+        "options": [
+          "工厂被迫停产。",
+          "由于大雨，大会被迫延期。",
+          "由于资金不足，被迫改变了计划。"
+        ],
+        "acceptedAnswers": [
+          "由于大雨，大会被迫延期。"
+        ],
+        "explanation": "大雨で大会の延期を余儀なくされた。：由于大雨，大会被迫延期。 を余儀なくされる用于客观报告因外部情况被迫做出选择。前接中止、変更、撤退等动作名词，主体是受到影响的一方。主动形式余儀なくさせる表示原因迫使某人行动，不要混淆受动和使动方向。"
+      },
+      {
+        "id": "grammar-ja-n1-wo-yoginaku-sareru-fill",
+        "kind": "fill",
+        "prompt": "被迫延期：延期（　）余儀なくされた。",
+        "options": [
+          "が",
+          "を",
+          "に"
+        ],
+        "acceptedAnswers": [
+          "を"
+        ],
+        "explanation": "名词延期是被迫采取的行动，用を。"
+      },
+      {
+        "id": "grammar-ja-n1-wo-yoginaku-sareru-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n固定结构以を标记被迫采取的行动。",
+        "options": [
+          "家族は避難を余儀なくされた。",
+          "家族は避難に余儀なくされた。"
+        ],
+        "acceptedAnswers": [
+          "家族は避難を余儀なくされた。"
+        ],
+        "explanation": "固定结构以を标记被迫采取的行动。"
+      },
+      {
+        "id": "grammar-ja-n1-wo-yoginaku-sareru-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n一家人被迫撤离。",
+        "acceptedAnswers": [
+          "家族は避難を余儀なくされた。"
+        ],
+        "explanation": "家族は避難を余儀なくされた。 带不情愿或无法另选的意味，比単に変更した更明确。"
+      },
+      {
+        "id": "grammar-ja-n1-wo-yoginaku-sareru-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n工場は生産の停止を余儀なくされた。",
+        "options": [
+          "工厂被迫停产。",
+          "由于大雨，大会被迫延期。",
+          "由于资金不足，被迫改变了计划。"
+        ],
+        "acceptedAnswers": [
+          "工厂被迫停产。"
+        ],
+        "explanation": "原句对应“工厂被迫停产。”。带不情愿或无法另选的意味，比単に変更した更明确。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n1-zu-niwa-okanai",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "Vない词干 + ずにはおかない：必然会使某事发生；一定要",
+    "pattern": "Vない词干 + ずにはおかない",
+    "meaningZh": "必然会使某事发生；一定要",
+    "meaningEn": "An unavoidable effect or firm resolve",
+    "explanation": "ずにはおかない表示某力量必然引发结果，或主体坚定要做某事。常用感動させずにはおかない，指必然使人感动。不是ずにはいられない的“无法控制自己的冲动”；后者聚焦自身，前者常聚焦结果或意志。",
+    "usage": "评论作品的影响与坚定意志",
+    "nuance": "する变せず，不是しず；双重否定形成强肯定。",
+    "structure": [
+      "Vない去ない + ずにはおかない；する → せず"
+    ],
+    "formation": [
+      "Vない去ない + ずにはおかない；する → せず"
+    ],
+    "examples": [
+      {
+        "target": "この物語は読者を感動させずにはおかない。",
+        "reading": "このものがたりはどくしゃをかんどうさせずにはおかない。",
+        "zh": "这个故事必定会感动读者。"
+      },
+      {
+        "target": "彼の発言は議論を呼ばずにはおかない。",
+        "reading": "かれのはつげんはぎろんをよばずにはおかない。",
+        "zh": "他的发言必定引发讨论。"
+      },
+      {
+        "target": "真実を明らかにせずにはおかない。",
+        "reading": "しんじつをあきらかにせずにはおかない。",
+        "zh": "我一定要查明真相。"
+      },
+      {
+        "target": "この変化は生活に影響を与えずにはおかない。",
+        "reading": "このへんかはせいかつにえいきょうをあたえずにはおかない。",
+        "zh": "这一变化必定会影响生活。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在评论作品的影响与坚定意志中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "真実を明らかにしずにはおかない。",
+        "correct": "真実を明らかにせずにはおかない。",
+        "explanation": "する在ず前使用せ，而非し。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-zu-niwa-irarenai",
+        "explanation": "いられない是自身难抑冲动；おかない强调必然结果或坚定意志。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-nai-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-zu-niwa-irarenai"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n1-zu-niwa-okanai-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nこの物語は読者を感動させずにはおかない。",
+        "options": [
+          "他的发言必定引发讨论。",
+          "我一定要查明真相。",
+          "这个故事必定会感动读者。"
+        ],
+        "acceptedAnswers": [
+          "这个故事必定会感动读者。"
+        ],
+        "explanation": "この物語は読者を感動させずにはおかない。：这个故事必定会感动读者。 ずにはおかない表示某力量必然引发结果，或主体坚定要做某事。常用感動させずにはおかない，指必然使人感动。不是ずにはいられない的“无法控制自己的冲动”；后者聚焦自身，前者常聚焦结果或意志。"
+      },
+      {
+        "id": "grammar-ja-n1-zu-niwa-okanai-fill",
+        "kind": "fill",
+        "prompt": "する的否定连接：明らかに（　）にはおかない。",
+        "options": [
+          "せず",
+          "しず",
+          "するず"
+        ],
+        "acceptedAnswers": [
+          "せず"
+        ],
+        "explanation": "する的ず形为せず。"
+      },
+      {
+        "id": "grammar-ja-n1-zu-niwa-okanai-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nする在ず前使用せ，而非し。",
+        "options": [
+          "真実を明らかにしずにはおかない。",
+          "真実を明らかにせずにはおかない。"
+        ],
+        "acceptedAnswers": [
+          "真実を明らかにせずにはおかない。"
+        ],
+        "explanation": "する在ず前使用せ，而非し。"
+      },
+      {
+        "id": "grammar-ja-n1-zu-niwa-okanai-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n这一变化必定会影响生活。",
+        "acceptedAnswers": [
+          "この変化は生活に影響を与えずにはおかない。"
+        ],
+        "explanation": "この変化は生活に影響を与えずにはおかない。 する变せず，不是しず；双重否定形成强肯定。"
+      },
+      {
+        "id": "grammar-ja-n1-zu-niwa-okanai-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n真実を明らかにせずにはおかない。",
+        "options": [
+          "这个故事必定会感动读者。",
+          "他的发言必定引发讨论。",
+          "我一定要查明真相。"
+        ],
+        "acceptedAnswers": [
+          "我一定要查明真相。"
+        ],
+        "explanation": "原句对应“我一定要查明真相。”。する变せず，不是しず；双重否定形成强肯定。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n1-wo-kinji-enai",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "N + を禁じ得ない：禁不住某种感情",
+    "pattern": "N + を禁じ得ない",
+    "meaningZh": "禁不住某种感情",
+    "meaningEn": "Cannot suppress a feeling",
+    "explanation": "を禁じ得ない通常接驚き、涙、同情等情感名词，表示无法抑制自然反应，属于书面表达。它不是法律上的禁止，也不直接接动词普通形。与ずにはいられない相比，名词化的情感反应更突出。",
+    "usage": "表达无法抑制的感情",
+    "nuance": "得ない读えない，整个形式语气较郑重。",
+    "structure": [
+      "情感名词 + を禁じ得ない"
+    ],
+    "formation": [
+      "情感名词 + を禁じ得ない"
+    ],
+    "examples": [
+      {
+        "target": "その知らせに驚きを禁じ得なかった。",
+        "reading": "そのしらせにおどろきをきんじえなかった。",
+        "zh": "听到那消息，我不禁惊讶。"
+      },
+      {
+        "target": "彼の努力に感動を禁じ得ない。",
+        "reading": "かれのどりょくにかんどうをきんじえない。",
+        "zh": "他的努力让我禁不住感动。"
+      },
+      {
+        "target": "悲しい結末に涙を禁じ得なかった。",
+        "reading": "かなしいけつまつになみだをきんじえなかった。",
+        "zh": "看到悲伤的结局，我不禁落泪。"
+      },
+      {
+        "target": "無責任な説明に怒りを禁じ得ない。",
+        "reading": "むせきにんなせつめいにいかりをきんじえない。",
+        "zh": "面对不负责任的解释，我禁不住愤怒。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在表达无法抑制的感情中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "驚くを禁じ得ない。",
+        "correct": "驚きを禁じ得ない。",
+        "explanation": "此结构接情感名词驚き，不直接接动词驚く。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n1-wo-kinji-enai-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nその知らせに驚きを禁じ得なかった。",
+        "options": [
+          "听到那消息，我不禁惊讶。",
+          "他的努力让我禁不住感动。",
+          "看到悲伤的结局，我不禁落泪。"
+        ],
+        "acceptedAnswers": [
+          "听到那消息，我不禁惊讶。"
+        ],
+        "explanation": "その知らせに驚きを禁じ得なかった。：听到那消息，我不禁惊讶。 を禁じ得ない通常接驚き、涙、同情等情感名词，表示无法抑制自然反应，属于书面表达。它不是法律上的禁止，也不直接接动词普通形。与ずにはいられない相比，名词化的情感反应更突出。"
+      },
+      {
+        "id": "grammar-ja-n1-wo-kinji-enai-fill",
+        "kind": "fill",
+        "prompt": "情感反应：驚き（　）禁じ得ない。",
+        "options": [
+          "に",
+          "で",
+          "を"
+        ],
+        "acceptedAnswers": [
+          "を"
+        ],
+        "explanation": "驚き为情感名词，接を。"
+      },
+      {
+        "id": "grammar-ja-n1-wo-kinji-enai-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n此结构接情感名词驚き，不直接接动词驚く。",
+        "options": [
+          "驚きを禁じ得ない。",
+          "驚くを禁じ得ない。"
+        ],
+        "acceptedAnswers": [
+          "驚きを禁じ得ない。"
+        ],
+        "explanation": "此结构接情感名词驚き，不直接接动词驚く。"
+      },
+      {
+        "id": "grammar-ja-n1-wo-kinji-enai-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n面对不负责任的解释，我禁不住愤怒。",
+        "acceptedAnswers": [
+          "無責任な説明に怒りを禁じ得ない。"
+        ],
+        "explanation": "無責任な説明に怒りを禁じ得ない。 得ない读えない，整个形式语气较郑重。"
+      },
+      {
+        "id": "grammar-ja-n1-wo-kinji-enai-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n悲しい結末に涙を禁じ得なかった。",
+        "options": [
+          "他的努力让我禁不住感动。",
+          "看到悲伤的结局，我不禁落泪。",
+          "听到那消息，我不禁惊讶。"
+        ],
+        "acceptedAnswers": [
+          "看到悲伤的结局，我不禁落泪。"
+        ],
+        "explanation": "原句对应“看到悲伤的结局，我不禁落泪。”。得ない读えない，整个形式语气较郑重。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n1-made-mo-nai",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "V辞书形 + までもない：没必要做到那种程度",
+    "pattern": "V辞书形 + までもない",
+    "meaningZh": "没必要做到那种程度",
+    "meaningEn": "No need to go as far as",
+    "explanation": "までもない说明无需采取前项行动就能达到目的，或事情明显无需特意说明。它不表示行为禁止。言うまでもない常表示不言而喻，和言ってはいけない的禁止不同。需结合目标判断行动是否多余。",
+    "usage": "说明无需额外动作",
+    "nuance": "强调“不必到那个地步”，不否定行动本身能做。",
+    "structure": [
+      "V辞书形 + までもない"
+    ],
+    "formation": [
+      "V辞书形 + までもない"
+    ],
+    "examples": [
+      {
+        "target": "近いので、タクシーを使うまでもない。",
+        "reading": "ちかいので、たくしーをつかうまでもない。",
+        "zh": "因为很近，没必要坐出租车。"
+      },
+      {
+        "target": "答えは調べるまでもない。",
+        "reading": "こたえはしらべるまでもない。",
+        "zh": "答案无需查就知道。"
+      },
+      {
+        "target": "全員を呼ぶまでもない。",
+        "reading": "ぜんいんをよぶまでもない。",
+        "zh": "没有必要把所有人都叫来。"
+      },
+      {
+        "target": "健康が大切なのは言うまでもない。",
+        "reading": "けんこうがたいせつなのはいうまでもない。",
+        "zh": "健康的重要性不言而喻。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在说明无需额外动作中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "タクシーを使ったまでもない。（说没必要乘车）",
+        "correct": "タクシーを使うまでもない。",
+        "explanation": "不是叙述过去完成，而是判断行动无必要。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n1-made-mo-nai-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n近いので、タクシーを使うまでもない。",
+        "options": [
+          "没有必要把所有人都叫来。",
+          "因为很近，没必要坐出租车。",
+          "答案无需查就知道。"
+        ],
+        "acceptedAnswers": [
+          "因为很近，没必要坐出租车。"
+        ],
+        "explanation": "近いので、タクシーを使うまでもない。：因为很近，没必要坐出租车。 までもない说明无需采取前项行动就能达到目的，或事情明显无需特意说明。它不表示行为禁止。言うまでもない常表示不言而喻，和言ってはいけない的禁止不同。需结合目标判断行动是否多余。"
+      },
+      {
+        "id": "grammar-ja-n1-made-mo-nai-fill",
+        "kind": "fill",
+        "prompt": "无需查询：答えは（　）までもない。",
+        "options": [
+          "調べて",
+          "調べる",
+          "調べます"
+        ],
+        "acceptedAnswers": [
+          "調べる"
+        ],
+        "explanation": "是否需要这个行动，用辞书形连接。"
+      },
+      {
+        "id": "grammar-ja-n1-made-mo-nai-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n不是叙述过去完成，而是判断行动无必要。",
+        "options": [
+          "タクシーを使ったまでもない。（说没必要乘车）",
+          "タクシーを使うまでもない。"
+        ],
+        "acceptedAnswers": [
+          "タクシーを使うまでもない。"
+        ],
+        "explanation": "不是叙述过去完成，而是判断行动无必要。"
+      },
+      {
+        "id": "grammar-ja-n1-made-mo-nai-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n健康的重要性不言而喻。",
+        "acceptedAnswers": [
+          "健康が大切なのは言うまでもない。"
+        ],
+        "explanation": "健康が大切なのは言うまでもない。 强调“不必到那个地步”，不否定行动本身能做。"
+      },
+      {
+        "id": "grammar-ja-n1-made-mo-nai-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n全員を呼ぶまでもない。",
+        "options": [
+          "没有必要把所有人都叫来。",
+          "因为很近，没必要坐出租车。",
+          "答案无需查就知道。"
+        ],
+        "acceptedAnswers": [
+          "没有必要把所有人都叫来。"
+        ],
+        "explanation": "原句对应“没有必要把所有人都叫来。”。强调“不必到那个地步”，不否定行动本身能做。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n1-naradewa",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "N + ならでは：某者独有的特点",
+    "pattern": "N + ならでは",
+    "meaningZh": "某者独有的特点",
+    "meaningEn": "A quality unique to something",
+    "explanation": "ならでは突出某人、地方或领域独有的价值与体验，常接ならではの名词。不是一般的条件なら，也不必字面上证明全世界只有一个；它表达对鲜明特色的评价，通常带积极意味。",
+    "usage": "强调地方或专业的独特优势",
+    "nuance": "ならではの魅力评价特色，不是列举所有普通优点。",
+    "structure": [
+      "N + ならではの + N"
+    ],
+    "formation": [
+      "N + ならではの + N"
+    ],
+    "examples": [
+      {
+        "target": "職人ならではの技術が光る。",
+        "reading": "しょくにんならではのぎじゅつがひかる。",
+        "zh": "匠人独有的技艺格外出色。"
+      },
+      {
+        "target": "この町ならではの景色を楽しんだ。",
+        "reading": "このまちならではのけしきをたのしんだ。",
+        "zh": "我欣赏了这座小镇特有的景色。"
+      },
+      {
+        "target": "長年の経験ならではの判断だった。",
+        "reading": "ながねんのけいけんならではのはんだんだった。",
+        "zh": "那是长期经验才有的判断。"
+      },
+      {
+        "target": "小さな店ならではの親しみやすさがある。",
+        "reading": "ちいさなみせならではのしたしみやすさがある。",
+        "zh": "这里有小店特有的亲切感。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在强调地方或专业的独特优势中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "この町ならではな景色がある。",
+        "correct": "この町ならではの景色がある。",
+        "explanation": "ならでは不是な形容词，名词修饰用の。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n1-naradewa-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n職人ならではの技術が光る。",
+        "options": [
+          "我欣赏了这座小镇特有的景色。",
+          "那是长期经验才有的判断。",
+          "匠人独有的技艺格外出色。"
+        ],
+        "acceptedAnswers": [
+          "匠人独有的技艺格外出色。"
+        ],
+        "explanation": "職人ならではの技術が光る。：匠人独有的技艺格外出色。 ならでは突出某人、地方或领域独有的价值与体验，常接ならではの名词。不是一般的条件なら，也不必字面上证明全世界只有一个；它表达对鲜明特色的评价，通常带积极意味。"
+      },
+      {
+        "id": "grammar-ja-n1-naradewa-fill",
+        "kind": "fill",
+        "prompt": "这个小镇独特的景色：町ならでは（　）景色。",
+        "options": [
+          "の",
+          "な",
+          "を"
+        ],
+        "acceptedAnswers": [
+          "の"
+        ],
+        "explanation": "修饰名词使用ならではの。"
+      },
+      {
+        "id": "grammar-ja-n1-naradewa-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\nならでは不是な形容词，名词修饰用の。",
+        "options": [
+          "この町ならではの景色がある。",
+          "この町ならではな景色がある。"
+        ],
+        "acceptedAnswers": [
+          "この町ならではの景色がある。"
+        ],
+        "explanation": "ならでは不是な形容词，名词修饰用の。"
+      },
+      {
+        "id": "grammar-ja-n1-naradewa-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n这里有小店特有的亲切感。",
+        "acceptedAnswers": [
+          "小さな店ならではの親しみやすさがある。"
+        ],
+        "explanation": "小さな店ならではの親しみやすさがある。 ならではの魅力评价特色，不是列举所有普通优点。"
+      },
+      {
+        "id": "grammar-ja-n1-naradewa-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n長年の経験ならではの判断だった。",
+        "options": [
+          "匠人独有的技艺格外出色。",
+          "我欣赏了这座小镇特有的景色。",
+          "那是长期经验才有的判断。"
+        ],
+        "acceptedAnswers": [
+          "那是长期经验才有的判断。"
+        ],
+        "explanation": "原句对应“那是长期经验才有的判断。”。ならではの魅力评价特色，不是列举所有普通优点。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n1-to-aimatte",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "N + と相まって：与另一因素共同作用",
+    "pattern": "N + と相まって",
+    "meaningZh": "与另一因素共同作用",
+    "meaningEn": "In combination with another factor",
+    "explanation": "と相まって表示两个因素互相配合，产生单一因素难以解释的结果。前后要说明因素与结果，不是仅把无关的两件事并列。多用于分析、评价和书面报道，也可说AとBが相まって。",
+    "usage": "分析共同作用的原因",
+    "nuance": "Aと相まって时另一因素应在上下文可辨认。",
+    "structure": [
+      "因素Aが + 因素Bと相まって + 结果"
+    ],
+    "formation": [
+      "因素Aが + 因素Bと相まって + 结果"
+    ],
+    "examples": [
+      {
+        "target": "美しい景色が涼しい風と相まって、心地よかった。",
+        "reading": "うつくしいけしきがすずしいかぜとあいまって、ここちよかった。",
+        "zh": "美景与凉风相互配合，让人十分舒适。"
+      },
+      {
+        "target": "努力が経験と相まって、良い結果を生んだ。",
+        "reading": "どりょくがけいけんとあいまって、よいけっかをうんだ。",
+        "zh": "努力与经验共同作用，取得了好结果。"
+      },
+      {
+        "target": "照明が音楽と相まって、緊張感を高めた。",
+        "reading": "しょうめいがおんがくとあいまって、きんちょうかんをたかめた。",
+        "zh": "灯光与音乐一起加强了紧张感。"
+      },
+      {
+        "target": "支援が本人の意欲と相まって、成長につながった。",
+        "reading": "しえんがほんにんのいよくとあいまって、せいちょうにつながった。",
+        "zh": "支持与本人积极性共同促进了成长。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在分析共同作用的原因中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "照明が音楽を相まって効果を高めた。",
+        "correct": "照明が音楽と相まって効果を高めた。",
+        "explanation": "共同因素使用と连接。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n2-ni-kuwaete"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n1-to-aimatte-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\n美しい景色が涼しい風と相まって、心地よかった。",
+        "options": [
+          "美景与凉风相互配合，让人十分舒适。",
+          "努力与经验共同作用，取得了好结果。",
+          "灯光与音乐一起加强了紧张感。"
+        ],
+        "acceptedAnswers": [
+          "美景与凉风相互配合，让人十分舒适。"
+        ],
+        "explanation": "美しい景色が涼しい風と相まって、心地よかった。：美景与凉风相互配合，让人十分舒适。 と相まって表示两个因素互相配合，产生单一因素难以解释的结果。前后要说明因素与结果，不是仅把无关的两件事并列。多用于分析、评价和书面报道，也可说AとBが相まって。"
+      },
+      {
+        "id": "grammar-ja-n1-to-aimatte-fill",
+        "kind": "fill",
+        "prompt": "努力が経験（　）相まって成果を生んだ。",
+        "options": [
+          "を",
+          "に",
+          "と"
+        ],
+        "acceptedAnswers": [
+          "と"
+        ],
+        "explanation": "与另一因素共同作用用と。"
+      },
+      {
+        "id": "grammar-ja-n1-to-aimatte-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n共同因素使用と连接。",
+        "options": [
+          "照明が音楽を相まって効果を高めた。",
+          "照明が音楽と相まって効果を高めた。"
+        ],
+        "acceptedAnswers": [
+          "照明が音楽と相まって効果を高めた。"
+        ],
+        "explanation": "共同因素使用と连接。"
+      },
+      {
+        "id": "grammar-ja-n1-to-aimatte-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n支持与本人积极性共同促进了成长。",
+        "acceptedAnswers": [
+          "支援が本人の意欲と相まって、成長につながった。"
+        ],
+        "explanation": "支援が本人の意欲と相まって、成長につながった。 Aと相まって时另一因素应在上下文可辨认。"
+      },
+      {
+        "id": "grammar-ja-n1-to-aimatte-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n照明が音楽と相まって、緊張感を高めた。",
+        "options": [
+          "努力与经验共同作用，取得了好结果。",
+          "灯光与音乐一起加强了紧张感。",
+          "美景与凉风相互配合，让人十分舒适。"
+        ],
+        "acceptedAnswers": [
+          "灯光与音乐一起加强了紧张感。"
+        ],
+        "explanation": "原句对应“灯光与音乐一起加强了紧张感。”。Aと相まって时另一因素应在上下文可辨认。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n1-ga-hayai-ka",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N1",
+    "difficulty": 5,
+    "tags": [
+      "kotoba-26",
+      "structured-course"
+    ],
+    "title": "V辞书形／Vた + が早いか：刚一做便马上发生后项",
+    "pattern": "V辞书形／Vた + が早いか",
+    "meaningZh": "刚一做便马上发生后项",
+    "meaningEn": "Immediate succession",
+    "explanation": "が早いか描写前项刚发生，后项随即出现，间隔极短，常用于过去事件的生动叙述。通常不用来表达说话人的未来意志、命令或建议。两个动作不能是隔很久的普通先后，否则用後で更自然。",
+    "usage": "描写瞬间连续的行动",
+    "nuance": "与たびに的反复规律不同，这里突出一次紧接的时刻。",
+    "structure": [
+      "V辞书形 / Vた + が早いか + 瞬间发生的事实"
+    ],
+    "formation": [
+      "V辞书形 / Vた + が早いか + 瞬间发生的事实"
+    ],
+    "examples": [
+      {
+        "target": "ベルが鳴るが早いか、学生は外へ飛び出した。",
+        "reading": "べるがなるがはやいか、がくせいはそとへとびだした。",
+        "zh": "铃声刚响，学生就冲到了外面。"
+      },
+      {
+        "target": "家に着くが早いか、彼は眠ってしまった。",
+        "reading": "いえにつくがはやいか、かれはねむってしまった。",
+        "zh": "他刚到家就睡着了。"
+      },
+      {
+        "target": "扉が開くが早いか、猫が走り出した。",
+        "reading": "とびらがひらくがはやいか、ねこがはしりだした。",
+        "zh": "门一打开，猫就跑了出去。"
+      },
+      {
+        "target": "話を聞くが早いか、彼女は席を立った。",
+        "reading": "はなしをきくがはやいか、かのじょはせきをたった。",
+        "zh": "她刚一听到那话就站了起来。"
+      }
+    ],
+    "notes": [
+      "学习目标：能在描写瞬间连续的行动中理解并使用本结构。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "家に着くが早いか、勉強してください。",
+        "correct": "家に着いたら、勉強してください。",
+        "explanation": "请求宜用たら等条件形式；が早いか通常描述已经发生的瞬间事实。"
+      }
+    ],
+    "comparison": [],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [],
+    "exercises": [
+      {
+        "id": "grammar-ja-n1-ga-hayai-ka-meaning",
+        "kind": "meaning",
+        "prompt": "哪项准确理解本课第一条例句？\nベルが鳴るが早いか、学生は外へ飛び出した。",
+        "options": [
+          "门一打开，猫就跑了出去。",
+          "铃声刚响，学生就冲到了外面。",
+          "他刚到家就睡着了。"
+        ],
+        "acceptedAnswers": [
+          "铃声刚响，学生就冲到了外面。"
+        ],
+        "explanation": "ベルが鳴るが早いか、学生は外へ飛び出した。：铃声刚响，学生就冲到了外面。 が早いか描写前项刚发生，后项随即出现，间隔极短，常用于过去事件的生动叙述。通常不用来表达说话人的未来意志、命令或建议。两个动作不能是隔很久的普通先后，否则用後で更自然。"
+      },
+      {
+        "id": "grammar-ja-n1-ga-hayai-ka-fill",
+        "kind": "fill",
+        "prompt": "突出马上发生：ベルが鳴る（　）、学生は走り出した。",
+        "options": [
+          "までもない",
+          "が早いか",
+          "のたびに"
+        ],
+        "acceptedAnswers": [
+          "が早いか"
+        ],
+        "explanation": "句中叙述紧接发生的单次事实。"
+      },
+      {
+        "id": "grammar-ja-n1-ga-hayai-ka-error",
+        "kind": "error",
+        "prompt": "依据本课规则，哪句符合所给语境？\n请求宜用たら等条件形式；が早いか通常描述已经发生的瞬间事实。",
+        "options": [
+          "家に着いたら、勉強してください。",
+          "家に着くが早いか、勉強してください。"
+        ],
+        "acceptedAnswers": [
+          "家に着いたら、勉強してください。"
+        ],
+        "explanation": "请求宜用たら等条件形式；が早いか通常描述已经发生的瞬间事实。"
+      },
+      {
+        "id": "grammar-ja-n1-ga-hayai-ka-translation",
+        "kind": "translation",
+        "prompt": "参考本课例句，将下句译成目标语言：\n她刚一听到那话就站了起来。",
+        "acceptedAnswers": [
+          "話を聞くが早いか、彼女は席を立った。"
+        ],
+        "explanation": "話を聞くが早いか、彼女は席を立った。 与たびに的反复规律不同，这里突出一次紧接的时刻。"
+      },
+      {
+        "id": "grammar-ja-n1-ga-hayai-ka-context",
+        "kind": "context",
+        "prompt": "哪项准确理解下面的完整句子？\n扉が開くが早いか、猫が走り出した。",
+        "options": [
+          "门一打开，猫就跑了出去。",
+          "铃声刚响，学生就冲到了外面。",
+          "他刚到家就睡着了。"
+        ],
+        "acceptedAnswers": [
+          "门一打开，猫就跑了出去。"
+        ],
+        "explanation": "原句对应“门一打开，猫就跑了出去。”。与たびに的反复规律不同，这里突出一次紧接的时刻。"
+      }
+    ]
+  }
+]

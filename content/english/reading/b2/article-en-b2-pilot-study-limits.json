@@ -1,0 +1,120 @@
+{
+  "id": "article-en-b2-pilot-study-limits",
+  "level": "B2",
+  "title": "What a pilot study can—and cannot—tell us",
+  "topic": "science",
+  "genre": "opinion",
+  "paragraphs": [
+    "A small company tests a shorter working week for three months. At the end of the trial, employees report feeling less tired, while the number of completed projects remains roughly unchanged. The results attract attention, and a headline announces that shorter weeks improve productivity. The company has learned something useful. The headline, however, claims more than this particular trial can establish. The difference matters because other organisations may make decisions on the strength of it.",
+    "A pilot study is often designed to find out whether an idea is practical enough to investigate further. Can staff organise their tasks differently? Does the recording system capture the information researchers need? Are there costs that the original plan overlooked? These questions are valuable even when the study cannot provide a confident answer about the effect of the new policy. A pilot that reveals a serious measurement problem may be more useful than one that produces an attractive average.",
+    "In this example, the employees know they are taking part in a trial. Managers may pay closer attention to planning, and participants might work differently because they want the experiment to succeed. The projects completed during those three months may also be less demanding than usual. Without a suitable comparison, it is difficult to separate these influences from the change in working hours. This does not mean the positive results are false; it means there is more than one possible explanation.",
+    "The report also needs to explain what its measures leave out. Counting completed projects is convenient, but a quick task and a difficult task are not necessarily equal. Some improvements appear only later, while some problems can be hidden by moving unfinished work into the next month. Staff may feel less tired yet still worry about future deadlines. A single measure can make reporting simpler without making the underlying situation simpler. Good interpretation asks what changed, for whom, and over what period.",
+    "A more careful next step would compare similar teams, describe how work is measured and collect information for longer. Researchers would also need to ask whether the trial includes people with different responsibilities. A policy that suits an office team might be harder to apply in a service where someone must be available at all times. These differences are reasons to adapt the investigation, not reasons to abandon it before asking any questions.",
+    "If the company had published the full method alongside its headline results, readers might have understood these limits earlier. It can still do so. Clear reporting does not require the organisation to sound disappointed or to pretend the trial taught it nothing. It requires a distinction between an encouraging observation and a general conclusion. “The shorter week may help in this setting” is a less dramatic claim, but it gives the next organisation a better starting point: a promising idea, some evidence, and a list of questions that remain open."
+  ],
+  "translation": [
+    "一家小公司试行三个月的缩短工作周。试验结束后，员工表示疲劳减轻，而完成的项目数量大致不变。结果引起关注，新闻标题宣布缩短工作周能提高生产率。公司确实学到了一些有用的东西，但标题的断言超出了这次试验能够证明的范围。区别很重要，因为其他组织可能据此作出决策。",
+    "试点研究常用于判断一种想法是否值得进一步研究。员工能否改变任务安排？记录系统能否收集研究者需要的信息？原计划是否遗漏成本？即便无法确定新政策的效果，这些问题仍有价值。一个发现严重测量问题的试点，可能比得到漂亮平均值的试点更有用。",
+    "这个例子中的员工知道自己在参加试验。管理者可能更重视计划，参与者也可能因为希望试验成功而改变工作方式。这三个月完成的项目还可能比平时容易。缺乏合适的对照时，很难把这些影响与工时变化分开。这不意味着积极结果是假的，而是说明存在不止一种解释。",
+    "报告还需要解释指标遗漏了什么。统计完成的项目很方便，但简单任务和困难任务不一定等价。一些改善要更晚才出现；把未完成的工作推到下个月，也可能掩盖问题。员工可能更少疲劳，却仍担心未来的期限。单一指标使报告简洁，却不一定使实际情况简单。好的解读要问：什么改变了，对谁改变了，在多长时间内改变了。",
+    "更谨慎的下一步，是比较相似团队，说明工作如何计量，并收集更长时期的信息。还应检查试验是否包含职责不同的人。适合办公室团队的政策，在需要随时有人提供服务的场景中可能更难实施。这些差异是调整研究的理由，不是还没提出问题就放弃的理由。",
+    "如果公司当初在公布结果的同时发布完整方法，读者也许会更早理解这些局限。现在发布也仍然有用。清晰报告不要求组织表现失望，也不要求假装试验毫无收获，而是需要区分鼓舞人的观察与一般性结论。“缩短工作周在这个场景中可能有帮助”不那么轰动，却给下一个组织更好的起点：一个有希望的想法、一些证据，以及尚未解决的问题清单。"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-b2-hedging-may-might",
+      "surface": "may help"
+    },
+    {
+      "id": "grammar-en-b2-third-conditional",
+      "surface": "If the company had published"
+    }
+  ],
+  "notes": [
+    "This is a hypothetical case, not a report about a named company. A pilot study’s ability to establish effects depends on its actual design; “pilot” alone does not settle the question."
+  ],
+  "questions": [
+    {
+      "id": "article-en-b2-pilot-study-limits-q1",
+      "type": "main-idea",
+      "prompt": "What is the author’s central argument?",
+      "options": [
+        "Promising pilot results need claims that match the design and evidence.",
+        "Pilot studies never produce useful information.",
+        "Shorter working weeks always improve productivity."
+      ],
+      "answer": 0,
+      "explanation": "文章认可试点的价值，但反对超出证据范围的结论。"
+    },
+    {
+      "id": "article-en-b2-pilot-study-limits-q2",
+      "type": "detail",
+      "prompt": "Which issue makes a project count difficult to interpret?",
+      "options": [
+        "Employees are forbidden to record completed projects.",
+        "Every project lasts exactly three months.",
+        "Projects can differ in difficulty and unfinished work can move into a later month."
+      ],
+      "answer": 2,
+      "explanation": "第四段说明项目计数不能自动反映难度、延迟收益或推迟的工作。"
+    },
+    {
+      "id": "article-en-b2-pilot-study-limits-q3",
+      "type": "inference",
+      "prompt": "Why mention that participants want the trial to succeed?",
+      "options": [
+        "The company should refuse to ask them questions.",
+        "Their behaviour may change for reasons beyond the policy itself.",
+        "Their reports must therefore be deliberately dishonest."
+      ],
+      "answer": 1,
+      "explanation": "参与研究可能引发额外行为变化，不能直接推断虚假报告。"
+    },
+    {
+      "id": "article-en-b2-pilot-study-limits-q4",
+      "type": "grammar",
+      "prompt": "Why use “may help in this setting” in the final paragraph?",
+      "options": [
+        "It marks possibility and limits the claim to the studied context.",
+        "It gives permission for employees to leave work.",
+        "It says the effect is certain in every organisation."
+      ],
+      "answer": 0,
+      "explanation": "may 在这里是有保留的判断，in this setting 进一步限制适用范围。"
+    },
+    {
+      "id": "article-en-b2-pilot-study-limits-q5",
+      "type": "author-intent",
+      "prompt": "What role does the example of a continuously available service play?",
+      "options": [
+        "It proves office teams should work longer hours.",
+        "It shows that all comparisons are impossible.",
+        "It shows why a policy may need further investigation and adaptation."
+      ],
+      "answer": 2,
+      "explanation": "不同职责说明不能直接推广，应调整下一步研究。"
+    }
+  ],
+  "kind": "reading",
+  "language": "en",
+  "difficulty": 4,
+  "tags": [
+    "science",
+    "critical-reading"
+  ],
+  "estimatedMinutes": 7,
+  "vocabulary": [
+    "supp-en-a1-9",
+    "supp-en-a1-11",
+    "lex-en-a1-work",
+    "complete-en-a1-week",
+    "complete-en-a1-help",
+    "complete-en-a1-want",
+    "complete-en-a1-need",
+    "complete-en-a1-good",
+    "course-en-a2-12",
+    "supp-en-a2-6",
+    "supp-en-a2-11",
+    "supp-en-a2-12"
+  ]
+}

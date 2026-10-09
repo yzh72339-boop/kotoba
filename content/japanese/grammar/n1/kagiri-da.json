@@ -1,0 +1,133 @@
+{
+  "id": "grammar-ja-n1-kagiri-da",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N1",
+  "difficulty": 5,
+  "tags": [
+    "emotion",
+    "formal-expression"
+  ],
+  "title": "〜限りだ",
+  "pattern": "〜限りだ",
+  "meaningZh": "极其……；非常……",
+  "meaningEn": "An intense feeling expressed by the speaker",
+  "explanation": "接在うれしい、悲しい、残念な、心強い等情绪或评价表达后，强调说话者的强烈感受。与表示范围或条件的限り不是同一个用法。它常出现在较正式的感想、感谢和评价中，前项不能随意换成只表示尺寸、颜色或动作速度的词，否则通常不是这种情绪表达。",
+  "usage": "郑重表达欣喜、遗憾、羞愧或感到可靠等感受。",
+  "nuance": "うれしい限りです比简单的うれしいです更突出由衷的强烈情感，常适合书面感谢或正式发言。",
+  "structure": [
+    "情感い形容词 + 限りだ",
+    "情感な形容词 + な限りだ"
+  ],
+  "formation": [
+    "情感い形容词 + 限りだ",
+    "情感な形容词 + な限りだ"
+  ],
+  "examples": [
+    {
+      "target": "皆さんに会えて、うれしい限りです。",
+      "reading": "みなさんにあえて、うれしいかぎりです。",
+      "zh": "能见到各位，我非常高兴。"
+    },
+    {
+      "target": "突然の中止は、残念な限りだ。",
+      "reading": "とつぜんのちゅうしは、ざんねんなかぎりだ。",
+      "zh": "突然取消，实在令人遗憾。"
+    },
+    {
+      "target": "応援してくださる方がいて、心強い限りです。",
+      "reading": "おうえんしてくださるかたがいて、こころづよいかぎりです。",
+      "zh": "有大家支持，我倍感安心。"
+    },
+    {
+      "target": "自分の確認不足で、恥ずかしい限りです。",
+      "reading": "じぶんのかくにんぶそくで、はずかしいかぎりです。",
+      "zh": "是我确认不足，实在惭愧。"
+    }
+  ],
+  "notes": [
+    "限りだ直接强化说话者的情绪；ものがある更像指出某事中有值得感受或评价的特点。",
+    "JLPT等级为课程编排参考，不是官方的穷尽式语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "残念だ限りです。",
+      "correct": "残念な限りです。",
+      "explanation": "な形容词在这里用な连接限り，不用だ。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n2-mono-ga-aru",
+      "explanation": "限りだ直接强化说话者的情绪；ものがある更像指出某事中有值得感受或评价的特点。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n2-mono-ga-aru"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n1-kagiri-da-meaning",
+      "kind": "meaning",
+      "prompt": "这个表达在上述语境中主要表示什么？",
+      "options": [
+        "极其……；非常……",
+        "只表示未来一定发生的动作",
+        "要求听者必须立即执行命令"
+      ],
+      "acceptedAnswers": [
+        "极其……；非常……"
+      ],
+      "explanation": "うれしい限りです比简单的うれしいです更突出由衷的强烈情感，常适合书面感谢或正式发言。"
+    },
+    {
+      "id": "grammar-ja-n1-kagiri-da-fill",
+      "kind": "fill",
+      "prompt": "突然の中止は、残念な（　）。",
+      "options": [
+        "限りだ",
+        "限りのだを",
+        "限ってだ"
+      ],
+      "acceptedAnswers": [
+        "限りだ"
+      ],
+      "explanation": "情感い形容词 + 限りだ / 情感な形容词 + な限りだ"
+    },
+    {
+      "id": "grammar-ja-n1-kagiri-da-error",
+      "kind": "error",
+      "prompt": "修正这个接续错误：残念だ限りです。",
+      "acceptedAnswers": [
+        "残念な限りです。"
+      ],
+      "explanation": "な形容词在这里用な连接限り，不用だ。"
+    },
+    {
+      "id": "grammar-ja-n1-kagiri-da-translation",
+      "kind": "translation",
+      "prompt": "能见到各位，我非常高兴。",
+      "acceptedAnswers": [
+        "皆さんに会えて、うれしい限りです。"
+      ],
+      "explanation": "参考表达：皆さんに会えて、うれしい限りです。。其他自然表达也可对照当前语法结构确认。"
+    },
+    {
+      "id": "grammar-ja-n1-kagiri-da-example-meaning-26",
+      "kind": "context",
+      "prompt": "在本课语境中，哪项最准确理解这句话？\n自分の確認不足で、恥ずかしい限りです。",
+      "options": [
+        "突然取消，实在令人遗憾。",
+        "是我确认不足，实在惭愧。",
+        "能见到各位，我非常高兴。"
+      ],
+      "acceptedAnswers": [
+        "是我确认不足，实在惭愧。"
+      ],
+      "explanation": "本句的中文是“是我确认不足，实在惭愧。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。うれしい限りです比简单的うれしいです更突出由衷的强烈情感，常适合书面感谢或正式发言。"
+    }
+  ]
+}

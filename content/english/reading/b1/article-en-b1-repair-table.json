@@ -1,0 +1,128 @@
+{
+  "id": "article-en-b1-repair-table",
+  "kind": "reading",
+  "language": "en",
+  "level": "B1",
+  "title": "A repair table with a waiting list",
+  "difficulty": 3,
+  "tags": [
+    "community",
+    "original",
+    "graded-reading"
+  ],
+  "topic": "community",
+  "genre": "story",
+  "estimatedMinutes": 4,
+  "paragraphs": [
+    "Our neighbourhood has held a repair afternoon once a month since March. Residents bring small items to a table in the community hall, where volunteers help them decide what can be repaired. I joined the group last Saturday with a lamp that had stopped working. I expected to leave it with an expert and collect it later. Instead, a volunteer asked me to sit beside her while she checked it.",
+    "The lamp was not repaired immediately. Its cable was damaged, and a suitable replacement had to be ordered. The volunteer explained what she had checked and wrote the part number on a card. She did not promise that the lamp would work after the cable was replaced. Another problem might appear when the first one was fixed. I appreciated the careful explanation, even though it meant another visit.",
+    "While we waited, I spoke to a woman who had brought a jacket. Before coming to the hall, she had watched a video about replacing a zip. She still could not work out where to begin. A volunteer helped her practise on a piece of spare cloth before touching the jacket. The task took longer than she had expected, but she said that she now understood the first step.",
+    "By lunchtime, people were waiting outside. The organisers had prepared ten appointment cards, but more than twenty residents had arrived. They asked visitors whether they could return in the afternoon. Some could; others had already arranged transport home. We realised that a fair waiting system would need more thought than simply giving everyone a number.",
+    "I have not collected my lamp yet, so I cannot call the visit a complete success. However, I have learned how to describe its problem and what to ask next time. The group has now added a booking option, while keeping a few places for people who cannot book online. The repair table is useful not just because things may work again. It also gives people a chance to understand a task that once seemed impossible."
+  ],
+  "translation": [
+    "从三月起，我们社区每月举行一次维修下午活动。居民把小物件带到社区大厅，志愿者帮助判断哪些可以修理。上周六，我带着一盏坏了的灯加入活动。我以为交给专家，稍后取回即可，但一位志愿者请我坐在旁边，看她检查。",
+    "灯没有当场修好。电线已损坏，需要订购合适的替换件。志愿者解释了检查内容，把零件编号写在卡片上。她没有保证换线后灯一定能工作，因为修复第一个问题后，可能还会发现别的问题。虽然要再跑一趟，我仍感谢这番谨慎解释。",
+    "等待时，我和一位带夹克来的女士聊天。来大厅之前，她看过更换拉链的视频，却仍不知从何下手。志愿者先帮她在一块备用布料上练习，然后才处理夹克。任务比预期耗时，但她说自己终于理解了第一步。",
+    "午餐时，人们已在外面排队。组织者准备了十张预约卡，却来了二十多位居民。他们问访客能否下午再来，有些人可以，有些人已安排了回家的交通。我们意识到，公平的等待安排不能只靠给每个人一个号码。",
+    "我还没取回灯，因此不能说这次活动完全成功。不过，我已学会描述问题，也知道下次该问什么。团队现在增加了预约选项，同时为无法网上预约的人保留几个名额。维修桌的价值不仅在于东西可能恢复功能，也在于帮助人们理解曾经看似不可能的任务。"
+  ],
+  "vocabulary": [
+    "course-en-a1-3",
+    "course-en-a1-6",
+    "supp-en-a1-8",
+    "supp-en-a1-9",
+    "lex-en-a1-time",
+    "lex-en-a1-work",
+    "complete-en-a1-help",
+    "complete-en-a1-need",
+    "course-en-a2-1",
+    "course-en-a2-7",
+    "course-en-a2-12",
+    "supp-en-a2-4"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-b1-present-perfect-and-past-simple",
+      "surface": "has held"
+    },
+    {
+      "id": "grammar-en-b1-past-perfect-sequence",
+      "surface": "had watched"
+    },
+    {
+      "id": "grammar-en-b1-defining-relative-clauses",
+      "surface": "who had brought a jacket"
+    },
+    {
+      "id": "grammar-en-b1-passive-processes",
+      "surface": "had to be ordered"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-b1-repair-table-q1",
+      "type": "main-idea",
+      "prompt": "What does the narrator learn from the repair afternoon?",
+      "options": [
+        "Getting an item repaired can also involve understanding the work and its limits.",
+        "Every visitor can expect a complete repair during the first visit.",
+        "Volunteers should always do the work without explaining it."
+      ],
+      "answer": 0,
+      "explanation": "活动既帮助处理物件，也让居民了解步骤、风险和需要继续确认的事情。"
+    },
+    {
+      "id": "article-en-b1-repair-table-q2",
+      "type": "detail",
+      "prompt": "Why does the lamp need another visit?",
+      "options": [
+        "The narrator left the lamp at home.",
+        "The volunteer refused to examine electrical items.",
+        "A replacement cable has to be obtained, and further checks may still be needed."
+      ],
+      "answer": 2,
+      "explanation": "第二段说明要订电线，并且换线后也未必解决所有问题。"
+    },
+    {
+      "id": "article-en-b1-repair-table-q3",
+      "type": "inference",
+      "prompt": "Why practise on spare cloth before working on the jacket?",
+      "options": [
+        "It avoids the need to replace the zip at all.",
+        "It allows the visitor to try a step without immediately risking the jacket.",
+        "It proves that watching videos is always useless."
+      ],
+      "answer": 1,
+      "explanation": "练习布提供了尝试步骤的机会；文章并没有否定所有视频教学。"
+    },
+    {
+      "id": "article-en-b1-repair-table-q4",
+      "type": "grammar",
+      "prompt": "Why is “had watched” used in the jacket paragraph?",
+      "options": [
+        "Watching the video happened before the woman came to the hall.",
+        "Watching the video is an unfinished habit in the present.",
+        "The video will be watched after the repair."
+      ],
+      "answer": 0,
+      "explanation": "过去完成时把看视频放在过去来到大厅之前。"
+    },
+    {
+      "id": "article-en-b1-repair-table-q5",
+      "type": "author-intent",
+      "prompt": "Why mention places for people who cannot book online?",
+      "options": [
+        "To show that the organisers plan to stop taking bookings.",
+        "To claim that everyone has the same access to online tools.",
+        "To show that improving the queue should consider different visitors’ needs."
+      ],
+      "answer": 2,
+      "explanation": "预约便利之外，也需要给无法在线操作的人留入口。"
+    }
+  ],
+  "notes": [
+    "原创学习文章，人物、团队与活动为虚构情境，不是新闻报道或研究结论。",
+    "等级为教学分级参考；语法解释与阅读理解采用文内证据，开放讨论允许不同有依据的判断。"
+  ]
+}

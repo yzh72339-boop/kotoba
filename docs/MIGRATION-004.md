@@ -25,7 +25,7 @@
 
 ## 用户当前步骤
 
-1. 修正版004已由用户执行且返回版本001/002/003/004。Supabase 项目 ocbydnsqennrumowqxvu → SQL Editor → New query，角色 postgres；完整004只读验收现已通过，以下步骤保留供审计。
+1. 修正版004已由用户执行且返回版本001/002/003/004。Supabase 项目 your-project → SQL Editor → New query，角色 postgres；完整004只读验收现已通过，以下步骤保留供审计。
 2. 不重跑004_deploy.sql。部署回执已保存，部署成功不等于完整只读验收或运行时验收通过。
 3. 新查询完整执行 004_verify.sql。该文件只有读取，不伪造 JWT、不变更 role、不调用 RPC、不插入 fixture。
 4. 返回完整 migration_004_verification，预期 problems=[]、tables=42、starter_grammar=3、starter_articles=2、starter_listening=2、private_buckets=3；四个 browser_*_access=false，其余布尔检查=true。

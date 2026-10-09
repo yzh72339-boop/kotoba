@@ -1,10 +1,12 @@
+> Current 2026-10-09: production 001–011 have user-supplied receipts; the private account was already created. This round reached the real Data API and confirmed anonymous vocabulary denial (42501) and Google provider enabled. The owner reports successful phone learning/save/sync/reload following 011. This executor has no authenticated browser session; current mobile changes, second-device convergence and offline/PWA reconnection remain unverified on devices. See PHONE-EXPERIENCE-CHECKPOINT.md. Do not rerun migrations or create the owner again. Earlier step-by-step database chronology below is historical.
+
 > 最新账号状态：私人账号已经创建并通过完整只读检查（邮箱确认、UID绑定、Profile和en/B1、ja/N3）。不要再次创建账号。最新Auth API仍显示disable_signup=false；当前唯一人工步骤为关闭公共注册。见LOGIN-ACCEPTANCE.md。
 
 > 最新状态（2026-10-05）：001–009真实只读检查通过；依赖、TypeScript、零警告Lint、57项测试及生产Build通过。Supabase Auth/Data API连通和匿名词汇拒绝已验证；owner账号仍未创建，公共注册需关闭，实际登录/同步/安装待验收。当前操作见[FIRST-RUN.md](FIRST-RUN.md)。旧段落中的网络/Build阻塞属于历史记录，不代表最新状态。
 
 # 真实数据库检查状态
 
-用户已在 Supabase 项目 `ocbydnsqennrumowqxvu` 的 SQL Editor 执行 `00_remote_inventory.sql`，并提交完整结果。
+用户已在 Supabase 项目 `your-project` 的 SQL Editor 执行 `00_remote_inventory.sql`，并提交完整结果。
 
 已由该结果确认：
 

@@ -23,7 +23,7 @@ select jsonb_build_object(
   where t.tgrelid='auth.users'::regclass and not t.tgisinternal
  ),'[]'::jsonb),
  'owner_auth_account_count',(
-  select count(*) from auth.users where lower(email)='yzh72339@gmail.com'
+  select count(*) from auth.users where lower(email)='owner@example.com'
  ),
  'existing_app_buckets',coalesce((
   select jsonb_agg(jsonb_build_object('id',id,'public',public) order by id)

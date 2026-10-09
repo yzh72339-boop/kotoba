@@ -1,0 +1,3949 @@
+[
+  {
+    "id": "grammar-ja-n2-ni-tomonatte",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "变化",
+      "社会"
+    ],
+    "kind": "grammar",
+    "title": "〜に伴って",
+    "pattern": "〜に伴って",
+    "meaningZh": "随着……；伴随……",
+    "meaningEn": "as a change brings an accompanying change",
+    "explanation": "把两个具有联系的变化放在一起：前项变化发生时，后项也出现相应变化。常见于人口、技术、制度等社会话题，后项不必与前项严格同时发生。名词接「に伴って」，动词通常用辞书形；「に伴う＋名词」可以直接修饰另一种变化。",
+    "usage": "描述制度、规模或环境变化带来的连带变化。",
+    "nuance": "比「につれて」更书面，强调伴随关系，不能只表示偶然同一天发生。",
+    "structure": [
+      "N＋に伴って",
+      "V辞书形＋に伴って",
+      "N＋に伴う＋N"
+    ],
+    "formation": [
+      "N＋に伴って",
+      "V辞书形＋に伴って",
+      "N＋に伴う＋N"
+    ],
+    "examples": [
+      {
+        "target": "人口の増加に伴って、住宅の需要も増えている。",
+        "reading": "じんこうのぞうかにともなって、じゅうたくのじゅようもふえている。",
+        "zh": "随着人口增加，住宅需求也在增长。"
+      },
+      {
+        "target": "技術が進歩するに伴って、働き方が変わってきた。",
+        "reading": "ぎじゅつがしんぽするにともなって、はたらきかたがかわってきた。",
+        "zh": "随着技术进步，工作方式逐渐改变。"
+      },
+      {
+        "target": "制度の変更に伴う費用を確認した。",
+        "reading": "せいどのへんこうにともなうひようをかくにんした。",
+        "zh": "我确认了制度变更带来的费用。"
+      },
+      {
+        "target": "気温の上昇に伴って、電力の消費が増える。",
+        "reading": "きおんのじょうしょうにともなって、でんりょくのしょうひがふえる。",
+        "zh": "随着气温升高，电力消耗增加。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "人口が増えるを伴って、需要が増えた。",
+        "correct": "人口が増えるに伴って、需要が増えた。",
+        "explanation": "这一接续使用动词辞书形 + に伴って，不能把助词 に 改为 を。名词接续同样用 に。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-ni-tsurete",
+        "explanation": "「につれて」常强调渐进变化；「に伴って」也能说明一次制度变更带来的影响。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-ni-tsurete"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-ni-tomonatte-meaning",
+        "kind": "meaning",
+        "prompt": "「〜に伴って」在本课中的核心意思是什么？",
+        "options": [
+          "随着……；伴随……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "随着……；伴随……"
+        ],
+        "explanation": "比「につれて」更书面，强调伴随关系，不能只表示偶然同一天发生。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-tomonatte-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：人口の増加＿＿、住宅の需要も増えている。",
+        "acceptedAnswers": [
+          "に伴って"
+        ],
+        "explanation": "N＋に伴って；V辞书形＋に伴って；N＋に伴う＋N"
+      },
+      {
+        "id": "grammar-ja-n2-ni-tomonatte-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：人口が増えるのに伴って、需要が増えた。",
+        "acceptedAnswers": [
+          "人口が増えるに伴って、需要が増えた。"
+        ],
+        "explanation": "动词辞书形可直接接「に伴って」，不要照名词形式加入「の」。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-tomonatte-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：我确认了制度变更带来的费用。",
+        "acceptedAnswers": [
+          "制度の変更に伴う費用を確認した。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-tomonatte-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n気温の上昇に伴って、電力の消費が増える。",
+        "options": [
+          "随着气温升高，电力消耗增加。",
+          "随着人口增加，住宅需求也在增长。",
+          "随着技术进步，工作方式逐渐改变。"
+        ],
+        "acceptedAnswers": [
+          "随着气温升高，电力消耗增加。"
+        ],
+        "explanation": "本句的中文是“随着气温升高，电力消耗增加。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。比「につれて」更书面，强调伴随关系，不能只表示偶然同一天发生。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-ni-tsurete",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "变化",
+      "过程"
+    ],
+    "kind": "grammar",
+    "title": "〜につれて",
+    "pattern": "〜につれて",
+    "meaningZh": "随着……逐渐……",
+    "meaningEn": "as one gradual change develops with another",
+    "explanation": "说明前项变化逐步发展时，后项也随之变化。两项通常都具有变化过程，例如年龄增长、理解加深、天色变暗。后项多描述自然发展，不适合接一次性的命令、邀请或个人决定。",
+    "usage": "描写数量、程度、情绪或能力的渐进变化。",
+    "nuance": "关注变化过程，不只是列出两个同时发生的动作。",
+    "structure": [
+      "V辞书形＋につれて",
+      "变化类N＋につれて"
+    ],
+    "formation": [
+      "V辞书形＋につれて",
+      "变化类N＋につれて"
+    ],
+    "examples": [
+      {
+        "target": "練習を重ねるにつれて、少しずつ自信がついた。",
+        "reading": "れんしゅうをかさねるにつれて、すこしずつじしんがついた。",
+        "zh": "随着反复练习，我逐渐有了信心。"
+      },
+      {
+        "target": "夜が更けるにつれて、通りは静かになった。",
+        "reading": "よるがふけるにつれて、とおりはしずかになった。",
+        "zh": "随着夜色渐深，街道安静下来。"
+      },
+      {
+        "target": "年齢が上がるにつれて、生活の優先順位が変わった。",
+        "reading": "ねんれいがあがるにつれて、せいかつのゆうせんじゅんいがかわった。",
+        "zh": "随着年龄增长，生活中的优先顺序改变了。"
+      },
+      {
+        "target": "話を聞くにつれて、問題の深刻さが分かってきた。",
+        "reading": "はなしをきくにつれて、もんだいのしんこくさがわかってきた。",
+        "zh": "随着继续听下去，我逐渐理解了问题的严重性。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "年齢が上がるにつれて、明日電話してください。",
+        "correct": "年齢が上がるにつれて、考え方が変わった。",
+        "explanation": "后项需要体现随前项发展的变化，不接无关的一次性命令。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-ni-tomonatte",
+        "explanation": "两者都可表示变化；「につれて」突出逐步发展，「に伴って」偏向连带结果。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-ni-tomonatte"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-ni-tsurete-meaning",
+        "kind": "meaning",
+        "prompt": "「〜につれて」在本课中的核心意思是什么？",
+        "options": [
+          "随着……逐渐……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "随着……逐渐……"
+        ],
+        "explanation": "关注变化过程，不只是列出两个同时发生的动作。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-tsurete-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：練習を重ねる＿＿、少しずつ自信がついた。",
+        "acceptedAnswers": [
+          "につれて"
+        ],
+        "explanation": "V辞书形＋につれて；变化类N＋につれて"
+      },
+      {
+        "id": "grammar-ja-n2-ni-tsurete-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：年齢が上がるにつれて、明日電話してください。",
+        "acceptedAnswers": [
+          "年齢が上がるにつれて、考え方が変わった。"
+        ],
+        "explanation": "后项需要体现随前项发展的变化，不接无关的一次性命令。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-tsurete-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：随着年龄增长，生活中的优先顺序改变了。",
+        "acceptedAnswers": [
+          "年齢が上がるにつれて、生活の優先順位が変わった。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-tsurete-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n話を聞くにつれて、問題の深刻さが分かってきた。",
+        "options": [
+          "随着继续听下去，我逐渐理解了问题的严重性。",
+          "随着反复练习，我逐渐有了信心。",
+          "随着夜色渐深，街道安静下来。"
+        ],
+        "acceptedAnswers": [
+          "随着继续听下去，我逐渐理解了问题的严重性。"
+        ],
+        "explanation": "本句的中文是“随着继续听下去，我逐渐理解了问题的严重性。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。关注变化过程，不只是列出两个同时发生的动作。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-ni-shitagatte",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "变化",
+      "规则"
+    ],
+    "kind": "grammar",
+    "title": "〜に従って",
+    "pattern": "〜に従って",
+    "meaningZh": "随着……；按照……",
+    "meaningEn": "as a change develops; in accordance with",
+    "explanation": "有两种主要用法。变化用法表示前项越发展，后项也越发生变化；遵循用法表示依照规则、指示或顺序行动。判断时看前项是否为变化过程，或可供遵守的标准，不要机械地都翻译为「随着」。",
+    "usage": "说明渐进趋势，或按说明、法律与指示操作。",
+    "nuance": "变化用法近似「につれて」；规则用法更接近「按照」。",
+    "structure": [
+      "V辞书形＋に従って（变化）",
+      "N＋に従って（规则、变化）"
+    ],
+    "formation": [
+      "V辞书形＋に従って（变化）",
+      "N＋に従って（规则、变化）"
+    ],
+    "examples": [
+      {
+        "target": "説明書に従って、部品を取り付けた。",
+        "reading": "せつめいしょにしたがって、ぶひんをとりつけた。",
+        "zh": "我按照说明书安装了零件。"
+      },
+      {
+        "target": "経験が増えるに従って、判断が早くなった。",
+        "reading": "けいけんがふえるにしたがって、はんだんがはやくなった。",
+        "zh": "随着经验增加，判断更快了。"
+      },
+      {
+        "target": "係員の指示に従って、出口へ進んでください。",
+        "reading": "かかりいんのしじにしたがって、でぐちへすすんでください。",
+        "zh": "请按照工作人员的指示走向出口。"
+      },
+      {
+        "target": "山を登るに従って、気温が下がっていく。",
+        "reading": "やまをのぼるにしたがって、きおんがさがっていく。",
+        "zh": "随着往山上走，气温逐渐下降。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "説明書に従って、だんだん説明書が増えた。",
+        "correct": "説明書に従って、設備を点検した。",
+        "explanation": "「説明書に従って」表示遵照说明，不包含说明书数量变化的含义。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-ni-tsurete",
+        "explanation": "「につれて」没有「遵守规则」的用法，因此不能替换「指示に従って」。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-ni-tsurete"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-ni-shitagatte-meaning",
+        "kind": "meaning",
+        "prompt": "「〜に従って」在本课中的核心意思是什么？",
+        "options": [
+          "随着……；按照……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "随着……；按照……"
+        ],
+        "explanation": "变化用法近似「につれて」；规则用法更接近「按照」。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-shitagatte-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：説明書＿＿、部品を取り付けた。",
+        "acceptedAnswers": [
+          "に従って"
+        ],
+        "explanation": "V辞书形＋に従って（变化）；N＋に従って（规则、变化）"
+      },
+      {
+        "id": "grammar-ja-n2-ni-shitagatte-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：説明書に従って、だんだん説明書が増えた。",
+        "acceptedAnswers": [
+          "説明書に従って、設備を点検した。"
+        ],
+        "explanation": "「説明書に従って」表示遵照说明，不包含说明书数量变化的含义。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-shitagatte-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：请按照工作人员的指示走向出口。",
+        "acceptedAnswers": [
+          "係員の指示に従って、出口へ進んでください。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-shitagatte-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n山を登るに従って、気温が下がっていく。",
+        "options": [
+          "随着往山上走，气温逐渐下降。",
+          "我按照说明书安装了零件。",
+          "随着经验增加，判断更快了。"
+        ],
+        "acceptedAnswers": [
+          "随着往山上走，气温逐渐下降。"
+        ],
+        "explanation": "本句的中文是“随着往山上走，气温逐渐下降。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。变化用法近似「につれて」；规则用法更接近「按照」。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-ni-oujite",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "条件",
+      "工作"
+    ],
+    "kind": "grammar",
+    "title": "〜に応じて",
+    "pattern": "〜に応じて",
+    "meaningZh": "根据……作相应调整",
+    "meaningEn": "according to the needs or conditions of",
+    "explanation": "表示面对不同条件、要求或程度，后项采取相应的方式。重点是有针对性的调整，例如按能力安排课程、按人数准备材料。前项多为名词；也可用「に応じた＋名词」说明经过调整的方案。",
+    "usage": "介绍个性化安排、按条件变动的规则和灵活应对。",
+    "nuance": "不是随意依赖某件事，而是条件与处理方式之间有对应关系。",
+    "structure": [
+      "N＋に応じて",
+      "N＋に応じた＋N"
+    ],
+    "formation": [
+      "N＋に応じて",
+      "N＋に応じた＋N"
+    ],
+    "examples": [
+      {
+        "target": "参加者の人数に応じて、資料を用意する。",
+        "reading": "さんかしゃのにんずうにおうじて、しりょうをよういする。",
+        "zh": "根据参加人数准备资料。"
+      },
+      {
+        "target": "相手の理解に応じて、説明の仕方を変えた。",
+        "reading": "あいてのりかいにおうじて、せつめいのしかたをかえた。",
+        "zh": "我根据对方的理解情况调整了说明方式。"
+      },
+      {
+        "target": "能力に応じた練習を選ぶことが大切だ。",
+        "reading": "のうりょくにおうじたれんしゅうをえらぶことがたいせつだ。",
+        "zh": "选择符合能力的练习很重要。"
+      },
+      {
+        "target": "状況に応じて、集合場所を変更する。",
+        "reading": "じょうきょうにおうじて、しゅうごうばしょをへんこうする。",
+        "zh": "根据情况更改集合地点。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "人数を応じて、席を増やした。",
+        "correct": "人数に応じて、席を増やした。",
+        "explanation": "条件名词用助词「に」连接，不用「を」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-ni-shitagatte",
+        "explanation": "「に従って」侧重遵循既有标准；「に応じて」侧重随不同条件作适配。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-ni-shitagatte"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-ni-oujite-meaning",
+        "kind": "meaning",
+        "prompt": "「〜に応じて」在本课中的核心意思是什么？",
+        "options": [
+          "根据……作相应调整",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "根据……作相应调整"
+        ],
+        "explanation": "不是随意依赖某件事，而是条件与处理方式之间有对应关系。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-oujite-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：参加者の人数＿＿、資料を用意する。",
+        "acceptedAnswers": [
+          "に応じて"
+        ],
+        "explanation": "N＋に応じて；N＋に応じた＋N"
+      },
+      {
+        "id": "grammar-ja-n2-ni-oujite-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：人数を応じて、席を増やした。",
+        "acceptedAnswers": [
+          "人数に応じて、席を増やした。"
+        ],
+        "explanation": "条件名词用助词「に」连接，不用「を」。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-oujite-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：选择符合能力的练习很重要。",
+        "acceptedAnswers": [
+          "能力に応じた練習を選ぶことが大切だ。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-oujite-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n状況に応じて、集合場所を変更する。",
+        "options": [
+          "根据情况更改集合地点。",
+          "根据参加人数准备资料。",
+          "我根据对方的理解情况调整了说明方式。"
+        ],
+        "acceptedAnswers": [
+          "根据情况更改集合地点。"
+        ],
+        "explanation": "本句的中文是“根据情况更改集合地点。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。不是随意依赖某件事，而是条件与处理方式之间有对应关系。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-ni-kanshite",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "话题",
+      "书面语"
+    ],
+    "kind": "grammar",
+    "title": "〜に関して",
+    "pattern": "〜に関して",
+    "meaningZh": "关于……；就……而言",
+    "meaningEn": "concerning a topic",
+    "explanation": "将某个话题明确为说明、提问或讨论的范围。名词后接「に関して」，较「について」更书面，常用于资料、会议或正式通知。「に関する＋名词」则用来修饰有关该话题的文件或信息。",
+    "usage": "引出正式讨论、通知或资料涉及的主题。",
+    "nuance": "表示主题范围，不自动含有赞成、反对或因果关系。",
+    "structure": [
+      "N＋に関して",
+      "N＋に関する＋N"
+    ],
+    "formation": [
+      "N＋に関して",
+      "N＋に関する＋N"
+    ],
+    "examples": [
+      {
+        "target": "契約に関して、確認したい点が二つある。",
+        "reading": "けいやくにかんして、かくにんしたいてんがふたつある。",
+        "zh": "关于合同，我有两点想确认。"
+      },
+      {
+        "target": "環境に関する資料を集めている。",
+        "reading": "かんきょうにかんするしりょうをあつめている。",
+        "zh": "我在收集有关环境的资料。"
+      },
+      {
+        "target": "応募資格に関しては、担当者に問い合わせてください。",
+        "reading": "おうぼしかくにかんしては、たんとうしゃにといあわせてください。",
+        "zh": "有关应聘资格，请向负责人咨询。"
+      },
+      {
+        "target": "安全に関して、全員で意見を交換した。",
+        "reading": "あんぜんにかんして、ぜんいんでいけんをこうかんした。",
+        "zh": "大家就安全问题交换了意见。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "環境に関する、話し合った。",
+        "correct": "環境に関して、話し合った。",
+        "explanation": "连接后面「讨论」这一动作，用「に関して」；「に関する」用来修饰名词。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-ni-taishite",
+        "explanation": "「に関して」指话题；「に対して」常指出动作对象或两者对照。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-ni-taishite"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-ni-kanshite-meaning",
+        "kind": "meaning",
+        "prompt": "「〜に関して」在本课中的核心意思是什么？",
+        "options": [
+          "关于……；就……而言",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "关于……；就……而言"
+        ],
+        "explanation": "表示主题范围，不自动含有赞成、反对或因果关系。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kanshite-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：契約＿＿、確認したい点が二つある。",
+        "acceptedAnswers": [
+          "に関して"
+        ],
+        "explanation": "N＋に関して；N＋に関する＋N"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kanshite-error",
+        "kind": "error",
+        "prompt": "纠正接续：環境に関する、話し合った。",
+        "acceptedAnswers": [
+          "環境に関して、話し合った。"
+        ],
+        "explanation": "连接后面「讨论」这一动作，用「に関して」；「に関する」用来修饰名词。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kanshite-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：有关应聘资格，请向负责人咨询。",
+        "acceptedAnswers": [
+          "応募資格に関しては、担当者に問い合わせてください。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kanshite-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n安全に関して、全員で意見を交換した。",
+        "options": [
+          "大家就安全问题交换了意见。",
+          "关于合同，我有两点想确认。",
+          "我在收集有关环境的资料。"
+        ],
+        "acceptedAnswers": [
+          "大家就安全问题交换了意见。"
+        ],
+        "explanation": "本句的中文是“大家就安全问题交换了意见。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。表示主题范围，不自动含有赞成、反对或因果关系。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-ni-taishite",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "对象",
+      "对比"
+    ],
+    "kind": "grammar",
+    "title": "〜に対して",
+    "pattern": "〜に対して",
+    "meaningZh": "对于……；与……相对",
+    "meaningEn": "towards a target; in contrast to",
+    "explanation": "可指出情感、行为或回应的对象，也可对比两个对象的特点。作为对象时，后项说明如何看待或对待前项；对照用法则把两者并列，强调差异。「に対する＋名词」用于修饰态度、意见等名词。",
+    "usage": "表达对人的态度、对问题的回应，或对照不同事实。",
+    "nuance": "比单纯的「关于」更强调指向对象；对照用法不表示让步。",
+    "structure": [
+      "N＋に対して",
+      "N＋に対する＋N",
+      "普通形＋のに対して（对照）"
+    ],
+    "formation": [
+      "N＋に対して",
+      "N＋に対する＋N",
+      "普通形＋のに対して（对照）"
+    ],
+    "examples": [
+      {
+        "target": "利用者の意見に対して、丁寧に返事をした。",
+        "reading": "りようしゃのいけんにたいして、ていねいにへんじをした。",
+        "zh": "我认真回复了用户的意见。"
+      },
+      {
+        "target": "仕事に対する考え方が変わった。",
+        "reading": "しごとにたいするかんがえかたがかわった。",
+        "zh": "我对工作的看法改变了。"
+      },
+      {
+        "target": "兄が慎重なのに対して、弟は積極的だ。",
+        "reading": "あにがしんちょうなのにたいして、おとうとはせっきょくてきだ。",
+        "zh": "哥哥很谨慎，相比之下弟弟很积极。"
+      },
+      {
+        "target": "この提案に対して、反対する人もいた。",
+        "reading": "このていあんにたいして、はんたいするひともいた。",
+        "zh": "也有人反对这项提议。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "仕事に対して考え方を聞いた。",
+        "correct": "仕事に対する考え方を聞いた。",
+        "explanation": "把「对工作的」作为「看法」的修饰语时，使用「に対する」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-ni-kanshite",
+        "explanation": "「仕事に関して話す」说明话题；「仕事に対する態度」说明面对该对象的态度。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-ni-kanshite"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-ni-taishite-meaning",
+        "kind": "meaning",
+        "prompt": "「〜に対して」在本课中的核心意思是什么？",
+        "options": [
+          "对于……；与……相对",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "对于……；与……相对"
+        ],
+        "explanation": "比单纯的「关于」更强调指向对象；对照用法不表示让步。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-taishite-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：利用者の意見＿＿、丁寧に返事をした。",
+        "acceptedAnswers": [
+          "に対して"
+        ],
+        "explanation": "N＋に対して；N＋に対する＋N；普通形＋のに対して（对照）"
+      },
+      {
+        "id": "grammar-ja-n2-ni-taishite-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：仕事に対して考え方を聞いた。",
+        "acceptedAnswers": [
+          "仕事に対する考え方を聞いた。"
+        ],
+        "explanation": "把「对工作的」作为「看法」的修饰语时，使用「に対する」。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-taishite-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：哥哥很谨慎，相比之下弟弟很积极。",
+        "acceptedAnswers": [
+          "兄が慎重なのに対して、弟は積極的だ。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-taishite-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\nこの提案に対して、反対する人もいた。",
+        "options": [
+          "我认真回复了用户的意见。",
+          "我对工作的看法改变了。",
+          "也有人反对这项提议。"
+        ],
+        "acceptedAnswers": [
+          "也有人反对这项提议。"
+        ],
+        "explanation": "本句的中文是“也有人反对这项提议。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。比单纯的「关于」更强调指向对象；对照用法不表示让步。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-ni-kurabete",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "比较",
+      "数据"
+    ],
+    "kind": "grammar",
+    "title": "〜に比べて",
+    "pattern": "〜に比べて",
+    "meaningZh": "与……相比",
+    "meaningEn": "compared with a reference",
+    "explanation": "以前项为比较基准，说明另一事物在程度、数量或状态上的差异。必须能从语境中知道比较的双方。也可以使用「と比べて」，但不要混同「より」的句法：这里保留「比べる」这一比较动作的形式。",
+    "usage": "对比过去与现在、不同选择或不同群体的数据。",
+    "nuance": "只表示差异，不暗含哪一方更好，评价取决于后句。",
+    "structure": [
+      "N＋に比べて",
+      "N＋と比べて"
+    ],
+    "formation": [
+      "N＋に比べて",
+      "N＋と比べて"
+    ],
+    "examples": [
+      {
+        "target": "去年に比べて、家賃が高くなった。",
+        "reading": "きょねんにくらべて、やちんがたかくなった。",
+        "zh": "与去年相比，房租上涨了。"
+      },
+      {
+        "target": "前の職場に比べて、今の職場は静かだ。",
+        "reading": "まえのしょくばにくらべて、いまのしょくばはしずかだ。",
+        "zh": "与以前相比，现在的工作场所很安静。"
+      },
+      {
+        "target": "電車に比べて、バスは時間がかかる。",
+        "reading": "でんしゃにくらべて、ばすはじかんがかかる。",
+        "zh": "与电车相比，公交车更花时间。"
+      },
+      {
+        "target": "以前に比べて、資料を探しやすくなった。",
+        "reading": "いぜんにくらべて、しりょうをさがしやすくなった。",
+        "zh": "与以前相比，资料更容易查找了。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "去年より比べて、費用が増えた。",
+        "correct": "去年に比べて、費用が増えた。",
+        "explanation": "不要把「より」和「に比べて」叠加；也可改为「去年より費用が増えた」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-ni-taishite",
+        "explanation": "「に比べて」侧重程度差；「のに対して」常并列两个事实或特征。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-ni-taishite"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-ni-kurabete-meaning",
+        "kind": "meaning",
+        "prompt": "「〜に比べて」在本课中的核心意思是什么？",
+        "options": [
+          "与……相比",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "与……相比"
+        ],
+        "explanation": "只表示差异，不暗含哪一方更好，评价取决于后句。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kurabete-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：去年＿＿、家賃が高くなった。",
+        "acceptedAnswers": [
+          "に比べて"
+        ],
+        "explanation": "N＋に比べて；N＋と比べて"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kurabete-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：去年より比べて、費用が増えた。",
+        "acceptedAnswers": [
+          "去年に比べて、費用が増えた。"
+        ],
+        "explanation": "不要把「より」和「に比べて」叠加；也可改为「去年より費用が増えた」。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kurabete-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：与电车相比，公交车更花时间。",
+        "acceptedAnswers": [
+          "電車に比べて、バスは時間がかかる。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kurabete-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n以前に比べて、資料を探しやすくなった。",
+        "options": [
+          "与以前相比，现在的工作场所很安静。",
+          "与以前相比，资料更容易查找了。",
+          "与去年相比，房租上涨了。"
+        ],
+        "acceptedAnswers": [
+          "与以前相比，资料更容易查找了。"
+        ],
+        "explanation": "本句的中文是“与以前相比，资料更容易查找了。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。只表示差异，不暗含哪一方更好，评价取决于后句。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-ni-kuwaete",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "追加",
+      "费用"
+    ],
+    "kind": "grammar",
+    "title": "〜に加えて",
+    "pattern": "〜に加えて",
+    "meaningZh": "除了……还……；加上……",
+    "meaningEn": "in addition to an existing factor",
+    "explanation": "把前项作为已有条件，再追加同方向的信息。常用于列举优点、问题或负担。后项经常有「も」，帮助明确追加关系。「に加え」是更简洁的书面形式；不要把相反方向的信息当作普通追加。",
+    "usage": "在已有情况上补充另一项原因、特点或要求。",
+    "nuance": "一般强调信息叠加；与「一方で」的对照方向不同。",
+    "structure": [
+      "N＋に加えて",
+      "N＋に加え（书面）"
+    ],
+    "formation": [
+      "N＋に加えて",
+      "N＋に加え（书面）"
+    ],
+    "examples": [
+      {
+        "target": "家賃に加えて、管理費も払う必要がある。",
+        "reading": "やちんにくわえて、かんりひもはらうひつようがある。",
+        "zh": "除了房租，还需要支付管理费。"
+      },
+      {
+        "target": "経験に加えて、資格も評価された。",
+        "reading": "けいけんにくわえて、しかくもひょうかされた。",
+        "zh": "除了经验，资格也受到了认可。"
+      },
+      {
+        "target": "雨に加えて、強い風も吹いている。",
+        "reading": "あめにくわえて、つよいかぜもふいている。",
+        "zh": "除了下雨，还刮着大风。"
+      },
+      {
+        "target": "授業に加え、週末の実習にも参加した。",
+        "reading": "じゅぎょうにくわえ、しゅうまつのじっしゅうにもさんかした。",
+        "zh": "除了上课，我还参加了周末实习。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "家賃に加える、管理費も高い。",
+        "correct": "家賃に加えて、管理費も高い。",
+        "explanation": "连接后句时用「て」形式「に加えて」，不是辞书形直接接整句。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-ippo-de",
+        "explanation": "「に加えて」累加同方向的信息；「一方で」突出另一个面向，常形成对照。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-ippo-de"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-ni-kuwaete-meaning",
+        "kind": "meaning",
+        "prompt": "「〜に加えて」在本课中的核心意思是什么？",
+        "options": [
+          "除了……还……；加上……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "除了……还……；加上……"
+        ],
+        "explanation": "一般强调信息叠加；与「一方で」的对照方向不同。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kuwaete-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：家賃＿＿、管理費も払う必要がある。",
+        "acceptedAnswers": [
+          "に加えて"
+        ],
+        "explanation": "N＋に加えて；N＋に加え（书面）"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kuwaete-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：家賃に加える、管理費も高い。",
+        "acceptedAnswers": [
+          "家賃に加えて、管理費も高い。"
+        ],
+        "explanation": "连接后句时用「て」形式「に加えて」，不是辞书形直接接整句。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kuwaete-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：除了下雨，还刮着大风。",
+        "acceptedAnswers": [
+          "雨に加えて、強い風も吹いている。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kuwaete-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n授業に加え、週末の実習にも参加した。",
+        "options": [
+          "除了房租，还需要支付管理费。",
+          "除了经验，资格也受到了认可。",
+          "除了上课，我还参加了周末实习。"
+        ],
+        "acceptedAnswers": [
+          "除了上课，我还参加了周末实习。"
+        ],
+        "explanation": "本句的中文是“除了上课，我还参加了周末实习。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。一般强调信息叠加；与「一方で」的对照方向不同。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-nimo-kakawarazu",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "让步",
+      "书面语"
+    ],
+    "kind": "grammar",
+    "title": "〜にもかかわらず",
+    "pattern": "〜にもかかわらず",
+    "meaningZh": "尽管……却……",
+    "meaningEn": "despite a condition that would suggest another result",
+    "explanation": "前项本应使人预期某种结果，后项却出现与预期相反的事实。比「のに」书面、正式，常用于报道和说明。通常不用于接请求、命令或单纯的意愿；形容动词与名词的连接方式要单独记忆。",
+    "usage": "指出事实与常识性预期不一致。",
+    "nuance": "可带惊讶或批评，但不像口语「のに」那样直接表达说话人的不满。",
+    "structure": [
+      "V普通形／い形容词普通形＋にもかかわらず",
+      "な形容词词干／N＋にもかかわらず"
+    ],
+    "formation": [
+      "V普通形／い形容词普通形＋にもかかわらず",
+      "な形容词词干／N＋にもかかわらず"
+    ],
+    "examples": [
+      {
+        "target": "雨にもかかわらず、多くの人が集まった。",
+        "reading": "あめにもかかわらず、おおくのひとがあつまった。",
+        "zh": "尽管下雨，还是来了很多人。"
+      },
+      {
+        "target": "十分に確認したにもかかわらず、間違いが残っていた。",
+        "reading": "じゅうぶんにかくにんしたにもかかわらず、まちがいがのこっていた。",
+        "zh": "尽管充分检查过，仍有错误。"
+      },
+      {
+        "target": "忙しいにもかかわらず、彼は手伝ってくれた。",
+        "reading": "いそがしいにもかかわらず、かれはてつだってくれた。",
+        "zh": "尽管很忙，他还是帮了我。"
+      },
+      {
+        "target": "不便にもかかわらず、この地域の住宅は人気がある。",
+        "reading": "ふべんにもかかわらず、このちいきのじゅうたくはにんきがある。",
+        "zh": "尽管不方便，这个地区的住宅仍很受欢迎。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "雨にもかかわらず、窓を閉めてください。",
+        "correct": "雨にもかかわらず、試合は続いた。",
+        "explanation": "本课用于相反结果的事实陈述；请求关窗可用「雨なので、窓を閉めてください」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-monono",
+        "explanation": "「ものの」常说明承认前项后仍有保留；「にもかかわらず」强调结果违背预期。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-monono"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-nimo-kakawarazu-meaning",
+        "kind": "meaning",
+        "prompt": "「〜にもかかわらず」在本课中的核心意思是什么？",
+        "options": [
+          "尽管……却……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "尽管……却……"
+        ],
+        "explanation": "可带惊讶或批评，但不像口语「のに」那样直接表达说话人的不满。"
+      },
+      {
+        "id": "grammar-ja-n2-nimo-kakawarazu-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：雨＿＿、多くの人が集まった。",
+        "acceptedAnswers": [
+          "にもかかわらず"
+        ],
+        "explanation": "V普通形／い形容词普通形＋にもかかわらず；な形容词词干／N＋にもかかわらず"
+      },
+      {
+        "id": "grammar-ja-n2-nimo-kakawarazu-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：雨にもかかわらず、窓を閉めてください。",
+        "acceptedAnswers": [
+          "雨にもかかわらず、試合は続いた。"
+        ],
+        "explanation": "本课用于相反结果的事实陈述；请求关窗可用「雨なので、窓を閉めてください」。"
+      },
+      {
+        "id": "grammar-ja-n2-nimo-kakawarazu-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：尽管很忙，他还是帮了我。",
+        "acceptedAnswers": [
+          "忙しいにもかかわらず、彼は手伝ってくれた。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-nimo-kakawarazu-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n不便にもかかわらず、この地域の住宅は人気がある。",
+        "options": [
+          "尽管充分检查过，仍有错误。",
+          "尽管不方便，这个地区的住宅仍很受欢迎。",
+          "尽管下雨，还是来了很多人。"
+        ],
+        "acceptedAnswers": [
+          "尽管不方便，这个地区的住宅仍很受欢迎。"
+        ],
+        "explanation": "本句的中文是“尽管不方便，这个地区的住宅仍很受欢迎。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。可带惊讶或批评，但不像口语「のに」那样直接表达说话人的不满。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-ippo-de",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "对照",
+      "议论"
+    ],
+    "kind": "grammar",
+    "title": "〜一方で",
+    "pattern": "〜一方で",
+    "meaningZh": "一方面……另一方面……",
+    "meaningEn": "on one hand; while another aspect holds",
+    "explanation": "从两个方面说明同一事物，或并列具有对照关系的两个事实。前后都应成立，而不是说前项完全不真实。名词和形容动词接「である一方で」较正式；也可把「一方で」放在新句开头。",
+    "usage": "平衡地说明优缺点、两类人或两种趋势。",
+    "nuance": "强调并存的两面，不一定是违背预期的让步。",
+    "structure": [
+      "V普通形／い形容词＋一方で",
+      "な形容词＋な一方で",
+      "N／な形容词＋である一方で"
+    ],
+    "formation": [
+      "V普通形／い形容词＋一方で",
+      "な形容词＋な一方で",
+      "N／な形容词＋である一方で"
+    ],
+    "examples": [
+      {
+        "target": "在宅勤務は便利な一方で、孤独を感じることもある。",
+        "reading": "ざいたくきんむはべんりないっぽうで、こどくをかんじることもある。",
+        "zh": "居家办公很方便，但也可能让人感到孤独。"
+      },
+      {
+        "target": "収入が増えた一方で、支出も増えている。",
+        "reading": "しゅうにゅうがふえたいっぽうで、ししゅつもふえている。",
+        "zh": "收入增加的同时，开支也在增长。"
+      },
+      {
+        "target": "都市では人口が増える一方で、地方では減っている。",
+        "reading": "としではじんこうがふえるいっぽうで、ちほうではへっている。",
+        "zh": "城市人口增长，而地方人口却在减少。"
+      },
+      {
+        "target": "価格は安い。一方で、修理には時間がかかる。",
+        "reading": "かかくはやすい。いっぽうで、しゅうりにはじかんがかかる。",
+        "zh": "价格便宜；另一方面，修理很费时间。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "便利だ一方で、費用が高い。",
+        "correct": "便利な一方で、費用が高い。",
+        "explanation": "现在肯定的形容动词通常用「な」连接，也可用较正式的「である」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-ni-kuwaete",
+        "explanation": "「一方で」对照不同面向；「に加えて」把性质一致的信息叠加。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-ni-kuwaete"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-ippo-de-meaning",
+        "kind": "meaning",
+        "prompt": "「〜一方で」在本课中的核心意思是什么？",
+        "options": [
+          "一方面……另一方面……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "一方面……另一方面……"
+        ],
+        "explanation": "强调并存的两面，不一定是违背预期的让步。"
+      },
+      {
+        "id": "grammar-ja-n2-ippo-de-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：在宅勤務は便利な＿＿、孤独を感じることもある。",
+        "acceptedAnswers": [
+          "一方で"
+        ],
+        "explanation": "V普通形／い形容词＋一方で；な形容词＋な一方で；N／な形容词＋である一方で"
+      },
+      {
+        "id": "grammar-ja-n2-ippo-de-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：便利だ一方で、費用が高い。",
+        "acceptedAnswers": [
+          "便利な一方で、費用が高い。"
+        ],
+        "explanation": "现在肯定的形容动词通常用「な」连接，也可用较正式的「である」。"
+      },
+      {
+        "id": "grammar-ja-n2-ippo-de-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：城市人口增长，而地方人口却在减少。",
+        "acceptedAnswers": [
+          "都市では人口が増える一方で、地方では減っている。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-ippo-de-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n価格は安い。一方で、修理には時間がかかる。",
+        "options": [
+          "居家办公很方便，但也可能让人感到孤独。",
+          "收入增加的同时，开支也在增长。",
+          "价格便宜；另一方面，修理很费时间。"
+        ],
+        "acceptedAnswers": [
+          "价格便宜；另一方面，修理很费时间。"
+        ],
+        "explanation": "本句的中文是“价格便宜；另一方面，修理很费时间。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。强调并存的两面，不一定是违背预期的让步。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-to-wa-ie",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "让步",
+      "判断"
+    ],
+    "kind": "grammar",
+    "title": "〜とはいえ",
+    "pattern": "〜とはいえ",
+    "meaningZh": "虽说……但……",
+    "meaningEn": "although it is true that",
+    "explanation": "承认前项事实，但提醒对方不能据此作过度推论，后项加上限制或保留。可以连接普通形、名词，也可独立作为句首连接语。前项常是对方可能据以判断的标签或事实。",
+    "usage": "纠正由一个事实或标签引出的过度期待。",
+    "nuance": "语气是承认后加以修正，并非彻底否认前项。",
+    "structure": [
+      "普通形＋とはいえ",
+      "N＋とはいえ",
+      "とはいえ、＋补充判断"
+    ],
+    "formation": [
+      "普通形＋とはいえ",
+      "N＋とはいえ",
+      "とはいえ、＋补充判断"
+    ],
+    "examples": [
+      {
+        "target": "春とはいえ、朝はまだ寒い。",
+        "reading": "はるとはいえ、あさはまださむい。",
+        "zh": "虽说到了春天，早晨仍很冷。"
+      },
+      {
+        "target": "経験があるとはいえ、初めての仕事は緊張する。",
+        "reading": "けいけんがあるとはいえ、はじめてのしごとはきんちょうする。",
+        "zh": "虽有经验，第一次做这项工作仍会紧张。"
+      },
+      {
+        "target": "安いとはいえ、必要のない物は買わない。",
+        "reading": "やすいとはいえ、ひつようのないものはかわない。",
+        "zh": "虽说便宜，不需要的东西还是不买。"
+      },
+      {
+        "target": "計画は順調だ。とはいえ、油断はできない。",
+        "reading": "けいかくはじゅんちょうだ。とはいえ、ゆだんはできない。",
+        "zh": "计划很顺利，但不能因此掉以轻心。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "春とは言える、朝は寒い。",
+        "correct": "春とはいえ、朝は寒い。",
+        "explanation": "这里是固定让步连接「とはいえ」，不是表示能够说的「と言える」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-monono",
+        "explanation": "「とはいえ」常修正概括性判断；「ものの」常描述做了某事但结果仍不足。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-monono"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-to-wa-ie-meaning",
+        "kind": "meaning",
+        "prompt": "「〜とはいえ」在本课中的核心意思是什么？",
+        "options": [
+          "虽说……但……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "虽说……但……"
+        ],
+        "explanation": "语气是承认后加以修正，并非彻底否认前项。"
+      },
+      {
+        "id": "grammar-ja-n2-to-wa-ie-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：春＿＿、朝はまだ寒い。",
+        "acceptedAnswers": [
+          "とはいえ"
+        ],
+        "explanation": "普通形＋とはいえ；N＋とはいえ；とはいえ、＋补充判断"
+      },
+      {
+        "id": "grammar-ja-n2-to-wa-ie-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：春とは言える、朝は寒い。",
+        "acceptedAnswers": [
+          "春とはいえ、朝は寒い。"
+        ],
+        "explanation": "这里是固定让步连接「とはいえ」，不是表示能够说的「と言える」。"
+      },
+      {
+        "id": "grammar-ja-n2-to-wa-ie-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：虽说便宜，不需要的东西还是不买。",
+        "acceptedAnswers": [
+          "安いとはいえ、必要のない物は買わない。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-to-wa-ie-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n計画は順調だ。とはいえ、油断はできない。",
+        "options": [
+          "计划很顺利，但不能因此掉以轻心。",
+          "虽说到了春天，早晨仍很冷。",
+          "虽有经验，第一次做这项工作仍会紧张。"
+        ],
+        "acceptedAnswers": [
+          "计划很顺利，但不能因此掉以轻心。"
+        ],
+        "explanation": "本句的中文是“计划很顺利，但不能因此掉以轻心。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。语气是承认后加以修正，并非彻底否认前项。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-monono",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "让步",
+      "进展"
+    ],
+    "kind": "grammar",
+    "title": "〜ものの",
+    "pattern": "〜ものの",
+    "meaningZh": "虽然……但是……",
+    "meaningEn": "although a fact holds, a limitation remains",
+    "explanation": "承认前项发生或成立，后项说明未达到的结果、未解决的问题或现实限制。较口语「けれど」书面化，常见于报告与说明。后句不适合直接接邀请和命令，连接形式通常与修饰名词「もの」一致。",
+    "usage": "说明已有进展之后，仍存在的实际不足。",
+    "nuance": "常带「前项虽已完成，后项仍未如愿」的意味。",
+    "structure": [
+      "V普通形／い形容词＋ものの",
+      "な形容词＋なものの",
+      "N＋であるものの"
+    ],
+    "formation": [
+      "V普通形／い形容词＋ものの",
+      "な形容词＋なものの",
+      "N＋であるものの"
+    ],
+    "examples": [
+      {
+        "target": "応募したものの、まだ返事が来ていない。",
+        "reading": "おうぼしたものの、まだへんじがきていない。",
+        "zh": "虽然申请了，但仍未收到回复。"
+      },
+      {
+        "target": "説明は分かりやすいものの、例が少ない。",
+        "reading": "せつめいはわかりやすいものの、れいがすくない。",
+        "zh": "虽然说明易懂，但例子很少。"
+      },
+      {
+        "target": "便利なものの、費用の負担が大きい。",
+        "reading": "べんりなものの、ひようのふたんがおおきい。",
+        "zh": "虽然方便，但费用负担很大。"
+      },
+      {
+        "target": "資料を集めたものの、分析はまだ終わっていない。",
+        "reading": "しりょうをあつめたものの、ぶんせきはまだおわっていない。",
+        "zh": "虽然收集了资料，但分析还没结束。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "便利だものの、費用が高い。",
+        "correct": "便利なものの、費用が高い。",
+        "explanation": "形容动词现在肯定用「なものの」，而不是「だものの」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-nimo-kakawarazu",
+        "explanation": "「ものの」偏向尚有不足；「にもかかわらず」更强调事实与预期相反。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-nimo-kakawarazu"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-monono-meaning",
+        "kind": "meaning",
+        "prompt": "「〜ものの」在本课中的核心意思是什么？",
+        "options": [
+          "虽然……但是……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "虽然……但是……"
+        ],
+        "explanation": "常带「前项虽已完成，后项仍未如愿」的意味。"
+      },
+      {
+        "id": "grammar-ja-n2-monono-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：応募した＿＿、まだ返事が来ていない。",
+        "acceptedAnswers": [
+          "ものの"
+        ],
+        "explanation": "V普通形／い形容词＋ものの；な形容词＋なものの；N＋であるものの"
+      },
+      {
+        "id": "grammar-ja-n2-monono-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：便利だものの、費用が高い。",
+        "acceptedAnswers": [
+          "便利なものの、費用が高い。"
+        ],
+        "explanation": "形容动词现在肯定用「なものの」，而不是「だものの」。"
+      },
+      {
+        "id": "grammar-ja-n2-monono-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：虽然方便，但费用负担很大。",
+        "acceptedAnswers": [
+          "便利なものの、費用の負担が大きい。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-monono-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n資料を集めたものの、分析はまだ終わっていない。",
+        "options": [
+          "虽然申请了，但仍未收到回复。",
+          "虽然说明易懂，但例子很少。",
+          "虽然收集了资料，但分析还没结束。"
+        ],
+        "acceptedAnswers": [
+          "虽然收集了资料，但分析还没结束。"
+        ],
+        "explanation": "本句的中文是“虽然收集了资料，但分析还没结束。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。常带「前项虽已完成，后项仍未如愿」的意味。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-kagiri",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "条件",
+      "持续"
+    ],
+    "kind": "grammar",
+    "title": "〜限り",
+    "pattern": "〜限り",
+    "meaningZh": "只要……就……",
+    "meaningEn": "as long as a condition remains true",
+    "explanation": "把前项视为持续有效的条件，说明后项在这一条件下成立。可以是某状态持续，也可以是能力允许的最大范围。这里重点学习「只要」用法；与「限りでは」表示判断依据范围的用法分开理解。",
+    "usage": "说明承诺、原则或行动依赖的持续条件。",
+    "nuance": "不是一次性的时间点；条件一旦不再成立，后项也未必继续成立。",
+    "structure": [
+      "V辞书形／Vている＋限り",
+      "い形容词＋限り",
+      "N／な形容词＋である限り"
+    ],
+    "formation": [
+      "V辞书形／Vている＋限り",
+      "い形容词＋限り",
+      "N／な形容词＋である限り"
+    ],
+    "examples": [
+      {
+        "target": "体力が続く限り、歩きたい。",
+        "reading": "たいりょくがつづくかぎり、あるきたい。",
+        "zh": "只要体力还够，我就想继续走。"
+      },
+      {
+        "target": "ここで働いている限り、この規則を守る必要がある。",
+        "reading": "ここではたらいているかぎり、このきそくをまもるひつようがある。",
+        "zh": "只要在这里工作，就需要遵守这项规则。"
+      },
+      {
+        "target": "必要である限り、支援を続ける。",
+        "reading": "ひつようであるかぎり、しえんをつづける。",
+        "zh": "只要仍有需要，就继续提供支援。"
+      },
+      {
+        "target": "約束を守る限り、私は協力する。",
+        "reading": "やくそくをまもるかぎり、わたしはきょうりょくする。",
+        "zh": "只要遵守约定，我就会协助。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "必要だ限り、支援する。",
+        "correct": "必要である限り、支援する。",
+        "explanation": "形容动词或名词在正式条件表达中用「である限り」，不能直接接「だ限り」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-nai-kagiri",
+        "explanation": "「ない限り」将条件否定，可译为「除非」，避免把两个否定一起误读。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-nai-kagiri"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-kagiri-meaning",
+        "kind": "meaning",
+        "prompt": "「〜限り」在本课中的核心意思是什么？",
+        "options": [
+          "只要……就……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "只要……就……"
+        ],
+        "explanation": "不是一次性的时间点；条件一旦不再成立，后项也未必继续成立。"
+      },
+      {
+        "id": "grammar-ja-n2-kagiri-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：体力が続く＿＿、歩きたい。",
+        "acceptedAnswers": [
+          "限り"
+        ],
+        "explanation": "V辞书形／Vている＋限り；い形容词＋限り；N／な形容词＋である限り"
+      },
+      {
+        "id": "grammar-ja-n2-kagiri-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：必要だ限り、支援する。",
+        "acceptedAnswers": [
+          "必要である限り、支援する。"
+        ],
+        "explanation": "形容动词或名词在正式条件表达中用「である限り」，不能直接接「だ限り」。"
+      },
+      {
+        "id": "grammar-ja-n2-kagiri-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：只要仍有需要，就继续提供支援。",
+        "acceptedAnswers": [
+          "必要である限り、支援を続ける。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-kagiri-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n約束を守る限り、私は協力する。",
+        "options": [
+          "只要体力还够，我就想继续走。",
+          "只要在这里工作，就需要遵守这项规则。",
+          "只要遵守约定，我就会协助。"
+        ],
+        "acceptedAnswers": [
+          "只要遵守约定，我就会协助。"
+        ],
+        "explanation": "本句的中文是“只要遵守约定，我就会协助。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。不是一次性的时间点；条件一旦不再成立，后项也未必继续成立。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-nai-kagiri",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "条件",
+      "否定"
+    ],
+    "kind": "grammar",
+    "title": "〜ない限り",
+    "pattern": "〜ない限り",
+    "meaningZh": "只要不……；除非……否则……",
+    "meaningEn": "unless a necessary condition changes",
+    "explanation": "否定的前项作为后项继续成立的条件。翻译成「除非」时要把前后否定关系一起处理：比如「連絡がない限り、出発しない」表示除非收到联系，否则不出发。它不保证条件改变后结果一定实现。",
+    "usage": "说明改变当前结果所需要的最低条件。",
+    "nuance": "表示必要条件，不等于充分条件；不能推断只要条件出现结果就必然发生。",
+    "structure": [
+      "Vない形＋限り"
+    ],
+    "formation": [
+      "Vない形＋限り"
+    ],
+    "examples": [
+      {
+        "target": "雨がやまない限り、外では練習できない。",
+        "reading": "あめがやまないかぎり、そとではれんしゅうできない。",
+        "zh": "除非雨停，否则无法在室外练习。"
+      },
+      {
+        "target": "本人に確認しない限り、正確な理由は分からない。",
+        "reading": "ほんにんにかくにんしないかぎり、せいかくなりゆうはわからない。",
+        "zh": "除非向本人确认，否则不知道准确原因。"
+      },
+      {
+        "target": "特別な事情がない限り、予定どおり実施する。",
+        "reading": "とくべつなじじょうがないかぎり、よていどおりじっしする。",
+        "zh": "只要没有特殊情况，就按计划实施。"
+      },
+      {
+        "target": "資料を読まない限り、議論には参加できない。",
+        "reading": "しりょうをよまないかぎり、ぎろんにはさんかできない。",
+        "zh": "除非读过资料，否则无法参加讨论。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "雨がやむない限り、出発しない。",
+        "correct": "雨がやまない限り、出発しない。",
+        "explanation": "先正确变成动词ない形；五段动词「やむ」变成「やまない」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-kagiri",
+        "explanation": "肯定「限り」表示只要条件持续；否定「ない限り」常用来表达除非。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-nai-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-kagiri"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-nai-kagiri-meaning",
+        "kind": "meaning",
+        "prompt": "「〜ない限り」在本课中的核心意思是什么？",
+        "options": [
+          "只要不……；除非……否则……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "只要不……；除非……否则……"
+        ],
+        "explanation": "表示必要条件，不等于充分条件；不能推断只要条件出现结果就必然发生。"
+      },
+      {
+        "id": "grammar-ja-n2-nai-kagiri-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：雨がやまない＿＿、外では練習できない。",
+        "acceptedAnswers": [
+          "ない限り"
+        ],
+        "explanation": "Vない形＋限り"
+      },
+      {
+        "id": "grammar-ja-n2-nai-kagiri-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：雨がやむない限り、出発しない。",
+        "acceptedAnswers": [
+          "雨がやまない限り、出発しない。"
+        ],
+        "explanation": "先正确变成动词ない形；五段动词「やむ」变成「やまない」。"
+      },
+      {
+        "id": "grammar-ja-n2-nai-kagiri-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：只要没有特殊情况，就按计划实施。",
+        "acceptedAnswers": [
+          "特別な事情がない限り、予定どおり実施する。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-nai-kagiri-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n資料を読まない限り、議論には参加できない。",
+        "options": [
+          "除非读过资料，否则无法参加讨论。",
+          "除非雨停，否则无法在室外练习。",
+          "除非向本人确认，否则不知道准确原因。"
+        ],
+        "acceptedAnswers": [
+          "除非读过资料，否则无法参加讨论。"
+        ],
+        "explanation": "本句的中文是“除非读过资料，否则无法参加讨论。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。表示必要条件，不等于充分条件；不能推断只要条件出现结果就必然发生。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-kagiri-dewa",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "判断",
+      "信息范围"
+    ],
+    "kind": "grammar",
+    "title": "〜限りでは",
+    "pattern": "〜限りでは",
+    "meaningZh": "据……所知；在……范围内",
+    "meaningEn": "as far as a source of knowledge indicates",
+    "explanation": "限定判断的依据范围，提醒听者这并不是掌握所有事实后作出的断言。前项常为「知っている、調べた、聞いた」等获得信息的方式。与条件用法「限り」不同，这里的「では」把信息范围作为判断立场。",
+    "usage": "在不确定全部事实时，谨慎地表达结论。",
+    "nuance": "主动限制断言范围；不能将局部调查说成绝对事实。",
+    "structure": [
+      "V普通形＋限りでは"
+    ],
+    "formation": [
+      "V普通形＋限りでは"
+    ],
+    "examples": [
+      {
+        "target": "私が調べた限りでは、費用は変わっていない。",
+        "reading": "わたしがしらべたかぎりでは、ひようはかわっていない。",
+        "zh": "据我调查，费用没有变化。"
+      },
+      {
+        "target": "聞いた限りでは、計画は順調だ。",
+        "reading": "きいたかぎりでは、けいかくはじゅんちょうだ。",
+        "zh": "据听到的信息，计划很顺利。"
+      },
+      {
+        "target": "知っている限りでは、この店は日曜日も開いている。",
+        "reading": "しっているかぎりでは、このみせはにちようびもあいている。",
+        "zh": "据我所知，这家店周日也营业。"
+      },
+      {
+        "target": "資料を読む限りでは、追加の支援が必要だ。",
+        "reading": "しりょうをよむかぎりでは、ついかのしえんがひつようだ。",
+        "zh": "从资料所见，还需要追加支援。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "知っている限りでは、絶対に例外はない。",
+        "correct": "知っている限りでは、例外は見つかっていない。",
+        "explanation": "范围限定与绝对断言容易冲突；使用「未发现」更准确表达信息边界。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-kagiri",
+        "explanation": "「体力が続く限り」是条件；「調べた限りでは」是判断的信息范围。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-kagiri"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-kagiri-dewa-meaning",
+        "kind": "meaning",
+        "prompt": "「〜限りでは」在本课中的核心意思是什么？",
+        "options": [
+          "据……所知；在……范围内",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "据……所知；在……范围内"
+        ],
+        "explanation": "主动限制断言范围；不能将局部调查说成绝对事实。"
+      },
+      {
+        "id": "grammar-ja-n2-kagiri-dewa-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：私が調べた＿＿、費用は変わっていない。",
+        "acceptedAnswers": [
+          "限りでは"
+        ],
+        "explanation": "V普通形＋限りでは"
+      },
+      {
+        "id": "grammar-ja-n2-kagiri-dewa-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：知っている限りでは、絶対に例外はない。",
+        "acceptedAnswers": [
+          "知っている限りでは、例外は見つかっていない。"
+        ],
+        "explanation": "范围限定与绝对断言容易冲突；使用「未发现」更准确表达信息边界。"
+      },
+      {
+        "id": "grammar-ja-n2-kagiri-dewa-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：据我所知，这家店周日也营业。",
+        "acceptedAnswers": [
+          "知っている限りでは、この店は日曜日も開いている。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-kagiri-dewa-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n資料を読む限りでは、追加の支援が必要だ。",
+        "options": [
+          "据听到的信息，计划很顺利。",
+          "从资料所见，还需要追加支援。",
+          "据我调查，费用没有变化。"
+        ],
+        "acceptedAnswers": [
+          "从资料所见，还需要追加支援。"
+        ],
+        "explanation": "本句的中文是“从资料所见，还需要追加支援。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。主动限制断言范围；不能将局部调查说成绝对事实。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-ue-de",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "顺序",
+      "手续"
+    ],
+    "kind": "grammar",
+    "title": "〜上で（先行条件）",
+    "pattern": "〜上で（先行条件）",
+    "meaningZh": "在……之后再……",
+    "meaningEn": "after completing a necessary preliminary step",
+    "explanation": "先完成前项，再进行后项；比普通的「てから」更强调前项是必要程序或慎重判断的基础。使用动词た形或「名词の」。另外「生活する上で」中的辞书形用法表示「在生活方面」，应与本课的先行程序分开。",
+    "usage": "说明阅读、确认、商量等必要程序之后才决定或行动。",
+    "nuance": "强调程序和依据，不只是单纯的时间先后。",
+    "structure": [
+      "Vた形＋上で",
+      "N＋の上で"
+    ],
+    "formation": [
+      "Vた形＋上で",
+      "N＋の上で"
+    ],
+    "examples": [
+      {
+        "target": "契約を確認した上で、署名してください。",
+        "reading": "けいやくをかくにんしたうえで、しょめいしてください。",
+        "zh": "请确认合同之后再签字。"
+      },
+      {
+        "target": "家族と相談した上で、転職を決めた。",
+        "reading": "かぞくとそうだんしたうえで、てんしょくをきめた。",
+        "zh": "和家人商量后，我决定换工作。"
+      },
+      {
+        "target": "資料を読んだ上で、質問をまとめた。",
+        "reading": "しりょうをよんだうえで、しつもんをまとめた。",
+        "zh": "读过资料后，我整理了问题。"
+      },
+      {
+        "target": "内容をご理解の上で、お申し込みください。",
+        "reading": "ないようをごりかいのうえで、おもうしこみください。",
+        "zh": "请理解内容后再报名。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "契約を確認する上で、署名した。",
+        "correct": "契約を確認した上で、署名した。",
+        "explanation": "表达先确认再签字，前项用た形；辞书形的「上で」通常表示某个方面。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-ue-ni",
+        "explanation": "「上で」可表先行程序；「上に」表示追加另一项信息，不能互换。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-ue-ni"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-ue-de-meaning",
+        "kind": "meaning",
+        "prompt": "「〜上で（先行条件）」在本课中的核心意思是什么？",
+        "options": [
+          "在……之后再……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "在……之后再……"
+        ],
+        "explanation": "强调程序和依据，不只是单纯的时间先后。"
+      },
+      {
+        "id": "grammar-ja-n2-ue-de-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：契約を確認した＿＿、署名してください。",
+        "acceptedAnswers": [
+          "上で"
+        ],
+        "explanation": "Vた形＋上で；N＋の上で"
+      },
+      {
+        "id": "grammar-ja-n2-ue-de-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：契約を確認する上で、署名した。",
+        "acceptedAnswers": [
+          "契約を確認した上で、署名した。"
+        ],
+        "explanation": "表达先确认再签字，前项用た形；辞书形的「上で」通常表示某个方面。"
+      },
+      {
+        "id": "grammar-ja-n2-ue-de-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：读过资料后，我整理了问题。",
+        "acceptedAnswers": [
+          "資料を読んだ上で、質問をまとめた。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-ue-de-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n内容をご理解の上で、お申し込みください。",
+        "options": [
+          "请确认合同之后再签字。",
+          "和家人商量后，我决定换工作。",
+          "请理解内容后再报名。"
+        ],
+        "acceptedAnswers": [
+          "请理解内容后再报名。"
+        ],
+        "explanation": "本句的中文是“请理解内容后再报名。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。强调程序和依据，不只是单纯的时间先后。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-ue-ni",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "追加",
+      "评价"
+    ],
+    "kind": "grammar",
+    "title": "〜上に",
+    "pattern": "〜上に",
+    "meaningZh": "不仅……而且……",
+    "meaningEn": "besides one characteristic, another also holds",
+    "explanation": "把两项具有相同评价方向的信息累加。前项和后项可以都是优点，也可以都是问题。动词和い形容词用普通形，形容动词用「な」，名词常用「である」。不是时间上的先后，也不表达空间上的上面。",
+    "usage": "强调某人或事物兼具多个优点、负担或问题。",
+    "nuance": "一般选择相同评价方向的信息；相反方向宜使用让步或对照。",
+    "structure": [
+      "V普通形／い形容词＋上に",
+      "な形容词＋な上に",
+      "N＋である上に"
+    ],
+    "formation": [
+      "V普通形／い形容词＋上に",
+      "な形容词＋な上に",
+      "N＋である上に"
+    ],
+    "examples": [
+      {
+        "target": "この部屋は広い上に、家賃も安い。",
+        "reading": "このへやはひろいうえに、やちんもやすい。",
+        "zh": "这个房间不仅宽敞，房租也便宜。"
+      },
+      {
+        "target": "彼は経験がある上に、説明も丁寧だ。",
+        "reading": "かれはけいけんがあるうえに、せつめいもていねいだ。",
+        "zh": "他不仅有经验，说明也很细致。"
+      },
+      {
+        "target": "雨が降った上に、電車も遅れた。",
+        "reading": "あめがふったうえに、でんしゃもおくれた。",
+        "zh": "不仅下了雨，电车也晚点了。"
+      },
+      {
+        "target": "この設備は便利な上に、管理もしやすい。",
+        "reading": "このせつびはべんりなうえに、かんりもしやすい。",
+        "zh": "这套设备不仅方便，也易于管理。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "この部屋は広い上に、狭い。",
+        "correct": "この部屋は広い上に、明るい。",
+        "explanation": "同一方面的相反判断不能作为普通追加；若想说明缺点，用「広いものの、暗い」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-ue-de",
+        "explanation": "「確認した上で」有先后程序；「確認した上に」只是追加另一事实。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-ue-de"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-ue-ni-meaning",
+        "kind": "meaning",
+        "prompt": "「〜上に」在本课中的核心意思是什么？",
+        "options": [
+          "不仅……而且……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "不仅……而且……"
+        ],
+        "explanation": "一般选择相同评价方向的信息；相反方向宜使用让步或对照。"
+      },
+      {
+        "id": "grammar-ja-n2-ue-ni-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：この部屋は広い＿＿、家賃も安い。",
+        "acceptedAnswers": [
+          "上に"
+        ],
+        "explanation": "V普通形／い形容词＋上に；な形容词＋な上に；N＋である上に"
+      },
+      {
+        "id": "grammar-ja-n2-ue-ni-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：この部屋は広い上に、狭い。",
+        "acceptedAnswers": [
+          "この部屋は広い上に、明るい。"
+        ],
+        "explanation": "同一方面的相反判断不能作为普通追加；若想说明缺点，用「広いものの、暗い」。"
+      },
+      {
+        "id": "grammar-ja-n2-ue-ni-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：不仅下了雨，电车也晚点了。",
+        "acceptedAnswers": [
+          "雨が降った上に、電車も遅れた。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-ue-ni-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\nこの設備は便利な上に、管理もしやすい。",
+        "options": [
+          "这个房间不仅宽敞，房租也便宜。",
+          "他不仅有经验，说明也很细致。",
+          "这套设备不仅方便，也易于管理。"
+        ],
+        "acceptedAnswers": [
+          "这套设备不仅方便，也易于管理。"
+        ],
+        "explanation": "本句的中文是“这套设备不仅方便，也易于管理。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。一般选择相同评价方向的信息；相反方向宜使用让步或对照。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-koto-kara",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "依据",
+      "原因"
+    ],
+    "kind": "grammar",
+    "title": "〜ことから",
+    "pattern": "〜ことから",
+    "meaningZh": "因为……；由……可知",
+    "meaningEn": "because of an observed fact; from that fact",
+    "explanation": "以前项事实作为后项判断、命名或推论的依据。常见于报道、说明和推理，后项不只是简单表达情绪。名词与形容动词可用「であることから」，形容动词现在式也可用「なことから」。",
+    "usage": "从证据说明一个结论、名称或产生的措施。",
+    "nuance": "重在可说明的依据，不等于无证据的个人猜测。",
+    "structure": [
+      "V普通形／い形容词＋ことから",
+      "な形容词＋なことから",
+      "N＋であることから"
+    ],
+    "formation": [
+      "V普通形／い形容词＋ことから",
+      "な形容词＋なことから",
+      "N＋であることから"
+    ],
+    "examples": [
+      {
+        "target": "駅に近いことから、この住宅は人気がある。",
+        "reading": "えきにちかいことから、このじゅうたくはにんきがある。",
+        "zh": "因为靠近车站，这处住宅很受欢迎。"
+      },
+      {
+        "target": "記録が残っていることから、以前も同じ問題があったと分かる。",
+        "reading": "きろくがのこっていることから、いぜんもおなじもんだいがあったとわかる。",
+        "zh": "从留存记录可知，以前也有同样的问题。"
+      },
+      {
+        "target": "利用者が増えたことから、営業時間を延ばした。",
+        "reading": "りようしゃがふえたことから、えいぎょうじかんをのばした。",
+        "zh": "因为用户增加，延长了营业时间。"
+      },
+      {
+        "target": "資源が豊富なことから、この地域では工業が発展した。",
+        "reading": "しげんがほうふなことから、このちいきではこうぎょうがはってんした。",
+        "zh": "因为资源丰富，这个地区发展了工业。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "駅に近いのことから、人気がある。",
+        "correct": "駅に近いことから、人気がある。",
+        "explanation": "い形容词直接接「こと」，不额外添加「の」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-monodakara",
+        "explanation": "「ことから」偏向客观说明；「ものだから」常用于解释个人原因或辩解。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-monodakara"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-koto-kara-meaning",
+        "kind": "meaning",
+        "prompt": "「〜ことから」在本课中的核心意思是什么？",
+        "options": [
+          "因为……；由……可知",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "因为……；由……可知"
+        ],
+        "explanation": "重在可说明的依据，不等于无证据的个人猜测。"
+      },
+      {
+        "id": "grammar-ja-n2-koto-kara-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：駅に近い＿＿、この住宅は人気がある。",
+        "acceptedAnswers": [
+          "ことから"
+        ],
+        "explanation": "V普通形／い形容词＋ことから；な形容词＋なことから；N＋であることから"
+      },
+      {
+        "id": "grammar-ja-n2-koto-kara-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：駅に近いのことから、人気がある。",
+        "acceptedAnswers": [
+          "駅に近いことから、人気がある。"
+        ],
+        "explanation": "い形容词直接接「こと」，不额外添加「の」。"
+      },
+      {
+        "id": "grammar-ja-n2-koto-kara-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：因为用户增加，延长了营业时间。",
+        "acceptedAnswers": [
+          "利用者が増えたことから、営業時間を延ばした。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-koto-kara-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n資源が豊富なことから、この地域では工業が発展した。",
+        "options": [
+          "因为靠近车站，这处住宅很受欢迎。",
+          "从留存记录可知，以前也有同样的问题。",
+          "因为资源丰富，这个地区发展了工业。"
+        ],
+        "acceptedAnswers": [
+          "因为资源丰富，这个地区发展了工业。"
+        ],
+        "explanation": "本句的中文是“因为资源丰富，这个地区发展了工业。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。重在可说明的依据，不等于无证据的个人猜测。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-monodakara",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "原因",
+      "语气"
+    ],
+    "kind": "grammar",
+    "title": "〜ものだから",
+    "pattern": "〜ものだから",
+    "meaningZh": "因为……所以……（解释或辩解）",
+    "meaningEn": "because of a circumstance offered as an explanation",
+    "explanation": "说话人解释事情发生的原因，常用来说明失误、迟到或未做到某事。语气带有希望对方理解的意味。形容动词和名词现在肯定接「なものだから」。在随意口语中也会缩成「もんだから」，正式说明应慎用。",
+    "usage": "说明个人处境导致的结果，尤其是解释令人不满意的结果。",
+    "nuance": "可能听起来像辩解，不宜用于正式文件中代替清晰的责任说明。",
+    "structure": [
+      "V普通形／い形容词＋ものだから",
+      "な形容词／N＋なものだから"
+    ],
+    "formation": [
+      "V普通形／い形容词＋ものだから",
+      "な形容词／N＋なものだから"
+    ],
+    "examples": [
+      {
+        "target": "電車が遅れたものだから、会議に間に合わなかった。",
+        "reading": "でんしゃがおくれたものだから、かいぎにまにあわなかった。",
+        "zh": "因为电车晚点，没赶上会议。"
+      },
+      {
+        "target": "初めてなものだから、手続きに時間がかかった。",
+        "reading": "はじめてなものだから、てつづきにじかんがかかった。",
+        "zh": "因为是第一次，办理手续花了些时间。"
+      },
+      {
+        "target": "急な変更だったものだから、連絡が遅れた。",
+        "reading": "きゅうなへんこうだったものだから、れんらくがおくれた。",
+        "zh": "因为是突然变更，联系晚了。"
+      },
+      {
+        "target": "説明が複雑なものだから、何度も確認した。",
+        "reading": "せつめいがふくざつなものだから、なんどもかくにんした。",
+        "zh": "因为说明很复杂，我确认了好几次。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "初めてだものだから、分からなかった。",
+        "correct": "初めてなものだから、分からなかった。",
+        "explanation": "名词或形容动词现在肯定接「なものだから」，不要直接接「だ」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-koto-kara",
+        "explanation": "两者都能解释原因，但「ものだから」带说话人的解释、请求理解的语气。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-koto-kara"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-monodakara-meaning",
+        "kind": "meaning",
+        "prompt": "「〜ものだから」在本课中的核心意思是什么？",
+        "options": [
+          "因为……所以……（解释或辩解）",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "因为……所以……（解释或辩解）"
+        ],
+        "explanation": "可能听起来像辩解，不宜用于正式文件中代替清晰的责任说明。"
+      },
+      {
+        "id": "grammar-ja-n2-monodakara-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：電車が遅れた＿＿、会議に間に合わなかった。",
+        "acceptedAnswers": [
+          "ものだから"
+        ],
+        "explanation": "V普通形／い形容词＋ものだから；な形容词／N＋なものだから"
+      },
+      {
+        "id": "grammar-ja-n2-monodakara-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：初めてだものだから、分からなかった。",
+        "acceptedAnswers": [
+          "初めてなものだから、分からなかった。"
+        ],
+        "explanation": "名词或形容动词现在肯定接「なものだから」，不要直接接「だ」。"
+      },
+      {
+        "id": "grammar-ja-n2-monodakara-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：因为是突然变更，联系晚了。",
+        "acceptedAnswers": [
+          "急な変更だったものだから、連絡が遅れた。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-monodakara-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n説明が複雑なものだから、何度も確認した。",
+        "options": [
+          "因为电车晚点，没赶上会议。",
+          "因为是第一次，办理手续花了些时间。",
+          "因为说明很复杂，我确认了好几次。"
+        ],
+        "acceptedAnswers": [
+          "因为说明很复杂，我确认了好几次。"
+        ],
+        "explanation": "本句的中文是“因为说明很复杂，我确认了好几次。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。可能听起来像辩解，不宜用于正式文件中代替清晰的责任说明。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-bakari-ni",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "原因",
+      "后悔"
+    ],
+    "kind": "grammar",
+    "title": "〜ばかりに",
+    "pattern": "〜ばかりに",
+    "meaningZh": "只因为……竟导致……",
+    "meaningEn": "merely because of one cause, an unfortunate result follows",
+    "explanation": "把前项作为导致不利结果的关键原因，后项常带后悔或无奈。并不是客观地列出所有原因，而是突出「就因为这一点」。不要用于普通的好结果，也不能误认为表示刚发生的「たばかり」。",
+    "usage": "说明一个看似小的原因带来令人遗憾的后果。",
+    "nuance": "主观评价较强，常含后悔；不是中性的因果连接。",
+    "structure": [
+      "V普通形／い形容词＋ばかりに",
+      "な形容词＋なばかりに",
+      "N＋であるばかりに"
+    ],
+    "formation": [
+      "V普通形／い形容词＋ばかりに",
+      "な形容词＋なばかりに",
+      "N＋であるばかりに"
+    ],
+    "examples": [
+      {
+        "target": "確認しなかったばかりに、大きな損失を出した。",
+        "reading": "かくにんしなかったばかりに、おおきなそんしつをだした。",
+        "zh": "只因为没确认，造成了重大损失。"
+      },
+      {
+        "target": "少し遅れたばかりに、面接を受けられなかった。",
+        "reading": "すこしおくれたばかりに、めんせつをうけられなかった。",
+        "zh": "仅因晚了一点，没能参加面试。"
+      },
+      {
+        "target": "安いばかりに、必要のない物まで買ってしまった。",
+        "reading": "やすいばかりに、ひつようのないものまでかってしまった。",
+        "zh": "只因为便宜，连不需要的东西也买了。"
+      },
+      {
+        "target": "親切なばかりに、無理な依頼も断れなかった。",
+        "reading": "しんせつなばかりに、むりないらいもことわれなかった。",
+        "zh": "正因为太好心，连勉强的请求也没能拒绝。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "努力したばかりに、希望の会社に採用された。",
+        "correct": "確認を忘れたばかりに、応募できなかった。",
+        "explanation": "本用法突出不利结果；正常努力带来的好结果可用「努力したため」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-monodakara",
+        "explanation": "「ものだから」解释原因；「ばかりに」额外突出遗憾和某一个原因的责任。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-monodakara"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-bakari-ni-meaning",
+        "kind": "meaning",
+        "prompt": "「〜ばかりに」在本课中的核心意思是什么？",
+        "options": [
+          "只因为……竟导致……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "只因为……竟导致……"
+        ],
+        "explanation": "主观评价较强，常含后悔；不是中性的因果连接。"
+      },
+      {
+        "id": "grammar-ja-n2-bakari-ni-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：確認しなかった＿＿、大きな損失を出した。",
+        "acceptedAnswers": [
+          "ばかりに"
+        ],
+        "explanation": "V普通形／い形容词＋ばかりに；な形容词＋なばかりに；N＋であるばかりに"
+      },
+      {
+        "id": "grammar-ja-n2-bakari-ni-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：努力したばかりに、希望の会社に採用された。",
+        "acceptedAnswers": [
+          "確認を忘れたばかりに、応募できなかった。"
+        ],
+        "explanation": "本用法突出不利结果；正常努力带来的好结果可用「努力したため」。"
+      },
+      {
+        "id": "grammar-ja-n2-bakari-ni-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：只因为便宜，连不需要的东西也买了。",
+        "acceptedAnswers": [
+          "安いばかりに、必要のない物まで買ってしまった。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-bakari-ni-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n親切なばかりに、無理な依頼も断れなかった。",
+        "options": [
+          "仅因晚了一点，没能参加面试。",
+          "正因为太好心，连勉强的请求也没能拒绝。",
+          "只因为没确认，造成了重大损失。"
+        ],
+        "acceptedAnswers": [
+          "正因为太好心，连勉强的请求也没能拒绝。"
+        ],
+        "explanation": "本句的中文是“正因为太好心，连勉强的请求也没能拒绝。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。主观评价较强，常含后悔；不是中性的因果连接。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-ijou-wa",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "责任",
+      "决心"
+    ],
+    "kind": "grammar",
+    "title": "〜以上は",
+    "pattern": "〜以上は",
+    "meaningZh": "既然……就……",
+    "meaningEn": "now that a commitment or fact is established",
+    "explanation": "承认前项已成立后，提出应有的责任、决心或必然的判断。后项常接「べきだ、なければならない、つもりだ」等。它不是数字比较中的「以上」，不要按数量意义翻译。",
+    "usage": "说明接受角色、作出决定之后应承担的责任。",
+    "nuance": "带有明确的逻辑要求或承诺，语气比普通「から」更坚决。",
+    "structure": [
+      "V普通形＋以上は",
+      "N／な形容词＋である以上は"
+    ],
+    "formation": [
+      "V普通形＋以上は",
+      "N／な形容词＋である以上は"
+    ],
+    "examples": [
+      {
+        "target": "引き受けた以上は、最後まで責任を持ちたい。",
+        "reading": "ひきうけたいじょうは、さいごまでせきにんをもちたい。",
+        "zh": "既然接下了，就想负责到底。"
+      },
+      {
+        "target": "契約した以上は、条件を守る必要がある。",
+        "reading": "けいやくしたいじょうは、じょうけんをまもるひつようがある。",
+        "zh": "既然签了合同，就需要遵守条件。"
+      },
+      {
+        "target": "参加する以上は、資料を読んでおくべきだ。",
+        "reading": "さんかするいじょうは、しりょうをよんでおくべきだ。",
+        "zh": "既然参加，就应该提前读资料。"
+      },
+      {
+        "target": "代表である以上は、全員の意見を聞きたい。",
+        "reading": "だいひょうであるいじょうは、ぜんいんのいけんをききたい。",
+        "zh": "既然是代表，就希望听取大家的意见。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "代表だ以上は、責任がある。",
+        "correct": "代表である以上は、責任がある。",
+        "explanation": "名词接「である以上は」，而不是直接接「だ」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-kara-niwa",
+        "explanation": "「からには」也表达既然，往往更强调当事人的决心；「以上は」适合逻辑责任。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-kara-niwa"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-ijou-wa-meaning",
+        "kind": "meaning",
+        "prompt": "「〜以上は」在本课中的核心意思是什么？",
+        "options": [
+          "既然……就……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "既然……就……"
+        ],
+        "explanation": "带有明确的逻辑要求或承诺，语气比普通「から」更坚决。"
+      },
+      {
+        "id": "grammar-ja-n2-ijou-wa-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：引き受けた＿＿、最後まで責任を持ちたい。",
+        "acceptedAnswers": [
+          "以上は"
+        ],
+        "explanation": "V普通形＋以上は；N／な形容词＋である以上は"
+      },
+      {
+        "id": "grammar-ja-n2-ijou-wa-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：代表だ以上は、責任がある。",
+        "acceptedAnswers": [
+          "代表である以上は、責任がある。"
+        ],
+        "explanation": "名词接「である以上は」，而不是直接接「だ」。"
+      },
+      {
+        "id": "grammar-ja-n2-ijou-wa-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：既然参加，就应该提前读资料。",
+        "acceptedAnswers": [
+          "参加する以上は、資料を読んでおくべきだ。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-ijou-wa-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n代表である以上は、全員の意見を聞きたい。",
+        "options": [
+          "既然接下了，就想负责到底。",
+          "既然签了合同，就需要遵守条件。",
+          "既然是代表，就希望听取大家的意见。"
+        ],
+        "acceptedAnswers": [
+          "既然是代表，就希望听取大家的意见。"
+        ],
+        "explanation": "本句的中文是“既然是代表，就希望听取大家的意见。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。带有明确的逻辑要求或承诺，语气比普通「から」更坚决。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-kara-niwa",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "责任",
+      "决心"
+    ],
+    "kind": "grammar",
+    "title": "〜からには",
+    "pattern": "〜からには",
+    "meaningZh": "既然……就一定……",
+    "meaningEn": "since one has chosen or accepted something",
+    "explanation": "既然已经决定、开始或承担某件事，就应采取相称的行动。后项常是决心、义务、要求或预期。一般不是用于两个普通客观事实的因果关系，而是从前项推出行为上的承诺。",
+    "usage": "表达开始做某事后的认真态度或责任。",
+    "nuance": "带有决意或要求，常强调说到就应做到。",
+    "structure": [
+      "V普通形＋からには",
+      "N／な形容词＋であるからには"
+    ],
+    "formation": [
+      "V普通形＋からには",
+      "N／な形容词＋であるからには"
+    ],
+    "examples": [
+      {
+        "target": "応募したからには、面接の準備をしっかりしたい。",
+        "reading": "おうぼしたからには、めんせつのじゅんびをしっかりしたい。",
+        "zh": "既然申请了，就想认真准备面试。"
+      },
+      {
+        "target": "約束したからには、必ず連絡する。",
+        "reading": "やくそくしたからには、かならずれんらくする。",
+        "zh": "既然答应了，就一定联系。"
+      },
+      {
+        "target": "始めるからには、無理のない計画を立てよう。",
+        "reading": "はじめるからには、むりのないけいかくをたてよう。",
+        "zh": "既然要开始，就制定一个可行的计划吧。"
+      },
+      {
+        "target": "責任者であるからには、状況を把握しておくべきだ。",
+        "reading": "せきにんしゃであるからには、じょうきょうをはあくしておくべきだ。",
+        "zh": "既然是负责人，就应掌握情况。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "雨が降るからには、道がぬれている。",
+        "correct": "引き受けたからには、責任を持って進める。",
+        "explanation": "普通天气因果用「から」即可；「からには」侧重由承担或既定事实推出责任与决心。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-ijou-wa",
+        "explanation": "与「以上は」接近，但「からには」在表达当事人决心时更常见。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-ijou-wa"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-kara-niwa-meaning",
+        "kind": "meaning",
+        "prompt": "「〜からには」在本课中的核心意思是什么？",
+        "options": [
+          "既然……就一定……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "既然……就一定……"
+        ],
+        "explanation": "带有决意或要求，常强调说到就应做到。"
+      },
+      {
+        "id": "grammar-ja-n2-kara-niwa-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：応募した＿＿、面接の準備をしっかりしたい。",
+        "acceptedAnswers": [
+          "からには"
+        ],
+        "explanation": "V普通形＋からには；N／な形容词＋であるからには"
+      },
+      {
+        "id": "grammar-ja-n2-kara-niwa-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：雨が降るからには、道がぬれている。",
+        "acceptedAnswers": [
+          "引き受けたからには、責任を持って進める。"
+        ],
+        "explanation": "普通天气因果用「から」即可；「からには」侧重由承担或既定事实推出责任与决心。"
+      },
+      {
+        "id": "grammar-ja-n2-kara-niwa-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：既然要开始，就制定一个可行的计划吧。",
+        "acceptedAnswers": [
+          "始めるからには、無理のない計画を立てよう。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-kara-niwa-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n責任者であるからには、状況を把握しておくべきだ。",
+        "options": [
+          "既然申请了，就想认真准备面试。",
+          "既然答应了，就一定联系。",
+          "既然是负责人，就应掌握情况。"
+        ],
+        "acceptedAnswers": [
+          "既然是负责人，就应掌握情况。"
+        ],
+        "explanation": "本句的中文是“既然是负责人，就应掌握情况。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。带有决意或要求，常强调说到就应做到。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-wake-niwa-ikanai",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "义务",
+      "否定"
+    ],
+    "kind": "grammar",
+    "title": "〜わけにはいかない",
+    "pattern": "〜わけにはいかない",
+    "meaningZh": "不能……（受责任、常识或处境限制）",
+    "meaningEn": "cannot do something because circumstances make it unacceptable",
+    "explanation": "并不是身体或技能上做不到，而是因为社会规范、约定、责任等不能去做。动词辞书形加「わけにはいかない」表示不能做；动词ない形加此形式则表示不能不做，务必注意双重否定。",
+    "usage": "说明不方便做某事，或有责任必须做某事。",
+    "nuance": "表示处境和义理上的限制，不等同于能力可能形的否定。",
+    "structure": [
+      "V辞书形＋わけにはいかない",
+      "Vない形＋わけにはいかない"
+    ],
+    "formation": [
+      "V辞书形＋わけにはいかない",
+      "Vない形＋わけにはいかない"
+    ],
+    "examples": [
+      {
+        "target": "約束したので、今さら断るわけにはいかない。",
+        "reading": "やくそくしたので、いまさらことわるわけにはいかない。",
+        "zh": "已经答应了，事到如今不能拒绝。"
+      },
+      {
+        "target": "大切な資料だから、なくすわけにはいかない。",
+        "reading": "たいせつなしりょうだから、なくすわけにはいかない。",
+        "zh": "因为是重要资料，不能弄丢。"
+      },
+      {
+        "target": "責任者として、確認しないわけにはいかない。",
+        "reading": "せきにんしゃとして、かくにんしないわけにはいかない。",
+        "zh": "作为负责人，不能不确认。"
+      },
+      {
+        "target": "全員が待っているので、遅れるわけにはいかない。",
+        "reading": "ぜんいんがまっているので、おくれるわけにはいかない。",
+        "zh": "大家都在等，不能迟到。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "確認しないわけにはいかないので、確認をしない。",
+        "correct": "確認しないわけにはいかないので、確認をする。",
+        "explanation": "ない形再加不能，整体意思是不能不做，即必须做。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-zaru-wo-enai",
+        "explanation": "「わけにはいかない」多涉及责任规范；「ざるを得ない」多因没有替代办法而不得不做。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-nai-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-zaru-wo-enai"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-wake-niwa-ikanai-meaning",
+        "kind": "meaning",
+        "prompt": "「〜わけにはいかない」在本课中的核心意思是什么？",
+        "options": [
+          "不能……（受责任、常识或处境限制）",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "不能……（受责任、常识或处境限制）"
+        ],
+        "explanation": "表示处境和义理上的限制，不等同于能力可能形的否定。"
+      },
+      {
+        "id": "grammar-ja-n2-wake-niwa-ikanai-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：約束したので、今さら断る＿＿。",
+        "acceptedAnswers": [
+          "わけにはいかない"
+        ],
+        "explanation": "V辞书形＋わけにはいかない；Vない形＋わけにはいかない"
+      },
+      {
+        "id": "grammar-ja-n2-wake-niwa-ikanai-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：確認しないわけにはいかないので、確認をしない。",
+        "acceptedAnswers": [
+          "確認しないわけにはいかないので、確認をする。"
+        ],
+        "explanation": "ない形再加不能，整体意思是不能不做，即必须做。"
+      },
+      {
+        "id": "grammar-ja-n2-wake-niwa-ikanai-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：作为负责人，不能不确认。",
+        "acceptedAnswers": [
+          "責任者として、確認しないわけにはいかない。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-wake-niwa-ikanai-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n全員が待っているので、遅れるわけにはいかない。",
+        "options": [
+          "大家都在等，不能迟到。",
+          "已经答应了，事到如今不能拒绝。",
+          "因为是重要资料，不能弄丢。"
+        ],
+        "acceptedAnswers": [
+          "大家都在等，不能迟到。"
+        ],
+        "explanation": "本句的中文是“大家都在等，不能迟到。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。表示处境和义理上的限制，不等同于能力可能形的否定。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-zu-niwa-irarenai",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "感情",
+      "ず形"
+    ],
+    "kind": "grammar",
+    "title": "〜ずにはいられない",
+    "pattern": "〜ずにはいられない",
+    "meaningZh": "忍不住……；不能不……",
+    "meaningEn": "cannot help doing something due to an inner impulse",
+    "explanation": "表示情绪或内在冲动很强，无法抑制某个动作。不是外部规定强迫自己做，也不是表示技能上的不能。接动词未然形的「ず」形式；特别注意「する」变为「せず」，不是「しず」。",
+    "usage": "表达担心、惊讶、感动或愤怒引起的自然反应。",
+    "nuance": "强调说话人的内心驱动，通常不是理性计划或法律义务。",
+    "structure": [
+      "V未然形＋ずにはいられない",
+      "する→せずにはいられない"
+    ],
+    "formation": [
+      "V未然形＋ずにはいられない",
+      "する→せずにはいられない"
+    ],
+    "examples": [
+      {
+        "target": "その話を聞いて、笑わずにはいられなかった。",
+        "reading": "そのはなしをきいて、わらわずにはいられなかった。",
+        "zh": "听到那件事，我忍不住笑了。"
+      },
+      {
+        "target": "家族のことが心配で、電話せずにはいられない。",
+        "reading": "かぞくのことがしんぱいで、でんわせずにはいられない。",
+        "zh": "因为担心家人，忍不住打电话。"
+      },
+      {
+        "target": "不公平な対応を見ると、何か言わずにはいられない。",
+        "reading": "ふこうへいなたいおうをみると、なにかいわずにはいられない。",
+        "zh": "看到不公平的对待，忍不住想说点什么。"
+      },
+      {
+        "target": "昔の写真を見ると、懐かしく思わずにはいられない。",
+        "reading": "むかしのしゃしんをみると、なつかしくおもわずにはいられない。",
+        "zh": "看到以前的照片，不由得感到怀念。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "心配で電話しずにはいられない。",
+        "correct": "心配で電話せずにはいられない。",
+        "explanation": "「する」的ず形是「せず」，这是特别需要记忆的例外。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-zaru-wo-enai",
+        "explanation": "「ずにはいられない」出于感情冲动；「ざるを得ない」出于客观条件限制。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-nai-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-zaru-wo-enai"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-zu-niwa-irarenai-meaning",
+        "kind": "meaning",
+        "prompt": "「〜ずにはいられない」在本课中的核心意思是什么？",
+        "options": [
+          "忍不住……；不能不……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "忍不住……；不能不……"
+        ],
+        "explanation": "强调说话人的内心驱动，通常不是理性计划或法律义务。"
+      },
+      {
+        "id": "grammar-ja-n2-zu-niwa-irarenai-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：家族のことが心配で、電話せ＿＿。",
+        "acceptedAnswers": [
+          "ずにはいられない"
+        ],
+        "explanation": "V未然形＋ずにはいられない；する→せずにはいられない"
+      },
+      {
+        "id": "grammar-ja-n2-zu-niwa-irarenai-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：心配で電話しずにはいられない。",
+        "acceptedAnswers": [
+          "心配で電話せずにはいられない。"
+        ],
+        "explanation": "「する」的ず形是「せず」，这是特别需要记忆的例外。"
+      },
+      {
+        "id": "grammar-ja-n2-zu-niwa-irarenai-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：看到不公平的对待，忍不住想说点什么。",
+        "acceptedAnswers": [
+          "不公平な対応を見ると、何か言わずにはいられない。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-zu-niwa-irarenai-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n昔の写真を見ると、懐かしく思わずにはいられない。",
+        "options": [
+          "看到以前的照片，不由得感到怀念。",
+          "听到那件事，我忍不住笑了。",
+          "因为担心家人，忍不住打电话。"
+        ],
+        "acceptedAnswers": [
+          "看到以前的照片，不由得感到怀念。"
+        ],
+        "explanation": "本句的中文是“看到以前的照片，不由得感到怀念。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。强调说话人的内心驱动，通常不是理性计划或法律义务。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-zaru-wo-enai",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "义务",
+      "书面语"
+    ],
+    "kind": "grammar",
+    "title": "〜ざるを得ない",
+    "pattern": "〜ざるを得ない",
+    "meaningZh": "不得不……；别无选择只能……",
+    "meaningEn": "have no practical choice but to",
+    "explanation": "外部条件使其他选择不可行，虽不情愿也必须采取前项行动。常见于正式解释与新闻。接动词未然形，「する」对应「せざるを得ない」。不要把「ざる」当成普通ない形后继续叠加。",
+    "usage": "解释客观限制导致的非自愿选择。",
+    "nuance": "突出没有其他现实办法；比单纯「なければならない」更含无奈。",
+    "structure": [
+      "V未然形＋ざるを得ない",
+      "する→せざるを得ない"
+    ],
+    "formation": [
+      "V未然形＋ざるを得ない",
+      "する→せざるを得ない"
+    ],
+    "examples": [
+      {
+        "target": "予算が不足しているため、計画を縮小せざるを得ない。",
+        "reading": "よさんがふそくしているため、けいかくをしゅくしょうせざるをえない。",
+        "zh": "由于预算不足，不得不缩小计划。"
+      },
+      {
+        "target": "電車が止まったので、タクシーを使わざるを得なかった。",
+        "reading": "でんしゃがとまったので、たくしーをつかわざるをえなかった。",
+        "zh": "因为电车停运，不得不乘出租车。"
+      },
+      {
+        "target": "証拠がない以上、判断を保留せざるを得ない。",
+        "reading": "しょうこがないいじょう、はんだんをほりゅうせざるをえない。",
+        "zh": "既然没有证据，就不得不暂缓判断。"
+      },
+      {
+        "target": "状況が変わり、予定を見直さざるを得なくなった。",
+        "reading": "じょうきょうがかわり、よていをみなおさざるをえなくなった。",
+        "zh": "情况变了，不得不重新审视计划。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "計画を変更しざるを得ない。",
+        "correct": "計画を変更せざるを得ない。",
+        "explanation": "「する」必须变成「せざる」；五段动词则使用相应未然形。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-wake-niwa-ikanai",
+        "explanation": "「ざるを得ない」是现实条件没有替代；「わけにはいかない」是某行为不被责任或常识允许。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-nai-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-wake-niwa-ikanai"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-zaru-wo-enai-meaning",
+        "kind": "meaning",
+        "prompt": "「〜ざるを得ない」在本课中的核心意思是什么？",
+        "options": [
+          "不得不……；别无选择只能……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "不得不……；别无选择只能……"
+        ],
+        "explanation": "突出没有其他现实办法；比单纯「なければならない」更含无奈。"
+      },
+      {
+        "id": "grammar-ja-n2-zaru-wo-enai-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：予算が不足しているため、計画を縮小せ＿＿。",
+        "acceptedAnswers": [
+          "ざるを得ない"
+        ],
+        "explanation": "V未然形＋ざるを得ない；する→せざるを得ない"
+      },
+      {
+        "id": "grammar-ja-n2-zaru-wo-enai-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：計画を変更しざるを得ない。",
+        "acceptedAnswers": [
+          "計画を変更せざるを得ない。"
+        ],
+        "explanation": "「する」必须变成「せざる」；五段动词则使用相应未然形。"
+      },
+      {
+        "id": "grammar-ja-n2-zaru-wo-enai-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：既然没有证据，就不得不暂缓判断。",
+        "acceptedAnswers": [
+          "証拠がない以上、判断を保留せざるを得ない。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-zaru-wo-enai-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n状況が変わり、予定を見直さざるを得なくなった。",
+        "options": [
+          "情况变了，不得不重新审视计划。",
+          "由于预算不足，不得不缩小计划。",
+          "因为电车停运，不得不乘出租车。"
+        ],
+        "acceptedAnswers": [
+          "情况变了，不得不重新审视计划。"
+        ],
+        "explanation": "本句的中文是“情况变了，不得不重新审视计划。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。突出没有其他现实办法；比单纯「なければならない」更含无奈。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-kaneru",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "拒绝",
+      "礼貌"
+    ],
+    "kind": "grammar",
+    "title": "〜かねる",
+    "pattern": "〜かねる",
+    "meaningZh": "难以……；无法……（委婉表达）",
+    "meaningEn": "find it difficult or be unable to do, politely",
+    "explanation": "动词ます形去掉ます后接「かねる」，表示由于立场、规则、心理等原因难以做到。常用于客服或正式场合委婉拒绝，不是简单表示不会某技能。「できかねる」比「できない」更委婉，但仍是拒绝。",
+    "usage": "委婉说明不能答复、判断、接受或同意。",
+    "nuance": "礼貌不等于可能做到；对方不应把它理解为肯定承诺。",
+    "structure": [
+      "Vます形去ます＋かねる"
+    ],
+    "formation": [
+      "Vます形去ます＋かねる"
+    ],
+    "examples": [
+      {
+        "target": "そのご質問には、今すぐお答えしかねます。",
+        "reading": "そのごしつもんには、いますぐおこたえしかねます。",
+        "zh": "您的问题，我现在无法立即回答。"
+      },
+      {
+        "target": "資料が少ないため、判断しかねる。",
+        "reading": "しりょうがすくないため、はんだんしかねる。",
+        "zh": "由于资料少，难以判断。"
+      },
+      {
+        "target": "申し訳ありませんが、その条件では承諾しかねます。",
+        "reading": "もうしわけありませんが、そのじょうけんではしょうだくしかねます。",
+        "zh": "很抱歉，在这些条件下无法同意。"
+      },
+      {
+        "target": "理由が分からず、理解しかねた。",
+        "reading": "りゆうがわからず、りかいしかねた。",
+        "zh": "因为不知道原因，难以理解。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "その質問には答えるかねます。",
+        "correct": "その質問には答えかねます。",
+        "explanation": "接动词ます词干，不接辞书形；「答える」对应「答え」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-kanenai",
+        "explanation": "「かねない」不是简单的双重否定，表示坏结果有可能发生。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-masu-stem"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-kanenai"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-kaneru-meaning",
+        "kind": "meaning",
+        "prompt": "「〜かねる」在本课中的核心意思是什么？",
+        "options": [
+          "难以……；无法……（委婉表达）",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "难以……；无法……（委婉表达）"
+        ],
+        "explanation": "礼貌不等于可能做到；对方不应把它理解为肯定承诺。"
+      },
+      {
+        "id": "grammar-ja-n2-kaneru-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：資料が少ないため、判断し＿＿。",
+        "acceptedAnswers": [
+          "かねる"
+        ],
+        "explanation": "Vます形去ます＋かねる"
+      },
+      {
+        "id": "grammar-ja-n2-kaneru-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：その質問には答えるかねます。",
+        "acceptedAnswers": [
+          "その質問には答えかねます。"
+        ],
+        "explanation": "接动词ます词干，不接辞书形；「答える」对应「答え」。"
+      },
+      {
+        "id": "grammar-ja-n2-kaneru-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：很抱歉，在这些条件下无法同意。",
+        "acceptedAnswers": [
+          "申し訳ありませんが、その条件では承諾しかねます。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-kaneru-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n理由が分からず、理解しかねた。",
+        "options": [
+          "因为不知道原因，难以理解。",
+          "您的问题，我现在无法立即回答。",
+          "由于资料少，难以判断。"
+        ],
+        "acceptedAnswers": [
+          "因为不知道原因，难以理解。"
+        ],
+        "explanation": "本句的中文是“因为不知道原因，难以理解。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。礼貌不等于可能做到；对方不应把它理解为肯定承诺。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-kanenai",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "可能性",
+      "风险"
+    ],
+    "kind": "grammar",
+    "title": "〜かねない",
+    "pattern": "〜かねない",
+    "meaningZh": "可能会……（通常是不良结果）",
+    "meaningEn": "may well lead to an undesirable outcome",
+    "explanation": "表示某种危险或不良结果有现实可能，常用于提醒与警告。虽然形式看起来像「かねる」的否定，但不能按双重否定解释成能够。与中性的「かもしれない」相比，更突出不希望发生的结果。",
+    "usage": "警告忽视问题、作出决定可能带来的不良后果。",
+    "nuance": "通常针对坏结果，不能泛用来表达期待中的好事。",
+    "structure": [
+      "Vます形去ます＋かねない"
+    ],
+    "formation": [
+      "Vます形去ます＋かねない"
+    ],
+    "examples": [
+      {
+        "target": "確認を省くと、重大な事故につながりかねない。",
+        "reading": "かくにんをはぶくと、じゅうだいなじこにつながりかねない。",
+        "zh": "省略检查可能导致重大事故。"
+      },
+      {
+        "target": "このままでは、利用者の信頼を失いかねない。",
+        "reading": "このままでは、りようしゃのしんらいをうしないかねない。",
+        "zh": "照这样下去，可能失去用户信任。"
+      },
+      {
+        "target": "曖昧な説明は、誤解を招きかねない。",
+        "reading": "あいまいなせつめいは、ごかいをまねきかねない。",
+        "zh": "含糊的说明可能招致误解。"
+      },
+      {
+        "target": "無理を続けると、体を壊しかねない。",
+        "reading": "むりをつづけると、からだをこわしかねない。",
+        "zh": "一直勉强下去，可能损害身体。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "毎日練習すれば、上達しかねない。",
+        "correct": "無理をすれば、体を壊しかねない。",
+        "explanation": "想表示会进步可用「上達するかもしれない」；「かねない」通常担忧坏结果。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-kaneru",
+        "explanation": "「承諾しかねる」表示难以同意；「信頼を失いかねない」表示可能失去信任。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-masu-stem"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-kaneru"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-kanenai-meaning",
+        "kind": "meaning",
+        "prompt": "「〜かねない」在本课中的核心意思是什么？",
+        "options": [
+          "可能会……（通常是不良结果）",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "可能会……（通常是不良结果）"
+        ],
+        "explanation": "通常针对坏结果，不能泛用来表达期待中的好事。"
+      },
+      {
+        "id": "grammar-ja-n2-kanenai-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：確認を省くと、重大な事故につながり＿＿。",
+        "acceptedAnswers": [
+          "かねない"
+        ],
+        "explanation": "Vます形去ます＋かねない"
+      },
+      {
+        "id": "grammar-ja-n2-kanenai-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：毎日練習すれば、上達しかねない。",
+        "acceptedAnswers": [
+          "無理をすれば、体を壊しかねない。"
+        ],
+        "explanation": "想表示会进步可用「上達するかもしれない」；「かねない」通常担忧坏结果。"
+      },
+      {
+        "id": "grammar-ja-n2-kanenai-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：含糊的说明可能招致误解。",
+        "acceptedAnswers": [
+          "曖昧な説明は、誤解を招きかねない。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-kanenai-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n無理を続けると、体を壊しかねない。",
+        "options": [
+          "省略检查可能导致重大事故。",
+          "照这样下去，可能失去用户信任。",
+          "一直勉强下去，可能损害身体。"
+        ],
+        "acceptedAnswers": [
+          "一直勉强下去，可能损害身体。"
+        ],
+        "explanation": "本句的中文是“一直勉强下去，可能损害身体。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。通常针对坏结果，不能泛用来表达期待中的好事。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-ni-chigainai",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "推测",
+      "证据"
+    ],
+    "kind": "grammar",
+    "title": "〜に違いない",
+    "pattern": "〜に違いない",
+    "meaningZh": "一定……；想必……",
+    "meaningEn": "must be the case, based on a strong inference",
+    "explanation": "根据观察、信息或经验作出很有把握的推测，但并非亲眼确认的事实本身。动词和い形容词接普通形；名词和形容动词现在肯定通常直接接「に違いない」，不保留「だ」。",
+    "usage": "从线索得出有把握但仍属于推测的判断。",
+    "nuance": "信心较强，不等于客观证据已完全证明；需要区分判断和事实。",
+    "structure": [
+      "V普通形／い形容词＋に違いない",
+      "N／な形容词词干＋に違いない"
+    ],
+    "formation": [
+      "V普通形／い形容词＋に違いない",
+      "N／な形容词词干＋に違いない"
+    ],
+    "examples": [
+      {
+        "target": "電気がついているので、誰かいるに違いない。",
+        "reading": "でんきがついているので、だれかいるにちがいない。",
+        "zh": "灯亮着，想必有人在。"
+      },
+      {
+        "target": "何度も確認したから、正確に違いない。",
+        "reading": "なんどもかくにんしたから、せいかくにちがいない。",
+        "zh": "确认了多次，应该很准确。"
+      },
+      {
+        "target": "あの人は、この仕事の専門家に違いない。",
+        "reading": "あのひとは、このしごとのせんもんかにちがいない。",
+        "zh": "那个人想必是这项工作的专家。"
+      },
+      {
+        "target": "長く歩いたので、疲れているに違いない。",
+        "reading": "ながくあるいたので、つかれているにちがいない。",
+        "zh": "走了很久，想必已经累了。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "あの人は専門家だに違いない。",
+        "correct": "あの人は専門家に違いない。",
+        "explanation": "名词现在肯定不直接保留「だ」连接本句型。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-ni-kimatteiru",
+        "explanation": "「に違いない」常依赖线索；「に決まっている」更容易表达说话人的主观确信。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-ni-kimatteiru"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-ni-chigainai-meaning",
+        "kind": "meaning",
+        "prompt": "「〜に違いない」在本课中的核心意思是什么？",
+        "options": [
+          "一定……；想必……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "一定……；想必……"
+        ],
+        "explanation": "信心较强，不等于客观证据已完全证明；需要区分判断和事实。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-chigainai-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：電気がついているので、誰かいる＿＿。",
+        "acceptedAnswers": [
+          "に違いない"
+        ],
+        "explanation": "V普通形／い形容词＋に違いない；N／な形容词词干＋に違いない"
+      },
+      {
+        "id": "grammar-ja-n2-ni-chigainai-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：あの人は専門家だに違いない。",
+        "acceptedAnswers": [
+          "あの人は専門家に違いない。"
+        ],
+        "explanation": "名词现在肯定不直接保留「だ」连接本句型。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-chigainai-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：那个人想必是这项工作的专家。",
+        "acceptedAnswers": [
+          "あの人は、この仕事の専門家に違いない。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-chigainai-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n長く歩いたので、疲れているに違いない。",
+        "options": [
+          "确认了多次，应该很准确。",
+          "走了很久，想必已经累了。",
+          "灯亮着，想必有人在。"
+        ],
+        "acceptedAnswers": [
+          "走了很久，想必已经累了。"
+        ],
+        "explanation": "本句的中文是“走了很久，想必已经累了。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。信心较强，不等于客观证据已完全证明；需要区分判断和事实。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-ni-kimatteiru",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "推测",
+      "语气"
+    ],
+    "kind": "grammar",
+    "title": "〜に決まっている",
+    "pattern": "〜に決まっている",
+    "meaningZh": "肯定……；当然……",
+    "meaningEn": "of course it must be so, in the speaker's conviction",
+    "explanation": "说话人认为结果显而易见、理所当然，带较强的主观确信。未必列出客观证据，口语中容易包含责备、反驳或情绪。连接方式与「に違いない」接近，名词和形容动词现在肯定不保留「だ」。",
+    "usage": "强调自己确信的结论，常用于熟人间的讨论或反驳。",
+    "nuance": "语气可能显得武断；正式工作沟通应注意避免把推测说成绝对事实。",
+    "structure": [
+      "V普通形／い形容词＋に決まっている",
+      "N／な形容词词干＋に決まっている"
+    ],
+    "formation": [
+      "V普通形／い形容词＋に決まっている",
+      "N／な形容词词干＋に決まっている"
+    ],
+    "examples": [
+      {
+        "target": "そんな無理な計画は、続かないに決まっている。",
+        "reading": "そんなむりなけいかくは、つづかないにきまっている。",
+        "zh": "那样勉强的计划，肯定坚持不下去。"
+      },
+      {
+        "target": "準備をしなければ、不安に決まっている。",
+        "reading": "じゅんびをしなければ、ふあんにきまっている。",
+        "zh": "不准备的话，当然会不安。"
+      },
+      {
+        "target": "この時間なら、道は混んでいるに決まっている。",
+        "reading": "このじかんなら、みちはこんでいるにきまっている。",
+        "zh": "这个时间，道路肯定很拥堵。"
+      },
+      {
+        "target": "丁寧に説明した方がいいに決まっている。",
+        "reading": "ていねいにせつめいしたほうがいいにきまっている。",
+        "zh": "当然是认真说明更好。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "便利だに決まっている。",
+        "correct": "便利に決まっている。",
+        "explanation": "名词或形容动词词干直接连接，不保留「だ」。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-ni-chigainai",
+        "explanation": "两者都确信，但「に決まっている」更主观且常带情绪；「に違いない」常有线索依据。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-ni-chigainai"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-ni-kimatteiru-meaning",
+        "kind": "meaning",
+        "prompt": "「〜に決まっている」在本课中的核心意思是什么？",
+        "options": [
+          "肯定……；当然……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "肯定……；当然……"
+        ],
+        "explanation": "语气可能显得武断；正式工作沟通应注意避免把推测说成绝对事实。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kimatteiru-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：そんな無理な計画は、続かない＿＿。",
+        "acceptedAnswers": [
+          "に決まっている"
+        ],
+        "explanation": "V普通形／い形容词＋に決まっている；N／な形容词词干＋に決まっている"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kimatteiru-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：便利だに決まっている。",
+        "acceptedAnswers": [
+          "便利に決まっている。"
+        ],
+        "explanation": "名词或形容动词词干直接连接，不保留「だ」。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kimatteiru-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：这个时间，道路肯定很拥堵。",
+        "acceptedAnswers": [
+          "この時間なら、道は混んでいるに決まっている。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-ni-kimatteiru-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n丁寧に説明した方がいいに決まっている。",
+        "options": [
+          "那样勉强的计划，肯定坚持不下去。",
+          "不准备的话，当然会不安。",
+          "当然是认真说明更好。"
+        ],
+        "acceptedAnswers": [
+          "当然是认真说明更好。"
+        ],
+        "explanation": "本句的中文是“当然是认真说明更好。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。语气可能显得武断；正式工作沟通应注意避免把推测说成绝对事实。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-dokoroka",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "对比",
+      "反差"
+    ],
+    "kind": "grammar",
+    "title": "〜どころか",
+    "pattern": "〜どころか",
+    "meaningZh": "哪里是……；别说……反而……",
+    "meaningEn": "far from that; not only that but an unexpected stronger fact",
+    "explanation": "推翻对前项程度或状态的预期，提出相反或更强的后项。既可以从弱到强，如不只懂还会说，也可以表示连前项都没有、反而更糟。后项需形成明显的反差或超出预期。",
+    "usage": "纠正对实际情况的低估、误解或过高预期。",
+    "nuance": "不是普通列举的「而且」，通常存在预期与实际的反差。",
+    "structure": [
+      "V普通形／い形容词＋どころか",
+      "N／な形容词词干＋どころか"
+    ],
+    "formation": [
+      "V普通形／い形容词＋どころか",
+      "N／な形容词词干＋どころか"
+    ],
+    "examples": [
+      {
+        "target": "休むどころか、週末も働いていた。",
+        "reading": "やすむどころか、しゅうまつもはたらいていた。",
+        "zh": "别说休息了，周末也在工作。"
+      },
+      {
+        "target": "安いどころか、前より高くなっていた。",
+        "reading": "やすいどころか、まえよりたかくなっていた。",
+        "zh": "哪里便宜了，反而比以前更贵。"
+      },
+      {
+        "target": "彼は日本語を読むどころか、論文も書ける。",
+        "reading": "かれはにほんごをよむどころか、ろんぶんもかける。",
+        "zh": "他不只是会读日语，还能写论文。"
+      },
+      {
+        "target": "改善どころか、状況はさらに悪くなった。",
+        "reading": "かいぜんどころか、じょうきょうはさらにわるくなった。",
+        "zh": "别说改善了，情况进一步恶化。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "安いどころか、同じくらい安い。",
+        "correct": "安いどころか、前より高い。",
+        "explanation": "后项应形成明显反差或超出预期，而非机械重复同程度的信息。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-dokoro-dewanai",
+        "explanation": "「どころか」纠正实际程度；「どころではない」表示没有做某事的余裕。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-dokoro-dewanai"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-dokoroka-meaning",
+        "kind": "meaning",
+        "prompt": "「〜どころか」在本课中的核心意思是什么？",
+        "options": [
+          "哪里是……；别说……反而……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "哪里是……；别说……反而……"
+        ],
+        "explanation": "不是普通列举的「而且」，通常存在预期与实际的反差。"
+      },
+      {
+        "id": "grammar-ja-n2-dokoroka-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：休む＿＿、週末も働いていた。",
+        "acceptedAnswers": [
+          "どころか"
+        ],
+        "explanation": "V普通形／い形容词＋どころか；N／な形容词词干＋どころか"
+      },
+      {
+        "id": "grammar-ja-n2-dokoroka-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：安いどころか、同じくらい安い。",
+        "acceptedAnswers": [
+          "安いどころか、前より高い。"
+        ],
+        "explanation": "后项应形成明显反差或超出预期，而非机械重复同程度的信息。"
+      },
+      {
+        "id": "grammar-ja-n2-dokoroka-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：他不只是会读日语，还能写论文。",
+        "acceptedAnswers": [
+          "彼は日本語を読むどころか、論文も書ける。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-dokoroka-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n改善どころか、状況はさらに悪くなった。",
+        "options": [
+          "别说休息了，周末也在工作。",
+          "哪里便宜了，反而比以前更贵。",
+          "别说改善了，情况进一步恶化。"
+        ],
+        "acceptedAnswers": [
+          "别说改善了，情况进一步恶化。"
+        ],
+        "explanation": "本句的中文是“别说改善了，情况进一步恶化。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。不是普通列举的「而且」，通常存在预期与实际的反差。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n2-dokoro-dewanai",
+    "language": "ja",
+    "level": "N2",
+    "difficulty": 3,
+    "tags": [
+      "余裕",
+      "处境"
+    ],
+    "kind": "grammar",
+    "title": "〜どころではない",
+    "pattern": "〜どころではない",
+    "meaningZh": "哪有余裕……；根本顾不上……",
+    "meaningEn": "be in no position or have no time to do something",
+    "explanation": "因为面临更急迫的事情、身体状况或压力，前项根本无法顾及。不是单纯说不想做，而是当前处境不允许。名词也可以直接接「どころではない」，日常口语可用「どころじゃない」。",
+    "usage": "说明当下处境使娱乐、休息或其他次要行动不可行。",
+    "nuance": "常隐含优先级被打乱和缺少余裕，不表示长久的能力不足。",
+    "structure": [
+      "V辞书形＋どころではない",
+      "N＋どころではない"
+    ],
+    "formation": [
+      "V辞书形＋どころではない",
+      "N＋どころではない"
+    ],
+    "examples": [
+      {
+        "target": "締め切りが近くて、旅行どころではない。",
+        "reading": "しめきりがちかくて、りょこうどころではない。",
+        "zh": "截止日期临近，哪还顾得上旅行。"
+      },
+      {
+        "target": "熱が出て、勉強するどころではなかった。",
+        "reading": "ねつがでて、べんきょうするどころではなかった。",
+        "zh": "发烧了，根本顾不上学习。"
+      },
+      {
+        "target": "引っ越しの準備で忙しく、休むどころではない。",
+        "reading": "ひっこしのじゅんびでいそがしく、やすむどころではない。",
+        "zh": "忙着准备搬家，根本没空休息。"
+      },
+      {
+        "target": "設備の故障で、会議どころではなくなった。",
+        "reading": "せつびのこしょうで、かいぎどころではなくなった。",
+        "zh": "设备故障后，已经顾不上开会了。"
+      }
+    ],
+    "notes": [
+      "先确认接续，再区分句子表达的是事实、判断还是说话人的态度。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "旅行が嫌いなので、旅行どころではない。",
+        "correct": "仕事が忙しくて、旅行どころではない。",
+        "explanation": "单纯不喜欢宜直接说「旅行したくない」；本句型强调处境所限、无暇顾及。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n2-dokoroka",
+        "explanation": "「どころか」后面继续说明真实情况；「どころではない」本身表达顾不上的状态。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n2-dokoroka"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n2-dokoro-dewanai-meaning",
+        "kind": "meaning",
+        "prompt": "「〜どころではない」在本课中的核心意思是什么？",
+        "options": [
+          "哪有余裕……；根本顾不上……",
+          "把句子直接变为过去时",
+          "表示没有任何条件限制"
+        ],
+        "acceptedAnswers": [
+          "哪有余裕……；根本顾不上……"
+        ],
+        "explanation": "常隐含优先级被打乱和缺少余裕，不表示长久的能力不足。"
+      },
+      {
+        "id": "grammar-ja-n2-dokoro-dewanai-fill",
+        "kind": "fill",
+        "prompt": "用本课句型补全：締め切りが近くて、旅行＿＿。",
+        "acceptedAnswers": [
+          "どころではない"
+        ],
+        "explanation": "V辞书形＋どころではない；N＋どころではない"
+      },
+      {
+        "id": "grammar-ja-n2-dokoro-dewanai-error",
+        "kind": "error",
+        "prompt": "纠正接续或用法：旅行が嫌いなので、旅行どころではない。",
+        "acceptedAnswers": [
+          "仕事が忙しくて、旅行どころではない。"
+        ],
+        "explanation": "单纯不喜欢宜直接说「旅行したくない」；本句型强调处境所限、无暇顾及。"
+      },
+      {
+        "id": "grammar-ja-n2-dokoro-dewanai-translation",
+        "kind": "translation",
+        "prompt": "参考本课表达，译成日语：忙着准备搬家，根本没空休息。",
+        "acceptedAnswers": [
+          "引っ越しの準備で忙しく、休むどころではない。"
+        ],
+        "explanation": "这是参考表达。自动核对忽略空格与标点；其他自然表达需结合语境判断，不代表只有一个正确译法。"
+      },
+      {
+        "id": "grammar-ja-n2-dokoro-dewanai-example-meaning-26",
+        "kind": "context",
+        "prompt": "在本课语境中，哪项最准确理解这句话？\n設備の故障で、会議どころではなくなった。",
+        "options": [
+          "设备故障后，已经顾不上开会了。",
+          "截止日期临近，哪还顾得上旅行。",
+          "发烧了，根本顾不上学习。"
+        ],
+        "acceptedAnswers": [
+          "设备故障后，已经顾不上开会了。"
+        ],
+        "explanation": "本句的中文是“设备故障后，已经顾不上开会了。”。需要同时理解本课结构以及原句的主体、时间和动作，不能只看到相同语法形式就忽略具体内容。常隐含优先级被打乱和缺少余裕，不表示长久的能力不足。"
+      }
+    ]
+  }
+]

@@ -1,0 +1,120 @@
+{
+  "id": "grammar-en-b1-used-to-and-would",
+  "kind": "grammar",
+  "language": "en",
+  "level": "B1",
+  "difficulty": 3,
+  "tags": [
+    "writing",
+    "conversation"
+  ],
+  "title": "Used to and would: past habits",
+  "pattern": "used to / would (past habits)",
+  "meaningZh": "过去常常；过去的状态与习惯",
+  "meaningEn": "Past habits and states that are no longer current",
+  "explanation": "used to 后接动词原形，可以描述过去反复发生的动作，也可以描述过去存在的状态，通常暗示现在已经不同。would 也能描述过去反复发生的动作，但需要先建立过去的时间背景，而且一般不能用来替代 used to 描述住在哪里、喜欢什么等持续状态。不要把这种习惯用法和表示条件结果的 would 混为一谈。",
+  "usage": "回忆过去的生活、工作方式或家庭习惯时使用。先交代过去的时间背景，再用 would 串联反复发生的动作。",
+  "nuance": "used to 更突出过去与现在的对比；叙述习惯的 would 更像回忆中的细节，并不单独明确说明现在是否仍然如此。",
+  "structure": [
+    "used to + 动词原形",
+    "过去时间背景 + would + 动词原形",
+    "did not use to / Did … use to …?"
+  ],
+  "formation": [
+    "used to + 动词原形",
+    "过去时间背景 + would + 动词原形",
+    "did not use to / Did … use to …?"
+  ],
+  "examples": [
+    {
+      "target": "I used to live above a bakery.",
+      "zh": "我以前住在一家面包店楼上。"
+    },
+    {
+      "target": "When I was a child, my grandmother would read to me every evening.",
+      "zh": "我小时候，祖母每晚都会给我读书。"
+    },
+    {
+      "target": "We used to keep paper copies of every invoice.",
+      "zh": "我们过去会保存每张发票的纸质副本。"
+    },
+    {
+      "target": "Did you use to cycle to work?",
+      "zh": "你以前常骑车上班吗？"
+    }
+  ],
+  "notes": [
+    "学习者等级为课程编排参考；CEFR 并未提供一份逐条固定的语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I would live in Osaka when I was a student.",
+      "correct": "I used to live in Osaka when I was a student.",
+      "explanation": "这里说的是过去持续的居住状态，没有反复动作或条件语境，因此应使用 used to。would live 在其他条件语境中可以成立。"
+    }
+  ],
+  "comparison": [],
+  "prerequisites": [],
+  "relatedGrammar": [],
+  "exercises": [
+    {
+      "id": "grammar-en-b1-used-to-and-would-meaning",
+      "kind": "meaning",
+      "prompt": "What is the main purpose of this pattern?",
+      "options": [
+        "过去常常；过去的状态与习惯",
+        "表示说话者已经证明结果必然发生",
+        "只用于说明眼前正在发生的动作"
+      ],
+      "acceptedAnswers": [
+        "过去常常；过去的状态与习惯"
+      ],
+      "explanation": "used to 更突出过去与现在的对比；叙述习惯的 would 更像回忆中的细节，并不单独明确说明现在是否仍然如此。"
+    },
+    {
+      "id": "grammar-en-b1-used-to-and-would-fill",
+      "kind": "fill",
+      "prompt": "We _____ keep paper copies, but now we use a shared folder.",
+      "options": [
+        "used to",
+        "would have",
+        "are used to"
+      ],
+      "acceptedAnswers": [
+        "used to"
+      ],
+      "explanation": "used to + 动词原形 / 过去时间背景 + would + 动词原形 / did not use to / Did … use to …?"
+    },
+    {
+      "id": "grammar-en-b1-used-to-and-would-context",
+      "kind": "context",
+      "prompt": "哪一句单独描述过去的持续状态？",
+      "options": [
+        "I used to own a small shop.",
+        "I would own a small shop."
+      ],
+      "acceptedAnswers": [
+        "I used to own a small shop."
+      ],
+      "explanation": "used to 后接动词原形，可以描述过去反复发生的动作，也可以描述过去存在的状态，通常暗示现在已经不同。would 也能描述过去反复发生的动作，但需要先建立过去的时间背景，而且一般不能用来替代 used to 描述住在哪里、喜欢什么等持续状态。不要把这种习惯用法和表示条件结果的 would 混为一谈。"
+    },
+    {
+      "id": "grammar-en-b1-used-to-and-would-translation",
+      "kind": "translation",
+      "prompt": "我们以前会保存每张发票的纸质副本。",
+      "acceptedAnswers": [
+        "We used to keep paper copies of every invoice."
+      ],
+      "explanation": "这是自然的参考表达；其他准确表达可以对照结构自行确认。"
+    },
+    {
+      "id": "grammar-en-b1-used-to-and-would-sentence",
+      "kind": "sentence",
+      "prompt": "按正确顺序组合：invoice / every / of / copies / paper / keep / to / used / We",
+      "acceptedAnswers": [
+        "We used to keep paper copies of every invoice."
+      ],
+      "explanation": "注意主从句、动词结构与修饰语的位置。"
+    }
+  ]
+}

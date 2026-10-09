@@ -1,0 +1,127 @@
+{
+  "id": "grammar-en-b2-third-conditional",
+  "kind": "grammar",
+  "language": "en",
+  "level": "B2",
+  "difficulty": 4,
+  "tags": [
+    "writing",
+    "conversation"
+  ],
+  "title": "The third conditional: a different past",
+  "pattern": "if + past perfect, would have + past participle",
+  "meaningZh": "过去不真实的条件与结果",
+  "meaningEn": "Imagining an alternative to a past event",
+  "explanation": "第三条件句把已经结束的过去设想成另一种情况。if 从句用过去完成时，说明未实现的条件；结果从句通常用 would have 加过去分词，说明在那个假设下可能发生的结果。它可以表达遗憾、批评或反思，但并不证明真实世界里一定存在那个因果关系。could have 强调可能性或能力，might have 则让结果更不确定。",
+  "usage": "回顾错过的机会，讨论过去决策的替代方案，或说明一次事件为何没有按设想发展。",
+  "nuance": "If we had asked earlier, we might have received help. 中 might 比 would 更保留：求助早一点也未必一定能得到帮助。",
+  "structure": [
+    "If + 主语 + had + 过去分词, 主语 + would have + 过去分词",
+    "结果从句也可用 could have / might have",
+    "if 从句通常不用 would have"
+  ],
+  "formation": [
+    "If + 主语 + had + 过去分词, 主语 + would have + 过去分词",
+    "结果从句也可用 could have / might have",
+    "if 从句通常不用 would have"
+  ],
+  "examples": [
+    {
+      "target": "If we had checked the address, we would have found the office sooner.",
+      "zh": "如果我们核对过地址，就会更早找到办公室。"
+    },
+    {
+      "target": "She might have accepted the offer if the hours had been more flexible.",
+      "zh": "如果工作时间更灵活，她或许会接受那份工作邀请。"
+    },
+    {
+      "target": "If I had saved the receipt, I could have returned the lamp.",
+      "zh": "如果我留了收据，就可以退掉那盏灯。"
+    },
+    {
+      "target": "We would not have missed the deadline if we had divided the work earlier.",
+      "zh": "如果我们早点分工，就不会错过截止日期。"
+    }
+  ],
+  "notes": [
+    "学习者等级为课程编排参考；CEFR 并未提供一份逐条固定的语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "If we would have checked the address, we would have found the office sooner.",
+      "correct": "If we had checked the address, we would have found the office sooner.",
+      "explanation": "普通第三条件句的 if 从句用 had + 过去分词。would have 通常放在结果从句，而不是两边都用。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-b2-hedging-may-might",
+      "explanation": "比较确定性与过去的假设：情态词表达判断强度，条件结构说明假设成立的前提。"
+    }
+  ],
+  "prerequisites": [],
+  "relatedGrammar": [
+    "grammar-en-b2-hedging-may-might"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-b2-third-conditional-meaning",
+      "kind": "meaning",
+      "prompt": "What is the main purpose of this pattern?",
+      "options": [
+        "过去不真实的条件与结果",
+        "表示说话者已经证明结果必然发生",
+        "只用于说明眼前正在发生的动作"
+      ],
+      "acceptedAnswers": [
+        "过去不真实的条件与结果"
+      ],
+      "explanation": "If we had asked earlier, we might have received help. 中 might 比 would 更保留：求助早一点也未必一定能得到帮助。"
+    },
+    {
+      "id": "grammar-en-b2-third-conditional-fill",
+      "kind": "fill",
+      "prompt": "If I _____ the receipt, I could have returned the lamp.",
+      "options": [
+        "had saved",
+        "would have saved",
+        "save"
+      ],
+      "acceptedAnswers": [
+        "had saved"
+      ],
+      "explanation": "If + 主语 + had + 过去分词, 主语 + would have + 过去分词 / 结果从句也可用 could have / might have / if 从句通常不用 would have"
+    },
+    {
+      "id": "grammar-en-b2-third-conditional-context",
+      "kind": "context",
+      "prompt": "已经错过截止日期，现在反思。哪句正确？",
+      "options": [
+        "If we had started earlier, we might have finished on time.",
+        "If we start earlier, we might finish on time."
+      ],
+      "acceptedAnswers": [
+        "If we had started earlier, we might have finished on time."
+      ],
+      "explanation": "第三条件句把已经结束的过去设想成另一种情况。if 从句用过去完成时，说明未实现的条件；结果从句通常用 would have 加过去分词，说明在那个假设下可能发生的结果。它可以表达遗憾、批评或反思，但并不证明真实世界里一定存在那个因果关系。could have 强调可能性或能力，might have 则让结果更不确定。"
+    },
+    {
+      "id": "grammar-en-b2-third-conditional-translation",
+      "kind": "translation",
+      "prompt": "如果我留了收据，就可以退掉那盏灯。",
+      "acceptedAnswers": [
+        "If I had saved the receipt, I could have returned the lamp."
+      ],
+      "explanation": "这是自然的参考表达；其他准确表达可以对照结构自行确认。"
+    },
+    {
+      "id": "grammar-en-b2-third-conditional-sentence",
+      "kind": "sentence",
+      "prompt": "按正确顺序组合：lamp / the / returned / have / could / I / receipt, / the / saved / had / I / If",
+      "acceptedAnswers": [
+        "If I had saved the receipt, I could have returned the lamp."
+      ],
+      "explanation": "注意主从句、动词结构与修饰语的位置。"
+    }
+  ]
+}

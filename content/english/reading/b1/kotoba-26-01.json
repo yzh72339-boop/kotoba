@@ -1,0 +1,335 @@
+[
+  {
+    "id": "article-en-b1-course-return",
+    "kind": "reading",
+    "language": "en",
+    "level": "B1",
+    "difficulty": 3,
+    "tags": [
+      "kotoba-26",
+      "学习"
+    ],
+    "title": "Returning to a course",
+    "topic": "学习",
+    "genre": "essay",
+    "estimatedMinutes": 4,
+    "paragraphs": [
+      "When I opened my language course after a busy month, I expected to start where I had stopped. Instead, I saw a list of lessons I had already completed. I remembered the titles but could not answer several questions. At first I felt that the earlier work had been wasted. Then I noticed that the words were familiar even when I could not recall their exact meanings. Forgetting was not the same as never having learned.",
+      "I decided not to repeat the whole course immediately. I chose five words and one short text that used them. If I make a mistake, I will look at the sentence before checking the translation. This takes more time than guessing, but it helps me see why one answer fits. I also write down whether the problem is the word itself or the grammar around it. Two kinds of mistake may need two different kinds of practice.",
+      "My friend suggested a daily target of thirty minutes. I usually have only fifteen, so I kept the smaller target. I will add more work when my schedule changes. Until then, a short session that I actually finish is more useful than a large plan that makes me avoid opening the course. On difficult days, I review yesterday’s sentences rather than introduce more new material. That still counts as learning, even if the screen shows no new lesson completed.",
+      "After two weeks, I could use several expressions in a message to a colleague. The course had not changed; the way I returned to it had. Continuing did not mean moving forward at the same speed every day. It meant finding a useful next step from the knowledge that was still there."
+    ],
+    "translation": [
+      "忙了一个月后重开语言课，原想接着学，却看到已完课程又有题答不出。起初觉得白学，后来发现即使想不起精确含义，词仍熟悉。遗忘不等于从未学过。",
+      "不立刻重学全课，而选五词和一篇含它们的短文。错时先看原句再看译文，比猜慢，却知道答案为何合适，也记问题在词本身还是周围语法。两类错误可能需不同练习。",
+      "朋友建议每天三十分钟，我通常只有十五，保留小目标，日程变后再增量。实际完成短学习胜过使人不敢打开的大计划。难日复习昨日句，不加新内容，即使没显示新课完成也算学习。",
+      "两周后能在给同事消息用一些表达。课程未变，回归方式变了。继续不意味着每天同速前进，而是从仍存知识寻找有用下一步。"
+    ],
+    "vocabulary": [
+      "course-en-a1-4",
+      "supp-en-a1-11",
+      "supp-en-a1-14",
+      "lex-en-a1-time",
+      "lex-en-a1-work",
+      "complete-en-a1-day"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-b1-first-conditional",
+        "surface": "If I make a mistake"
+      },
+      {
+        "id": "grammar-en-b1-future-time-clauses",
+        "surface": "when my schedule changes"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-b1-course-return-q1",
+        "type": "detail",
+        "prompt": "What did the writer notice about forgotten words?",
+        "options": [
+          "They still felt familiar.",
+          "They had never appeared before.",
+          "They were all spelling errors."
+        ],
+        "answer": 0,
+        "explanation": "第一段区分熟悉但不能准确回忆与从未学过。"
+      },
+      {
+        "id": "article-en-b1-course-return-q2",
+        "type": "detail",
+        "prompt": "What happens before checking a translation?",
+        "options": [
+          "The writer starts a new course.",
+          "The writer deletes the word.",
+          "The writer checks the sentence."
+        ],
+        "answer": 2,
+        "explanation": "第二段明确先原句后翻译。"
+      },
+      {
+        "id": "article-en-b1-course-return-q3",
+        "type": "inference",
+        "prompt": "Why keep the fifteen-minute target?",
+        "options": [
+          "The course forbids longer sessions.",
+          "It fits the writer’s actual time.",
+          "Thirty minutes is impossible for everyone."
+        ],
+        "answer": 1,
+        "explanation": "第三段是个人可用时间限制，不是普遍断言。"
+      },
+      {
+        "id": "article-en-b1-course-return-q4",
+        "type": "grammar",
+        "prompt": "Why is “changes” used after “when”?",
+        "options": [
+          "A future time clause normally uses present tense.",
+          "The schedule changed yesterday.",
+          "When always requires past tense."
+        ],
+        "answer": 0,
+        "explanation": "when引导未来时间从句时使用现在时。"
+      },
+      {
+        "id": "article-en-b1-course-return-q5",
+        "type": "main-idea",
+        "prompt": "What does continuing mean in this article?",
+        "options": [
+          "Always completing a new lesson.",
+          "Repeating everything at once.",
+          "Choosing a useful next step, including review."
+        ],
+        "answer": 2,
+        "explanation": "全文把复习和现实节奏视为有效继续。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-en-b1-shared-desk",
+    "kind": "reading",
+    "language": "en",
+    "level": "B1",
+    "difficulty": 3,
+    "tags": [
+      "kotoba-26",
+      "工作"
+    ],
+    "title": "The desk nobody booked",
+    "topic": "工作",
+    "genre": "story",
+    "estimatedMinutes": 4,
+    "paragraphs": [
+      "Our office introduced a booking system for shared desks. The aim was to make better use of a small room. During the first week, nearly every desk was booked except the one beside the printer. The manager thought people had simply forgotten it. She suggested making that desk the default choice in the system. Before doing so, she asked us to sit there for one afternoon and write down what we noticed.",
+      "I was preparing a report while several colleagues printed documents. The printer was not extremely loud, but people stopped beside the desk to wait. Each time, I looked up because I thought they wanted to speak to me. Another colleague found the chair difficult to move because a box of paper stood behind it. Neither problem appeared in the booking records. The records showed only an empty desk, not the reasons why people avoided it.",
+      "We moved the paper box and marked a waiting area away from the desk. The manager also allowed people to book it for shorter tasks. If someone needs a quiet afternoon, they can choose the other side of the room. The system did not become less useful because we added these choices. It became closer to the way people actually worked.",
+      "A month later, the desk was used more often, though it was still not everyone’s favourite. We did not treat that as a failure. The goal was not to make every seat equally popular. It was to make an informed choice possible. A number can point to a problem, but someone still needs to ask what happens behind that number."
+    ],
+    "translation": [
+      "办公室为共享桌引入预约，想更好用小房间。第一周唯打印机旁桌常空。经理以为大家忘了，想设默认，却先请我们坐一下午记录。",
+      "我写报告时同事打印，声音不算大，却有人站旁等，每次误以为找我而抬头。同事又发现椅后纸箱挡着。预约记录只有空桌，没有回避原因。",
+      "移纸箱、把等候区标远，又允许短任务预约。若需安静一下午，可选另一边。系统有选择并未失用，而更接近真实工作。",
+      "月后使用增多，仍非人人喜爱，但不算失败。目标非让每座同样热门，而是可知情选择。数字能提示问题，仍须问其后发生什么。"
+    ],
+    "vocabulary": [
+      "course-en-a1-6",
+      "supp-en-a1-9",
+      "supp-en-a1-14",
+      "lex-en-a1-time",
+      "complete-en-a1-room",
+      "complete-en-a1-week"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-b1-first-conditional",
+        "surface": "If someone needs"
+      },
+      {
+        "id": "grammar-en-b1-passive-processes",
+        "surface": "was used"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-b1-shared-desk-q1",
+        "type": "detail",
+        "prompt": "Which desk was rarely booked?",
+        "options": [
+          "The one by the window.",
+          "The manager’s own desk.",
+          "The one beside the printer."
+        ],
+        "answer": 2,
+        "explanation": "首段明确打印机旁。"
+      },
+      {
+        "id": "article-en-b1-shared-desk-q2",
+        "type": "inference",
+        "prompt": "Why did people waiting for prints interrupt the writer?",
+        "options": [
+          "They asked to book another room.",
+          "The writer mistook their presence for a request to talk.",
+          "They read the report aloud."
+        ],
+        "answer": 1,
+        "explanation": "第二段说明每次以为对方想说话。"
+      },
+      {
+        "id": "article-en-b1-shared-desk-q3",
+        "type": "detail",
+        "prompt": "What physical obstacle did they remove?",
+        "options": [
+          "A box of paper.",
+          "The whole printer.",
+          "All chairs."
+        ],
+        "answer": 0,
+        "explanation": "第三段移走纸箱而非机器。"
+      },
+      {
+        "id": "article-en-b1-shared-desk-q4",
+        "type": "main-idea",
+        "prompt": "What was the final goal?",
+        "options": [
+          "Making all desks equally popular.",
+          "Forcing everyone to use one seat.",
+          "Allowing informed choices about where to work."
+        ],
+        "answer": 2,
+        "explanation": "末段直接将目标定义为知情选择。"
+      },
+      {
+        "id": "article-en-b1-shared-desk-q5",
+        "type": "author-intent",
+        "prompt": "Why say booking records did not show the reasons?",
+        "options": [
+          "To claim the room was too large.",
+          "To explain the need for observation alongside data.",
+          "To prove booking systems should be banned."
+        ],
+        "answer": 1,
+        "explanation": "文章认可数据能提示，但需观察原因。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  },
+  {
+    "id": "article-en-b1-station-story",
+    "kind": "reading",
+    "language": "en",
+    "level": "B1",
+    "difficulty": 3,
+    "tags": [
+      "kotoba-26",
+      "旅行"
+    ],
+    "title": "Two routes, one station",
+    "topic": "旅行",
+    "genre": "story",
+    "estimatedMinutes": 4,
+    "paragraphs": [
+      "I had visited the city before, so I thought I knew how to reach the station. On my last trip, I had followed signs through a shopping centre. This time, the centre was closed for repairs. A notice showed a longer route around it. I was carrying a heavy bag and had only twenty minutes before my train left. I asked a shop worker whether there was a shorter way.",
+      "He pointed to a staircase behind the shop, then stopped when he saw my bag. “That way is shorter, but there is no lift,” he said. “The longer route has a smooth path.” I looked again at the notice. It showed distance but no information about steps. For someone without luggage, the staircase might have been an easy choice. For me, the number of metres was only part of the problem.",
+      "I chose the longer route and reached the station with four minutes left. I was tired, but I did not have to lift the bag down the stairs. On the train, I wrote a message to the station office. I suggested adding a small symbol for steps to the temporary map. I did not ask them to decide the best route for every passenger. I asked them to show the information that different passengers needed to decide.",
+      "When I returned a month later, the map had a new symbol. It was a small change, and I do not know whether my message alone caused it. Still, I was glad that someone carrying a bag or pushing a child’s chair could now see the difference before choosing. Knowing a place means more than remembering one route."
+    ],
+    "translation": [
+      "曾来城市，自以为会到车站。上次穿商场循标识，这次维修封闭，通知给绕行长路。我重包距开车仅二十分钟，问店员有无短路。",
+      "店员指店后楼梯，见包又停，说短路没电梯、长路平顺。通知只距离无台阶信息。对无行李者楼梯易，对我米数仅部分。",
+      "选长路到站余四分钟，虽累不用抬包下阶。车上写站方，建议临时图标台阶。非代每人选最好路，而给不同人判断所需信息。",
+      "月后回来图有新标，未知是否我的消息单独推动，但高兴拖包或推童车者选择前能知区别。熟悉地方非只记一路。"
+    ],
+    "vocabulary": [
+      "supp-en-a1-9",
+      "supp-en-a1-11",
+      "lex-en-a1-time",
+      "lex-en-a1-child",
+      "lex-en-a1-shop",
+      "lex-en-a1-train"
+    ],
+    "grammar": [
+      {
+        "id": "grammar-en-b1-indirect-questions",
+        "surface": "whether there was a shorter way"
+      },
+      {
+        "id": "grammar-en-b1-past-perfect-sequence",
+        "surface": "had followed"
+      }
+    ],
+    "questions": [
+      {
+        "id": "article-en-b1-station-story-q1",
+        "type": "detail",
+        "prompt": "Why was the earlier route unavailable?",
+        "options": [
+          "The worker had no map.",
+          "The shopping centre was closed for repairs.",
+          "The station had moved."
+        ],
+        "answer": 1,
+        "explanation": "第一段维修封闭。"
+      },
+      {
+        "id": "article-en-b1-station-story-q2",
+        "type": "detail",
+        "prompt": "What disadvantage did the shorter route have?",
+        "options": [
+          "No lift at the staircase.",
+          "A closed station entrance.",
+          "A higher train price."
+        ],
+        "answer": 0,
+        "explanation": "店员明确无电梯。"
+      },
+      {
+        "id": "article-en-b1-station-story-q3",
+        "type": "inference",
+        "prompt": "Why ask for a symbol rather than one recommended route?",
+        "options": [
+          "Symbols can remove all stairs.",
+          "The writer dislikes any advice.",
+          "Different passengers have different needs."
+        ],
+        "answer": 2,
+        "explanation": "第三段强调给判断信息而非替所有人决定。"
+      },
+      {
+        "id": "article-en-b1-station-story-q4",
+        "type": "grammar",
+        "prompt": "What does “had followed” establish?",
+        "options": [
+          "A repeated action after the train left.",
+          "An event before the current visit.",
+          "A future route the writer will take."
+        ],
+        "answer": 1,
+        "explanation": "过去完成时定位在当前叙述访问之前的上次经历。"
+      },
+      {
+        "id": "article-en-b1-station-story-q5",
+        "type": "author-intent",
+        "prompt": "Why not claim the message caused the change?",
+        "options": [
+          "The writer lacks evidence of being the only cause.",
+          "The map never changed.",
+          "The writer withdrew the suggestion."
+        ],
+        "answer": 0,
+        "explanation": "末段明确未知消息是否单独造成，谨慎限定因果。"
+      }
+    ],
+    "notes": [
+      "练习重点：根据正文证据回答，区分事实、推断和作者评价。",
+      "预计时长按正文长度（日语约450字/分钟、英语约180词/分钟）加2分钟答题估算。"
+    ]
+  }
+]

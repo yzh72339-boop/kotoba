@@ -1,0 +1,128 @@
+{
+  "id": "article-en-b2-shared-calendar-boundaries",
+  "kind": "reading",
+  "language": "en",
+  "level": "B2",
+  "title": "The empty calendar is not a promise",
+  "difficulty": 4,
+  "tags": [
+    "work",
+    "original",
+    "graded-reading"
+  ],
+  "topic": "work",
+  "genre": "opinion",
+  "estimatedMinutes": 6,
+  "paragraphs": [
+    "When our team introduced a shared calendar, we hoped it would make arranging meetings easier. Previously, invitations had travelled through several messages before a time was agreed. The new system showed everyone’s scheduled commitments in one place. After a few weeks, however, a different problem emerged. If a colleague’s calendar showed an empty hour, some people treated that space as permission to fill it. The tool had made visible meetings easier to coordinate without making every other kind of work visible.",
+    "At first, I responded by creating blocks for almost everything I did. Writing a proposal, preparing a lesson and reading a report each became a calendar event. This protected some of my time, but it also required constant maintenance. A short task that took longer than expected could make the whole day appear inaccurate. I sometimes wished I had a calendar that could explain uncertainty, rather than merely display coloured boxes. Yet no arrangement of boxes could tell a colleague whether an interruption would actually be welcome.",
+    "The difficulty was not simply that people were careless. Different jobs created different expectations. A person answering urgent questions might reasonably keep short gaps available, while someone comparing several documents might need an uninterrupted morning. If we all followed the same rule, one group would probably be inconvenienced. An empty slot could mean genuine availability, flexible preparation time or a period that had not yet been planned. The display alone did not distinguish between them, and a detailed label for every activity would have exposed more personal information than the team needed.",
+    "We eventually agreed on a modest change. An invitation would be treated as a request, not an automatic reservation. Before sending it, the organiser would include a purpose, an estimated duration and an explanation of why the discussion required a meeting. Colleagues could suggest another time or an alternative such as a short written reply. We also kept a separate route for genuinely urgent problems. The aim was not to make cooperation optional. It was to make the cost of a meeting easier to judge, instead of assuming that an empty space meant there was no cost.",
+    "During the trial, I remembered to leave brief notes when a morning needed particular protection. I also stopped checking every empty slot as if it were an unused resource. We did not collect reliable measurements of productivity, so I would be cautious about claiming that the change made us faster. What I could observe was that the reasons for invitations became clearer. Some discussions still took longer than expected, and disagreements did not disappear. A calendar cannot settle priorities by itself, but it can support a conversation about them if its users agree on what its signals do—and do not—mean."
+  ],
+  "translation": [
+    "团队引入共享日历时，希望更容易约会议。以前要来回发几条消息才能定时间。新系统把各人的已安排事项放在一起。几周后却出现另一个问题：只要某同事的日历上空着一小时，有些人就把它视为可以直接占用的许可。工具让看得见的会议更容易协调，却没有让其他工作都变得可见。",
+    "起初，我几乎为每件事都创建时间块，写方案、备课和读报告都成为日历事件。这保护了一些时间，但也需要不断维护。短任务一旦超时，整天的安排就显得不准确。我有时希望日历能解释不确定性，而不只是展示彩色方块。然而，再怎样安排方块，也不能告诉同事此时打断我是否合适。",
+    "问题并不只是大家粗心，不同工作形成不同预期。负责回答紧急问题的人可能需要保留短空档，而比较多份文档的人可能需要完整上午不受打断。若所有人遵循同一规则，某一组可能不方便。空档可能表示真有空、可灵活挪动的准备时间，或尚未规划的时段。仅凭界面无法区分，而且为每件事写详细标签，会暴露超出团队需要的私人信息。",
+    "后来，我们约定了一个有限改动：邀请被视为请求，而不是自动预订。发送前，组织者要写明目的、预计时长和为何需要会议。同事可以建议其他时间，或用简短书面回复替代。真正紧急的问题仍保留单独入口。目的不是让合作随意可选，而是让人更容易判断会议的成本，而非假定空档就没有成本。",
+    "试行期间，遇到需要特别保护的上午，我记得留下简短说明，也不再把每个空档当作闲置资源。我们没有收集可靠的生产率指标，所以我不会轻易宣称改动让大家更快。能观察到的是邀请理由更清楚了。有些讨论仍然超时，分歧也没有消失。日历本身无法决定优先级，但如果大家约定好信号表示什么、不表示什么，它可以帮助人们讨论优先级。"
+  ],
+  "vocabulary": [
+    "supp-en-a1-4",
+    "supp-en-a1-11",
+    "lex-en-a1-time",
+    "lex-en-a1-person",
+    "lex-en-a1-work",
+    "complete-en-a1-day",
+    "complete-en-a1-need",
+    "supp-en-a2-6",
+    "supp-en-a2-10",
+    "supp-en-a2-12",
+    "lex-en-a2-problem",
+    "en-available"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-b1-second-conditional",
+      "surface": "If we all followed the same rule"
+    },
+    {
+      "id": "grammar-en-b2-wish-unreal-present",
+      "surface": "wished I had a calendar"
+    },
+    {
+      "id": "grammar-en-b2-remember-stop-gerund-infinitive",
+      "surface": "remembered to leave"
+    },
+    {
+      "id": "grammar-en-b1-passive-processes",
+      "surface": "would be treated"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-b2-shared-calendar-boundaries-q1",
+      "type": "main-idea",
+      "prompt": "What is the writer’s central argument?",
+      "options": [
+        "Shared calendars need agreed meanings and communication, not just visible empty slots.",
+        "Teams should replace all meetings with written messages.",
+        "Every activity should be recorded in detail for colleagues to inspect."
+      ],
+      "answer": 0,
+      "explanation": "作者讨论的是共同理解日历信号并说明请求理由，并非取消会议或公开一切活动。"
+    },
+    {
+      "id": "article-en-b2-shared-calendar-boundaries-q2",
+      "type": "detail",
+      "prompt": "What information did organisers agree to include in an invitation?",
+      "options": [
+        "Every colleague’s personal schedule for the week.",
+        "A guarantee that the meeting would improve productivity.",
+        "A purpose, an estimated duration and a reason for meeting."
+      ],
+      "answer": 2,
+      "explanation": "第四段明确列出三项信息，没有要求效果保证或私人日程。"
+    },
+    {
+      "id": "article-en-b2-shared-calendar-boundaries-q3",
+      "type": "inference",
+      "prompt": "Why might a uniform rule for empty slots be unfair?",
+      "options": [
+        "The software prevents people from replying to invitations.",
+        "An apparently empty slot can serve different functions in different jobs.",
+        "All colleagues prefer to work without any discussion."
+      ],
+      "answer": 1,
+      "explanation": "第三段解释不同工作对短空档、准备和专注时间的需求不同。"
+    },
+    {
+      "id": "article-en-b2-shared-calendar-boundaries-q4",
+      "type": "grammar",
+      "prompt": "What does “remembered to leave brief notes” mean here?",
+      "options": [
+        "The writer did not forget to leave notes when needed.",
+        "The writer recalled notes written years earlier.",
+        "The writer stopped writing notes altogether."
+      ],
+      "answer": 0,
+      "explanation": "remember to do 表示记得执行所需动作；remember doing 才是回忆已做过的事。"
+    },
+    {
+      "id": "article-en-b2-shared-calendar-boundaries-q5",
+      "type": "author-intent",
+      "prompt": "Why does the writer avoid a claim about productivity?",
+      "options": [
+        "The writer knows the change certainly slowed every worker down.",
+        "Calendar policies cannot affect how people work in any way.",
+        "The team lacks reliable measurements to support that conclusion."
+      ],
+      "answer": 2,
+      "explanation": "最后一段区分可观察的沟通变化和缺乏可靠测量的效率结论。"
+    }
+  ],
+  "notes": [
+    "原创学习文章，人物、团队与活动为虚构情境，不是新闻报道或研究结论。",
+    "等级为教学分级参考；语法解释与阅读理解采用文内证据，开放讨论允许不同有依据的判断。"
+  ]
+}

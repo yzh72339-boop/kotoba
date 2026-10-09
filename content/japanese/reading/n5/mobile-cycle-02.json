@@ -1,0 +1,100 @@
+{
+  "id": "article-ja-n5-book-permission",
+  "kind": "reading",
+  "language": "ja",
+  "level": "N5",
+  "difficulty": 1,
+  "tags": [
+    "mobile-cycle",
+    "日常生活"
+  ],
+  "title": "この本を読んでもいいですか",
+  "topic": "日常生活",
+  "genre": "story",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "日曜日、友達と小さい店に行きました。店には本がたくさんあります。私は店の人に「この本を読んでもいいですか」と聞きました。「はい、いいですよ。ここに座ってください」と言いました。",
+    "友達も本を読みました。時間は二時でした。三時に店を出ました。家で、友達に「また行きたいですね」と言いました。"
+  ],
+  "translation": [
+    "星期天，我和朋友去了一个小店。店里有很多书。我问店员：“可以读这本书吗？”店员说：“可以，请坐在这里。”",
+    "朋友也读了书，当时是两点。我们三点离开店。回家后，我对朋友说：“还想再去呢。”"
+  ],
+  "vocabulary": [
+    "course-ja-n5-7",
+    "course-ja-n5-9",
+    "lex-ja-n5-jikan"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-ja-n5-te-mo-ii-permission",
+      "surface": "読んでもいいですか"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-ja-n5-book-permission-q1",
+      "type": "detail",
+      "prompt": "作者向谁询问读书许可？",
+      "options": [
+        "朋友",
+        "店里的人",
+        "学校老师"
+      ],
+      "answer": 1,
+      "explanation": "第一段的店の人に明确表示向店员询问。"
+    },
+    {
+      "id": "article-ja-n5-book-permission-q2",
+      "type": "grammar",
+      "prompt": "「読んでもいいですか」是什么意思？",
+      "options": [
+        "我必须读吗？",
+        "你正在读吗？",
+        "我可以读吗？"
+      ],
+      "answer": 2,
+      "explanation": "动词て形+もいいですか是询问许可。"
+    },
+    {
+      "id": "article-ja-n5-book-permission-q3",
+      "type": "inference",
+      "prompt": "作者对这次访问的态度如何？",
+      "options": [
+        "愿意再次来",
+        "不想再见朋友",
+        "觉得书不够多"
+      ],
+      "answer": 0,
+      "explanation": "最后的また行きたい表示希望再次前往。"
+    },
+    {
+      "id": "article-ja-n5-book-permission-supplement-26-1",
+      "type": "detail",
+      "prompt": "作者与朋友几点离开店？",
+      "options": [
+        "两点",
+        "三点",
+        "星期一"
+      ],
+      "answer": 1,
+      "explanation": "第二段的三時に店を出ました明确交代离开时间；二時是之前读书时的时点。"
+    },
+    {
+      "id": "article-ja-n5-book-permission-supplement-26-2",
+      "type": "inference",
+      "prompt": "店员允许读书，能否据此判断作者必须把书读完？",
+      "options": [
+        "能，许可就是义务",
+        "不能，允许读不代表必须读完",
+        "能，因为作者问过朋友"
+      ],
+      "answer": 1,
+      "explanation": "许可句仅表示动作被允许；原文没有读完的要求。"
+    }
+  ],
+  "notes": [
+    "本文使用礼貌体。读んで来自読む的て形。",
+    "二時到三時是原文给出的时点，不要推断店铺全天营业时间。"
+  ]
+}
