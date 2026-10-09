@@ -1,24 +1,36 @@
-# Kotoba 2.6 — 全站 UI 统一
+# Kotoba 2.6 — Silver / Blue UI
 
-基线：Sites Version 19，commit 5be114baaa30dc21e235b73d888fa643250d057a。
-用户随后要求全部界面统一，取代此前仅首页/每日学习试点的范围限制。
+Latest visual reference is the owner's black/white/silver + blue mobile composition. Violet and lime explorations are superseded.
 
-## 本批改动
+## Implemented
 
-- expressive-experience 始终应用于所有 App 页面，不再随路由/暂停状态切换主题。
-- 根颜色 token 与门户、登录、初始化、弹窗共享；浅色淡紫灰/冷白、深色墨紫/淡紫前景。阅读 Light/Dark/Sepia 仍有独立且可读的覆盖。
-- 首页、学习、词汇、语法、阅读、听力、口语、复习、AI、进度、句子、错题、资料库、Settings/Profile 共用字体层级、控件、圆角、边框和反馈。
-- 学习和复习核心区沿用墨色/紫色渐变与冷白按钮；资料和设置使用低强度表面，避免每个模块争抢焦点。
-- Sidebar、Topbar、Bottom Navigation、搜索、语言/等级筛选、输入、收藏、进度、录音和播放器控件统一视觉。移动输入字号 16px，核心触控 44px/48px，原 safe-area/动态视口/键盘避让保持。
-- 门户弹窗、onboarding、quick capture、查词、笔记、安装/更新、提示条共用新材质；低性能/省流/减少动画关闭波形/模糊等复杂效果。
-- 私人登录只修改容器的视觉 class，不修改 Auth/owner 判断。独立更新页面、Manifest 及浏览器主题色匹配新色系；更新逻辑与 Service Worker 未修改。
+- One light gray / white and dark graphite token system, blue primary controls, consistent borders, typography, 44px targets, safe-area surfaces and modal geometry.
+- Compact Today: real pinned grammar/reading title, actual first example/translation, real prerequisite level, transparent plan minutes, enrolled due count, actual new-word count, related/resumed reading. Quick capture remains in More instead of covering content.
+- Grammar/task shared surface, title and example snapshots through native View Transitions. Linked grammar title travels to its first reading highlight only when the article actually contains that expression; fallback reading is not falsely labeled linked.
+- Route ID committed before scene capture, preventing old grammar IDs opening inside the next reading step. Latest navigation wins; learning writes remain outside animation cancellation.
+- Back scroll/history restored; list filters are stored in browser history scoped to account/language/level/type. Exact grammar/reading practice drafts keep their existing IDs and option mapping.
+- Adjacent answer/explanation feedback, stable question navigation, themed reading covers and marks, Japanese font fallback, stable modal anchors and interactive cancelable handles.
+- Learning completion survives closing the results and refresh (3/3); it is not carried into another level or tomorrow.
+- Vocabulary, Review, Library, personal tools, listening/speaking/AI, Progress, Settings/Profile, sign-in and the separate update page share controls and materials.
+- Save states remain the existing real local/queue/failure/cloud states. Images are cached by the existing SW; no private API caching is introduced.
+- Reduced motion and unsupported/constrained browser fallbacks; no continuous decorative animation or blur.
 
-## 兼容与验证
+## Verification
 
-无新依赖，无数据库迁移或生产 SQL；migrations 001–011、Auth/RLS 行为、课程/卡片 ID、SRS、保存、离线、同步协议和个人记录保持。内容仍为 667 词汇卡、150 语法、60 阅读，本批增量 0。
+- 170 Node tests; TypeScript; zero-warning lint; production static export pass.
+- Content audit: 210 complete units, zero errors / length warnings, 2.6 stage coverage met. Full V3 targets remain short by 1,640, and --require-targets intentionally fails.
+- Chromium emulation: 15 routes × 360/390/430 = 45 combinations, no horizontal overflow / visible targets below 44px. Light/dark/reduced-motion screenshots and full learning recording produced.
+- Actual app code against an intercepted fixture backend: daily review (empty enrolled queue) → grammar exercises → reading quiz → completion → home; refresh, note drafts, collection into existing SRS, wrong-answer explanations, quick nav and browser Back pass.
+- Local SW/IndexedDB: downloaded reading and an offline note survive offline reload; reconnection drains to the fixture backend and displays synced. The fixture has no real Supabase credential and unknown requests fail closed.
 
-165/165 Node tests、TypeScript、零警告 Lint、阶段内容审计、production build PASS；最终构建/commit/部署证据见交付发布记录。阶段内容目标通过，完整内容目标仍缺 1,640 条，不改变标准。
+## Not certified
 
-真实手机 360/390/430、横竖屏、软键盘、系统/手动主题交叉、全部页连续切换、安装版离线重连及第二设备：未验证。没有 control-browser 或执行器 owner 浏览器会话，不能生成实际截图。旧用户学习/sync 成功反馈保留为历史证据。
+Real owner login/RLS writes, second device, Android/iOS installation, actual keyboard/safe-area behavior, real-device frame rates, and a production update while learning are not re-certified. A shorter Chromium viewport checks geometry, not a physical keyboard. Existing owner receipts remain historical evidence. No AI endpoint/model or real pronunciation service was exercised.
 
-下一次设备验收：更新后连续打开 首页→学习→词汇→语法→阅读→听力→复习→资料库→我的，切换 Dark/Light、打开查词/笔记/筛选，确认边框、按钮、输入及导航一致且不遮挡；再验证暂停/刷新、离线重连与原记录。
+## Assets
+
+Reading photo: https://images.unsplash.com/photo-1545569341-9eb8b30979d9 (Unsplash, https://unsplash.com/license). It is a decorative Japan cover, not a photograph documenting each article. It is subject to its own photo license; MIT applies to project code/original content. English reading retains the original local editorial illustration. No remote image/font dependency was added to the reader.
+
+## Release
+
+Use the existing hosting project/audience, commit and push the tested source, package its static `out/` plus `.openai/hosting.json`, save/deploy that version. Database migration is not part of this release. Installed users use `/api/app-update.html` after pending learning has saved/synced; do not clear IndexedDB, caches or accounts.

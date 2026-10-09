@@ -1,3 +1,16 @@
+# Latest UI acceptance — 2026-10-09
+
+This section supersedes historical UI/test counts below. Package remains 2.6.0.
+Silver / graphite / blue replaces violet across the app and update page.
+170/170 Node tests, TypeScript, zero-warning ESLint and production build pass.
+45 Chromium phone emulation checks (15 routes × 360/390/430) pass without overflow or undersized visible buttons. The daily review → grammar → reading → results → home flow, refresh recovery, rapid navigation, Back, note editor in a shorter viewport, reading collection, wrong-answer explanation, actual local SW offline shell/IndexedDB article/note restoration and reconnection to a simulated backend pass.
+These are NOT real owner/RLS/cross-device/iOS/Android installation or physical frame-rate tests.
+Content stays 667 vocabulary / 150 grammar / 60 reading; quality audit has zero errors and zero length warnings. Complete V3 targets still lack 1,640 units; --require-targets fails as expected.
+No production SQL or data changes; migrations 001–011, Auth/owner/RLS, SRS and sync protocol preserved.
+See UI-UNIFICATION.md and UI-SILVER-CHECKPOINT.md for scope, artifacts and release steps.
+
+---
+
 # Kotoba — Current source and verification status
 
 Updated 2026-10-09. Package version: **2.6.0**. Compatible V3 development is underway; the full V3 library and production/mobile acceptance are **not complete**.
