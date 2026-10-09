@@ -1,0 +1,472 @@
+[
+  {
+    "id": "context-ja-n4-a4f4230150c9",
+    "word": "得意",
+    "pronunciation": "とくい",
+    "meaning": "擅长的",
+    "example": "私は料理が得意です。",
+    "translation": "我擅长做饭。",
+    "tag": "JLPT N4 · adjective",
+    "related": "料理が得意",
+    "pos": "adjective",
+    "senses": [
+      "擅长的"
+    ],
+    "collocations": [
+      "料理が得意"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-f4545c27fd7e",
+    "word": "教室",
+    "pronunciation": "きょうしつ",
+    "meaning": "教室；学习班",
+    "example": "料理教室でパンを作りました。",
+    "translation": "我在烹饪班做了面包。",
+    "tag": "JLPT N4 · noun",
+    "related": "教室に通う",
+    "pos": "noun",
+    "senses": [
+      "教室",
+      "学习班"
+    ],
+    "collocations": [
+      "教室に通う"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-4a66a59563e6",
+    "word": "親切",
+    "pronunciation": "しんせつ",
+    "meaning": "亲切的；热心的",
+    "example": "先生はとても親切です。",
+    "translation": "老师非常热心。",
+    "tag": "JLPT N4 · adjective",
+    "related": "親切な人",
+    "pos": "adjective",
+    "senses": [
+      "亲切的",
+      "热心的"
+    ],
+    "collocations": [
+      "親切な人"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-ccac6705a441",
+    "word": "市場",
+    "pronunciation": "いちば",
+    "meaning": "集市；市场",
+    "example": "町の市場で野菜を買いました。",
+    "translation": "我在镇上的集市买了蔬菜。",
+    "tag": "JLPT N4 · noun",
+    "related": "市場へ行く",
+    "pos": "noun",
+    "senses": [
+      "集市",
+      "市场"
+    ],
+    "collocations": [
+      "市場へ行く"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-5ab3495ab33e",
+    "word": "道",
+    "pronunciation": "みち",
+    "meaning": "道路；路",
+    "example": "この道をまっすぐ行ってください。",
+    "translation": "请沿这条路直走。",
+    "tag": "JLPT N4 · noun",
+    "related": "道を歩く",
+    "pos": "noun",
+    "senses": [
+      "道路",
+      "路"
+    ],
+    "collocations": [
+      "道を歩く"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-76e8a3d591fe",
+    "word": "バス",
+    "pronunciation": "ばす",
+    "meaning": "公共汽车",
+    "example": "バスはもう出てしまいました。",
+    "translation": "公共汽车已经开走了。",
+    "tag": "JLPT N4 · noun",
+    "related": "バスに乗る",
+    "pos": "noun",
+    "senses": [
+      "公共汽车"
+    ],
+    "collocations": [
+      "バスに乗る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-0c347f41b357",
+    "word": "喫茶店",
+    "pronunciation": "きっさてん",
+    "meaning": "咖啡馆；茶馆",
+    "example": "駅の近くの喫茶店で休みました。",
+    "translation": "我在车站附近的咖啡馆休息了。",
+    "tag": "JLPT N4 · noun",
+    "related": "喫茶店で休む",
+    "pos": "noun",
+    "senses": [
+      "咖啡馆",
+      "茶馆"
+    ],
+    "collocations": [
+      "喫茶店で休む"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-aa712d09fade",
+    "word": "メニュー",
+    "pronunciation": "めにゅー",
+    "meaning": "菜单",
+    "example": "メニューを見てから注文します。",
+    "translation": "我看菜单后再点餐。",
+    "tag": "JLPT N4 · noun",
+    "related": "メニューを見る",
+    "pos": "noun",
+    "senses": [
+      "菜单"
+    ],
+    "collocations": [
+      "メニューを見る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-bf7d33cb13c0",
+    "word": "字",
+    "pronunciation": "じ",
+    "meaning": "字；文字",
+    "example": "この本は字が大きくて読みやすいです。",
+    "translation": "这本书的字很大，容易读。",
+    "tag": "JLPT N4 · noun",
+    "related": "字を書く",
+    "pos": "noun",
+    "senses": [
+      "字",
+      "文字"
+    ],
+    "collocations": [
+      "字を書く"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-6db7b2668222",
+    "word": "荷物",
+    "pronunciation": "にもつ",
+    "meaning": "行李；物品",
+    "example": "旅行の前に荷物を用意します。",
+    "translation": "我在旅行前准备行李。",
+    "tag": "JLPT N4 · noun",
+    "related": "荷物を持つ",
+    "pos": "noun",
+    "senses": [
+      "行李",
+      "物品"
+    ],
+    "collocations": [
+      "荷物を持つ"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-18ea607f0b66",
+    "word": "用意",
+    "pronunciation": "ようい",
+    "meaning": "准备；备齐",
+    "example": "明日のために傘を用意しました。",
+    "translation": "我为明天准备了伞。",
+    "tag": "JLPT N4 · noun",
+    "related": "用意しておく",
+    "pos": "noun",
+    "senses": [
+      "准备",
+      "备齐"
+    ],
+    "collocations": [
+      "用意しておく"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-babcbd209cc5",
+    "word": "海",
+    "pronunciation": "うみ",
+    "meaning": "海",
+    "example": "夏に海へ行きたいです。",
+    "translation": "夏天我想去海边。",
+    "tag": "JLPT N4 · noun",
+    "related": "海の近く",
+    "pos": "noun",
+    "senses": [
+      "海"
+    ],
+    "collocations": [
+      "海の近く"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-9abb0e5c9f86",
+    "word": "探す",
+    "pronunciation": "さがす",
+    "meaning": "寻找",
+    "example": "駅の近くで店を探しています。",
+    "translation": "我正在车站附近找店。",
+    "tag": "JLPT N4 · verb",
+    "related": "鍵を探す",
+    "pos": "verb",
+    "senses": [
+      "寻找"
+    ],
+    "collocations": [
+      "鍵を探す"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-b79e21c15fdf",
+    "word": "お客さん",
+    "pronunciation": "おきゃくさん",
+    "meaning": "客人；顾客",
+    "example": "お客さんにメニューを渡しました。",
+    "translation": "我把菜单递给了顾客。",
+    "tag": "JLPT N4 · noun",
+    "related": "お客さんを迎える",
+    "pos": "noun",
+    "senses": [
+      "客人",
+      "顾客"
+    ],
+    "collocations": [
+      "お客さんを迎える"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-5d8324c9c852",
+    "word": "混む",
+    "pronunciation": "こむ",
+    "meaning": "拥挤",
+    "example": "朝は駅が混みます。",
+    "translation": "早上车站很拥挤。",
+    "tag": "JLPT N4 · verb",
+    "related": "道が混む",
+    "pos": "verb",
+    "senses": [
+      "拥挤"
+    ],
+    "collocations": [
+      "道が混む"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-916f5d3609f6",
+    "word": "誘う",
+    "pronunciation": "さそう",
+    "meaning": "邀请",
+    "example": "友達を料理教室に誘いました。",
+    "translation": "我邀请朋友参加烹饪班。",
+    "tag": "JLPT N4 · verb",
+    "related": "友達を誘う",
+    "pos": "verb",
+    "senses": [
+      "邀请"
+    ],
+    "collocations": [
+      "友達を誘う"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-a48b46c2da05",
+    "word": "戻る",
+    "pronunciation": "もどる",
+    "meaning": "返回",
+    "example": "忘れ物を取りに家へ戻りました。",
+    "translation": "我回家拿遗忘的东西。",
+    "tag": "JLPT N4 · verb",
+    "related": "家へ戻る",
+    "pos": "verb",
+    "senses": [
+      "返回"
+    ],
+    "collocations": [
+      "家へ戻る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-af6c7f042991",
+    "word": "渡す",
+    "pronunciation": "わたす",
+    "meaning": "递给；交给",
+    "example": "先生にノートを渡しました。",
+    "translation": "我把笔记本交给了老师。",
+    "tag": "JLPT N4 · verb",
+    "related": "手紙を渡す",
+    "pos": "verb",
+    "senses": [
+      "递给",
+      "交给"
+    ],
+    "collocations": [
+      "手紙を渡す"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-96a1e7bdc37e",
+    "word": "急に",
+    "pronunciation": "きゅうに",
+    "meaning": "突然",
+    "example": "急に雨が降ってきました。",
+    "translation": "突然下起了雨。",
+    "tag": "JLPT N4 · adverb",
+    "related": "急に変わる",
+    "pos": "adverb",
+    "senses": [
+      "突然"
+    ],
+    "collocations": [
+      "急に変わる"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-6b5dc5d28b73",
+    "word": "もちろん",
+    "pronunciation": "もちろん",
+    "meaning": "当然",
+    "example": "もちろん、ここで本を読んでもいいです。",
+    "translation": "当然可以在这里读书。",
+    "tag": "JLPT N4 · adverb",
+    "related": "もちろん大丈夫",
+    "pos": "adverb",
+    "senses": [
+      "当然"
+    ],
+    "collocations": [
+      "もちろん大丈夫"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  }
+]

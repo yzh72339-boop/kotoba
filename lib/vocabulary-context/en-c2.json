@@ -1,0 +1,480 @@
+[
+  {
+    "id": "context-en-c2-bc2a412ea91c",
+    "word": "admit of",
+    "pronunciation": "/ədˈmɪt əv/",
+    "meaning": "容许；存在某种可能",
+    "example": "The occasion did not admit of celebration.",
+    "translation": "这个场合并不适合庆祝。",
+    "tag": "C2 · phrase",
+    "related": "admit of doubt",
+    "pos": "phrase",
+    "senses": [
+      "容许",
+      "存在某种可能"
+    ],
+    "collocations": [
+      "admit of doubt"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-d6ddd78303d2",
+    "word": "decimal",
+    "pronunciation": "/ˈdesɪməl/",
+    "meaning": "小数的；小数",
+    "example": "Two decimal places gave the forecast an air of authority.",
+    "translation": "两位小数给预测增添了一种权威感。",
+    "tag": "C2 · adjective",
+    "related": "decimal places",
+    "pos": "adjective",
+    "senses": [
+      "小数的",
+      "小数"
+    ],
+    "collocations": [
+      "decimal places"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-da794fe3c1f3",
+    "word": "authority",
+    "pronunciation": "/ɔːˈθɒrəti/",
+    "meaning": "权威；权力",
+    "example": "The number borrowed authority from its apparent precision.",
+    "translation": "这个数字从它表面的精确性中获得了权威感。",
+    "tag": "C2 · noun",
+    "related": "an air of authority",
+    "pos": "noun",
+    "senses": [
+      "权威",
+      "权力"
+    ],
+    "collocations": [
+      "an air of authority"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-5e46538510c7",
+    "word": "presupposition",
+    "pronunciation": "/ˌpriːsʌpəˈzɪʃən/",
+    "meaning": "预设；前提假定",
+    "example": "The letter challenges a presupposition in the archive's title.",
+    "translation": "这封信质疑了档案标题中的一个预设。",
+    "tag": "C2 · noun",
+    "related": "challenge a presupposition",
+    "pos": "noun",
+    "senses": [
+      "预设",
+      "前提假定"
+    ],
+    "collocations": [
+      "challenge a presupposition"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-fe019ffce81a",
+    "word": "incommensurable",
+    "pronunciation": "/ˌɪnkəˈmenʃərəbəl/",
+    "meaning": "无法用共同尺度比较的",
+    "example": "The two accounts express values that may be incommensurable.",
+    "translation": "这两种叙述表达的价值可能无法用共同尺度比较。",
+    "tag": "C2 · adjective",
+    "related": "incommensurable values",
+    "pos": "adjective",
+    "senses": [
+      "无法用共同尺度比较的"
+    ],
+    "collocations": [
+      "incommensurable values"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-59d9063a6ac0",
+    "word": "contingency",
+    "pronunciation": "/kənˈtɪndʒənsi/",
+    "meaning": "偶然性；意外情形",
+    "example": "The experiment depended on contingencies the plan did not acknowledge.",
+    "translation": "这个实验依赖计划未承认的偶然条件。",
+    "tag": "C2 · noun",
+    "related": "historical contingency",
+    "pos": "noun",
+    "senses": [
+      "偶然性",
+      "意外情形"
+    ],
+    "collocations": [
+      "historical contingency"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-5a352cc9748b",
+    "word": "instrumental",
+    "pronunciation": "/ˌɪnstrəˈmentəl/",
+    "meaning": "工具性的；起重要作用的",
+    "example": "An instrumental view values reading only for measurable results.",
+    "translation": "工具性观点只因可衡量的结果而重视阅读。",
+    "tag": "C2 · adjective",
+    "related": "instrumental value",
+    "pos": "adjective",
+    "senses": [
+      "工具性的",
+      "起重要作用的"
+    ],
+    "collocations": [
+      "instrumental value"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-c1f0ac5d51d4",
+    "word": "enumeration",
+    "pronunciation": "/ɪˌnjuːməˈreɪʃən/",
+    "meaning": "列举；计数",
+    "example": "Enumeration can document activity without explaining its significance.",
+    "translation": "计数可以记录活动，却未必说明其意义。",
+    "tag": "C2 · noun",
+    "related": "a simple enumeration",
+    "pos": "noun",
+    "senses": [
+      "列举",
+      "计数"
+    ],
+    "collocations": [
+      "a simple enumeration"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-3b1bfe2d881c",
+    "word": "hermeneutic",
+    "pronunciation": "/ˌhɜːməˈnjuːtɪk/",
+    "meaning": "解释学的；阐释的",
+    "example": "The disagreement is partly hermeneutic: the readers assign different meanings.",
+    "translation": "分歧部分涉及阐释：读者赋予了不同的意义。",
+    "tag": "C2 · adjective",
+    "related": "a hermeneutic question",
+    "pos": "adjective",
+    "senses": [
+      "解释学的",
+      "阐释的"
+    ],
+    "collocations": [
+      "a hermeneutic question"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-f23e19b84dbf",
+    "word": "tacit",
+    "pronunciation": "/ˈtæsɪt/",
+    "meaning": "不言明的；默示的",
+    "example": "The silence was treated as tacit approval.",
+    "translation": "沉默被当作默示的赞同。",
+    "tag": "C2 · adjective",
+    "related": "tacit approval",
+    "pos": "adjective",
+    "senses": [
+      "不言明的",
+      "默示的"
+    ],
+    "collocations": [
+      "tacit approval"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-582cbeb2ac9c",
+    "word": "legibility",
+    "pronunciation": "/ˌledʒɪˈbɪləti/",
+    "meaning": "可读性；清晰可辨性",
+    "example": "Administrative legibility can erase important local distinctions.",
+    "translation": "行政上的清晰可辨性可能抹去重要的地方差异。",
+    "tag": "C2 · noun",
+    "related": "administrative legibility",
+    "pos": "noun",
+    "senses": [
+      "可读性",
+      "清晰可辨性"
+    ],
+    "collocations": [
+      "administrative legibility"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-1b956d2c0832",
+    "word": "elision",
+    "pronunciation": "/ɪˈlɪʒən/",
+    "meaning": "省略；省音",
+    "example": "The elision of those names changed the historical account.",
+    "translation": "那些名字被省略，改变了历史叙述。",
+    "tag": "C2 · noun",
+    "related": "a significant elision",
+    "pos": "noun",
+    "senses": [
+      "省略",
+      "省音"
+    ],
+    "collocations": [
+      "a significant elision"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-827e38a696b5",
+    "word": "reticence",
+    "pronunciation": "/ˈretɪsəns/",
+    "meaning": "沉默寡言；有所保留",
+    "example": "Her reticence carries more meaning than the narrator initially admits.",
+    "translation": "她的缄默承载的意义比叙述者最初承认的更多。",
+    "tag": "C2 · noun",
+    "related": "a deliberate reticence",
+    "pos": "noun",
+    "senses": [
+      "沉默寡言",
+      "有所保留"
+    ],
+    "collocations": [
+      "a deliberate reticence"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-b295884d6950",
+    "word": "equivocation",
+    "pronunciation": "/ɪˌkwɪvəˈkeɪʃən/",
+    "meaning": "含糊其辞；偷换含义",
+    "example": "The argument relies on an equivocation between counting and understanding.",
+    "translation": "论证依赖于在计数与理解之间偷换含义。",
+    "tag": "C2 · noun",
+    "related": "avoid equivocation",
+    "pos": "noun",
+    "senses": [
+      "含糊其辞",
+      "偷换含义"
+    ],
+    "collocations": [
+      "avoid equivocation"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-ed8e184d1e1d",
+    "word": "rhetorical",
+    "pronunciation": "/rɪˈtɒrɪkəl/",
+    "meaning": "修辞的；用于表达效果的",
+    "example": "The question is rhetorical, not a request for a numerical answer.",
+    "translation": "这个问题是修辞性的，并非要求一个数字答案。",
+    "tag": "C2 · adjective",
+    "related": "a rhetorical question",
+    "pos": "adjective",
+    "senses": [
+      "修辞的",
+      "用于表达效果的"
+    ],
+    "collocations": [
+      "a rhetorical question"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-fec4bfe60595",
+    "word": "epistemology",
+    "pronunciation": "/ɪˌpɪstɪˈmɒlədʒi/",
+    "meaning": "认识论",
+    "example": "The debate raises a question of epistemology: what counts as knowledge?",
+    "translation": "这场争论提出了认识论问题：什么算知识？",
+    "tag": "C2 · noun",
+    "related": "a question of epistemology",
+    "pos": "noun",
+    "senses": [
+      "认识论"
+    ],
+    "collocations": [
+      "a question of epistemology"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-b85c1704e3f1",
+    "word": "commensurability",
+    "pronunciation": "/kəˌmenʃərəˈbɪləti/",
+    "meaning": "可通约性；可用共同尺度比较的性质",
+    "example": "The comparison assumes commensurability between very different experiences.",
+    "translation": "这种比较假定了截然不同的经历可以用共同尺度衡量。",
+    "tag": "C2 · noun",
+    "related": "assume commensurability",
+    "pos": "noun",
+    "senses": [
+      "可通约性",
+      "可用共同尺度比较的性质"
+    ],
+    "collocations": [
+      "assume commensurability"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-c5f25aae85a7",
+    "word": "nostalgia",
+    "pronunciation": "/nɒˈstældʒə/",
+    "meaning": "怀旧；乡愁",
+    "example": "The narrator resists nostalgia without dismissing the past.",
+    "translation": "叙述者抗拒怀旧，却没有否定过去。",
+    "tag": "C2 · noun",
+    "related": "a sense of nostalgia",
+    "pos": "noun",
+    "senses": [
+      "怀旧",
+      "乡愁"
+    ],
+    "collocations": [
+      "a sense of nostalgia"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-def056d91174",
+    "word": "disavow",
+    "pronunciation": "/ˌdɪsəˈvaʊ/",
+    "meaning": "否认；声明不承担",
+    "example": "The speaker does not disavow the promise but changes its meaning.",
+    "translation": "说话者没有否认承诺，而是改变了它的含义。",
+    "tag": "C2 · verb",
+    "related": "disavow responsibility",
+    "pos": "verb",
+    "senses": [
+      "否认",
+      "声明不承担"
+    ],
+    "collocations": [
+      "disavow responsibility"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-d7eb04b0c0ea",
+    "word": "reification",
+    "pronunciation": "/ˌriːɪfɪˈkeɪʃən/",
+    "meaning": "物化；将抽象概念视作实体",
+    "example": "The ranking encourages the reification of quality as a single number.",
+    "translation": "这一排名促使人们把质量实体化为一个数字。",
+    "tag": "C2 · noun",
+    "related": "the reification of value",
+    "pos": "noun",
+    "senses": [
+      "物化",
+      "将抽象概念视作实体"
+    ],
+    "collocations": [
+      "the reification of value"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  }
+]

@@ -27,7 +27,20 @@
       "course-en-a1-5",
       "course-en-a1-6",
       "course-en-a1-7",
-      "course-en-a1-9"
+      "course-en-a1-9",
+      "supp-en-a1-2",
+      "supp-en-a1-4",
+      "supp-en-a1-8",
+      "supp-en-a1-9",
+      "supp-en-a1-11",
+      "lex-en-a1-time",
+      "lex-en-a1-meet",
+      "lex-en-a1-come",
+      "complete-en-a1-house",
+      "complete-en-a1-street",
+      "complete-en-a1-good",
+      "context-en-a1-ef39f94cffe7",
+      "context-en-a1-94be113ebcdc"
     ],
     "grammar": [
       {
@@ -134,7 +147,18 @@
       "course-en-a1-8",
       "course-en-a1-9",
       "course-en-a1-11",
-      "supp-en-a1-11"
+      "supp-en-a1-11",
+      "supp-en-a1-16",
+      "en-take",
+      "lex-en-a1-work",
+      "complete-en-a1-want",
+      "context-en-a1-94be113ebcdc",
+      "context-en-a1-34c970a96210",
+      "context-en-a1-6cd8ef2c5947",
+      "context-en-a1-9125290ec277",
+      "context-en-a1-c9f12e7078e2",
+      "context-en-a1-77fe8a9eea5b",
+      "context-en-a1-c3295bb40ff3"
     ],
     "grammar": [
       {
@@ -241,7 +265,17 @@
       "course-en-a1-6",
       "course-en-a1-8",
       "course-en-a1-9",
-      "supp-en-a1-8"
+      "supp-en-a1-8",
+      "supp-en-a1-9",
+      "supp-en-a1-11",
+      "supp-en-a1-14",
+      "complete-en-a1-need",
+      "context-en-a1-9125290ec277",
+      "context-en-a1-3056e7306e90",
+      "context-en-a1-c724b849bea2",
+      "context-en-a1-c3295bb40ff3",
+      "context-en-a1-bf928ee29adf",
+      "context-en-a1-8597f16f7574"
     ],
     "grammar": [
       {
@@ -352,7 +386,23 @@
       "course-en-a1-8",
       "course-en-a1-10",
       "supp-en-a1-1",
-      "supp-en-a1-2"
+      "supp-en-a1-2",
+      "supp-en-a1-3",
+      "supp-en-a1-4",
+      "supp-en-a1-6",
+      "supp-en-a1-8",
+      "supp-en-a1-9",
+      "supp-en-a1-10",
+      "supp-en-a1-11",
+      "lex-en-a1-work",
+      "lex-en-a1-shop",
+      "complete-en-a1-room",
+      "complete-en-a1-day",
+      "complete-en-a1-like",
+      "complete-en-a1-good",
+      "context-en-a1-d1b107c334b2",
+      "context-en-a1-ee4c87b73d98",
+      "context-en-a1-1eb46be3a2d9"
     ],
     "grammar": [
       {

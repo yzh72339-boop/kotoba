@@ -1,0 +1,474 @@
+[
+  {
+    "id": "context-ja-n2-480d790cda56",
+    "word": "交換",
+    "pronunciation": "こうかん",
+    "meaning": "交换；更换",
+    "example": "必要なのは部品の交換だけでした。",
+    "translation": "需要做的只是更换零件。",
+    "tag": "JLPT N2 · noun",
+    "related": "部品の交換",
+    "pos": "noun",
+    "senses": [
+      "交换",
+      "更换"
+    ],
+    "collocations": [
+      "部品の交換"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-38dc2ae9624b",
+    "word": "故障",
+    "pronunciation": "こしょう",
+    "meaning": "故障",
+    "example": "故障の原因を調べてから判断します。",
+    "translation": "我们先调查故障原因，再作判断。",
+    "tag": "JLPT N2 · noun",
+    "related": "故障を調べる",
+    "pos": "noun",
+    "senses": [
+      "故障"
+    ],
+    "collocations": [
+      "故障を調べる"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-534efdf2c381",
+    "word": "部品",
+    "pronunciation": "ぶひん",
+    "meaning": "零件",
+    "example": "古い部品を新しいものに交換します。",
+    "translation": "我们把旧零件换成新的。",
+    "tag": "JLPT N2 · noun",
+    "related": "部品を交換する",
+    "pos": "noun",
+    "senses": [
+      "零件"
+    ],
+    "collocations": [
+      "部品を交換する"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-a880761308ee",
+    "word": "新品",
+    "pronunciation": "しんぴん",
+    "meaning": "全新的物品",
+    "example": "修理費用は新品の半分ほどでした。",
+    "translation": "维修费大约是新品的一半。",
+    "tag": "JLPT N2 · noun",
+    "related": "新品を買う",
+    "pos": "noun",
+    "senses": [
+      "全新的物品"
+    ],
+    "collocations": [
+      "新品を買う"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-c598fa54a808",
+    "word": "定例",
+    "pronunciation": "ていれい",
+    "meaning": "例行；定期举行",
+    "example": "定例会議の回数を見直しました。",
+    "translation": "我们重新审视了例会的次数。",
+    "tag": "JLPT N2 · noun",
+    "related": "定例会議",
+    "pos": "noun",
+    "senses": [
+      "例行",
+      "定期举行"
+    ],
+    "collocations": [
+      "定例会議"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-dba0ae84701d",
+    "word": "個別",
+    "pronunciation": "こべつ",
+    "meaning": "个别；分别",
+    "example": "同じ内容を個別に説明する必要がありました。",
+    "translation": "有必要分别解释同样的内容。",
+    "tag": "JLPT N2 · noun",
+    "related": "個別に説明する",
+    "pos": "noun",
+    "senses": [
+      "个别",
+      "分别"
+    ],
+    "collocations": [
+      "個別に説明する"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-62f6356551a6",
+    "word": "目安",
+    "pronunciation": "めやす",
+    "meaning": "参考标准；大致指标",
+    "example": "平均は生活費を考える目安になります。",
+    "translation": "平均值可以作为考虑生活费的参考。",
+    "tag": "JLPT N2 · noun",
+    "related": "目安にする",
+    "pos": "noun",
+    "senses": [
+      "参考标准",
+      "大致指标"
+    ],
+    "collocations": [
+      "目安にする"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-92e39f12bea6",
+    "word": "開設",
+    "pronunciation": "かいせつ",
+    "meaning": "开设；设立",
+    "example": "図書館に会話室が開設されました。",
+    "translation": "图书馆开设了交谈室。",
+    "tag": "JLPT N2 · noun",
+    "related": "窓口を開設する",
+    "pos": "noun",
+    "senses": [
+      "开设",
+      "设立"
+    ],
+    "collocations": [
+      "窓口を開設する"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-d4c04114a32a",
+    "word": "電源",
+    "pronunciation": "でんげん",
+    "meaning": "电源",
+    "example": "作業が終わったら電源を切ります。",
+    "translation": "工作结束后要关闭电源。",
+    "tag": "JLPT N2 · noun",
+    "related": "電源を切る",
+    "pos": "noun",
+    "senses": [
+      "电源"
+    ],
+    "collocations": [
+      "電源を切る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-f98f97d74f5f",
+    "word": "通勤",
+    "pronunciation": "つうきん",
+    "meaning": "通勤",
+    "example": "通勤用の靴を買いました。",
+    "translation": "我买了通勤用的鞋。",
+    "tag": "JLPT N2 · noun",
+    "related": "通勤時間",
+    "pos": "noun",
+    "senses": [
+      "通勤"
+    ],
+    "collocations": [
+      "通勤時間"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-f6a364714322",
+    "word": "通販",
+    "pronunciation": "つうはん",
+    "meaning": "邮购；网购",
+    "example": "通販では送料も確認します。",
+    "translation": "网购时我也会查看运费。",
+    "tag": "JLPT N2 · noun",
+    "related": "通販サイト",
+    "pos": "noun",
+    "senses": [
+      "邮购",
+      "网购"
+    ],
+    "collocations": [
+      "通販サイト"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-8bd383a4790e",
+    "word": "店頭",
+    "pronunciation": "てんとう",
+    "meaning": "店面；店内销售处",
+    "example": "店頭で実際に靴を試しました。",
+    "translation": "我在店里实际试穿了鞋。",
+    "tag": "JLPT N2 · noun",
+    "related": "店頭で買う",
+    "pos": "noun",
+    "senses": [
+      "店面",
+      "店内销售处"
+    ],
+    "collocations": [
+      "店頭で買う"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-7a01929cee75",
+    "word": "送料",
+    "pronunciation": "そうりょう",
+    "meaning": "运费；邮费",
+    "example": "送料を含めると安くありませんでした。",
+    "translation": "加上运费就不便宜了。",
+    "tag": "JLPT N2 · noun",
+    "related": "送料を含む",
+    "pos": "noun",
+    "senses": [
+      "运费",
+      "邮费"
+    ],
+    "collocations": [
+      "送料を含む"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-2e631b55c8d8",
+    "word": "案内板",
+    "pronunciation": "あんないばん",
+    "meaning": "指示牌；导览牌",
+    "example": "駅の案内板を見直しています。",
+    "translation": "我们正在重新审视车站的导览牌。",
+    "tag": "JLPT N2 · noun",
+    "related": "案内板を見る",
+    "pos": "noun",
+    "senses": [
+      "指示牌",
+      "导览牌"
+    ],
+    "collocations": [
+      "案内板を見る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-db1aab7e5905",
+    "word": "矢印",
+    "pronunciation": "やじるし",
+    "meaning": "箭头标记",
+    "example": "青い矢印に沿って歩いてください。",
+    "translation": "请沿蓝色箭头所示的方向走。",
+    "tag": "JLPT N2 · noun",
+    "related": "矢印に沿う",
+    "pos": "noun",
+    "senses": [
+      "箭头标记"
+    ],
+    "collocations": [
+      "矢印に沿う"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-cd9669835764",
+    "word": "通知",
+    "pronunciation": "つうち",
+    "meaning": "通知",
+    "example": "集中するために通知を減らしました。",
+    "translation": "为了集中注意力，我减少了通知。",
+    "tag": "JLPT N2 · noun",
+    "related": "通知を切る",
+    "pos": "noun",
+    "senses": [
+      "通知"
+    ],
+    "collocations": [
+      "通知を切る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-3865cc199fc6",
+    "word": "集中",
+    "pronunciation": "しゅうちゅう",
+    "meaning": "集中；专注",
+    "example": "静かな場所で仕事に集中します。",
+    "translation": "我在安静的地方专心工作。",
+    "tag": "JLPT N2 · noun",
+    "related": "仕事に集中する",
+    "pos": "noun",
+    "senses": [
+      "集中",
+      "专注"
+    ],
+    "collocations": [
+      "仕事に集中する"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-ea5bd9868466",
+    "word": "構造",
+    "pronunciation": "こうぞう",
+    "meaning": "结构",
+    "example": "修理の前に椅子の構造を確認します。",
+    "translation": "维修前要确认椅子的结构。",
+    "tag": "JLPT N2 · noun",
+    "related": "構造を調べる",
+    "pos": "noun",
+    "senses": [
+      "结构"
+    ],
+    "collocations": [
+      "構造を調べる"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-b16b1c3c49b2",
+    "word": "保証",
+    "pronunciation": "ほしょう",
+    "meaning": "保证；保修",
+    "example": "修理後の保証について聞きました。",
+    "translation": "我询问了维修后的保修事项。",
+    "tag": "JLPT N2 · noun",
+    "related": "保証期間",
+    "pos": "noun",
+    "senses": [
+      "保证",
+      "保修"
+    ],
+    "collocations": [
+      "保証期間"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-0aae1ca8c748",
+    "word": "見積もり",
+    "pronunciation": "みつもり",
+    "meaning": "估价；报价单",
+    "example": "修理の見積もりを確認しました。",
+    "translation": "我查看了维修报价。",
+    "tag": "JLPT N2 · noun",
+    "related": "見積もりを出す",
+    "pos": "noun",
+    "senses": [
+      "估价",
+      "报价单"
+    ],
+    "collocations": [
+      "見積もりを出す"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  }
+]

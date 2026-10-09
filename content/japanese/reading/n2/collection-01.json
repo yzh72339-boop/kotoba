@@ -42,7 +42,12 @@
       "complete-ja-n2-54002c7d6e",
       "complete-ja-n2-e097e071ab",
       "complete-ja-n2-f95529e4ed",
-      "complete-ja-n2-b86dfbe3fb"
+      "complete-ja-n2-b86dfbe3fb",
+      "context-ja-n2-480d790cda56",
+      "context-ja-n2-38dc2ae9624b",
+      "context-ja-n2-534efdf2c381",
+      "context-ja-n2-a880761308ee",
+      "context-ja-n2-b16b1c3c49b2"
     ],
     "grammar": [
       {
@@ -163,7 +168,9 @@
       "complete-ja-n2-9046c0d432",
       "complete-ja-n2-a6af068d25",
       "complete-ja-n2-c2cd9cd9a7",
-      "complete-ja-n2-b86dfbe3fb"
+      "complete-ja-n2-b86dfbe3fb",
+      "context-ja-n2-c598fa54a808",
+      "context-ja-n2-dba0ae84701d"
     ],
     "grammar": [
       {
@@ -281,7 +288,8 @@
       "complete-ja-n2-3b5872cba5",
       "complete-ja-n2-002b663467",
       "complete-ja-n2-6d0cd14bb9",
-      "complete-ja-n2-9d478df4a3"
+      "complete-ja-n2-9d478df4a3",
+      "context-ja-n2-f98f97d74f5f"
     ],
     "grammar": [
       {
@@ -403,7 +411,8 @@
       "complete-ja-n2-b86dfbe3fb",
       "complete-ja-n2-efdba047b6",
       "complete-ja-n2-b815536b87",
-      "complete-ja-n2-9d478df4a3"
+      "complete-ja-n2-9d478df4a3",
+      "context-ja-n2-62f6356551a6"
     ],
     "grammar": [
       {
@@ -522,7 +531,9 @@
       "complete-ja-n2-9c2c133984",
       "complete-ja-n2-b407882218",
       "complete-ja-n2-3f482b4722",
-      "complete-ja-n2-01c97290f4"
+      "complete-ja-n2-01c97290f4",
+      "context-ja-n2-92e39f12bea6",
+      "context-ja-n2-3865cc199fc6"
     ],
     "grammar": [
       {
@@ -638,7 +649,8 @@
       "lex-ja-n2-motomeru",
       "complete-ja-n2-a6af068d25",
       "complete-ja-n2-50cc0eacc4",
-      "complete-ja-n2-6d0cd14bb9"
+      "complete-ja-n2-6d0cd14bb9",
+      "context-ja-n2-d4c04114a32a"
     ],
     "grammar": [
       {

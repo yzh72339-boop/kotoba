@@ -1,0 +1,478 @@
+[
+  {
+    "id": "context-ja-n1-567602d5cbf9",
+    "word": "改修",
+    "pronunciation": "かいしゅう",
+    "meaning": "改建；整修",
+    "example": "図書館の改修で利用方法も変わった。",
+    "translation": "图书馆的整修也改变了使用方式。",
+    "tag": "JLPT N1 · noun",
+    "related": "改修計画",
+    "pos": "noun",
+    "senses": [
+      "改建",
+      "整修"
+    ],
+    "collocations": [
+      "改修計画"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-574b77870c91",
+    "word": "回転率",
+    "pronunciation": "かいてんりつ",
+    "meaning": "周转率；使用轮转率",
+    "example": "席の回転率だけでは価値を測れない。",
+    "translation": "仅凭座位周转率无法衡量价值。",
+    "tag": "JLPT N1 · noun",
+    "related": "回転率を上げる",
+    "pos": "noun",
+    "senses": [
+      "周转率",
+      "使用轮转率"
+    ],
+    "collocations": [
+      "回転率を上げる"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-d8513ee129ba",
+    "word": "沈黙",
+    "pronunciation": "ちんもく",
+    "meaning": "沉默",
+    "example": "沈黙を賛成とみなしてよいのだろうか。",
+    "translation": "能把沉默看作赞同吗？",
+    "tag": "JLPT N1 · noun",
+    "related": "沈黙を守る",
+    "pos": "noun",
+    "senses": [
+      "沉默"
+    ],
+    "collocations": [
+      "沈黙を守る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-12ffaa228a33",
+    "word": "議事録",
+    "pronunciation": "ぎじろく",
+    "meaning": "会议记录",
+    "example": "議事録には質問も残してほしい。",
+    "translation": "我希望会议记录也保留提问。",
+    "tag": "JLPT N1 · noun",
+    "related": "議事録を作成する",
+    "pos": "noun",
+    "senses": [
+      "会议记录"
+    ],
+    "collocations": [
+      "議事録を作成する"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-d776036b8214",
+    "word": "合間",
+    "pronunciation": "あいま",
+    "meaning": "间隙；空当",
+    "example": "仕事の合間に資料を読んだ。",
+    "translation": "我在工作空当读了资料。",
+    "tag": "JLPT N1 · noun",
+    "related": "仕事の合間",
+    "pos": "noun",
+    "senses": [
+      "间隙",
+      "空当"
+    ],
+    "collocations": [
+      "仕事の合間"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-66d4afa02dd0",
+    "word": "かえって",
+    "pronunciation": "かえって",
+    "meaning": "反而",
+    "example": "限界も説明する態度に、かえって信頼を感じた。",
+    "translation": "对方连局限也说明的态度，反而让我感到信赖。",
+    "tag": "JLPT N1 · adverb",
+    "related": "かえって難しい",
+    "pos": "adverb",
+    "senses": [
+      "反而"
+    ],
+    "collocations": [
+      "かえって難しい"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-03e15abb2b87",
+    "word": "みなす",
+    "pronunciation": "みなす",
+    "meaning": "视为；认定",
+    "example": "反対がないことを合意とみなすのは早い。",
+    "translation": "把没有反对视作同意还为时过早。",
+    "tag": "JLPT N1 · verb",
+    "related": "賛成とみなす",
+    "pos": "verb",
+    "senses": [
+      "视为",
+      "认定"
+    ],
+    "collocations": [
+      "賛成とみなす"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-ea1ec7f79fc7",
+    "word": "掲示",
+    "pronunciation": "けいじ",
+    "meaning": "公告；张贴",
+    "example": "入口の掲示で窓口の終了を知った。",
+    "translation": "我从入口的公告得知了服务窗口关闭。",
+    "tag": "JLPT N1 · noun",
+    "related": "掲示を確認する",
+    "pos": "noun",
+    "senses": [
+      "公告",
+      "张贴"
+    ],
+    "collocations": [
+      "掲示を確認する"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-ee2317e79981",
+    "word": "会報",
+    "pronunciation": "かいほう",
+    "meaning": "会刊；团体通讯",
+    "example": "会報には地域の小さな変化が記録されている。",
+    "translation": "会刊记录着地区的细小变化。",
+    "tag": "JLPT N1 · noun",
+    "related": "会報を発行する",
+    "pos": "noun",
+    "senses": [
+      "会刊",
+      "团体通讯"
+    ],
+    "collocations": [
+      "会報を発行する"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-4a2e14ace7c1",
+    "word": "継承",
+    "pronunciation": "けいしょう",
+    "meaning": "继承；传承",
+    "example": "記録の継承には説明する人も必要だ。",
+    "translation": "记录的传承也需要能够解释的人。",
+    "tag": "JLPT N1 · noun",
+    "related": "技術を継承する",
+    "pos": "noun",
+    "senses": [
+      "继承",
+      "传承"
+    ],
+    "collocations": [
+      "技術を継承する"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-0021f99ea143",
+    "word": "当事者",
+    "pronunciation": "とうじしゃ",
+    "meaning": "当事人；直接相关者",
+    "example": "当事者の声を聞かずに結論を出せない。",
+    "translation": "不能不听当事人的声音就下结论。",
+    "tag": "JLPT N1 · noun",
+    "related": "当事者の声",
+    "pos": "noun",
+    "senses": [
+      "当事人",
+      "直接相关者"
+    ],
+    "collocations": [
+      "当事者の声"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-279414567986",
+    "word": "可視化",
+    "pronunciation": "かしか",
+    "meaning": "可视化；使显现",
+    "example": "数値による可視化には限界もある。",
+    "translation": "通过数值呈现也有局限。",
+    "tag": "JLPT N1 · noun",
+    "related": "課題を可視化する",
+    "pos": "noun",
+    "senses": [
+      "可视化",
+      "使显现"
+    ],
+    "collocations": [
+      "課題を可視化する"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-a654d50d7298",
+    "word": "黙認",
+    "pronunciation": "もくにん",
+    "meaning": "默许",
+    "example": "沈黙が必ずしも黙認を意味するわけではない。",
+    "translation": "沉默并不一定意味着默许。",
+    "tag": "JLPT N1 · noun",
+    "related": "黙認と受け取る",
+    "pos": "noun",
+    "senses": [
+      "默许"
+    ],
+    "collocations": [
+      "黙認と受け取る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-cdf68d22eeda",
+    "word": "内訳",
+    "pronunciation": "うちわけ",
+    "meaning": "明细；构成",
+    "example": "総額だけでなく費用の内訳を確認した。",
+    "translation": "我不仅查看了总额，也查看了费用明细。",
+    "tag": "JLPT N1 · noun",
+    "related": "費用の内訳",
+    "pos": "noun",
+    "senses": [
+      "明细",
+      "构成"
+    ],
+    "collocations": [
+      "費用の内訳"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-cda62fd0aa53",
+    "word": "脈絡",
+    "pronunciation": "みゃくらく",
+    "meaning": "脉络；上下文联系",
+    "example": "脈絡を離れた引用では意図が伝わらない。",
+    "translation": "脱离上下文的引用无法传达意图。",
+    "tag": "JLPT N1 · noun",
+    "related": "脈絡を捉える",
+    "pos": "noun",
+    "senses": [
+      "脉络",
+      "上下文联系"
+    ],
+    "collocations": [
+      "脈絡を捉える"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-52257191a63b",
+    "word": "変遷",
+    "pronunciation": "へんせん",
+    "meaning": "变迁；演变",
+    "example": "古い写真から町の変遷を読み取る。",
+    "translation": "我们从旧照片中解读城镇的变迁。",
+    "tag": "JLPT N1 · noun",
+    "related": "歴史の変遷",
+    "pos": "noun",
+    "senses": [
+      "变迁",
+      "演变"
+    ],
+    "collocations": [
+      "歴史の変遷"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-f6e8b2bb0bb5",
+    "word": "恣意的",
+    "pronunciation": "しいてき",
+    "meaning": "任意的；武断的",
+    "example": "恣意的な基準では公平な比較にならない。",
+    "translation": "武断的标准无法带来公平的比较。",
+    "tag": "JLPT N1 · adjective",
+    "related": "恣意的な判断",
+    "pos": "adjective",
+    "senses": [
+      "任意的",
+      "武断的"
+    ],
+    "collocations": [
+      "恣意的な判断"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-4a3c0fb0bee0",
+    "word": "一律",
+    "pronunciation": "いちりつ",
+    "meaning": "一律；统一不变",
+    "example": "利用者を一律に扱うことが公平とは限らない。",
+    "translation": "一律对待使用者未必就是公平。",
+    "tag": "JLPT N1 · noun",
+    "related": "一律に扱う",
+    "pos": "noun",
+    "senses": [
+      "一律",
+      "统一不变"
+    ],
+    "collocations": [
+      "一律に扱う"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-309b2f09ccd8",
+    "word": "折衷",
+    "pronunciation": "せっちゅう",
+    "meaning": "折中；调和",
+    "example": "両方の案を取り入れた折衷案を作った。",
+    "translation": "我们制定了兼顾两个方案的折中案。",
+    "tag": "JLPT N1 · noun",
+    "related": "折衷案",
+    "pos": "noun",
+    "senses": [
+      "折中",
+      "调和"
+    ],
+    "collocations": [
+      "折衷案"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-4bc21a269a09",
+    "word": "暗黙",
+    "pronunciation": "あんもく",
+    "meaning": "默示；不言明",
+    "example": "暗黙の了解を文書にする必要がある。",
+    "translation": "有必要把不言明的共识写成文件。",
+    "tag": "JLPT N1 · noun",
+    "related": "暗黙の了解",
+    "pos": "noun",
+    "senses": [
+      "默示",
+      "不言明"
+    ],
+    "collocations": [
+      "暗黙の了解"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  }
+]

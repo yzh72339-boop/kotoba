@@ -1,66 +1,51 @@
-# Kotoba
+# Kotoba — Private English & Japanese Learning
 
-Open-source personal English and Japanese learning system. Next.js, TypeScript,
-Supabase and an installable PWA. The project code and original course content
-are licensed under [MIT](LICENSE): anyone may copy, modify, fork and redistribute
-it. Contributions use [pull requests](CONTRIBUTING.md).
+Project code and original course content are licensed under [MIT](LICENSE).
+Anyone may fork, modify and redistribute them; contributions use pull requests.
+See [contribution guidelines](CONTRIBUTING.md), [independent setup](docs/OPEN-SOURCE-SETUP.md)
+and [security policy](SECURITY.md). Learning data and deployed owner access remain private.
 
-## Current release
+Existing Next.js / TypeScript / Supabase / PWA application. Current package version is **2.7.0**, continuing the Version 13 / V2.5.2 foundation and its compatible mobile fixes. This is a single-owner personal system, not an open-registration SaaS.
 
-- Version **2.6.0**, based on the existing V2.5.2 codebase.
-- 667 vocabulary course cards, 150 complete grammar courses and 60 readings.
-- Japanese N5–N1 and English A1–C2 courses, practice and reading continuation.
-- Daily learning, vocabulary, shared SRS, sentence collection and mistake notes.
-- Private owner Auth/RLS, IndexedDB offline state and Supabase synchronization.
-- Unified mobile/desktop UI, dark/system themes, PWA installation and update recovery.
-- Optional server-side AI Tutor and cloud backup.
+The silver/graphite/blue UI now covers all workspaces, sign-in, dialogs and the update page. Shared course transitions retain learning state; native transitions gracefully fall back on constrained devices and reduced motion. Chromium mobile emulation, screenshots, recording and offline reload have been verified with an isolated simulated backend. Real owner/device acceptance remains separate. See [UI verification](docs/UI-UNIFICATION.md).
 
-The full content plan remains **1,260 grammar courses / 590 readings** and is
-not complete. See [CONTENT-AUDIT.md](CONTENT-AUDIT.md). Existing current-status
-and handoff documents are historical development records, not guarantees that
-a new installation has been deployed or verified.
+## V2.7 update
 
-## Start
+- **887 vocabulary cards**: 220 original additions (20 per grade), preserving all 667 existing cards and IDs. [Graded vocabulary audit](VOCABULARY-AUDIT.md). This is a graded supplement, not an exhaustive dictionary.
+- Phone dictionary list and word sheets, actual due counts, content-language speech/source handling, prior-day completion correction, and linked foundation/N2 readings.
+- **178 Node tests**, TypeScript, zero-warning Lint, content/vocabulary audits and production build pass. [2.7 scope and verification limits](docs/KOTOBA-2.7-CHECKPOINT.md); [changelog](CHANGELOG.md).
+- Chromium mobile emulation and offline fixture tests do not certify real owner/device/cross-device/installed-PWA acceptance.
 
-Use Node.js 24 and the existing lockfile:
+## Current source
+
+- Japanese N5–N1 and English A1–C2 vocabulary layers and stable word IDs are preserved.
+- SRS, Auth/RLS, IndexedDB and the revision-based offline sync engine are retained.
+- The staged grammar/reading library has **150 grammar courses and 62 original articles**. Full V3 targets are not yet met; see [CONTENT-AUDIT.md](CONTENT-AUDIT.md).
+- Production migrations **001–011** have user-supplied verification receipts. This update does not rerun or change them. Authenticated runtime readiness still protects curriculum persistence; a failed network or API cache check does not mean 010 must be deployed again.
+- Compatible improvements cover shared review queues, timezone-aware statistics/streak, exact reading continuation, history/deep links, all-level dictionary search, System theme and lazy page loading.
+
+Read [the V3 engineering audit](docs/V3-ENGINEERING-AUDIT.md), [current status](docs/CURRENT-STATUS.md), [content deployment instructions](docs/V3-CONTENT-EXPANSION.md) and [the original handoff](docs/CODEX-HANDOFF.md). Historical handoff version/count statements do not override current code or deployment evidence.
+
+The follow-up [2.6 sync repair](docs/KOTOBA-2.6-SYNC-REPAIR.md) fixes corrected-error capture, background restoration and save retries. A reproduced PostgreSQL UUID cast failure requires the minimal **011_text_event_identity** compatibility patch. The owner has supplied successful production 011 read-only verification and reported mobile learning/sync/reload success; migrations 001–011 remain unchanged in this phone round. That historical sync/phone checkpoint had **163 tests**. See [the phone checkpoint](docs/PHONE-EXPERIENCE-CHECKPOINT.md) for one-question practice, restored question IDs and device acceptance still pending.
+
+See [the 2.6 checkpoint](docs/KOTOBA-2.6-CHECKPOINT.md) for mobile changes, grade counts, verification results and remaining device acceptance. The 2.6 content minimum is met; the complete 1,260/590 target is not.
+
+## Local verification
 
 ```bash
 npm ci
-cp .env.example .env.local
-# Set your own Supabase URL, Publishable Key and owner email in .env.local.
-npm run dev
-```
-
-Without configuration the private login gate remains closed. To sign in,
-complete [independent database and owner setup](docs/OPEN-SOURCE-SETUP.md) using
-your own Supabase project. Apply migrations 001–011 only to an appropriate
-fresh development project, then configure its owner with the existing bootstrap
-script. Do not run scripts against another person's production database.
-
-## Verify and build
-
-```bash
 npm run typecheck
 npm run lint
 npm test
 npm run content:audit
+npm run vocabulary:audit
 npm run build
 ```
 
-The static output is `out/`, suitable for HTTPS hosting. PWA install and offline
-use need separate browser/device checks. A build does not validate live Auth,
-RLS, AI services or cross-device synchronization.
+Use the lockfile; do not upgrade dependencies as part of ordinary verification. If dependencies are already installed and inputs unchanged, use them. `npm run backend:check` performs a read-only connection/anonymous-denial check; it does not certify owner writes or every RLS policy.
 
-## Privacy and contributions
+## Environment and safety
 
-Each installation is a private personal application. The MIT License covers
-source modification; it grants no access to another installation's accounts,
-learning data, keys or recordings. Auth, RLS and private Storage remain enabled.
-Use your own backend for development. Keep real environment files and session
-state out of Git. See [SECURITY.md](SECURITY.md).
+Copy `.env.example` to ignored `.env.local`. Client initialization uses `NEXT_PUBLIC_SUPABASE_URL` (project root, not `/rest/v1`) and `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`. Server/Edge secrets must never use `NEXT_PUBLIC_`, enter Git, browser code or logs. Do not send secrets in chat.
 
-The public-source snapshot excludes private environment files, hosting bindings,
-deployment receipts and private Git history. Historical owner/project references
-are replaced with placeholders in this snapshot only. Existing deployed migration
-history is unchanged. Dependencies and third-party material retain their own
-licenses.
+Keep production learning data and migration history intact. Do not rerun 001–010, disable RLS, reset the database or rewrite existing card IDs. Real-device login, offline/cross-device and PWA acceptance remains distinct from local tests. See [acceptance](docs/ACCEPTANCE.md) and [deployment](docs/DEPLOYMENT.md).

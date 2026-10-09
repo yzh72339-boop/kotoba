@@ -1,0 +1,471 @@
+[
+  {
+    "id": "context-en-c1-9dc6ac1246a1",
+    "word": "caption",
+    "pronunciation": "/ˈkæpʃən/",
+    "meaning": "图片说明；图注",
+    "example": "The caption claimed more than the chart showed.",
+    "translation": "图注表达的结论超出了图表所展示的范围。",
+    "tag": "C1 · noun",
+    "related": "a chart caption",
+    "pos": "noun",
+    "senses": [
+      "图片说明",
+      "图注"
+    ],
+    "collocations": [
+      "a chart caption"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-82798bf44940",
+    "word": "sighting",
+    "pronunciation": "/ˈsaɪtɪŋ/",
+    "meaning": "看见；目击记录",
+    "example": "A sighting does not establish the size of a population.",
+    "translation": "一次目击不能确定种群的大小。",
+    "tag": "C1 · noun",
+    "related": "a bird sighting",
+    "pos": "noun",
+    "senses": [
+      "看见",
+      "目击记录"
+    ],
+    "collocations": [
+      "a bird sighting"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-6a581e4754c7",
+    "word": "ecosystem",
+    "pronunciation": "/ˈiːkəʊˌsɪstəm/",
+    "meaning": "生态系统",
+    "example": "One count cannot describe an entire ecosystem.",
+    "translation": "一次计数无法描述整个生态系统。",
+    "tag": "C1 · noun",
+    "related": "an urban ecosystem",
+    "pos": "noun",
+    "senses": [
+      "生态系统"
+    ],
+    "collocations": [
+      "an urban ecosystem"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-13b3e96088ec",
+    "word": "reassuring",
+    "pronunciation": "/ˌriːəˈʃʊərɪŋ/",
+    "meaning": "令人安心的",
+    "example": "The statement was reassuring but insufficiently supported.",
+    "translation": "这个表述令人安心，但证据不足。",
+    "tag": "C1 · adjective",
+    "related": "a reassuring statement",
+    "pos": "adjective",
+    "senses": [
+      "令人安心的"
+    ],
+    "collocations": [
+      "a reassuring statement"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-0051045d5401",
+    "word": "historiography",
+    "pronunciation": "/hɪˌstɒriˈɒɡrəfi/",
+    "meaning": "史学；历史书写",
+    "example": "Historiography examines how accounts of the past are constructed.",
+    "translation": "史学研究过去的叙述是如何形成的。",
+    "tag": "C1 · noun",
+    "related": "modern historiography",
+    "pos": "noun",
+    "senses": [
+      "史学",
+      "历史书写"
+    ],
+    "collocations": [
+      "modern historiography"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-12aa04940a1c",
+    "word": "obligation",
+    "pronunciation": "/ˌɒblɪˈɡeɪʃən/",
+    "meaning": "义务；责任",
+    "example": "One person's flexibility can create an obligation for another.",
+    "translation": "一个人的灵活安排可能给另一个人带来义务。",
+    "tag": "C1 · noun",
+    "related": "a professional obligation",
+    "pos": "noun",
+    "senses": [
+      "义务",
+      "责任"
+    ],
+    "collocations": [
+      "a professional obligation"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-45c788a8834b",
+    "word": "equitable",
+    "pronunciation": "/ˈekwɪtəbəl/",
+    "meaning": "公平合理的",
+    "example": "An equitable policy considers workers with caring responsibilities.",
+    "translation": "公平合理的政策会考虑承担照护责任的员工。",
+    "tag": "C1 · adjective",
+    "related": "an equitable policy",
+    "pos": "adjective",
+    "senses": [
+      "公平合理的"
+    ],
+    "collocations": [
+      "an equitable policy"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-b8d20ed1b95d",
+    "word": "refusal",
+    "pronunciation": "/rɪˈfjuːzəl/",
+    "meaning": "拒绝",
+    "example": "The refusal preserved the possibility of future cooperation.",
+    "translation": "这次拒绝保留了未来合作的可能性。",
+    "tag": "C1 · noun",
+    "related": "a polite refusal",
+    "pos": "noun",
+    "senses": [
+      "拒绝"
+    ],
+    "collocations": [
+      "a polite refusal"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-3e86cf0a480b",
+    "word": "literal",
+    "pronunciation": "/ˈlɪtərəl/",
+    "meaning": "字面的；直译的",
+    "example": "A literal translation can obscure a speaker's intention.",
+    "translation": "直译可能掩盖说话者的意图。",
+    "tag": "C1 · adjective",
+    "related": "a literal translation",
+    "pos": "adjective",
+    "senses": [
+      "字面的",
+      "直译的"
+    ],
+    "collocations": [
+      "a literal translation"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-4b9d4f416f75",
+    "word": "gratitude",
+    "pronunciation": "/ˈɡrætɪtjuːd/",
+    "meaning": "感激",
+    "example": "Removing every expression of gratitude changed the tone.",
+    "translation": "删掉所有感激表达改变了语气。",
+    "tag": "C1 · noun",
+    "related": "express gratitude",
+    "pos": "noun",
+    "senses": [
+      "感激"
+    ],
+    "collocations": [
+      "express gratitude"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-5542bd5c5ec9",
+    "word": "register",
+    "pronunciation": "/ˈredʒɪstə/",
+    "meaning": "语域；语体",
+    "example": "The translator chose a less formal register.",
+    "translation": "译者选择了不那么正式的语体。",
+    "tag": "C1 · noun",
+    "related": "a formal register",
+    "pos": "noun",
+    "senses": [
+      "语域",
+      "语体"
+    ],
+    "collocations": [
+      "a formal register"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-080413094754",
+    "word": "questionnaire",
+    "pronunciation": "/ˌkwestʃəˈneə/",
+    "meaning": "问卷",
+    "example": "Staff completed a short questionnaire each afternoon.",
+    "translation": "员工每天下午填写一份简短问卷。",
+    "tag": "C1 · noun",
+    "related": "complete a questionnaire",
+    "pos": "noun",
+    "senses": [
+      "问卷"
+    ],
+    "collocations": [
+      "complete a questionnaire"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-e342c88bca05",
+    "word": "voluntary",
+    "pronunciation": "/ˈvɒləntəri/",
+    "meaning": "自愿的",
+    "example": "Participation in the study was voluntary.",
+    "translation": "参与这项研究是自愿的。",
+    "tag": "C1 · adjective",
+    "related": "voluntary participation",
+    "pos": "adjective",
+    "senses": [
+      "自愿的"
+    ],
+    "collocations": [
+      "voluntary participation"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-612aae146f74",
+    "word": "causation",
+    "pronunciation": "/kɔːˈzeɪʃən/",
+    "meaning": "因果关系",
+    "example": "A change in two measures does not demonstrate causation.",
+    "translation": "两个指标都变化并不能证明因果关系。",
+    "tag": "C1 · noun",
+    "related": "establish causation",
+    "pos": "noun",
+    "senses": [
+      "因果关系"
+    ],
+    "collocations": [
+      "establish causation"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-5c021b3d089c",
+    "word": "generalisability",
+    "pronunciation": "/ˌdʒenərəlaɪzəˈbɪləti/",
+    "meaning": "可推广性",
+    "example": "The study's generalisability is limited by its small sample.",
+    "translation": "这项研究的可推广性受到小样本的限制。",
+    "tag": "C1 · noun",
+    "related": "limited generalisability",
+    "pos": "noun",
+    "senses": [
+      "可推广性"
+    ],
+    "collocations": [
+      "limited generalisability"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-9d451210d14e",
+    "word": "caveat about",
+    "pronunciation": "/ˈkæviæt əˈbaʊt/",
+    "meaning": "关于某事的限制说明",
+    "example": "The report includes a caveat about the sample size.",
+    "translation": "报告包含关于样本大小的限制说明。",
+    "tag": "C1 · phrase",
+    "related": "a caveat about evidence",
+    "pos": "phrase",
+    "senses": [
+      "关于某事的限制说明"
+    ],
+    "collocations": [
+      "a caveat about evidence"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-73c6a783dd85",
+    "word": "qualification",
+    "pronunciation": "/ˌkwɒlɪfɪˈkeɪʃən/",
+    "meaning": "限定说明；资格",
+    "example": "The claim needs an important qualification.",
+    "translation": "这一主张需要一条重要的限定说明。",
+    "tag": "C1 · noun",
+    "related": "an important qualification",
+    "pos": "noun",
+    "senses": [
+      "限定说明",
+      "资格"
+    ],
+    "collocations": [
+      "an important qualification"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-7c3e230b4ee9",
+    "word": "interpretive",
+    "pronunciation": "/ɪnˈtɜːprɪtɪv/",
+    "meaning": "阐释性的",
+    "example": "The caption makes an interpretive choice about the photograph.",
+    "translation": "图注对照片作出了一种阐释选择。",
+    "tag": "C1 · adjective",
+    "related": "an interpretive choice",
+    "pos": "adjective",
+    "senses": [
+      "阐释性的"
+    ],
+    "collocations": [
+      "an interpretive choice"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-a7b0e326c1ca",
+    "word": "underrepresentation",
+    "pronunciation": "/ˌʌndəreprɪzenˈteɪʃən/",
+    "meaning": "代表不足；呈现不足",
+    "example": "The exhibition addresses the underrepresentation of local workers.",
+    "translation": "展览关注本地工人在叙述中呈现不足的问题。",
+    "tag": "C1 · noun",
+    "related": "address underrepresentation",
+    "pos": "noun",
+    "senses": [
+      "代表不足",
+      "呈现不足"
+    ],
+    "collocations": [
+      "address underrepresentation"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-4bf5f46e83ec",
+    "word": "plausibility",
+    "pronunciation": "/ˌplɔːzəˈbɪləti/",
+    "meaning": "可信性；合理性",
+    "example": "Plausibility alone is not evidence that the explanation is correct.",
+    "translation": "仅仅听起来合理，并不是解释正确的证据。",
+    "tag": "C1 · noun",
+    "related": "assess plausibility",
+    "pos": "noun",
+    "senses": [
+      "可信性",
+      "合理性"
+    ],
+    "collocations": [
+      "assess plausibility"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "low",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  }
+]

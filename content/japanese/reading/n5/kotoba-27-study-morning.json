@@ -1,0 +1,126 @@
+{
+  "id": "article-ja-n5-study-morning",
+  "kind": "reading",
+  "language": "ja",
+  "level": "N5",
+  "difficulty": 1,
+  "tags": [
+    "study",
+    "daily-life",
+    "verb-foundations"
+  ],
+  "title": "朝の図書館で",
+  "topic": "日常学习 · 现在、过去与否定",
+  "genre": "story",
+  "estimatedMinutes": 3,
+  "paragraphs": [
+    "朝、私は図書館へ行きます。友達は窓の近くで本を読んでいます。私は隣の椅子に座ります。今日は新しい本を読みたいです。友達は「昨日、この本を読んだ」と言います。",
+    "私は机の上に本とノートを置きます。今日は長い本は読まない。短い話を一つ読みます。分からない言葉はノートに書きます。友達と少し話してから、家へ帰ります。"
+  ],
+  "translation": [
+    "早上，我去图书馆。朋友正在窗边读书。我坐在旁边的椅子上。今天我想读一本新书。朋友说：“昨天我读了这本书。”",
+    "我把书和笔记本放在桌上。今天不读长篇的书。我读一个短故事。不懂的词写在笔记本里。我和朋友聊了一会儿，然后回家。"
+  ],
+  "vocabulary": [
+    "course-ja-n5-9",
+    "course-ja-n5-1",
+    "course-ja-n5-3",
+    "course-ja-n5-7",
+    "supp-ja-n5-1",
+    "supp-ja-n5-4",
+    "supp-ja-n5-11",
+    "supp-ja-n5-14",
+    "context-ja-n5-61c4363ce176",
+    "context-ja-n5-10409d9c1d52",
+    "context-ja-n5-2325c519ff62",
+    "context-ja-n5-9f6466f3ba25"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-ja-n5-te-iru",
+      "surface": "読んでいます"
+    },
+    {
+      "id": "grammar-ja-n5-plain-form",
+      "surface": "読んだ"
+    },
+    {
+      "id": "grammar-ja-n5-nai-form",
+      "surface": "読まない"
+    },
+    {
+      "id": "grammar-ja-n5-masu-stem",
+      "surface": "読みたい"
+    },
+    {
+      "id": "grammar-ja-n5-tai-wish",
+      "surface": "読みたいです"
+    }
+  ],
+  "questions": [
+    {
+      "id": "study-morning-place",
+      "type": "detail",
+      "prompt": "两个人在哪里读书？",
+      "options": [
+        "学校的教室",
+        "图书馆",
+        "朋友家"
+      ],
+      "answer": 1,
+      "explanation": "开头说「図書館へ行きます」，接着描述朋友在窗边读书，地点是图书馆。"
+    },
+    {
+      "id": "study-morning-action",
+      "type": "grammar",
+      "prompt": "「友達は…本を読んでいます」在这里表示什么？",
+      "options": [
+        "朋友已经停止读书",
+        "朋友打算明天读书",
+        "朋友此时正在读书"
+      ],
+      "answer": 2,
+      "explanation": "这里描述作者到达时看到的动作，「読んでいます」是正在进行的阅读，并非所有ている都只表示进行。"
+    },
+    {
+      "id": "study-morning-past",
+      "type": "detail",
+      "prompt": "朋友什么时候读过这本书？",
+      "options": [
+        "昨天",
+        "今天早上",
+        "明天"
+      ],
+      "answer": 0,
+      "explanation": "直接依据「昨日、この本を読んだ」。読んだ是読む的普通形过去式。"
+    },
+    {
+      "id": "study-morning-choice",
+      "type": "detail",
+      "prompt": "作者今天决定读什么？",
+      "options": [
+        "长篇的书",
+        "一个短故事",
+        "菜单"
+      ],
+      "answer": 1,
+      "explanation": "「長い本は読まない」否定长篇，后句「短い話を一つ読みます」明确选择一个短故事。"
+    },
+    {
+      "id": "study-morning-note",
+      "type": "main-idea",
+      "prompt": "哪项最符合作者的学习方式？",
+      "options": [
+        "把不懂的词略过",
+        "只和朋友聊天",
+        "读短篇，并记下不懂的词"
+      ],
+      "answer": 2,
+      "explanation": "作者读一个短故事，随后说「分からない言葉はノートに書きます」，聊天发生在阅读之后。"
+    }
+  ],
+  "notes": [
+    "「読んだ」「読まない」是普通体；短文中的自言自语使用普通体，其余叙述主要用礼貌体。",
+    "「読みたい」中的読み是ます词干；这里借愿望表达观察接续，不把整个词当作独立词汇。"
+  ]
+}

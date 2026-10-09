@@ -25,7 +25,7 @@ test('reading words, sentences, grammar and wrong answers enter the existing SRS
  let s=collected();const mistake=createMistake('ja','reading','Permission',"I chose the wrong meaning",'Ask for permission',article.title);s=collectReadingMistake(s,mistake,{...source,prompt:article.questions[1].prompt});
  const ids=collectedCardIds(s,article.id),queue=reviewQueue(s);assert.equal(ids.length,4);
  for(const id of ids){assert.ok(queue.some(c=>c.id===id),id);assert.equal(readingSources(s,id)[0].articleId,article.id);assert.equal(readingSources(s,id)[0].sentence,source.sentence)}
- assert.equal(s.dictionary[word.id].source,'Reading: '+article.title);assert.deepEqual(s.sentences[0].grammar,[grammar.id]);assert.equal(s.sentences[0].vocabulary.length,3);
+ assert.equal(s.dictionary[word.id].source,'Reading: '+article.title);assert.deepEqual(s.sentences[0].grammar,[grammar.id]);assert.deepEqual(s.sentences[0].vocabulary,article.vocabulary);
  assert.equal(readingSources(s,'sentence-mistake-'+mistake.id)[0].prompt,article.questions[1].prompt);
 });
 test('repeated collection preserves stable card IDs, due dates, first encounter and my notes; another article adds a second source',()=>{

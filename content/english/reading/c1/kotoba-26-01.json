@@ -35,7 +35,11 @@
       "supp-en-a1-16",
       "lex-en-a1-work",
       "lex-en-a1-meet",
-      "complete-en-a1-city"
+      "complete-en-a1-city",
+      "course-en-c1-11",
+      "context-en-c1-9dc6ac1246a1",
+      "context-en-c1-6a581e4754c7",
+      "context-en-c1-13b3e96088ec"
     ],
     "grammar": [
       {
@@ -154,7 +158,8 @@
       "supp-en-a1-11",
       "supp-en-a1-13",
       "lex-en-a1-person",
-      "lex-en-a1-work"
+      "lex-en-a1-work",
+      "context-en-c1-9dc6ac1246a1"
     ],
     "grammar": [
       {
@@ -275,7 +280,10 @@
       "supp-en-a1-9",
       "supp-en-a1-11",
       "lex-en-a1-time",
-      "lex-en-a1-person"
+      "lex-en-a1-person",
+      "course-en-c1-3",
+      "supp-en-c1-9",
+      "context-en-c1-12aa04940a1c"
     ],
     "grammar": [
       {
@@ -386,7 +394,12 @@
       "supp-en-a1-11",
       "supp-en-a1-13",
       "complete-en-a1-like",
-      "complete-en-a1-good"
+      "complete-en-a1-good",
+      "supp-en-c1-6",
+      "context-en-c1-b8d20ed1b95d",
+      "context-en-c1-3e86cf0a480b",
+      "context-en-c1-4b9d4f416f75",
+      "context-en-c1-5542bd5c5ec9"
     ],
     "grammar": [
       {

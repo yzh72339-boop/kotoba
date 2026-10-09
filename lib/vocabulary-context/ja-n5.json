@@ -1,0 +1,466 @@
+[
+  {
+    "id": "context-ja-n5-e7a1013567c7",
+    "word": "雨",
+    "pronunciation": "あめ",
+    "meaning": "雨",
+    "example": "今日は雨です。",
+    "translation": "今天下雨。",
+    "tag": "JLPT N5 · noun",
+    "related": "雨が降る",
+    "pos": "noun",
+    "senses": [
+      "雨"
+    ],
+    "collocations": [
+      "雨が降る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-61c4363ce176",
+    "word": "図書館",
+    "pronunciation": "としょかん",
+    "meaning": "图书馆",
+    "example": "図書館で本を読みます。",
+    "translation": "我在图书馆读书。",
+    "tag": "JLPT N5 · noun",
+    "related": "図書館へ行く",
+    "pos": "noun",
+    "senses": [
+      "图书馆"
+    ],
+    "collocations": [
+      "図書館へ行く"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-3e3b44b2d12c",
+    "word": "パン",
+    "pronunciation": "ぱん",
+    "meaning": "面包",
+    "example": "母はパンを三つ買います。",
+    "translation": "妈妈买三个面包。",
+    "tag": "JLPT N5 · noun",
+    "related": "パンを買う",
+    "pos": "noun",
+    "senses": [
+      "面包"
+    ],
+    "collocations": [
+      "パンを買う"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-d758e6593cea",
+    "word": "自転車",
+    "pronunciation": "じてんしゃ",
+    "meaning": "自行车",
+    "example": "店の前に自転車があります。",
+    "translation": "店前有一辆自行车。",
+    "tag": "JLPT N5 · noun",
+    "related": "自転車に乗る",
+    "pos": "noun",
+    "senses": [
+      "自行车"
+    ],
+    "collocations": [
+      "自転車に乗る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-cd3d6a6a50a7",
+    "word": "授業",
+    "pronunciation": "じゅぎょう",
+    "meaning": "课；课堂教学",
+    "example": "今日の授業は三時に終わります。",
+    "translation": "今天的课三点结束。",
+    "tag": "JLPT N5 · noun",
+    "related": "授業が終わる",
+    "pos": "noun",
+    "senses": [
+      "课",
+      "课堂教学"
+    ],
+    "collocations": [
+      "授業が終わる"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-81a5dcbd0f61",
+    "word": "公園",
+    "pronunciation": "こうえん",
+    "meaning": "公园",
+    "example": "友達と公園へ行きます。",
+    "translation": "我和朋友去公园。",
+    "tag": "JLPT N5 · noun",
+    "related": "公園で遊ぶ",
+    "pos": "noun",
+    "senses": [
+      "公园"
+    ],
+    "collocations": [
+      "公園で遊ぶ"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-c0c06d072788",
+    "word": "鍵",
+    "pronunciation": "かぎ",
+    "meaning": "钥匙",
+    "example": "箱の中に鍵があります。",
+    "translation": "盒子里有钥匙。",
+    "tag": "JLPT N5 · noun",
+    "related": "鍵を探す",
+    "pos": "noun",
+    "senses": [
+      "钥匙"
+    ],
+    "collocations": [
+      "鍵を探す"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-a1b31685cfd3",
+    "word": "かばん",
+    "pronunciation": "かばん",
+    "meaning": "包；书包",
+    "example": "かばんの中に本があります。",
+    "translation": "包里有书。",
+    "tag": "JLPT N5 · noun",
+    "related": "かばんに入れる",
+    "pos": "noun",
+    "senses": [
+      "包",
+      "书包"
+    ],
+    "collocations": [
+      "かばんに入れる"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-10409d9c1d52",
+    "word": "机",
+    "pronunciation": "つくえ",
+    "meaning": "桌子；书桌",
+    "example": "机の上に水があります。",
+    "translation": "桌子上有水。",
+    "tag": "JLPT N5 · noun",
+    "related": "机の上",
+    "pos": "noun",
+    "senses": [
+      "桌子",
+      "书桌"
+    ],
+    "collocations": [
+      "机の上"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-dc43cfece374",
+    "word": "箱",
+    "pronunciation": "はこ",
+    "meaning": "盒子；箱子",
+    "example": "これは小さい箱です。",
+    "translation": "这是一个小盒子。",
+    "tag": "JLPT N5 · noun",
+    "related": "箱の中",
+    "pos": "noun",
+    "senses": [
+      "盒子",
+      "箱子"
+    ],
+    "collocations": [
+      "箱の中"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-41d9658235ab",
+    "word": "日曜日",
+    "pronunciation": "にちようび",
+    "meaning": "星期日",
+    "example": "日曜日に友達と会います。",
+    "translation": "星期日我和朋友见面。",
+    "tag": "JLPT N5 · noun",
+    "related": "日曜日の朝",
+    "pos": "noun",
+    "senses": [
+      "星期日"
+    ],
+    "collocations": [
+      "日曜日の朝"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-2325c519ff62",
+    "word": "椅子",
+    "pronunciation": "いす",
+    "meaning": "椅子",
+    "example": "この椅子に座ってください。",
+    "translation": "请坐这把椅子。",
+    "tag": "JLPT N5 · noun",
+    "related": "椅子に座る",
+    "pos": "noun",
+    "senses": [
+      "椅子"
+    ],
+    "collocations": [
+      "椅子に座る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-c32591eb7e89",
+    "word": "傘",
+    "pronunciation": "かさ",
+    "meaning": "伞",
+    "example": "今日は傘を持っていきます。",
+    "translation": "今天我要带伞去。",
+    "tag": "JLPT N5 · noun",
+    "related": "傘を持つ",
+    "pos": "noun",
+    "senses": [
+      "伞"
+    ],
+    "collocations": [
+      "傘を持つ"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-ebf8957582ee",
+    "word": "猫",
+    "pronunciation": "ねこ",
+    "meaning": "猫",
+    "example": "家に小さい猫がいます。",
+    "translation": "家里有一只小猫。",
+    "tag": "JLPT N5 · noun",
+    "related": "猫がいる",
+    "pos": "noun",
+    "senses": [
+      "猫"
+    ],
+    "collocations": [
+      "猫がいる"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-53b8cd6e00a0",
+    "word": "犬",
+    "pronunciation": "いぬ",
+    "meaning": "狗",
+    "example": "犬と公園を歩きます。",
+    "translation": "我和狗在公园散步。",
+    "tag": "JLPT N5 · noun",
+    "related": "犬と歩く",
+    "pos": "noun",
+    "senses": [
+      "狗"
+    ],
+    "collocations": [
+      "犬と歩く"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-e09d3a236575",
+    "word": "部屋",
+    "pronunciation": "へや",
+    "meaning": "房间",
+    "example": "私の部屋は小さいです。",
+    "translation": "我的房间很小。",
+    "tag": "JLPT N5 · noun",
+    "related": "部屋に入る",
+    "pos": "noun",
+    "senses": [
+      "房间"
+    ],
+    "collocations": [
+      "部屋に入る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-9f6466f3ba25",
+    "word": "窓",
+    "pronunciation": "まど",
+    "meaning": "窗户",
+    "example": "朝、窓を開けます。",
+    "translation": "早上我打开窗户。",
+    "tag": "JLPT N5 · noun",
+    "related": "窓を開ける",
+    "pos": "noun",
+    "senses": [
+      "窗户"
+    ],
+    "collocations": [
+      "窓を開ける"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-db403f84538d",
+    "word": "花",
+    "pronunciation": "はな",
+    "meaning": "花",
+    "example": "公園に白い花があります。",
+    "translation": "公园里有白色的花。",
+    "tag": "JLPT N5 · noun",
+    "related": "花を見る",
+    "pos": "noun",
+    "senses": [
+      "花"
+    ],
+    "collocations": [
+      "花を見る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-37a9835328e3",
+    "word": "赤い",
+    "pronunciation": "あかい",
+    "meaning": "红色的",
+    "example": "赤いかばんを買いました。",
+    "translation": "我买了一个红色的包。",
+    "tag": "JLPT N5 · adjective",
+    "related": "赤い花",
+    "pos": "adjective",
+    "senses": [
+      "红色的"
+    ],
+    "collocations": [
+      "赤い花"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-c38fb7690b8b",
+    "word": "青い",
+    "pronunciation": "あおい",
+    "meaning": "蓝色的",
+    "example": "今日は空が青いです。",
+    "translation": "今天的天空是蓝色的。",
+    "tag": "JLPT N5 · adjective",
+    "related": "青い空",
+    "pos": "adjective",
+    "senses": [
+      "蓝色的"
+    ],
+    "collocations": [
+      "青い空"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  }
+]

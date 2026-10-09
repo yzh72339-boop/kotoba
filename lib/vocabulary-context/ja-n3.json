@@ -1,0 +1,472 @@
+[
+  {
+    "id": "context-ja-n3-921aee81fdfc",
+    "word": "弁当",
+    "pronunciation": "べんとう",
+    "meaning": "盒饭；便当",
+    "example": "帰りに店で弁当を買いました。",
+    "translation": "我在回家途中买了便当。",
+    "tag": "JLPT N3 · noun",
+    "related": "弁当を作る",
+    "pos": "noun",
+    "senses": [
+      "盒饭",
+      "便当"
+    ],
+    "collocations": [
+      "弁当を作る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-8767e0fcaa01",
+    "word": "夕食",
+    "pronunciation": "ゆうしょく",
+    "meaning": "晚饭",
+    "example": "みんなで夕食を作ることにしました。",
+    "translation": "我们决定一起做晚饭。",
+    "tag": "JLPT N3 · noun",
+    "related": "夕食を作る",
+    "pos": "noun",
+    "senses": [
+      "晚饭"
+    ],
+    "collocations": [
+      "夕食を作る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-8b49277561d6",
+    "word": "共同",
+    "pronunciation": "きょうどう",
+    "meaning": "共同；合作",
+    "example": "共同で使う場所はきれいにしましょう。",
+    "translation": "共同使用的地方要保持干净。",
+    "tag": "JLPT N3 · noun",
+    "related": "共同で使う",
+    "pos": "noun",
+    "senses": [
+      "共同",
+      "合作"
+    ],
+    "collocations": [
+      "共同で使う"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-878ca289cde3",
+    "word": "紹介",
+    "pronunciation": "しょうかい",
+    "meaning": "介绍",
+    "example": "友達の紹介で教室を知りました。",
+    "translation": "我通过朋友的介绍得知了这个学习班。",
+    "tag": "JLPT N3 · noun",
+    "related": "紹介してもらう",
+    "pos": "noun",
+    "senses": [
+      "介绍"
+    ],
+    "collocations": [
+      "紹介してもらう"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-7f4874ef9c23",
+    "word": "参加",
+    "pronunciation": "さんか",
+    "meaning": "参加",
+    "example": "町の修理の会に参加しました。",
+    "translation": "我参加了镇上的维修活动。",
+    "tag": "JLPT N3 · noun",
+    "related": "会に参加する",
+    "pos": "noun",
+    "senses": [
+      "参加"
+    ],
+    "collocations": [
+      "会に参加する"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-01f77e1f6d65",
+    "word": "持ち主",
+    "pronunciation": "もちぬし",
+    "meaning": "所有者；物主",
+    "example": "この時計の持ち主を探しています。",
+    "translation": "我们正在寻找这块表的主人。",
+    "tag": "JLPT N3 · noun",
+    "related": "持ち主に返す",
+    "pos": "noun",
+    "senses": [
+      "所有者",
+      "物主"
+    ],
+    "collocations": [
+      "持ち主に返す"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-6a4d38a5a394",
+    "word": "作業",
+    "pronunciation": "さぎょう",
+    "meaning": "作业；操作",
+    "example": "修理の作業は一緒に行います。",
+    "translation": "维修操作要一起进行。",
+    "tag": "JLPT N3 · noun",
+    "related": "作業を進める",
+    "pos": "noun",
+    "senses": [
+      "作业",
+      "操作"
+    ],
+    "collocations": [
+      "作業を進める"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-33174dbd1d09",
+    "word": "動画",
+    "pronunciation": "どうが",
+    "meaning": "视频",
+    "example": "電車の中で動画を見ていました。",
+    "translation": "我曾在电车里看视频。",
+    "tag": "JLPT N3 · noun",
+    "related": "動画を見る",
+    "pos": "noun",
+    "senses": [
+      "视频"
+    ],
+    "collocations": [
+      "動画を見る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-fb57032f2466",
+    "word": "画面",
+    "pronunciation": "がめん",
+    "meaning": "画面；屏幕",
+    "example": "画面を見る時間を減らしました。",
+    "translation": "我减少了看屏幕的时间。",
+    "tag": "JLPT N3 · noun",
+    "related": "画面を見る",
+    "pos": "noun",
+    "senses": [
+      "画面",
+      "屏幕"
+    ],
+    "collocations": [
+      "画面を見る"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-8a73c41eb720",
+    "word": "部署",
+    "pronunciation": "ぶしょ",
+    "meaning": "部门",
+    "example": "来月から別の部署で働きます。",
+    "translation": "我下个月起将在另一个部门工作。",
+    "tag": "JLPT N3 · noun",
+    "related": "部署が変わる",
+    "pos": "noun",
+    "senses": [
+      "部门"
+    ],
+    "collocations": [
+      "部署が変わる"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-8c4c988f1257",
+    "word": "異動",
+    "pronunciation": "いどう",
+    "meaning": "岗位调动",
+    "example": "異動が決まり、新しい仕事を覚えています。",
+    "translation": "岗位调动已定，我正在学习新工作。",
+    "tag": "JLPT N3 · noun",
+    "related": "異動が決まる",
+    "pos": "noun",
+    "senses": [
+      "岗位调动"
+    ],
+    "collocations": [
+      "異動が決まる"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-19caeb42418b",
+    "word": "道具",
+    "pronunciation": "どうぐ",
+    "meaning": "工具；器具",
+    "example": "使った道具は元の場所に戻します。",
+    "translation": "用过的工具要放回原处。",
+    "tag": "JLPT N3 · noun",
+    "related": "道具を使う",
+    "pos": "noun",
+    "senses": [
+      "工具",
+      "器具"
+    ],
+    "collocations": [
+      "道具を使う"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-1e0590afa955",
+    "word": "細かい",
+    "pronunciation": "こまかい",
+    "meaning": "细小的；详细的",
+    "example": "細かい予定を立てすぎました。",
+    "translation": "我把计划定得过于细致了。",
+    "tag": "JLPT N3 · adjective",
+    "related": "細かい説明",
+    "pos": "adjective",
+    "senses": [
+      "细小的",
+      "详细的"
+    ],
+    "collocations": [
+      "細かい説明"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-aaf0f54bae67",
+    "word": "結局",
+    "pronunciation": "けっきょく",
+    "meaning": "最终；结果",
+    "example": "結局、今日は十分だけ勉強しました。",
+    "translation": "结果，我今天只学了十分钟。",
+    "tag": "JLPT N3 · adverb",
+    "related": "結局どうなった",
+    "pos": "adverb",
+    "senses": [
+      "最终",
+      "结果"
+    ],
+    "collocations": [
+      "結局どうなった"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-5a0c16a6d30f",
+    "word": "疲れる",
+    "pronunciation": "つかれる",
+    "meaning": "疲惫",
+    "example": "仕事で疲れると、本を開くのも大変です。",
+    "translation": "工作累了，连打开书也很费劲。",
+    "tag": "JLPT N3 · verb",
+    "related": "疲れている",
+    "pos": "verb",
+    "senses": [
+      "疲惫"
+    ],
+    "collocations": [
+      "疲れている"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-d68e3d560deb",
+    "word": "慣れる",
+    "pronunciation": "なれる",
+    "meaning": "习惯；适应",
+    "example": "新しい仕事に少しずつ慣れてきました。",
+    "translation": "我渐渐适应了新工作。",
+    "tag": "JLPT N3 · verb",
+    "related": "生活に慣れる",
+    "pos": "verb",
+    "senses": [
+      "习惯",
+      "适应"
+    ],
+    "collocations": [
+      "生活に慣れる"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-ae8219443f4e",
+    "word": "断定",
+    "pronunciation": "だんてい",
+    "meaning": "断定",
+    "example": "一つの結果だけで断定してはいけません。",
+    "translation": "不能只凭一个结果就下定论。",
+    "tag": "JLPT N3 · noun",
+    "related": "断定を避ける",
+    "pos": "noun",
+    "senses": [
+      "断定"
+    ],
+    "collocations": [
+      "断定を避ける"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-983ef7fab5de",
+    "word": "見落とす",
+    "pronunciation": "みおとす",
+    "meaning": "看漏；忽略",
+    "example": "小さい注意書きを見落としました。",
+    "translation": "我看漏了小字的注意事项。",
+    "tag": "JLPT N3 · verb",
+    "related": "間違いを見落とす",
+    "pos": "verb",
+    "senses": [
+      "看漏",
+      "忽略"
+    ],
+    "collocations": [
+      "間違いを見落とす"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-dc406d016288",
+    "word": "引っ越し",
+    "pronunciation": "ひっこし",
+    "meaning": "搬家",
+    "example": "引っ越しの前に荷物を整理します。",
+    "translation": "搬家前要整理行李。",
+    "tag": "JLPT N3 · noun",
+    "related": "引っ越しをする",
+    "pos": "noun",
+    "senses": [
+      "搬家"
+    ],
+    "collocations": [
+      "引っ越しをする"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-60e68a507052",
+    "word": "自信",
+    "pronunciation": "じしん",
+    "meaning": "自信",
+    "example": "少しずつ読めるようになり、自信がつきました。",
+    "translation": "我逐渐能读懂了，也有了自信。",
+    "tag": "JLPT N3 · noun",
+    "related": "自信がつく",
+    "pos": "noun",
+    "senses": [
+      "自信"
+    ],
+    "collocations": [
+      "自信がつく"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  }
+]

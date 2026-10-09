@@ -39,7 +39,11 @@
       "lex-ja-n4-kimeru",
       "lex-ja-n3-kuraberu",
       "supp-ja-n5-6",
-      "supp-ja-n5-14"
+      "supp-ja-n5-14",
+      "context-ja-n2-f98f97d74f5f",
+      "context-ja-n2-f6a364714322",
+      "context-ja-n2-8bd383a4790e",
+      "context-ja-n2-7a01929cee75"
     ],
     "grammar": [
       {
@@ -161,7 +165,9 @@
       "course-ja-n4-12",
       "supp-ja-n4-4",
       "course-ja-n3-8",
-      "ja-tashika"
+      "ja-tashika",
+      "context-ja-n2-2e631b55c8d8",
+      "context-ja-n2-db1aab7e5905"
     ],
     "grammar": [
       {
@@ -291,7 +297,9 @@
       "lex-ja-n5-shigoto",
       "lex-ja-n5-yomu",
       "lex-ja-n5-kaku",
-      "course-ja-n4-1"
+      "course-ja-n4-1",
+      "context-ja-n2-cd9669835764",
+      "context-ja-n2-3865cc199fc6"
     ],
     "grammar": [
       {
@@ -417,7 +425,11 @@
       "supp-ja-n5-12",
       "course-ja-n4-2",
       "course-ja-n4-12",
-      "supp-ja-n4-4"
+      "supp-ja-n4-4",
+      "context-ja-n2-480d790cda56",
+      "context-ja-n2-534efdf2c381",
+      "context-ja-n2-a880761308ee",
+      "context-ja-n2-ea5bd9868466"
     ],
     "grammar": [
       {

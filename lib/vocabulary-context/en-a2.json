@@ -1,0 +1,469 @@
+[
+  {
+    "id": "context-en-a2-18b0146f89bd",
+    "word": "bicycle",
+    "pronunciation": "/ˈbaɪsɪkəl/",
+    "meaning": "自行车",
+    "example": "I took my bicycle to the repair shop.",
+    "translation": "我把自行车送到了维修店。",
+    "tag": "A2 · noun",
+    "related": "ride a bicycle",
+    "pos": "noun",
+    "senses": [
+      "自行车"
+    ],
+    "collocations": [
+      "ride a bicycle"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-c1a40fd33b1f",
+    "word": "wheel",
+    "pronunciation": "/wiːl/",
+    "meaning": "轮子",
+    "example": "The back wheel made a strange sound.",
+    "translation": "后轮发出了奇怪的声音。",
+    "tag": "A2 · noun",
+    "related": "a bicycle wheel",
+    "pos": "noun",
+    "senses": [
+      "轮子"
+    ],
+    "collocations": [
+      "a bicycle wheel"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-0bc00c5c4875",
+    "word": "sound",
+    "pronunciation": "/saʊnd/",
+    "meaning": "声音",
+    "example": "I heard a strange sound near the door.",
+    "translation": "我在门附近听到了奇怪的声音。",
+    "tag": "A2 · noun",
+    "related": "a strange sound",
+    "pos": "noun",
+    "senses": [
+      "声音"
+    ],
+    "collocations": [
+      "a strange sound"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-7ee589231406",
+    "word": "disappointed",
+    "pronunciation": "/ˌdɪsəˈpɔɪntɪd/",
+    "meaning": "失望的",
+    "example": "I was disappointed because I could not ride home.",
+    "translation": "因为不能骑车回家，我很失望。",
+    "tag": "A2 · adjective",
+    "related": "feel disappointed",
+    "pos": "adjective",
+    "senses": [
+      "失望的"
+    ],
+    "collocations": [
+      "feel disappointed"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-6244a0cdf6d4",
+    "word": "garden",
+    "pronunciation": "/ˈɡɑːdən/",
+    "meaning": "花园；园地",
+    "example": "Our school garden needs water.",
+    "translation": "我们学校的园地需要浇水。",
+    "tag": "A2 · noun",
+    "related": "a school garden",
+    "pos": "noun",
+    "senses": [
+      "花园",
+      "园地"
+    ],
+    "collocations": [
+      "a school garden"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-de0bf51602dc",
+    "word": "carry",
+    "pronunciation": "/ˈkæri/",
+    "meaning": "搬；携带",
+    "example": "We carry water to the garden.",
+    "translation": "我们把水搬到园地。",
+    "tag": "A2 · verb",
+    "related": "carry a bag",
+    "pos": "verb",
+    "senses": [
+      "搬",
+      "携带"
+    ],
+    "collocations": [
+      "carry a bag"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-7dd77c696675",
+    "word": "photo",
+    "pronunciation": "/ˈfəʊtəʊ/",
+    "meaning": "照片",
+    "example": "We chose a photo for the school website.",
+    "translation": "我们为学校网站选了一张照片。",
+    "tag": "A2 · noun",
+    "related": "take a photo",
+    "pos": "noun",
+    "senses": [
+      "照片"
+    ],
+    "collocations": [
+      "take a photo"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-b5596e43e9d5",
+    "word": "website",
+    "pronunciation": "/ˈwebsaɪt/",
+    "meaning": "网站",
+    "example": "The photo is on our school website.",
+    "translation": "照片在我们学校的网站上。",
+    "tag": "A2 · noun",
+    "related": "a school website",
+    "pos": "noun",
+    "senses": [
+      "网站"
+    ],
+    "collocations": [
+      "a school website"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-28b29574e693",
+    "word": "smile",
+    "pronunciation": "/smaɪl/",
+    "meaning": "微笑",
+    "example": "Please smile for the photo.",
+    "translation": "拍照时请微笑。",
+    "tag": "A2 · verb",
+    "related": "smile at someone",
+    "pos": "verb",
+    "senses": [
+      "微笑"
+    ],
+    "collocations": [
+      "smile at someone"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-3392d281d1a2",
+    "word": "light",
+    "pronunciation": "/laɪt/",
+    "meaning": "光；光线",
+    "example": "The light is better near the window.",
+    "translation": "窗边的光线更好。",
+    "tag": "A2 · noun",
+    "related": "natural light",
+    "pos": "noun",
+    "senses": [
+      "光",
+      "光线"
+    ],
+    "collocations": [
+      "natural light"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-899af0678ed4",
+    "word": "timetable",
+    "pronunciation": "/ˈtaɪmˌteɪbəl/",
+    "meaning": "时刻表；课程表",
+    "example": "The letters on the timetable are small.",
+    "translation": "时刻表上的字很小。",
+    "tag": "A2 · noun",
+    "related": "a bus timetable",
+    "pos": "noun",
+    "senses": [
+      "时刻表",
+      "课程表"
+    ],
+    "collocations": [
+      "a bus timetable"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-c9d18f62dc31",
+    "word": "easily",
+    "pronunciation": "/ˈiːzɪli/",
+    "meaning": "容易地",
+    "example": "I can read the new sign easily.",
+    "translation": "我能轻松读懂新的指示牌。",
+    "tag": "A2 · adverb",
+    "related": "read easily",
+    "pos": "adverb",
+    "senses": [
+      "容易地"
+    ],
+    "collocations": [
+      "read easily"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-6162ff073e3e",
+    "word": "notice",
+    "pronunciation": "/ˈnəʊtɪs/",
+    "meaning": "通知；告示",
+    "example": "There was a notice on the library door.",
+    "translation": "图书馆门上有一张告示。",
+    "tag": "A2 · noun",
+    "related": "read a notice",
+    "pos": "noun",
+    "senses": [
+      "通知",
+      "告示"
+    ],
+    "collocations": [
+      "read a notice"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-8a7e920bdd0d",
+    "word": "pipe",
+    "pronunciation": "/paɪp/",
+    "meaning": "管道",
+    "example": "A pipe in the library needed repairs.",
+    "translation": "图书馆里的一根管道需要维修。",
+    "tag": "A2 · noun",
+    "related": "a water pipe",
+    "pos": "noun",
+    "senses": [
+      "管道"
+    ],
+    "collocations": [
+      "a water pipe"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-0adf28081e9e",
+    "word": "strange",
+    "pronunciation": "/streɪndʒ/",
+    "meaning": "奇怪的",
+    "example": "The bicycle made a strange noise.",
+    "translation": "自行车发出了奇怪的噪声。",
+    "tag": "A2 · adjective",
+    "related": "a strange noise",
+    "pos": "adjective",
+    "senses": [
+      "奇怪的"
+    ],
+    "collocations": [
+      "a strange noise"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-b534bce614c1",
+    "word": "fix",
+    "pronunciation": "/fɪks/",
+    "meaning": "修理；固定",
+    "example": "Can you fix my bicycle?",
+    "translation": "你能修我的自行车吗？",
+    "tag": "A2 · verb",
+    "related": "fix a bicycle",
+    "pos": "verb",
+    "senses": [
+      "修理",
+      "固定"
+    ],
+    "collocations": [
+      "fix a bicycle"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-72bc227235eb",
+    "word": "agree",
+    "pronunciation": "/əˈɡriː/",
+    "meaning": "同意",
+    "example": "Our teacher agreed with the plan.",
+    "translation": "我们的老师同意了这个计划。",
+    "tag": "A2 · verb",
+    "related": "agree with someone",
+    "pos": "verb",
+    "senses": [
+      "同意"
+    ],
+    "collocations": [
+      "agree with someone"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-1d7d727c4b54",
+    "word": "project",
+    "pronunciation": "/ˈprɒdʒekt/",
+    "meaning": "项目；课题",
+    "example": "We worked on a science project.",
+    "translation": "我们做了一个科学课题。",
+    "tag": "A2 · noun",
+    "related": "a school project",
+    "pos": "noun",
+    "senses": [
+      "项目",
+      "课题"
+    ],
+    "collocations": [
+      "a school project"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-b1adb6a309f4",
+    "word": "window",
+    "pronunciation": "/ˈwɪndəʊ/",
+    "meaning": "窗户",
+    "example": "The room has a large window.",
+    "translation": "这个房间有一扇大窗户。",
+    "tag": "A2 · noun",
+    "related": "open a window",
+    "pos": "noun",
+    "senses": [
+      "窗户"
+    ],
+    "collocations": [
+      "open a window"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-d5fdd700e3d2",
+    "word": "plant",
+    "pronunciation": "/plɑːnt/",
+    "meaning": "植物",
+    "example": "The plants need more water.",
+    "translation": "这些植物需要更多水。",
+    "tag": "A2 · noun",
+    "related": "water a plant",
+    "pos": "noun",
+    "senses": [
+      "植物"
+    ],
+    "collocations": [
+      "water a plant"
+    ],
+    "topics": [
+      "contextual-learning"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 original context vocabulary"
+  }
+]

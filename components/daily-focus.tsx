@@ -1,25 +1,29 @@
 'use client';
-import type {ReactNode} from 'react';
+import {useEffect,useState,type ReactNode} from 'react';
 import {ArrowRight,Clock,LoaderCircle} from 'lucide-react';
 import {useStudy} from './study-context';
 import {Button} from './ui/button';
 import {coursePlan,scopedSession,storedCoursePlan} from '@/lib/content-library/daily-course-plan';
 import type {ContentEntry} from '@/lib/content-library/schema';
-import {minutesToday} from '@/lib/store';
+import {fetchDocument} from '@/lib/content-library/client';
+import type {LearningDocument} from '@/lib/content-library/schema';
+import {todayCourseProgress} from '@/lib/content-library/today-progress';
+import {CourseHero} from './course-hero';
 
 export function DailyFocus({catalog,children}:{catalog:ContentEntry[];children:ReactNode}){
  const {state,startDailySession,startingSession}=useStudy();
- const session=scopedSession(state),plan=storedCoursePlan(state,session)??(catalog.length?coursePlan(state,catalog):null);
+ const session=scopedSession(state),finished=todayCourseProgress(state).session,plan=storedCoursePlan(state,session??finished)??(catalog.length?coursePlan(state,catalog):null);
+ const nextPlan=!session&&finished?.done&&catalog.length?coursePlan(state,catalog):null;
  const task=session?.step===2?plan?.reading:plan?.grammar;
- return <section className="mobile-daily-focus expressive-focus" aria-labelledby="daily-focus-title">
-  <div className="focus-ambient" aria-hidden="true"><span/><span/></div>
-  <div className="focus-masthead"><span className="eyebrow">TODAY / 今日学习</span><span className="focus-level">{state.profile.language==='ja'?'日本語':'English'} · {state.profile.level}</span></div>
-  <p className="focus-intention">{session?'回到你的学习节奏':'让今天的知识，成为明天的直觉。'}</p>
-  <h2 id="daily-focus-title" lang={task?.language==='ja'?'ja':undefined}>{task?.title??'从今天，向前一步。'}</h2>
-  <p className="focus-course-caption">{plan?(session?.step===2?'继续阅读 · 在语境中理解':'语法 → 阅读 · 把规则用起来'):'正在准备课程，可开始学习或打开已下载资料。'}</p>
-  <div className="focus-duration"><Clock size={16}/>{plan?`预计 ${plan.minutes} 分钟`:`每日目标 ${state.profile.dailyGoal} 分钟`}<span> · 复习 / 理解 / 运用</span></div>
+ const taskId=task?.id,taskLegacy=task?.legacy;
+ const [document,setDocument]=useState<LearningDocument|null>(null);
+ useEffect(()=>{setDocument(null);if(!taskId||taskLegacy)return;const c=new AbortController();fetchDocument(taskId,c.signal).then(setDocument).catch(()=>{});return()=>c.abort()},[taskId,taskLegacy]);
+ return <div className="mobile-daily-focus"><CourseHero contextLabel="今日主线" title={task?.title??'今日学习'} level={task?.level??state.profile.level} language={state.profile.language} document={document?.id===task?.id?document:null} shared>
+  {!plan&&<p className="focus-course-caption">课程准备中。已下载资料可继续使用。</p>}
+  {task&&task.level!==state.profile.level&&<p className="focus-prerequisite">先补前置知识 · 当前目标 {state.profile.level}</p>}
+  <div className="focus-duration"><Clock size={15}/>{plan?`约 ${plan.minutes} 分钟`:`每日目标 ${state.profile.dailyGoal} 分钟`}</div>
   {children}
-  <Button className="focus-start" disabled={startingSession} aria-busy={startingSession} onClick={()=>void startDailySession()}><span>{startingSession?'正在准备…':session?'继续学习':'开始今日学习'}</span>{startingSession?<LoaderCircle className="focus-loader" size={20}/>:<ArrowRight size={20}/>}</Button>
-  <p className="daily-goal-caption">今天已学习 {Math.round(minutesToday(state))} / {state.profile.dailyGoal} 分钟 · 按自己的节奏</p>
- </section>;
+  {nextPlan&&<p className="focus-next-course">下一组：{nextPlan.grammar.title} → {nextPlan.reading.title}</p>}
+  <Button className="focus-start" disabled={startingSession} aria-busy={startingSession} onClick={()=>void startDailySession()}><span>{startingSession?'正在准备…':session?'继续学习':finished?.done?'再次学习':'开始学习'}</span>{startingSession?<LoaderCircle className="focus-loader" size={20}/>:<ArrowRight size={20}/>}</Button>
+ </CourseHero></div>;
 }
