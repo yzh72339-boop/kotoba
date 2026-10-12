@@ -47,10 +47,10 @@ async function setup(width,{dark=false,motion='no-preference',video=false,worker
 async function ready(page){await page.locator('.app-shell').waitFor();await page.waitForTimeout(850)}
 async function capture(page,name){await page.screenshot({path:`${output}/${name}.png`,fullPage:false});}
 async function auditN2Batch(){
- const pairs=[['shidai-immediate','application-after-sending'],['shidai-de','return-dependent-plan'],['ni-sakidatte','before-the-workshop'],['wo-kikkake-ni','a-handle-from-one-question']];
+ const pairs=process.env.UI_AUDIT_N2_LINKS?[['ni-tsurete','schoolyard-temperature'],['ni-shitagatte','schoolyard-temperature'],['wo-tsuujite','photo-exhibition'],['wo-hajime','photo-exhibition'],['ni-kagirazu','photo-exhibition']]:[['shidai-immediate','application-after-sending'],['shidai-de','return-dependent-plan'],['ni-sakidatte','before-the-workshop'],['wo-kikkake-ni','a-handle-from-one-question']];
  for(const width of [360,390,430])for(const [index,[slug,readingSlug]] of pairs.entries()){
-  if(width!==390&&index!==(width===360?0:3))continue;
-  const {context,page}=await setup(width);failurePage=page;
+  if(width!==390&&index!==(width===360?0:pairs.length-1))continue;
+  const {context,page}=await setup(width,{video:!!process.env.UI_AUDIT_N2_LINKS&&width===390&&index===0});failurePage=page;
   const grammarID='grammar-ja-n2-'+slug,readingID='article-ja-n2-'+readingSlug;
   const grammar=JSON.parse(await readFile(`public/content/library/${grammarID}.json`,'utf8')),article=JSON.parse(await readFile(`public/content/library/${readingID}.json`,'utf8'));
   await page.goto(`${origin}/?content=${grammarID}#Grammar`);await ready(page);await page.locator('.library-grammar').waitFor();
@@ -58,7 +58,8 @@ async function auditN2Batch(){
   await capture(page,`n2-${slug}-${width}`);
   await page.getByRole('button',{name:'练习',exact:true}).click();
   for(const [i,e] of grammar.exercises.entries()){
-   await page.locator('.library-question .quiz-options').getByRole('button',{name:e.acceptedAnswers[0],exact:true}).click();await page.locator('.library-question .answer-submit').click();await page.locator('.question-feedback.is-correct').waitFor();
+   if(e.options)await page.locator('.library-question .quiz-options').getByRole('button',{name:e.acceptedAnswers[0],exact:true}).click();else await page.getByRole('textbox',{name:e.prompt,exact:true}).fill(e.acceptedAnswers[0]);
+   await page.locator('.library-question .answer-submit').click();await page.locator('.question-feedback.is-correct').waitFor();
    if(i===0){await page.getByText('已保存并同步',{exact:true}).first().waitFor();await page.reload();await ready(page);await page.locator('.question-feedback.is-correct').waitFor();}
    if(i<grammar.exercises.length-1)await page.getByRole('button',{name:'下一题',exact:true}).click();
   }
@@ -82,7 +83,7 @@ async function auditN2Batch(){
   if(restored.grammarCount!==1||restored.readingCount!==1||!restored.grammarReview||!restored.word||!restored.sources||restored.result?.score!==100||restored.overflow)throw new Error('New unit restore failed: '+JSON.stringify(restored));
   report.pages.push({width,grammarID,readingID,...restored});await context.close();
  }
- report.checks.push('four new N2 units: grammar → linked reading → collect real vocabulary → ten explained answers → complete → reload; duplicate completion stays one; new words and grammar retain SRS/source; 360/390/430 no overflow. Simulated identity/backend only.');
+ report.checks.push((process.env.UI_AUDIT_N2_LINKS?'five reused N2 grammar courses + two new linked readings; twelve explained answers per pair':'four new N2 units; ten explained answers per pair')+': grammar → linked reading → collect real vocabulary → explained answers → complete → reload; duplicate completion stays one; collected words and grammar retain SRS/source; 360/390/430 no overflow. Simulated identity/backend only.');
 }
 
 async function auditCloseout(){
@@ -129,10 +130,30 @@ async function auditCloseout(){
  report.checks.push('Simulated 520px visualViewport keyboard: note/input/save stay above keyboard and bottom navigation hides; landscape 844×390 no horizontal overflow. Not physical IME/orientation/safe-area acceptance.');await reading.context.close();
 }
 
+async function auditLinkedReadingOffline(){
+ for(const [articleID,dark,motion] of [['article-ja-n2-photo-exhibition',true,'no-preference'],['article-ja-n2-schoolyard-temperature',false,'reduce']]){
+  const {context,page}=await setup(390,{dark,motion,workers:true});failurePage=page;
+  await page.goto(`${origin}/#Reading`);await ready(page);await page.evaluate(async()=>{await navigator.serviceWorker.ready});
+  await page.getByRole('button',{name:'下载本页资料以供离线学习',exact:true}).click();await page.getByText(/份资料已保存在此设备/).waitFor();
+  await page.goto(`${origin}/?content=${articleID}#Reading`);await ready(page);await page.locator('.reading-text').waitFor();await page.waitForTimeout(800);
+  await context.setOffline(true);if(await page.evaluate(()=>navigator.onLine))throw new Error('Browser offline emulation did not set offline status');await page.getByRole('button',{name:/My note/}).click();await page.getByRole('textbox',{name:'我的阅读笔记'}).fill('2.8 离线阅读笔记：保留课程与位置。');await page.getByRole('button',{name:'Save note',exact:true}).click();
+  await page.getByText(/本地已保存/).first().waitFor();await page.reload();await ready(page);await page.locator('.reading-text').waitFor();
+  if(new URL(page.url()).searchParams.get('content')!==articleID)throw new Error('Linked reading offline reload lost ID');
+  // Chromium/CDP can reset navigator.onLine on a Service Worker-served navigation;
+  // reapply the real browser network condition, without changing app/navigator code.
+  if(await page.evaluate(()=>navigator.onLine)){const cdp=await context.newCDPSession(page);await cdp.send('Network.emulateNetworkConditions',{offline:true,latency:0,downloadThroughput:-1,uploadThroughput:-1});report.checks.push({articleID,emulation:'Reapplied CDP offline condition to the new document after cached reload reset navigator.onLine; no app/navigator override. Physical offline status remains unverified.'})}
+  if(await page.evaluate(()=>navigator.onLine))throw new Error('Browser offline reload lost emulated offline status');await page.getByText('本地已保存 · 离线，联网后同步',{exact:true}).first().waitFor();
+  await page.getByText('My Notes · 2.8 离线阅读笔记：保留课程与位置。').waitFor();await page.evaluate(()=>scrollTo(0,0));await capture(page,`linked-${dark?'dark':'reduced-motion'}-offline-390`);
+  if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1))throw new Error('Linked article theme overflow');
+  await context.setOffline(false);await page.getByText('已保存并同步',{exact:true}).first().waitFor();await context.close();
+ }
+ report.checks.push('Both linked readings download through actual content cache, save an offline note, retain exact IDs/notes after real Service Worker offline reload and reconnect to simulated backend; dark and reduced-motion screenshots. Not installed PWA/device/owner acceptance.');
+}
+
 try{
  if(process.env.UI_AUDIT_CLOSEOUT)await auditCloseout();
  if(before&&!process.env.UI_AUDIT_CORE_ONLY){const {context,page}=await setup(390);await page.goto(before);await ready(page);await capture(page,'before-home-390');await context.close();}
- for(const width of (process.env.UI_AUDIT_CORE_ONLY||process.env.UI_AUDIT_N2_BATCH)?[]:[360,390,430]){
+ for(const width of (process.env.UI_AUDIT_CORE_ONLY||process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS||process.env.UI_AUDIT_N2_OFFLINE_ONLY)?[]:[360,390,430]){
   const {context,page}=await setup(width);
   for(const name of ['Today','Learn','Library','Vocabulary','Grammar','Reading','Review','Listening','Speaking','Progress','AI Tutor','My Sentences','Mistake Notebook','Profile','Settings']){
    await page.goto(`${origin}/#${encodeURIComponent(name)}`);await ready(page);
@@ -143,7 +164,7 @@ try{
   }
   await context.close();
  }
- if(process.env.UI_AUDIT_N2_BATCH){await auditN2Batch()}else{
+ if(process.env.UI_AUDIT_N2_OFFLINE_ONLY){await auditLinkedReadingOffline()}else if(process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS){await auditN2Batch();if(process.env.UI_AUDIT_N2_LINKS)await auditLinkedReadingOffline()}else{
  const {context,page}=await setup(390,{video:true});failurePage=page;
  await context.addInitScript(({capable})=>{if(capable){Object.defineProperty(navigator,'deviceMemory',{get:()=>8,configurable:true});Object.defineProperty(navigator,'hardwareConcurrency',{get:()=>8,configurable:true});if(navigator.connection)Object.defineProperty(navigator.connection,'saveData',{get:()=>false,configurable:true})}window.qaSceneCount=Number(sessionStorage.getItem('qa-scene-starts')??0);window.qaSceneReady=Number(sessionStorage.getItem('qa-scene-ready')??0);window.qaSceneFailed=Number(sessionStorage.getItem('qa-scene-skipped')??0);window.qaSceneErrors=JSON.parse(sessionStorage.getItem('qa-scene-errors')??'[]');window.qaSceneAvailable=typeof document.startViewTransition==='function';if(window.qaSceneAvailable){const start=document.startViewTransition.bind(document);document.startViewTransition=callback=>{window.qaSceneCount++;sessionStorage.setItem('qa-scene-starts',String(window.qaSceneCount));const t=start(callback);t.ready.then(()=>{window.qaSceneReady++;sessionStorage.setItem('qa-scene-ready',String(window.qaSceneReady))},error=>{window.qaSceneFailed++;window.qaSceneErrors.push(error.name+': '+error.message);sessionStorage.setItem('qa-scene-skipped',String(window.qaSceneFailed));sessionStorage.setItem('qa-scene-errors',JSON.stringify(window.qaSceneErrors))});return t}}},{capable:Boolean(process.env.UI_AUDIT_CAPABLE)});
  await page.bringToFront();

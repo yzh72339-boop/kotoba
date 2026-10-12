@@ -1,3 +1,13 @@
+# V2.8.0 — N2 linked courses (2026-10-12)
+
+Baseline Sites 089681e / GitHub 5f16eb2, package 2.7.2. This first 2.8 batch reuses 5 N2 grammar IDs, adds 2 original readings and 10 contrast exercises, and preserves all old prompts/answers/card payloads. Current totals: **927 vocabulary / 154 grammar / 68 reading**; N2 **210 / 54 / 17**. Explicit grammar-reading coverage: **139**, unlinked **15**. Full target gap: **1628**; phase coverage remains met.
+
+186 Node tests, TypeScript, zero-warning Lint, content/vocabulary audits and production build pass. Current isolated mobile/offline/recording evidence is recorded in [batch 02](N2-CONTENT-BATCH-02.md) and its delivery. Real owner/RLS writes, devices, second-device and installed-PWA update remain unverified. No migrations, Auth/RLS, SRS, storage/sync protocol or dependency changes. See the updated roadmap for the next exact batch; 2.8/RC/full targets are not declared complete.
+
+The following checkpoints are historical.
+
+---
+
 # V2.7.2 — engineering closeout (2026-10-12)
 
 Baseline 0572968 / f4da3be, package 2.7.1. Current patch 2.7.2 adds an explicit reload/close warning for unfinished local saving and improves the save-state wording. No storage/sync protocol, scheduler, owner, Auth/RLS, course ID or migration changes. Content remains **927 / 154 / 66**; first-stage grade coverage is met, full targets still lack 1,630 documents.
