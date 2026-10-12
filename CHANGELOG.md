@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.8.0 — 2026-10-12
+
+- Link five existing N2 grammar IDs to two original readings: 同じ校庭、違う温度 and 写真にたどり着く入口. Reuse 13 existing vocabulary cards through literal in-text references; do not regenerate vocabulary.
+- Add ten explained contrast exercises and correct three unrelated old answer explanations. Existing question IDs, prompts, options and accepted answers remain unchanged; old drafts and scheduled grammar cards still restore.
+- Content: 927 vocabulary cards / 154 grammar topics / 68 readings. Explicit grammar-reading coverage grows to 139, leaving 15 unlinked topics and a full curriculum gap of 1,628 documents.
+- Verify linked daily selection, scope parking, persisted answers, source deduplication and existing SRS identity with four additional regressions; extend isolated mobile QA to these five reused courses and two new readings, including dark/reduced-motion offline reload.
+- Keep silver/graphite/blue UI, Auth/RLS, migrations 001–011, SRS, account caches and sync protocol. No dependencies or production database operations changed. See N2-CONTENT-BATCH-02 for actual verification and device limits.
+
 ## 2.7.2 — 2026-10-12
 
 - Protect explicit page exit during an unfinished or failed local save with the browser beforeunload warning. Queued cloud sync, offline saved records and successful fallback storage do not block leaving. Cleanup removes the listener after saving/unmount. Browsers can suppress this warning; it is not protection against OS process termination.

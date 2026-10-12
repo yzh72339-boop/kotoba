@@ -5,9 +5,15 @@ Anyone may fork, modify and redistribute them; contributions use pull requests.
 See [contribution guidelines](CONTRIBUTING.md), [independent setup](docs/OPEN-SOURCE-SETUP.md)
 and [security policy](SECURITY.md). Learning data and deployed owner access remain private.
 
-Existing Next.js / TypeScript / Supabase / PWA application. Current package version is **2.7.2**, continuing the Version 13 / V2.5.2 foundation and its compatible mobile fixes. This is a single-owner personal system, not an open-registration SaaS.
+Existing Next.js / TypeScript / Supabase / PWA application. Current package version is **2.8.0**, continuing the Version 13 / V2.5.2 foundation and its compatible mobile fixes. This is a single-owner personal system, not an open-registration SaaS.
 
 The silver/graphite/blue UI now covers all workspaces, sign-in, dialogs and the update page. Shared course transitions retain learning state; native transitions gracefully fall back on constrained devices and reduced motion. Chromium mobile emulation, screenshots, recording and offline reload have been verified with an isolated simulated backend. Real owner/device acceptance remains separate. See [UI verification](docs/UI-UNIFICATION.md).
+
+## V2.8.0 — linked N2 course batch
+
+Connect five existing N2 grammar topics to two new original readings: gradual change / rule-following, and information channels / representative examples / expanded scope. Ten additive contrast exercises preserve all old question IDs, answers and 927 vocabulary cards. The existing daily planner, mobile reader, collection, review and offline download paths consume these documents without a new schema or migration.
+
+Current content: **154 grammar / 68 readings**, including N2 **54 / 17**. Grammar with explicit reading links rises from 134 to 139; 15 topics remain unlinked. **186 Node tests**, TypeScript, zero-warning Lint and production build pass. Full content targets remain incomplete by 1,628 documents; strict target checking still fails intentionally. See [this batch and verification boundary](docs/N2-CONTENT-BATCH-02.md). This is the first 2.8 course-linkage batch, not completion of the full roadmap.
 
 ## V2.7.2 engineering closeout
 
@@ -28,7 +34,7 @@ Four new N2 grammar/reading topic units cover 〜次第, 〜次第で, 〜に先
 
 - Japanese N5–N1 and English A1–C2 vocabulary layers and stable word IDs are preserved.
 - SRS, Auth/RLS, IndexedDB and the revision-based offline sync engine are retained.
-- The staged grammar/reading library has **154 grammar courses and 66 original articles**. Full V3 targets are not yet met; see [CONTENT-AUDIT.md](CONTENT-AUDIT.md).
+- The staged grammar/reading library has **154 grammar courses and 68 original articles**. Full V3 targets are not yet met; see [CONTENT-AUDIT.md](CONTENT-AUDIT.md).
 - Production migrations **001–011** have user-supplied verification receipts. This update does not rerun or change them. Authenticated runtime readiness still protects curriculum persistence; a failed network or API cache check does not mean 010 must be deployed again.
 - Compatible improvements cover shared review queues, timezone-aware statistics/streak, exact reading continuation, history/deep links, all-level dictionary search, System theme and lazy page loading.
 
