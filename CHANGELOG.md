@@ -5,7 +5,7 @@
 - Existing grammar mistakes link to reliable same-point exercises; missing alternatives explicitly fall back.
 - Listening workspace checks device voices, plays/loops real text, supports original recall and account-scoped local microphone recording/playback/delete; private audio attachments have real format/duration checks. No fake audio alignment or pronunciation scoring.
 - Budget tasks preserve identity/progress/backlog under adjustments; JSON restore includes metadata and explicitly reports missing media; separate media manifest/download provided.
-- 204 Node tests, type/lint/build/audits and mobile emulation pass; real owner/device/production/second-device verification remains pending. Preview only.
+- 205 Node tests, type/lint/build/audits and mobile emulation pass; real owner/device/production/second-device verification remains pending. Preview only.
 
 # Changelog
 
