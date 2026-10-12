@@ -1,3 +1,13 @@
+# V2.7.2 — engineering closeout (2026-10-12)
+
+Baseline 0572968 / f4da3be, package 2.7.1. Current patch 2.7.2 adds an explicit reload/close warning for unfinished local saving and improves the save-state wording. No storage/sync protocol, scheduler, owner, Auth/RLS, course ID or migration changes. Content remains **927 / 154 / 66**; first-stage grade coverage is met, full targets still lack 1,630 documents.
+
+182 Node tests, TypeScript, zero-warning Lint and production build pass. Current browser/recording/publication evidence is recorded in the closeout delivery; physical owner/Android/iOS/IME/safe-area/second-device/installed-PWA checks remain separately unverified. A warning can be suppressed by a browser or OS process termination.
+
+Read [the requirement state table and next breakpoint](KOTOBA-2.7-CLOSEOUT.md) and [the adopted development plan](Kotoba-Development-Plan-2026-10-12.md). The following checkpoints are historical.
+
+---
+
 # V2.7.1 — N2 practical content batch (2026-10-12)
 
 Current totals: **927 vocabulary cards / 154 complete grammar topics / 66 readings**. This batch adds 40 distinct N2 words, four N2 grammar topics and four linked readings. Every new word has an actual occurrence in its associated reading; each unit has five explained grammar questions and five explained comprehension questions. N2 totals: **210 / 54 / 15**. The original 667 and prior 220 contextual cards retain their IDs and payloads.

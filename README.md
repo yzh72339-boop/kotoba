@@ -5,9 +5,13 @@ Anyone may fork, modify and redistribute them; contributions use pull requests.
 See [contribution guidelines](CONTRIBUTING.md), [independent setup](docs/OPEN-SOURCE-SETUP.md)
 and [security policy](SECURITY.md). Learning data and deployed owner access remain private.
 
-Existing Next.js / TypeScript / Supabase / PWA application. Current package version is **2.7.1**, continuing the Version 13 / V2.5.2 foundation and its compatible mobile fixes. This is a single-owner personal system, not an open-registration SaaS.
+Existing Next.js / TypeScript / Supabase / PWA application. Current package version is **2.7.2**, continuing the Version 13 / V2.5.2 foundation and its compatible mobile fixes. This is a single-owner personal system, not an open-registration SaaS.
 
 The silver/graphite/blue UI now covers all workspaces, sign-in, dialogs and the update page. Shared course transitions retain learning state; native transitions gracefully fall back on constrained devices and reduced motion. Chromium mobile emulation, screenshots, recording and offline reload have been verified with an isolated simulated backend. Real owner/device acceptance remains separate. See [UI verification](docs/UI-UNIFICATION.md).
+
+## V2.7.2 engineering closeout
+
+Explicit reload/close now requests confirmation while local saving is unfinished or failed. Locally saved/offline records and cloud retries can leave normally; some mobile browsers may suppress the warning. Active daily readings also derive their shared grammar expression from the saved plan ID; paused/free browsing keeps the explicit clicked-grammar hint. No storage protocol or owner access changes. See [current task-state table and acceptance boundary](docs/KOTOBA-2.7-CLOSEOUT.md) and [continued development plan](docs/Kotoba-Development-Plan-2026-10-12.md).
 
 ## V2.7.1 content update
 
@@ -17,7 +21,7 @@ Four new N2 grammar/reading topic units cover 〜次第, 〜次第で, 〜に先
 
 - **927 vocabulary cards**: 260 original contextual additions, including 40 N2 cards in the latest batch, preserving all 667 existing cards and IDs. [Graded vocabulary audit](VOCABULARY-AUDIT.md). This is a graded supplement, not an exhaustive dictionary.
 - Phone dictionary list and word sheets, actual due counts, content-language speech/source handling, prior-day completion correction, and linked foundation/N2 readings.
-- **180 Node tests**, TypeScript, zero-warning Lint, content/vocabulary audits and production build pass. [2.7 scope and verification limits](docs/KOTOBA-2.7-CHECKPOINT.md); [changelog](CHANGELOG.md).
+- **182 Node tests**, TypeScript, zero-warning Lint, content/vocabulary audits and production build pass. [2.7 scope and verification limits](docs/KOTOBA-2.7-CHECKPOINT.md); [changelog](CHANGELOG.md).
 - Chromium mobile emulation and offline fixture tests do not certify real owner/device/cross-device/installed-PWA acceptance.
 
 ## Current source

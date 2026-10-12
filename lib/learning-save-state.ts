@@ -2,7 +2,7 @@ import type {SyncStatus} from './sync-engine';
 
 export type LocalSaveStatus='saving'|'saved'|'fallback'|'failed';
 export function learningSaveMessage(local:LocalSaveStatus,online:boolean,sync:SyncStatus,pending:number){
- if(local==='saving')return '正在保存到本地…';
+ if(local==='saving')return '正在保存到本地…完成前请暂勿刷新。';
  if(local==='failed')return '本地保存失败，请重试或导出进度。';
  if(local==='fallback')return '已备用保存，恢复本地数据库后才能同步。';
  if(!online)return '本地已保存 · 离线，联网后同步';

@@ -85,7 +85,52 @@ async function auditN2Batch(){
  report.checks.push('four new N2 units: grammar → linked reading → collect real vocabulary → ten explained answers → complete → reload; duplicate completion stays one; new words and grammar retain SRS/source; 360/390/430 no overflow. Simulated identity/backend only.');
 }
 
+async function auditCloseout(){
+ const routes=['Today','Learn','Library','Vocabulary','Grammar','Reading','Profile','Settings'];
+ for(const width of process.env.UI_AUDIT_SKIP_FONT?[]:[360,390,430]){
+  const {context,page}=await setup(width);failurePage=page;
+  for(const route of routes){
+   await page.goto(`${origin}/#${route}`);await ready(page);
+   await page.evaluate(()=>{const rows=[...document.querySelectorAll('h1,h2,h3,h4,p,span,label,button,input,textarea,select,a,summary,blockquote')].map(e=>[e,parseFloat(getComputedStyle(e).fontSize)]);for(const [e,size] of rows){e.style.setProperty('font-size',size*1.5+'px','important');e.style.setProperty('line-height','1.4','important')}});
+   await page.waitForTimeout(120);
+   const layout=await page.evaluate(()=>({overflow:document.documentElement.scrollWidth>innerWidth+1,offenders:[...document.querySelectorAll('main *')].filter(e=>{const r=e.getBoundingClientRect();return r.width>0&&r.right>innerWidth+2}).slice(0,8).map(e=>({tag:e.tagName,className:e.className}))}));
+   report.pages.push({scope:'150% computed text scale; not device OS text size',width,page:route,...layout});
+   if(width===390)await capture(page,`large-text-${route.toLowerCase()}-${width}`);
+   if(layout.overflow){await capture(page,`overflow-${route}-${width}`);throw new Error('Enlarged text overflow: '+JSON.stringify({width,route,...layout}))}
+  }
+  await context.close();
+ }
+ if(!process.env.UI_AUDIT_SKIP_FONT)report.checks.push('24 mobile page/width combinations with 150% text: no horizontal overflow; screenshots are browser simulation, not OS font/keyboard/device acceptance');
+ const {context,page}=await setup(390);failurePage=page;
+ const grammarID='grammar-ja-n2-shidai-immediate';const grammar=JSON.parse(await readFile(`public/content/library/${grammarID}.json`,'utf8'));
+ await page.goto(`${origin}/?content=${grammarID}#Grammar`);await ready(page);await page.getByText('已保存并同步',{exact:true}).first().waitFor();await page.getByRole('button',{name:'练习',exact:true}).click();await page.getByText('已保存并同步',{exact:true}).first().waitFor();
+ await context.route(`${origin}/__qa-transaction-lock`,r=>r.fulfill({contentType:'text/html',body:'<!doctype html><title>Isolated local storage transaction</title>'}));
+ const locker=await context.newPage();await locker.goto(`${origin}/__qa-transaction-lock`);
+ await locker.evaluate(async()=>{const db=await new Promise(r=>{const q=indexedDB.open('kotoba-personal');q.onsuccess=()=>r(q.result)});const transaction=db.transaction('state','readwrite'),store=transaction.objectStore('state');let keep=true;setTimeout(()=>{keep=false},12000);window.releaseQaTransaction=()=>{keep=false};const hold=()=>{if(keep){const q=store.get('learning');q.onsuccess=hold}};hold();transaction.oncomplete=()=>db.close()});
+ const e=grammar.exercises[0];await page.locator('.library-question .quiz-options').getByRole('button',{name:e.acceptedAnswers[0],exact:true}).click();await page.locator('.library-question .answer-submit').click();await page.locator('.question-feedback.is-correct').waitFor();await page.getByText(/正在保存到本地/).first().waitFor();
+ const dialog=new Promise((resolve,reject)=>{const timeout=setTimeout(()=>reject(new Error('Pending save did not warn on explicit close')),6000);page.once('dialog',async d=>{clearTimeout(timeout);if(d.type()!=='beforeunload'){await d.dismiss();reject(new Error('Unexpected dialog: '+d.type()));return}await d.dismiss();resolve()})});
+ await page.close({runBeforeUnload:true});await dialog;
+ await page.locator('.question-feedback.is-correct').waitFor();await locker.evaluate(()=>window.releaseQaTransaction());await page.getByText('已保存并同步',{exact:true}).first().waitFor();await locker.close();
+ await page.reload();await ready(page);await page.locator('.question-feedback.is-correct').waitFor();await capture(page,'pending-save-reload-restored-390');
+ report.checks.push('A second local tab holds a real IndexedDB write transaction: pending answer causes native beforeunload warning on close; cancel retains UI; release + saved confirmation allows reload restoring exact answer. Cloud queue is not blocked. Isolated fixture, no production data.');await context.close();
+ const reading=await setup(390);failurePage=reading.page;const articleID='article-ja-n2-return-dependent-plan';
+ await reading.page.goto(`${origin}/?content=${articleID}#Reading`);await ready(reading.page);await reading.page.locator('.reading-text').waitFor();await reading.page.waitForTimeout(650);
+ await reading.page.locator('.reading-grammar').first().scrollIntoViewIfNeeded();await reading.page.waitForTimeout(300);
+ await reading.page.locator('.reading-grammar').first().click();await reading.page.getByRole('dialog').waitFor();const start=await reading.page.evaluate(()=>scrollY);await reading.page.getByRole('dialog').getByRole('button',{name:/查看完整课程/}).click();await reading.page.locator('.library-grammar').waitFor();
+ await reading.page.goBack();await reading.page.locator('.reading-text').waitFor();await reading.page.waitForTimeout(650);const restored=await reading.page.evaluate(()=>scrollY);
+ if(Math.abs(restored-start)>8)throw new Error(`Reading → grammar → Back moved position ${start} → ${restored}`);
+ await capture(reading.page,'reading-grammar-back-anchor-390');report.checks.push('Actual reading → related full grammar → browser Back preserves the position measured after the real clicked expression is visible (automatic click scrolling is not a product defect)');
+ await reading.page.getByRole('button',{name:/My note/}).click();await reading.page.getByRole('textbox',{name:'我的阅读笔记'}).focus();
+ await reading.page.evaluate(()=>{Object.defineProperty(window.visualViewport,'height',{configurable:true,get:()=>520});window.visualViewport.dispatchEvent(new Event('resize'))});await reading.page.waitForTimeout(150);
+ const keyboard=await reading.page.evaluate(()=>({open:document.documentElement.dataset.keyboard,inputBottom:document.querySelector('[aria-label="我的阅读笔记"]').getBoundingClientRect().bottom,buttonBottom:[...document.querySelectorAll('[role="dialog"] button')].find(e=>e.textContent==='Save note')?.getBoundingClientRect().bottom,navHidden:getComputedStyle(document.querySelector('.bottom-nav')).display==='none'}));
+ if(keyboard.open!=='open'||keyboard.inputBottom>520||keyboard.buttonBottom>520||!keyboard.navHidden)throw new Error('Simulated visualViewport keyboard overlap: '+JSON.stringify(keyboard));
+ await capture(reading.page,'simulated-keyboard-note-390');await reading.page.evaluate(()=>{delete window.visualViewport.height;window.visualViewport.dispatchEvent(new Event('resize'))});await reading.page.getByRole('button',{name:'关闭',exact:true}).click();
+ await reading.page.setViewportSize({width:844,height:390});await reading.page.waitForTimeout(180);if(await reading.page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1))throw new Error('Landscape reading overflow');await capture(reading.page,'landscape-reading-844');
+ report.checks.push('Simulated 520px visualViewport keyboard: note/input/save stay above keyboard and bottom navigation hides; landscape 844×390 no horizontal overflow. Not physical IME/orientation/safe-area acceptance.');await reading.context.close();
+}
+
 try{
+ if(process.env.UI_AUDIT_CLOSEOUT)await auditCloseout();
  if(before&&!process.env.UI_AUDIT_CORE_ONLY){const {context,page}=await setup(390);await page.goto(before);await ready(page);await capture(page,'before-home-390');await context.close();}
  for(const width of (process.env.UI_AUDIT_CORE_ONLY||process.env.UI_AUDIT_N2_BATCH)?[]:[360,390,430]){
   const {context,page}=await setup(width);
@@ -100,6 +145,8 @@ try{
  }
  if(process.env.UI_AUDIT_N2_BATCH){await auditN2Batch()}else{
  const {context,page}=await setup(390,{video:true});failurePage=page;
+ await context.addInitScript(({capable})=>{if(capable){Object.defineProperty(navigator,'deviceMemory',{get:()=>8,configurable:true});Object.defineProperty(navigator,'hardwareConcurrency',{get:()=>8,configurable:true});if(navigator.connection)Object.defineProperty(navigator.connection,'saveData',{get:()=>false,configurable:true})}window.qaSceneCount=Number(sessionStorage.getItem('qa-scene-starts')??0);window.qaSceneReady=Number(sessionStorage.getItem('qa-scene-ready')??0);window.qaSceneFailed=Number(sessionStorage.getItem('qa-scene-skipped')??0);window.qaSceneErrors=JSON.parse(sessionStorage.getItem('qa-scene-errors')??'[]');window.qaSceneAvailable=typeof document.startViewTransition==='function';if(window.qaSceneAvailable){const start=document.startViewTransition.bind(document);document.startViewTransition=callback=>{window.qaSceneCount++;sessionStorage.setItem('qa-scene-starts',String(window.qaSceneCount));const t=start(callback);t.ready.then(()=>{window.qaSceneReady++;sessionStorage.setItem('qa-scene-ready',String(window.qaSceneReady))},error=>{window.qaSceneFailed++;window.qaSceneErrors.push(error.name+': '+error.message);sessionStorage.setItem('qa-scene-skipped',String(window.qaSceneFailed));sessionStorage.setItem('qa-scene-errors',JSON.stringify(window.qaSceneErrors))});return t}}},{capable:Boolean(process.env.UI_AUDIT_CAPABLE)});
+ await page.bringToFront();
  await page.goto(origin);await ready(page);await capture(page,'after-home-390');
  await page.getByRole('button',{name:'开始学习',exact:true}).click();
  await page.locator('.reveal-btn').click();
@@ -112,6 +159,11 @@ try{
  await page.getByRole('button',{name:'继续 · 理解新语法',exact:true}).click();
  await page.locator('.library-grammar').waitFor();await page.waitForTimeout(650);await capture(page,'after-grammar-390');
  const grammarID=new URL(page.url()).searchParams.get('content');
+ if(process.env.UI_AUDIT_CAPABLE){
+  await page.getByRole('button',{name:'暂停今日学习并返回 Today',exact:true}).click();await page.locator('.mobile-today').waitFor();await page.waitForTimeout(550);await page.getByRole('button',{name:'继续学习',exact:true}).click();await page.locator('.library-grammar').waitFor();await page.waitForTimeout(550);
+  if(new URL(page.url()).searchParams.get('content')!==grammarID)throw new Error('Paused home → grammar changed pinned course');
+  await capture(page,'shared-home-grammar-resumed-390');report.checks.push({motionStage:'home-to-grammar',started:await page.evaluate(()=>window.qaSceneCount),ready:await page.evaluate(()=>window.qaSceneReady)});report.checks.push('Supported-hardware simulation: paused homepage → pinned grammar resumes same title/course through shared scene transition');
+ }
  const grammar=JSON.parse(await readFile(`public/content/library/${grammarID}.json`,'utf8'));
  await page.getByRole('button',{name:'我的笔记',exact:true}).click();
  await page.getByRole('textbox',{name:'我的语法笔记'}).fill('UI 验收：接续与语境。');await page.setViewportSize({width:390,height:520});await page.waitForTimeout(150);const noteBox=await page.getByRole('textbox',{name:'我的语法笔记'}).boundingBox();if(!noteBox||noteBox.y+noteBox.height>520)throw new Error('note input obscured in short viewport');report.checks.push('note editor fits a shortened viewport (not a real soft keyboard)');await page.setViewportSize({width:390,height:844});
@@ -122,13 +174,14 @@ try{
   else await page.locator('.library-question textarea').fill(exercise.acceptedAnswers[0]);
   await page.locator('.library-question .answer-submit').click();
   await page.locator('.question-feedback').waitFor();
-  if(index===0){await capture(page,'after-practice-feedback-390');await page.reload();await ready(page);await page.locator('.question-feedback').waitFor();report.checks.push('grammar answer + explanation restored after refresh');await debugState(page,'after-refresh');}
+  if(index===0){await capture(page,'after-practice-feedback-390');await page.getByText('已保存并同步',{exact:true}).first().waitFor();await page.reload();await ready(page);await page.locator('.question-feedback').waitFor();report.checks.push('grammar answer + explanation restored after refresh');await debugState(page,'after-refresh');}
   if(index<grammar.exercises.length-1)await page.getByRole('button',{name:'下一题',exact:true}).click();
  }
  await page.getByRole('button',{name:'完成课程并加入复习',exact:true}).click();
  await debugState(page,'before-reading');await page.getByRole('button',{name:'继续 · 在阅读中运用',exact:true}).click();await page.waitForTimeout(900);await debugState(page,'after-reading');
  await page.locator('.reading-text').waitFor();await page.waitForTimeout(500);await page.evaluate(()=>scrollTo(0,0));await capture(page,'after-reading-390');
  const readingID=new URL(page.url()).searchParams.get('content');const reading=JSON.parse(await readFile(`public/content/library/${readingID}.json`,'utf8'));
+ if(process.env.UI_AUDIT_CAPABLE){const named=await page.locator('.reading-grammar').evaluateAll(elements=>elements.filter(e=>getComputedStyle(e).viewTransitionName==='course-title').length);if(named!==1)throw new Error('Daily reading should expose exactly one shared grammar expression: '+named);report.checks.push('Daily reading derives one shared grammar expression from the pinned course ID');report.checks.push({motionStage:'grammar-to-reading',started:await page.evaluate(()=>window.qaSceneCount),ready:await page.evaluate(()=>window.qaSceneReady)});}
  const collect=page.getByRole('button',{name:'收集句子并复习',exact:true}).first();await collect.click();report.checks.push('reading sentence collected into existing learning/SRS with article source');
  const mark=page.locator('.reading-grammar').first();if(await mark.count()){
   await mark.click();await page.getByRole('dialog').waitFor();await capture(page,'after-grammar-panel-390');
@@ -146,9 +199,9 @@ try{
  await page.getByRole('button',{name:'返回首页',exact:true}).click();await page.locator('.mobile-today').waitFor();await page.waitForTimeout(700);await capture(page,'after-home-completed-390');
  if(!(await page.locator('.mobile-today .focus-progress-label').innerText()).includes('3 / 3'))throw new Error('home lost completed plan');
  report.checks.push('daily review → grammar exercises → reading quiz → complete → home retains 3/3');
- await page.reload();await ready(page);if(!(await page.locator('.mobile-today .focus-progress-label').innerText()).includes('3 / 3'))throw new Error('refresh lost completion');report.checks.push('completed home restores after refresh');
+ await page.getByText('已保存并同步',{exact:true}).first().waitFor();await page.reload();await ready(page);if(!(await page.locator('.mobile-today .focus-progress-label').innerText()).includes('3 / 3'))throw new Error('refresh lost completion');report.checks.push('completed home restores after refresh');
  await page.evaluate(()=>{const buttons=document.querySelectorAll('.bottom-nav button');buttons[1].click();buttons[2].click();buttons[0].click()});await page.waitForTimeout(700);await page.locator('.mobile-today').waitFor();if(new URL(page.url()).hash!=='#Today')throw new Error('rapid navigation ended on stale route');report.checks.push('rapid three-way navigation retains latest route and completed state');
- await page.goBack();await page.waitForTimeout(650);await page.locator('.library-workspace').waitFor();report.checks.push('browser Back restores the prior library route');
+ await page.goBack();await page.waitForTimeout(650);await page.locator('.library-workspace').waitFor();report.checks.push('browser Back restores the prior library route');report.checks.push({sceneTransitions:await page.evaluate(()=>({nativeAvailable:window.qaSceneAvailable,started:window.qaSceneCount,ready:window.qaSceneReady,skippedOrFailed:window.qaSceneFailed,details:window.qaSceneErrors,memoryGB:navigator.deviceMemory,cores:navigator.hardwareConcurrency})),scope:'real compiled UI during recorded core flow; unsupported/constrained browsers retain fallback'});
  await context.close();await copyFile(await page.video().path(),`${output}/mobile-learning-flow.webm`);
  const dictionary=await setup(390);failurePage=dictionary.page;
  await dictionary.page.goto(`${origin}/#Vocabulary`);await ready(dictionary.page);

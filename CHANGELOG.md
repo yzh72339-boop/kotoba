@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.7.2 — 2026-10-12
+
+- Protect explicit page exit during an unfinished or failed local save with the browser beforeunload warning. Queued cloud sync, offline saved records and successful fallback storage do not block leaving. Cleanup removes the listener after saving/unmount. Browsers can suppress this warning; it is not protection against OS process termination.
+- Derive the shared grammar expression for active daily readings from saved plan IDs; keep the existing explicit link hint for paused/free browsing. No new persisted field or scheduling logic.
+- Clarify the local-saving label rather than presenting answer feedback as saved progress. Retain IndexedDB, queue/idempotency, SRS, Auth/RLS and migrations 001–011.
+- Add local-save exit/cleanup regressions and current browser checks for enlarged text, held IndexedDB transactions, actual reading/grammar Back position, and simulated keyboard geometry. Preserve existing visual/navigation/motion implementation after verification.
+- Keep content at 927 vocabulary cards, 154 grammar topics and 66 readings; no duplicate content or dependency upgrade. Track local vs device/owner/cross-device evidence and the uploaded development plan separately.
+
+
 ## 2.7.1 — 2026-10-12
 
 - Add four complete N2 grammar topics and four linked original readings about applications, workshop preparation, iterative improvement and conditional scheduling. Each topic includes four examples and five explained exercises; each reading has aligned translations, five questions and literal word/grammar references.

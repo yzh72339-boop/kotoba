@@ -1,4 +1,4 @@
-> 当前源码为 **2.7.1**；先读 N2-CONTENT-BATCH-01.md / CURRENT-STATUS.md。已有 927 词汇卡、154 语法、66 阅读及 180 项 Node 测试。本轮是兼容的 N2 资料增量；保留数据库 001–011、Auth/RLS、SRS、同步和所有旧课程 ID。下方 V2.5 指令为历史保护原则。
+> 当前源码 **2.7.2**；先读 KOTOBA-2.7-CLOSEOUT.md / CURRENT-STATUS.md / Kotoba-Development-Plan-2026-10-12.md。已有 927 词汇、154 语法、66 阅读和 182 项 Node 测试。保留 migrations 001–011、Auth/RLS、SRS、同步及全部旧 ID；真实设备/owner/跨设备验收未完成。
 
 # CODEX HANDOFF — 必读执行指令
 
