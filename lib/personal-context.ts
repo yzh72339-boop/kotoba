@@ -20,7 +20,11 @@ export function createContextCard(material:PersonalMaterial,snapshot:MaterialSna
 }
 export function contextDuplicate(state:AppState,candidate:PersonalContextCard){return personalContextCards(state,undefined,true).find(c=>c.materialId===candidate.materialId&&c.paragraphId===candidate.paragraphId&&c.sentence===candidate.sentence&&c.expression===candidate.expression&&c.meaning===candidate.meaning&&c.kind===candidate.kind)??null}
 export function saveContextCard(state:AppState,card:PersonalContextCard,reactivate=false):AppState{
- const duplicate=contextDuplicate(state,card);if(duplicate&&!reactivate)return state;const current=duplicate?{...duplicate,paused:false,archived:false,updatedAt:card.updatedAt}:card;
+ const duplicate=contextDuplicate(state,card);if(duplicate&&!reactivate)return state;let current=duplicate?{...duplicate,paused:false,archived:false,updatedAt:card.updatedAt}:card;
+ // Editing a gloss preserves its ID; recapturing the original gloss must not
+ // overwrite that edited card just because its original semantic hash matches.
+ const occupied=personalContextCard(state,current.id);
+ if(!duplicate&&occupied){current={...current,id:stableId('context-card-'+current.language,current.id+'\u0000semantic-recapture')};const collision=personalContextCard(state,current.id);if(collision)throw new Error('语境身份冲突，请检查已有卡片；没有覆盖任何记录。')}
  const snapshot=snapshotById(state,current.snapshotId);if(!snapshot||snapshot.materialId!==current.materialId||snapshot.language!==current.language)throw new Error('原文快照不可用，未保存卡片。');
  let next:AppState={...state,notes:{...state.notes,[key(current.id)]:JSON.stringify(current)},reviews:{...state.reviews,[current.id]:state.reviews[current.id]??{id:current.id,due:current.createdAt,interval:0,ease:2.5,repetitions:0,lapses:0}}};
  next=attachReadingSource(next,current.id,{articleId:current.materialId,title:current.title,sentence:current.sentence,language:current.language,snapshotId:current.snapshotId,paragraphId:current.paragraphId,version:current.version});return next;
