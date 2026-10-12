@@ -1,6 +1,6 @@
 {
   "name": "kotoba",
-  "version": "2.7.0",
+  "version": "2.7.1",
   "private": true,
   "scripts": {
     "dev": "node scripts/check-public-environment.mjs development && next dev --hostname 0.0.0.0",

@@ -13,19 +13,19 @@ import {collectReadingWord,readingSources} from '../lib/content-library/reading-
 import {schedule} from '../lib/srs.ts';
 const documents=await loadDocuments(),catalog=documents.map(d=>contentEntry(d));
 
-test('2.7 keeps every original word payload and ID, with 20 distinct additions per grade',()=>{
+test('2.7 keeps every original word payload and ID, with complete distinct contextual additions per grade',()=>{
  const expected={ja:'c478339dc8e5d39171e0163b8c60039ea89c10d485af7fddb289e5a6188e3194',en:'985076baa2a1f2608fb920d34ac076aaea30ead76c7b49ce83f7554403345b66'};
  for(const language of ['ja','en']){
   const words=allCourseWords(language),old=words.filter(w=>!w.id.startsWith('context-'));
   assert.equal(createHash('sha256').update(JSON.stringify(old)).digest('hex'),expected[language]);
   const seen=new Set(old.map(w=>w.word.normalize('NFKC').toLowerCase()));
   for(const level of levels[language])for(const w of contextualWords(language,level)){
-   assert.equal(contextualWords(language,level).length,20);assert.ok(!seen.has(w.word.normalize('NFKC').toLowerCase()),w.word);seen.add(w.word.normalize('NFKC').toLowerCase());
+   assert.equal(contextualWords(language,level).length,language==='ja'&&level==='N2'?60:20);assert.ok(!seen.has(w.word.normalize('NFKC').toLowerCase()),w.word);seen.add(w.word.normalize('NFKC').toLowerCase());
    for(const key of ['pronunciation','meaning','example','translation','pos'])assert.ok(w[key]);
    assert.ok(w.collocations.length>0);
   }
  }
- assert.equal(allCourseWords('ja').length+allCourseWords('en').length,887);
+ assert.equal(allCourseWords('ja').length+allCourseWords('en').length,927);
 });
 test('English reading references match whole words and phrases, preserving Unicode offsets',()=>{
  assert.equal(wordOccursInText('already growing','read','en'),false);

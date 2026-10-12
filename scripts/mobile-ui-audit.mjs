@@ -46,9 +46,48 @@ async function setup(width,{dark=false,motion='no-preference',video=false,worker
 }
 async function ready(page){await page.locator('.app-shell').waitFor();await page.waitForTimeout(850)}
 async function capture(page,name){await page.screenshot({path:`${output}/${name}.png`,fullPage:false});}
+async function auditN2Batch(){
+ const pairs=[['shidai-immediate','application-after-sending'],['shidai-de','return-dependent-plan'],['ni-sakidatte','before-the-workshop'],['wo-kikkake-ni','a-handle-from-one-question']];
+ for(const width of [360,390,430])for(const [index,[slug,readingSlug]] of pairs.entries()){
+  if(width!==390&&index!==(width===360?0:3))continue;
+  const {context,page}=await setup(width);failurePage=page;
+  const grammarID='grammar-ja-n2-'+slug,readingID='article-ja-n2-'+readingSlug;
+  const grammar=JSON.parse(await readFile(`public/content/library/${grammarID}.json`,'utf8')),article=JSON.parse(await readFile(`public/content/library/${readingID}.json`,'utf8'));
+  await page.goto(`${origin}/?content=${grammarID}#Grammar`);await ready(page);await page.locator('.library-grammar').waitFor();
+  if(await page.locator('.library-grammar .tag').first().innerText()!=='N2')throw new Error('New grammar has wrong grade');
+  await capture(page,`n2-${slug}-${width}`);
+  await page.getByRole('button',{name:'练习',exact:true}).click();
+  for(const [i,e] of grammar.exercises.entries()){
+   await page.locator('.library-question .quiz-options').getByRole('button',{name:e.acceptedAnswers[0],exact:true}).click();await page.locator('.library-question .answer-submit').click();await page.locator('.question-feedback.is-correct').waitFor();
+   if(i===0){await page.getByText('已保存并同步',{exact:true}).first().waitFor();await page.reload();await ready(page);await page.locator('.question-feedback.is-correct').waitFor();}
+   if(i<grammar.exercises.length-1)await page.getByRole('button',{name:'下一题',exact:true}).click();
+  }
+  await page.getByRole('button',{name:'完成课程并加入复习',exact:true}).evaluate(b=>{b.click();b.click()});
+  await page.locator('.linked-reading-row').filter({hasText:article.title}).click();await page.locator('.reading-text').waitFor();await page.waitForTimeout(450);
+  if(new URL(page.url()).searchParams.get('content')!==readingID)throw new Error('New unit lost linked reading ID');
+  const word=article.vocabulary[0],term=JSON.parse(await readFile('lib/vocabulary-context/ja-n2.json','utf8')).find(w=>w.id===word).word;
+  const wordRows=page.locator('.key-vocabulary>button'),wordIndex=await wordRows.evaluateAll((rows,term)=>rows.findIndex(r=>r.childNodes[0]?.textContent===term),term);
+  if(wordIndex<0)throw new Error('New reading word missing from UI: '+term);await wordRows.nth(wordIndex).click();await page.getByRole('dialog').waitFor();
+  await page.getByRole('dialog').getByRole('button',{name:'Add to learning',exact:true}).click();await page.getByRole('button',{name:'关闭',exact:true}).click();
+  await page.locator('.reading-grammar').first().click();await page.getByRole('dialog').waitFor();const anchor=await page.evaluate(()=>scrollY);await page.getByRole('button',{name:'关闭',exact:true}).click();await page.waitForTimeout(350);
+  if(Math.abs((await page.evaluate(()=>scrollY))-anchor)>3)throw new Error('New article grammar panel lost anchor');
+  await page.evaluate(()=>scrollTo(0,0));await capture(page,`n2-reading-${readingSlug}-${width}`);
+  for(const [i,q] of article.questions.entries()){
+   await page.locator('.library-question .quiz-options').getByRole('button',{name:q.options[q.answer],exact:true}).click();await page.locator('.library-question .answer-submit').click();await page.locator('.question-feedback.is-correct').waitFor();
+   if(i===0){await page.getByText('已保存并同步',{exact:true}).first().waitFor();await page.reload();await ready(page);await page.locator('.question-feedback.is-correct').waitFor();}
+   if(i<article.questions.length-1)await page.getByRole('button',{name:'下一题',exact:true}).click();
+  }
+  await page.getByRole('button',{name:'完成阅读',exact:true}).evaluate(b=>{b.click();b.click()});await page.getByText('已保存并同步',{exact:true}).first().waitFor();await page.reload();await ready(page);
+  const restored=await page.evaluate(async({grammarID,readingID,word})=>{const db=await new Promise(r=>{const q=indexedDB.open('kotoba-personal');q.onsuccess=()=>r(q.result)});const s=await new Promise(r=>{const q=db.transaction('state').objectStore('state').get('learning');q.onsuccess=()=>r(q.result)});db.close();return {grammarCount:s.completed.filter(v=>v===grammarID).length,readingCount:s.completed.filter(v=>v===readingID).length,grammarReview:!!s.reviews[grammarID],word:!!s.dictionary[word],result:JSON.parse(s.notes['library-result-'+readingID]??'null'),sources:Object.values(s.notes).some(v=>typeof v==='string'&&v.includes(readingID)&&v.includes(word)),overflow:document.documentElement.scrollWidth>innerWidth+1};},{grammarID,readingID,word});
+  if(restored.grammarCount!==1||restored.readingCount!==1||!restored.grammarReview||!restored.word||!restored.sources||restored.result?.score!==100||restored.overflow)throw new Error('New unit restore failed: '+JSON.stringify(restored));
+  report.pages.push({width,grammarID,readingID,...restored});await context.close();
+ }
+ report.checks.push('four new N2 units: grammar → linked reading → collect real vocabulary → ten explained answers → complete → reload; duplicate completion stays one; new words and grammar retain SRS/source; 360/390/430 no overflow. Simulated identity/backend only.');
+}
+
 try{
  if(before&&!process.env.UI_AUDIT_CORE_ONLY){const {context,page}=await setup(390);await page.goto(before);await ready(page);await capture(page,'before-home-390');await context.close();}
- for(const width of process.env.UI_AUDIT_CORE_ONLY?[]:[360,390,430]){
+ for(const width of (process.env.UI_AUDIT_CORE_ONLY||process.env.UI_AUDIT_N2_BATCH)?[]:[360,390,430]){
   const {context,page}=await setup(width);
   for(const name of ['Today','Learn','Library','Vocabulary','Grammar','Reading','Review','Listening','Speaking','Progress','AI Tutor','My Sentences','Mistake Notebook','Profile','Settings']){
    await page.goto(`${origin}/#${encodeURIComponent(name)}`);await ready(page);
@@ -59,6 +98,7 @@ try{
   }
   await context.close();
  }
+ if(process.env.UI_AUDIT_N2_BATCH){await auditN2Batch()}else{
  const {context,page}=await setup(390,{video:true});failurePage=page;
  await page.goto(origin);await ready(page);await capture(page,'after-home-390');
  await page.getByRole('button',{name:'开始学习',exact:true}).click();
@@ -148,6 +188,7 @@ try{
  report.checks.push('real local Service Worker shell + downloaded IndexedDB article + offline note survive offline reload (simulated identity)');
  await offline.context.setOffline(false);await offline.page.waitForTimeout(1800);await offline.page.getByText('已保存并同步',{exact:true}).first().waitFor();
  report.checks.push('reconnection drains local queue to simulated backend and shows synced');await offline.context.close();
+ }
 }catch(error){report.errors.push(error.message);if(failurePage&&!failurePage.isClosed()){try{await debugState(failurePage,'failure');await capture(failurePage,'failure-current')}catch{report.errors.push('Failure artifact unavailable after navigation')}}process.exitCode=1;}
 finally{await browser.close();await writeFile(`${output}/mobile-ui-report.json`,JSON.stringify(report,null,2));}
 console.log(JSON.stringify({pages:report.pages.length,checks:report.checks,errors:report.errors,output}));

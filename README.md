@@ -5,22 +5,26 @@ Anyone may fork, modify and redistribute them; contributions use pull requests.
 See [contribution guidelines](CONTRIBUTING.md), [independent setup](docs/OPEN-SOURCE-SETUP.md)
 and [security policy](SECURITY.md). Learning data and deployed owner access remain private.
 
-Existing Next.js / TypeScript / Supabase / PWA application. Current package version is **2.7.0**, continuing the Version 13 / V2.5.2 foundation and its compatible mobile fixes. This is a single-owner personal system, not an open-registration SaaS.
+Existing Next.js / TypeScript / Supabase / PWA application. Current package version is **2.7.1**, continuing the Version 13 / V2.5.2 foundation and its compatible mobile fixes. This is a single-owner personal system, not an open-registration SaaS.
 
 The silver/graphite/blue UI now covers all workspaces, sign-in, dialogs and the update page. Shared course transitions retain learning state; native transitions gracefully fall back on constrained devices and reduced motion. Chromium mobile emulation, screenshots, recording and offline reload have been verified with an isolated simulated backend. Real owner/device acceptance remains separate. See [UI verification](docs/UI-UNIFICATION.md).
 
+## V2.7.1 content update
+
+Four new N2 grammar/reading topic units cover 〜次第, 〜次第で, 〜に先立って and 〜をきっかけに. Each has four example sentences, five explained grammar exercises and one original 731–747-character reading with five explained comprehension questions. All 40 new N2 cards occur in these readings. See [batch checkpoint](docs/N2-CONTENT-BATCH-01.md).
+
 ## V2.7 update
 
-- **887 vocabulary cards**: 220 original additions (20 per grade), preserving all 667 existing cards and IDs. [Graded vocabulary audit](VOCABULARY-AUDIT.md). This is a graded supplement, not an exhaustive dictionary.
+- **927 vocabulary cards**: 260 original contextual additions, including 40 N2 cards in the latest batch, preserving all 667 existing cards and IDs. [Graded vocabulary audit](VOCABULARY-AUDIT.md). This is a graded supplement, not an exhaustive dictionary.
 - Phone dictionary list and word sheets, actual due counts, content-language speech/source handling, prior-day completion correction, and linked foundation/N2 readings.
-- **178 Node tests**, TypeScript, zero-warning Lint, content/vocabulary audits and production build pass. [2.7 scope and verification limits](docs/KOTOBA-2.7-CHECKPOINT.md); [changelog](CHANGELOG.md).
+- **180 Node tests**, TypeScript, zero-warning Lint, content/vocabulary audits and production build pass. [2.7 scope and verification limits](docs/KOTOBA-2.7-CHECKPOINT.md); [changelog](CHANGELOG.md).
 - Chromium mobile emulation and offline fixture tests do not certify real owner/device/cross-device/installed-PWA acceptance.
 
 ## Current source
 
 - Japanese N5–N1 and English A1–C2 vocabulary layers and stable word IDs are preserved.
 - SRS, Auth/RLS, IndexedDB and the revision-based offline sync engine are retained.
-- The staged grammar/reading library has **150 grammar courses and 62 original articles**. Full V3 targets are not yet met; see [CONTENT-AUDIT.md](CONTENT-AUDIT.md).
+- The staged grammar/reading library has **154 grammar courses and 66 original articles**. Full V3 targets are not yet met; see [CONTENT-AUDIT.md](CONTENT-AUDIT.md).
 - Production migrations **001–011** have user-supplied verification receipts. This update does not rerun or change them. Authenticated runtime readiness still protects curriculum persistence; a failed network or API cache check does not mean 010 must be deployed again.
 - Compatible improvements cover shared review queues, timezone-aware statistics/streak, exact reading continuation, history/deep links, all-level dictionary search, System theme and lazy page loading.
 

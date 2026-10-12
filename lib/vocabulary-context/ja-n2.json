@@ -470,5 +470,950 @@
     "frequency": "medium",
     "register": "neutral",
     "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n2-166f216f2a20",
+    "word": "申請",
+    "pronunciation": "しんせい",
+    "meaning": "申请",
+    "example": "会場を使うには、事前に申請が必要です。",
+    "translation": "使用场地需要事先申请。",
+    "tag": "JLPT N2 · noun",
+    "related": "利用を申請する",
+    "pos": "noun",
+    "senses": [
+      "申请"
+    ],
+    "collocations": [
+      "利用を申請する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-22f452061a42",
+    "word": "申請書",
+    "pronunciation": "しんせいしょ",
+    "meaning": "申请表",
+    "example": "申請書の空欄に連絡先を記入した。",
+    "translation": "我在申请表的空栏填写了联系方式。",
+    "tag": "JLPT N2 · noun",
+    "related": "申請書を提出する",
+    "pos": "noun",
+    "senses": [
+      "申请表"
+    ],
+    "collocations": [
+      "申請書を提出する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-2ffdd0a5a1db",
+    "word": "記入",
+    "pronunciation": "きにゅう",
+    "meaning": "填写",
+    "example": "日付を記入してから、内容を確かめてください。",
+    "translation": "请填写日期后再确认内容。",
+    "tag": "JLPT N2 · noun",
+    "related": "日付を記入する",
+    "pos": "noun",
+    "senses": [
+      "填写"
+    ],
+    "collocations": [
+      "日付を記入する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-7936b32eceb7",
+    "word": "添付",
+    "pronunciation": "てんぷ",
+    "meaning": "附加；附上",
+    "example": "申請には、身分を証明する資料の添付が必要だ。",
+    "translation": "申请需要附上证明身份的资料。",
+    "tag": "JLPT N2 · noun",
+    "related": "資料を添付する",
+    "pos": "noun",
+    "senses": [
+      "附加",
+      "附上"
+    ],
+    "collocations": [
+      "資料を添付する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-5bd5f9ebd811",
+    "word": "締め切り",
+    "pronunciation": "しめきり",
+    "meaning": "截止期限",
+    "example": "締め切りの直前に送ると、確認する余裕がない。",
+    "translation": "在截止前才发送，就没有余裕检查了。",
+    "tag": "JLPT N2 · noun",
+    "related": "締め切りを守る",
+    "pos": "noun",
+    "senses": [
+      "截止期限"
+    ],
+    "collocations": [
+      "締め切りを守る"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-afae9768d94b",
+    "word": "承認",
+    "pronunciation": "しょうにん",
+    "meaning": "批准；认可",
+    "example": "担当者の承認を得てから、正式に募集を始めた。",
+    "translation": "获得负责人的批准后才正式开始招募。",
+    "tag": "JLPT N2 · noun",
+    "related": "承認を得る",
+    "pos": "noun",
+    "senses": [
+      "批准",
+      "认可"
+    ],
+    "collocations": [
+      "承認を得る"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-cd30333a5762",
+    "word": "控え",
+    "pronunciation": "ひかえ",
+    "meaning": "留存副本；备份记录",
+    "example": "提出した申請書の控えを手元に残した。",
+    "translation": "我在手边留存了一份已提交申请表的副本。",
+    "tag": "JLPT N2 · noun",
+    "related": "控えを残す",
+    "pos": "noun",
+    "senses": [
+      "留存副本",
+      "备份记录"
+    ],
+    "collocations": [
+      "控えを残す"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-75f8df321dc1",
+    "word": "同封",
+    "pronunciation": "どうふう",
+    "meaning": "一并装入同一个信封",
+    "example": "郵送する場合は、返信用の封筒を同封してください。",
+    "translation": "邮寄时请附上回信用信封。",
+    "tag": "JLPT N2 · noun",
+    "related": "封筒を同封する",
+    "pos": "noun",
+    "senses": [
+      "一并装入同一个信封"
+    ],
+    "collocations": [
+      "封筒を同封する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-141a88ae4261",
+    "word": "不備",
+    "pronunciation": "ふび",
+    "meaning": "不完备之处；缺漏",
+    "example": "書類に不備があると、審査に時間がかかる。",
+    "translation": "资料有缺漏的话，审查会花费时间。",
+    "tag": "JLPT N2 · noun",
+    "related": "不備を確認する",
+    "pos": "noun",
+    "senses": [
+      "不完备之处",
+      "缺漏"
+    ],
+    "collocations": [
+      "不備を確認する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-222cbaa52746",
+    "word": "受領",
+    "pronunciation": "じゅりょう",
+    "meaning": "收受；收到（正式用语）",
+    "example": "資料の受領を知らせるメールが届いた。",
+    "translation": "我收到了通知资料已收到的邮件。",
+    "tag": "JLPT N2 · noun",
+    "related": "受領を知らせる",
+    "pos": "noun",
+    "senses": [
+      "收受",
+      "收到（正式用语）"
+    ],
+    "collocations": [
+      "受領を知らせる"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-bad2c92d8bb1",
+    "word": "事前",
+    "pronunciation": "じぜん",
+    "meaning": "事先",
+    "example": "事前に手順を共有しておけば、当日慌てずに済む。",
+    "translation": "事先共享步骤，当天就不用慌张了。",
+    "tag": "JLPT N2 · noun",
+    "related": "事前に確認する",
+    "pos": "noun",
+    "senses": [
+      "事先"
+    ],
+    "collocations": [
+      "事前に確認する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-29ee5d35b6f7",
+    "word": "下見",
+    "pronunciation": "したみ",
+    "meaning": "事先实地查看",
+    "example": "研修の前に会場の下見を行った。",
+    "translation": "培训前我们事先查看了场地。",
+    "tag": "JLPT N2 · noun",
+    "related": "会場を下見する",
+    "pos": "noun",
+    "senses": [
+      "事先实地查看"
+    ],
+    "collocations": [
+      "会場を下見する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-2f0f361ecac8",
+    "word": "会場",
+    "pronunciation": "かいじょう",
+    "meaning": "会场；活动场地",
+    "example": "会場の入口には、受付までの矢印が付いていた。",
+    "translation": "会场入口有指向接待处的箭头。",
+    "tag": "JLPT N2 · noun",
+    "related": "会場を予約する",
+    "pos": "noun",
+    "senses": [
+      "会场",
+      "活动场地"
+    ],
+    "collocations": [
+      "会場を予約する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-9077e8c95845",
+    "word": "定員",
+    "pronunciation": "ていいん",
+    "meaning": "人数上限；规定名额",
+    "example": "定員を超えたため、別の日にも研修を行うことになった。",
+    "translation": "因为超过人数上限，决定在另一天也举办培训。",
+    "tag": "JLPT N2 · noun",
+    "related": "定員を超える",
+    "pos": "noun",
+    "senses": [
+      "人数上限",
+      "规定名额"
+    ],
+    "collocations": [
+      "定員を超える"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-e6f4c0ce2235",
+    "word": "抽選",
+    "pronunciation": "ちゅうせん",
+    "meaning": "抽签",
+    "example": "申し込みが多い場合は、抽選で参加者を決める。",
+    "translation": "报名较多时，通过抽签确定参加者。",
+    "tag": "JLPT N2 · noun",
+    "related": "抽選で決める",
+    "pos": "noun",
+    "senses": [
+      "抽签"
+    ],
+    "collocations": [
+      "抽選で決める"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-2d82446c5d9f",
+    "word": "先着",
+    "pronunciation": "せんちゃく",
+    "meaning": "先到；先申请",
+    "example": "先着順ではないので、早く送っても有利にはならない。",
+    "translation": "因为不是按先后顺序，早发也不会更有利。",
+    "tag": "JLPT N2 · noun",
+    "related": "先着順で受け付ける",
+    "pos": "noun",
+    "senses": [
+      "先到",
+      "先申请"
+    ],
+    "collocations": [
+      "先着順で受け付ける"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-cff1ebd4eb0a",
+    "word": "見学",
+    "pronunciation": "けんがく",
+    "meaning": "参观；观摩",
+    "example": "初めての参加者は、まず作業の様子を見学した。",
+    "translation": "第一次参加的人先观摩了操作情况。",
+    "tag": "JLPT N2 · noun",
+    "related": "作業を見学する",
+    "pos": "noun",
+    "senses": [
+      "参观",
+      "观摩"
+    ],
+    "collocations": [
+      "作業を見学する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-25fbaf851230",
+    "word": "研修",
+    "pronunciation": "けんしゅう",
+    "meaning": "培训；研修",
+    "example": "短い研修だけで、すべての作業を覚えるのは難しい。",
+    "translation": "仅靠短时间培训，很难记住全部操作。",
+    "tag": "JLPT N2 · noun",
+    "related": "研修を受ける",
+    "pos": "noun",
+    "senses": [
+      "培训",
+      "研修"
+    ],
+    "collocations": [
+      "研修を受ける"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-f0a782880a97",
+    "word": "配布",
+    "pronunciation": "はいふ",
+    "meaning": "分发",
+    "example": "資料の配布は、受付で行うことにした。",
+    "translation": "我们决定在接待处发放资料。",
+    "tag": "JLPT N2 · noun",
+    "related": "資料を配布する",
+    "pos": "noun",
+    "senses": [
+      "分发"
+    ],
+    "collocations": [
+      "資料を配布する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-a8eca0955c38",
+    "word": "貸し出し",
+    "pronunciation": "かしだし",
+    "meaning": "出借；借出服务",
+    "example": "道具の貸し出しには、利用者の登録が必要だ。",
+    "translation": "借用工具需要进行使用者登记。",
+    "tag": "JLPT N2 · noun",
+    "related": "貸し出しの手続き",
+    "pos": "noun",
+    "senses": [
+      "出借",
+      "借出服务"
+    ],
+    "collocations": [
+      "貸し出しの手続き"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-544d1f30b4fc",
+    "word": "試作品",
+    "pronunciation": "しさくひん",
+    "meaning": "试制品；原型产品",
+    "example": "試作品を使って、手に持ったときの重さを確かめた。",
+    "translation": "我们用试制品确认了拿在手里的重量。",
+    "tag": "JLPT N2 · noun",
+    "related": "試作品を作る",
+    "pos": "noun",
+    "senses": [
+      "试制品",
+      "原型产品"
+    ],
+    "collocations": [
+      "試作品を作る"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-54cf137c2d1f",
+    "word": "改良",
+    "pronunciation": "かいりょう",
+    "meaning": "改良",
+    "example": "持ち手の改良によって、片手でも使いやすくなった。",
+    "translation": "改良把手后，单手也更容易使用了。",
+    "tag": "JLPT N2 · noun",
+    "related": "改良を重ねる",
+    "pos": "noun",
+    "senses": [
+      "改良"
+    ],
+    "collocations": [
+      "改良を重ねる"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-09c3549f7623",
+    "word": "測定",
+    "pronunciation": "そくてい",
+    "meaning": "测量；测定",
+    "example": "測定の前に、道具を置く位置をそろえた。",
+    "translation": "测量前，我们统一了放置工具的位置。",
+    "tag": "JLPT N2 · noun",
+    "related": "長さを測定する",
+    "pos": "noun",
+    "senses": [
+      "测量",
+      "测定"
+    ],
+    "collocations": [
+      "長さを測定する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-972f23e8200a",
+    "word": "誤差",
+    "pronunciation": "ごさ",
+    "meaning": "误差",
+    "example": "小さな誤差でも、何度も重なると結果に影響する。",
+    "translation": "即使很小的误差，反复累积也会影响结果。",
+    "tag": "JLPT N2 · noun",
+    "related": "誤差を減らす",
+    "pos": "noun",
+    "senses": [
+      "误差"
+    ],
+    "collocations": [
+      "誤差を減らす"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-d9b1128394c0",
+    "word": "精度",
+    "pronunciation": "せいど",
+    "meaning": "精确程度；精度",
+    "example": "数値を細かく表示しても、測定の精度が上がるとは限らない。",
+    "translation": "即使显示更多小数位，测量精度也不一定会提高。",
+    "tag": "JLPT N2 · noun",
+    "related": "精度を高める",
+    "pos": "noun",
+    "senses": [
+      "精确程度",
+      "精度"
+    ],
+    "collocations": [
+      "精度を高める"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-9a1719732b3c",
+    "word": "試行",
+    "pronunciation": "しこう",
+    "meaning": "试行；试验性实施",
+    "example": "試行の結果を見てから、全体に導入するか判断する。",
+    "translation": "先看试行结果，再决定是否全面引入。",
+    "tag": "JLPT N2 · noun",
+    "related": "試行を重ねる",
+    "pos": "noun",
+    "senses": [
+      "试行",
+      "试验性实施"
+    ],
+    "collocations": [
+      "試行を重ねる"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-89ffc10736c1",
+    "word": "見本",
+    "pronunciation": "みほん",
+    "meaning": "样品；范本",
+    "example": "見本と同じ形にするより、使う人に合わせたい。",
+    "translation": "比起做成和样品相同的形状，我更想适应使用者。",
+    "tag": "JLPT N2 · noun",
+    "related": "見本を示す",
+    "pos": "noun",
+    "senses": [
+      "样品",
+      "范本"
+    ],
+    "collocations": [
+      "見本を示す"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-3ddb0b1a0cc5",
+    "word": "再開",
+    "pronunciation": "さいかい",
+    "meaning": "重新开始；恢复",
+    "example": "問題の原因を確かめてから、測定を再開した。",
+    "translation": "确认了问题原因后，我们重新开始测量。",
+    "tag": "JLPT N2 · noun",
+    "related": "作業を再開する",
+    "pos": "noun",
+    "senses": [
+      "重新开始",
+      "恢复"
+    ],
+    "collocations": [
+      "作業を再開する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-570086e3c1a7",
+    "word": "順序",
+    "pronunciation": "じゅんじょ",
+    "meaning": "顺序；先后次序",
+    "example": "確認の順序を変えるだけで、無駄な作業が減った。",
+    "translation": "仅改变确认的先后顺序，就减少了无用操作。",
+    "tag": "JLPT N2 · noun",
+    "related": "順序を決める",
+    "pos": "noun",
+    "senses": [
+      "顺序",
+      "先后次序"
+    ],
+    "collocations": [
+      "順序を決める"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-ca64ca605911",
+    "word": "手順",
+    "pronunciation": "てじゅん",
+    "meaning": "操作步骤；程序",
+    "example": "手順が分からないときは、無理に進めず質問してください。",
+    "translation": "不清楚步骤时，请不要勉强进行，而要提问。",
+    "tag": "JLPT N2 · noun",
+    "related": "手順を確認する",
+    "pos": "noun",
+    "senses": [
+      "操作步骤",
+      "程序"
+    ],
+    "collocations": [
+      "手順を確認する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-c07c74fb4d7a",
+    "word": "発送",
+    "pronunciation": "はっそう",
+    "meaning": "寄送；发货",
+    "example": "発送の予定日が決まったら、メールで知らせます。",
+    "translation": "寄送日期确定后，我们会通过邮件通知。",
+    "tag": "JLPT N2 · noun",
+    "related": "商品を発送する",
+    "pos": "noun",
+    "senses": [
+      "寄送",
+      "发货"
+    ],
+    "collocations": [
+      "商品を発送する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-9036d6239abc",
+    "word": "納期",
+    "pronunciation": "のうき",
+    "meaning": "交货期限",
+    "example": "部品の納期が延びたため、修理の予定を変更した。",
+    "translation": "零件交货期限延长了，因此调整了维修安排。",
+    "tag": "JLPT N2 · noun",
+    "related": "納期を確認する",
+    "pos": "noun",
+    "senses": [
+      "交货期限"
+    ],
+    "collocations": [
+      "納期を確認する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-9818884e910a",
+    "word": "返却",
+    "pronunciation": "へんきゃく",
+    "meaning": "归还",
+    "example": "道具の返却が遅れると、次の人が使えなくなる。",
+    "translation": "工具归还延迟的话，下一个人就无法使用了。",
+    "tag": "JLPT N2 · noun",
+    "related": "道具を返却する",
+    "pos": "noun",
+    "senses": [
+      "归还"
+    ],
+    "collocations": [
+      "道具を返却する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-e8d561fb6e92",
+    "word": "延期",
+    "pronunciation": "えんき",
+    "meaning": "延期",
+    "example": "雨の予報を受けて、屋外の作業を延期した。",
+    "translation": "收到降雨预报后，我们推迟了户外作业。",
+    "tag": "JLPT N2 · noun",
+    "related": "開催を延期する",
+    "pos": "noun",
+    "senses": [
+      "延期"
+    ],
+    "collocations": [
+      "開催を延期する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-d2bb9c9e5751",
+    "word": "中止",
+    "pronunciation": "ちゅうし",
+    "meaning": "中止；取消",
+    "example": "延期と中止では、参加者への案内が異なる。",
+    "translation": "延期和取消，向参加者说明的内容是不同的。",
+    "tag": "JLPT N2 · noun",
+    "related": "中止を決める",
+    "pos": "noun",
+    "senses": [
+      "中止",
+      "取消"
+    ],
+    "collocations": [
+      "中止を決める"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-c3564ac675ac",
+    "word": "回覧",
+    "pronunciation": "かいらん",
+    "meaning": "传阅；轮流阅读",
+    "example": "予定の変更は、回覧でも知らせることにした。",
+    "translation": "我们决定也通过传阅来通知安排变更。",
+    "tag": "JLPT N2 · noun",
+    "related": "回覧で知らせる",
+    "pos": "noun",
+    "senses": [
+      "传阅",
+      "轮流阅读"
+    ],
+    "collocations": [
+      "回覧で知らせる"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-6c2d0c695c7e",
+    "word": "掲示板",
+    "pronunciation": "けいじばん",
+    "meaning": "公告栏；留言板",
+    "example": "掲示板の古い案内を外して、新しいものに替えた。",
+    "translation": "我们取下公告栏上的旧通知，换上了新的。",
+    "tag": "JLPT N2 · noun",
+    "related": "掲示板に貼る",
+    "pos": "noun",
+    "senses": [
+      "公告栏",
+      "留言板"
+    ],
+    "collocations": [
+      "掲示板に貼る"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-7d2adb78c801",
+    "word": "振り込み",
+    "pronunciation": "ふりこみ",
+    "meaning": "转账；汇款",
+    "example": "料金の振り込みを確認してから、商品を発送する。",
+    "translation": "确认费用到账后再寄出商品。",
+    "tag": "JLPT N2 · noun",
+    "related": "振り込みを確認する",
+    "pos": "noun",
+    "senses": [
+      "转账",
+      "汇款"
+    ],
+    "collocations": [
+      "振り込みを確認する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-727aa8ebc529",
+    "word": "混雑",
+    "pronunciation": "こんざつ",
+    "meaning": "拥挤；繁忙",
+    "example": "混雑を避けるため、受け取りの時間を分けた。",
+    "translation": "为了避免拥挤，我们错开了领取时间。",
+    "tag": "JLPT N2 · noun",
+    "related": "混雑を避ける",
+    "pos": "noun",
+    "senses": [
+      "拥挤",
+      "繁忙"
+    ],
+    "collocations": [
+      "混雑を避ける"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-55ea988b6e91",
+    "word": "空き",
+    "pronunciation": "あき",
+    "meaning": "空余位置或时段",
+    "example": "会場に空きが出れば、別の日に開催できる。",
+    "translation": "如果场地有了空档，就能改在另一天举办。",
+    "tag": "JLPT N2 · noun",
+    "related": "空きを確認する",
+    "pos": "noun",
+    "senses": [
+      "空余位置或时段"
+    ],
+    "collocations": [
+      "空きを確認する"
+    ],
+    "topics": [
+      "N2 practical course units"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
   }
 ]
