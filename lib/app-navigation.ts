@@ -7,12 +7,14 @@ export function mobileNavParent(page:Page):Page{
  if(['Settings','Progress'].includes(page))return 'Profile';
  return page;
 }
-export type RouteOptions={content?:string;word?:string;legacy?:boolean};
+export type RouteOptions={content?:string;word?:string;legacy?:boolean;section?:'materials'|'cards'|'listening'|'budget';paragraph?:string;snapshot?:string};
 export function pageFromHash(hash:string):Page|undefined{try{const page=decodeURIComponent(hash.replace(/^#/,''));return appPages.find(p=>p===page)}catch{return undefined}}
 export function pageURL(current:string,page:Page,options:RouteOptions={}){
- const url=new URL(current);for(const key of ['content','word','legacy'])url.searchParams.delete(key);
+ const url=new URL(current);for(const key of ['content','word','legacy','section','paragraph','snapshot'])url.searchParams.delete(key);
  if(options.content&&/^[a-z0-9-]+$/.test(options.content))url.searchParams.set('content',options.content);
  if(options.word&&/^[a-z0-9-]+$/.test(options.word))url.searchParams.set('word',options.word);
+ if(options.section&&['materials','cards','listening','budget'].includes(options.section))url.searchParams.set('section',options.section);
+ for(const key of ['paragraph','snapshot'] as const)if(options[key]&&/^[a-z0-9-]+$/.test(options[key]!))url.searchParams.set(key,options[key]!);
  if(options.legacy)url.searchParams.set('legacy','1');
  url.hash=encodeURIComponent(page);return url;
 }

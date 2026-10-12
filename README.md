@@ -1,3 +1,11 @@
+# Kotoba 2.9 preview
+
+A personal English/Japanese learning app, built on the existing Next.js/Supabase/PWA project. Current preview adds personal text import, versioned reading, manual context recall cards, listening/local shadowing, and 5/10/20-minute tasks. Existing learning records and qualified course IDs remain compatible.
+
+Run `npm ci`, configure the public Supabase URL/publishable key using `.env.example`, then `npm run dev` (or `npm run build` for the existing static hosting export). Server secrets never go in public environment variables. **Do not rerun historical database migrations.** Context cards require reviewed additive 012; text imports use existing snapshot sync. See [scope, safe deployment and acceptance boundaries](docs/KOTOBA-2.9-IMPLEMENTATION.md).
+
+Local check commands: `npm run typecheck`, `npm run lint`, `npm test`, `npm run content:audit`, `npm run build`; isolated SQL: `node --import tsx scripts/test-personal-context-backend.mjs`. The SQL test uses a disposable Docker database, never production. Physical device/owner/second-device acceptance remains separate. Current version is a preview, not full 2.9 completion.
+
 # Kotoba — Private English & Japanese Learning
 
 Project code and original course content are licensed under [MIT](LICENSE).
@@ -5,9 +13,15 @@ Anyone may fork, modify and redistribute them; contributions use pull requests.
 See [contribution guidelines](CONTRIBUTING.md), [independent setup](docs/OPEN-SOURCE-SETUP.md)
 and [security policy](SECURITY.md). Learning data and deployed owner access remain private.
 
-Existing Next.js / TypeScript / Supabase / PWA application. Current package version is **2.8.0**, continuing the Version 13 / V2.5.2 foundation and its compatible mobile fixes. This is a single-owner personal system, not an open-registration SaaS.
+Existing Next.js / TypeScript / Supabase / PWA application. Current package version is **2.8.1**, continuing the Version 13 / V2.5.2 foundation and its compatible mobile fixes. This is a single-owner personal system, not an open-registration SaaS.
 
 The silver/graphite/blue UI now covers all workspaces, sign-in, dialogs and the update page. Shared course transitions retain learning state; native transitions gracefully fall back on constrained devices and reduced motion. Chromium mobile emulation, screenshots, recording and offline reload have been verified with an isolated simulated backend. Real owner/device acceptance remains separate. See [UI verification](docs/UI-UNIFICATION.md).
+
+## V2.8.1 — inference, concession and cause
+
+Five more existing N2 grammar topics now link to two original readings: 発送の通知、その先は and 「最終版」はどれだったか. Ten additive contrast exercises distinguish strong inference, subjective conviction, contrary results, explanations and regret. Existing questions, all 927 cards and their schedules stay compatible.
+
+Current content: **154 grammar / 70 readings**, N2 **54 / 19**; 144 grammar topics have reading links and 10 remain unlinked. Full targets still lack 1,626 documents. Reading time estimates for this batch use an explicit 200 Japanese characters/minute rule (4 / 5 minutes), not personal measured results. See [batch 03 and its acceptance limits](docs/N2-CONTENT-BATCH-03.md). 2.8 course expansion and the full roadmap remain incomplete.
 
 ## V2.8.0 — linked N2 course batch
 
@@ -34,7 +48,7 @@ Four new N2 grammar/reading topic units cover 〜次第, 〜次第で, 〜に先
 
 - Japanese N5–N1 and English A1–C2 vocabulary layers and stable word IDs are preserved.
 - SRS, Auth/RLS, IndexedDB and the revision-based offline sync engine are retained.
-- The staged grammar/reading library has **154 grammar courses and 68 original articles**. Full V3 targets are not yet met; see [CONTENT-AUDIT.md](CONTENT-AUDIT.md).
+- The staged grammar/reading library has **154 grammar courses and 70 original articles**. Full V3 targets are not yet met; see [CONTENT-AUDIT.md](CONTENT-AUDIT.md).
 - Production migrations **001–011** have user-supplied verification receipts. This update does not rerun or change them. Authenticated runtime readiness still protects curriculum persistence; a failed network or API cache check does not mean 010 must be deployed again.
 - Compatible improvements cover shared review queues, timezone-aware statistics/streak, exact reading continuation, history/deep links, all-level dictionary search, System theme and lazy page loading.
 

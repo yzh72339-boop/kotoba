@@ -1,3 +1,27 @@
+# V2.9.0-preview.1 — personal study workspaces (2026-10-12)
+
+Personal UTF-8 text import/versioned reading, manual context cards in the existing SRS, listening/recording workspace and adjustable 5/10/20-minute tasks are implemented. This is a **preview**, not a declaration of complete production/device acceptance. Context creation requires additive migration **012**, which has only been tested in disposable PostgreSQL; historical 001–011 remain unchanged. Text imports work with existing snapshot storage. No AI scoring, streaming, auto-audio alignment or automatic recording uploads were added.
+
+Current local checks: **204 Node tests**, TypeScript, zero-warning Lint, vocabulary/content audits and static production build pass. Six ja/en × 360/390/430 context workflows pass with source return, duplicate save/rating and snapshot restoration. Six listening/budget workflows pass with actual audio decoding and synthetic microphone encoding/storage/replay; **not** physical microphone or real voice quality. Existing core learning regression is separately recorded in the delivery.
+
+Qualified content remains **927 vocabulary / 154 grammar / 70 reading** (the preceding local 2.8.1 added two N2 readings and ten contrast exercises). Personal materials/cards are not counted as qualified curriculum. Full target gap remains **1,626**; strict target checking still fails. Actual owner, production 012/RLS, second-device, physical Android/iOS and installed-PWA update acceptance are **unverified**. Last confirmed live site is 2.8.0/version 25; this preview has not been deployed to that website.
+
+See [implementation, current deployment step and exact remaining acceptance](KOTOBA-2.9-IMPLEMENTATION.md).
+
+The following checkpoints are historical.
+
+---
+
+# V2.8.1 — N2 inference and cause (2026-10-12)
+
+Baseline Sites 8628c0a / GitHub 756df8c, package 2.8.0. This batch reuses 5 more N2 grammar IDs, adds 2 original readings and 10 explained contrast exercises. All 927 vocabulary cards and original question identities/answers stay compatible. Current totals: **927 vocabulary / 154 grammar / 70 readings**; N2 **210 / 54 / 19**. Explicit grammar-reading coverage: **144**; unlinked: **10**. Full target gap: **1626**; every grade still meets its own phase minimum.
+
+TypeScript, zero-warning Lint, 186 Node tests, content/vocabulary audits and production build pass. Seven linked mobile combinations, current daily 3/3 flow, refresh/source/SRS restoration, strict offline save labels and simulated reconnect pass. Current checks and mobile evidence are recorded in [batch 03](N2-CONTENT-BATCH-03.md), separately from physical device/owner/second-device/installed-PWA acceptance. No Auth/RLS, SRS, sync protocol, dependencies or migrations changed. 2.8 and the full course target remain incomplete.
+
+The following checkpoints are historical.
+
+---
+
 # V2.8.0 — N2 linked courses (2026-10-12)
 
 Baseline Sites 089681e / GitHub 5f16eb2, package 2.7.2. This first 2.8 batch reuses 5 N2 grammar IDs, adds 2 original readings and 10 contrast exercises, and preserves all old prompts/answers/card payloads. Current totals: **927 vocabulary / 154 grammar / 68 reading**; N2 **210 / 54 / 17**. Explicit grammar-reading coverage: **139**, unlinked **15**. Full target gap: **1628**; phase coverage remains met.

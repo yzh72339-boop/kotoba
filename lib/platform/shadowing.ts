@@ -1,0 +1,12 @@
+export type RecorderPhase='ready'|'requesting'|'recording'|'saving'|'saved'|'error';
+export type RecorderPort=Pick<MediaRecorder,'state'|'mimeType'|'ondataavailable'|'onstop'|'onerror'|'start'|'stop'>;
+export type StreamPort={getTracks:()=>{stop:()=>void}[]};
+// No cloud upload or scoring. The caller supplies account-scoped local persistence.
+export class ShadowingRecorder{
+ private generation=0;private stream:StreamPort|null=null;private recorder:RecorderPort|null=null;private started=0;
+ constructor(private ports:{stream:()=>Promise<StreamPort>;recorder:(stream:StreamPort)=>RecorderPort;save:(blob:Blob,seconds:number)=>Promise<void>;phase:(phase:RecorderPhase,error?:string)=>void;now:()=>number}){}
+ async start(){this.cancel();const generation=this.generation;this.ports.phase('requesting');try{const stream=await this.ports.stream();if(generation!==this.generation){stream.getTracks().forEach(t=>t.stop());return}this.stream=stream;const recorder=this.ports.recorder(stream);this.recorder=recorder;const chunks:Blob[]=[];recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data)};recorder.onerror=()=>{if(generation===this.generation){this.cancel();this.ports.phase('error','录音编码失败，请重试。')}};recorder.onstop=()=>{this.release();if(generation!==this.generation)return;const seconds=Math.max(0,(this.ports.now()-this.started)/1000),blob=new Blob(chunks,{type:chunks[0]?.type||recorder.mimeType||'audio/webm'});if(!blob.size){this.ports.phase('error','没有收到可用录音，请检查麦克风后重试。');return}this.ports.phase('saving');void this.ports.save(blob,seconds).then(()=>{if(generation===this.generation)this.ports.phase('saved')},()=>{if(generation===this.generation)this.ports.phase('error','录音保存失败，请检查本地存储空间后重新录制。')})};recorder.start();this.started=this.ports.now();this.ports.phase('recording')}catch(e){if(generation!==this.generation)return;this.release();this.ports.phase('error',e instanceof Error&&e.name==='NotAllowedError'?'麦克风权限被拒绝。请在浏览器网站权限中允许后重试。':'麦克风不可用，请检查设备或浏览器权限。')}}
+ stop(){const recorder=this.recorder;if(recorder?.state==='recording'){try{recorder.stop()}catch{this.cancel();this.ports.phase('error','录音无法停止，请重新录制。')}}}
+ cancel(){this.generation++;if(this.recorder){this.recorder.ondataavailable=null;this.recorder.onstop=null;this.recorder.onerror=null;try{if(this.recorder.state==='recording')this.recorder.stop()}catch{}}this.release()}
+ private release(){this.stream?.getTracks().forEach(t=>t.stop());this.stream=null;this.recorder=null}
+}

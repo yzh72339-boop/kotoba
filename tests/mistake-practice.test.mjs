@@ -1,0 +1,7 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {initialState} from '../lib/store.ts';
+import {alternativeGrammarExercise} from '../lib/mistake-practice.ts';
+import {loadDocuments} from '../scripts/content-files.mjs';
+const g=(await loadDocuments()).find(g=>g.kind==='grammar'&&g.exercises.some(e=>e.options));const original=g.exercises.find(e=>e.options);const mistake={id:'mistake',language:g.language,area:'grammar',source:`Grammar: ${g.title}`,original:original.options.find(x=>!original.acceptedAnswers.includes(x)),correction:original.acceptedAnswers[0]};
+test('alternate exercises stay in the same verified grammar and language, retain answer mapping, and fall back explicitly',()=>{const state=structuredClone(initialState);state.notes['mistake-question-mistake']=JSON.stringify({grammarId:g.id,questionId:original.id});const selected=alternativeGrammarExercise(state,g,mistake);assert.ok(selected.alternative);assert.notEqual(selected.exercise.id,original.id);assert.equal(selected.grammarId,g.id);assert.ok(selected.exercise.acceptedAnswers.every(a=>selected.exercise.options.includes(a)));const fallback=alternativeGrammarExercise(state,{...g,exercises:[original]},mistake);assert.equal(fallback.alternative,false);assert.equal(fallback.exercise.id,original.id);assert.equal(alternativeGrammarExercise(state,g,{...mistake,language:g.language==='ja'?'en':'ja'}),null)});

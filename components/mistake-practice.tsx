@@ -1,0 +1,15 @@
+'use client';
+import {useEffect,useRef,useState} from 'react';
+import {useStudy} from './study-context';
+import {Button} from './ui/button';
+import {Dialog} from './ui/dialog';
+import {fetchCatalog,fetchDocument} from '@/lib/content-library/client';
+import {alternativeGrammarExercise} from '@/lib/mistake-practice';
+import {createMistake} from '@/lib/learning-memory';
+import type {Mistake} from '@/lib/store';
+export function MistakePractice({mistake,onClose}:{mistake:Mistake;onClose:()=>void}){
+ const {state,setState,record}=useStudy();const [selected,setSelected]=useState<ReturnType<typeof alternativeGrammarExercise>>(null),[loading,setLoading]=useState(true),[error,setError]=useState(''),[answer,setAnswer]=useState(''),[checked,setChecked]=useState(false),[saved,setSaved]=useState(false);const lock=useRef(false),stateRef=useRef(state);stateRef.current=state;
+ useEffect(()=>{const c=new AbortController();void fetchCatalog(c.signal).then(async entries=>{const g=entries.find(e=>e.kind==='grammar'&&e.language===mistake.language&&mistake.source===`Grammar: ${e.title}`);if(!g)throw new Error('未找到具有可靠答案的关联课程，请回顾已保存的原答案，暂不自动出题。');const doc=await fetchDocument(g.id,c.signal);if(!c.signal.aborted&&doc.kind==='grammar')setSelected(alternativeGrammarExercise(stateRef.current,doc,mistake))}).catch(e=>{if(!c.signal.aborted)setError(e instanceof Error?e.message:'课程读取失败。')}).finally(()=>{if(!c.signal.aborted)setLoading(false)});return()=>c.abort()},[mistake]);
+ function submit(){if(lock.current||!selected||!answer)return;lock.current=true;setChecked(true);const e=selected.exercise;if(e.options&&!e.acceptedAnswers.includes(answer)){const m={...createMistake(mistake.language,'grammar',mistake.pattern,answer,e.acceptedAnswers[0],mistake.source),id:crypto.randomUUID()};setState(s=>s.mistakes.some(x=>x.id===m.id)?s:{...s,mistakes:[...s.mistakes,m],notes:{...s.notes,['mistake-question-'+m.id]:JSON.stringify({grammarId:selected.grammarId,questionId:e.id,prompt:e.prompt,explanation:e.explanation})}})}}
+ return <Dialog open onOpenChange={v=>{if(!v)onClose()}} title="同知识点巩固" sheet>{loading?<p role="status">读取已有审核题目…</p>:error?<p role="alert">{error}</p>:selected&&<><p className="subtle">{selected.alternative?'同一语法专题的另一道题。':'未找到可靠替代题，回顾本知识点已有题目。'}</p><h3>{selected.exercise.prompt}</h3>{selected.exercise.options?<div className="quiz-options">{selected.exercise.options.map(option=><button key={option} disabled={checked} aria-pressed={answer===option} onClick={()=>setAnswer(option)}>{option}</button>)}</div>:<><p className="subtle">开放表达按参考答案自评，其他合理表达不判为语言错误。</p><textarea className="input" value={answer} onChange={e=>setAnswer(e.target.value)}/></>}<Button disabled={!answer.trim()||checked} onClick={submit}>提交并查看解释</Button>{checked&&<div role="status"><p>你的答案：{answer}</p><p>参考答案：{selected.exercise.acceptedAnswers.join(' / ')}</p><p>{selected.exercise.explanation}</p><Button disabled={saved} onClick={()=>{if(saved)return;setSaved(true);record('Practice',1,mistake.language,'mistake-practice-'+mistake.id+'-'+selected.exercise.id)}}>{saved?'本次练习已记录':'完成这次巩固'}</Button></div>}</>}</Dialog>;
+}

@@ -1,4 +1,12 @@
-> 当前源码 **2.7.2**；先读 KOTOBA-2.7-CLOSEOUT.md / CURRENT-STATUS.md / Kotoba-Development-Plan-2026-10-12.md。已有 927 词汇、154 语法、66 阅读和 182 项 Node 测试。保留 migrations 001–011、Auth/RLS、SRS、同步及全部旧 ID；真实设备/owner/跨设备验收未完成。
+# Current continuation: 2.9 preview
+
+Read CURRENT-STATUS.md and KOTOBA-2.9-IMPLEMENTATION.md first. Current source is feature/2-9-personal-materials, based on local 2.8.1 checkpoint 4b0a5a1; last confirmed live website remains 2.8.0/version25. New 012 is **not** on production. Preserve 001–011 and all prior data; no automatic production SQL. Context creation is capability-gated until 012. Raw migration is single-use; dashboard deployment wrapper safely skips an identical recorded 012.
+
+Four code batches now exist: personal-materials (notes/snapshots), personal-context (existing SRS + additive projector), listening-workspace (verified device voices, self-recall, local recording/blob isolation), budget-plan (transparent budgets and pins). 204 Node tests and disposable PostgreSQL pass. Chromium emulation fixtures never represent owner/RLS/device acceptance; synthetic microphone WAV tests are not language audio. No new real audio files were shipped. New personal content is separately counted from 927 vocabulary /154 grammar /70 reading.
+
+Next exact dependency: user executes only supabase/dashboard/012_deploy.sql then 012_verify.sql; inspect real result before owner/second-device checks. Continue physical Android/iOS/PWA/voice/media acceptance. Do not silently promote preview to complete 2.9, deploy old migrations, rewrite SRS, clear data or count imports toward 1,260 grammar/590 reading targets. Full gap 1,626 remains.
+
+> 当前源码 **2.8.1**；先读 N2-CONTENT-BATCH-03.md / CURRENT-STATUS.md / Kotoba-Development-Plan-2026-10-12.md。已有 927 词卡、154 语法、70 阅读；保留 migrations 001–011、Auth/RLS、SRS、同步、全部旧 ID 与用户记录。真实设备/owner/跨设备验收未完成；以下历史版本说明以当前状态与实际代码为准。
 
 # CODEX HANDOFF — 必读执行指令
 

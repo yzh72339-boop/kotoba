@@ -1,0 +1,17 @@
+import type {AppState} from './store';
+import type {Language} from './content';
+import {coursePack} from './course-library';
+import {personalMaterials,materialSnapshot,materialParagraphs,materialSentences} from './personal-materials';
+export type ListeningUnit={id:string;title:string;language:Language;level:string;source:string;sentences:{text:string;translation:string}[];materialId?:string;snapshotId?:string};
+export function listeningUnits(state:AppState,language=state.profile.language):ListeningUnit[]{
+ const episodes=[...new Map([state.profile.language===language?state.profile.level:state.languageProfiles[language].level,...(language==='ja'?['N5','N4']:['A1','A2'])].flatMap(level=>coursePack(language,level).episodes).map(e=>[e.id,e])).values()];
+ const personal=personalMaterials(state,language).flatMap(m=>{const snapshot=materialSnapshot(state,m);if(!snapshot)return [];return [{id:'listen-'+snapshot.id,title:m.title,language,level:m.level??'等级未评估',source:'个人原文 v'+snapshot.version+'；设备朗读或用户附加音频，无自动时间对齐',materialId:m.id,snapshotId:snapshot.id,sentences:materialParagraphs(snapshot).flatMap(p=>materialSentences(p.text,language).map(sentence=>({text:sentence.text,translation:''})))}]});
+ return [...personal,...episodes.map(e=>({id:e.id,title:e.title,language,level:e.level,source:'Kotoba 原创课程文字与已有人工译文；设备语音朗读，无真人录音',sentences:e.lines}))];
+}
+export function matchingVoice<T extends {lang:string;name:string;localService:boolean}>(voices:T[],language:Language){return voices.find(v=>v.lang.toLowerCase().split(/[-_]/u)[0]===language)??null}
+export type ListeningActivity={id:string;unitId:string;language:Language;kind:'playback'|'recall';seconds:number;at:number;index:number;rating?:'again'|'good'};
+export function addListeningActivity(state:AppState,event:ListeningActivity):AppState{const key='personal-listening-event-'+event.id;if(state.notes[key])return state;return {...state,notes:{...state.notes,[key]:JSON.stringify(event)}}}
+export function listeningActivity(state:AppState,language=state.profile.language):ListeningActivity[]{return Object.entries(state.notes).filter(([key])=>key.startsWith('personal-listening-event-')).flatMap(([,value])=>{try{const e=JSON.parse(value);return e.language===language&&['playback','recall'].includes(e.kind)&&typeof e.id==='string'&&typeof e.unitId==='string'&&Number.isFinite(e.at)&&Number.isFinite(e.seconds)&&e.seconds>=0&&e.seconds<=86400&&Number.isInteger(e.index)&&e.index>=0?[e]:[]}catch{return []}})}
+export function mediaStorageKey(project:string,userId:string,mediaId:string){if(!userId||!/^[a-z0-9-]+$/i.test(mediaId))throw new Error('Private media identity required');return 'kotoba-local-media:'+encodeURIComponent(project)+':'+userId+':'+mediaId}
+export type LocalMedia={id:string;unitId:string;language:Language;kind:'recording'|'attachment';seconds:number;mime:string;bytes:number;at:number;title:string;scope:'device-only'};
+export function localMediaManifest(state:AppState):LocalMedia[]{return Object.entries(state.notes).filter(([key])=>key.startsWith('personal-media-')).flatMap(([key,value])=>{try{const m=JSON.parse(value);return m.id===key.slice('personal-media-'.length)&&/^[a-z0-9-]+$/i.test(m.id)&&typeof m.unitId==='string'&&['ja','en'].includes(m.language)&&['recording','attachment'].includes(m.kind)&&m.scope==='device-only'&&Number.isFinite(m.seconds)&&m.seconds>=0&&Number.isFinite(m.bytes)&&m.bytes>0&&typeof m.mime==='string'?[m]:[]}catch{return []}})}

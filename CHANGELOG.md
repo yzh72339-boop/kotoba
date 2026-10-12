@@ -1,4 +1,21 @@
+# 2.9.0-preview.1 (2026-10-12)
+
+- Personal UTF-8 import with manual metadata, duplicate choice, immutable versions, paragraph anchors and reader reuse.
+- Context cards preserve original expression/meaning/snapshot and share existing SRS. Edit/pause/archive retains history. Additive 012 is prepared and locally tested, not production-deployed.
+- Existing grammar mistakes link to reliable same-point exercises; missing alternatives explicitly fall back.
+- Listening workspace checks device voices, plays/loops real text, supports original recall and account-scoped local microphone recording/playback/delete; private audio attachments have real format/duration checks. No fake audio alignment or pronunciation scoring.
+- Budget tasks preserve identity/progress/backlog under adjustments; JSON restore includes metadata and explicitly reports missing media; separate media manifest/download provided.
+- 204 Node tests, type/lint/build/audits and mobile emulation pass; real owner/device/production/second-device verification remains pending. Preview only.
+
 # Changelog
+
+## 2.8.1 — 2026-10-12
+
+- Add two original N2 reading units for strong inference / subjective conviction and concession / explanatory cause / regretted consequence; link five retained grammar course IDs.
+- Add ten explained contrast exercises, keeping all five original exercises and four examples per course. Existing questions/answers and all 927 vocabulary cards remain hash-guarded; collect 18 distinct existing contextual cards across these articles.
+- Content totals: 154 grammar / 70 readings; N2 54 / 19; 144 linked grammar topics, 10 unlinked, and a 1,626-document full-target gap. Per-grade phase coverage remains met.
+- Expand the existing linked-course regressions across ten grammar topics and four articles; retain daily pinning, unfinished reading, scope parking, source/mistake idempotency, answer mapping and SRS identity. Extend the isolated mobile batch runner to the new units, including offline-label assertions.
+- Keep the UI, owner/Auth/RLS, migrations 001–011, state/sync architecture, SRS scheduling and dependencies unchanged. Version/worker metadata use 2.8.1.
 
 ## 2.8.0 — 2026-10-12
 
