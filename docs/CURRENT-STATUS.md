@@ -1,3 +1,13 @@
+# V2.7.1 — N2 practical content batch (2026-10-12)
+
+Current totals: **927 vocabulary cards / 154 complete grammar topics / 66 readings**. This batch adds 40 distinct N2 words, four N2 grammar topics and four linked readings. Every new word has an actual occurrence in its associated reading; each unit has five explained grammar questions and five explained comprehension questions. N2 totals: **210 / 54 / 15**. The original 667 and prior 220 contextual cards retain their IDs and payloads.
+
+180 Node tests, TypeScript, Lint, content/vocabulary audits and production build pass. Current mobile and publication evidence is recorded in the batch checkpoint/external delivery, distinct from earlier 2.7 validation. Real owner/device/second-device/installed-PWA acceptance remains unverified. No production SQL, Auth/RLS/SRS or sync changes.
+
+See [N2 batch checkpoint](N2-CONTENT-BATCH-01.md). The following checkpoints are historical.
+
+---
+
 # V2.7 — current source checkpoint (2026-10-09)
 
 Package 2.7.0; branch feature/kotoba-2-7. Silver/graphite/blue is the only current visual system. **887 vocabulary cards (+220), 150 grammar, 62 readings (+2)**. Every supported grade meets the phase minimum. Full curriculum still lacks 1,638 documents; vocabulary is not exhaustive.
