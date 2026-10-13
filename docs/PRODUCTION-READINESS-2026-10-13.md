@@ -2,7 +2,7 @@
 
 - User supplied successful real SQL Editor migration 012 verification: recorded, owner RLS/policy, readiness function, unified target, prior projector and vocabulary uniqueness; problems empty; private helpers hidden. See PRODUCTION-MIGRATION-012-EVIDENCE.json. No SQL was executed by this environment.
 - Read-only live Publishable Key probe reached Supabase Data API and Auth. Anonymous vocabulary read denied with PostgreSQL 42501. Google provider enabled; global signup disabling not confirmed by the Auth settings response. Existing owner signup guard/RLS are retained; this probe does not prove full registration behavior.
-- Local implementation, 205 tests, type/lint/build and prior browser emulation evidence remain unchanged; reuse the verified static export.
+- Local implementation, 206 tests, type/lint/build and prior browser emulation evidence remain unchanged; reuse the verified static export.
 - Sites publication follows this checkpoint; inspect the native deployment receipt for actual status/version. Preserve existing custom audience.
 - Still pending: actual owner login and context-card write/review/readback, unauthorized-account rejection, physical Android/iOS/PWA and second-device consistency.
 
@@ -15,3 +15,5 @@
 5. Offline test: cached text/card → one review → reconnect → one cloud history entry; confirm trustworthy save/sync labels.
 
 Report failures with the on-screen message; do not share passwords, tokens or secret keys in chat. No old migrations should be rerun.
+
+A local scope regression was fixed before final publication: article/budget reviews do not inherit an unfinished or completed daily plan card filter, and cannot advance that daily session. No scheduling/state protocol changes.
