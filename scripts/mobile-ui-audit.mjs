@@ -26,7 +26,9 @@ async function setup(width,{dark=false,motion='no-preference',video=false,worker
  const stamp=Date.now();for(const key of ['profile/name','profile/level','profile/onboarded','profile/timezone','theme','languageProfiles/ja'])snapshot._clock[key]=stamp;
  await context.route(`https://${backendHost}/**`,async route=>{
   const url=new URL(route.request().url()),path=url.pathname;let data;
-  if(path.endsWith('/is_private_owner')||path.endsWith('/content_library_ready')||path.endsWith('/personal_context_ready'))data=true;
+  if(path.endsWith('/is_private_owner')||path.endsWith('/has_learning_access')||path.endsWith('/content_library_ready')||path.endsWith('/personal_context_ready'))data=true;
+  else if(path.endsWith('/beta_signup_status'))data={enabled:false,open:false,total:10,remaining:10};
+  else if(path.endsWith('/beta_admin_accounts'))data={status:{enabled:false,open:false,total:10,remaining:10},accounts:[]};
   else if(path.endsWith('/get_private_account'))data={profile:{id,display_name:'Learner',native_language:'zh-CN',timezone:'Asia/Tokyo',daily_goal_minutes:20,preferred_explanation_level:'normal',theme:dark?'dark':'light',updated_at:at},languages:['ja','en'].map(language=>({user_id:id,language_code:language,current_level:language==='ja'?'N2':'B1',target_level:null,primary_language:language==='ja',learning_goal:'日常交流',interests:[],updated_at:at})),progress:{revision,state:snapshot}};
   else if(path.endsWith('/sync_personal_state')){snapshot=route.request().postDataJSON().p_state;data={applied:true,revision:++revision,state:snapshot};}
   else if(path==='/functions/v1/ai-tutor')return route.fulfill({status:503,contentType:'application/json',body:JSON.stringify({error:'AI intentionally unavailable in isolated UI QA'})});

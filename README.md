@@ -1,3 +1,15 @@
+# Kotoba V2.9.1 Limited Beta
+
+Email/password registration, confirmation/recovery, ten ordinary-user seats and compatible multi-user learning isolation are implemented. The original administrator UUID and learning records are preserved and excluded from the ten seats. **Production registration is not open or verified.** 013 starts closed; CAPTCHA, Auth Hook, SMTP and hosted multi-user checks require the staged setup.
+
+Run `npm ci`, copy `.env.example` to ignored `.env.local` and configure only public build values. `npm run dev`; production static export: `npm run build` → `out/`. Never put server secrets in public environment variables or Git.
+
+Checks: `npm run typecheck`, `npm run lint`, `npm test`, `npm run content:audit`, `npm run build`. Disposable Docker checks: `npm run test:beta:backend` and `npm run test:beta:auth`. Browser fixtures: `npm run qa:beta:mobile` against a loopback dev server with a public hCaptcha test Site Key; they are not live security proof.
+
+See [actual acceptance and remaining work](docs/LIMITED-BETA-ACCEPTANCE.md) and [one-stage-at-a-time deployment/rollback](docs/LIMITED-BETA-DEPLOYMENT.md). Do not replay 001–012. Existing content: 927 vocabulary / 154 grammar / 70 reading; full expansion remains pending. Prior owner-only/version notes below are historical.
+
+---
+
 # Kotoba 2.9 preview
 
 **2026-10-13 update recovery fix:** preview build names are recognized in Settings and the standalone updater. Build/auth/HTTP/installation failures no longer all say to reconnect. Confirmed activation keeps existing learning storage; see [verification and phone acceptance limits](docs/UPDATE-RECOVERY-2026-10-13.md).

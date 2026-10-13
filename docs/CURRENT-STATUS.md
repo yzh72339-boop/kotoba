@@ -1,3 +1,13 @@
+# Current: V2.9.1 Limited Beta implementation — 2026-10-13
+
+Branch `feature/2-9-1-limited-beta`, based on 2.9 preview. Email/password/confirmation/recovery, max ten ordinary accounts excluding trusted original admin UUID, atomic admission/deletion, multi-user RLS and local/queue isolation are implemented. Migration 013 is additive and defaults closed; 001–012 are unchanged. No production SQL/Auth/provider setting was modified.
+
+216 Node tests, typecheck, zero-warning lint, disposable PG and real local GoTrue/SMTP concurrency/rollback/recovery tests pass. 360/390/430px account-flow simulation passes. Final build/compiled learning/PWA evidence is in delivery reports. Production owner/RLS, SMTP/CAPTCHA, second device, physical mobile/PWA and paid AI remain unverified. Read [acceptance](LIMITED-BETA-ACCEPTANCE.md) and [staged setup](LIMITED-BETA-DEPLOYMENT.md); current manual breakpoint is original admin continuity + 013 deploy/verify only. Latest hosting receipt, not older historical text, defines the deployed site version.
+
+Content unchanged: 927 cards /154 grammar /70 reading. Prior checkpoints below are historical.
+
+---
+
 # Update recovery checkpoint — 2026-10-13
 
 Fixed rejection of `2.9.0-preview.1` build IDs in the standalone updater and Settings, plus misleading blanket network errors. 209 Node tests, type/lint/build and real-worker loopback Chromium update flows at 360/390/430px pass, including explicit confirmation, other-window blocking and retained storage/download fixtures. No production SQL or learning protocol changed. The exact new production version comes from the native deployment receipt. Physical owner/PWA acceptance remains pending. See [update recovery evidence and next check](UPDATE-RECOVERY-2026-10-13.md).

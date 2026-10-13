@@ -1,4 +1,5 @@
 import {calendarDay,sessionDay,shiftDay} from './study-calendar';
+import {learningFallbackKey} from './storage-identity';
 import type {Language,Word} from './content';
 import type {Review,Rating} from './srs';
 import type {DailySession} from './daily-session';
@@ -18,7 +19,7 @@ export type AppState={version:2;activeSession:DailySession|null;profile:Profile;
 export const initialState:AppState={version:2,activeSession:null,profile:{name:'Alex',language:'ja',level:'N3',goal:'日常交流',dailyGoal:20,onboarded:false},languageProfiles:{ja:{level:'N3',goal:'日常交流',interests:['日常生活','旅行']},en:{level:'B1',goal:'日常交流',interests:['日常生活','文化']}},reviews:{},reviewHistory:[],saved:[],notes:{},completed:[],sessions:[],theme:'light',conversations:[],dictionary:{},sentences:[],mistakes:[],readingPositions:{},listeningPositions:{},audioFiles:{},speakingHistory:[],dailyPlans:{},settings:{audioRate:1,notifications:false,dailyReminder:false,reviewReminder:false,weeklyReport:false,autoBackup:false},_clock:{},_deleted:{}};
 export const STORAGE_KEY='kotoba.v1';
 export function migrateState(value:unknown):AppState{if(!value||typeof value!=='object')return structuredClone(initialState);const p=value as Omit<Partial<AppState>,'version'>&{version:number};if(p.version!==1&&p.version!==2)return structuredClone(initialState);const state={...structuredClone(initialState),...p,version:2 as const,profile:{...initialState.profile,...p.profile},settings:{...initialState.settings,...p.settings},languageProfiles:{...initialState.languageProfiles,...p.languageProfiles}};if(p.version===1){state.languageProfiles[state.profile.language]={...state.languageProfiles[state.profile.language],level:state.profile.level,goal:state.profile.goal};state.conversations=(p.conversations??[]).map((m,i)=>({...m,id:m.id??`legacy-chat-${i}`,at:m.at??0,language:m.language??state.profile.language}));}return state;}
-export function loadState():AppState{try{return migrateState(JSON.parse(localStorage.getItem(STORAGE_KEY)||'null'))}catch{return structuredClone(initialState)}}
+export function loadState():AppState{try{return migrateState(JSON.parse(localStorage.getItem(learningFallbackKey())||'null'))}catch{return structuredClone(initialState)}}
 export function today(timeZone?:string,now=Date.now()){return calendarDay(now,timeZone);}
 export function minutesToday(s:AppState,now=Date.now()){const day=today(s.profile.timezone,now);return s.sessions.filter(x=>sessionDay(x,s.profile.timezone)===day).reduce((sum,x)=>sum+x.minutes,0);}
 export function streak(s:AppState,now=Date.now()){const days=new Set(s.sessions.filter(x=>x.minutes>0||x.count>0).map(x=>sessionDay(x,s.profile.timezone)));let count=0;let day=today(s.profile.timezone,now);if(!days.has(day))day=shiftDay(day,-1);while(days.has(day)){count++;day=shiftDay(day,-1)}return count;}

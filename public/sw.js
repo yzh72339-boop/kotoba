@@ -1,5 +1,5 @@
 /* Build rewrites this version and app asset list. Private API responses are never cached. */
-const VERSION='kotoba-2.9.0-preview.1-dev';
+const VERSION='kotoba-2.9.1-dev';
 const SHELL=VERSION+'-shell',CONTENT=VERSION+'-content',DOWNLOADS='kotoba-personal-downloads';
 const PRECACHE=['/','/manifest.webmanifest','/icons/icon-192.png','/icons/icon-512.png','/icons/maskable-512.png','/cafe-editorial.svg','/images/reading-japan.jpg'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(SHELL).then(cache=>cache.addAll(PRECACHE))));
@@ -15,10 +15,9 @@ async function cacheFirst(request,cacheName){const cache=await caches.open(cache
 async function staleWhileRevalidate(request){const cache=await caches.open(CONTENT),hit=await cache.match(request);const fresh=fetch(request).then(response=>{if(response.ok)void cache.put(request,response.clone());return response});if(hit){fresh.catch(()=>{});return hit}return fresh;}
 self.addEventListener('fetch',e=>{const request=e.request,url=new URL(request.url);if(request.method!=='GET'||url.origin!==self.location.origin)return;
  // OAuth, Supabase, AI, signed audio URLs and user progress are network-only here.
- if(url.pathname.startsWith('/api/')||url.pathname.includes('/auth/')||url.pathname.includes('/functions/')||['/signin-with-chatgpt','/signout-with-chatgpt','/callback'].includes(url.pathname)||['token','access_token','code','sb_flow_id','error','error_code','error_description'].some(key=>url.searchParams.has(key)))return;
+ if(url.pathname.startsWith('/api/')||url.pathname.includes('/auth/')||url.pathname.includes('/functions/')||/^\/(login|register)(\/|$)/.test(url.pathname)||url.pathname.startsWith('/downloads/')||['/signin-with-chatgpt','/signout-with-chatgpt','/callback'].includes(url.pathname)||['token','access_token','code','sb_flow_id','error','error_code','error_description'].some(key=>url.searchParams.has(key)))return;
  if(request.mode==='navigate'){e.respondWith(cacheFirst(new Request('/'),SHELL));return;}
  if(url.pathname.startsWith('/content/')){e.respondWith(staleWhileRevalidate(request));return;}
- if(url.pathname.startsWith('/downloads/')){e.respondWith(cacheFirst(request,DOWNLOADS));return;}
  if(url.pathname.startsWith('/_next/static/')||url.pathname.startsWith('/icons/')||url.pathname.startsWith('/images/')||url.pathname.endsWith('.svg')||url.pathname.endsWith('.webmanifest'))e.respondWith(cacheFirst(request,SHELL));
 });
 self.addEventListener('sync',e=>{if(e.tag==='kotoba-progress')e.waitUntil(self.clients.matchAll({type:'window'}).then(clients=>Promise.all(clients.map(client=>client.postMessage({type:'SYNC_REQUESTED'})))))});

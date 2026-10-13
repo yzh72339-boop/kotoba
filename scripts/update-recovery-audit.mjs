@@ -10,7 +10,7 @@ const output=process.env.UPDATE_AUDIT_DIR??'/workspace/deliverables/kotoba-recov
 const root=resolve('out');
 const compiled=await readFile(resolve(root,'sw.js'),'utf8');
 const target=compiled.match(/const VERSION=['"]([^'"]+)['"]/)?.[1];
-assert.match(target,/^kotoba-2\.9\.0-preview\.1-/);
+const packageInfo=JSON.parse(await readFile('package.json','utf8'));assert.ok(target.startsWith('kotoba-'+packageInfo.version+'-'));
 const old='kotoba-2.8.1-previousbuild';let served=old;
 const mime={'.js':'application/javascript','.css':'text/css','.webmanifest':'application/manifest+json','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.woff2':'font/woff2','.html':'text/html'};
 const server=createServer(async(req,res)=>{

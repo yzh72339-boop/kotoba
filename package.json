@@ -1,6 +1,6 @@
 {
   "name": "kotoba",
-  "version": "2.9.0-preview.1",
+  "version": "2.9.1",
   "private": true,
   "scripts": {
     "dev": "node scripts/check-public-environment.mjs development && next dev --hostname 0.0.0.0",
@@ -14,6 +14,9 @@
     "content:audit": "node --import tsx scripts/content-audit.mjs",
     "content:build": "node --import tsx scripts/build-content.mjs",
     "test:content:backend": "node --import tsx scripts/test-content-backend.mjs",
+    "test:beta:backend": "node --import tsx scripts/test-limited-beta-backend.mjs",
+    "test:beta:auth": "node --import tsx scripts/test-limited-beta-auth.mjs",
+    "qa:beta:mobile": "node --import tsx scripts/beta-mobile-audit.mjs",
     "vocabulary:audit": "node --import tsx scripts/vocabulary-audit.mjs"
   },
   "dependencies": {

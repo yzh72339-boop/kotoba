@@ -5,21 +5,9 @@ out/
 !.env.example
 *.tsbuildinfo
 qa-artifacts/
+output/
 *storage-state*.json
 *auth-state*.json
 supabase/.temp/
 
 public/content/library/
-
-# Private credentials and local user data
-.env.edge.local
-*.pem
-*.key
-backups/
-exports/
-recordings/
-.openai/
-supabase/dashboard/evidence/
-.DS_Store
-
-/node_modules

@@ -1,3 +1,13 @@
+# Current continuation: V2.9.1 Limited Beta — 2026-10-13
+
+Read LIMITED-BETA-ACCEPTANCE.md, LIMITED-BETA-DEPLOYMENT.md and CURRENT-STATUS.md first. Current feature is locally tested email/password + ten-seat multi-user admission. Preserve original admin UUID/legacy cache and all course/SRS/snapshot identities. Protected 001–012 are unchanged; only additive 013 is prepared, closed by default. Do not execute production SQL without staged admin continuity and real verification evidence.
+
+Atomic seat allocation occurs in the Auth INSERT transaction under a locked config row and finite unique seats; Hook is an early check without a reservation. Hard Auth deletion releases once by FK cascade; original admin deletion blocked. Never manually decrement/delete ledger entries, disable RLS, expose service keys or recreate the original admin. App/Edge rollback retains 013 data and fences.
+
+216 Node tests + local PostgreSQL/actual GoTrue/in-memory SMTP + mobile account fixtures pass; production/live devices still require setup and separate acceptance. Finish only the outstanding deployment/real acceptance in the checklist, not another auth or sync redesign. Generated source hash list accompanies this handoff; latest deployment receipt defines actual website version. Prior notes below are historical.
+
+---
+
 # Current update recovery checkpoint — 2026-10-13
 
 Read UPDATE-RECOVERY-2026-10-13.md. Recovery and Settings now accept preview build IDs and classify failures instead of claiming every failed check means offline. Current 209 Node tests and isolated real-worker mobile-width update tests pass. Next owner action: retry the independent update page; physical installed-PWA result remains unverified. No migrations or storage resets. Keep preview labeling and preserve the current Sites audience. Latest native deployment receipt is authoritative for the published source/build.
