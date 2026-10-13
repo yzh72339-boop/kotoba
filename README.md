@@ -1,5 +1,7 @@
 # Kotoba 2.9 preview
 
+**2026-10-13 update recovery fix:** preview build names are recognized in Settings and the standalone updater. Build/auth/HTTP/installation failures no longer all say to reconnect. Confirmed activation keeps existing learning storage; see [verification and phone acceptance limits](docs/UPDATE-RECOVERY-2026-10-13.md).
+
 **2026-10-13:** user supplied real 012 catalog verification with no problems; live read-only Data API/Auth connection confirmed. Owner write/SRS/two-device/PWA acceptance remains pending. Do not rerun migrations. See [production readiness](docs/PRODUCTION-READINESS-2026-10-13.md).
 
 A personal English/Japanese learning app, built on the existing Next.js/Supabase/PWA project. Current preview adds personal text import, versioned reading, manual context recall cards, listening/local shadowing, and 5/10/20-minute tasks. Existing learning records and qualified course IDs remain compatible.

@@ -1,3 +1,9 @@
+# 2.9.0-preview.1 update recovery — 2026-10-13
+
+- Recognize prerelease worker builds in Settings and standalone recovery; the deployed preview was wrongly rejected by the numeric-only validator.
+- Separate offline, login, unexpected HTML, invalid build, HTTP, timeout, installation and mismatched-worker failures. Keep explicit confirmation and other-window safety checks; no learning data reset.
+- 209 Node tests and bounded 360/390/430px real-worker Chromium update tests pass with retained isolated IndexedDB/session/download fixtures. Physical owner/PWA acceptance remains unverified; no migrations or dependency changes.
+
 # 2.9.0-preview.1 (2026-10-12)
 
 - Personal UTF-8 import with manual metadata, duplicate choice, immutable versions, paragraph anchors and reader reuse.

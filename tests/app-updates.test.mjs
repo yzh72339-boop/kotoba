@@ -34,6 +34,7 @@ test('learning state is saved before activation; storage failure prevents activa
 test('active build uses a bounded worker response and old workers time out safely',async()=>{
  const reply=version=>({postMessage:(_,ports)=>ports[0].postMessage({version})});
  assert.equal(await readAppBuild(reply('kotoba-2.5.2-abcdef012345')),'kotoba-2.5.2-abcdef012345');
+ assert.equal(await readAppBuild(reply('kotoba-2.9.0-preview.1-2c8b8fc75b33')),'kotoba-2.9.0-preview.1-2c8b8fc75b33');
  assert.equal(await readAppBuild(reply('not-a-build')),null);assert.equal(await readAppBuild({postMessage:()=>{}},5),null);
 });
 test('worker version message is read only and never skips waiting',()=>{
@@ -66,13 +67,13 @@ test('old cache exclusion reaches the independent update page and script over th
   let intercepted=false;handlers.fetch({request:{url:'https://kotoba.example.test'+path,method:'GET',mode:'navigate'},respondWith:()=>{intercepted=true}});assert.equal(intercepted,false);
  }
 });
-function recoveryPage(waitingVersion='kotoba-2.5.2-abcdef012345'){
+function recoveryPage(waitingVersion='kotoba-2.5.2-abcdef012345',options={}){
  const elements=new Map();for(const name of ['check','activate','confirmation','confirmed','status','build']){const element=new EventTarget();element.hidden=false;element.disabled=false;element.checked=false;element.textContent='';elements.set(name,element)}
  let activations=0,redirects=0;
- const build='kotoba-2.5.2-abcdef012345';
+ const build=options.build??'kotoba-2.5.2-abcdef012345';
  const waiting={postMessage:(data,ports)=>{if(data.type==='RECOVERY_UPDATE'){activations++;ports[0].postMessage({status:'blocked'})}else ports[0].postMessage({version:waitingVersion})}};
  const registration={waiting,installing:null,update:async()=>{}};
- vm.runInNewContext(readFileSync('public/api/app-update.js','utf8'),{document:{getElementById:name=>elements.get(name)},navigator:{onLine:true,serviceWorker:{register:async()=>registration}},MessageChannel,AbortSignal,setTimeout,clearTimeout,fetch:async()=>new Response(`const VERSION="${build}";`),location:{replace:()=>redirects++}});
+ vm.runInNewContext(readFileSync('public/api/app-update.js','utf8'),{document:{getElementById:name=>elements.get(name)},navigator:{onLine:options.online??true,serviceWorker:{register:async()=>{if(options.installError)throw new Error('registration rejected');return registration}}},MessageChannel,AbortSignal,setTimeout,clearTimeout,fetch:async()=>{if(options.fetchError)throw options.fetchError;return options.response??new Response(`const VERSION="${build}";`)},location:{replace:()=>redirects++}});
  const waitUntil=async predicate=>{for(let i=0;i<50&&!predicate();i++)await new Promise(resolve=>setTimeout(resolve,2));assert.ok(predicate())};
  return {elements,waiting,waitUntil,get activations(){return activations},get redirects(){return redirects}};
 }
@@ -89,5 +90,32 @@ test('independent update page waits for explicit confirmation and handles other 
 test('downloaded build mismatch never offers recovery activation',async()=>{
  const page=recoveryPage('kotoba-2.5.2-old');page.elements.get('check').dispatchEvent(new Event('click'));
  await page.waitUntil(()=>!page.elements.get('check').disabled);
- assert.equal(page.elements.get('activate').hidden,true);assert.equal(page.activations,0);assert.ok(page.elements.get('status').textContent.includes('检查未完成'));
+ assert.equal(page.elements.get('activate').hidden,true);assert.equal(page.activations,0);assert.ok(page.elements.get('status').textContent.includes('版本暂时不一致'));
+});
+test('preview build download is recognized without bypassing confirmation',async()=>{
+ const build='kotoba-2.9.0-preview.1-2c8b8fc75b33';const page=recoveryPage(build,{build});
+ page.elements.get('check').dispatchEvent(new Event('click'));await page.waitUntil(()=>!page.elements.get('check').disabled);
+ assert.equal(page.elements.get('activate').hidden,false);assert.equal(page.elements.get('activate').disabled,true);
+ assert.equal(page.elements.get('build').textContent,'服务器构建：2.9.0-preview.1-2c8b8fc75b33');assert.equal(page.activations,0);
+});
+test('invalid build is distinguished from offline and never offers activation',async()=>{
+ const page=recoveryPage(undefined,{build:'kotoba-not-a-version'});
+ page.elements.get('check').dispatchEvent(new Event('click'));await page.waitUntil(()=>!page.elements.get('check').disabled);
+ assert.match(page.elements.get('status').textContent,/没有有效构建标识/);assert.doesNotMatch(page.elements.get('status').textContent,/请保持联网/);
+ assert.equal(page.elements.get('activate').hidden,true);assert.equal(page.activations,0);
+});
+test('authentication, HTTP failure, timeout, installation and actual offline have separate recovery messages',async()=>{
+ for(const [options,expected] of [
+  [{response:new Response('',{status:401})},/需要网站登录/],
+  [{response:new Response('<!doctype html><html>Sign in</html>',{headers:{'content-type':'text/html'}})},/网页而不是更新文件/],
+  [{response:new Response('',{status:503})},/HTTP 503/],
+  [{fetchError:new DOMException('Timed out','TimeoutError')},/响应超时/],
+  [{installError:true},/未能安装更新文件/],
+  [{online:false},/浏览器报告当前离线/],
+  [{fetchError:new TypeError('Failed to fetch')},/不能确认手机离线/]
+ ]){
+  const page=recoveryPage(undefined,options);page.elements.get('check').dispatchEvent(new Event('click'));
+  await page.waitUntil(()=>!page.elements.get('check').disabled);assert.match(page.elements.get('status').textContent,expected);
+  assert.equal(page.elements.get('activate').hidden,true);assert.equal(page.activations,0);assert.equal(page.redirects,0);
+ }
 });

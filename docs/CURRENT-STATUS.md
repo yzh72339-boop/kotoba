@@ -1,3 +1,9 @@
+# Update recovery checkpoint — 2026-10-13
+
+Fixed rejection of `2.9.0-preview.1` build IDs in the standalone updater and Settings, plus misleading blanket network errors. 209 Node tests, type/lint/build and real-worker loopback Chromium update flows at 360/390/430px pass, including explicit confirmation, other-window blocking and retained storage/download fixtures. No production SQL or learning protocol changed. The exact new production version comes from the native deployment receipt. Physical owner/PWA acceptance remains pending. See [update recovery evidence and next check](UPDATE-RECOVERY-2026-10-13.md).
+
+The previous production checkpoint and older notes below are historical.
+
 # Production checkpoint — 2026-10-13
 
 Migration **012 catalog verification passed in real Supabase**, based on the user's SQL Editor result. Live read-only Data API/Auth connectivity also passed; anonymous vocabulary access is denied (42501). This does not verify authenticated owner writes, SRS replay or cross-device consistency. 2.9 remains a preview. Publication of the verified static export follows this checkpoint, preserving the existing custom audience. See [production evidence and current owner acceptance](PRODUCTION-READINESS-2026-10-13.md). No production SQL was executed here.

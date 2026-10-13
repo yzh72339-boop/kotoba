@@ -42,7 +42,7 @@ export async function readAppBuild(worker:ServiceWorker|null,timeoutMs=1500):Pro
   const timer=setTimeout(()=>finish(null),timeoutMs);
   channel.port1.onmessage=event=>{
    const version=event.data?.version;
-   finish(typeof version==='string'&&/^kotoba-[0-9.]+-[a-z0-9]+$/.test(version)?version:null);
+   finish(typeof version==='string'&&/^kotoba-\d+\.\d+\.\d+(?:-[0-9A-Za-z]+(?:[.-][0-9A-Za-z]+)*)?(?:\+[0-9A-Za-z]+(?:[.-][0-9A-Za-z]+)*)?-[a-z0-9]+$/.test(version)?version:null);
   };
   try{worker.postMessage({type:'GET_APP_VERSION'},[channel.port2])}catch{finish(null)}
  });

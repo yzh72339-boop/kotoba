@@ -1,3 +1,7 @@
+# Current update recovery checkpoint — 2026-10-13
+
+Read UPDATE-RECOVERY-2026-10-13.md. Recovery and Settings now accept preview build IDs and classify failures instead of claiming every failed check means offline. Current 209 Node tests and isolated real-worker mobile-width update tests pass. Next owner action: retry the independent update page; physical installed-PWA result remains unverified. No migrations or storage resets. Keep preview labeling and preserve the current Sites audience. Latest native deployment receipt is authoritative for the published source/build.
+
 # Current production checkpoint — 2026-10-13
 
 User supplied successful real migration 012 catalog verification. Do not run 001–012 again. Read PRODUCTION-READINESS-2026-10-13.md and PRODUCTION-MIGRATION-012-EVIDENCE.json. Live read-only Data API/Auth probes pass; anonymous vocabulary denied. Authenticated owner/card SRS/two-device/physical PWA acceptance remains pending. Keep 2.9 preview label. Sites publication status comes from the latest native receipt; preserve project and current custom audience. Prior 2026-10-12 “012 undeployed” notes below are historical.
