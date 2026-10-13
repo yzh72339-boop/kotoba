@@ -26,14 +26,14 @@ await new Promise(resolve=>server.listen(0,'127.0.0.1',resolve));
 const origin='http://127.0.0.1:'+server.address().port;
 await mkdir(output,{recursive:true});
 const report={scope:'Real workers on loopback; Chromium mobile emulation and isolated storage only. Not owner, physical Android/iOS or installed PWA.',build:target,checks:[],errors:[]};
-let browser;
+let browser,activePage;
 try{
  browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
  for(const width of [360,390,430]){
   served=old;
   const context=await browser.newContext({viewport:{width,height:844},reducedMotion:width===430?'reduce':'no-preference',colorScheme:width===390?'dark':'light'});
   context.on('page',page=>page.on('pageerror',error=>report.errors.push(error.message)));
-  const page=await context.newPage();await page.goto(origin+'/api/app-update.html');
+  const page=await context.newPage();activePage=page;await page.goto(origin+'/api/app-update.html');
   await page.evaluate(async()=>{await navigator.serviceWorker.register('/sw.js',{scope:'/',updateViaCache:'none'});await navigator.serviceWorker.ready});
   await page.waitForFunction(()=>navigator.serviceWorker.controller!==null);
   await page.evaluate(async()=>{
@@ -50,7 +50,16 @@ try{
   await page.locator('#confirmed').check();await page.locator('#activate').click();
   await page.waitForFunction(()=>document.querySelector('#status').textContent.includes('其他 Kotoba'));
   await page.screenshot({path:resolve(output,`blocked-${width}.png`),fullPage:true});
-  await other.close();await page.locator('#activate').click();
+  await other.close();
+  // Closing a page resolves before every worker observes its removal.
+  const workers=context.serviceWorkers();const waiting=workers[workers.length-1];
+  for(let attempt=0;attempt<50;attempt++){
+   const count=await waiting.evaluate(async()=> (await self.clients.matchAll({type:'window',includeUncontrolled:true})).length);
+   if(count===1)break;
+   if(attempt===49)throw new Error('Closed QA window remained in worker client list');
+   await page.waitForTimeout(20);
+  }
+  await page.locator('#activate').click();
   await page.waitForURL('**/#Settings');
   const state=await page.evaluate(async()=>{
    const db=await new Promise(resolve=>{const request=indexedDB.open('update-qa-learning');request.onsuccess=()=>resolve(request.result)});
@@ -71,7 +80,14 @@ try{
   await context.close();
  }
  assert.deepEqual(report.errors,[]);
-}catch(error){report.errors.push(error.message);throw error}
+}catch(error){
+ report.errors.push(error.message);
+ if(activePage&&!activePage.isClosed()){
+  report.failure=await activePage.evaluate(async()=>{const r=await navigator.serviceWorker.getRegistration();return {url:location.href,status:document.querySelector('#status')?.textContent,build:document.querySelector('#build')?.textContent,waiting:r?.waiting?.state,active:r?.active?.state,controller:navigator.serviceWorker.controller?.state}});
+  await activePage.screenshot({path:resolve(output,'failure.png'),fullPage:true});
+ }
+ throw error;
+}
 finally{
  await browser?.close();await new Promise(resolve=>server.close(resolve));
  await writeFile(resolve(output,'report.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));
