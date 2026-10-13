@@ -1,3 +1,17 @@
+# Current 2.9 checkpoint
+
+Personal import/context/listening/budget code is implemented as preview. Review KOTOBA-2.9-IMPLEMENTATION.md for scope. Next: production 012 read-only verification, actual owner/RLS/two-device checks, real Android/iOS installed PWA, ja/en voice availability and private media backup. Current listening uses original text/device voices or user attachments; human audio/scoring is not invented. Continue the existing content roadmap after acceptance; 927 vocabulary /154 grammar /70 reading, full grammar/reading gap 1,626. No production website update claimed from source commits alone.
+
+# 当前执行断点：2.8.1 N2 推断、让步与原因
+
+本批复用 5 个 N2 语法、增加 2 篇阅读和 10 道辨析题，连接 に違いない / に決まっている / にもかかわらず / ものだから / ばかりに。总量 927 词卡 / 154 语法 / 70 阅读，144 个语法有阅读关联，仍有 10 个未关联。完整目标仍缺 1626 个文档。见 [本批证据与限制](N2-CONTENT-BATCH-03.md)。
+
+下一批优先连接 N2 ざるを得ない / ほかない / どころか / どころではない / ずにはいられない，再连接 上に / にほかならない / っこない / ことなく，并补 N1 限りだ。复用旧 ID，分批原创阅读、辨析、手机接入与恢复验证，不重建引擎或迁移。真实 owner/实体手机/第二设备/安装版 PWA 与高级听力/AI 的服务验收单独推进。
+
+以下为历史断点。
+
+---
+
 # 当前执行断点：2.8.0 N2 关联课程首批
 
 已复用 5 个 N2 语法专题，新增 2 篇关联阅读、10 道辨析题。927 词汇 / 154 语法 / 68 阅读；139 个语法有阅读关联，15 个仍待连接。全等级首轮覆盖线已满足，完整目标仍缺 1628 个文档。2.8 尚未全部完成，见 [本批检查及下一断点](N2-CONTENT-BATCH-02.md)。

@@ -4,13 +4,14 @@ import {captureWord,captureSentence,createMistake,stableId} from '../learning-me
 import {learnGrammar} from './learning';
 import {readingDraft,saveReadingDraft} from './practice-state';
 import type {GrammarPoint,ReadingDocument} from './schema';
-export type ReadingSource={articleId:string;title:string;sentence:string;language:Language;legacy?:boolean;prompt?:string};
+export type ReadingSource={articleId:string;title:string;sentence:string;language:Language;legacy?:boolean;prompt?:string;snapshotId?:string;paragraphId?:string;version?:number};
 const sourcePrefix=(cardId:string)=>`reading-source-${cardId}--`;
 export function readingSources(state:AppState,cardId:string):ReadingSource[]{
  const sources:ReadingSource[]=[];
  for(const [key,text] of Object.entries(state.notes)){if(!key.startsWith(sourcePrefix(cardId)))continue;
   try{const value=JSON.parse(text);if(value.cardId!==cardId||!/^article-(ja|en)(?:-[a-z0-9-]+)?$/.test(value.articleId)||!['ja','en'].includes(value.language)||!value.articleId.startsWith(`article-${value.language}`)||typeof value.title!=='string'||!value.title.trim()||value.title.length>500||typeof value.sentence!=='string'||value.sentence.length>12000)continue;
-   sources.push({articleId:value.articleId,title:value.title,sentence:value.sentence,language:value.language,...(value.legacy===true?{legacy:true}:{}),...(typeof value.prompt==='string'?{prompt:value.prompt.slice(0,4000)}:{})});
+   const context=typeof value.snapshotId==='string'&&/^snapshot-[a-z0-9-]+$/.test(value.snapshotId)&&typeof value.paragraphId==='string'&&/^p-[a-f0-9]{32}$/.test(value.paragraphId)&&Number.isInteger(value.version)&&value.version>0?{snapshotId:value.snapshotId,paragraphId:value.paragraphId,version:value.version}:{};
+   sources.push({...context,articleId:value.articleId,title:value.title,sentence:value.sentence,language:value.language,...(value.legacy===true?{legacy:true}:{}),...(typeof value.prompt==='string'?{prompt:value.prompt.slice(0,4000)}:{})});
   }catch{}
  }return sources;
 }

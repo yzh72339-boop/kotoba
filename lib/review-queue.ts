@@ -1,3 +1,4 @@
+import {contextReviewCards} from './personal-context';
 import type {AppState} from './store';
 import type {Language,Word} from './content';
 import {levels} from './course-library';
@@ -14,7 +15,7 @@ export function reviewCards(state:AppState,language=state.profile.language):Word
  const mistakes=state.mistakes.filter(m=>m.language===language&&!m.resolved&&m.area!=='vocabulary').slice(-12).map(m=>({id:`sentence-mistake-${m.id}`,word:m.original,pronunciation:'Find a better expression',meaning:m.correction,example:m.correction,translation:m.pattern,tag:'Personal mistake practice'}));
  // Keep already learned cards available when the learner changes level.
  const learned=catalog(language).filter(w=>Boolean(state.reviews[w.id]));
- return [...new Map([...reviewContent(language,level),...learned,...personal,...learnedGrammarCards(state,language),...sentences,...mistakes].map(w=>[w.id,w])).values()];
+ return [...new Map([...reviewContent(language,level),...learned,...personal,...learnedGrammarCards(state,language),...contextReviewCards(state,language),...sentences,...mistakes].map(w=>[w.id,w])).values()];
 }
 export function reviewQueue(state:AppState,now=Date.now(),language=state.profile.language){
  return reviewCards(state,language).filter(w=>!state.reviews[w.id]||state.reviews[w.id].due<=now).sort((a,b)=>{

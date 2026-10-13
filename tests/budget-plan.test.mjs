@@ -1,0 +1,16 @@
+import {test} from 'node:test';
+import assert from 'node:assert/strict';
+import {initialState} from '../lib/store.ts';
+import {prepareMaterial,putMaterial,saveMaterialProgress} from '../lib/personal-materials.ts';
+import {budgetPlan,createBudgetPlan,putBudgetPlan,taskComplete,skipBudgetTask,replaceBudgetMaterial} from '../lib/budget-plan.ts';
+import {listeningUnits} from '../lib/listening-workspace.ts';
+import {parseBackup} from '../lib/backend/backup-schema.ts';
+import {exportJSON} from '../lib/export.ts';
+import {loadDocuments} from '../scripts/content-files.mjs';
+import {contentEntry} from '../lib/content-library/schema.ts';
+const catalog=(await loadDocuments()).map(d=>contentEntry(d));
+const p=await prepareMaterial({title:'My text',language:'ja',level:null,source:'Original',text:'毎朝、短い文章を読みます。\n\n気になった言葉をノートに書きます。'});
+const s=()=>putMaterial(structuredClone(initialState),p);
+test('5/10/20 budgets use transparent estimates without rescheduling overdue items or inventing unavailable audio',()=>{const state=s();state.reviews['course-ja-n3-1']={id:'course-ja-n3-1',due:1000,interval:1,ease:2.5,repetitions:1,lapses:0};const before=JSON.stringify(state.reviews);const sizes=[5,10,20].map(n=>{const plan=createBudgetPlan(state,catalog,n,[],10000,null);assert.ok(plan.tasks.reduce((a,t)=>a+t.minutes,0)<=n);assert.ok(!plan.tasks.some(t=>t.kind==='listening'));assert.match(plan.reason,/3张\/分钟/);return plan.tasks.length});assert.ok(sizes[0]<sizes[2]);assert.equal(JSON.stringify(state.reviews),before)});
+test('budget changes, refresh/export, crossing days and scope switches retain original task identity and completed progress',()=>{let state=s();let plan=createBudgetPlan(state,catalog,20,[],10000,null);state=putBudgetPlan(state,plan);state=saveMaterialProgress(state,p.material,p.snapshot.paragraphs[1].id,true,11000);const materialTask=plan.tasks.find(t=>t.kind==='material');assert.ok(taskComplete(state,plan,materialTask));plan=createBudgetPlan(state,catalog,5,[],10000+86400000);assert.equal(plan.id,budgetPlan(state).id);assert.ok(plan.tasks.some(t=>t.id===materialTask.id));state=putBudgetPlan(state,plan);state=parseBackup(exportJSON(state));assert.equal(budgetPlan(state).id,plan.id);state.profile.language='en';state.profile.level='B1';assert.equal(budgetPlan(state),null);state.profile.language='ja';state.profile.level=plan.level;assert.equal(budgetPlan(state).id,plan.id)});
+test('skip and replacement retain prior tasks; audio is scheduled only when actual capability is supplied',async()=>{let state=s(),plan=createBudgetPlan(state,catalog,20,[listeningUnits(state)[0].id],10000,null);assert.ok(plan.tasks.some(t=>t.kind==='listening'));state=putBudgetPlan(state,plan);const t=plan.tasks.find(t=>t.kind==='material');state=skipBudgetTask(state,t.id);state=putBudgetPlan(state,createBudgetPlan(state,catalog,20,[],11000));assert.equal(budgetPlan(state).tasks.find(x=>x.id===t.id)?.skipped,true);const q=await prepareMaterial({title:'Different',language:'ja',level:null,source:'Original',text:'別の原文。'});state=putMaterial(state,q);state=replaceBudgetMaterial(state,q.material.id);assert.ok(budgetPlan(state).retired.some(x=>x.id===t.id));assert.ok(budgetPlan(state).tasks.some(x=>x.contentId===q.material.id))});

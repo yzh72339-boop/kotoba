@@ -1,4 +1,5 @@
 'use client';
+import {BudgetPlanPanel} from './budget-plan';
 import Image from 'next/image';
 import {todayCourseProgress} from '@/lib/content-library/today-progress';
 import {useState,useEffect} from 'react';
@@ -58,7 +59,7 @@ export function Learn(){
    <div className="learn-session-bottom"><Button disabled={startingSession} onClick={()=>void startDailySession()}>{startingSession?'正在准备课程…':(inProgress||scopedSession(state))?'继续学习':'开始今日学习'}<ArrowRight size={18}/></Button>{inProgress&&<span className="learn-step-count">已完成 {completed} / {progress.steps.length} 步</span>}</div>
   </section>
   <button className="learn-due" onClick={()=>navigate('Review')}><Repeat2 size={19}/><span>{due?`${due} 张到期卡片 · 立即复习`:'复习队列 · 暂无到期卡片'}</span><ArrowRight size={18}/></button>
-  <DailyPlanPreview catalog={catalog}/><section className="learn-resources" aria-labelledby="learn-resources-title"><div className="learn-section-title"><h2 id="learn-resources-title">按内容学习</h2><span>{ja?'日本語':'English'} · {state.profile.level}</span></div>
+  <BudgetPlanPanel catalog={catalog??[]}/><DailyPlanPreview catalog={catalog}/><section className="learn-resources" aria-labelledby="learn-resources-title"><div className="learn-section-title"><h2 id="learn-resources-title">按内容学习</h2><span>{ja?'日本語':'English'} · {state.profile.level}</span></div>
    <div className="learn-module-grid">{modules.map(item=><button key={item.page} className="learn-module" onClick={()=>navigate(item.page,{legacy:item.legacy})}><span className="learn-module-icon"><item.icon size={21} strokeWidth={1.6}/></span><span className="learn-module-copy"><strong>{item.label}<small>{item.english}</small></strong><span>{item.detail}</span></span><ArrowRight className="learn-module-arrow" size={18}/></button>)}</div>
    {catalogError&&<div className="learn-catalog-error" role="status"><span>新资料目录暂未加载，基础课程仍可使用。</span><button onClick={()=>setReload(n=>n+1)}>重试</button></div>}
   </section>
@@ -80,7 +81,7 @@ function MobileToday({onSetup,catalog}:{onSetup:()=>void;catalog:ContentEntry[]}
   <LearningSaveStatus/>
   {(reading||nextReading)&&<section className="mobile-next"><SectionHeading title={reading?'继续阅读':'关联阅读'} aside={<button className="text-link" onClick={()=>navigate('Reading')}>查看全部 <ArrowRight size={14}/></button>}/><button className="linked-reading-row" onClick={()=>navigate('Reading',{content:reading?.id??nextReading?.id,legacy:reading?.legacy})}><span className="reading-cover-mini" aria-hidden="true">{ja?<Image src="/images/reading-japan.jpg" width={124} height={120} alt="" unoptimized/>:<BookOpen size={24}/>}</span><span><strong>{reading?.title??nextReading?.title}</strong><small>{readingLevel??'阅读'} · {reading?`已读 ${Math.round(reading.progress)}%`:`约 ${nextReading?.minutes} 分钟`}</small></span><ArrowRight size={18}/></button></section>}
   <section className="mobile-next"><SectionHeading title="按内容学习" aside={<span className="subtle">{state.profile.level}</span>}/>{[{name:'语法',detail:grammar?.title??'查看当前等级资料',icon:Type,page:'Grammar' as const,content:grammar?.id},{name:'听力',detail:'听读与跟读',icon:Headphones,page:'Listening' as const,content:undefined}].map(n=><button key={n.name} onClick={()=>navigate(n.page,n.content?{content:n.content}:undefined)}><span className="plan-icon"><n.icon size={19}/></span><div><strong>{n.name}</strong><small>{n.detail}</small></div><ArrowRight size={17}/></button>)}</section>
-  <DailyPlanPreview catalog={catalog}/>
+  <BudgetPlanPanel catalog={catalog??[]}/><DailyPlanPreview catalog={catalog}/>
   <section className="mobile-week"><SectionHeading title="本周学习"/><div className="week-dots">{days.map((day,i)=><div key={day}><span className={state.sessions.some(s=>sessionDay(s,state.profile.timezone)===day)?'filled':''}/><small>{['一','二','三','四','五','六','日'][i]}</small></div>)}</div></section>
   {!state.profile.onboarded&&<button className="mobile-setup-link" onClick={onSetup}>设置学习目标 <ArrowUpRight size={16}/></button>}
  </div>

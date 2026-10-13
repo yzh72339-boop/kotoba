@@ -16,7 +16,7 @@ export function unfinishedRun(s:AppState,run:ReviewRun,cards:Word[]):Word[]{cons
 // at the action boundary, so a React updater retry cannot duplicate history or statistics.
 export function applyCardRating(s:AppState,word:Word,rating:Rating,event:{id:string;sessionId:string;at:number;minutes:number;review:boolean;mistake:ReturnType<typeof createMistake>|null}):AppState{
  if(s.reviewHistory.some(e=>e.id===event.id))return s;
- const vocabularyWord=!word.id.startsWith('sentence-')&&!word.id.startsWith('grammar-');
+ const vocabularyWord=!word.id.startsWith('context-card-')&&!word.id.startsWith('sentence-')&&!word.id.startsWith('grammar-');
  const captured=vocabularyWord?captureWord(word.word,s.profile.language,event.review?'Review':'Vocabulary',word.meaning):null;
  const sentence=word.id.startsWith('sentence-')?{...captureSentence(word.id.startsWith('sentence-mistake-')?word.example:word.word,s.profile.language,word.id.startsWith('sentence-mistake-')?'Mistake practice':'Listening',word.id.startsWith('sentence-mistake-')?word.translation:word.meaning),id:word.id}:null;
  let next:AppState={...s,sessions:event.review?[...s.sessions,{id:event.sessionId,day:today(s.profile.timezone,event.at),minutes:Math.max(0,Math.round(event.minutes*60000)/60000),type:'Review',count:1,language:s.profile.language,at:event.at}]:s.sessions,reviews:{...s.reviews,[word.id]:schedule(s.reviews[word.id],word.id,rating,event.at)},reviewHistory:[...s.reviewHistory,{id:event.id,language:s.profile.language,cardId:word.id,rating,at:event.at}],dictionary:captured?{...s.dictionary,[word.id]:s.dictionary[word.id]??{...captured,id:word.id}}:s.dictionary,sentences:sentence&&!s.sentences.some(x=>x.id===sentence.id)?[...s.sentences,sentence]:s.sentences};
