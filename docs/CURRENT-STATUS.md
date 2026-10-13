@@ -1,3 +1,11 @@
+# Production checkpoint — 2026-10-13
+
+Migration **012 catalog verification passed in real Supabase**, based on the user's SQL Editor result. Live read-only Data API/Auth connectivity also passed; anonymous vocabulary access is denied (42501). This does not verify authenticated owner writes, SRS replay or cross-device consistency. 2.9 remains a preview. Publication of the verified static export follows this checkpoint, preserving the existing custom audience. See [production evidence and current owner acceptance](PRODUCTION-READINESS-2026-10-13.md). No production SQL was executed here.
+
+The 2026-10-12 notes below describe the prior checkpoint; their “012 not deployed” status is superseded by the evidence above.
+
+---
+
 # V2.9.0-preview.1 — personal study workspaces (2026-10-12)
 
 Personal UTF-8 text import/versioned reading, manual context cards in the existing SRS, listening/recording workspace and adjustable 5/10/20-minute tasks are implemented. This is a **preview**, not a declaration of complete production/device acceptance. Context creation requires additive migration **012**, which has only been tested in disposable PostgreSQL; historical 001–011 remain unchanged. Text imports work with existing snapshot storage. No AI scoring, streaming, auto-audio alignment or automatic recording uploads were added.

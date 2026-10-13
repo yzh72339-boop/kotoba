@@ -1,3 +1,5 @@
+> **2026-10-13 update:** the user's real 012 catalog result passed, and live anonymous Data API/Auth probes passed. Earlier “012 not deployed” statements below are historical. Authenticated owner CRUD/SRS and device acceptance remain unverified; consult PRODUCTION-READINESS-2026-10-13.md.
+
 # 2.9 preview — substantive personal study, 2026-10-12
 
 Current branch: `feature/2-9-personal-materials`. This is a reviewable preview, **not a declaration that 2.9 production/device acceptance is complete**. Last actual published site remains 2.8.0/version 25; local 2.8.1 was saved at 4b0a5a1 before this work. User-reported 2.8 completion is separate from the evidence below.
@@ -10,7 +12,7 @@ Current branch: `feature/2-9-personal-materials`. This is a reviewable preview, 
 4. Today/Learn → 5/10/20-minute budget → due enrolled cards, unfinished personal text, existing grammar/reading and actually available audio. Explicit estimates (3 reviews/min, ja 200 chars/min, en 140 words/min, existing lesson minutes, listening recall 2 min). Adjustment retains pinned identities/completed steps; skip/replace keep prior records. Backlog dates are unchanged. Current capability must be verified before listing an audio task.
 5. Existing JSON export/merge restore includes texts, versions, cards, SRS and event/media metadata. Settings exports a separate media manifest and individually downloads actual local files. Restore reports missing media. JSON export is **not** a full audio backup; attachments/recordings use project+owner-scoped local keys and never claim availability on a second device from metadata alone.
 
-## Database dependency: 012, not applied to production
+## Database dependency: 012 catalog verified by user (2026-10-13)
 
 Text materials/notes use existing 001–011. Context cards need additive `012_personal_context_cards`: existing `vocabulary` uniqueness cannot represent two senses independently, and the old projection only maps vocabulary/grammar/sentence SRS targets. Dropping that uniqueness would break existing upserts, so it stays unchanged.
 
@@ -18,7 +20,7 @@ Text materials/notes use existing 001–011. Context cards need additive `012_pe
 
 Production context-card creation is gated by `personal_context_ready`; offline creation requires a previously verified capability for this project/owner. Missing function, API cache ambiguity, auth, network and offline-unverified are distinguished. A browser fixture returning true is not deployment evidence.
 
-### Current manual deployment stage (one migration only)
+### Completed catalog deployment stage (historical instructions; do not rerun)
 
 1. Back up production using the existing export/backup workflow. Confirm actual ledger 001–011 (user supplied successful 011 verification); do not rerun them.
 2. Supabase project → **SQL Editor → New query**. Paste the **entire** `supabase/dashboard/012_deploy.sql`. Check project before **Run**. This wrapper is a transaction, checks prior tables/policies/scheduler/helper, records exact SQL, and skips a matching repeated deployment. Any failure rolls the whole transaction back.
@@ -43,7 +45,7 @@ Local tests and browser evidence are recorded in the current delivery report. Lo
 
 ## Remaining acceptance / exact continuation
 
-- Deploy and read-only verify **012** manually, then real owner/RLS CRUD and two-device retry tests. No production deployment claimed.
+- 012 deployment/catalog verification was supplied successfully by the user on 2026-10-13. Next: real owner/RLS CRUD and two-device retry tests. No production deployment claimed.
 - Test Android/iOS installed PWA, microphone permission/recording/replay, actual ja/en voices and offline voice support; attach real language audio where voices are unavailable. Verify media backup transfer/missing-file notices.
 - Expand reviewed listening comprehension with real audio/answer provenance when supplied; current personal listening uses truthful original recall/self-assessment.
 - Continue existing curriculum targets separately. Do not count personal imports as edited/qualified lessons.

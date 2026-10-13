@@ -1,5 +1,7 @@
 # Kotoba 2.9 preview
 
+**2026-10-13:** user supplied real 012 catalog verification with no problems; live read-only Data API/Auth connection confirmed. Owner write/SRS/two-device/PWA acceptance remains pending. Do not rerun migrations. See [production readiness](docs/PRODUCTION-READINESS-2026-10-13.md).
+
 A personal English/Japanese learning app, built on the existing Next.js/Supabase/PWA project. Current preview adds personal text import, versioned reading, manual context recall cards, listening/local shadowing, and 5/10/20-minute tasks. Existing learning records and qualified course IDs remain compatible.
 
 Run `npm ci`, configure the public Supabase URL/publishable key using `.env.example`, then `npm run dev` (or `npm run build` for the existing static hosting export). Server secrets never go in public environment variables. **Do not rerun historical database migrations.** Context cards require reviewed additive 012; text imports use existing snapshot sync. See [scope, safe deployment and acceptance boundaries](docs/KOTOBA-2.9-IMPLEMENTATION.md).

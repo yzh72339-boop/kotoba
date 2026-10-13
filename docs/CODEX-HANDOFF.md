@@ -1,3 +1,7 @@
+# Current production checkpoint — 2026-10-13
+
+User supplied successful real migration 012 catalog verification. Do not run 001–012 again. Read PRODUCTION-READINESS-2026-10-13.md and PRODUCTION-MIGRATION-012-EVIDENCE.json. Live read-only Data API/Auth probes pass; anonymous vocabulary denied. Authenticated owner/card SRS/two-device/physical PWA acceptance remains pending. Keep 2.9 preview label. Sites publication status comes from the latest native receipt; preserve project and current custom audience. Prior 2026-10-12 “012 undeployed” notes below are historical.
+
 # Current continuation: 2.9 preview
 
 Read CURRENT-STATUS.md and KOTOBA-2.9-IMPLEMENTATION.md first. Current source is feature/2-9-personal-materials, based on local 2.8.1 checkpoint 4b0a5a1; last confirmed live website remains 2.8.0/version25. New 012 is **not** on production. Preserve 001–011 and all prior data; no automatic production SQL. Context creation is capability-gated until 012. Raw migration is single-use; dashboard deployment wrapper safely skips an identical recorded 012.
