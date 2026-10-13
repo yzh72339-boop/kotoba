@@ -1,3 +1,13 @@
+# Production 013 and CAPTCHA build checkpoint — 2026-10-13
+
+User-supplied real 013 catalog/ledger verification passes: trusted admin UUID and configured password preserved, zero ordinary accounts, capacity ten, no drift, protected Hook ACLs, RLS enabled and registration closed. Read-only production aggregate RPC also returns HTTP 200, ten remaining seats and registration disabled. See PRODUCTION-MIGRATION-013-EVIDENCE.json. The Hook screenshot shows enabled/Postgres, but exact target was obscured; email confirmation is user-reported enabled. Do not replay any migration.
+
+The provided public hCaptcha Site Key is configured in ignored local build environment, not committed. Production build `kotoba-2.9.1-21724cfb3545` embeds the supplied public widget key; no hCaptcha Secret was received or stored. Registration remains closed. Next operational step after this frontend publication: privately configure hCaptcha Secret in Supabase Auth and enable CAPTCHA, then verify actual admin sign-in. Custom SMTP/non-team verification, Edge deployment, public hosting and genuine multi-user/device acceptance remain pending. Local widget tests are simulated and do not prove CAPTCHA service acceptance. Keep the original admin and all learning records.
+
+Previous checkpoints below are historical.
+
+---
+
 # Current continuation: V2.9.1 Limited Beta — 2026-10-13
 
 Read LIMITED-BETA-ACCEPTANCE.md, LIMITED-BETA-DEPLOYMENT.md and CURRENT-STATUS.md first. Current feature is locally tested email/password + ten-seat multi-user admission. Preserve original admin UUID/legacy cache and all course/SRS/snapshot identities. Protected 001–012 are unchanged; only additive 013 is prepared, closed by default. Do not execute production SQL without staged admin continuity and real verification evidence.

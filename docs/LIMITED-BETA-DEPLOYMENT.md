@@ -1,6 +1,6 @@
 # Kotoba 2.9.1 Limited Beta — staged deployment
 
-This is an additive upgrade from the actual 2.9 preview. **Production 013, Auth Hook, email delivery, CAPTCHA, Edge deployment and public hosting are not configured by local tests.** No production SQL has been executed here. Keep new registration closed until this checklist has real evidence. Do not rerun 001–012 or send any password/token/secret in chat.
+This is an additive upgrade from the actual 2.9 preview. **User-supplied real 013 verification now passes; do not rerun 013 or 001–012.** Hook enabled/Postgres and email confirmation are user-reported; exact Hook target, actual mail/CAPTCHA flows, Edge deployment and public hosting still require verification. No production migration or write was executed by the assistant. The public hCaptcha Site Key is supplied for the frontend build; its Secret stays only in Supabase. Keep new registration closed until this checklist has real evidence. Do not rerun 001–012 or send any password/token/secret in chat.
 
 ## Stage 1 — administrator continuity and 013 only
 

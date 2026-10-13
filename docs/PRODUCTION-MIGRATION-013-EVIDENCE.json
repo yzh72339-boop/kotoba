@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-13",
+  "source": "User-supplied result of 013_verify.sql in real Supabase SQL Editor",
+  "migration_013_verification": {
+    "maximum": 10,
+    "capacity": 10,
+    "slot_drift": false,
+    "private_buckets": 3,
+    "auth_insert_guard": true,
+    "hook_role_execute": true,
+    "ordinary_accounts": 0,
+    "public_tables_rls": true,
+    "registration_open": false,
+    "admin_delete_guard": true,
+    "private_tables_rls": true,
+    "owner_uid_preserved": true,
+    "hook_browser_execute": false,
+    "owner_email_confirmed": true,
+    "migration_013_recorded": true,
+    "ordinary_auth_accounts": 0,
+    "owner_password_configured": true,
+    "hook_browser_schema_access": false
+  },
+  "limits": "Catalog/ledger verification only; not login, CAPTCHA, SMTP, cross-user CRUD or concurrency acceptance",
+  "hook": "User screenshot shows Before User Created enabled/Postgres; exact schema/function obscured and needs confirmation",
+  "emailConfirmation": "User reports enabled; actual mail/confirmation flow not tested",
+  "assistantReadOnlyProbe": {
+    "scope": "Production anonymous read-only aggregate RPC via configured HTTP proxy; no account creation/private learning reads",
+    "status": 200,
+    "betaStatus": {
+      "open": false,
+      "total": 10,
+      "enabled": false,
+      "remaining": 10
+    }
+  }
+}
