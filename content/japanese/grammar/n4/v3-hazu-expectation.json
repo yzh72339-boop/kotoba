@@ -1,0 +1,142 @@
+{
+  "id": "grammar-ja-n4-hazu-expectation",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "v3-foundations-03",
+    "完整课程",
+    "N4"
+  ],
+  "title": "〜はずだ：根据依据作出预期",
+  "pattern": "〜はずだ：根据依据作出预期",
+  "meaningZh": "按已有根据，应该……",
+  "meaningEn": "an expectation based on known evidence",
+  "explanation": "はずだ表示说话人根据时间表、已知事实或常识得出的合理预期，而不是要求别人必须做某事。动词与い形容词用普通形直接接はず；な形容词用な、名词用の。预期可能后来被事实推翻，因此不能把はずだ当成已确认的事实。否定形式ないはずだ表示预期不会发生；はずがない则是强烈否定可能性，本课先学习前者。",
+  "usage": "适用于核对到达时间、营业安排或根据条件判断能否参加。",
+  "nuance": "应交代推断依据。请求或道义上的“应该”通常用建议、义务表达，而不是はずだ。",
+  "structure": [
+    "V普通形／い形容词普通形＋はずだ",
+    "な形容词＋な＋はずだ；名词＋の＋はずだ",
+    "Vない＋はずだ：预期不会……"
+  ],
+  "formation": [
+    "V普通形／い形容词普通形＋はずだ",
+    "な形容词＋な＋はずだ；名词＋の＋はずだ",
+    "Vない＋はずだ：预期不会……"
+  ],
+  "examples": [
+    {
+      "target": "時刻表では、電車は九時に着くはずです。",
+      "reading": "じこくひょうでは、でんしゃはくじにつくはずです。",
+      "zh": "根据时刻表，电车应该九点到。"
+    },
+    {
+      "target": "今日は休みなので、図書館は静かなはずです。",
+      "reading": "きょうはやすみなので、としょかんはしずかなはずです。",
+      "zh": "今天是假日，图书馆应该很安静。"
+    },
+    {
+      "target": "この道は駅に近いので、歩いて行けるはずです。",
+      "reading": "このみちはえきにちかいので、あるいていけるはずです。",
+      "zh": "这条路离车站近，应该能走过去。"
+    },
+    {
+      "target": "弟は明日仕事なので、今夜は来ないはずです。",
+      "reading": "おとうとはあしたしごとなので、こんやはこないはずです。",
+      "zh": "弟弟明天要工作，今晚应该不会来。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽式语法清单。",
+    "开放题提供参考表达，需自行对照语义和接续，不宣称自动语义评分。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "図書館は静かはずです。",
+      "correct": "図書館は静かなはずです。",
+      "explanation": "静か是な形容词，连接はず前需要な。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n4-kamoshirenai-possibility",
+      "explanation": "はずだ有具体推断依据；かもしれない只保留一种可能，不需要同样强的依据。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form",
+    "grammar-ja-n4-potential-form"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n4-kamoshirenai-possibility"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n4-hazu-expectation-q1",
+      "kind": "meaning",
+      "prompt": "时刻表写着九点到达。“九時に着くはずです”表达什么？",
+      "acceptedAnswers": [
+        "根据时刻表预期九点到"
+      ],
+      "explanation": "时刻表提供推断依据；はず不是命令或亲眼确认。",
+      "options": [
+        "必须命令电车九点到",
+        "根据时刻表预期九点到",
+        "已经亲眼确认九点到了"
+      ]
+    },
+    {
+      "id": "grammar-ja-n4-hazu-expectation-q2",
+      "kind": "fill",
+      "prompt": "选择接续：図書館は静か（　）はずです。",
+      "acceptedAnswers": [
+        "な"
+      ],
+      "explanation": "静か是な形容词：静かなはず。名词才接の。",
+      "options": [
+        "に",
+        "の",
+        "な"
+      ]
+    },
+    {
+      "id": "grammar-ja-n4-hazu-expectation-q3",
+      "kind": "context",
+      "prompt": "弟弟明天要早起工作，预计今晚不会来。哪句合适？",
+      "acceptedAnswers": [
+        "弟は今夜来ないはずです。"
+      ],
+      "explanation": "来ない＋はず表示有依据的否定预期；其他选项不符合这一时间与意图。",
+      "options": [
+        "弟は今夜来ないはずです。",
+        "弟は今夜来るはずでしたが、もう来ました。",
+        "弟は今夜来てください。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n4-hazu-expectation-q4",
+      "kind": "error",
+      "prompt": "哪里把推断误当成对人的要求？",
+      "acceptedAnswers": [
+        "对迟到的同学下命令：今すぐ来るはずです。"
+      ],
+      "explanation": "はず描述预期，不能当“立刻来”的命令；请求可用今すぐ来てください。",
+      "options": [
+        "時刻表では電車は九時に着くはずです。",
+        "届け物があるので、もう一度確認します。",
+        "对迟到的同学下命令：今すぐ来るはずです。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n4-hazu-expectation-q5",
+      "kind": "translation",
+      "prompt": "参考本课译成日语：根据时刻表，电车应该九点到。",
+      "acceptedAnswers": [
+        "時刻表では、電車は九時に着くはずです。"
+      ],
+      "explanation": "着く是普通形，直接接はずです；時刻表では交代依据。"
+    }
+  ]
+}

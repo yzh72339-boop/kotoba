@@ -1,3 +1,6 @@
+import {loadDocuments} from './content-files.mjs';
+import {contentEntry} from '../lib/content-library/schema.ts';
+import {beginCourseSession,storedCoursePlan} from '../lib/content-library/daily-course-plan.ts';
 import {allCourseWords} from '../lib/course-library.ts';
 /* Isolated UI QA with a simulated backend; never a real owner/RLS/device test.
    Every Supabase request is intercepted. Unknown API calls fail closed. */
@@ -18,11 +21,12 @@ let failurePage;
 async function debugState(page,label){const value=await page.evaluate(async()=>{const request=indexedDB.open('kotoba-personal');const db=await new Promise(r=>request.onsuccess=()=>r(request.result));const state=await new Promise(r=>{const q=db.transaction('state').objectStore('state').get('learning');q.onsuccess=()=>r(q.result)});db.close();return {url:location.href,session:state?.activeSession,plan:Object.entries(state?.notes??{}).filter(([k])=>k.startsWith('daily-course-plan-')),header:document.querySelector('.session-current')?.textContent}});report.checks.push({label,...value});}
 await mkdir(output,{recursive:true});
 const browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox',...(process.env.UI_AUDIT_LISTENING?['--use-fake-device-for-media-stream','--use-fake-ui-for-media-stream']:[]),`--host-resolver-rules=MAP ${backendHost} 127.0.0.1`]});
-async function setup(width,{dark=false,motion='no-preference',video=false,workers=false,language='ja',level='N2'}={}){
+async function setup(width,{dark=false,motion='no-preference',video=false,workers=false,language='ja',level='N2',withDailyPlan=false}={}){
  const context=await browser.newContext({viewport:{width,height:844},deviceScaleFactor:1,colorScheme:dark?'dark':'light',reducedMotion:motion,serviceWorkers:workers?'allow':'block',...(video?{recordVideo:{dir:output,size:{width,height:844}}}:{})});
  let snapshot=structuredClone(initialState),revision=0;
  snapshot.profile={...snapshot.profile,name:'Learner',language,level,onboarded:true,timezone:'Asia/Tokyo'};snapshot.languageProfiles[language].level=level;snapshot.theme=dark?'dark':'light';
  snapshot.notes['app-theme-preference']=dark?'dark':'light';
+ if(withDailyPlan){const docs=await loadDocuments();snapshot.completed=docs.filter(d=>d.kind==='grammar'&&d.language===language&&d.level==='N5').map(d=>d.id);snapshot=beginCourseSession(snapshot,docs.map(d=>contentEntry(d)),Date.now());snapshot.activeSession={...snapshot.activeSession,step:1,completed:['Review']};}
  snapshot.reviews['course-ja-n2-1']=schedule(undefined,'course-ja-n2-1','Good',Date.now()-3*86400000);
  const stamp=Date.now();for(const key of ['profile/name','profile/level','profile/onboarded','profile/timezone','theme','languageProfiles/ja'])snapshot._clock[key]=stamp;
  await context.route(`https://${backendHost}/**`,async route=>{
@@ -50,12 +54,12 @@ async function setup(width,{dark=false,motion='no-preference',video=false,worker
 async function ready(page){await page.locator('.app-shell').waitFor();await page.waitForTimeout(850)}
 async function capture(page,name){await page.screenshot({path:`${output}/${name}.png`,fullPage:false});}
 async function auditN2Batch(){ const v3Pairs=[['zaru-wo-enai','rain-room'],['ni-atatte','rain-room'],['mono-nara','closing-bookshop'],['ni-shitewa','folding-chair'],['tsutsu-aru','repair-notebook'],['n1-ni-taenai','n1-apology-record'],['n1-tomo-arou','n1-apology-record'],['n1-kagiri-da','n1-apology-record']];
- const foundationPairs=[['grammar-ja-n4-potential-form','article-ja-n4-first-reading-circle'],['grammar-ja-n4-volitional-to-omou','article-ja-n4-first-reading-circle'],['grammar-ja-n4-causative-form','article-ja-n4-choose-your-page'],['grammar-ja-n4-tara-conditional','article-ja-n4-library-rain-plan'],['grammar-en-c1-provided-condition','article-en-c1-weekend-room-pilot'],['grammar-en-c2-not-so-much-as','article-en-c2-archive-labels']];
+ const foundationPairs=process.env.UI_AUDIT_V31_COURSES==='batch03'?[['grammar-ja-n4-hazu-expectation','article-ja-n4-notice-before-rain'],['grammar-ja-n4-kamoshirenai-possibility','article-ja-n4-notice-before-rain'],['grammar-ja-n4-sou-hearsay','article-ja-n4-notice-before-rain'],['grammar-ja-n4-te-kureru-benefit','article-ja-n4-page-found-together']]:[['grammar-ja-n4-potential-form','article-ja-n4-first-reading-circle'],['grammar-ja-n4-volitional-to-omou','article-ja-n4-first-reading-circle'],['grammar-ja-n4-causative-form','article-ja-n4-choose-your-page'],['grammar-ja-n4-tara-conditional','article-ja-n4-library-rain-plan'],['grammar-en-c1-provided-condition','article-en-c1-weekend-room-pilot'],['grammar-en-c2-not-so-much-as','article-en-c2-archive-labels']];
  const pairs=process.env.UI_AUDIT_V31_COURSES?foundationPairs:process.env.UI_AUDIT_V3_COVERAGE?v3Pairs:process.env.UI_AUDIT_N2_LINKS==='3'?[['ni-chigainai','delivery-inference'],['ni-kimatteiru','delivery-inference'],['nimo-kakawarazu','final-file'],['monodakara','final-file'],['bakari-ni','final-file']]:process.env.UI_AUDIT_N2_LINKS?[['ni-tsurete','schoolyard-temperature'],['ni-shitagatte','schoolyard-temperature'],['wo-tsuujite','photo-exhibition'],['wo-hajime','photo-exhibition'],['ni-kagirazu','photo-exhibition']]:[['shidai-immediate','application-after-sending'],['shidai-de','return-dependent-plan'],['ni-sakidatte','before-the-workshop'],['wo-kikkake-ni','a-handle-from-one-question']];
  for(const width of [360,390,430])for(const [index,[slug,readingSlug]] of pairs.entries()){
   if(width!==390&&index!==(width===360?0:pairs.length-1))continue;
   if(index<Number(process.env.UI_AUDIT_RESUME_PAIR??0))continue;
-  const {context,page}=await setup(width,{video:(!!process.env.UI_AUDIT_N2_LINKS&&width===390&&index===0)||!!process.env.UI_AUDIT_V31_COURSES&&width===390&&index===4,language:slug.startsWith('grammar-en')?'en':'ja',level:process.env.UI_AUDIT_V31_COURSES?slug.split('-')[2].toUpperCase():'N2'});failurePage=page;
+  const {context,page}=await setup(width,{video:(!!process.env.UI_AUDIT_N2_LINKS&&width===390&&index===0)||!!process.env.UI_AUDIT_V31_COURSES&&width===390&&index===(process.env.UI_AUDIT_V31_COURSES==='batch03'?0:4),language:slug.startsWith('grammar-en')?'en':'ja',level:process.env.UI_AUDIT_V31_COURSES?slug.split('-')[2].toUpperCase():'N2'});failurePage=page;
   const grammarID=slug.startsWith('grammar-')?slug:'grammar-ja-'+(slug.startsWith('n1-')?slug:'n2-'+slug),readingID=readingSlug.startsWith('article-')?readingSlug:'article-ja-'+(readingSlug.startsWith('n1-')?readingSlug:'n2-'+readingSlug);
   const grammar=JSON.parse(await readFile(`public/content/library/${grammarID}.json`,'utf8')),article=JSON.parse(await readFile(`public/content/library/${readingID}.json`,'utf8'));
   await page.goto(`${origin}/?content=${grammarID}#Grammar`);await ready(page);await page.locator('.library-grammar').waitFor();
@@ -99,7 +103,24 @@ async function auditN2Batch(){ const v3Pairs=[['zaru-wo-enai','rain-room'],['ni-
   if(restored.grammarCount!==1||restored.readingCount!==1||!restored.grammarReview||!restored.word||!restored.sources||restored.result?.score!==100||restored.overflow)throw new Error('New unit restore failed: '+JSON.stringify(restored));
   report.pages.push({width,grammarID,readingID,...restored});await context.close();
  }
- report.checks.push((process.env.UI_AUDIT_V31_COURSES?'V3.1 N4/C1/C2 coverage: six grammar-to-reading pairs':process.env.UI_AUDIT_V3_COVERAGE?'V3 N2/N1 coverage: eight grammar-to-reading pairs':process.env.UI_AUDIT_N2_LINKS?'five reused N2 grammar courses + two new linked readings; twelve explained answers per pair':'four new N2 units; ten explained answers per pair')+': grammar → linked reading → collect real vocabulary → explained answers → complete → reload; duplicate completion stays one; collected words and grammar retain SRS/source; 360/390/430 no overflow. Simulated identity/backend only.');
+ report.checks.push((process.env.UI_AUDIT_V31_COURSES?(process.env.UI_AUDIT_V31_COURSES==='batch03'?'V3.1 batch03 four N4 grammar-to-reading pairs':'V3.1 N4/C1/C2 coverage: six grammar-to-reading pairs'):process.env.UI_AUDIT_V3_COVERAGE?'V3 N2/N1 coverage: eight grammar-to-reading pairs':process.env.UI_AUDIT_N2_LINKS?'five reused N2 grammar courses + two new linked readings; twelve explained answers per pair':'four new N2 units; ten explained answers per pair')+': grammar → linked reading → collect real vocabulary → explained answers → complete → reload; duplicate completion stays one; collected words and grammar retain SRS/source; 360/390/430 no overflow. Simulated identity/backend only.');
+}
+
+async function auditPreparation(){
+ const readState=page=>page.evaluate(async()=>{const q=indexedDB.open('kotoba-personal');const db=await new Promise(r=>q.onsuccess=()=>r(q.result));const state=await new Promise(r=>{const q=db.transaction('state').objectStore('state').get('learning');q.onsuccess=()=>r(q.result)});db.close();return state});
+ for(const width of [360,390,430]){
+  const {context,page}=await setup(width,{level:'N4',withDailyPlan:true,dark:width===430,motion:width===430?'reduce':'no-preference'});failurePage=page;
+  await page.goto(`${origin}/?content=grammar-ja-n4-volitional-to-omou#Grammar`);await ready(page);
+  const before=storedCoursePlan(await readState(page));if(!before)throw new Error('Daily plan fixture failed');
+  await page.getByRole('button',{name:'补学 · 意志形：書こう・食べよう・しよう',exact:true}).click();await page.locator('.course-hero').filter({hasText:'意志形：書こう・食べよう・しよう'}).waitFor();
+  await page.getByText('已保存并同步',{exact:true}).first().waitFor();await page.reload();await ready(page);
+  const after=await readState(page);if(JSON.stringify(storedCoursePlan(after))!==JSON.stringify(before))throw new Error('Prerequisite navigation replaced daily plan');
+  const pinned=JSON.parse(after.notes[`library-session-${after.activeSession.startedAt}-ja-N4`]);if(pinned.grammar!==before.grammar.id)throw new Error('Prerequisite navigation replaced course pin');
+  await capture(page,`preparation-${width}`);
+  await page.getByRole('button',{name:`返回今日课程 · ${before.grammar.title}`,exact:true}).click();await page.locator('.course-hero').filter({hasText:before.grammar.title}).waitFor();
+  if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1))throw new Error('Preparation overflow');
+  report.checks.push({width,prerequisite:'browse → prerequisite → refresh → return assigned lesson; daily IDs/pins unchanged',theme:width===430?'dark/reduced-motion':'light'});await context.close();
+ }
 }
 
 async function auditLanguageTools(){
@@ -251,7 +272,7 @@ try{
   }
   await context.close();
  }
- if(process.env.UI_AUDIT_V31_COURSES){await auditN2Batch();await auditLanguageTools()}else if(process.env.UI_AUDIT_LISTENING){await auditListeningAndBudget()}else if(process.env.UI_AUDIT_MATERIALS){await auditPersonalMaterials()}else if(process.env.UI_AUDIT_N2_OFFLINE_ONLY){await auditLinkedReadingOffline()}else if(process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS){await auditN2Batch();if(process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_N2_LINKS)await auditLinkedReadingOffline()}else{
+ if(process.env.UI_AUDIT_V31_COURSES){await auditN2Batch();if(process.env.UI_AUDIT_V31_COURSES==='batch03')await auditPreparation();else await auditLanguageTools()}else if(process.env.UI_AUDIT_LISTENING){await auditListeningAndBudget()}else if(process.env.UI_AUDIT_MATERIALS){await auditPersonalMaterials()}else if(process.env.UI_AUDIT_N2_OFFLINE_ONLY){await auditLinkedReadingOffline()}else if(process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS){await auditN2Batch();if(process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_N2_LINKS)await auditLinkedReadingOffline()}else{
  const {context,page}=await setup(390,{video:true});failurePage=page;
  await context.addInitScript(({capable})=>{if(capable){Object.defineProperty(navigator,'deviceMemory',{get:()=>8,configurable:true});Object.defineProperty(navigator,'hardwareConcurrency',{get:()=>8,configurable:true});if(navigator.connection)Object.defineProperty(navigator.connection,'saveData',{get:()=>false,configurable:true})}window.qaSceneCount=Number(sessionStorage.getItem('qa-scene-starts')??0);window.qaSceneReady=Number(sessionStorage.getItem('qa-scene-ready')??0);window.qaSceneFailed=Number(sessionStorage.getItem('qa-scene-skipped')??0);window.qaSceneErrors=JSON.parse(sessionStorage.getItem('qa-scene-errors')??'[]');window.qaSceneAvailable=typeof document.startViewTransition==='function';if(window.qaSceneAvailable){const start=document.startViewTransition.bind(document);document.startViewTransition=callback=>{window.qaSceneCount++;sessionStorage.setItem('qa-scene-starts',String(window.qaSceneCount));const t=start(callback);t.ready.then(()=>{window.qaSceneReady++;sessionStorage.setItem('qa-scene-ready',String(window.qaSceneReady))},error=>{window.qaSceneFailed++;window.qaSceneErrors.push(error.name+': '+error.message);sessionStorage.setItem('qa-scene-skipped',String(window.qaSceneFailed));sessionStorage.setItem('qa-scene-errors',JSON.stringify(window.qaSceneErrors))});return t}}},{capable:Boolean(process.env.UI_AUDIT_CAPABLE)});
  await page.bringToFront();

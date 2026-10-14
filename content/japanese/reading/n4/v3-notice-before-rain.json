@@ -1,0 +1,120 @@
+{
+  "id": "article-ja-n4-notice-before-rain",
+  "kind": "reading",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "v3-foundations-03",
+    "N4",
+    "日常生活 · 情報を確かめる"
+  ],
+  "title": "雨の前に、確かめる",
+  "topic": "日常生活 · 情報を確かめる",
+  "genre": "story",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "土曜日、友達と図書館で本を読む約束をしました。ホームページには、九時に開くと書いてあります。「九時なら入れるはずだ」と思って、八時半に家を出ました。",
+    "駅で友達から電話が来ました。「天気予報によると、午後は雨が降るそうだよ。傘を持った？」私は空を見ました。まだ晴れていますが、帰るころには降るかもしれません。駅の店で小さな傘を買いました。",
+    "図書館に着くと、入口に紙がありました。今日は建物の点検で、十時に開くと書いてあります。ホームページのいつもの時間だけでは分からなかったのです。友達に新しい時間を伝えて、近くの店で待ちました。次からは、その日の案内も確かめようと思います。"
+  ],
+  "translation": [
+    "星期六，我约好与朋友在图书馆读书。网站上写着九点开门。我想：“九点应该能进去。”八点半便出了门。",
+    "在车站，朋友打来电话：“据天气预报，下午会下雨。你带伞了吗？”我看了看天空，还晴着，不过回去的时候可能会下雨。我在车站的店里买了一把小伞。",
+    "到图书馆后，我发现入口贴着一张纸：今天因为检查建筑，十点才开门。仅看网站上平时的时间无法得知这个变化。我把新时间告诉朋友，在附近的店等候。我想，下次也要确认当天的通知。"
+  ],
+  "vocabulary": [
+    "supp-ja-n5-11",
+    "context-ja-n5-61c4363ce176",
+    "course-ja-n5-3",
+    "course-ja-n5-7",
+    "lex-ja-n5-jikan",
+    "lex-ja-n5-yomu",
+    "lex-ja-n5-kaeru",
+    "course-ja-n4-2"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-ja-n4-hazu-expectation",
+      "surface": "入れるはずだ"
+    },
+    {
+      "id": "grammar-ja-n4-kamoshirenai-possibility",
+      "surface": "降るかもしれません"
+    },
+    {
+      "id": "grammar-ja-n4-sou-hearsay",
+      "surface": "雨が降るそうだ"
+    },
+    {
+      "id": "grammar-ja-n4-volitional-to-omou",
+      "surface": "確かめようと思います"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-ja-n4-notice-before-rain-q1",
+      "type": "main-idea",
+      "prompt": "作者这次学到什么？",
+      "options": [
+        "天气晴时一定不需要带伞",
+        "网站永远不会写错",
+        "除常规信息外，还要确认当天通知"
+      ],
+      "answer": 2,
+      "explanation": "平时九点开门，但当天十点开门；末句明确说明下次也确认当天案内。"
+    },
+    {
+      "id": "article-ja-n4-notice-before-rain-q2",
+      "type": "detail",
+      "prompt": "图书馆当天为何十点开门？",
+      "options": [
+        "建筑检查",
+        "朋友忘带傘",
+        "所有书都借走了"
+      ],
+      "answer": 0,
+      "explanation": "入口通知明确说明建物の点検，非天气或借书原因。"
+    },
+    {
+      "id": "article-ja-n4-notice-before-rain-q3",
+      "type": "grammar",
+      "prompt": "作者认为“九時なら入れるはずだ”的依据是什么？",
+      "options": [
+        "已经走进了图书馆",
+        "网站写着九点开门",
+        "店员答应替作者开门"
+      ],
+      "answer": 1,
+      "explanation": "第一段ホームページに九時に開くと書いてあります提供合理预期的依据。"
+    },
+    {
+      "id": "article-ja-n4-notice-before-rain-q4",
+      "type": "inference",
+      "prompt": "天空还晴，作者为什么买伞？",
+      "options": [
+        "亲眼看到图书馆漏水",
+        "想把伞送给不认识的人",
+        "听到天气消息，认为回程可能下雨"
+      ],
+      "answer": 2,
+      "explanation": "作者听到预报后说帰るころには降るかもしれません，采取备用准备。"
+    },
+    {
+      "id": "article-ja-n4-notice-before-rain-q5",
+      "type": "detail",
+      "prompt": "确认新开门时间之后，作者做了什么？",
+      "options": [
+        "告诉朋友，然后在附近的店等候",
+        "立刻回家取消全部活动",
+        "把入口的通知取走"
+      ],
+      "answer": 0,
+      "explanation": "第三段友達に新しい時間を伝えて、近くの店で待ちました直接给出行动。"
+    }
+  ],
+  "notes": [
+    "人物与事件均为原创虚构教学情境。",
+    "预计时间按日文200字／分钟向上取整，并非个人测量。"
+  ]
+}

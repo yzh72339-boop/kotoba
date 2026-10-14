@@ -1,0 +1,116 @@
+{
+  "id": "article-ja-n4-page-found-together",
+  "kind": "reading",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "v3-foundations-03",
+    "N4",
+    "学校 · 友達の助け"
+  ],
+  "title": "なくしたページ、残った助け",
+  "topic": "学校 · 友達の助け",
+  "genre": "story",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "日本語の授業で、好きな料理について短い文を書くことになりました。私は家で書いた紙を持ってきたつもりでしたが、かばんの中にありません。もう授業が始まっています。家の机に置いたかもしれないと思いました。",
+    "隣の友達が、先生に事情を説明してくれました。先生は白い紙を渡して、覚えていることから書いていいと言いました。友達は私の話を聞いて、分からない字を教えてくれました。私は少しずつ文を書けました。",
+    "授業の後、かばんの小さなポケットをもう一度見ました。なくしたと思った紙が入っていました。でも、二枚目には友達と考えた言葉もあります。私は二枚とも残すことにしました。「手伝ってくれて、ありがとう」と言うと、友達は「私も新しい料理を知れたよ」と笑いました。"
+  ],
+  "translation": [
+    "日语课要求写一篇关于喜欢的料理的短文。我以为带来了在家写好的纸，可是包里没有。课已经开始了。我想，也许把纸留在家里的桌上了。",
+    "旁边的朋友替我向老师解释了情况。老师递来一张白纸，说从记得的内容写起就好。朋友听我讲，又教了我不认识的字。我一点点把文章写出来了。",
+    "下课后，我又检查了包的小口袋，找到了原以为丢失的纸。不过第二张纸还包含与朋友一起想出的表达。我决定把两张都留着。我说“谢谢你帮我”，朋友笑道：“我也了解了一种新的料理。”"
+  ],
+  "vocabulary": [
+    "supp-ja-n5-11",
+    "context-ja-n5-a1b31685cfd3",
+    "course-ja-n5-6",
+    "course-ja-n5-7",
+    "supp-ja-n5-14",
+    "lex-ja-n5-kaku",
+    "complete-ja-n5-991f96a8ce",
+    "context-ja-n5-cd3d6a6a50a7"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-ja-n4-te-kureru-benefit",
+      "surface": "説明してくれました"
+    },
+    {
+      "id": "grammar-ja-n4-kamoshirenai-possibility",
+      "surface": "置いたかもしれない"
+    },
+    {
+      "id": "grammar-ja-n4-potential-form",
+      "surface": "書けました"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-ja-n4-page-found-together-q1",
+      "type": "main-idea",
+      "prompt": "作者为什么最终保留两张纸？",
+      "options": [
+        "老师要求交两份完全相同的作业",
+        "第二张也留下了与朋友合作的表达",
+        "第一张完全不能读"
+      ],
+      "answer": 1,
+      "explanation": "第三段说二枚目には友達と考えた言葉もあります，这让第二张也有保留价值。"
+    },
+    {
+      "id": "article-ja-n4-page-found-together-q2",
+      "type": "detail",
+      "prompt": "原来的纸最后在哪里找到？",
+      "options": [
+        "家里的桌上",
+        "老师的书里",
+        "包的小口袋里"
+      ],
+      "answer": 2,
+      "explanation": "授業の後、かばんの小さなポケット…紙が入っていました明确交代位置。"
+    },
+    {
+      "id": "article-ja-n4-page-found-together-q3",
+      "type": "grammar",
+      "prompt": "“友達が…説明してくれました”体现什么视角？",
+      "options": [
+        "朋友提供帮助，作者受益",
+        "作者替朋友解释",
+        "说明动作还未发生"
+      ],
+      "answer": 0,
+      "explanation": "朋友作主语，てくれる表达朋友为我方做解释。"
+    },
+    {
+      "id": "article-ja-n4-page-found-together-q4",
+      "type": "inference",
+      "prompt": "“家の机に置いたかもしれない”能证明什么？",
+      "options": [
+        "纸一定在家",
+        "作者怀疑纸留在家，但尚不确定",
+        "作者已经看到纸在桌上"
+      ],
+      "answer": 1,
+      "explanation": "かもしれない保留可能性；后面找到包里，证明不能把这句当已确认事实。"
+    },
+    {
+      "id": "article-ja-n4-page-found-together-q5",
+      "type": "detail",
+      "prompt": "朋友说自己得到了什么？",
+      "options": [
+        "不用再写任何作业",
+        "得到了作者的包",
+        "了解了一种新的料理"
+      ],
+      "answer": 2,
+      "explanation": "最后一句私も新しい料理を知れたよ表明朋友也学到了料理信息。"
+    }
+  ],
+  "notes": [
+    "人物与事件均为原创虚构教学情境。",
+    "预计时间按日文200字／分钟向上取整，并非个人测量。"
+  ]
+}

@@ -1,3 +1,11 @@
+# 3.1.0-preview.2 — preparation without losing the daily task
+
+- Ordered prerequisite suggestions use authored same-language course IDs, deduplicate shared dependencies and explicitly report missing/cyclic references. Completed prerequisites are not re-taught.
+- Browsing prerequisites/comparisons/other readings no longer replaces a persisted daily task pin. A return action restores the assigned grammar, including after refresh.
+- Four original N4 grammar topics (evidence, uncertainty, reported information and received help), two linked readings, sixteen kana-supported examples and thirty explained practice/comprehension tasks.
+- Existing 257 course documents, 927 word IDs/data, Auth/RLS, migrations 001–013, SRS and sync are preserved. No new dependency. APK container does not need replacement for hosted course updates.
+- Full curriculum targets and new-batch physical-device/owner/cross-device acceptance remain incomplete; exact local/browser/deployment evidence is in the batch report.
+
 # 3.1.0-preview.1 — local language tools and prerequisite content
 
 - Add exact, lazy WanaKana and winkNLP with lite web model; preserve native IME, headword/SRS IDs and actual source paragraphs. Model output is tentative and local.

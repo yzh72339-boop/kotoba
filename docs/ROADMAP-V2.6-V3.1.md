@@ -1,3 +1,9 @@
+# V3.1 preview.2 continuation
+
+Ordered preparation and immutable daily course pins; +4 N4 grammar/+2 readings. Current 181/82; full gap 1,587. Existing library/adapters, account isolation and native Android container retained. See V3-CURRICULUM-BATCH-03.md for the exact evidence and next breakpoint. Prior checkpoints are historical.
+
+---
+
 # V3.1 preview checkpoint
 
 Actual WanaKana/winkNLP adapters and +11 grammar/+5 reading; current 177/80, gap 1,593. Full furigana/FSRS/adaptive service work remains deferred. See OPEN-SOURCE-REVIEW-V3.1.md and V3-CURRICULUM-BATCH-02.md; previous counts and checkpoints are historical.

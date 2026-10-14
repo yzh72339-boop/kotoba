@@ -1,0 +1,141 @@
+{
+  "id": "grammar-ja-n4-kamoshirenai-possibility",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "v3-foundations-03",
+    "完整课程",
+    "N4"
+  ],
+  "title": "〜かもしれない：保留一种可能",
+  "pattern": "〜かもしれない：保留一种可能",
+  "meaningZh": "也许……；可能……",
+  "meaningEn": "a possibility without claiming certainty",
+  "explanation": "かもしれない表示某事有可能发生，但说话人不作确定判断。接动词、い形容词普通形；名词和な形容词在肯定现在时不接だ，如雨かもしれない、静かかもしれない。过去和否定仍保留相应形式，如休みだったかもしれない、来ないかもしれない。它没有固定概率，不能据此断言一定会或一定不会发生。",
+  "usage": "表达未确认的天气、地点或安排，提示准备备用方案。",
+  "nuance": "礼貌形式为かもしれません；不是从别人那里听到消息的专用标记。",
+  "structure": [
+    "V普通形／い形容词普通形＋かもしれない",
+    "名词／な形容词词干＋かもしれない（肯定现在时不加だ）",
+    "Vない／Vた＋かもしれない"
+  ],
+  "formation": [
+    "V普通形／い形容词普通形＋かもしれない",
+    "名词／な形容词词干＋かもしれない（肯定现在时不加だ）",
+    "Vない／Vた＋かもしれない"
+  ],
+  "examples": [
+    {
+      "target": "午後は雨が降るかもしれません。",
+      "reading": "ごごはあめがふるかもしれません。",
+      "zh": "下午可能会下雨。"
+    },
+    {
+      "target": "あの人は新しい先生かもしれません。",
+      "reading": "あのひとはあたらしいせんせいかもしれません。",
+      "zh": "那个人也许是新来的老师。"
+    },
+    {
+      "target": "今日は図書館が静かかもしれません。",
+      "reading": "きょうはとしょかんがしずかかもしれません。",
+      "zh": "今天图书馆也许很安静。"
+    },
+    {
+      "target": "鍵はかばんの中に入れたかもしれません。",
+      "reading": "かぎはかばんのなかにいれたかもしれません。",
+      "zh": "我也许把钥匙放进包里了。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽式语法清单。",
+    "开放题提供参考表达，需自行对照语义和接续，不宣称自动语义评分。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "明日は雨だかもしれません。",
+      "correct": "明日は雨かもしれません。",
+      "explanation": "名词肯定现在时接かもしれない时去掉だ；不是把普通形だ原样接上。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n4-hazu-expectation",
+      "explanation": "はずだ指有依据的预期；かもしれない保持不确定，不表示确定结论。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n4-hazu-expectation"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n4-kamoshirenai-possibility-q1",
+      "kind": "meaning",
+      "prompt": "“午後は雨が降るかもしれません”的意思是？",
+      "acceptedAnswers": [
+        "下午可能下雨，但还不确定"
+      ],
+      "explanation": "かもしれません只提出可能，不确定是否发生。",
+      "options": [
+        "下午可能下雨，但还不确定",
+        "下午已经下过雨了",
+        "下午绝不会下雨"
+      ]
+    },
+    {
+      "id": "grammar-ja-n4-kamoshirenai-possibility-q2",
+      "kind": "fill",
+      "prompt": "选择正确接续：あの人は先生（　）。",
+      "acceptedAnswers": [
+        "かもしれません"
+      ],
+      "explanation": "名词先生肯定现在时直接接かもしれません，不加だ或な。",
+      "options": [
+        "だかもしれません",
+        "かもしれません",
+        "なかもしれません"
+      ]
+    },
+    {
+      "id": "grammar-ja-n4-kamoshirenai-possibility-q3",
+      "kind": "context",
+      "prompt": "不记得钥匙放哪里了，猜想曾放进包里。选择合适表达。",
+      "acceptedAnswers": [
+        "鍵はかばんの中に入れたかもしれません。"
+      ],
+      "explanation": "入れた保留过去形，表达对已发生动作的不确定猜想。",
+      "options": [
+        "鍵はかばんの中に入れてください。",
+        "鍵をかばんに入れることは禁止です。",
+        "鍵はかばんの中に入れたかもしれません。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n4-kamoshirenai-possibility-q4",
+      "kind": "error",
+      "prompt": "选择接续正确的一句。",
+      "acceptedAnswers": [
+        "今日は静かかもしれません。"
+      ],
+      "explanation": "な形容词词干静か直接接かもしれません；此处不接だ或な。",
+      "options": [
+        "今日は静かだかもしれません。",
+        "今日は静かかもしれません。",
+        "今日は静かなかもしれません。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n4-kamoshirenai-possibility-q5",
+      "kind": "translation",
+      "prompt": "参考本课译成日语：下午可能会下雨。",
+      "acceptedAnswers": [
+        "午後は雨が降るかもしれません。"
+      ],
+      "explanation": "动词降る直接接かもしれません；句子保留不确定性。"
+    }
+  ]
+}

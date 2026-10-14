@@ -57,6 +57,11 @@ export function scopedSessionProgress(s:AppState){
 }
 export function saveSessionProgress(s:AppState,session:DailySession):AppState{const level=storedCoursePlan(s,session)?.level??s.profile.level;return {...s,activeSession:session,notes:{...s.notes,[slot(session.language,level)]:JSON.stringify(session)}}}
 export function sessionTask(s:AppState,step:string):CourseTask|null{const plan=storedCoursePlan(s);return plan?(step==='Grammar'?plan.grammar:step==='Reading'?plan.reading:null):null}
+export function pinPlannedCourse(s:AppState,entry:Pick<ContentEntry,'id'|'kind'|'language'|'level'>):AppState{
+ const assigned=sessionTask(s,entry.kind==='grammar'?'Grammar':'Reading');
+ // Browsing a prerequisite or comparison must never replace the assigned task.
+ return assigned&&assigned.id!==entry.id?s:pinSessionCourse(s,entry);
+}
 export function finishCoreStep(s:AppState,step:string,courseId?:string):AppState{
  const session=s.activeSession;if(!session||session.done||DAILY_STEPS[session.step]!==step)return s;
  const plan=storedCoursePlan(s),task=sessionTask(s,step);

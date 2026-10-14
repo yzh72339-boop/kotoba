@@ -1,3 +1,5 @@
+> Current continuation: **3.1.0-preview.2**, 927 vocabulary /181 grammar /82 readings. Read V3-CURRICULUM-BATCH-03.md and CURRENT-STATUS.md first. Daily pins are protected by `pinPlannedCourse`; ordered preparation uses `prerequisitePath`. Preserve all old IDs/data, Auth/RLS, SRS/sync and migrations 001–013. Strict full targets still fail by 1,587 units. Previous checkpoints below are historical.
+
 # Current: V3.1 language-tools preview — 2026-10-14
 
 Based on feature/3-0-course-coverage (Sites 4c70986 / GitHub d03a79f), this batch adds 11 grammar and 5 readings: current 927 words /177 grammar /80 reading, all current grammar linked. Full targets still lack 1,083 grammar and 510 reading. No historical migration 001–013, Auth/RLS, SRS card ID/schedule or synchronization protocol change.

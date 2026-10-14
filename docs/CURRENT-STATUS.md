@@ -1,3 +1,15 @@
+# Current: V3.1 preview.2 — preparation and linked N4 curriculum, 2026-10-14
+
+This batch adds ordered prerequisite suggestions, a return-to-assigned-lesson action and a guard preventing free browsing from replacing daily course pins. Plans remain in the existing account-scoped notes and restore through existing backup/sync. No new database fields, dependencies, historical migration edits, Auth/RLS/SRS changes or cache clearing.
+
+Original N4 additions: はずだ / かもしれない / 伝聞そうだ / てくれる; four examples and five explained exercises each. Two original readings add ten explained comprehension questions and link all four topics. All 257 previous documents and 927 vocabulary cards remain unchanged. Current totals: 927 cards, 181 grammar, 82 reading; N4 now 21 grammar /10 reading. Full targets still lack 1,079 grammar /508 reading. Strict target checking must remain failing.
+
+Local verification, mobile browser artifacts, deployed build and device limitations are recorded in V3-CURRICULUM-BATCH-03.md and its delivery receipt. The user reports installing and successfully operating the independent Android container; that does not certify this new batch, microphone, long offline sessions or cross-device recovery. Native package/signing identity remains unchanged. Once the site update is published, existing apps check the PWA update while preserving learning data.
+
+Next: continue authored all-grade curriculum expansion and contextual course chains; evaluate optional full Japanese morphology only with dictionary download, memory/latency and real phone evidence. Real AI/media services and fresh production multi-user negative RLS checks remain separate. Earlier checkpoints below are historical.
+
+---
+
 # Current: V3.1 language-tools preview — 2026-10-14
 
 Based on feature/3-0-course-coverage (Sites 4c70986 / GitHub d03a79f), this batch adds 11 grammar and 5 readings: current 927 words /177 grammar /80 reading, all current grammar linked. Full targets still lack 1,083 grammar and 510 reading. No historical migration 001–013, Auth/RLS, SRS card ID/schedule or synchronization protocol change.
