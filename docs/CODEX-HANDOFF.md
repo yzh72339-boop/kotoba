@@ -1,3 +1,37 @@
+# Direct registration checkpoint — 2026-10-14
+
+The user explicitly superseded the earlier email-confirmation/CAPTCHA/SMTP requirement: use email/password direct signup. `NEXT_PUBLIC_AUTH_MODE=direct` skips the frontend CAPTCHA dependency, returns immediate signup sessions to the app and honestly disables mail-based recovery. Verified mode remains available via `NEXT_PUBLIC_AUTH_MODE=verified`. The Supabase server remains authoritative; the frontend cannot turn off its confirmation/CAPTCHA policies. Strong passwords and all admission/RLS/UID/queue/SRS fences remain unchanged. No new migration and no edits to 001–013.
+
+217 Node tests and local actual GoTrue/PostgreSQL pass. The new Auth case disables SMTP completely and auto-confirms signup: 25 concurrent requests fill exactly ten seats including an existing account; eleventh rejected; sessions returned immediately; original admin UUID/data/login and member refresh preserved. Production build `kotoba-2.9.1-0f6bf1208a10` passes. Chromium 360/390/430px direct signup → immediate app → own settings/save → sign-out → other account → refresh passes, including duplicate submission, full-capacity login and honest recovery information. These fixtures do not test real email recovery. This is not production multi-user or real-device acceptance.
+
+Next manual setup after publication: Supabase Authentication → Sign In / Providers → allow email signups and disable Confirm email; CAPTCHA remains disabled. Keep the protected Before User Created Hook and server rate limits. Sign in using the original admin password, verify old records, then Settings → 内测名额管理 → acknowledge the direct-mode configuration and 开放注册. No SQL/replayed migration, SMTP, domain or CAPTCHA Secret is required. Existing unconfirmed accounts, if any, require admin review; do not repeatedly register or delete a real account to fix a configuration mismatch. Sites public access and latest deployment build are defined by the native receipt, not historical notes.
+
+Without email confirmation this does not prove mailbox ownership; without a mail provider, automatic password-recovery email is not advertised. Already signed-in users retain password change. Latest verified aggregate remains zero ordinary accounts, ten remaining and registration closed; actual server settings and direct signup still need live owner/new-user acceptance.
+
+Prior checkpoints below are historical.
+
+---
+
+# Production 013 and CAPTCHA build checkpoint — 2026-10-13
+
+User-supplied real 013 catalog/ledger verification passes: trusted admin UUID and configured password preserved, zero ordinary accounts, capacity ten, no drift, protected Hook ACLs, RLS enabled and registration closed. Read-only production aggregate RPC also returns HTTP 200, ten remaining seats and registration disabled. See PRODUCTION-MIGRATION-013-EVIDENCE.json. The Hook screenshot shows enabled/Postgres, but exact target was obscured; email confirmation is user-reported enabled. Do not replay any migration.
+
+The provided public hCaptcha Site Key is configured in ignored local build environment, not committed. Production build `kotoba-2.9.1-21724cfb3545` embeds the supplied public widget key; no hCaptcha Secret was received or stored. Registration remains closed. Next operational step after this frontend publication: privately configure hCaptcha Secret in Supabase Auth and enable CAPTCHA, then verify actual admin sign-in. Custom SMTP/non-team verification, Edge deployment, public hosting and genuine multi-user/device acceptance remain pending. Local widget tests are simulated and do not prove CAPTCHA service acceptance. Keep the original admin and all learning records.
+
+Previous checkpoints below are historical.
+
+---
+
+# Current continuation: V2.9.1 Limited Beta — 2026-10-13
+
+Read LIMITED-BETA-ACCEPTANCE.md, LIMITED-BETA-DEPLOYMENT.md and CURRENT-STATUS.md first. Current feature is locally tested email/password + ten-seat multi-user admission. Preserve original admin UUID/legacy cache and all course/SRS/snapshot identities. Protected 001–012 are unchanged; only additive 013 is prepared, closed by default. Do not execute production SQL without staged admin continuity and real verification evidence.
+
+Atomic seat allocation occurs in the Auth INSERT transaction under a locked config row and finite unique seats; Hook is an early check without a reservation. Hard Auth deletion releases once by FK cascade; original admin deletion blocked. Never manually decrement/delete ledger entries, disable RLS, expose service keys or recreate the original admin. App/Edge rollback retains 013 data and fences.
+
+216 Node tests + local PostgreSQL/actual GoTrue/in-memory SMTP + mobile account fixtures pass; production/live devices still require setup and separate acceptance. Finish only the outstanding deployment/real acceptance in the checklist, not another auth or sync redesign. Generated source hash list accompanies this handoff; latest deployment receipt defines actual website version. Prior notes below are historical.
+
+---
+
 # Current update recovery checkpoint — 2026-10-13
 
 Read UPDATE-RECOVERY-2026-10-13.md. Recovery and Settings now accept preview build IDs and classify failures instead of claiming every failed check means offline. Current 209 Node tests and isolated real-worker mobile-width update tests pass. Next owner action: retry the independent update page; physical installed-PWA result remains unverified. No migrations or storage resets. Keep preview labeling and preserve the current Sites audience. Latest native deployment receipt is authoritative for the published source/build.

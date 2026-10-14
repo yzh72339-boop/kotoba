@@ -1,6 +1,9 @@
 export const AUTH_STORAGE_KEY='kotoba.private-auth';
 export const PRIVATE_LOCK_STORAGE_KEY='kotoba.private-locked';
 export const PRIVATE_LOCK_EVENT='kotoba:private-lock';
+export function storedAuthUserId(value:string|null):string|null{
+ try{const id=value?JSON.parse(value)?.user?.id:null;return typeof id==='string'&&/^[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}$/i.test(id)?id:null}catch{return null}
+}
 
 type KeyValueStore={getItem:(key:string)=>string|null;setItem:(key:string,value:string)=>void;removeItem:(key:string)=>void};
 export function createPrivateAuthStorage(resolve:()=>KeyValueStore|null){
