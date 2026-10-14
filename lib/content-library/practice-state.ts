@@ -1,3 +1,4 @@
+import {allCourseWords} from '../course-library';
 import type {AppState} from '../store';
 import type {GrammarPoint,ReadingDocument} from './schema';
 export type GrammarDraft={answers:Record<string,string>;checked:Record<string,boolean>;accepted:Record<string,boolean>;logged:string[];section:'lesson'|'examples'|'mistakes'|'comparison'|'practice';questionId?:string};
@@ -19,13 +20,14 @@ export function grammarDraft(s:AppState,g:GrammarPoint):GrammarDraft{
 export function saveGrammarDraft(s:AppState,g:GrammarPoint,value:GrammarDraft):AppState{return {...s,notes:{...s.notes,[`library-grammar-draft-${g.id}`]:JSON.stringify(value)}}}
 export type ReadingDraft={answers:Record<string,number>;checked:Record<string,boolean>;phase:'practice'|'complete';difficulty:'easy'|'right'|'hard';startedAt:number;activeSeconds:number;attemptId:string;lookedUpWords:string[];grammarViewed:string[];savedWords:string[];questionId?:string};
 export function readingDraft(s:AppState,a:ReadingDocument):ReadingDraft{
+ const vocabularyIds=new Set([...a.vocabulary,...allCourseWords(a.language).map(w=>w.id)]);
  const result:ReadingDraft={answers:{},checked:{},phase:'practice',difficulty:'right',startedAt:0,activeSeconds:0,attemptId:'',lookedUpWords:[],grammarViewed:[],savedWords:[]};
  try{
   const value=JSON.parse(s.notes[`library-reading-draft-${a.id}`]??s.notes[`library-draft-${a.id}`]??'{}');
   const answers=value.answers??value;
   for(const q of a.questions)if(Number.isInteger(answers[q.id])&&answers[q.id]>=0&&answers[q.id]<q.options.length)result.answers[q.id]=answers[q.id];
   for(const q of a.questions)if(value.checked?.[q.id]===true&&Number.isInteger(result.answers[q.id]))result.checked[q.id]=true;
-  for(const field of ['lookedUpWords','grammarViewed','savedWords'] as const)if(Array.isArray(value[field]))result[field]=[...new Set<string>(value[field].filter((id:unknown):id is string=>typeof id==='string'&&(field==='grammarViewed'?a.grammar.some(g=>g.id===id):a.vocabulary.includes(id))))];
+  for(const field of ['lookedUpWords','grammarViewed','savedWords'] as const)if(Array.isArray(value[field]))result[field]=[...new Set<string>(value[field].filter((id:unknown):id is string=>typeof id==='string'&&(field==='grammarViewed'?a.grammar.some(g=>g.id===id):vocabularyIds.has(id))))];
   if(value.phase==='complete')result.phase='complete';
   if(['easy','right','hard'].includes(value.difficulty))result.difficulty=value.difficulty;
   if(Number.isFinite(value.startedAt)&&value.startedAt>0)result.startedAt=value.startedAt;

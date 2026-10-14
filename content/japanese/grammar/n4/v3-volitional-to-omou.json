@@ -1,0 +1,134 @@
+{
+  "id": "grammar-ja-n4-volitional-to-omou",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "v3-foundations-02",
+    "完整课程",
+    "N4"
+  ],
+  "title": "意志形＋と思う／と思っている",
+  "pattern": "意志形＋と思う／と思っている",
+  "meaningZh": "准备做；心中已有打算",
+  "meaningEn": "a decision or sustained intention",
+  "explanation": "意志形接と思う表示说话者现在作出的决定或打算；と思っている突出这个打算已经保持了一段时间，也可转述已知的他人意向。并非每个と思う都表示计划：普通形＋と思う也用于观点或推测。计划是否实施仍取决于后续行动，不等于正式安排已经确定。",
+  "usage": "说明个人打算及尚未落实的计划。",
+  "nuance": "第三人称的打算通常用と思っている，并应有对方说法等依据；两种形式的区别是意向的呈现方式，不是硬性的开始时间规则。",
+  "structure": [
+    "V意志形＋と思う／と思っています",
+    "否定打算可用Vない＋つもりだ，但不把普通否定句机械改成意志形"
+  ],
+  "formation": [
+    "V意志形＋と思う／と思っています",
+    "否定打算可用Vない＋つもりだ，但不把普通否定句机械改成意志形"
+  ],
+  "examples": [
+    {
+      "target": "今夜は少し復習しようと思います。",
+      "zh": "今晚我准备稍作复习。",
+      "reading": "こんやはすこしふくしゅうしようとおもいます。"
+    },
+    {
+      "target": "来年、日本へ行こうと思っています。",
+      "zh": "我一直打算明年去日本。",
+      "reading": "らいねん、にほんへいこうとおもっています。"
+    },
+    {
+      "target": "姉は新しい仕事を探そうと思っています。",
+      "zh": "姐姐打算找一份新工作。",
+      "reading": "あねはあたらしいしごとをさがそうとおもっています。"
+    },
+    {
+      "target": "まず先生に聞いてみようと思います。",
+      "zh": "我准备先问问老师。",
+      "reading": "まずせんせいにきいてみようとおもいます。"
+    }
+  ],
+  "notes": [
+    "课程等级为教学编排，不是官方穷尽式分类。",
+    "开放题采用参考答案和学习者确认，不声称自动语义评分。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "学习者想表达准备读书：本を読めると思います。",
+      "correct": "本を読もうと思います。",
+      "explanation": "読めると思う是认为能够读；打算使用意志形読もう。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n4-tsumori",
+      "explanation": "つもりだ也表达打算；意志形＋と思う较直接呈现此刻的决定，と思っている突出保持的意向。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n4-volitional-form"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n4-tsumori"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n4-volitional-to-omou-meaning",
+      "kind": "meaning",
+      "prompt": "理解完整例句：今夜は少し復習しようと思います。",
+      "options": [
+        "今晚只能由别人替我复习。",
+        "今晚我准备稍作复习。",
+        "今晚复习已经结束。"
+      ],
+      "acceptedAnswers": [
+        "今晚我准备稍作复习。"
+      ],
+      "explanation": "意志形接と思う表示说话者现在作出的决定或打算；と思っている突出这个打算已经保持了一段时间，也可转述已知的他人意向。并非每个と思う都表示计划：普通形＋と思う也用于观点或推测。计划是否实施仍取决于后续行动，不等于正式安排已经确定。"
+    },
+    {
+      "id": "grammar-ja-n4-volitional-to-omou-formation",
+      "kind": "transform",
+      "prompt": "表达自己的决定：明日は早く（　）と思います。",
+      "options": [
+        "起きよう",
+        "起きた",
+        "起きられる"
+      ],
+      "acceptedAnswers": [
+        "起きよう"
+      ],
+      "explanation": "起きる是一段动词，意志形起きよう连接と思います。"
+    },
+    {
+      "id": "grammar-ja-n4-volitional-to-omou-context",
+      "kind": "context",
+      "prompt": "“来年、日本へ行こうと思っています”是否保证旅行已经订好？",
+      "options": [
+        "是，日期和机票都确定了。",
+        "否，明确表示已取消旅行。",
+        "否，只说明持续持有这个打算。"
+      ],
+      "acceptedAnswers": [
+        "否，只说明持续持有这个打算。"
+      ],
+      "explanation": "意向不等于订票或正式安排；文中没有这些证据。"
+    },
+    {
+      "id": "grammar-ja-n4-volitional-to-omou-error",
+      "kind": "error",
+      "prompt": "按本课要求纠正并对照解析：学习者想表达准备读书：本を読めると思います。",
+      "acceptedAnswers": [
+        "本を読もうと思います。"
+      ],
+      "explanation": "読めると思う是认为能够读；打算使用意志形読もう。"
+    },
+    {
+      "id": "grammar-ja-n4-volitional-to-omou-translation",
+      "kind": "translation",
+      "prompt": "参考本课表达译成目标语言：我准备先问问老师。",
+      "acceptedAnswers": [
+        "まず先生に聞いてみようと思います。"
+      ],
+      "explanation": "参考答案：まず先生に聞いてみようと思います。 第三人称的打算通常用と思っている，并应有对方说法等依据；两种形式的区别是意向的呈现方式，不是硬性的开始时间规则。"
+    }
+  ]
+}

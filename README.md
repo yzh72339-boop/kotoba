@@ -1,3 +1,5 @@
+> Current: **3.1.0-preview.1** — local Japanese input and English reader morphology via WanaKana/winkNLP, retained original SRS/sync/permissions. 927 words /177 full grammar /80 full readings; complete 1,260/590 curriculum still pending. See [integration and license review](docs/OPEN-SOURCE-REVIEW-V3.1.md), [curriculum batch](docs/V3-CURRICULUM-BATCH-02.md) and the latest deployment receipt.
+
 # Kotoba 3.0 content preview
 
 Current release `3.0.0-preview.1` adds 12 full N2/N1 grammar topics, 5 original readings and 85 explained exercises/questions. Existing 224 course documents, all 927 vocabulary IDs and learning data remain compatible. All 166 current grammar topics have a reading link; total readings 75. This is a staged V3 preview: full 1,260/590 targets and real AI/service work remain unfinished.

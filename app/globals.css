@@ -93,3 +93,7 @@
 .listening-hidden{padding-block:24px;color:var(--muted);font-size:16px}
 [data-personal-paragraph]{scroll-margin-block-start:90px}
 .personal-context-cards blockquote,.listening-workspace blockquote{overflow-wrap:anywhere;line-height:1.9}
+
+/* Local language tools: touch targets, evidence and native ruby remain readable. */
+.japanese-input-assist{margin:8px 0 16px;color:var(--secondary);font-size:14px}.japanese-input-assist>div{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}.japanese-input-assist button{min-height:44px;padding:8px 14px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--text)}
+.reader-learning-evidence{margin:16px 0;padding:12px 0;border-block:1px solid var(--line);font-size:14px;line-height:1.6;overflow-wrap:anywhere}.reader-learning-evidence>p{margin:4px 0}.reader-learning-evidence button{min-height:44px}.reading-word[data-learning="reviewed"]{text-decoration:underline;text-decoration-style:dotted;text-underline-offset:5px}.reading-word[data-learning="marked"]{border-bottom:1px solid currentColor}.reading-word[data-learning="learning"]{background:color-mix(in srgb,var(--accent) 10%,transparent)}

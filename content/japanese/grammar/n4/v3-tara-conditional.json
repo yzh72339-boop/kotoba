@@ -1,0 +1,134 @@
+{
+  "id": "grammar-ja-n4-tara-conditional",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "v3-foundations-02",
+    "完整课程",
+    "N4"
+  ],
+  "title": "〜たら：假设与完成后的时点",
+  "pattern": "〜たら：假设与完成后的时点",
+  "meaningZh": "如果……；在……之后",
+  "meaningEn": "hypothetical or completed-event tara",
+  "explanation": "た形加ら构成たら，既可假设还未发生的情况，也可说明某事发生后再采取行动。它并非只用于过去。否定ない变なかったら；名词和な形容词用だったら。现实叙述中也可表示做了前项后发现后项，要依据时态和完整语境判断，不能每句都机械翻译成如果。",
+  "usage": "提出有条件的计划、完成后的下一步或发现。",
+  "nuance": "搭配后项邀请、意志和请求很常见。と常描述规律性结果；个人一次性的计划用たら更清楚。",
+  "structure": [
+    "Vた＋ら；Vなかった＋ら",
+    "い形容词：かったら；名词／な形容词：だったら"
+  ],
+  "formation": [
+    "Vた＋ら；Vなかった＋ら",
+    "い形容词：かったら；名词／な形容词：だったら"
+  ],
+  "examples": [
+    {
+      "target": "雨が降ったら、家で勉強します。",
+      "zh": "如果下雨，我就在家学习。",
+      "reading": "あめがふったら、いえでべんきょうします。"
+    },
+    {
+      "target": "宿題が終わったら、少し休みましょう。",
+      "zh": "作业做完后，稍微休息一下吧。",
+      "reading": "しゅくだいがおわったら、すこしやすみましょう。"
+    },
+    {
+      "target": "図書館へ行ったら、休みでした。",
+      "zh": "去了图书馆才发现它休馆。",
+      "reading": "としょかんへいったら、やすみでした。"
+    },
+    {
+      "target": "分からなかったら、もう一度聞いてください。",
+      "zh": "如果不懂，请再问一次。",
+      "reading": "わからなかったら、もういちどきいてください。"
+    }
+  ],
+  "notes": [
+    "课程等级为教学编排，不是官方穷尽式分类。",
+    "开放题采用参考答案和学习者确认，不声称自动语义评分。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "明日、雨が降ったら因为有た所以只指昨天下雨。",
+      "correct": "明日、雨が降ったら可以假设明天会下雨。",
+      "explanation": "たら的た不强制把整个条件定位于过去，明日提供未来语境。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n4-ba-conditional",
+      "explanation": "ば强调条件；たら可方便表达完成后的个人下一步，也可叙述前项发生后的发现。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n4-ba-conditional"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n4-tara-conditional-meaning",
+      "kind": "meaning",
+      "prompt": "理解完整例句：雨が降ったら、家で勉強します。",
+      "options": [
+        "如果下雨，我就在家学习。",
+        "昨天已经确定在家学完。",
+        "我希望每天都下雨。"
+      ],
+      "acceptedAnswers": [
+        "如果下雨，我就在家学习。"
+      ],
+      "explanation": "た形加ら构成たら，既可假设还未发生的情况，也可说明某事发生后再采取行动。它并非只用于过去。否定ない变なかったら；名词和な形容词用だったら。现实叙述中也可表示做了前项后发现后项，要依据时态和完整语境判断，不能每句都机械翻译成如果。"
+    },
+    {
+      "id": "grammar-ja-n4-tara-conditional-formation",
+      "kind": "transform",
+      "prompt": "否定条件：分からない→（　）、聞いてください。",
+      "options": [
+        "分からないたら",
+        "分からないならた",
+        "分からなかったら"
+      ],
+      "acceptedAnswers": [
+        "分からなかったら"
+      ],
+      "explanation": "先形成否定过去形分からなかった，再加ら。"
+    },
+    {
+      "id": "grammar-ja-n4-tara-conditional-context",
+      "kind": "context",
+      "prompt": "“図書館へ行ったら、休みでした”重点是什么？",
+      "options": [
+        "推测明年是否休馆。",
+        "去到后发现图书馆休馆的事实。",
+        "提前约定图书馆必须休馆。"
+      ],
+      "acceptedAnswers": [
+        "去到后发现图书馆休馆的事实。"
+      ],
+      "explanation": "后项休みでした是实际发现；不只是假设未来。"
+    },
+    {
+      "id": "grammar-ja-n4-tara-conditional-error",
+      "kind": "error",
+      "prompt": "按本课要求纠正并对照解析：明日、雨が降ったら因为有た所以只指昨天下雨。",
+      "acceptedAnswers": [
+        "明日、雨が降ったら可以假设明天会下雨。"
+      ],
+      "explanation": "たら的た不强制把整个条件定位于过去，明日提供未来语境。"
+    },
+    {
+      "id": "grammar-ja-n4-tara-conditional-translation",
+      "kind": "translation",
+      "prompt": "参考本课表达译成目标语言：如果不懂，请再问一次。",
+      "acceptedAnswers": [
+        "分からなかったら、もう一度聞いてください。"
+      ],
+      "explanation": "参考答案：分からなかったら、もう一度聞いてください。 搭配后项邀请、意志和请求很常见。と常描述规律性结果；个人一次性的计划用たら更清楚。"
+    }
+  ]
+}

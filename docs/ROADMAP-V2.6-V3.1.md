@@ -1,3 +1,9 @@
+# V3.1 preview checkpoint
+
+Actual WanaKana/winkNLP adapters and +11 grammar/+5 reading; current 177/80, gap 1,593. Full furigana/FSRS/adaptive service work remains deferred. See OPEN-SOURCE-REVIEW-V3.1.md and V3-CURRICULUM-BATCH-02.md; previous counts and checkpoints are historical.
+
+---
+
 # Current V3 preview continuation — 2026-10-14
 
 12 grammar /5 reading added; current 166 /75, all current grammar linked. 222 tests and bounded mobile/offline/update checks pass. Full gap 1,609 and real AI/media/device acceptance remain. See V3-CURRICULUM-BATCH-01.md for the exact next breakpoint; prior numbered checkpoints below are historical.

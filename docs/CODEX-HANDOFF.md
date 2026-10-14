@@ -1,3 +1,13 @@
+# Current: V3.1 language-tools preview — 2026-10-14
+
+Based on feature/3-0-course-coverage (Sites 4c70986 / GitHub d03a79f), this batch adds 11 grammar and 5 readings: current 927 words /177 grammar /80 reading, all current grammar linked. Full targets still lack 1,083 grammar and 510 reading. No historical migration 001–013, Auth/RLS, SRS card ID/schedule or synchronization protocol change.
+
+Actual integrations: exact WanaKana 5.3.1, winkNLP 2.4.0 and wink-eng-lite-web-model 1.8.1. Native IME-safe explicit kana conversion, local opt-in English lemma/POS worker, headword/source-preserving collections and actual account-based reading evidence are implemented. Japanese annotation is bounded catalog-backed ruby, not full arbitrary-text furigana. Unknown, homographic and partial-kanji readings are not guessed. Full FSRS/Lute/Kuroshiro/Recharts integrations are deferred for specific compatibility/cost reasons. Read OPEN-SOURCE-REVIEW-V3.1.md and V3-CURRICULUM-BATCH-02.md.
+
+Native publication receipt defines the exact deployed build and version. Local Chromium tests use real libraries/workers/SW and simulated account/backend; physical mobile, installed PWA and new production account/cross-device acceptance remain separate. Existing Next/PostCSS build advisories are recorded, not claimed fixed. Full V3/V3.1 is incomplete. Earlier checkpoints below are historical.
+
+---
+
 # Current: 3.0.0-preview.1 linked curriculum — 2026-10-14
 
 Baseline Sites source `3398ec2` / GitHub `3e085bd`; branch `feature/3-0-course-coverage`. This bounded V3 content batch adds 12 original grammar topics (N2 +10, N1 +2), 48 examples, 60 grammar exercises and 5 original readings (N2 +4, N1 +1) with 25 grounded comprehension questions. All 224 prior course documents and 927 vocabulary payloads/IDs/answers remain byte-equivalent after parsing. New readers connect the ten previously unlinked grammars; all 166 current grammar documents now have an explicit reading link. No Auth/RLS/SRS/storage/sync change or migration 001–013 replay/edit.

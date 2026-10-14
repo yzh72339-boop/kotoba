@@ -1,0 +1,130 @@
+{
+  "id": "grammar-en-c1-whereas-comparison",
+  "kind": "grammar",
+  "language": "en",
+  "level": "C1",
+  "difficulty": 4,
+  "tags": [
+    "v3-foundations-02",
+    "完整课程",
+    "C1"
+  ],
+  "title": "whereas / while：平行事实的对照",
+  "pattern": "whereas / while：平行事实的对照",
+  "meaningZh": "然而；而另一方……",
+  "meaningEn": "parallel contrast",
+  "explanation": "whereas links contrasting facts about two subjects or dimensions without claiming one causes the other. while can serve the same contrast function but can also mean simultaneous time; context distinguishes these readings. 两边应放可比较的事实，避免让读者误以为只是时间先后。正式说明可在从句前用逗号分隔，whereas尤其适合清楚比较群体、方案或结果。对照不自动证明孰优孰劣，仍需说明评价标准。",
+  "usage": "比较两种方案、两组反馈或不同指标。",
+  "nuance": "while含时间与对照两种读法；whereas通常更明确是对比。不能把whereas当作“因为”。",
+  "structure": [
+    "clause, whereas / while + contrasting finite clause",
+    "while作时间从句时需凭上下文区分"
+  ],
+  "formation": [
+    "clause, whereas / while + contrasting finite clause",
+    "while作时间从句时需凭上下文区分"
+  ],
+  "examples": [
+    {
+      "target": "The morning session was full, whereas the evening session had spare places.",
+      "zh": "上午场满员，而晚间场还有空位。"
+    },
+    {
+      "target": "One group wanted longer hours, while another wanted a quieter room.",
+      "zh": "一组希望延长开放时间，另一组希望房间更安静。"
+    },
+    {
+      "target": "The survey records opinions, whereas the counter records visits.",
+      "zh": "调查记录意见，而计数器记录到访次数。"
+    },
+    {
+      "target": "The new plan reduces travel time, while the old plan costs less.",
+      "zh": "新方案减少通勤时间，而旧方案费用更低。"
+    }
+  ],
+  "notes": [
+    "课程等级为教学编排，不是官方穷尽式分类。",
+    "开放题采用参考答案和学习者确认，不声称自动语义评分。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The survey records opinions, whereas recording visits.",
+      "correct": "The survey records opinions, whereas the counter records visits.",
+      "explanation": "本课whereas连接两条完整事实；后项需要明确主语与谓语，不用无主体片段混淆指标。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-c1-however-linking",
+      "explanation": "whereas把两条对照事实放在一句的从句结构内；however是篇章连接词，不能只用逗号连接两个独立句。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-b1-defining-relative-clauses"
+  ],
+  "relatedGrammar": [
+    "grammar-en-c1-however-linking"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-c1-whereas-comparison-meaning",
+      "kind": "meaning",
+      "prompt": "理解完整例句：The morning session was full, whereas the evening session had spare places.",
+      "options": [
+        "所有活动都只在上午举行。",
+        "上午场满员，而晚间场还有空位。",
+        "晚间场已被上午场取消。"
+      ],
+      "acceptedAnswers": [
+        "上午场满员，而晚间场还有空位。"
+      ],
+      "explanation": "whereas links contrasting facts about two subjects or dimensions without claiming one causes the other. while can serve the same contrast function but can also mean simultaneous time; context distinguishes these readings. 两边应放可比较的事实，避免让读者误以为只是时间先后。正式说明可在从句前用逗号分隔，whereas尤其适合清楚比较群体、方案或结果。对照不自动证明孰优孰劣，仍需说明评价标准。"
+    },
+    {
+      "id": "grammar-en-c1-whereas-comparison-formation",
+      "kind": "fill",
+      "prompt": "Compare two measures: Attendance rose, (　) average study time fell.",
+      "options": [
+        "whereas",
+        "because of",
+        "despite"
+      ],
+      "acceptedAnswers": [
+        "whereas"
+      ],
+      "explanation": "后项是完整从句；whereas说明相反变化，because of和despite后不能直接接此从句。"
+    },
+    {
+      "id": "grammar-en-c1-whereas-comparison-context",
+      "kind": "context",
+      "prompt": "If visits rose whereas satisfaction fell, what follows?",
+      "options": [
+        "Both indicators necessarily prove success.",
+        "Visits are the sole cause of dissatisfaction.",
+        "The indicators describe different, contrasting outcomes."
+      ],
+      "acceptedAnswers": [
+        "The indicators describe different, contrasting outcomes."
+      ],
+      "explanation": "Contrast does not establish causation or a single success criterion."
+    },
+    {
+      "id": "grammar-en-c1-whereas-comparison-error",
+      "kind": "error",
+      "prompt": "按本课要求纠正并对照解析：The survey records opinions, whereas recording visits.",
+      "acceptedAnswers": [
+        "The survey records opinions, whereas the counter records visits."
+      ],
+      "explanation": "本课whereas连接两条完整事实；后项需要明确主语与谓语，不用无主体片段混淆指标。"
+    },
+    {
+      "id": "grammar-en-c1-whereas-comparison-translation",
+      "kind": "translation",
+      "prompt": "参考本课表达译成目标语言：新方案减少通勤时间，而旧方案费用更低。",
+      "acceptedAnswers": [
+        "The new plan reduces travel time, while the old plan costs less."
+      ],
+      "explanation": "参考答案：The new plan reduces travel time, while the old plan costs less. while含时间与对照两种读法；whereas通常更明确是对比。不能把whereas当作“因为”。"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "article-ja-n4-first-reading-circle",
+  "kind": "reading",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "v3-foundations-02",
+    "N4",
+    "大学"
+  ],
+  "title": "最初の読書会",
+  "topic": "大学 · 初めての活動",
+  "genre": "story",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "大学の図書館で、短い本を読む会がありました。私は日本語の本がまだ速く読めません。でも、写真が多い本なら読めると思って、参加しました。",
+    "最初に先生が「好きなページを選ぼう」と言いました。私は料理の写真があるページを選びました。知らない字が二つありましたが、隣の人に聞けました。",
+    "最後に、みんなで感想を書きました。私は「来月も来ようと思っています」と書きました。一人では全部読めなくても、友達と話しながら少しずつ読めました。次は家で五ページ読んでから来ようと思います。"
+  ],
+  "translation": [
+    "大学图书馆举办了一次读短篇书籍的活动。我还不能很快地读日语书。不过，我想照片多的书应该能读懂，就参加了。",
+    "开始时，老师说：“选自己喜欢的一页吧。”我选了有料理照片的一页。有两个不认识的字，不过我能够向旁边的人请教。",
+    "最后大家写了感想。我写道：“我打算下个月也来。”即使独自不能全部读懂，和朋友交谈时也能一点点读下去。下次我准备先在家读五页再来。"
+  ],
+  "vocabulary": [
+    "context-ja-n5-61c4363ce176",
+    "complete-ja-n5-991f96a8ce",
+    "context-ja-n3-7f4874ef9c23",
+    "course-ja-n4-6",
+    "course-ja-n5-6",
+    "course-ja-n5-7",
+    "lex-ja-n4-saigo",
+    "lex-ja-n4-saisho"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-ja-n4-potential-form",
+      "surface": "読めません"
+    },
+    {
+      "id": "grammar-ja-n4-volitional-form",
+      "surface": "選ぼう"
+    },
+    {
+      "id": "grammar-ja-n4-volitional-to-omou",
+      "surface": "来ようと思っています"
+    },
+    {
+      "id": "grammar-ja-n4-nagara",
+      "surface": "話しながら"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-ja-n4-first-reading-circle-q1",
+      "type": "main-idea",
+      "prompt": "这篇文章主要讲什么？",
+      "options": [
+        "独自快速读完一本很难的书",
+        "在读书会中得到帮助并决定继续参加",
+        "老师要求所有人放弃看图片"
+      ],
+      "answer": 1,
+      "explanation": "作者起初读得慢，活动中得到帮助，最后写下下月继续参加的意向。"
+    },
+    {
+      "id": "article-ja-n4-first-reading-circle-q2",
+      "type": "detail",
+      "prompt": "作者为何决定参加？",
+      "options": [
+        "他觉得照片较多的书可能读懂",
+        "老师已替他读完全部内容",
+        "活动只读中文书"
+      ],
+      "answer": 0,
+      "explanation": "第一段明确说写真が多い本なら読めると思って。"
+    },
+    {
+      "id": "article-ja-n4-first-reading-circle-q3",
+      "type": "grammar",
+      "prompt": "“選ぼう”在老师的话中是什么用法？",
+      "options": [
+        "已经被迫选完",
+        "证明所有页面都有图片",
+        "邀请大家选择喜欢的页面"
+      ],
+      "answer": 2,
+      "explanation": "意志形在这里是活动中的提议；不是已完成结果。"
+    },
+    {
+      "id": "article-ja-n4-first-reading-circle-q4",
+      "type": "inference",
+      "prompt": "作者的困难怎样得到缓解？",
+      "options": [
+        "把所有不认识的字都删掉",
+        "向旁边的人请教并与朋友交流",
+        "拒绝讨论，只比较阅读速度"
+      ],
+      "answer": 1,
+      "explanation": "第二段问字，第三段与朋友交谈，体现合作而非删字。"
+    },
+    {
+      "id": "article-ja-n4-first-reading-circle-q5",
+      "type": "detail",
+      "prompt": "下次参加前，作者准备做什么？",
+      "options": [
+        "先在家读五页",
+        "买五本相同的书",
+        "替老师写完所有人的感想"
+      ],
+      "answer": 0,
+      "explanation": "最后一句五ページ読んでから说明在家先读五页。"
+    }
+  ],
+  "notes": [
+    "人物、组织、事件均为原创虚构教学情境。",
+    "预计阅读时间按日文200字／分钟、英文180词／分钟估算，并非个人测量。"
+  ]
+}

@@ -5,7 +5,7 @@ Counts are course cards; JLPT/CEFR tags are editorial teaching levels, not offic
 | Language | Level | Cards | Unique terms within grade | Context additions (2.7 onward) | Current-grade words linked to readings | Added words linked to readings |
 |---|---|---:|---:|---:|---:|---:|
 | ja | N5 | 70 | 70 | 20 | 34 | 13 |
-| ja | N4 | 70 | 70 | 20 | 22 | 13 |
+| ja | N4 | 70 | 70 | 20 | 26 | 13 |
 | ja | N3 | 81 | 79 | 20 | 28 | 14 |
 | ja | N2 | 210 | 210 | 60 | 107 | 59 |
 | ja | N1 | 70 | 70 | 20 | 11 | 8 |

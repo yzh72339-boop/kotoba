@@ -1,0 +1,119 @@
+{
+  "id": "article-ja-n4-choose-your-page",
+  "kind": "reading",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "v3-foundations-02",
+    "N4",
+    "家庭"
+  ],
+  "title": "自分で選ぶページ",
+  "topic": "家庭 · 小さな選択",
+  "genre": "story",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "土曜日、母は弟に図書館で好きな本を選ばせました。弟は動物の本を選びました。でも、本の中には読めない字がありました。母はすぐに答えを教えませんでした。",
+    "家で弟は絵を見て、字の読み方を考えました。それから母に聞きました。母にほめられて、弟はうれしそうでした。母は「全部分からなくてもいいよ」と言いました。",
+    "次の日、弟は私にそのページを見せました。私は弟に動物の名前を教えてもらいました。弟は「また自分で本を選びたい」と言いました。母が選ぶのではなく、弟に選ばせたことが、この小さな勉強の始まりでした。"
+  ],
+  "translation": [
+    "周六，母亲让弟弟在图书馆选择喜欢的书。弟弟选了动物书。不过，书中有不认识的字。母亲没有立刻告诉他答案。",
+    "在家里，弟弟看图，思考字的读法，然后向母亲请教。受到母亲称赞，他显得很高兴。母亲说：“不必全部懂哦。”",
+    "第二天，弟弟给我看了那一页。我请弟弟教我动物的名字。弟弟说：“还想自己选书。”这场小小的学习，是由弟弟自己选而不是母亲替他选开始的。"
+  ],
+  "vocabulary": [
+    "context-ja-n5-61c4363ce176",
+    "complete-ja-n4-9f15047230",
+    "complete-ja-n4-a709b05c38",
+    "complete-ja-n5-991f96a8ce",
+    "complete-ja-n5-d54d12f95c",
+    "ja-erabu",
+    "ja-kangae"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-ja-n4-causative-form",
+      "surface": "選ばせました"
+    },
+    {
+      "id": "grammar-ja-n4-passive-form",
+      "surface": "ほめられて"
+    },
+    {
+      "id": "grammar-ja-n4-potential-form",
+      "surface": "読めない"
+    },
+    {
+      "id": "grammar-ja-n4-sou-appearance",
+      "surface": "うれしそう"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-ja-n4-choose-your-page-q1",
+      "type": "detail",
+      "prompt": "谁选择了动物书？",
+      "options": [
+        "母亲按学校要求选择",
+        "作者替弟弟选择",
+        "弟弟自己选择"
+      ],
+      "answer": 2,
+      "explanation": "第一段弟は動物の本を選びました，母亲让他自主选择。"
+    },
+    {
+      "id": "article-ja-n4-choose-your-page-q2",
+      "type": "grammar",
+      "prompt": "“選ばせました”在这里最合适的解释是？",
+      "options": [
+        "允许弟弟选择喜欢的书",
+        "强迫弟弟只选母亲的书",
+        "书已经被另一人选走"
+      ],
+      "answer": 0,
+      "explanation": "好きな本和末段自分で说明使役是允许自主选择。"
+    },
+    {
+      "id": "article-ja-n4-choose-your-page-q3",
+      "type": "detail",
+      "prompt": "弟弟在向母亲请教之前做了什么？",
+      "options": [
+        "把书全部抄完",
+        "看图并思考字的读法",
+        "到学校参加考试"
+      ],
+      "answer": 1,
+      "explanation": "第二段先絵を見て、読み方を考えました，再母に聞きました。"
+    },
+    {
+      "id": "article-ja-n4-choose-your-page-q4",
+      "type": "inference",
+      "prompt": "弟弟后来教作者动物名，反映了什么？",
+      "options": [
+        "已经读懂所有日语书",
+        "母亲完全没有帮助",
+        "他把学到的一部分知识分享给别人"
+      ],
+      "answer": 2,
+      "explanation": "分享一个页面的动物名，不代表已掌握全部书本。"
+    },
+    {
+      "id": "article-ja-n4-choose-your-page-q5",
+      "type": "main-idea",
+      "prompt": "作者想突出怎样的学习起点？",
+      "options": [
+        "所有问题必须立即由家长解答",
+        "从自己的选择开始，带着问题学习",
+        "从完全不看图开始"
+      ],
+      "answer": 1,
+      "explanation": "末段明确对比母亲代选与弟弟自己选书。"
+    }
+  ],
+  "notes": [
+    "人物、组织、事件均为原创虚构教学情境。",
+    "预计阅读时间按日文200字／分钟、英文180词／分钟估算，并非个人测量。"
+  ]
+}

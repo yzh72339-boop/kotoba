@@ -1,5 +1,6 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {loadDocuments} from '../scripts/content-files.mjs';
 import {contentEntry,documentLength} from '../lib/content-library/schema.ts';
@@ -19,7 +20,7 @@ const newReading=['rain-room','closing-bookshop','folding-chair','repair-noteboo
 const oldUnlinked=['zaru-wo-enai','hoka-nai','dokoroka','dokoro-dewanai','zu-niwa-irarenai','ue-ni','ni-hoka-naranai','kkonai','kotonaku'].map(s=>'grammar-ja-n2-'+s).concat('grammar-ja-n1-kagiri-da');
 const articles=docs.filter(d=>newReading.includes(d.id));
 test('V3 batch preserves all prior 224 course payloads, vocabulary and original answer mappings',()=>{
- const prior=docs.filter(d=>![...newGrammar,...newReading].includes(d.id));assert.equal(prior.length,224);
+ const frozen=JSON.parse(readFileSync(new URL('./fixtures/v3-preview-01-baseline.json',import.meta.url),'utf8')).ids;const prior=docs.filter(d=>frozen.includes(d.id)&&![...newGrammar,...newReading].includes(d.id));assert.equal(prior.length,224);
  assert.equal(createHash('sha256').update(JSON.stringify(prior)).digest('hex'),'6e8d9fbf233e33c40b9f5c9f01a43085c28f56804764aa1dcfc0c609b7599835');
  const words=['ja','en'].flatMap(allCourseWords);assert.equal(words.length,927);assert.equal(createHash('sha256').update(JSON.stringify(words)).digest('hex'),'1b562788e4b02cbed1250ff8a46cf857b1ec8e6d9ceced7736ff7f52f9959314');
 });

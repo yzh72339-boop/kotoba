@@ -1,0 +1,130 @@
+{
+  "id": "grammar-en-c2-not-so-much-as",
+  "kind": "grammar",
+  "language": "en",
+  "level": "C2",
+  "difficulty": 5,
+  "tags": [
+    "v3-foundations-02",
+    "完整课程",
+    "C2"
+  ],
+  "title": "not so much X as Y",
+  "pattern": "not so much X as Y",
+  "meaningZh": "与其说是X，不如说是Y",
+  "meaningEn": "corrective emphasis rather than absolute exclusion",
+  "explanation": "not so much X as Y revises the most useful description of something: X may remain partly true, but Y receives explanatory weight. 并非一律完全否定X，也不是比较两个数字。X和Y应尽量语法平行：名词对名词、动名词对动名词、从句对从句。它可引导对原因、责任或价值的细致重估，适合论说和批评；若只是“更喜欢A”，不必套用这个纠正性结构。",
+  "usage": "修正表面标签，把论证的重点移到更准确的框架。",
+  "nuance": "与not X but Y相比，not so much通常容许X部分成立；后文证据须支持Y，不能靠句式装深刻。",
+  "structure": [
+    "not so much + parallel X + as + parallel Y",
+    "X和Y可为名词、动名词或完整从句"
+  ],
+  "formation": [
+    "not so much + parallel X + as + parallel Y",
+    "X和Y可为名词、动名词或完整从句"
+  ],
+  "examples": [
+    {
+      "target": "The problem is not so much a lack of space as a lack of access.",
+      "zh": "问题与其说是空间不足，不如说是缺乏使用渠道。"
+    },
+    {
+      "target": "She was not so much refusing the proposal as asking who would bear the cost.",
+      "zh": "她与其说在拒绝提案，不如说在问谁承担费用。"
+    },
+    {
+      "target": "The archive preserves not so much a final verdict as a record of disagreement.",
+      "zh": "档案保留的与其说是最终裁决，不如说是分歧记录。"
+    },
+    {
+      "target": "What changed was not so much the evidence as the questions put to it.",
+      "zh": "变化的与其说是证据，不如说是人们向证据提出的问题。"
+    }
+  ],
+  "notes": [
+    "课程等级为教学编排，不是官方穷尽式分类。",
+    "开放题采用参考答案和学习者确认，不声称自动语义评分。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Intended parallel nouns: It is not so much a lack of time as to organise the work.",
+      "correct": "It is not so much a lack of time as a failure to organise the work.",
+      "explanation": "比较项需平行；将第二项改为名词短语，且它应符合实际证据。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-c2-no-more-than-comparison",
+      "explanation": "no more X than Y可借显然不成立的Y否定X；not so much X as Y重新分配解释重点，不必把X彻底排除。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-c2-negation-scope"
+  ],
+  "relatedGrammar": [
+    "grammar-en-c2-no-more-than-comparison"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-c2-not-so-much-as-meaning",
+      "kind": "meaning",
+      "prompt": "理解完整例句：The problem is not so much a lack of space as a lack of access.",
+      "options": [
+        "问题与其说是空间不足，不如说是缺乏使用渠道。",
+        "空间本身一定完全充足，人人均可使用。",
+        "访问权限与空间必然是同一个概念。"
+      ],
+      "acceptedAnswers": [
+        "问题与其说是空间不足，不如说是缺乏使用渠道。"
+      ],
+      "explanation": "not so much X as Y revises the most useful description of something: X may remain partly true, but Y receives explanatory weight. 并非一律完全否定X，也不是比较两个数字。X和Y应尽量语法平行：名词对名词、动名词对动名词、从句对从句。它可引导对原因、责任或价值的细致重估，适合论说和批评；若只是“更喜欢A”，不必套用这个纠正性结构。"
+    },
+    {
+      "id": "grammar-en-c2-not-so-much-as-formation",
+      "kind": "fill",
+      "prompt": "A contrast between gerunds: She was not so much rejecting it as (　) its assumptions.",
+      "options": [
+        "a question",
+        "to have question",
+        "questioning"
+      ],
+      "acceptedAnswers": [
+        "questioning"
+      ],
+      "explanation": "rejecting和questioning是平行动名词/分词短语，此处共同跟随was。"
+    },
+    {
+      "id": "grammar-en-c2-not-so-much-as-context",
+      "kind": "context",
+      "prompt": "Does “not so much a final verdict as a record of disagreement” erase every conclusion in the archive?",
+      "options": [
+        "Yes; disagreement means no evidence exists.",
+        "No; it reframes the archive’s main value without excluding every conclusion.",
+        "Yes; any conclusion would contradict the sentence."
+      ],
+      "acceptedAnswers": [
+        "No; it reframes the archive’s main value without excluding every conclusion."
+      ],
+      "explanation": "not so much reallocates emphasis; it does not quantify or absolutely negate every instance of X."
+    },
+    {
+      "id": "grammar-en-c2-not-so-much-as-error",
+      "kind": "error",
+      "prompt": "按本课要求纠正并对照解析：Intended parallel nouns: It is not so much a lack of time as to organise the work.",
+      "acceptedAnswers": [
+        "It is not so much a lack of time as a failure to organise the work."
+      ],
+      "explanation": "比较项需平行；将第二项改为名词短语，且它应符合实际证据。"
+    },
+    {
+      "id": "grammar-en-c2-not-so-much-as-translation",
+      "kind": "translation",
+      "prompt": "参考本课表达译成目标语言：变化的与其说是证据，不如说是人们向证据提出的问题。",
+      "acceptedAnswers": [
+        "What changed was not so much the evidence as the questions put to it."
+      ],
+      "explanation": "参考答案：What changed was not so much the evidence as the questions put to it. 与not X but Y相比，not so much通常容许X部分成立；后文证据须支持Y，不能靠句式装深刻。"
+    }
+  ]
+}

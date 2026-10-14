@@ -1,6 +1,6 @@
 {
   "name": "kotoba",
-  "version": "3.0.0-preview.1",
+  "version": "3.1.0-preview.1",
   "private": true,
   "scripts": {
     "dev": "node scripts/check-public-environment.mjs development && next dev --hostname 0.0.0.0",
@@ -20,30 +20,33 @@
     "vocabulary:audit": "node --import tsx scripts/vocabulary-audit.mjs"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.1.6",
+    "@radix-ui/react-slot": "^1.1.2",
+    "@supabase/supabase-js": "^2.57.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.23.0",
+    "lucide-react": "^0.468.0",
     "next": "^15.5.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "lucide-react": "^0.468.0",
-    "framer-motion": "^12.23.0",
-    "@supabase/supabase-js": "^2.57.0",
-    "@radix-ui/react-dialog": "^1.1.6",
-    "@radix-ui/react-slot": "^1.1.2",
-    "class-variance-authority": "^0.7.1",
-    "clsx": "^2.1.1",
     "tailwind-merge": "^3.3.0",
+    "wanakana": "5.3.1",
+    "wink-eng-lite-web-model": "1.8.1",
+    "wink-nlp": "2.4.0",
     "zod": "^3.24.0"
   },
   "devDependencies": {
-    "typescript": "^5.9.2",
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/postcss": "^4.1.0",
     "@types/node": "^22.18.0",
     "@types/react": "^19.1.0",
     "@types/react-dom": "^19.1.0",
-    "tailwindcss": "^4.1.0",
-    "@tailwindcss/postcss": "^4.1.0",
-    "tsx": "^4.20.0",
     "eslint": "^9.34.0",
     "eslint-config-next": "^15.5.0",
-    "@eslint/eslintrc": "^3.3.1"
+    "tailwindcss": "^4.1.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.2"
   },
   "type": "module"
 }

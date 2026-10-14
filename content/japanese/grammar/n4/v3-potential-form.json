@@ -1,0 +1,136 @@
+{
+  "id": "grammar-ja-n4-potential-form",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "v3-foundations-02",
+    "完整课程",
+    "N4"
+  ],
+  "title": "可能形：書ける・食べられる・できる",
+  "pattern": "可能形：書ける・食べられる・できる",
+  "meaningZh": "能做；具备能力或客观条件",
+  "meaningEn": "ability and situational possibility",
+  "explanation": "可能形表示能力或条件允许，不等于获得许可。五段动词末尾う段变え段再加る，如書く→書ける；一段动词去る加られる，如食べる→食べられる；する→できる、来る→来られる。可能形自身按一段动词变化，如読めない、読めた。这里的一段られる也可能是被动或尊敬形式，必须结合语境区分。",
+  "usage": "谈能否使用工具、读懂文字或完成某事。",
+  "nuance": "宾语常用が，现代用法中を也可成立；不把所有を都判成错。正式学习采用食べられる而不是口语省ら的食べれる。",
+  "structure": [
+    "五段：末尾う段→え段＋る；一段：去る＋られる",
+    "する→できる；来る→来られる（こられる）",
+    "可能动词去る＋ない／ます：読めない／読めます"
+  ],
+  "formation": [
+    "五段：末尾う段→え段＋る；一段：去る＋られる",
+    "する→できる；来る→来られる（こられる）",
+    "可能动词去る＋ない／ます：読めない／読めます"
+  ],
+  "examples": [
+    {
+      "target": "この字は読めます。",
+      "zh": "这个字我能读。",
+      "reading": "このじはよめます。"
+    },
+    {
+      "target": "この店ではカードが使えます。",
+      "zh": "这家店可以使用银行卡。",
+      "reading": "このみせではカードがつかえます。"
+    },
+    {
+      "target": "弟はまだ一人で来られません。",
+      "zh": "弟弟还不能独自来。",
+      "reading": "おとうとはまだひとりでこられません。"
+    },
+    {
+      "target": "練習の後で、一人で料理ができました。",
+      "zh": "练习之后，我能够独自做饭了。",
+      "reading": "れんしゅうのあとで、ひとりでりょうりができました。"
+    }
+  ],
+  "notes": [
+    "课程等级为教学编排，不是官方穷尽式分类。",
+    "开放题采用参考答案和学习者确认，不声称自动语义评分。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "書く的可能形是書かれる。",
+      "correct": "書く的可能形是書ける。",
+      "explanation": "書かれる通常是被动或尊敬，可能形把く变为ける。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n4-passive-form",
+      "explanation": "可能形描述能否做，被动形描述受到某动作；一段动词两者形式相同，依靠参与者和语境。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n4-passive-form"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n4-potential-form-meaning",
+      "kind": "meaning",
+      "prompt": "理解完整例句：この字は読めます。",
+      "options": [
+        "这个字我能读。",
+        "我被要求读这个字。",
+        "我打算以后才开始认这个字。"
+      ],
+      "acceptedAnswers": [
+        "这个字我能读。"
+      ],
+      "explanation": "可能形表示能力或条件允许，不等于获得许可。五段动词末尾う段变え段再加る，如書く→書ける；一段动词去る加られる，如食べる→食べられる；する→できる、来る→来られる。可能形自身按一段动词变化，如読めない、読めた。这里的一段られる也可能是被动或尊敬形式，必须结合语境区分。"
+    },
+    {
+      "id": "grammar-ja-n4-potential-form-formation",
+      "kind": "transform",
+      "prompt": "把書く改成可能形：このペンで小さな字も（　）。",
+      "options": [
+        "書かれる",
+        "書こう",
+        "書ける"
+      ],
+      "acceptedAnswers": [
+        "書ける"
+      ],
+      "explanation": "五段書く的く变け，再加る；書こう是意志形。"
+    },
+    {
+      "id": "grammar-ja-n4-potential-form-context",
+      "kind": "context",
+      "prompt": "“弟はまだ一人で来られません”最自然的理解是？",
+      "options": [
+        "弟弟已经来过且不会再来。",
+        "弟弟尚不能独自前来。",
+        "弟弟已被正式禁止出门。"
+      ],
+      "acceptedAnswers": [
+        "弟弟尚不能独自前来。"
+      ],
+      "explanation": "まだ和一人で说明目前的能力或条件；不能据此断言有禁令。"
+    },
+    {
+      "id": "grammar-ja-n4-potential-form-error",
+      "kind": "error",
+      "prompt": "按本课要求纠正并对照解析：書く的可能形是書かれる。",
+      "acceptedAnswers": [
+        "書く的可能形是書ける。"
+      ],
+      "explanation": "書かれる通常是被动或尊敬，可能形把く变为ける。"
+    },
+    {
+      "id": "grammar-ja-n4-potential-form-translation",
+      "kind": "translation",
+      "prompt": "参考本课表达译成目标语言：练习之后，我能够独自做饭了。",
+      "acceptedAnswers": [
+        "練習の後で、一人で料理ができました。"
+      ],
+      "explanation": "参考答案：練習の後で、一人で料理ができました。 宾语常用が，现代用法中を也可成立；不把所有を都判成错。正式学习采用食べられる而不是口语省ら的食べれる。"
+    }
+  ]
+}
