@@ -1,0 +1,133 @@
+{
+  "id": "grammar-ja-n2-ni-hanshite",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N2",
+  "difficulty": 3,
+  "tags": [
+    "N2",
+    "语境辨析",
+    "V3课程"
+  ],
+  "title": "〜に反して",
+  "pattern": "〜に反して",
+  "meaningZh": "与……相反；违背……",
+  "meaningEn": "contrary to, against",
+  "explanation": "明确指出实际情况与预想、愿望、方针或规则相反。它不仅是“虽然有前项却仍有后项”的让步，而是指出两者方向冲突。接在预想后可表达意外，接在规则后可表达不符合规定。",
+  "usage": "说明结果违背预测，或行为与愿望、规则相冲突。",
+  "nuance": "可用于中性描述或批评；规则是否真的被违反仍须依据事实判断。",
+  "structure": [
+    "N + に反して",
+    "N + に反する + N"
+  ],
+  "formation": [
+    "名词如予想、希望、規則接に反して；修饰名词时用に反する。"
+  ],
+  "examples": [
+    {
+      "target": "予想に反して、午後には雨がやんだ。",
+      "reading": "よそうにはんして、ごごにはあめがやんだ。",
+      "zh": "与预想相反，下午雨停了。"
+    },
+    {
+      "target": "本人の希望に反して、会議の日程が変更された。",
+      "reading": "ほんにんのきぼうにはんして、かいぎのにっていがへんこうされた。",
+      "zh": "违背本人的意愿，会议日期被改了。"
+    },
+    {
+      "target": "説明された方針に反して、個別の申請だけが認められた。",
+      "reading": "せつめいされたほうしんにはんして、こべつのしんせいだけがみとめられた。",
+      "zh": "与此前说明的方针相反，只有个别申请获准。"
+    },
+    {
+      "target": "規則に反して、入口に大きな荷物が置かれていた。",
+      "reading": "きそくにはんして、いりぐちにおおきなにもつがおかれていた。",
+      "zh": "有人违反规定，把大件行李放在入口。"
+    }
+  ],
+  "notes": [
+    "先依据接续和完整语境理解，不能只凭汉字判断语气。",
+    "JLPT等级用于教学编排；并非官方穷尽式语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "予想するに反して、雨がやんだ。",
+      "correct": "予想に反して、雨がやんだ。",
+      "explanation": "本课名词接续使用予想；若用动词，需先组织能作名词成分的表达，不能直接套入V辞书形。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n2-nimo-kakawarazu",
+      "explanation": "にもかかわらず说明前项本应阻碍后项却仍发生；に反して强调实际与预期或规则相反。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n2-nimo-kakawarazu"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n2-ni-hanshite-meaning",
+      "kind": "meaning",
+      "prompt": "第一句对天气预测作了什么说明？",
+      "options": [
+        "实际情况与原来的预测不同",
+        "预测和实际情况完全一致",
+        "作者没有任何天气预期"
+      ],
+      "acceptedAnswers": [
+        "实际情况与原来的预测不同"
+      ],
+      "explanation": "明确指出实际情况与预想、愿望、方针或规则相反。它不仅是“虽然有前项却仍有后项”的让步，而是指出两者方向冲突。接在预想后可表达意外，接在规则后可表达不符合规定。"
+    },
+    {
+      "id": "grammar-ja-n2-ni-hanshite-fill",
+      "kind": "fill",
+      "prompt": "按本课接续填空：修饰“违反规则的行为”：規則（　）行動。",
+      "options": [
+        "に反する",
+        "に反して",
+        "を反する"
+      ],
+      "acceptedAnswers": [
+        "に反する"
+      ],
+      "explanation": "に反する＋名词是连体形式；に反して接后续述语。"
+    },
+    {
+      "id": "grammar-ja-n2-ni-hanshite-error",
+      "kind": "error",
+      "prompt": "纠正接续或理解，并对照解析：予想するに反して、雨がやんだ。",
+      "acceptedAnswers": [
+        "予想に反して、雨がやんだ。"
+      ],
+      "explanation": "本课名词接续使用予想；若用动词，需先组织能作名词成分的表达，不能直接套入V辞书形。"
+    },
+    {
+      "id": "grammar-ja-n2-ni-hanshite-context",
+      "kind": "context",
+      "prompt": "这句话的完整意思是哪一项？\n規則に反して、入口に大きな荷物が置かれていた。",
+      "options": [
+        "与此前说明的方针相反，只有个别申请获准。",
+        "与预想相反，下午雨停了。",
+        "有人违反规定，把大件行李放在入口。"
+      ],
+      "acceptedAnswers": [
+        "有人违反规定，把大件行李放在入口。"
+      ],
+      "explanation": "本句表达：有人违反规定，把大件行李放在入口。 可用于中性描述或批评；规则是否真的被违反仍须依据事实判断。"
+    },
+    {
+      "id": "grammar-ja-n2-ni-hanshite-translation",
+      "kind": "translation",
+      "prompt": "用本课表达译成日语：与预想相反，下午雨停了。",
+      "acceptedAnswers": [
+        "予想に反して、午後には雨がやんだ。"
+      ],
+      "explanation": "参考表达：予想に反して、午後には雨がやんだ。 名词如予想、希望、規則接に反して；修饰名词时用に反する。"
+    }
+  ]
+}

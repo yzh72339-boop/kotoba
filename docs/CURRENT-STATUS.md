@@ -1,3 +1,19 @@
+# Current: 3.0.0-preview.1 linked curriculum — 2026-10-14
+
+Baseline Sites source `3398ec2` / GitHub `3e085bd`; branch `feature/3-0-course-coverage`. This bounded V3 content batch adds 12 original grammar topics (N2 +10, N1 +2), 48 examples, 60 grammar exercises and 5 original readings (N2 +4, N1 +1) with 25 grounded comprehension questions. All 224 prior course documents and 927 vocabulary payloads/IDs/answers remain byte-equivalent after parsing. New readers connect the ten previously unlinked grammars; all 166 current grammar documents now have an explicit reading link. No Auth/RLS/SRS/storage/sync change or migration 001–013 replay/edit.
+
+Counts: 927 cards /166 grammar /75 reading. N2 64 grammar /23 reading; N1 12 /6; other levels unchanged and still meet the first-stage floor. Full 1,260/590 targets remain incomplete: 1,094 grammar +515 reading =1,609 missing. Strict `content:audit -- --require-targets` exits 1 as expected; its standard is retained.
+
+222 Node tests, TypeScript, zero-warning Lint, content/vocabulary audits and production build pass. Build `kotoba-3.0.0-preview.1-8e4c66afc533`; article bodies remain lazily fetched. Ten course/width combinations across 360/390/430 verify practice/feedback, frozen answer reload, linked article, vocabulary/grammar collection, one completion and layout. N2/N1 downloaded article offline note/reload + simulated reconnect and real compiled-worker update tests pass. A QA-only N2 grade assumption was corrected for the N1 checks; application grade display was already correct. Fixtures are not actual owner/RLS/device/FPS acceptance.
+
+User reports successful live ordinary-account signup, save/refresh restore and cross-device synchronization on the prior 2.9.1 direct build. Read-only quota confirmed ten seats and nine remaining. This user evidence is preserved separately from automated tests; new V3 lessons/installed PWA and genuine A/B negative RLS checks remain unverified on production. Site audience is public; exact new deployment/version comes from the native receipt. Direct signup/password and original admin UID/data remain preserved.
+
+Read V3-CURRICULUM-BATCH-01.md and CONTENT-AUDIT.md. Next bounded content batch: strengthen the N4 conjugation prerequisites (potential/volitional), then expand English C1/C2 contextual units while keeping original IDs; continue the full per-level targets. Real AI/writing feedback, traceable listening and adaptive-rule service acceptance remain future work, not delivered capabilities. Do not claim full V3/RC completion or ask for secrets in chat.
+
+Prior checkpoints below are historical.
+
+---
+
 # Direct registration checkpoint — 2026-10-14
 
 The user explicitly superseded the earlier email-confirmation/CAPTCHA/SMTP requirement: use email/password direct signup. `NEXT_PUBLIC_AUTH_MODE=direct` skips the frontend CAPTCHA dependency, returns immediate signup sessions to the app and honestly disables mail-based recovery. Verified mode remains available via `NEXT_PUBLIC_AUTH_MODE=verified`. The Supabase server remains authoritative; the frontend cannot turn off its confirmation/CAPTCHA policies. Strong passwords and all admission/RLS/UID/queue/SRS fences remain unchanged. No new migration and no edits to 001–013.

@@ -1,3 +1,9 @@
+# Current V3 preview continuation — 2026-10-14
+
+12 grammar /5 reading added; current 166 /75, all current grammar linked. 222 tests and bounded mobile/offline/update checks pass. Full gap 1,609 and real AI/media/device acceptance remain. See V3-CURRICULUM-BATCH-01.md for the exact next breakpoint; prior numbered checkpoints below are historical.
+
+---
+
 # Current 2.9 checkpoint
 
 Personal import/context/listening/budget code is implemented as preview. Review KOTOBA-2.9-IMPLEMENTATION.md for scope. Next: production 012 read-only verification, actual owner/RLS/two-device checks, real Android/iOS installed PWA, ja/en voice availability and private media backup. Current listening uses original text/device voices or user attachments; human audio/scoring is not invented. Continue the existing content roadmap after acceptance; 927 vocabulary /154 grammar /70 reading, full grammar/reading gap 1,626. No production website update claimed from source commits alone.

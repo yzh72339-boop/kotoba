@@ -1,3 +1,11 @@
+# Kotoba 3.0 content preview
+
+Current release `3.0.0-preview.1` adds 12 full N2/N1 grammar topics, 5 original readings and 85 explained exercises/questions. Existing 224 course documents, all 927 vocabulary IDs and learning data remain compatible. All 166 current grammar topics have a reading link; total readings 75. This is a staged V3 preview: full 1,260/590 targets and real AI/service work remain unfinished.
+
+Run `npm ci`, configure ignored `.env.local` from `.env.example`, then `npm run dev` or `npm run build` → static `out/`. Keep `NEXT_PUBLIC_AUTH_MODE=direct` for the current ten-user beta. No new SQL or dependency upgrade. Original admin and user-isolated learning/sync remain preserved. See [batch scope, checks and next breakpoint](docs/V3-CURRICULUM-BATCH-01.md), [current state](docs/CURRENT-STATUS.md) and [per-level audit](CONTENT-AUDIT.md). Historical version notes below are superseded by current state and deployment receipts.
+
+---
+
 # Kotoba V2.9.1 — direct registration
 
 Latest user requirement: email/password direct signup, no CAPTCHA/confirmation mail/SMTP setup. Default `.env.example` selects `NEXT_PUBLIC_AUTH_MODE=direct`; verified mode remains supported. Ten ordinary-user seats, original administrator UUID/data, member RLS, SRS and account-scoped offline/sync remain unchanged. No production migration is needed or replayed.

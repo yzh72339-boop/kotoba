@@ -8,6 +8,7 @@ import {beginPrivateSignIn,beginGoogleSignIn} from '@/lib/platform/auth';
 import {betaRegistration,betaPassword,emailInput,betaStatusSchema,betaRegistrationAvailable,safeAuthMessage,directSignup,type BetaStatus} from '@/lib/beta-auth';
 import {Button} from './ui/button';
 import {AuthCaptcha} from './auth-captcha';
+import {APP_VERSION} from '@/lib/version';
 export type AuthMode='login'|'register'|'forgot'|'reset'|'confirm';
 const titles:Record<AuthMode,string>={login:'继续你的学习。',register:'建立你的学习空间。',forgot:'找回登录密码。',reset:'设置新密码。',confirm:'验证你的邮箱。'};
 export function EmailAuthScreen({initialMode='login',onSignedIn}:{initialMode?:AuthMode;onSignedIn?:()=>void}){
@@ -56,7 +57,7 @@ export function EmailAuthScreen({initialMode='login',onSignedIn}:{initialMode?:A
  }
  async function googleMigration(){if(!supabase||busy)return;setBusy(true);beginGoogleSignIn();const {error}=await supabase.auth.signInWithOAuth({provider:'google',options:{redirectTo:location.origin+'/'}});if(error){setMessage(safeAuthMessage(error,directSignup));setBusy(false)}}
  const captchaRequired=Boolean(siteKey)&&mode!=='reset'&&mode!=='confirm';
- return <main className="private-gate expressive-experience beta-auth"><Link href="/" className="private-brand"><span className="gate-symbol">k</span><span>kotoba.</span></Link><section className="private-login"><span className="private-lock"><LockKeyhole size={25}/></span><span className="eyebrow">2.9.1 · LIMITED BETA</span><h1>{titles[mode]}</h1><p>英语与日语，一步一步。你的学习记录独立保存。</p>
+ return <main className="private-gate expressive-experience beta-auth"><Link href="/" className="private-brand"><span className="gate-symbol">k</span><span>kotoba.</span></Link><section className="private-login"><span className="private-lock"><LockKeyhole size={25}/></span><span className="eyebrow">{APP_VERSION} · LIMITED BETA</span><h1>{titles[mode]}</h1><p>英语与日语，一步一步。你的学习记录独立保存。</p>
  {mode==='register'&&<div className="beta-capacity" role="status">{checking?'正在检查注册名额…':!status?'注册服务尚未就绪，请稍后重试。':!status.enabled||!status.open?'注册尚未开放。已有账号可以继续登录。':status.remaining===0?'内测名额已满，暂不接受新用户注册。':`当前剩余 ${status.remaining} / ${status.total} 个注册名额。`}<small>显示仅供参考，最终名额由数据库原子校验。</small></div>}
  {mode==='confirm'?<div className="auth-confirm"><Mail size={24}/><p role="status">{message||'正在确认邮件链接…'}</p><Link className="button" href="/">{recoveryReady?'进入 Kotoba':'返回登录'}</Link><button onClick={()=>change('forgot')}>重新申请密码邮件</button></div>:directSignup&&mode==='forgot'?<div className="auth-confirm"><KeyRound size={24}/><p role="status">本内测采用直接注册，暂未配置邮件找回密码。请联系管理员核对账号；不要发送密码。已登录时可在个人设置中修改密码。</p><Link className="button" href="/login/">返回登录</Link></div>:<form className="personal-login" onSubmit={e=>{e.preventDefault();void submit()}}>
  {mode!=='reset'&&<label>邮箱<input className="input" type="email" required autoComplete="username" maxLength={254} value={email} onChange={e=>setEmail(e.target.value)} placeholder="you@example.com"/></label>}

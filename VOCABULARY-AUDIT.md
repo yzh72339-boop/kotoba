@@ -8,7 +8,7 @@ Counts are course cards; JLPT/CEFR tags are editorial teaching levels, not offic
 | ja | N4 | 70 | 70 | 20 | 22 | 13 |
 | ja | N3 | 81 | 79 | 20 | 28 | 14 |
 | ja | N2 | 210 | 210 | 60 | 107 | 59 |
-| ja | N1 | 70 | 70 | 20 | 10 | 8 |
+| ja | N1 | 70 | 70 | 20 | 11 | 8 |
 | en | A1 | 70 | 70 | 20 | 54 | 18 |
 | en | A2 | 70 | 70 | 20 | 33 | 17 |
 | en | B1 | 76 | 70 | 20 | 23 | 15 |
