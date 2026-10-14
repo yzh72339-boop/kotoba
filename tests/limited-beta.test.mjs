@@ -27,6 +27,14 @@ test('safe errors distinguish full, confirmation, CAPTCHA and rate limits withou
  assert.match(safeAuthMessage({code:'captcha_failed'}),/机器人验证/);assert.match(safeAuthMessage({status:429}),/过于频繁/);
  assert.equal(missingBetaCapability({code:'PGRST202'}),true);assert.equal(missingBetaCapability({code:'42501'}),false);assert.equal(missingBetaCapability({message:'network failed'}),false);
 });
+test('direct signup skips only the CAPTCHA dependency and preserves closed/full/unknown capacity fences',()=>{
+ const status={enabled:true,open:true,total:10,remaining:1};assert.equal(betaRegistrationAvailable(status,false,false),true);
+ for(const value of [null,{...status,open:false},{...status,enabled:false},{...status,remaining:0}])assert.equal(betaRegistrationAvailable(value,false,false),false);
+ assert.equal(betaRegistrationAvailable(status,false),false);
+ assert.match(safeAuthMessage({code:'captcha_failed'},true),/服务器仍启用验证码/);
+ assert.match(safeAuthMessage({code:'email_not_confirmed'},true),/尚未激活/);
+ assert.doesNotMatch(safeAuthMessage({message:'private details'},true),/申请邮件/);
+});
 test('project and user isolate local state, queues and fallback storage; old operations cannot write into a new account',()=>{
  const a=selectStorageIdentity('https://project-a.invalid','user-a'),b=selectStorageIdentity('https://project-a.invalid','user-b');
  assert.notEqual(a.databaseName,b.databaseName);assert.notEqual(a.fallbackKey,b.fallbackKey);assert.throws(()=>assertStorageIdentity(a),/Account changed/);

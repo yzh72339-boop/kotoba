@@ -1,3 +1,17 @@
+# Direct registration checkpoint — 2026-10-14
+
+The user explicitly superseded the earlier email-confirmation/CAPTCHA/SMTP requirement: use email/password direct signup. `NEXT_PUBLIC_AUTH_MODE=direct` skips the frontend CAPTCHA dependency, returns immediate signup sessions to the app and honestly disables mail-based recovery. Verified mode remains available via `NEXT_PUBLIC_AUTH_MODE=verified`. The Supabase server remains authoritative; the frontend cannot turn off its confirmation/CAPTCHA policies. Strong passwords and all admission/RLS/UID/queue/SRS fences remain unchanged. No new migration and no edits to 001–013.
+
+217 Node tests and local actual GoTrue/PostgreSQL pass. The new Auth case disables SMTP completely and auto-confirms signup: 25 concurrent requests fill exactly ten seats including an existing account; eleventh rejected; sessions returned immediately; original admin UUID/data/login and member refresh preserved. Production build `kotoba-2.9.1-0f6bf1208a10` passes. Chromium 360/390/430px direct signup → immediate app → own settings/save → sign-out → other account → refresh passes, including duplicate submission, full-capacity login and honest recovery information. These fixtures do not test real email recovery. This is not production multi-user or real-device acceptance.
+
+Next manual setup after publication: Supabase Authentication → Sign In / Providers → allow email signups and disable Confirm email; CAPTCHA remains disabled. Keep the protected Before User Created Hook and server rate limits. Sign in using the original admin password, verify old records, then Settings → 内测名额管理 → acknowledge the direct-mode configuration and 开放注册. No SQL/replayed migration, SMTP, domain or CAPTCHA Secret is required. Existing unconfirmed accounts, if any, require admin review; do not repeatedly register or delete a real account to fix a configuration mismatch. Sites public access and latest deployment build are defined by the native receipt, not historical notes.
+
+Without email confirmation this does not prove mailbox ownership; without a mail provider, automatic password-recovery email is not advertised. Already signed-in users retain password change. Latest verified aggregate remains zero ordinary accounts, ten remaining and registration closed; actual server settings and direct signup still need live owner/new-user acceptance.
+
+Prior checkpoints below are historical.
+
+---
+
 # Production 013 and CAPTCHA build checkpoint — 2026-10-13
 
 User-supplied real 013 catalog/ledger verification passes: trusted admin UUID and configured password preserved, zero ordinary accounts, capacity ten, no drift, protected Hook ACLs, RLS enabled and registration closed. Read-only production aggregate RPC also returns HTTP 200, ten remaining seats and registration disabled. See PRODUCTION-MIGRATION-013-EVIDENCE.json. The Hook screenshot shows enabled/Postgres, but exact target was obscured; email confirmation is user-reported enabled. Do not replay any migration.

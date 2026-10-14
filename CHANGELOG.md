@@ -1,3 +1,10 @@
+# 2.9.1 direct-registration update — 2026-10-14
+
+- Support explicitly selected immediate email/password signup without CAPTCHA or confirmation-mail dependency, as requested. Supabase remains the registration and capacity authority.
+- Correct immediate-session navigation and backend configuration mismatch messages; hide unsupported mail recovery/resend claims. Admin activation checklist matches direct mode.
+- Preserve original admin, ten-seat limit, migrations 001–013, learning IDs, RLS, SRS and sync. No dependency changes.
+- 217 Node tests and actual local GoTrue tests pass, including 25 concurrent no-SMTP direct signups with immediate sessions and rejection above ten. Production settings/owner/user/device acceptance remain separately pending.
+
 # 2.9.1 Limited Beta — 2026-10-13
 
 - Email/password signup, verification, recovery and password update; mobile CAPTCHA integration and capacity status, with fail-closed activation.

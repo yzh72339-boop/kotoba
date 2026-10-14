@@ -32,8 +32,9 @@ async function api(path,body,{admin=false,token,method='POST'}={}){
  const response=await fetch(origin+path,{method,headers:{'Content-Type':'application/json',...(admin?{Authorization:'Bearer '+adminToken}:token?{Authorization:'Bearer '+token}:{})},...(body?{body:JSON.stringify(body)}:{}),signal:AbortSignal.timeout(20000)});
  const text=await response.text();let value;try{value=JSON.parse(text)}catch{value={}}return {status:response.status,data:value};
 }
-function startAuth(hook){
- const vars={GOTRUE_API_HOST:'0.0.0.0',GOTRUE_API_PORT:'9999',API_EXTERNAL_URL:origin,GOTRUE_SITE_URL:origin,GOTRUE_URI_ALLOW_LIST:origin+'/**',GOTRUE_DB_DRIVER:'postgres',GOTRUE_DB_DATABASE_URL:'postgres://supabase_auth_admin@'+db+':5432/postgres?sslmode=disable',GOTRUE_JWT_SECRET:secret,GOTRUE_JWT_ADMIN_ROLES:'service_role',GOTRUE_JWT_AUD:'authenticated',GOTRUE_DISABLE_SIGNUP:'false',GOTRUE_EXTERNAL_EMAIL_ENABLED:'true',GOTRUE_MAILER_AUTOCONFIRM:'false',GOTRUE_EXTERNAL_ANONYMOUS_USERS_ENABLED:'false',GOTRUE_PASSWORD_MIN_LENGTH:'12',GOTRUE_PASSWORD_REQUIRED_CHARACTERS:'abcdefghijklmnopqrstuvwxyz:ABCDEFGHIJKLMNOPQRSTUVWXYZ:0123456789:!@#$%^&*()_+-=[]{};\'"|,.<>/?`~',GOTRUE_SMTP_HOST:'host.docker.internal',GOTRUE_SMTP_PORT:String(smtp.address().port),GOTRUE_SMTP_ADMIN_EMAIL:'test@kotoba.invalid',GOTRUE_SMTP_SENDER_NAME:'Kotoba isolated test',GOTRUE_SMTP_MAX_FREQUENCY:'0s',GOTRUE_RATE_LIMIT_EMAIL_SENT:'1000',GOTRUE_RATE_LIMIT_SIGNUPS:'1000',GOTRUE_RATE_LIMIT_TOKEN_REFRESH:'1000',GOTRUE_HOOK_BEFORE_USER_CREATED_ENABLED:String(hook),GOTRUE_HOOK_BEFORE_USER_CREATED_URI:'pg-functions://postgres/private/before_user_created'};
+function startAuth(hook,direct=false){
+ const vars={GOTRUE_API_HOST:'0.0.0.0',GOTRUE_API_PORT:'9999',API_EXTERNAL_URL:origin,GOTRUE_SITE_URL:origin,GOTRUE_URI_ALLOW_LIST:origin+'/**',GOTRUE_DB_DRIVER:'postgres',GOTRUE_DB_DATABASE_URL:'postgres://supabase_auth_admin@'+db+':5432/postgres?sslmode=disable',GOTRUE_JWT_SECRET:secret,GOTRUE_JWT_ADMIN_ROLES:'service_role',GOTRUE_JWT_AUD:'authenticated',GOTRUE_DISABLE_SIGNUP:'false',GOTRUE_EXTERNAL_EMAIL_ENABLED:'true',GOTRUE_MAILER_AUTOCONFIRM:String(direct),GOTRUE_EXTERNAL_ANONYMOUS_USERS_ENABLED:'false',GOTRUE_PASSWORD_MIN_LENGTH:'12',GOTRUE_PASSWORD_REQUIRED_CHARACTERS:'abcdefghijklmnopqrstuvwxyz:ABCDEFGHIJKLMNOPQRSTUVWXYZ:0123456789:!@#$%^&*()_+-=[]{};\'"|,.<>/?`~',GOTRUE_SMTP_HOST:'host.docker.internal',GOTRUE_SMTP_PORT:String(smtp.address().port),GOTRUE_SMTP_ADMIN_EMAIL:'test@kotoba.invalid',GOTRUE_SMTP_SENDER_NAME:'Kotoba isolated test',GOTRUE_SMTP_MAX_FREQUENCY:'0s',GOTRUE_RATE_LIMIT_EMAIL_SENT:'1000',GOTRUE_RATE_LIMIT_SIGNUPS:'1000',GOTRUE_RATE_LIMIT_TOKEN_REFRESH:'1000',GOTRUE_HOOK_BEFORE_USER_CREATED_ENABLED:String(hook),GOTRUE_HOOK_BEFORE_USER_CREATED_URI:'pg-functions://postgres/private/before_user_created'};
+ if(direct)for(const key of Object.keys(vars))if(key.startsWith('GOTRUE_SMTP_'))delete vars[key];
  docker(['run','-d','--name',auth,'--network',network,'--add-host','host.docker.internal:host-gateway','-p','127.0.0.1:'+port+':9999',...Object.entries(vars).flatMap(([k,v])=>['-e',k+'='+v]),'supabase/gotrue:v2.184.0']);
 }
 async function healthy(){for(let i=0;i<80;i++){try{if((await fetch(origin+'/health',{signal:AbortSignal.timeout(1000)})).ok)return}catch{}await new Promise(r=>setTimeout(r,250))}throw new Error('Local GoTrue startup failed; inspect fixture container before retrying')}
@@ -87,7 +88,24 @@ try{
  const replacement=await api('/signup',{email:'replacement@kotoba.invalid',password});assert.equal(replacement.status,200);assert.equal(sql('select count(*) from private.beta_members;'),'10');
  assert.ok((await api('/admin/users/'+owner,undefined,{admin:true,method:'DELETE'})).status>=400);assert.equal((await api('/token?grant_type=password',{email:'owner@kotoba.invalid',password})).status,200);
  checks.push('Safe Auth API hard deletion releases one slot; repeat deletion cannot release twice; replacement accepted; admin deletion refused');
- await mkdir('/workspace/deliverables/kotoba-291',{recursive:true});const report={scope:'Local GoTrue v2.184.0 + PostgreSQL 17 + in-memory SMTP. Not live Supabase, physical mobile or production CAPTCHA/SMTP.',checks,concurrentRequests:25,ordinaryAccounts:10,errors:[]};await writeFile('/workspace/deliverables/kotoba-291/auth-report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));
+ // Same migration/ledger, actual Auth auto-confirm mode without any SMTP settings.
+ const targets=sql(`select user_id from private.beta_members where user_id<>'${ordinary.data.id}';`).split('\n').filter(Boolean);
+ for(const id of targets)assert.equal((await api('/admin/users/'+id,undefined,{admin:true,method:'DELETE'})).status,200);
+ assert.equal(sql('select count(*) from private.beta_members;'),'1');
+ docker(['rm','-fv',auth]);startAuth(true,true);await healthy();const mailCount=messages.size;
+ const directRequests=Array.from({length:25},(_,i)=>({email:'direct'+i+'@kotoba.invalid',password}));
+ const directResults=await Promise.all(directRequests.map(request=>api('/signup',request)));const directAccepted=directResults.filter(r=>r.status===200);
+ assert.equal(directAccepted.length,9);assert.equal(sql('select count(*) from private.beta_members;'),'10');assert.equal(messages.size,mailCount);
+ for(const result of directAccepted){assert.ok(result.data.access_token);assert.ok(result.data.refresh_token);assert.ok(result.data.user.email_confirmed_at);assert.notEqual(result.data.user.id,owner)}
+ assert.ok((await api('/signup',{email:'direct-eleventh@kotoba.invalid',password})).status>=400);
+ const directUser=directAccepted[0].data.user;
+ assert.equal(sql(`select set_config('request.jwt.claim.sub','${directUser.id}',false);set role authenticated;select public.has_learning_access();`).split('\n').at(-1),'t');
+ assert.equal((await api('/token?grant_type=password',{email:directUser.email,password})).status,200);
+ assert.equal((await api('/token?grant_type=refresh_token',{refresh_token:directAccepted[0].data.refresh_token})).status,200);
+ assert.equal((await api('/token?grant_type=password',{email:'owner@kotoba.invalid',password})).status,200);
+ assert.equal(sql(`select state->'notes'->>'original' from public.user_progress where user_id='${owner}';`),'owner-preserved');
+ checks.push('Direct signup with auto-confirm and no SMTP: 25 concurrent requests fill exactly ten seats, return immediate sessions, and preserve admin/data, member access, login and refresh at capacity');
+ await mkdir('/workspace/deliverables/kotoba-291',{recursive:true});const report={scope:'Local GoTrue v2.184.0 + PostgreSQL 17 + in-memory SMTP. Not live Supabase, physical mobile or production CAPTCHA/SMTP.',checks,concurrentRequests:50,ordinaryAccounts:10,errors:[]};await writeFile('/workspace/deliverables/kotoba-291/auth-report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report));
 }catch(error){
  const logs=spawnSync('docker',['--host=unix:///var/run/docker.sock','logs','--tail','12',auth],{env,encoding:'utf8'});
  const diagnostic=(logs.stdout+logs.stderr).replaceAll(secret,'[fixture secret]').replaceAll(password,'[fixture password]').replaceAll(adminToken,'[fixture admin token]');

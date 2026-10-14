@@ -7,6 +7,7 @@ import {initialState} from '../lib/store.ts';
 const {chromium}=createRequire(import.meta.url)('playwright');
 const origin=process.env.APP_URL??'http://127.0.0.1:4179',output=process.env.BETA_AUDIT_DIR??'/workspace/deliverables/kotoba-291/mobile';
 if(!['127.0.0.1','localhost'].includes(new URL(origin).hostname))throw new Error('Isolated beta QA requires loopback origin');
+const direct=process.env.BETA_AUTH_MODE==='direct',registerLabel=direct?'注册并进入学习':'注册并发送验证邮件';
 const host='ocbydnsqennrumowqxvu.supabase.co',project='https://'+host;
 const a='11111111-1111-4111-8111-111111111111',b='22222222-2222-4222-8222-222222222222',owner='33333333-3333-4333-8333-333333333333';
 const report={scope:'Chromium mobile widths; simulated Auth/backend/CAPTCHA. Not real owner, physical device, production CAPTCHA/SMTP or cross-device.',checks:[],errors:[]};
@@ -17,7 +18,7 @@ function user(id){return {id,email:(id===a?'a':id===b?'b':'owner')+'@beta.invali
 function token(id){return Buffer.from(JSON.stringify({alg:'none'})).toString('base64url')+'.'+Buffer.from(JSON.stringify({sub:id,exp:Math.floor(Date.now()/1000)+3600})).toString('base64url')+'.ui-fixture'}
 function session(id){return {access_token:token(id),refresh_token:'ui-fixture-not-a-secret',expires_in:3600,token_type:'bearer',user:user(id)}}
 function uid(request){try{return JSON.parse(Buffer.from((request.headers().authorization??'').split('.')[1],'base64url').toString()).sub}catch{return null}}
-async function captcha(page){await page.getByRole('button',{name:'完成验证（模拟）'}).click()}
+async function captcha(page){if(direct){assert.equal(await page.getByRole('button',{name:'完成验证（模拟）'}).count(),0);return}await page.getByRole('button',{name:'完成验证（模拟）'}).click()}
 async function login(page,email){await page.getByLabel('邮箱',{exact:true}).fill(email);await page.getByLabel('密码',{exact:true}).fill('Fixture-Password-123!');await captcha(page);await page.getByRole('button',{name:'登录',exact:true}).click();await page.locator('.app-shell').waitFor();await page.waitForTimeout(250)}
 try{
  for(const width of [360,390,430]){
@@ -28,8 +29,8 @@ try{
   await context.route(`https://${host}/**`,async route=>{
    const request=route.request(),url=new URL(request.url()),path=url.pathname,id=uid(request);let data;
    if(path==='/auth/v1/token'){
-    const body=request.postDataJSON();assert.equal(body.gotrue_meta_security?.captcha_token,'ui-captcha-fixture');data=session(body.email==='a@beta.invalid'?a:body.email==='b@beta.invalid'?b:owner);
-   }else if(path==='/auth/v1/signup'){signups++;const body=request.postDataJSON();assert.equal(body.gotrue_meta_security?.captcha_token,'ui-captcha-fixture');remaining--;data={...user('44444444-4444-4444-8444-444444444444'),email_confirmed_at:null};await new Promise(r=>setTimeout(r,150));}
+    const body=request.postDataJSON();assert.equal(body.gotrue_meta_security?.captcha_token,direct?undefined:'ui-captcha-fixture');data=session(body.email==='a@beta.invalid'?a:body.email==='b@beta.invalid'?b:owner);
+   }else if(path==='/auth/v1/signup'){signups++;const body=request.postDataJSON();assert.equal(body.gotrue_meta_security?.captcha_token,direct?undefined:'ui-captcha-fixture');remaining--;data=direct?session(a):{...user('44444444-4444-4444-8444-444444444444'),email_confirmed_at:null};await new Promise(r=>setTimeout(r,150));}
    else if(path==='/auth/v1/recover'){recoveries++;assert.equal(request.postDataJSON().gotrue_meta_security?.captcha_token,'ui-captcha-fixture');data={};}
    else if(path==='/auth/v1/user')data=user(id);
    else if(path==='/auth/v1/logout')data={};
@@ -46,12 +47,12 @@ try{
   const page=await context.newPage();activePage=page;
   await page.goto(origin+'/register/');await page.getByText('当前剩余 7 / 10 个注册名额。',{exact:false}).waitFor();
   await page.getByLabel('邮箱',{exact:true}).fill('new@beta.invalid');await page.getByLabel('密码',{exact:true}).fill('Fixture-Password-123!');await page.getByLabel('确认密码',{exact:true}).fill('Different-Password-123!');await captcha(page);
-  await page.getByRole('button',{name:'注册并发送验证邮件'}).click();await page.getByRole('alert').filter({hasText:'两次密码不一致'}).waitFor();assert.equal(signups,0);
+  await page.getByRole('button',{name:registerLabel}).click();await page.getByRole('alert').filter({hasText:'两次密码不一致'}).waitFor();assert.equal(signups,0);
   await page.getByLabel('确认密码',{exact:true}).fill('Fixture-Password-123!');
-  await page.getByRole('button',{name:'注册并发送验证邮件'}).evaluate(button=>{button.click();button.click()});await page.getByRole('alert').filter({hasText:'确认邮件已发送'}).waitFor();assert.equal(signups,1);
   await page.screenshot({path:`${output}/registration-${width}.png`,fullPage:true});
-  remaining=0;await page.reload();await page.getByText('内测名额已满，暂不接受新用户注册。',{exact:false}).waitFor();assert.equal(await page.getByRole('button',{name:'注册并发送验证邮件'}).isEnabled(),false);
-  await page.goto(origin+'/login/');await page.getByRole('button',{name:'忘记密码'}).click();await page.getByLabel('邮箱',{exact:true}).fill('a@beta.invalid');await captcha(page);await page.getByRole('button',{name:'发送密码找回邮件'}).click();await page.getByRole('alert').filter({hasText:'如果该邮箱已注册'}).waitFor();assert.equal(recoveries,1);
+  await page.getByRole('button',{name:registerLabel}).evaluate(button=>{button.click();button.click()});if(direct){await page.locator('.app-shell').waitFor();assert.equal(new URL(page.url()).pathname,'/');await page.getByRole('button',{name:'我的',exact:true}).click();await page.getByRole('button',{name:'Sign out',exact:true}).click();await page.waitForURL(url=>/^\/login\/?$/.test(url.pathname))}else await page.getByRole('alert').filter({hasText:'确认邮件已发送'}).waitFor();assert.equal(signups,1);
+  remaining=0;await page.goto(origin+'/register/');await page.getByText('内测名额已满，暂不接受新用户注册。',{exact:false}).waitFor();assert.equal(await page.getByRole('button',{name:registerLabel}).isEnabled(),false);
+  await page.goto(origin+'/login/');if(direct){await page.getByRole('button',{name:'密码找回说明'}).click();await page.getByText('本内测采用直接注册，暂未配置邮件找回密码。',{exact:false}).waitFor();assert.equal(recoveries,0)}else{await page.getByRole('button',{name:'忘记密码'}).click();await page.getByLabel('邮箱',{exact:true}).fill('a@beta.invalid');await captcha(page);await page.getByRole('button',{name:'发送密码找回邮件'}).click();await page.getByRole('alert').filter({hasText:'如果该邮箱已注册'}).waitFor();assert.equal(recoveries,1);}
   await page.goto(origin+'/login/');await login(page,'a@beta.invalid');
   await page.getByRole('button',{name:'我的',exact:true}).click();await page.getByLabel('Display name',{exact:true}).fill('Member A Saved');await page.getByRole('button',{name:'Save name',exact:true}).click();
   await page.waitForFunction(async({project,a})=>{const req=indexedDB.open('kotoba-personal:'+encodeURIComponent(project)+':'+a);const db=await new Promise(r=>{req.onsuccess=()=>r(req.result)});if(!db.objectStoreNames.contains('state')){db.close();return false}const name=await new Promise(r=>{const q=db.transaction('state').objectStore('state').get('learning');q.onsuccess=()=>r(q.result?.profile.name)});db.close();return name==='Member A Saved'},{project,a});
@@ -74,7 +75,7 @@ try{
   await login(page,'owner@beta.invalid');await page.getByRole('button',{name:'我的',exact:true}).click();await page.getByRole('heading',{name:'内测名额管理'}).waitFor();
   const old=await page.evaluate(async()=>{const request=indexedDB.open('kotoba-personal');const db=await new Promise(r=>{request.onsuccess=()=>r(request.result)});const state=await new Promise(r=>{const q=db.transaction('state').objectStore('state').get('learning');q.onsuccess=()=>r(q.result)});db.close();return state.notes.ownerLegacy});assert.equal(old,'preserved');
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);await page.screenshot({path:`${output}/admin-${width}.png`,fullPage:true});
-  report.checks.push({width,registerValidation:true,captchaFixture:true,duplicateSubmitBlocked:true,fullRegistrationClosed:true,loginAndRecoveryAtCapacity:true,accountSwitchIsolation:true,refreshRestoration:true,legacyAdminCachePreserved:true,adminPanel:true,noOverflow:true});
+  report.checks.push({width,registerValidation:true,captchaFixture:!direct,directSignup:direct,noMailRequired:direct,duplicateSubmitBlocked:true,fullRegistrationClosed:true,loginAtCapacity:true,mailRecoveryAtCapacity:!direct,recoveryInfoOnly:direct,accountSwitchIsolation:true,refreshRestoration:true,legacyAdminCachePreserved:true,adminPanel:true,noOverflow:true});
   await context.close();
  }
  assert.deepEqual(report.errors,[]);

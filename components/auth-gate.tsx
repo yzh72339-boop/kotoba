@@ -8,7 +8,7 @@ import {isPrivateAppLocked} from '@/lib/platform/auth';
 import {readInitializedSession} from '@/lib/auth-callback';
 import {verifiedOwnerForProject} from '@/lib/private-access';
 import {selectStorageIdentity,lockStorageIdentity,storageIdentity} from '@/lib/storage-identity';
-import {missingBetaCapability} from '@/lib/beta-auth';
+import {missingBetaCapability,directSignup} from '@/lib/beta-auth';
 import {EmailAuthScreen} from './email-auth';
 export function AuthGate({children}:{children:React.ReactNode}){
  const [authorized,setAuthorized]=useState<string|null>(null),[checking,setChecking]=useState(true),[message,setMessage]=useState('');
@@ -50,7 +50,7 @@ export function AuthGate({children}:{children:React.ReactNode}){
     const {data:admin,error:adminError}=await client.rpc('is_private_owner');if(!current())return;
     const allowed=missingBetaCapability(accessError)?!adminError&&admin===true:!accessError&&member===true;
     if(!allowed){
-     setAuthorized(null);setMessage(accessError&&!missingBetaCapability(accessError)?'无法验证学习权限，请稍后重试。':'请验证邮箱，或确认此账号仍有内测访问权限。');
+     setAuthorized(null);setMessage(accessError&&!missingBetaCapability(accessError)?'无法验证学习权限，请稍后重试。':(directSignup?'账号尚未激活或已失去内测权限，请联系管理员。':'请验证邮箱，或确认此账号仍有内测访问权限。'));
      if(!accessError||accessStatus===401||accessStatus===403){selectStorageIdentity(project,uid,localStorage.getItem(adminKey)===uid);await remove('meta','verifiedOwner').catch(()=>{});if(!current())return;await client.auth.signOut({scope:'local'})}
      return;
     }

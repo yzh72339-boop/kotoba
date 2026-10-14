@@ -1,3 +1,11 @@
+# Kotoba V2.9.1 — direct registration
+
+Latest user requirement: email/password direct signup, no CAPTCHA/confirmation mail/SMTP setup. Default `.env.example` selects `NEXT_PUBLIC_AUTH_MODE=direct`; verified mode remains supported. Ten ordinary-user seats, original administrator UUID/data, member RLS, SRS and account-scoped offline/sync remain unchanged. No production migration is needed or replayed.
+
+The frontend handles immediate sessions and exposes honest mail-recovery limitations. Supabase must be configured to disable Confirm email and CAPTCHA; only the original password-authenticated admin can open database registration from Settings. Do not claim signup is live while status is closed. Read [current direct setup and actual evidence](docs/DIRECT-REGISTRATION.md). The older verified-email setup below is historical unless selecting verified mode.
+
+---
+
 # Kotoba V2.9.1 Limited Beta
 
 Email/password registration, confirmation/recovery, ten ordinary-user seats and compatible multi-user learning isolation are implemented. The original administrator UUID and learning records are preserved and excluded from the ten seats. **Production registration is not open or verified.** 013 starts closed; CAPTCHA, Auth Hook, SMTP and hosted multi-user checks require the staged setup.
