@@ -1,3 +1,4 @@
+import {allCourseWords} from '../lib/course-library.ts';
 /* Isolated UI QA with a simulated backend; never a real owner/RLS/device test.
    Every Supabase request is intercepted. Unknown API calls fail closed. */
 import {createRequire} from 'node:module';
@@ -48,15 +49,16 @@ async function setup(width,{dark=false,motion='no-preference',video=false,worker
 }
 async function ready(page){await page.locator('.app-shell').waitFor();await page.waitForTimeout(850)}
 async function capture(page,name){await page.screenshot({path:`${output}/${name}.png`,fullPage:false});}
-async function auditN2Batch(){
- const pairs=process.env.UI_AUDIT_N2_LINKS==='3'?[['ni-chigainai','delivery-inference'],['ni-kimatteiru','delivery-inference'],['nimo-kakawarazu','final-file'],['monodakara','final-file'],['bakari-ni','final-file']]:process.env.UI_AUDIT_N2_LINKS?[['ni-tsurete','schoolyard-temperature'],['ni-shitagatte','schoolyard-temperature'],['wo-tsuujite','photo-exhibition'],['wo-hajime','photo-exhibition'],['ni-kagirazu','photo-exhibition']]:[['shidai-immediate','application-after-sending'],['shidai-de','return-dependent-plan'],['ni-sakidatte','before-the-workshop'],['wo-kikkake-ni','a-handle-from-one-question']];
+async function auditN2Batch(){ const v3Pairs=[['zaru-wo-enai','rain-room'],['ni-atatte','rain-room'],['mono-nara','closing-bookshop'],['ni-shitewa','folding-chair'],['tsutsu-aru','repair-notebook'],['n1-ni-taenai','n1-apology-record'],['n1-tomo-arou','n1-apology-record'],['n1-kagiri-da','n1-apology-record']];
+ const pairs=process.env.UI_AUDIT_V3_COVERAGE?v3Pairs:process.env.UI_AUDIT_N2_LINKS==='3'?[['ni-chigainai','delivery-inference'],['ni-kimatteiru','delivery-inference'],['nimo-kakawarazu','final-file'],['monodakara','final-file'],['bakari-ni','final-file']]:process.env.UI_AUDIT_N2_LINKS?[['ni-tsurete','schoolyard-temperature'],['ni-shitagatte','schoolyard-temperature'],['wo-tsuujite','photo-exhibition'],['wo-hajime','photo-exhibition'],['ni-kagirazu','photo-exhibition']]:[['shidai-immediate','application-after-sending'],['shidai-de','return-dependent-plan'],['ni-sakidatte','before-the-workshop'],['wo-kikkake-ni','a-handle-from-one-question']];
  for(const width of [360,390,430])for(const [index,[slug,readingSlug]] of pairs.entries()){
   if(width!==390&&index!==(width===360?0:pairs.length-1))continue;
+  if(index<Number(process.env.UI_AUDIT_RESUME_PAIR??0))continue;
   const {context,page}=await setup(width,{video:!!process.env.UI_AUDIT_N2_LINKS&&width===390&&index===0});failurePage=page;
-  const grammarID='grammar-ja-n2-'+slug,readingID='article-ja-n2-'+readingSlug;
+  const grammarID='grammar-ja-'+(slug.startsWith('n1-')?slug:'n2-'+slug),readingID='article-ja-'+(readingSlug.startsWith('n1-')?readingSlug:'n2-'+readingSlug);
   const grammar=JSON.parse(await readFile(`public/content/library/${grammarID}.json`,'utf8')),article=JSON.parse(await readFile(`public/content/library/${readingID}.json`,'utf8'));
   await page.goto(`${origin}/?content=${grammarID}#Grammar`);await ready(page);await page.locator('.library-grammar').waitFor();
-  if(await page.locator('.library-grammar .tag').first().innerText()!=='N2')throw new Error('New grammar has wrong grade');
+  if(await page.locator('.library-grammar .tag').first().innerText()!==grammar.level)throw new Error('New grammar has wrong grade');
   await capture(page,`n2-${slug}-${width}`);
   await page.getByRole('button',{name:'练习',exact:true}).click();
   for(const [i,e] of grammar.exercises.entries()){
@@ -68,7 +70,7 @@ async function auditN2Batch(){
   await page.getByRole('button',{name:'完成课程并加入复习',exact:true}).evaluate(b=>{b.click();b.click()});
   await page.locator('.linked-reading-row').filter({hasText:article.title}).click();await page.locator('.reading-text').waitFor();await page.waitForTimeout(450);
   if(new URL(page.url()).searchParams.get('content')!==readingID)throw new Error('New unit lost linked reading ID');
-  const word=article.vocabulary[0],term=JSON.parse(await readFile('lib/vocabulary-context/ja-n2.json','utf8')).find(w=>w.id===word).word;
+  const word=article.vocabulary[0],term=(process.env.UI_AUDIT_V3_COVERAGE?allCourseWords('ja'):JSON.parse(await readFile('lib/vocabulary-context/ja-n2.json','utf8'))).find(w=>w.id===word).word;
   const wordRows=page.locator('.key-vocabulary>button'),wordIndex=await wordRows.evaluateAll((rows,term)=>rows.findIndex(r=>r.childNodes[0]?.textContent===term),term);
   if(wordIndex<0)throw new Error('New reading word missing from UI: '+term);await wordRows.nth(wordIndex).click();await page.getByRole('dialog').waitFor();
   await page.getByRole('dialog').getByRole('button',{name:'Add to learning',exact:true}).click();await page.getByRole('button',{name:'关闭',exact:true}).click();
@@ -85,7 +87,7 @@ async function auditN2Batch(){
   if(restored.grammarCount!==1||restored.readingCount!==1||!restored.grammarReview||!restored.word||!restored.sources||restored.result?.score!==100||restored.overflow)throw new Error('New unit restore failed: '+JSON.stringify(restored));
   report.pages.push({width,grammarID,readingID,...restored});await context.close();
  }
- report.checks.push((process.env.UI_AUDIT_N2_LINKS?'five reused N2 grammar courses + two new linked readings; twelve explained answers per pair':'four new N2 units; ten explained answers per pair')+': grammar → linked reading → collect real vocabulary → explained answers → complete → reload; duplicate completion stays one; collected words and grammar retain SRS/source; 360/390/430 no overflow. Simulated identity/backend only.');
+ report.checks.push((process.env.UI_AUDIT_V3_COVERAGE?'V3 N2/N1 coverage: eight grammar-to-reading pairs':process.env.UI_AUDIT_N2_LINKS?'five reused N2 grammar courses + two new linked readings; twelve explained answers per pair':'four new N2 units; ten explained answers per pair')+': grammar → linked reading → collect real vocabulary → explained answers → complete → reload; duplicate completion stays one; collected words and grammar retain SRS/source; 360/390/430 no overflow. Simulated identity/backend only.');
 }
 
 async function auditCloseout(){
@@ -133,7 +135,7 @@ async function auditCloseout(){
 }
 
 async function auditLinkedReadingOffline(){
- for(const [articleID,dark,motion] of (process.env.UI_AUDIT_N2_LINKS==='3'?[['article-ja-n2-final-file',true,'no-preference'],['article-ja-n2-delivery-inference',false,'reduce']]:[['article-ja-n2-photo-exhibition',true,'no-preference'],['article-ja-n2-schoolyard-temperature',false,'reduce']])){
+ for(const [articleID,dark,motion] of (process.env.UI_AUDIT_V3_COVERAGE?[['article-ja-n2-repair-notebook',true,'no-preference'],['article-ja-n1-apology-record',false,'reduce']]:process.env.UI_AUDIT_N2_LINKS==='3'?[['article-ja-n2-final-file',true,'no-preference'],['article-ja-n2-delivery-inference',false,'reduce']]:[['article-ja-n2-photo-exhibition',true,'no-preference'],['article-ja-n2-schoolyard-temperature',false,'reduce']])){
   const {context,page}=await setup(390,{dark,motion,workers:true});failurePage=page;
   await page.goto(`${origin}/#Reading`);await ready(page);await page.evaluate(async()=>{await navigator.serviceWorker.ready});
   await page.getByRole('button',{name:'下载本页资料以供离线学习',exact:true}).click();await page.getByText(/份资料已保存在此设备/).waitFor();
@@ -194,7 +196,7 @@ async function auditPersonalMaterials(){
 try{
  if(process.env.UI_AUDIT_CLOSEOUT)await auditCloseout();
  if(before&&!process.env.UI_AUDIT_CORE_ONLY){const {context,page}=await setup(390);await page.goto(before);await ready(page);await capture(page,'before-home-390');await context.close();}
- for(const width of (process.env.UI_AUDIT_CORE_ONLY||process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS||process.env.UI_AUDIT_N2_OFFLINE_ONLY||process.env.UI_AUDIT_MATERIALS||process.env.UI_AUDIT_LISTENING)?[]:[360,390,430]){
+ for(const width of (process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_CORE_ONLY||process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS||process.env.UI_AUDIT_N2_OFFLINE_ONLY||process.env.UI_AUDIT_MATERIALS||process.env.UI_AUDIT_LISTENING)?[]:[360,390,430]){
   const {context,page}=await setup(width);
   for(const name of ['Today','Learn','Library','Vocabulary','Grammar','Reading','Review','Listening','Speaking','Progress','AI Tutor','My Sentences','Mistake Notebook','Profile','Settings']){
    await page.goto(`${origin}/#${encodeURIComponent(name)}`);await ready(page);
@@ -205,7 +207,7 @@ try{
   }
   await context.close();
  }
- if(process.env.UI_AUDIT_LISTENING){await auditListeningAndBudget()}else if(process.env.UI_AUDIT_MATERIALS){await auditPersonalMaterials()}else if(process.env.UI_AUDIT_N2_OFFLINE_ONLY){await auditLinkedReadingOffline()}else if(process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS){await auditN2Batch();if(process.env.UI_AUDIT_N2_LINKS)await auditLinkedReadingOffline()}else{
+ if(process.env.UI_AUDIT_LISTENING){await auditListeningAndBudget()}else if(process.env.UI_AUDIT_MATERIALS){await auditPersonalMaterials()}else if(process.env.UI_AUDIT_N2_OFFLINE_ONLY){await auditLinkedReadingOffline()}else if(process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS){await auditN2Batch();if(process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_N2_LINKS)await auditLinkedReadingOffline()}else{
  const {context,page}=await setup(390,{video:true});failurePage=page;
  await context.addInitScript(({capable})=>{if(capable){Object.defineProperty(navigator,'deviceMemory',{get:()=>8,configurable:true});Object.defineProperty(navigator,'hardwareConcurrency',{get:()=>8,configurable:true});if(navigator.connection)Object.defineProperty(navigator.connection,'saveData',{get:()=>false,configurable:true})}window.qaSceneCount=Number(sessionStorage.getItem('qa-scene-starts')??0);window.qaSceneReady=Number(sessionStorage.getItem('qa-scene-ready')??0);window.qaSceneFailed=Number(sessionStorage.getItem('qa-scene-skipped')??0);window.qaSceneErrors=JSON.parse(sessionStorage.getItem('qa-scene-errors')??'[]');window.qaSceneAvailable=typeof document.startViewTransition==='function';if(window.qaSceneAvailable){const start=document.startViewTransition.bind(document);document.startViewTransition=callback=>{window.qaSceneCount++;sessionStorage.setItem('qa-scene-starts',String(window.qaSceneCount));const t=start(callback);t.ready.then(()=>{window.qaSceneReady++;sessionStorage.setItem('qa-scene-ready',String(window.qaSceneReady))},error=>{window.qaSceneFailed++;window.qaSceneErrors.push(error.name+': '+error.message);sessionStorage.setItem('qa-scene-skipped',String(window.qaSceneFailed));sessionStorage.setItem('qa-scene-errors',JSON.stringify(window.qaSceneErrors))});return t}}},{capable:Boolean(process.env.UI_AUDIT_CAPABLE)});
  await page.bringToFront();

@@ -1,3 +1,10 @@
+# 3.0.0-preview.1 — 2026-10-14
+
+- Add twelve full N2/N1 grammar topics, five original linked readings, 48 examples and 85 explained exercises/questions. All current grammar now has an explicit reading link.
+- Preserve all prior 224 course payloads, original answer mappings and 927 vocabulary cards; no Auth/RLS/SRS/sync/migration change or dependency upgrade.
+- Current 166 grammar /75 readings. Full targets still lack 1,609 documents; strict target audit intentionally fails.
+- 222 tests, typecheck/lint/audits/build and bounded Chromium course/offline/update checks pass; real new-course/device/AI acceptance remains pending. Signup displays the actual package version.
+
 # 2.9.1 direct-registration update — 2026-10-14
 
 - Support explicitly selected immediate email/password signup without CAPTCHA or confirmation-mail dependency, as requested. Supabase remains the registration and capacity authority.

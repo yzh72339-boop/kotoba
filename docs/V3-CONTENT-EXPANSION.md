@@ -1,3 +1,9 @@
+# Current V3 preview continuation — 2026-10-14
+
+12 grammar /5 reading added; current 166 /75, all current grammar linked. 222 tests and bounded mobile/offline/update checks pass. Full gap 1,609 and real AI/media/device acceptance remain. See V3-CURRICULUM-BATCH-01.md for the exact next breakpoint; prior numbered checkpoints below are historical.
+
+---
+
 > Current 2.6: +75 grammar / +38 reading over the latest 75/22 source; all 11 grades meet the phase minimum. See KOTOBA-2.6-CHECKPOINT.md. Earlier batch descriptions below are historical.
 
 # V3 content expansion — two usable batches

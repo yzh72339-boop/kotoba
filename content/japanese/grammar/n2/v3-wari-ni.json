@@ -1,0 +1,133 @@
+{
+  "id": "grammar-ja-n2-wari-ni",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N2",
+  "difficulty": 3,
+  "tags": [
+    "N2",
+    "语境辨析",
+    "V3课程"
+  ],
+  "title": "〜わりに",
+  "pattern": "〜わりに",
+  "meaningZh": "与……相比，结果不成比例",
+  "meaningEn": "out of proportion to",
+  "explanation": "把前项与后项放在同一评价框架里，说明投入、规模、经验等和结果不相称。后项可能比预期好，也可能差。常用于日常的具体比较，不等于表示精确数学比例的割合。",
+  "usage": "比较价格与份量、经验与表现、规模与使用体验。",
+  "nuance": "较口语、评价性强；可以加は形成わりには，加强对比。",
+  "structure": [
+    "普通形 + わりに",
+    "Nの／な形容词な + わりに"
+  ],
+  "formation": [
+    "名词加の，な形容词加な；动词和い形容词直接用普通形。"
+  ],
+  "examples": [
+    {
+      "target": "値段が高いわりに、量が少ない。",
+      "reading": "ねだんがたかいわりに、りょうがすくない。",
+      "zh": "价格虽高，份量却少。"
+    },
+    {
+      "target": "彼は忙しいわりに、よく手伝ってくれる。",
+      "reading": "かれはいそがしいわりに、よくてつだってくれる。",
+      "zh": "他虽然忙，却常常来帮忙。"
+    },
+    {
+      "target": "経験が長いわりには、基本的な質問が多い。",
+      "reading": "けいけんがながいわりには、きほんてきなしつもんがおおい。",
+      "zh": "经验很长，问的基础问题却不少。"
+    },
+    {
+      "target": "小さな机のわりに、使いやすい。",
+      "reading": "ちいさなつくえのわりに、つかいやすい。",
+      "zh": "这张桌子虽小，用起来却很方便。"
+    }
+  ],
+  "notes": [
+    "先依据接续和完整语境理解，不能只凭汉字判断语气。",
+    "JLPT等级用于教学编排；并非官方穷尽式语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "小さな机わりに、使いやすい。",
+      "correct": "小さな机のわりに、使いやすい。",
+      "explanation": "名词机需要用の连接わりに，不能照搬にしては的接续。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n2-ni-shitewa",
+      "explanation": "にしては以条件作为预期基准；わりに突出两方面不成比例，名词接续不同。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n2-ni-shitewa"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n2-wari-ni-meaning",
+      "kind": "meaning",
+      "prompt": "“价格高，份量却少”在评价什么？",
+      "options": [
+        "价格与得到的份量不相称",
+        "价格和份量都在持续增长",
+        "份量必然决定所有商品的价格"
+      ],
+      "acceptedAnswers": [
+        "价格与得到的份量不相称"
+      ],
+      "explanation": "把前项与后项放在同一评价框架里，说明投入、规模、经验等和结果不相称。后项可能比预期好，也可能差。常用于日常的具体比较，不等于表示精确数学比例的割合。"
+    },
+    {
+      "id": "grammar-ja-n2-wari-ni-fill",
+      "kind": "fill",
+      "prompt": "按本课接续填空：机（　）わりに、使いやすい。",
+      "options": [
+        "だ",
+        "に",
+        "の"
+      ],
+      "acceptedAnswers": [
+        "の"
+      ],
+      "explanation": "机是名词，Nの＋わりに；机にしては则是另一种接续。"
+    },
+    {
+      "id": "grammar-ja-n2-wari-ni-error",
+      "kind": "error",
+      "prompt": "纠正接续或理解，并对照解析：小さな机わりに、使いやすい。",
+      "acceptedAnswers": [
+        "小さな机のわりに、使いやすい。"
+      ],
+      "explanation": "名词机需要用の连接わりに，不能照搬にしては的接续。"
+    },
+    {
+      "id": "grammar-ja-n2-wari-ni-context",
+      "kind": "context",
+      "prompt": "这句话的完整意思是哪一项？\n小さな机のわりに、使いやすい。",
+      "options": [
+        "经验很长，问的基础问题却不少。",
+        "价格虽高，份量却少。",
+        "这张桌子虽小，用起来却很方便。"
+      ],
+      "acceptedAnswers": [
+        "这张桌子虽小，用起来却很方便。"
+      ],
+      "explanation": "本句表达：这张桌子虽小，用起来却很方便。 较口语、评价性强；可以加は形成わりには，加强对比。"
+    },
+    {
+      "id": "grammar-ja-n2-wari-ni-translation",
+      "kind": "translation",
+      "prompt": "用本课表达译成日语：价格虽高，份量却少。",
+      "acceptedAnswers": [
+        "値段が高いわりに、量が少ない。"
+      ],
+      "explanation": "参考表达：値段が高いわりに、量が少ない。 名词加の，な形容词加な；动词和い形容词直接用普通形。"
+    }
+  ]
+}
