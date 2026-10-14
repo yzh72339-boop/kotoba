@@ -1,0 +1,136 @@
+{
+  "id": "grammar-ja-n4-passive-form",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "v3-foundations-02",
+    "完整课程",
+    "N4"
+  ],
+  "title": "被动形：書かれる・呼ばれる・食べられる",
+  "pattern": "被动形：書かれる・呼ばれる・食べられる",
+  "meaningZh": "受到某人的动作；从承受者描述事件",
+  "meaningEn": "passive perspective",
+  "explanation": "被动把承受动作的人或物作为叙述中心。五段动词末尾变あ段加れる，う结尾用わ，如買う→買われる；一段去る加られる；する→される、来る→来られる。动作执行者通常用に。被动不必然是不幸，称赞也能用被动；受到间接影响的迷惑被动则另需看语境。",
+  "usage": "报告被叫到、受称赞或东西被使用的经历。",
+  "nuance": "一段られる还可表示可能或尊敬；例如先生にほめられた因执行者に而明确是受称赞，不是能称赞。",
+  "structure": [
+    "五段：あ段＋れる（買う→買われる）",
+    "一段：去る＋られる；する→される；来る→来られる",
+    "承受者は／が＋执行者に＋V被动形"
+  ],
+  "formation": [
+    "五段：あ段＋れる（買う→買われる）",
+    "一段：去る＋られる；する→される；来る→来られる",
+    "承受者は／が＋执行者に＋V被动形"
+  ],
+  "examples": [
+    {
+      "target": "私は先生に名前を呼ばれました。",
+      "zh": "老师叫了我的名字。",
+      "reading": "わたしはせんせいになまえをよばれました。"
+    },
+    {
+      "target": "弟は友達にほめられました。",
+      "zh": "弟弟受到了朋友的称赞。",
+      "reading": "おとうとはともだちにほめられました。"
+    },
+    {
+      "target": "この本は多くの人に読まれています。",
+      "zh": "许多人在读这本书。",
+      "reading": "このほんはおおくのひとによまれています。"
+    },
+    {
+      "target": "会議の時間が変更されました。",
+      "zh": "会议时间被更改了。",
+      "reading": "かいぎのじかんがへんこうされました。"
+    }
+  ],
+  "notes": [
+    "课程等级为教学编排，不是官方穷尽式分类。",
+    "开放题采用参考答案和学习者确认，不声称自动语义评分。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "呼ぶ的被动形是呼べる。",
+      "correct": "呼ぶ的被动形是呼ばれる。",
+      "explanation": "呼べる是可能形；被动用あ段ば＋れる。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n4-potential-form",
+      "explanation": "能叫到某人与被别人叫到是不同角色；五段可能形和被动形形态不同。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n4-potential-form"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n4-passive-form-meaning",
+      "kind": "meaning",
+      "prompt": "理解完整例句：私は先生に名前を呼ばれました。",
+      "options": [
+        "老师叫了我的名字。",
+        "我允许老师叫名字。",
+        "我打算替老师取名字。"
+      ],
+      "acceptedAnswers": [
+        "老师叫了我的名字。"
+      ],
+      "explanation": "被动把承受动作的人或物作为叙述中心。五段动词末尾变あ段加れる，う结尾用わ，如買う→買われる；一段去る加られる；する→される、来る→来られる。动作执行者通常用に。被动不必然是不幸，称赞也能用被动；受到间接影响的迷惑被动则另需看语境。"
+    },
+    {
+      "id": "grammar-ja-n4-passive-form-formation",
+      "kind": "transform",
+      "prompt": "受朋友称赞：友達に（　）。",
+      "options": [
+        "ほめよう",
+        "ほめる",
+        "ほめられた"
+      ],
+      "acceptedAnswers": [
+        "ほめられた"
+      ],
+      "explanation": "执行者友達に搭配承受者的被动；ほめる去る＋られる。"
+    },
+    {
+      "id": "grammar-ja-n4-passive-form-context",
+      "kind": "context",
+      "prompt": "“弟は友達にほめられました”是否一定是不愉快的经历？",
+      "options": [
+        "否，弟弟其实在称赞朋友。",
+        "否，被动首先表达承受视角，称赞可以是愉快的。",
+        "是，所有被动都表示困扰。"
+      ],
+      "acceptedAnswers": [
+        "否，被动首先表达承受视角，称赞可以是愉快的。"
+      ],
+      "explanation": "动作执行者是朋友，被动并不自动包含负面情绪。"
+    },
+    {
+      "id": "grammar-ja-n4-passive-form-error",
+      "kind": "error",
+      "prompt": "按本课要求纠正并对照解析：呼ぶ的被动形是呼べる。",
+      "acceptedAnswers": [
+        "呼ぶ的被动形是呼ばれる。"
+      ],
+      "explanation": "呼べる是可能形；被动用あ段ば＋れる。"
+    },
+    {
+      "id": "grammar-ja-n4-passive-form-translation",
+      "kind": "translation",
+      "prompt": "参考本课表达译成目标语言：会议时间被更改了。",
+      "acceptedAnswers": [
+        "会議の時間が変更されました。"
+      ],
+      "explanation": "参考答案：会議の時間が変更されました。 一段られる还可表示可能或尊敬；例如先生にほめられた因执行者に而明确是受称赞，不是能称赞。"
+    }
+  ]
+}

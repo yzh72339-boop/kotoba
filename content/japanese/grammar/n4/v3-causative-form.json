@@ -1,0 +1,136 @@
+{
+  "id": "grammar-ja-n4-causative-form",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "v3-foundations-02",
+    "完整课程",
+    "N4"
+  ],
+  "title": "使役形：書かせる・食べさせる・させる",
+  "pattern": "使役形：書かせる・食べさせる・させる",
+  "meaningZh": "让某人做；促使或允许动作发生",
+  "meaningEn": "causation and permission",
+  "explanation": "使役形表示让别人做，可为指示、促成或允许，不能只翻译成强迫。五段末尾变あ段加せる，う结尾变わ，如買う→買わせる；一段去る加させる；する→させる、来る→来させる。涉及他动词时，动作执行者常用に、对象用を；自动词的执行者常用を，具体受动作和避免重复を等因素影响。",
+  "usage": "谈安排谁做事，或允许孩子尝试某项活动。",
+  "nuance": "「好きな本を選ばせる」可表示允许自主选择；语境决定命令还是许可。别与被动「選ばれる」混淆。",
+  "structure": [
+    "五段：あ段＋せる（買う→買わせる）",
+    "一段：去る＋させる；する→させる；来る→来させる",
+    "他动词：人に＋对象を＋V使役形"
+  ],
+  "formation": [
+    "五段：あ段＋せる（買う→買わせる）",
+    "一段：去る＋させる；する→させる；来る→来させる",
+    "他动词：人に＋对象を＋V使役形"
+  ],
+  "examples": [
+    {
+      "target": "先生は私に作文を書かせました。",
+      "zh": "老师让我写作文。",
+      "reading": "せんせいはわたしにさくぶんをかかせました。"
+    },
+    {
+      "target": "母は弟に好きな本を選ばせました。",
+      "zh": "母亲让弟弟选择喜欢的书。",
+      "reading": "はははおとうとにすきなほんをえらばせました。"
+    },
+    {
+      "target": "父は子供に野菜を食べさせました。",
+      "zh": "父亲让孩子吃了蔬菜。",
+      "reading": "ちちはこどもにやさいをたべさせました。"
+    },
+    {
+      "target": "私は妹を先に帰らせました。",
+      "zh": "我让妹妹先回去了。",
+      "reading": "わたしはいもうとをさきにかえらせました。"
+    }
+  ],
+  "notes": [
+    "课程等级为教学编排，不是官方穷尽式分类。",
+    "开放题采用参考答案和学习者确认，不声称自动语义评分。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "食べる的使役形是食べらせる。",
+      "correct": "食べる的使役形是食べさせる。",
+      "explanation": "一段去る＋させる，不能把被动或可能的られる拼入使役。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n4-passive-form",
+      "explanation": "使役的主体促使别人行动；被动的主体承受别人动作。先辨认谁让谁做，而不是仅记结尾。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n4-passive-form"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n4-causative-form-meaning",
+      "kind": "meaning",
+      "prompt": "理解完整例句：先生は私に作文を書かせました。",
+      "options": [
+        "老师已经替我写完作文。",
+        "我称赞老师的作文。",
+        "老师让我写作文。"
+      ],
+      "acceptedAnswers": [
+        "老师让我写作文。"
+      ],
+      "explanation": "使役形表示让别人做，可为指示、促成或允许，不能只翻译成强迫。五段末尾变あ段加せる，う结尾变わ，如買う→買わせる；一段去る加させる；する→させる、来る→来させる。涉及他动词时，动作执行者常用に、对象用を；自动词的执行者常用を，具体受动作和避免重复を等因素影响。"
+    },
+    {
+      "id": "grammar-ja-n4-causative-form-formation",
+      "kind": "transform",
+      "prompt": "让别人做：勉強する→（　）。",
+      "options": [
+        "勉強できる",
+        "勉強させる",
+        "勉強される"
+      ],
+      "acceptedAnswers": [
+        "勉強させる"
+      ],
+      "explanation": "する的使役是不规则させる；される是被动、できる是可能。"
+    },
+    {
+      "id": "grammar-ja-n4-causative-form-context",
+      "kind": "context",
+      "prompt": "“好きな本を選ばせました”能否表示允许自主选择？",
+      "options": [
+        "能，语境可表达许可，而非强迫。",
+        "不能，使役永远表示强迫。",
+        "不能，这其实表示书被选中。"
+      ],
+      "acceptedAnswers": [
+        "能，语境可表达许可，而非强迫。"
+      ],
+      "explanation": "好きな本强调弟弟的偏好，使役可以允许动作发生。"
+    },
+    {
+      "id": "grammar-ja-n4-causative-form-error",
+      "kind": "error",
+      "prompt": "按本课要求纠正并对照解析：食べる的使役形是食べらせる。",
+      "acceptedAnswers": [
+        "食べる的使役形是食べさせる。"
+      ],
+      "explanation": "一段去る＋させる，不能把被动或可能的られる拼入使役。"
+    },
+    {
+      "id": "grammar-ja-n4-causative-form-translation",
+      "kind": "translation",
+      "prompt": "参考本课表达译成目标语言：我让妹妹先回去了。",
+      "acceptedAnswers": [
+        "私は妹を先に帰らせました。"
+      ],
+      "explanation": "参考答案：私は妹を先に帰らせました。 「好きな本を選ばせる」可表示允许自主选择；语境决定命令还是许可。别与被动「選ばれる」混淆。"
+    }
+  ]
+}

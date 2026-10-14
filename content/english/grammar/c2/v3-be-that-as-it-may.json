@@ -1,0 +1,130 @@
+{
+  "id": "grammar-en-c2-be-that-as-it-may",
+  "kind": "grammar",
+  "language": "en",
+  "level": "C2",
+  "difficulty": 5,
+  "tags": [
+    "v3-foundations-02",
+    "完整课程",
+    "C2"
+  ],
+  "title": "Be that as it may, …",
+  "pattern": "Be that as it may, …",
+  "meaningZh": "即便如此，仍……",
+  "meaningEn": "concessive return to the main argument",
+  "explanation": "Be that as it may is a fixed formal concessive expression. It provisionally sets aside the previous claim and returns to the speaker’s main conclusion, without establishing whether that claim is true. 即便如此不是认输，也不是证明对方错误。that回指前文争点；may处于固定结构中，不表示本月或普通许可。该表达在正式论辩中可显得疏离甚至轻视异议，应依据关系与语域选择。",
+  "usage": "承认异议可先暂存，但指出主要问题仍需处理。",
+  "nuance": "可礼貌坚持，也可显得不愿认真回应；实际论证不能用固定短语替代解释。",
+  "structure": [
+    "Be that as it may, + independent main clause",
+    "固定表达中保留be和may；通常用逗号隔开"
+  ],
+  "formation": [
+    "Be that as it may, + independent main clause",
+    "固定表达中保留be和may；通常用逗号隔开"
+  ],
+  "examples": [
+    {
+      "target": "The estimate may be optimistic. Be that as it may, the decision needs a stated basis.",
+      "zh": "估算也许乐观。即便如此，决定仍须有明确依据。"
+    },
+    {
+      "target": "The letter may be incomplete. Be that as it may, it cannot simply be omitted.",
+      "zh": "信件也许不完整。即便如此，也不能直接将它排除。"
+    },
+    {
+      "target": "The proposal has supporters. Be that as it may, consent has not been established.",
+      "zh": "提案有支持者。即便如此，尚未确认同意。"
+    },
+    {
+      "target": "The delay was unfortunate. Be that as it may, blaming the clerk will not repair the process.",
+      "zh": "延误令人遗憾。即便如此，责怪文员也修复不了流程。"
+    }
+  ],
+  "notes": [
+    "课程等级为教学编排，不是官方穷尽式分类。",
+    "开放题采用参考答案和学习者确认，不声称自动语义评分。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Be that as it is may, we still need evidence.",
+      "correct": "Be that as it may, we still need evidence.",
+      "explanation": "这是固定让步表达，不在it后插入is。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-c1-however-linking",
+      "explanation": "however也转折；be that as it may更明确地暂时搁置前一争点，并带较正式的论辩语域。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-c1-concession-even"
+  ],
+  "relatedGrammar": [
+    "grammar-en-c1-however-linking"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-c2-be-that-as-it-may-meaning",
+      "kind": "meaning",
+      "prompt": "理解完整例句：The estimate may be optimistic. Be that as it may, the decision needs a stated basis.",
+      "options": [
+        "估算已经被证明错误，所以不能再决策。",
+        "有依据的决定已经不再必要。",
+        "估算也许乐观。即便如此，决定仍须有明确依据。"
+      ],
+      "acceptedAnswers": [
+        "估算也许乐观。即便如此，决定仍须有明确依据。"
+      ],
+      "explanation": "Be that as it may is a fixed formal concessive expression. It provisionally sets aside the previous claim and returns to the speaker’s main conclusion, without establishing whether that claim is true. 即便如此不是认输，也不是证明对方错误。that回指前文争点；may处于固定结构中，不表示本月或普通许可。该表达在正式论辩中可显得疏离甚至轻视异议，应依据关系与语域选择。"
+    },
+    {
+      "id": "grammar-en-c2-be-that-as-it-may-formation",
+      "kind": "fill",
+      "prompt": "Complete the fixed formal concession: Be that as it (　), the records remain relevant.",
+      "options": [
+        "is may",
+        "may",
+        "would to"
+      ],
+      "acceptedAnswers": [
+        "may"
+      ],
+      "explanation": "固定形式是Be that as it may，不任意改变词序。"
+    },
+    {
+      "id": "grammar-en-c2-be-that-as-it-may-context",
+      "kind": "context",
+      "prompt": "What does the phrase do after “The letter may be incomplete”?",
+      "options": [
+        "It sets the incompleteness issue aside without deciding it, then argues against omission.",
+        "It conclusively proves the letter is complete.",
+        "It permits anyone to destroy the letter."
+      ],
+      "acceptedAnswers": [
+        "It sets the incompleteness issue aside without deciding it, then argues against omission."
+      ],
+      "explanation": "Concession is a discourse move, not new evidence about the letter’s completeness."
+    },
+    {
+      "id": "grammar-en-c2-be-that-as-it-may-error",
+      "kind": "error",
+      "prompt": "按本课要求纠正并对照解析：Be that as it is may, we still need evidence.",
+      "acceptedAnswers": [
+        "Be that as it may, we still need evidence."
+      ],
+      "explanation": "这是固定让步表达，不在it后插入is。"
+    },
+    {
+      "id": "grammar-en-c2-be-that-as-it-may-translation",
+      "kind": "translation",
+      "prompt": "参考本课表达译成目标语言：延误令人遗憾。即便如此，责怪文员也修复不了流程。",
+      "acceptedAnswers": [
+        "The delay was unfortunate. Be that as it may, blaming the clerk will not repair the process."
+      ],
+      "explanation": "参考答案：The delay was unfortunate. Be that as it may, blaming the clerk will not repair the process. 可礼貌坚持，也可显得不愿认真回应；实际论证不能用固定短语替代解释。"
+    }
+  ]
+}

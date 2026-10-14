@@ -1,0 +1,128 @@
+{
+  "id": "article-en-c2-archive-labels",
+  "kind": "reading",
+  "language": "en",
+  "level": "C2",
+  "difficulty": 5,
+  "tags": [
+    "v3-foundations-02",
+    "C2",
+    "Culture"
+  ],
+  "title": "A label that leaves room to disagree",
+  "topic": "Culture · archives and interpretation",
+  "genre": "essay",
+  "estimatedMinutes": 6,
+  "paragraphs": [
+    "A small town archive inherited a box of correspondence about a demolished cinema. The letters did not offer a single account of why the building had closed. Some described unsafe wiring, some complained about the price of repairs, and others recalled a meeting at which nobody seemed willing to accept responsibility. Preparing a display, the curator was asked for a short label explaining the closure. The request was reasonable: visitors should not have to read every letter to understand what they were seeing. Yet compression could turn a contested history into an apparently settled verdict, simply because the label occupied the most authoritative position in the room.",
+    "The first draft described the cinema as a casualty of public indifference. It was a neat phrase, and one letter did accuse residents of losing interest. Other documents, however, recorded requests for repairs and proposals to share the cost. The difficulty was not so much finding a dramatic explanation as deciding what the surviving material could support. A phrase might be memorable without being representative. The curator therefore placed the draft beside the letters and underlined every claim for which she could identify a source. Where sources disagreed, she noted the disagreement rather than choosing the account that made the cleanest narrative.",
+    "An adviser objected that a museum label was not an academic article. Visitors needed a direction, he argued, not a list of competing qualifications. That criticism identified a genuine problem: a label with no hierarchy can leave a reader unable to distinguish a strong finding from a remote possibility. Be that as it may, brevity did not require attributing a single motive to an entire town. The curator proposed a different hierarchy. The closure itself was established; the sequence of repair discussions was partly recoverable; the motives of every participant were not. These were different levels of knowledge, and the wording could make the differences visible without reproducing the entire dispute.",
+    "A later discovery complicated the display further. A resident brought in a letter kept at home, written by a projectionist who had supported a temporary closure while safety work was completed. The letter was undated and lacked the envelope that might have fixed its place in the sequence. One volunteer suggested excluding it until its date could be established. Another wanted it to overturn the existing explanation immediately. Both responses treated uncertainty as if it required either silence or certainty. The letter could instead be shown with a clear statement of what was known about its origin and what remained unresolved. Inclusion need not mean granting it decisive weight.",
+    "The new document did not change the fact that the building had closed. What changed was not so much the evidence for that fact as the range of questions visitors could ask about the process. Had temporary repair been considered seriously? Who had authority to arrange it? Did the cost estimates describe the same work? These questions were not answers disguised as questions; they exposed gaps that a confident account of indifference would have concealed. The curator resisted adding an invented quotation to make the projectionist's perspective feel immediate. A blank in the record was something to explain, not something to fill with plausible dialogue.",
+    "The final label was shorter than the adviser expected. It stated the date of closure, described documented safety concerns and repair proposals, and explained that the archive did not establish a single agreed reason for abandoning the building. Beside it, a brief note introduced the undated letter and distinguished its claim from the curator's own conclusion. Readers could open a folder containing selected transcripts, each linked to the document from which it had been made. The selection was acknowledged as a selection. It neither promised complete access to the past nor implied that a visitor had to accept one interpretation before looking further.",
+    "During the first week, one visitor complained that the display weakened a story she had heard since childhood. Another thanked the curator for leaving space for a relative's account. Neither response could serve as an impartial certificate of quality. Agreement might reflect familiarity rather than accuracy, while dissatisfaction might reveal a useful challenge rather than an error. The curator recorded the comments as comments and invited specific corrections supported by documents or identifiable memories. She did not add every memory to the main label. The distinction between receiving a contribution and endorsing its claim was essential if openness was to mean more than replacing one confident voice with another.",
+    "There remained an objection that the display was excessively cautious. The archive, after all, had to communicate, and readers might leave wanting a simpler explanation. Be that as it may, simplicity was not the only form of clarity available. A display can be clear about an event, clear about the strength of an inference and clear about the limits of its sources at the same time. The task was not so much to remove interpretation as to make its basis inspectable. Even the choice of which uncertainties to mention was an interpretive decision. Stating that fact did not excuse poor judgment; it made judgment available for criticism.",
+    "For the curator, the lesson extended beyond this cinema. Public records acquire authority not merely from what they contain but from the arrangement through which people encounter them. A sentence on a wall can look final while the material behind it remains partial. Responsible presentation does not require treating all accounts as equally credible, nor does it require pretending that careful selection is neutral. It requires showing why some claims have been given weight, where the record resists a tidy conclusion, and how a later reader might challenge the account. The archive preserves not so much the last word as the means by which a future word can be better informed."
+  ],
+  "translation": [
+    "一座小镇档案馆接收了一箱有关已拆除电影院的信件。信件对关门原因没有统一说法：有的谈电线不安全，有的抱怨维修成本，还有的回忆会上无人愿承担责任。策展人准备展览时，被要求写一则简短标签解释关门原因。要求合理，访客不该必须读完每封信才懂展品。但压缩也可能把有争议的历史变成貌似定论，仅仅因为标签占据了展厅中最有权威的位置。",
+    "初稿说影院是公众冷漠的牺牲品。措辞整齐，也有一封信指责居民失去兴趣，但其他文件记录了修缮诉求与分担费用的建议。困难与其说是找一个戏剧性解释，不如说是判断留存材料能支持什么。易记的词句未必有代表性。策展人把初稿放在信件旁，给有来源支持的主张画线。来源不一致时，她记录分歧，而不选叙事最简洁的一方。",
+    "一位顾问反对，认为博物馆标签不是学术论文，访客需要方向而非一串限定。这指出真实问题：没有层级，读者可能分不清强证据与微弱可能性。即便如此，简短也不要求给整座城归一个动机。策展人建议另一种层级：关门事实已确认，维修讨论顺序能部分重建，每名参与者的动机无法确定。这是不同知识层次，可以在不复述整个争议的情况下写清楚。",
+    "后来又发现一封居民保存在家中的信，由一位支持暂时停业以完成安全工程的放映员所写。信没有日期，也缺少可定位先后顺序的信封。一位志愿者建议日期确认前将它排除，另一位想马上用它推翻现有解释。两种反应都把不确定性当作必须沉默或确定。信可以展示，同时说明来源已知与未解部分。收录不等于赋予决定性分量。",
+    "新文件没有改变影院关门的事实。变化的与其说是这一事实的证据，不如说是访客能向过程提出的问题范围：是否认真考虑过临时维修？谁有权安排？估价是否针对同样工程？这些不是伪装成问题的答案，而是揭示冷漠论会掩盖的缺口。策展人没有添加虚构引语来让放映员视角更鲜活。记录空白需要解释，不是用貌似可信的对话填补。",
+    "最终标签比顾问预想的还短，写出关门日期、有记载的安全问题与维修提案，并说明档案无法确定放弃建筑的单一共同理由。旁边短注介绍无日期信，把信的主张与策展人结论分开。读者可打开所选转写稿文件夹，每份对应原文件。选择被承认是选择：不承诺完整接触过去，也不要求访客先接受某种解释再继续查看。",
+    "第一周，一位访客抱怨展览削弱了她从小听的故事，另一位感谢策展人给亲属的说法留下空间。两种反应都不能公正地证明质量。赞同可能来自熟悉而非准确，不满可能是有效挑战而非错误。策展人把评论记为评论，欢迎由文件或可辨认记忆支持的具体订正，却不将每段记忆都加入主标签。接收贡献与认可其主张不同，否则开放只是换一个自信声音。",
+    "仍有人觉得展览过于谨慎：档案馆需要沟通，读者也许希望更简单的解释。即便如此，简单不是清晰的唯一形式。展示可以同时清楚说明事件、推论强度和来源局限。任务与其说是消除解释，不如说是让解释依据可被检视。连选择提哪些不确定性都是解释决策。说明这一点不为糟糕判断开脱，而让判断可被批评。",
+    "对策展人来说，这一经验不限于影院。公开记录的权威不只来自内容，也来自人们遇见它的安排方式。墙上一句话会显得最终定论，背后材料却仍不完整。负责任的展示不要求所有说法同等可信，也不假装审慎选择中立。它需说明为何某些主张获得权重，何处记录不支持整齐结论，以及后来读者怎样挑战。档案保留的与其说是最后一句话，不如说是让下一句话有更充分依据的手段。"
+  ],
+  "vocabulary": [
+    "context-en-b2-d6d443c1181e",
+    "context-en-b2-f4bee56e5d29",
+    "context-en-c1-7c3e230b4ee9",
+    "complete-en-b1-communicate",
+    "en-perspective",
+    "context-en-b1-20097e1d5bf9",
+    "context-en-b2-4e5a8c201a72",
+    "context-en-b2-87b769732b7d"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-c2-not-so-much-as",
+      "surface": "not so much finding a dramatic explanation as deciding"
+    },
+    {
+      "id": "grammar-en-c2-be-that-as-it-may",
+      "surface": "Be that as it may"
+    },
+    {
+      "id": "grammar-en-c2-negation-scope",
+      "surface": "not merely"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-c2-archive-labels-q1",
+      "type": "main-idea",
+      "prompt": "What standard for responsible presentation does the essay defend?",
+      "options": [
+        "Erase interpretation so that the display is wholly neutral.",
+        "Give every memory equal authority without examination.",
+        "Make the evidential basis and limitations of interpretation inspectable."
+      ],
+      "answer": 2,
+      "explanation": "The last two paragraphs reject both neutrality claims and equal credibility, asking instead for reasons and limits that readers can challenge."
+    },
+    {
+      "id": "article-en-c2-archive-labels-q2",
+      "type": "detail",
+      "prompt": "Why was the undated letter not assigned decisive weight?",
+      "options": [
+        "Its date and place in the sequence remained uncertain.",
+        "It had been conclusively proved to be forged.",
+        "It contained no statement about the cinema."
+      ],
+      "answer": 0,
+      "explanation": "Paragraph four identifies a missing date and envelope; it does not establish forgery or irrelevance."
+    },
+    {
+      "id": "article-en-c2-archive-labels-q3",
+      "type": "grammar",
+      "prompt": "What does “not so much finding a dramatic explanation as deciding…” do?",
+      "options": [
+        "It proves that memorable language is always false.",
+        "It moves emphasis from dramatic wording to what the sources support.",
+        "It states that no explanation can ever be written."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph two permits a memorable phrase but questions representativeness; the construction revises the useful focus."
+    },
+    {
+      "id": "article-en-c2-archive-labels-q4",
+      "type": "inference",
+      "prompt": "Why are favourable and unfavourable visitor reactions insufficient as quality certificates?",
+      "options": [
+        "Both may reflect familiarity or perspective rather than documentary accuracy.",
+        "Every visitor had read all the letters before attending.",
+        "The curator refused to receive any criticism."
+      ],
+      "answer": 0,
+      "explanation": "Paragraph seven separates approval and dissatisfaction from accuracy and invites specific, supported corrections."
+    },
+    {
+      "id": "article-en-c2-archive-labels-q5",
+      "type": "author-intent",
+      "prompt": "What is the function of the second “Be that as it may”?",
+      "options": [
+        "It proves the archive has achieved complete access to the past.",
+        "It silently withdraws the need to communicate.",
+        "It acknowledges the desire for simplicity while maintaining another account of clarity."
+      ],
+      "answer": 2,
+      "explanation": "Paragraph eight takes the objection seriously but returns to clarity about events, inferential strength and source limits; it does not settle the objection by new evidence."
+    }
+  ],
+  "notes": [
+    "人物、组织、事件均为原创虚构教学情境。",
+    "预计阅读时间按日文200字／分钟、英文180词／分钟估算，并非个人测量。"
+  ]
+}

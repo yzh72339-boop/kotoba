@@ -1,3 +1,10 @@
+# 3.1.0-preview.1 — local language tools and prerequisite content
+
+- Add exact, lazy WanaKana and winkNLP with lite web model; preserve native IME, headword/SRS IDs and actual source paragraphs. Model output is tentative and local.
+- Expand trusted catalog annotation, exclude ambiguous/kanji-fragment readings, show actual account-based evidence with undoable known marks. No full morphology/retention-probability claim.
+- Add N4 seven grammar /three reading and C1/C2 four grammar /two reading; previous 241 courses and 927 cards unchanged.
+- Defer optional worker/model precache until use; retain initial assets and the existing update/data safety rules. No production SQL or migration replay.
+
 # 3.0.0-preview.1 — 2026-10-14
 
 - Add twelve full N2/N1 grammar topics, five original linked readings, 48 examples and 85 explained exercises/questions. All current grammar now has an explicit reading link.

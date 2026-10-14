@@ -1,0 +1,136 @@
+{
+  "id": "grammar-ja-n4-volitional-form",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "v3-foundations-02",
+    "完整课程",
+    "N4"
+  ],
+  "title": "意志形：書こう・食べよう・しよう",
+  "pattern": "意志形：書こう・食べよう・しよう",
+  "meaningZh": "自我决定或邀约的基本形式",
+  "meaningEn": "volition and invitation",
+  "explanation": "意志形是自我决定或向同伴提议的形式。五段动词末尾う段变お段加う，如書く→書こう、会う→会おう；一段动词去る加よう，如食べよう；する→しよう、来る→来よう（こよう）。礼貌邀约常用ましょう。意志形不能单独当作未来事实，也不能用于雨等无意志主体的普通计划。",
+  "usage": "对自己说下一步做什么，或邀请关系亲近的人一起行动。",
+  "nuance": "相同形式在不同结构中可表示假设，不能见到よう就断定是邀请；本课先掌握基本自我决定与提议。",
+  "structure": [
+    "五段：う段→お段＋う；一段：去る＋よう",
+    "する→しよう；来る→来よう（こよう）",
+    "礼貌提议：Vます词干＋ましょう"
+  ],
+  "formation": [
+    "五段：う段→お段＋う；一段：去る＋よう",
+    "する→しよう；来る→来よう（こよう）",
+    "礼貌提议：Vます词干＋ましょう"
+  ],
+  "examples": [
+    {
+      "target": "今日は早く帰ろう。",
+      "zh": "今天早点回去吧。",
+      "reading": "きょうははやくかえろう。"
+    },
+    {
+      "target": "この写真を一緒に見よう。",
+      "zh": "一起看这张照片吧。",
+      "reading": "このしゃしんをいっしょにみよう。"
+    },
+    {
+      "target": "明日は図書館で勉強しよう。",
+      "zh": "明天在图书馆学习吧。",
+      "reading": "あしたはとしょかんでべんきょうしよう。"
+    },
+    {
+      "target": "時間があるから、歩いて行こう。",
+      "zh": "因为有时间，走路去吧。",
+      "reading": "じかんがあるから、あるいていこう。"
+    }
+  ],
+  "notes": [
+    "课程等级为教学编排，不是官方穷尽式分类。",
+    "开放题采用参考答案和学习者确认，不声称自动语义评分。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "読む的意志形是読もうよう。",
+      "correct": "読む的意志形是読もう。",
+      "explanation": "五段用お段＋う，不再追加一段使用的よう。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n5-masenka-invite",
+      "explanation": "意志形用于较随意的提议；ませんか更礼貌并留出拒绝空间。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-masu-stem"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n5-masenka-invite"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n4-volitional-form-meaning",
+      "kind": "meaning",
+      "prompt": "理解完整例句：今日は早く帰ろう。",
+      "options": [
+        "今天已经被迫提前回家。",
+        "今天肯定有人会回家。",
+        "今天早点回去吧。"
+      ],
+      "acceptedAnswers": [
+        "今天早点回去吧。"
+      ],
+      "explanation": "意志形是自我决定或向同伴提议的形式。五段动词末尾う段变お段加う，如書く→書こう、会う→会おう；一段动词去る加よう，如食べよう；する→しよう、来る→来よう（こよう）。礼貌邀约常用ましょう。意志形不能单独当作未来事实，也不能用于雨等无意志主体的普通计划。"
+    },
+    {
+      "id": "grammar-ja-n4-volitional-form-formation",
+      "kind": "transform",
+      "prompt": "把待つ改成意志形：ここで少し（　）。",
+      "options": [
+        "待つよう",
+        "待とう",
+        "待てる"
+      ],
+      "acceptedAnswers": [
+        "待とう"
+      ],
+      "explanation": "五段つ变と＋う，待とう；待てる是可能形。"
+    },
+    {
+      "id": "grammar-ja-n4-volitional-form-context",
+      "kind": "context",
+      "prompt": "对同伴说“一緒に見よう”是什么行动？",
+      "options": [
+        "邀请同伴一起看。",
+        "记录两个人已经看完。",
+        "证明自己比同伴看得清。"
+      ],
+      "acceptedAnswers": [
+        "邀请同伴一起看。"
+      ],
+      "explanation": "一緒に加意志形构成提议，不是完成报告。"
+    },
+    {
+      "id": "grammar-ja-n4-volitional-form-error",
+      "kind": "error",
+      "prompt": "按本课要求纠正并对照解析：読む的意志形是読もうよう。",
+      "acceptedAnswers": [
+        "読む的意志形是読もう。"
+      ],
+      "explanation": "五段用お段＋う，不再追加一段使用的よう。"
+    },
+    {
+      "id": "grammar-ja-n4-volitional-form-translation",
+      "kind": "translation",
+      "prompt": "参考本课表达译成目标语言：因为有时间，走路去吧。",
+      "acceptedAnswers": [
+        "時間があるから、歩いて行こう。"
+      ],
+      "explanation": "参考答案：時間があるから、歩いて行こう。 相同形式在不同结构中可表示假设，不能见到よう就断定是邀请；本课先掌握基本自我决定与提议。"
+    }
+  ]
+}

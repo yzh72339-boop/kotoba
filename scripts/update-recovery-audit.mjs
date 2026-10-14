@@ -29,7 +29,7 @@ const report={scope:'Real workers on loopback; Chromium mobile emulation and iso
 let browser,activePage;
 try{
  browser=await chromium.launch({executablePath:'/usr/bin/chromium',headless:true,args:['--no-sandbox']});
- for(const width of [360,390,430]){
+ for(const width of [360,390,430].filter(w=>!process.env.UPDATE_AUDIT_WIDTH||w===Number(process.env.UPDATE_AUDIT_WIDTH))){
   served=old;
   const context=await browser.newContext({viewport:{width,height:844},reducedMotion:width===430?'reduce':'no-preference',colorScheme:width===390?'dark':'light'});
   context.on('page',page=>page.on('pageerror',error=>report.errors.push(error.message)));

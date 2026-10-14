@@ -1,0 +1,130 @@
+{
+  "id": "grammar-en-c1-provided-condition",
+  "kind": "grammar",
+  "language": "en",
+  "level": "C1",
+  "difficulty": 4,
+  "tags": [
+    "v3-foundations-02",
+    "完整课程",
+    "C1"
+  ],
+  "title": "provided (that) / providing (that)",
+  "pattern": "provided (that) / providing (that)",
+  "meaningZh": "只有在明确条件满足时才……",
+  "meaningEn": "a stipulated condition",
+  "explanation": "provided (that) and providing (that) introduce a condition that must be met for a permission, proposal or result to apply. 它们强调附加条件，常见于协议、计划和正式说明，不是证明条件已经满足。谈未来时从句通常用现在时，例如provided the equipment arrives；省略that并不改变要求。与unless相比，provided直接说明所需条件，unless指出使主句不成立的例外。",
+  "usage": "把提案的适用条件说清楚，而不是给出无条件承诺。",
+  "nuance": "较if更突出附带条件；provided不是此处的过去分词“已提供”。",
+  "structure": [
+    "main clause + provided / providing (that) + finite clause",
+    "未来条件通常用现在时；that可省略"
+  ],
+  "formation": [
+    "main clause + provided / providing (that) + finite clause",
+    "未来条件通常用现在时；that可省略"
+  ],
+  "examples": [
+    {
+      "target": "The room can open on Sunday, provided a volunteer is present.",
+      "zh": "只要有志愿者在场，这个房间周日就可以开放。"
+    },
+    {
+      "target": "We will publish the figures provided that the sample is large enough.",
+      "zh": "只有样本足够大，我们才会公布这些数字。"
+    },
+    {
+      "target": "You may borrow the recorder, providing you return it before noon.",
+      "zh": "只要中午前归还，你就可以借录音机。"
+    },
+    {
+      "target": "The trial may continue, provided residents can report problems easily.",
+      "zh": "只有居民能方便地报告问题，试行才可以继续。"
+    }
+  ],
+  "notes": [
+    "课程等级为教学编排，不是官方穷尽式分类。",
+    "开放题采用参考答案和学习者确认，不声称自动语义评分。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Intended future condition: We will open provided a volunteer will arrive on time.",
+      "correct": "We will open provided a volunteer arrives on time.",
+      "explanation": "未来条件通常用现在时arrives；此处并非强调will所表达的意愿。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-c1-concession-even",
+      "explanation": "even if承认某条件也不改变结论；provided把条件设为主句成立的前提，逻辑不同。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-b1-first-conditional"
+  ],
+  "relatedGrammar": [
+    "grammar-en-c1-concession-even"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-c1-provided-condition-meaning",
+      "kind": "meaning",
+      "prompt": "理解完整例句：The room can open on Sunday, provided a volunteer is present.",
+      "options": [
+        "房间上个周日已经开放且无需人员在场。",
+        "每个志愿者都必须周日开放自己的房间。",
+        "只要有志愿者在场，这个房间周日就可以开放。"
+      ],
+      "acceptedAnswers": [
+        "只要有志愿者在场，这个房间周日就可以开放。"
+      ],
+      "explanation": "provided (that) and providing (that) introduce a condition that must be met for a permission, proposal or result to apply. 它们强调附加条件，常见于协议、计划和正式说明，不是证明条件已经满足。谈未来时从句通常用现在时，例如provided the equipment arrives；省略that并不改变要求。与unless相比，provided直接说明所需条件，unless指出使主句不成立的例外。"
+    },
+    {
+      "id": "grammar-en-c1-provided-condition-formation",
+      "kind": "fill",
+      "prompt": "A future access condition: We will issue a key provided the tenant (　) the form.",
+      "options": [
+        "to sign",
+        "signs",
+        "will have signed every time"
+      ],
+      "acceptedAnswers": [
+        "signs"
+      ],
+      "explanation": "provided引导完整条件从句，主语后使用现在时signs，不接孤立不定式。"
+    },
+    {
+      "id": "grammar-en-c1-provided-condition-context",
+      "kind": "context",
+      "prompt": "“The trial may continue, provided residents can report problems easily.” What is promised?",
+      "options": [
+        "Continuation is conditional on accessible reporting.",
+        "The trial continues regardless of reporting access.",
+        "Every complaint will necessarily be resolved immediately."
+      ],
+      "acceptedAnswers": [
+        "Continuation is conditional on accessible reporting."
+      ],
+      "explanation": "provided sets a required condition; neither unconditional continuation nor guaranteed resolution is asserted."
+    },
+    {
+      "id": "grammar-en-c1-provided-condition-error",
+      "kind": "error",
+      "prompt": "按本课要求纠正并对照解析：Intended future condition: We will open provided a volunteer will arrive on time.",
+      "acceptedAnswers": [
+        "We will open provided a volunteer arrives on time."
+      ],
+      "explanation": "未来条件通常用现在时arrives；此处并非强调will所表达的意愿。"
+    },
+    {
+      "id": "grammar-en-c1-provided-condition-translation",
+      "kind": "translation",
+      "prompt": "参考本课表达译成目标语言：只有居民能方便地报告问题，试行才可以继续。",
+      "acceptedAnswers": [
+        "The trial may continue, provided residents can report problems easily."
+      ],
+      "explanation": "参考答案：The trial may continue, provided residents can report problems easily. 较if更突出附带条件；provided不是此处的过去分词“已提供”。"
+    }
+  ]
+}

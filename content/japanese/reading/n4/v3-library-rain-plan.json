@@ -1,0 +1,116 @@
+{
+  "id": "article-ja-n4-library-rain-plan",
+  "kind": "reading",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "v3-foundations-02",
+    "N4",
+    "日常"
+  ],
+  "title": "雨の日の待ち合わせ",
+  "topic": "日常 · 条件と予定",
+  "genre": "practical",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "日曜日、友達と図書館へ行く予定です。時間があれば、駅から歩いて行きます。雨が降ったら、バスに乗ります。友達にこの二つの予定を送りました。",
+    "友達は「バスに乗ったら、着く少し前に連絡して」と言いました。図書館の地図には、駅前のバス停で乗れば十分で着くと書いてあります。でも、車が多ければ、もっと時間がかかります。",
+    "着いたら、入口の近くで会います。分からなかったら、電話します。先に着いた人は中で待ちます。本を読んだ後で、お茶を飲もうと思います。どちらの道でも、急がずに行きたいです。"
+  ],
+  "translation": [
+    "周日我准备和朋友去图书馆。如果有时间，就从车站走过去。如果下雨，就坐公交。我把这两种计划发给了朋友。",
+    "朋友说：“上公交后，在快到时联系我。”图书馆地图上写着，在站前公交站上车的话十分钟能到。不过，车多的话，会花更多时间。",
+    "到了后，在入口附近见面。如果不明白，就打电话。先到的人在里面等。读书后，我准备一起喝茶。不管走哪条路，都想不着急地过去。"
+  ],
+  "vocabulary": [
+    "context-ja-n5-41d9658235ab",
+    "context-ja-n5-61c4363ce176",
+    "complete-ja-n4-7177787c6e",
+    "complete-ja-n4-f9b670ca44",
+    "context-ja-n4-76e8a3d591fe",
+    "course-ja-n4-1",
+    "course-ja-n5-11",
+    "course-ja-n5-7"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-ja-n4-ba-conditional",
+      "surface": "時間があれば"
+    },
+    {
+      "id": "grammar-ja-n4-tara-conditional",
+      "surface": "雨が降ったら"
+    },
+    {
+      "id": "grammar-ja-n4-volitional-to-omou",
+      "surface": "飲もうと思います"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-ja-n4-library-rain-plan-q1",
+      "type": "detail",
+      "prompt": "什么情况下作者准备坐公交？",
+      "options": [
+        "朋友想回家时",
+        "下雨时",
+        "所有书都借出时"
+      ],
+      "answer": 1,
+      "explanation": "第一段雨が降ったら、バスに乗ります。"
+    },
+    {
+      "id": "article-ja-n4-library-rain-plan-q2",
+      "type": "detail",
+      "prompt": "朋友要求在何时联系？",
+      "options": [
+        "上车后，快到之前",
+        "约会结束后第二天",
+        "没出门时每分钟一次"
+      ],
+      "answer": 0,
+      "explanation": "第二段着く少し前に連絡して，而非刚上车就必须联系。"
+    },
+    {
+      "id": "article-ja-n4-library-rain-plan-q3",
+      "type": "inference",
+      "prompt": "为什么不能保证公交总在十分钟内到？",
+      "options": [
+        "地图已经明确写了取消线路",
+        "图书馆没有入口",
+        "车多时可能花更长时间"
+      ],
+      "answer": 2,
+      "explanation": "地图的通常时间后接车多时花更久的条件，限制保证。"
+    },
+    {
+      "id": "article-ja-n4-library-rain-plan-q4",
+      "type": "grammar",
+      "prompt": "文中“着いたら”如何连接行动？",
+      "options": [
+        "只能叙述昨天发生的到达",
+        "以到达为前提，再在入口附近见面",
+        "表示根本不想抵达"
+      ],
+      "answer": 1,
+      "explanation": "此处たら用于未来完成前项后的下一步，不限定过去。"
+    },
+    {
+      "id": "article-ja-n4-library-rain-plan-q5",
+      "type": "detail",
+      "prompt": "先到的人在哪里等？",
+      "options": [
+        "图书馆里面",
+        "公交车上",
+        "另一座城市"
+      ],
+      "answer": 0,
+      "explanation": "第三段先に着いた人は中で待ちます。"
+    }
+  ],
+  "notes": [
+    "人物、组织、事件均为原创虚构教学情境。",
+    "预计阅读时间按日文200字／分钟、英文180词／分钟估算，并非个人测量。"
+  ]
+}
