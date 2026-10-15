@@ -15,6 +15,16 @@ export function readingSources(state:AppState,cardId:string):ReadingSource[]{
   }catch{}
  }return sources;
 }
+// A retained personal snapshot may be opened even after its current entry was
+// removed. Reuse the existing validated source format, never another account.
+export function readingSourceSnapshot(state:AppState,articleId:string,snapshotId:string):ReadingSource|null{
+ for(const [key,text] of Object.entries(state.notes)){if(!key.startsWith('reading-source-')||!key.endsWith('--'+articleId))continue;
+  try{const value=JSON.parse(text);if(value.articleId!==articleId||value.snapshotId!==snapshotId||typeof value.cardId!=='string')continue;
+   const source=readingSources(state,value.cardId).find(s=>s.articleId===articleId&&s.snapshotId===snapshotId);if(source)return source;
+  }catch{}
+ }return null;
+}
+
 export function attachReadingSource(state:AppState,cardId:string,source:ReadingSource):AppState{
  if(!/^article-(ja|en)(?:-[a-z0-9-]+)?$/.test(source.articleId)||!source.articleId.startsWith(`article-${source.language}`))return state;
  const key=sourcePrefix(cardId)+source.articleId;

@@ -1,3 +1,5 @@
+> Current continuation: **3.1.0-preview.5 — reading vocabulary and personal snapshots**. Actual source-matched vocabulary, private word matches, state filters, existing article-scoped SRS and retained original snapshot links. No dependency, database, scheduler or quota change. Current content remains927 words /181 grammar /82 reading. See [scope and verification limits](READER-VOCABULARY-V3.1.md). Earlier checkpoints are historical.
+
 > Current continuation: **3.1.0-preview.4 — dictionary lookup and truthful learning evidence**. Local romaji/kana aliases, opt-in English lemma lookup, original query history and actual review/source counts. No SRS, storage, Auth/RLS, quota or database changes. Current content remains **927 words /181 grammar /82 readings**. See [scope and verification limits](DICTIONARY-LOOKUP-V3.1.md). Earlier checkpoints below are historical.
 
 > Current continuation: **3.1.0-preview.3 — optional Japanese reading analysis**. Preserves the 3.0.1 canonical recovery fix and all learning/account data. See [integration and verification limits](JAPANESE-READING-INTEGRATION-V3.1.md). Earlier checkpoints below are historical.
