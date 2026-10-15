@@ -1,3 +1,9 @@
+## 3.1.0-preview.4
+
+- Local Japanese romaji/kana dictionary matching and explicit English lemma lookup reuse installed adapters. Query history, IME and stale-worker handling preserve the current account and literal input.
+- Replace dictionary memory percentages with real same-language review, interval/lapse and source evidence; keep scheduling, IDs and sync unchanged.
+- Add lookup/evidence regression tests and mobile compiled-app/offline checks. Full curriculum and physical-device/production-account acceptance remain separate.
+
 # 3.1.0-preview.3 — optional Japanese reading analysis
 
 - Optional local Kuroshiro/Kuromoji worker for course and personal-text ruby, with known-word readings and original UTF-16 text retained.

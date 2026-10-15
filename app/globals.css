@@ -102,3 +102,7 @@
 .prerequisite-path ol{padding-left:1.25rem;margin:1rem 0}.prerequisite-path li{margin:.35rem 0}.prerequisite-path button,.prerequisite-return button{min-height:48px;height:auto;max-width:100%;white-space:normal;overflow-wrap:anywhere;text-align:left}.prerequisite-path button .tag{flex-shrink:0}.prerequisite-path button svg,.prerequisite-return button svg{flex-shrink:0}.prerequisite-path li button{justify-content:flex-start;width:100%}.prerequisite-return{border-left:3px solid var(--accent);padding-left:1rem}
 
 .app-device-status>span{min-width:0;overflow-wrap:anywhere}.settings-section [aria-label="版本检查状态"],.update-banner small{overflow-wrap:anywhere}.update-banner>span{min-width:0}
+
+/* Local dictionary tools share the existing touch targets and surfaces. */
+.dictionary-query-tools{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;margin:-10px 0 18px;min-width:0;overflow-wrap:anywhere}
+.dictionary-query-tools:empty{display:none}.dictionary-query-tools .text-link{min-height:44px;white-space:normal;text-align:start}.dictionary-query-tools .subtle{line-height:1.7;margin:0}.dictionary-query-tools button:disabled{opacity:.6;cursor:wait}
