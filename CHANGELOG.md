@@ -1,3 +1,9 @@
+## 3.1.0-preview.5
+
+- Reader vocabulary sheet connects catalog/private words and real morphology to existing lookup, source-preserving collection and article-scoped SRS.
+- Personal word sources retain snapshot/version/paragraph data, including read-only recovery after material edits/removal. Preserve IDs, schedules, account isolation, original content and migrations.
+- Add index/context regression tests and Japanese/English compiled-mobile/offline QA. Physical-device and production-account verification remain separate.
+
 ## 3.1.0-preview.4
 
 - Local Japanese romaji/kana dictionary matching and explicit English lemma lookup reuse installed adapters. Query history, IME and stale-worker handling preserve the current account and literal input.

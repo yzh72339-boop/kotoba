@@ -1,5 +1,5 @@
 /* Build rewrites this version and app asset list. Private API responses are never cached. */
-const VERSION='kotoba-3.1.0-preview.4-dev';
+const VERSION='kotoba-3.1.0-preview.5-dev';
 const SHELL=VERSION+'-shell',CONTENT=VERSION+'-content',DOWNLOADS='kotoba-personal-downloads',LANGUAGE_ASSETS='kotoba-language-assets-v1';
 const PRECACHE=['/','/manifest.webmanifest','/icons/icon-192.png','/icons/icon-512.png','/icons/maskable-512.png','/cafe-editorial.svg','/images/reading-japan.jpg'];
 self.addEventListener('install',e=>e.waitUntil((async()=>{
