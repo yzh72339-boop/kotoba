@@ -17,7 +17,7 @@ const server=createServer(async(req,res)=>{
   res.setHeader('Cache-Control','no-store');
   // Match the production host's canonical redirect rather than assuming the
   // requested .html path is also the worker message source's pathname.
-  if(path==='/api/app-update.html'){res.writeHead(308,{Location:'/api/app-update'});res.end();return}
+  if(path==='/api/app-update.html'){res.writeHead(308,{Location:'/api/app-update'+new URL(req.url,'http://127.0.0.1').search});res.end();return}
   if(path==='/api/app-version.json'){if(failMetadata){res.writeHead(503);res.end('unavailable');return}res.setHeader('Content-Type','application/json');res.end(JSON.stringify(phase==='new'?metadata:{...metadata,version:oldVersion,buildId:old}));return}
   if(path==='/sw.js'){res.setHeader('Content-Type','application/javascript');res.end(phase==='new'?compiled:oldSource);return}
   if(path==='/'||path==='/index.html'){res.setHeader('Content-Type','text/html');res.end(harness(phase==='new'&&!staleRoot?target:old));return}
