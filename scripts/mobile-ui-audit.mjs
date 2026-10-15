@@ -274,10 +274,41 @@ async function auditPersonalMaterials(){
  report.checks.push('English/Japanese UTF-8 file → preview → import with repeated click → real IndexedDB save → open → manual translation → reload → edit v2 → reload: six 360/390/430 combinations, unassessed level stays null, old snapshot retained, no overflow; dark/reduced-motion covered at 430. Isolated fixture only.');
 }
 
+async function auditJapaneseTools(){
+ const articleID='article-ja-n4-readable-menu';
+ for(const width of [360,390,430]){
+  const {context,page}=await setup(width,{workers:true,level:'N4',dark:width===430,motion:width===430?'reduce':'no-preference',video:width===390});failurePage=page;
+  const requests=[];context.on('request',request=>{if(request.url().includes('/language/'))requests.push(request.url())});
+  const workerClosures=[];page.on('worker',worker=>worker.on('close',()=>workerClosures.push(worker.url())));
+  await page.goto(`${origin}/#Reading`);await ready(page);await page.evaluate(async()=>await navigator.serviceWorker.ready);
+  await page.getByRole('button',{name:'下载本页资料以供离线学习',exact:true}).click();await page.getByText(/份资料已保存在此设备/).waitFor();
+  await page.goto(`${origin}/?content=${articleID}#Reading`);await ready(page);await page.locator('.reading-text').waitFor();
+  if(requests.length)throw new Error('Japanese dictionary loaded without explicit consent');
+  if(width===360){await context.setOffline(true);await page.getByRole('button',{name:'下载日语词典并自动注音',exact:true}).click();await page.getByRole('alert').filter({hasText:'词典未能加载'}).waitFor({timeout:95000});await context.setOffline(false)}
+  const started=Date.now();await page.getByRole('button',{name:'下载日语词典并自动注音',exact:true}).click();await page.getByRole('status').filter({hasText:'日语自动注音已就绪'}).waitFor({timeout:95000});const elapsed=Date.now()-started;
+  if(await page.locator('.reading-text ruby').count()<3)throw new Error('Real Japanese dictionary did not annotate paragraphs');
+  await page.getByRole('button',{name:/^新しく：查看词汇/}).first().click();await page.getByRole('dialog').waitFor();await page.getByRole('dialog').getByText('新しい',{exact:true}).first().waitFor();
+  await page.getByRole('dialog').getByRole('button',{name:'Add to learning',exact:true}).evaluate(button=>{button.click();button.click()});await page.getByRole('button',{name:'关闭',exact:true}).click();await page.getByText('已保存并同步',{exact:true}).first().waitFor();
+  await capture(page,`japanese-morphology-${width}`);
+  await context.setOffline(true);await page.reload();await ready(page);await page.locator('.reading-text').waitFor();await page.getByRole('button',{name:'下载日语词典并自动注音',exact:true}).click();await page.getByRole('status').filter({hasText:'日语自动注音已就绪'}).waitFor({timeout:95000});
+  await page.getByRole('button',{name:/^新しく：查看词汇/}).first().click();await page.getByRole('dialog').getByRole('button',{name:'In learning',exact:true}).waitFor();await page.getByRole('button',{name:'关闭',exact:true}).click();
+  await page.getByRole('button',{name:/My note/}).click();await page.getByRole('textbox',{name:'我的阅读笔记'}).fill('日语词形离线笔记');await page.getByRole('button',{name:'Save note',exact:true}).click();await page.getByText(/本地已保存/).first().waitFor();
+  await context.setOffline(false);await page.getByText('已保存并同步',{exact:true}).first().waitFor();
+  if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1))throw new Error('Japanese tools overflow mobile width');
+  await page.goto(`${origin}/#Learn`);await ready(page);if(!workerClosures.length)throw new Error('Japanese model worker retained after leaving reader');
+  if(width===390){
+   await page.goto(`${origin}/#Library`);await ready(page);await page.getByRole('button',{name:'导入素材',exact:true}).click();await page.getByRole('textbox',{name:'素材标题'}).fill('自动注音私人测试');await page.getByRole('combobox',{name:'素材语言'}).selectOption('ja');
+   await page.getByRole('textbox',{name:'素材原文'}).fill('😀 私は図書館で本を読んでいます。\n\n先生は寿司を食べました。');await page.getByRole('button',{name:'预览素材',exact:true}).click();await page.getByRole('button',{name:'确认导入',exact:true}).click();await page.locator('.material-open').filter({hasText:'自动注音私人测试'}).click();
+   await page.getByRole('button',{name:'下载日语词典并自动注音',exact:true}).click();await page.getByRole('status').filter({hasText:'日语自动注音已就绪'}).waitFor({timeout:95000});if(!await page.locator('.personal-sentence ruby').count())throw new Error('Imported text did not receive real ruby');
+   await page.locator('.personal-sentence').last().click();await page.getByRole('dialog').locator('blockquote').filter({hasText:'先生は寿司を食べました。'}).waitFor();await page.getByRole('button',{name:'关闭',exact:true}).click();await capture(page,'japanese-private-text-390');
+  }
+  report.checks.push({width,firstAnalysisMs:elapsed,dictionaryRequests:requests.length,realLibraries:true,offlineReload:true,stableHeadwordCollection:true,workerDisposed:true,dark:width===430,reducedMotion:width===430,scope:'Desktop Chromium with real workers/dictionary/cache and simulated account/backend; not physical phone'});await context.close();
+ }
+}
 try{
  if(process.env.UI_AUDIT_CLOSEOUT)await auditCloseout();
  if(before&&!process.env.UI_AUDIT_CORE_ONLY){const {context,page}=await setup(390);await page.goto(before);await ready(page);await capture(page,'before-home-390');await context.close();}
- for(const width of (process.env.UI_AUDIT_UPDATES||process.env.UI_AUDIT_V31_COURSES||process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_CORE_ONLY||process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS||process.env.UI_AUDIT_N2_OFFLINE_ONLY||process.env.UI_AUDIT_MATERIALS||process.env.UI_AUDIT_LISTENING)?[]:[360,390,430]){
+ for(const width of (process.env.UI_AUDIT_JAPANESE||process.env.UI_AUDIT_UPDATES||process.env.UI_AUDIT_V31_COURSES||process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_CORE_ONLY||process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS||process.env.UI_AUDIT_N2_OFFLINE_ONLY||process.env.UI_AUDIT_MATERIALS||process.env.UI_AUDIT_LISTENING)?[]:[360,390,430]){
   const {context,page}=await setup(width);
   for(const name of ['Today','Learn','Library','Vocabulary','Grammar','Reading','Review','Listening','Speaking','Progress','AI Tutor','My Sentences','Mistake Notebook','Profile','Settings']){
    await page.goto(`${origin}/#${encodeURIComponent(name)}`);await ready(page);
@@ -288,7 +319,7 @@ try{
   }
   await context.close();
  }
- if(process.env.UI_AUDIT_UPDATES){await auditUpdateControls()}else if(process.env.UI_AUDIT_V31_COURSES){await auditN2Batch();if(process.env.UI_AUDIT_V31_COURSES==='batch03')await auditPreparation();else await auditLanguageTools()}else if(process.env.UI_AUDIT_LISTENING){await auditListeningAndBudget()}else if(process.env.UI_AUDIT_MATERIALS){await auditPersonalMaterials()}else if(process.env.UI_AUDIT_N2_OFFLINE_ONLY){await auditLinkedReadingOffline()}else if(process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS){await auditN2Batch();if(process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_N2_LINKS)await auditLinkedReadingOffline()}else{
+ if(process.env.UI_AUDIT_JAPANESE){await auditJapaneseTools()}else if(process.env.UI_AUDIT_UPDATES){await auditUpdateControls()}else if(process.env.UI_AUDIT_V31_COURSES){await auditN2Batch();if(process.env.UI_AUDIT_V31_COURSES==='batch03')await auditPreparation();else await auditLanguageTools()}else if(process.env.UI_AUDIT_LISTENING){await auditListeningAndBudget()}else if(process.env.UI_AUDIT_MATERIALS){await auditPersonalMaterials()}else if(process.env.UI_AUDIT_N2_OFFLINE_ONLY){await auditLinkedReadingOffline()}else if(process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS){await auditN2Batch();if(process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_N2_LINKS)await auditLinkedReadingOffline()}else{
  const {context,page}=await setup(390,{video:true});failurePage=page;
  await context.addInitScript(({capable})=>{if(capable){Object.defineProperty(navigator,'deviceMemory',{get:()=>8,configurable:true});Object.defineProperty(navigator,'hardwareConcurrency',{get:()=>8,configurable:true});if(navigator.connection)Object.defineProperty(navigator.connection,'saveData',{get:()=>false,configurable:true})}window.qaSceneCount=Number(sessionStorage.getItem('qa-scene-starts')??0);window.qaSceneReady=Number(sessionStorage.getItem('qa-scene-ready')??0);window.qaSceneFailed=Number(sessionStorage.getItem('qa-scene-skipped')??0);window.qaSceneErrors=JSON.parse(sessionStorage.getItem('qa-scene-errors')??'[]');window.qaSceneAvailable=typeof document.startViewTransition==='function';if(window.qaSceneAvailable){const start=document.startViewTransition.bind(document);document.startViewTransition=callback=>{window.qaSceneCount++;sessionStorage.setItem('qa-scene-starts',String(window.qaSceneCount));const t=start(callback);t.ready.then(()=>{window.qaSceneReady++;sessionStorage.setItem('qa-scene-ready',String(window.qaSceneReady))},error=>{window.qaSceneFailed++;window.qaSceneErrors.push(error.name+': '+error.message);sessionStorage.setItem('qa-scene-skipped',String(window.qaSceneFailed));sessionStorage.setItem('qa-scene-errors',JSON.stringify(window.qaSceneErrors))});return t}}},{capable:Boolean(process.env.UI_AUDIT_CAPABLE)});
  await page.bringToFront();

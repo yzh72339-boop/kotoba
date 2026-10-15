@@ -1,5 +1,7 @@
 # V3.1 open-source integration — 2026-10-14
 
+2026-10-15 continuation: optional Kuroshiro/Kuromoji integration is now implemented in preview.3; its current adapter, dictionary licensing/cost and verification limits are in [JAPANESE-READING-INTEGRATION-V3.1.md](JAPANESE-READING-INTEGRATION-V3.1.md). The table below records the earlier selection, not a claim that the analyzer is still absent.
+
 Baseline: `feature/3-0-course-coverage`, Sites source `4c70986`, GitHub `d03a79f`. This is **3.1.0-preview.1**, not completion of V3/V3.1. Existing accounts, SRS IDs/schedules, RLS, sync and migrations 001–013 stay intact.
 
 ## Evidence and selection
