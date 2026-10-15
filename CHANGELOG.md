@@ -106,3 +106,7 @@
 - Version, lockfile metadata, settings and generated worker build identity use 2.7.0. No dependency versions, migrations, Auth/RLS, SRS semantics or sync protocol were changed.
 
 Verification and remaining acceptance: [V2.7 checkpoint](docs/KOTOBA-2.7-CHECKPOINT.md). This is not a complete 1,260/590 curriculum or exhaustive dictionary.
+# 3.0.1 production recovery hotfix
+
+- Allow Sites' canonical `/api/app-update` recovery path as well as `.html`; retain same-origin, build and multi-window fences. Rejected recovery routes now reply explicitly instead of timing out.
+- Reproduced the previous failure in a regression test and added the real host's HTML redirect to browser update QA.

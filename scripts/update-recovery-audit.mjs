@@ -15,12 +15,15 @@ const server=createServer(async(req,res)=>{
  try{
   const path=new URL(req.url,'http://127.0.0.1').pathname;
   res.setHeader('Cache-Control','no-store');
+  // Match the production host's canonical redirect rather than assuming the
+  // requested .html path is also the worker message source's pathname.
+  if(path==='/api/app-update.html'){res.writeHead(308,{Location:'/api/app-update'});res.end();return}
   if(path==='/api/app-version.json'){if(failMetadata){res.writeHead(503);res.end('unavailable');return}res.setHeader('Content-Type','application/json');res.end(JSON.stringify(phase==='new'?metadata:{...metadata,version:oldVersion,buildId:old}));return}
   if(path==='/sw.js'){res.setHeader('Content-Type','application/javascript');res.end(phase==='new'?compiled:oldSource);return}
   if(path==='/'||path==='/index.html'){res.setHeader('Content-Type','text/html');res.end(harness(phase==='new'&&!staleRoot?target:old));return}
   if(failAsset&&path===asset){res.writeHead(503);res.end('simulated missing release asset');return}
   const folder=phase==='old'&&prior&&!path.startsWith('/api/')?prior:root;
-  const file=resolve(folder,'.'+decodeURIComponent(path));if(!file.startsWith(folder+sep)){res.writeHead(403);res.end();return}
+  const file=resolve(folder,'.'+decodeURIComponent(path==='/api/app-update'?'/api/app-update.html':path));if(!file.startsWith(folder+sep)){res.writeHead(403);res.end();return}
   const data=await readFile(file);res.setHeader('Content-Type',mime[extname(file)]??'application/octet-stream');res.end(data);
  }catch{if(!res.headersSent)res.writeHead(404);res.end()}
 });
@@ -52,7 +55,7 @@ try{
   failMetadata=true;const http=await inspect(page);assert.equal(http.error,'http-503');failMetadata=false;
   phase='new';failAsset=true;const failed=await inspect(page);assert.equal(failed.error,'install-error');assert.equal(failed.activeBuild,old);assert.equal(failed.waitingBuild,null);failAsset=false;
   staleRoot=true;const stale=await inspect(page);assert.equal(stale.error,'install-error');staleRoot=false;
-  await page.goto(origin+'/api/app-update.html');await page.waitForFunction(()=>!document.querySelector('#check').disabled&&document.querySelector('#status').textContent.includes('新版已下载'));
+  await page.goto(origin+'/api/app-update.html');assert.equal(new URL(page.url()).pathname,'/api/app-update');await page.waitForFunction(()=>!document.querySelector('#check').disabled&&document.querySelector('#status').textContent.includes('新版已下载'));
   assert.equal(await page.locator('#activate').isEnabled(),false);assert.ok((await page.locator('#build').textContent()).includes(target));
   await page.reload();await page.waitForFunction(()=>!document.querySelector('#check').disabled&&document.querySelector('#waiting-build').textContent.includes('kotoba-3.0.1-'));
   const other=await context.newPage();await other.goto(origin+'/#Review');

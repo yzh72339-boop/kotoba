@@ -27,8 +27,12 @@ self.addEventListener('message',e=>{
   e.waitUntil((async()=>{
    const source=e.source,port=e.ports?.[0];
    if(!source?.id||new URL(source.url).origin!==self.location.origin)return;
-   if(e.data.type==='RECOVERY_UPDATE'&&new URL(source.url).pathname!=='/api/app-update.html')return;
    const reply=value=>{if(port)port.postMessage(value);else source.postMessage?.({type:'UPDATE_RESULT',...value})};
+   // Sites canonicalizes .html URLs before they become WindowClient URLs.
+   // Preserve the recovery-route restriction, but acknowledge rejected requests
+   // so a legitimate redirect never looks like an unresponsive worker.
+   const sourcePath=new URL(source.url).pathname.replace(/\/$/,'');
+   if(e.data.type==='RECOVERY_UPDATE'&&!['/api/app-update.html','/api/app-update'].includes(sourcePath)){reply({status:'rejected',version:VERSION});return;}
    if(e.data.expectedBuild&&e.data.expectedBuild!==VERSION){reply({status:'mismatch',version:VERSION});return;}
    const windows=await self.clients.matchAll({type:'window',includeUncontrolled:true});
    if(windows.some(client=>client.id!==source.id&&new URL(client.url).origin===self.location.origin)){reply({status:'blocked',version:VERSION,recoveryUrl:'/api/app-update.html?reason=other-windows'});

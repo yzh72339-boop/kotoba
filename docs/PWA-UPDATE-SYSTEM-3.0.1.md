@@ -43,6 +43,8 @@ For an existing installation, save locally → Settings check/update → confirm
 
 ## Remaining operations / rollback
 
+Production redirect correction (2026-10-15): a direct server request confirmed HTTP 200 at final `/api/app-update` after requesting `/api/app-update.html`. The worker's `.html`-only recovery-route check silently dropped that message, yielding the user's timeout even with a correctly downloaded build. Accept both canonical paths and reply explicitly on other paths. The regression failed before the fix; browser QA now models the real canonical redirect. No origin, expected-build or other-window fences are removed.
+
 GitHub reauthorization and repository build variables may be required before CI/push. Native Sites terminal receipt establishes publication; a source commit is insufficient. Physical phone, genuine owner learning/SRS across update, another device and Supabase synchronization still need separate acceptance.
 
 Rollback uses an existing saved Site version through the official deploy operation, preserving audience and DB. Do not re-run migrations or clear local data. Recovery/metadata mismatches deliberately block a falsely reported install. Keeping prior shell caches avoids data/download removal but can increase storage over repeated releases; bounded obsolete-static-cache management is a later reviewed change, not a hidden reset in this repair.

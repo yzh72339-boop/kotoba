@@ -89,3 +89,14 @@ test('legacy clients receive a recovery URL and are never activated across anoth
 test('worker registration uses a fresh build-specific URL without changing scope or unregistering',async()=>{
  const r=registration(),o=options(r),scripts=[];o.navigator.serviceWorker.register=async(url,config)=>{scripts.push({url,config});r.waiting=worker('installed',latest);return r};const result=await checkAppUpdate(o);assert.equal(result.status,'waiting');assert.equal(scripts[0].url,'/sw.js?_kotoba_build='+latest);assert.equal(scripts[0].config.scope,'/');assert.equal(scripts[0].config.updateViaCache,'none');
 });
+
+test('Sites canonical extensionless recovery URL can activate after redirect; unrelated paths get an explicit refusal',async()=>{
+ for(const path of ['/api/app-update','/api/app-update/','/api/app-update.html']){
+  const source={id:'update',url:'https://kotoba.test'+path};
+  const result=await sw([source]).send('RECOVERY_UPDATE',source);
+  assert.equal(result.reply?.status,'activating',path);assert.equal(result.activations,1);
+ }
+ const source={id:'update',url:'https://kotoba.test/not-recovery'};
+ const refused=await sw([source]).send('RECOVERY_UPDATE',source);
+ assert.equal(refused.reply?.status,'rejected');assert.equal(refused.activations,0);
+});
