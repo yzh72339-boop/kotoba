@@ -1,3 +1,5 @@
+> Current engineering release **3.0.1 — PWA update-system repair**. Based on the latest preserved 3.1 preview source, with no feature/data rollback. Independent server metadata, page/controller/waiting identities, save-first acknowledged activation and automatic checks are implemented. Production Sites and GitHub CI are separate; CI is not an automatic Sites publisher. See [mechanism, deployment limits and actual acceptance](PWA-UPDATE-SYSTEM-3.0.1.md). Prior checkpoints below are historical.
+
 > Current continuation: **3.1.0-preview.2**, 927 vocabulary /181 grammar /82 readings. Read V3-CURRICULUM-BATCH-03.md and CURRENT-STATUS.md first. Daily pins are protected by `pinPlannedCourse`; ordered preparation uses `prerequisitePath`. Preserve all old IDs/data, Auth/RLS, SRS/sync and migrations 001–013. Strict full targets still fail by 1,587 units. Previous checkpoints below are historical.
 
 # Current: V3.1 language-tools preview — 2026-10-14

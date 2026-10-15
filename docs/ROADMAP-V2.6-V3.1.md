@@ -1,3 +1,5 @@
+> Current engineering release **3.0.1 — PWA update-system repair**. Based on the latest preserved 3.1 preview source, with no feature/data rollback. Independent server metadata, page/controller/waiting identities, save-first acknowledged activation and automatic checks are implemented. Production Sites and GitHub CI are separate; CI is not an automatic Sites publisher. See [mechanism, deployment limits and actual acceptance](PWA-UPDATE-SYSTEM-3.0.1.md). Prior checkpoints below are historical.
+
 # V3.1 preview.2 continuation
 
 Ordered preparation and immutable daily course pins; +4 N4 grammar/+2 readings. Current 181/82; full gap 1,587. Existing library/adapters, account isolation and native Android container retained. See V3-CURRICULUM-BATCH-03.md for the exact evidence and next breakpoint. Prior checkpoints are historical.

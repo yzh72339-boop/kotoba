@@ -1,0 +1,10 @@
+import {parseVersionMetadata,validBuild} from '../public/api/update-core.js';
+const arg=name=>process.argv[process.argv.indexOf(name)+1];
+const origin=new URL(arg('--url'));
+if(!['http:','https:'].includes(origin.protocol)||origin.username||origin.password)throw new Error('Use a plain website origin without credentials');
+const expected=validBuild(arg('--expected'));if(!expected)throw new Error('Provide --expected with the exact build ID');
+const get=async path=>{const url=new URL(path,origin);url.searchParams.set('_kotoba_release',Date.now()+'-'+Math.random().toString(36).slice(2));const r=await fetch(url,{cache:'no-store',headers:{'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'},signal:AbortSignal.timeout(20000)});if(!r.ok)throw new Error(path+': HTTP '+r.status);return r};
+const [metadataResponse,workerResponse,htmlResponse]=await Promise.all([get('/api/app-version.json'),get('/sw.js'),get('/')]);
+const metadata=parseVersionMetadata(await metadataResponse.json()),worker=await workerResponse.text(),html=await htmlResponse.text();
+if(metadata.buildId!==expected||!worker.includes(expected)||!html.includes('name="kotoba-build" content="'+expected+'"'))throw new Error('Published metadata/worker/page identities do not match '+expected);
+console.log(JSON.stringify({url:origin.origin,expected,metadata,http:{metadata:metadataResponse.status,worker:workerResponse.status,page:htmlResponse.status},scope:'Public static deployment identity only; no owner/device/sync acceptance'},null,2));

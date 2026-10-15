@@ -100,3 +100,5 @@
 
 /* Ordered preparation stays readable on narrow phones without changing lesson IDs. */
 .prerequisite-path ol{padding-left:1.25rem;margin:1rem 0}.prerequisite-path li{margin:.35rem 0}.prerequisite-path button,.prerequisite-return button{min-height:48px;height:auto;max-width:100%;white-space:normal;overflow-wrap:anywhere;text-align:left}.prerequisite-path button .tag{flex-shrink:0}.prerequisite-path button svg,.prerequisite-return button svg{flex-shrink:0}.prerequisite-path li button{justify-content:flex-start;width:100%}.prerequisite-return{border-left:3px solid var(--accent);padding-left:1rem}
+
+.app-device-status>span{min-width:0;overflow-wrap:anywhere}.settings-section [aria-label="版本检查状态"],.update-banner small{overflow-wrap:anywhere}.update-banner>span{min-width:0}

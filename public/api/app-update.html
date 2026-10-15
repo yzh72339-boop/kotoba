@@ -16,10 +16,10 @@ button,.back{border-radius:14px;font-weight:600}button{background:#006bea;box-sh
 <body><main>
 <div class="brand">kotoba.</div><h1>更新你的学习空间。</h1>
 <p>这个独立页面可以检查新版本，即使安装版仍显示旧首页。它不会删除学习数据、离线队列、备份或登录信息。</p>
-<ol><li>先在原应用中点击 Sync now，确认 synced。</li><li>关闭其他 Kotoba 窗口，保留这个更新页面。</li><li>检查新版本，再点击安装更新。</li></ol>
+<ol><li>先在原应用确认「本地已保存」。等待云端同步的记录会保留，不必清空队列。</li><li>关闭其他 Kotoba 窗口，保留这个更新页面。</li><li>检查新版本，再点击安装更新。</li></ol>
 <div class="actions"><button id="check" type="button">检查并下载更新</button>
-<label id="confirmation" class="confirm" hidden><input id="confirmed" type="checkbox"><span>我已同步进度，并关闭其他 Kotoba 窗口。</span></label>
+<label id="confirmation" class="confirm" hidden><input id="confirmed" type="checkbox"><span>我已确认本地记录保存完成，并关闭其他 Kotoba 窗口。</span></label>
 <button id="activate" type="button" hidden disabled>安装更新</button>
 <a class="back" href="/#Settings">返回 Kotoba</a></div>
-<div class="status" role="status" aria-live="polite"><span id="status">保持联网，点击上方按钮开始。</span><small id="build"></small></div>
-</main><script src="/api/app-update.js?v=20261013-preview-build"></script></body></html>
+<div class="status" role="status" aria-live="polite"><span id="status">保持联网，点击上方按钮开始。</span><small id="current-build"></small><small id="build"></small><small id="waiting-build"></small></div>
+</main><script type="module" src="/api/app-update.js?v=3.0.1-version-metadata"></script></body></html>

@@ -123,6 +123,22 @@ async function auditPreparation(){
  }
 }
 
+async function auditUpdateControls(){
+ for(const width of [360,390,430]){
+  const {context,page}=await setup(width,{workers:true,dark:width===430,motion:width===430?'reduce':'no-preference'});failurePage=page;
+  let queries=0;context.on('request',r=>{if(new URL(r.url()).pathname==='/api/app-version.json')queries++});
+  await page.goto(`${origin}/#Settings`);await ready(page);await page.getByRole('status',{name:'版本检查状态'}).filter({hasText:'已是最新版本'}).waitFor({timeout:30000});
+  if(!await page.locator('.app-device-status').filter({hasText:'当前页面 · kotoba-3.0.1-'}).count())throw new Error('Running build identity missing');
+  const automatic=queries;
+  await page.evaluate(()=>{document.dispatchEvent(new Event('visibilitychange'));window.dispatchEvent(new Event('pageshow'));window.dispatchEvent(new Event('online'))});await page.waitForTimeout(400);if(queries!==automatic)throw new Error('Automatic update checks not throttled');
+  await page.getByRole('button',{name:'检查更新',exact:true}).click();await page.getByRole('status',{name:'版本检查状态'}).filter({hasText:'已是最新版本'}).waitFor();if(queries<=automatic)throw new Error('Manual check failed to query server');
+  const evidence=await page.locator('.app-device-status').innerText();if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth+1))throw new Error('Settings version identity overflow');
+  await capture(page,`update-settings-${width}`);
+  await context.setOffline(true);await page.evaluate(()=>window.dispatchEvent(new Event('offline')));await page.getByRole('status',{name:'版本检查状态'}).filter({hasText:'当前离线'}).waitFor();
+  report.checks.push({width,software:'3.0.1',realWorker:true,automaticQueries:automatic,manualQueries:queries-automatic,throttle:true,offline:true,evidence,scope:'actual compiled UI/SW with simulated learning backend'});await context.close();
+ }
+}
+
 async function auditLanguageTools(){
  for(const width of [360,390,430]){
   const {context,page}=await setup(width,{level:'N4',dark:width===430,motion:width===430?'reduce':'no-preference'});failurePage=page;
@@ -261,7 +277,7 @@ async function auditPersonalMaterials(){
 try{
  if(process.env.UI_AUDIT_CLOSEOUT)await auditCloseout();
  if(before&&!process.env.UI_AUDIT_CORE_ONLY){const {context,page}=await setup(390);await page.goto(before);await ready(page);await capture(page,'before-home-390');await context.close();}
- for(const width of (process.env.UI_AUDIT_V31_COURSES||process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_CORE_ONLY||process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS||process.env.UI_AUDIT_N2_OFFLINE_ONLY||process.env.UI_AUDIT_MATERIALS||process.env.UI_AUDIT_LISTENING)?[]:[360,390,430]){
+ for(const width of (process.env.UI_AUDIT_UPDATES||process.env.UI_AUDIT_V31_COURSES||process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_CORE_ONLY||process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS||process.env.UI_AUDIT_N2_OFFLINE_ONLY||process.env.UI_AUDIT_MATERIALS||process.env.UI_AUDIT_LISTENING)?[]:[360,390,430]){
   const {context,page}=await setup(width);
   for(const name of ['Today','Learn','Library','Vocabulary','Grammar','Reading','Review','Listening','Speaking','Progress','AI Tutor','My Sentences','Mistake Notebook','Profile','Settings']){
    await page.goto(`${origin}/#${encodeURIComponent(name)}`);await ready(page);
@@ -272,7 +288,7 @@ try{
   }
   await context.close();
  }
- if(process.env.UI_AUDIT_V31_COURSES){await auditN2Batch();if(process.env.UI_AUDIT_V31_COURSES==='batch03')await auditPreparation();else await auditLanguageTools()}else if(process.env.UI_AUDIT_LISTENING){await auditListeningAndBudget()}else if(process.env.UI_AUDIT_MATERIALS){await auditPersonalMaterials()}else if(process.env.UI_AUDIT_N2_OFFLINE_ONLY){await auditLinkedReadingOffline()}else if(process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS){await auditN2Batch();if(process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_N2_LINKS)await auditLinkedReadingOffline()}else{
+ if(process.env.UI_AUDIT_UPDATES){await auditUpdateControls()}else if(process.env.UI_AUDIT_V31_COURSES){await auditN2Batch();if(process.env.UI_AUDIT_V31_COURSES==='batch03')await auditPreparation();else await auditLanguageTools()}else if(process.env.UI_AUDIT_LISTENING){await auditListeningAndBudget()}else if(process.env.UI_AUDIT_MATERIALS){await auditPersonalMaterials()}else if(process.env.UI_AUDIT_N2_OFFLINE_ONLY){await auditLinkedReadingOffline()}else if(process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_N2_BATCH||process.env.UI_AUDIT_N2_LINKS){await auditN2Batch();if(process.env.UI_AUDIT_V3_COVERAGE||process.env.UI_AUDIT_N2_LINKS)await auditLinkedReadingOffline()}else{
  const {context,page}=await setup(390,{video:true});failurePage=page;
  await context.addInitScript(({capable})=>{if(capable){Object.defineProperty(navigator,'deviceMemory',{get:()=>8,configurable:true});Object.defineProperty(navigator,'hardwareConcurrency',{get:()=>8,configurable:true});if(navigator.connection)Object.defineProperty(navigator.connection,'saveData',{get:()=>false,configurable:true})}window.qaSceneCount=Number(sessionStorage.getItem('qa-scene-starts')??0);window.qaSceneReady=Number(sessionStorage.getItem('qa-scene-ready')??0);window.qaSceneFailed=Number(sessionStorage.getItem('qa-scene-skipped')??0);window.qaSceneErrors=JSON.parse(sessionStorage.getItem('qa-scene-errors')??'[]');window.qaSceneAvailable=typeof document.startViewTransition==='function';if(window.qaSceneAvailable){const start=document.startViewTransition.bind(document);document.startViewTransition=callback=>{window.qaSceneCount++;sessionStorage.setItem('qa-scene-starts',String(window.qaSceneCount));const t=start(callback);t.ready.then(()=>{window.qaSceneReady++;sessionStorage.setItem('qa-scene-ready',String(window.qaSceneReady))},error=>{window.qaSceneFailed++;window.qaSceneErrors.push(error.name+': '+error.message);sessionStorage.setItem('qa-scene-skipped',String(window.qaSceneFailed));sessionStorage.setItem('qa-scene-errors',JSON.stringify(window.qaSceneErrors))});return t}}},{capable:Boolean(process.env.UI_AUDIT_CAPABLE)});
  await page.bringToFront();
