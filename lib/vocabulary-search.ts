@@ -8,10 +8,12 @@ function withinOneEdit(a:string,b:string){
   if(a.length>=b.length)i++;if(b.length>=a.length)j++;
  }return edits+(a.length-i)+(b.length-j)<=1;
 }
-export function searchVocabulary<T extends Word>(words:T[],query:string){
+export function searchVocabulary<T extends Word>(words:T[],query:string,alternates:string[]=[],exactAlternates=false){
  const q=normalize(query);if(!q)return words;
+ const keys=[...new Set(alternates.map(normalize))].filter(key=>key&&key!==q&&key.length<=100).slice(0,3);
  return words.map(word=>{const term=normalize(word.word),reading=normalize(word.pronunciation);const body=normalize([word.meaning,word.example,word.translation,word.related,word.tag,word.pos,...(word.senses??[]),...(word.collocations??[]),...(word.topics??[])].filter(Boolean).join(' '));
-  const rank=term===q?0:reading===q?1:term.startsWith(q)||reading.startsWith(q)?2:term.includes(q)||reading.includes(q)||body.includes(q)?3:/^[a-z]{4,32}$/.test(q)&&term.length<=32&&withinOneEdit(term,q)?4:Infinity;
+  let rank=term===q?0:reading===q?1:term.startsWith(q)||reading.startsWith(q)?2:term.includes(q)||reading.includes(q)||body.includes(q)?3:/^[a-z]{4,32}$/.test(q)&&term.length<=32&&withinOneEdit(term,q)?4:Infinity;
+  for(const key of keys)rank=Math.min(rank,term===key?1.5:reading===key?1.75:!exactAlternates&&(term.startsWith(key)||reading.startsWith(key))?2.5:Infinity);
   return {word,rank};
  }).filter(r=>Number.isFinite(r.rank)).sort((a,b)=>a.rank-b.rank||a.word.word.localeCompare(b.word.word)).map(r=>r.word);
 }
