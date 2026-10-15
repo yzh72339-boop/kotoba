@@ -1,3 +1,12 @@
+# 3.0.1 — reliable server identity and safe PWA updates
+
+- Independent build metadata and compiled page identity; current/active/latest/waiting states no longer collapse into one boolean.
+- Shared app/recovery engine, explicit timeout/HTTP/registration/install diagnostics, automatic start/foreground/reconnect checks with throttling.
+- User confirmation, existing local flush, acknowledged same-origin/multi-window activation, exact new controller verification and reload. Prior caches, accounts, unsynced queues and downloaded learning material are preserved.
+- Missing/stale release assets reject installation; no storage or database reset. Legacy blocked clients recover through the network-only update page.
+- GitHub main validation/artifact workflow added; Sites production still requires its officially supported source/save/deploy flow. No fictional continuous-deployment API or hosting migration.
+- Software label follows the requested 3.0.1 task; all earlier 3.1 preview learning/language features and 927/181/82 content remain. See delivery reports for actual checks/device limits.
+
 # 3.1.0-preview.2 — preparation without losing the daily task
 
 - Ordered prerequisite suggestions use authored same-language course IDs, deduplicate shared dependencies and explicitly report missing/cyclic references. Completed prerequisites are not re-taught.
@@ -97,3 +106,7 @@
 - Version, lockfile metadata, settings and generated worker build identity use 2.7.0. No dependency versions, migrations, Auth/RLS, SRS semantics or sync protocol were changed.
 
 Verification and remaining acceptance: [V2.7 checkpoint](docs/KOTOBA-2.7-CHECKPOINT.md). This is not a complete 1,260/590 curriculum or exhaustive dictionary.
+# 3.0.1 production recovery hotfix
+
+- Allow Sites' canonical `/api/app-update` recovery path as well as `.html`; retain same-origin, build and multi-window fences. Rejected recovery routes now reply explicitly instead of timing out.
+- Reproduced the previous failure in a regression test and added the real host's HTML redirect to browser update QA.

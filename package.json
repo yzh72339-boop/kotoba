@@ -1,6 +1,6 @@
 {
   "name": "kotoba",
-  "version": "3.1.0-preview.2",
+  "version": "3.0.1",
   "private": true,
   "scripts": {
     "dev": "node scripts/check-public-environment.mjs development && next dev --hostname 0.0.0.0",
@@ -10,14 +10,16 @@
     "backend:configure": "node --env-file=.env.local scripts/configure-private-account.mjs",
     "qa:responsive": "node scripts/responsive-audit.mjs",
     "backend:check": "node scripts/check-supabase-connection.mjs",
-    "lint": "eslint app components lib scripts tests --max-warnings=0",
+    "lint": "eslint app components lib scripts tests public/api --max-warnings=0",
     "content:audit": "node --import tsx scripts/content-audit.mjs",
     "content:build": "node --import tsx scripts/build-content.mjs",
     "test:content:backend": "node --import tsx scripts/test-content-backend.mjs",
     "test:beta:backend": "node --import tsx scripts/test-limited-beta-backend.mjs",
     "test:beta:auth": "node --import tsx scripts/test-limited-beta-auth.mjs",
     "qa:beta:mobile": "node --import tsx scripts/beta-mobile-audit.mjs",
-    "vocabulary:audit": "node --import tsx scripts/vocabulary-audit.mjs"
+    "vocabulary:audit": "node --import tsx scripts/vocabulary-audit.mjs",
+    "release:verify": "node scripts/verify-site-release.mjs",
+    "test:updates:browser": "node scripts/update-recovery-audit.mjs"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.6",

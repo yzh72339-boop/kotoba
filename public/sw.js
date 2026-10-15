@@ -1,17 +1,52 @@
 /* Build rewrites this version and app asset list. Private API responses are never cached. */
-const VERSION='kotoba-3.1.0-preview.2-dev';
+const VERSION='kotoba-3.0.1-dev';
 const SHELL=VERSION+'-shell',CONTENT=VERSION+'-content',DOWNLOADS='kotoba-personal-downloads';
 const PRECACHE=['/','/manifest.webmanifest','/icons/icon-192.png','/icons/icon-512.png','/icons/maskable-512.png','/cafe-editorial.svg','/images/reading-japan.jpg'];
-self.addEventListener('install',e=>e.waitUntil(caches.open(SHELL).then(cache=>cache.addAll(PRECACHE))));
-self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('kotoba-')&&k!==SHELL&&k!==CONTENT&&k!==DOWNLOADS).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
-self.addEventListener('message',e=>{if(e.data?.type==='RECOVERY_UPDATE'){e.waitUntil((async()=>{
- const source=e.source,port=e.ports?.[0];
- if(!port||!source?.id||new URL(source.url).origin!==self.location.origin||new URL(source.url).pathname!=='/api/app-update.html')return;
- const windows=await self.clients.matchAll({type:'window',includeUncontrolled:true});
- if(windows.some(client=>client.id!==source.id&&new URL(client.url).origin===self.location.origin)){port.postMessage({status:'blocked'});return;}
- port.postMessage({status:'activating',version:VERSION});await self.skipWaiting();
-})());return;}if(e.data?.type==='GET_APP_VERSION')e.ports?.[0]?.postMessage({version:VERSION});if(e.data?.type==='ACTIVATE_UPDATE')self.skipWaiting();if(e.data?.type==='SYNC_WHEN_ONLINE')self.clients.matchAll().then(clients=>clients.forEach(client=>client.postMessage({type:'SYNC_REQUESTED'})))});
-async function cacheFirst(request,cacheName){const cache=await caches.open(cacheName),hit=await cache.match(request);if(hit)return hit;const response=await fetch(request);if(response.ok)await cache.put(request,response.clone());return response;}
+self.addEventListener('install',e=>e.waitUntil((async()=>{
+ const cache=await caches.open(SHELL);
+ await Promise.all(PRECACHE.map(async path=>{
+  try{
+   const response=await fetch(new Request(path,{cache:'reload'}));
+   if(!response.ok)throw new Error(`HTTP ${response.status}`);
+   if(/\.(?:js|css)$/.test(path)&&/text\/html/i.test(response.headers.get('content-type')??''))throw new Error('unexpected HTML response');
+   if(path==='/'&&!VERSION.endsWith('-dev')){const html=await response.clone().text();if(!html.includes(`name="kotoba-build" content="${VERSION}"`))throw new Error('page build does not match worker build')}
+   await cache.put(path,response);
+  }catch(error){
+   const detail=`${path}: ${error.message}`;
+   const clients=await self.clients.matchAll({type:'window',includeUncontrolled:true});clients.forEach(client=>client.postMessage({type:'UPDATE_INSTALL_ERROR',version:VERSION,detail}));
+   throw error;
+  }
+ }));
+})()));
+// Keep downloaded content and prior shell caches through activation. No learning
+// database, authentication state, account queues or cache reset is part of update.
+self.addEventListener('activate',e=>e.waitUntil(self.clients.claim()));
+self.addEventListener('message',e=>{
+ if(e.data?.type==='GET_APP_VERSION'){e.ports?.[0]?.postMessage({version:VERSION});return;}
+ if(['ACTIVATE_UPDATE','RECOVERY_UPDATE'].includes(e.data?.type)){
+  e.waitUntil((async()=>{
+   const source=e.source,port=e.ports?.[0];
+   if(!source?.id||new URL(source.url).origin!==self.location.origin)return;
+   const reply=value=>{if(port)port.postMessage(value);else source.postMessage?.({type:'UPDATE_RESULT',...value})};
+   // Sites canonicalizes .html URLs before they become WindowClient URLs.
+   // Preserve the recovery-route restriction, but acknowledge rejected requests
+   // so a legitimate redirect never looks like an unresponsive worker.
+   const sourcePath=new URL(source.url).pathname.replace(/\/$/,'');
+   if(e.data.type==='RECOVERY_UPDATE'&&!['/api/app-update.html','/api/app-update'].includes(sourcePath)){reply({status:'rejected',version:VERSION});return;}
+   if(e.data.expectedBuild&&e.data.expectedBuild!==VERSION){reply({status:'mismatch',version:VERSION});return;}
+   const windows=await self.clients.matchAll({type:'window',includeUncontrolled:true});
+   if(windows.some(client=>client.id!==source.id&&new URL(client.url).origin===self.location.origin)){reply({status:'blocked',version:VERSION,recoveryUrl:'/api/app-update.html?reason=other-windows'});
+    return;}
+   // Legacy clients with no message port still get the same single-window fence.
+   reply({status:'activating',version:VERSION});await self.skipWaiting();
+  })());return;
+ }
+ if(e.data?.type==='SYNC_WHEN_ONLINE')self.clients.matchAll().then(clients=>clients.forEach(client=>client.postMessage({type:'SYNC_REQUESTED'})));
+});
+async function cacheFirst(request,cacheName){const cache=await caches.open(cacheName),hit=await cache.match(request);if(hit)return hit;
+ // Reuse only exact immutable hashed assets; never serve an older HTML shell.
+ const path=new URL(request.url).pathname;if(path.startsWith('/_next/static/')&&/[a-f0-9]{8,}/.test(path)){for(const name of await caches.keys()){if(name!==cacheName&&name.startsWith('kotoba-')&&name.endsWith('-shell')){const previous=await(await caches.open(name)).match(request);if(previous){await cache.put(request,previous.clone());return previous}}}}
+ const response=await fetch(request);if(response.ok)await cache.put(request,response.clone());return response;}
 async function staleWhileRevalidate(request){const cache=await caches.open(CONTENT),hit=await cache.match(request);const fresh=fetch(request).then(response=>{if(response.ok)void cache.put(request,response.clone());return response});if(hit){fresh.catch(()=>{});return hit}return fresh;}
 self.addEventListener('fetch',e=>{const request=e.request,url=new URL(request.url);if(request.method!=='GET'||url.origin!==self.location.origin)return;
  // OAuth, Supabase, AI, signed audio URLs and user progress are network-only here.

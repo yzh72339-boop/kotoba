@@ -1,3 +1,7 @@
+> Current engineering release **3.0.1 — PWA update-system repair**. Based on the latest preserved 3.1 preview source, with no feature/data rollback. Independent server metadata, page/controller/waiting identities, save-first acknowledged activation and automatic checks are implemented. Production Sites and GitHub CI are separate; CI is not an automatic Sites publisher. See [mechanism, deployment limits and actual acceptance](PWA-UPDATE-SYSTEM-3.0.1.md). Prior checkpoints below are historical.
+
+Production recovery hotfix, 2026-10-15: Sites redirects `/api/app-update.html` to `/api/app-update`. The earlier worker accepted only the former path and silently refused activation after the redirect. Both canonical recovery paths now share the same origin/build/multi-window checks; other recovery paths receive an explicit refusal. Browser QA reproduces the production redirect. Phone screenshot established the failure, not successful physical-device acceptance.
+
 # Current: V3.1 preview.2 — preparation and linked N4 curriculum, 2026-10-14
 
 This batch adds ordered prerequisite suggestions, a return-to-assigned-lesson action and a guard preventing free browsing from replacing daily course pins. Plans remain in the existing account-scoped notes and restore through existing backup/sync. No new database fields, dependencies, historical migration edits, Auth/RLS/SRS changes or cache clearing.
