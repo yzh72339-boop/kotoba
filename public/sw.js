@@ -1,6 +1,6 @@
 /* Build rewrites this version and app asset list. Private API responses are never cached. */
-const VERSION='kotoba-3.0.1-dev';
-const SHELL=VERSION+'-shell',CONTENT=VERSION+'-content',DOWNLOADS='kotoba-personal-downloads';
+const VERSION='kotoba-3.1.0-preview.3-dev';
+const SHELL=VERSION+'-shell',CONTENT=VERSION+'-content',DOWNLOADS='kotoba-personal-downloads',LANGUAGE_ASSETS='kotoba-language-assets-v1';
 const PRECACHE=['/','/manifest.webmanifest','/icons/icon-192.png','/icons/icon-512.png','/icons/maskable-512.png','/cafe-editorial.svg','/images/reading-japan.jpg'];
 self.addEventListener('install',e=>e.waitUntil((async()=>{
  const cache=await caches.open(SHELL);
@@ -53,6 +53,7 @@ self.addEventListener('fetch',e=>{const request=e.request,url=new URL(request.ur
  if(url.pathname.startsWith('/api/')||url.pathname.includes('/auth/')||url.pathname.includes('/functions/')||/^\/(login|register)(\/|$)/.test(url.pathname)||url.pathname.startsWith('/downloads/')||['/signin-with-chatgpt','/signout-with-chatgpt','/callback'].includes(url.pathname)||['token','access_token','code','sb_flow_id','error','error_code','error_description'].some(key=>url.searchParams.has(key)))return;
  if(request.mode==='navigate'){e.respondWith(cacheFirst(new Request('/'),SHELL));return;}
  if(url.pathname.startsWith('/content/')){e.respondWith(staleWhileRevalidate(request));return;}
+ if(url.pathname.startsWith('/language/kuromoji-0.1.2/dict/')){e.respondWith(cacheFirst(request,LANGUAGE_ASSETS));return;}
  if(url.pathname.startsWith('/_next/static/')||url.pathname.startsWith('/icons/')||url.pathname.startsWith('/images/')||url.pathname.endsWith('.svg')||url.pathname.endsWith('.webmanifest'))e.respondWith(cacheFirst(request,SHELL));
 });
 self.addEventListener('sync',e=>{if(e.tag==='kotoba-progress')e.waitUntil(self.clients.matchAll({type:'window'}).then(clients=>Promise.all(clients.map(client=>client.postMessage({type:'SYNC_REQUESTED'})))))});

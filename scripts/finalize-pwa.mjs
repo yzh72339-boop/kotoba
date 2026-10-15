@@ -7,7 +7,7 @@ const files=(await walk('out/_next/static')).filter(x=>/\.(js|css|woff2)$/.test(
 // handles their worker/chunk requests. Keep every initial-page asset precached.
 const initialHTML=await readFile('out/index.html','utf8');
 const initialAssets=new Set([...initialHTML.matchAll(/(?:src|href)="([^"]+)"/g)].map(m=>m[1]));
-const deferred=[];for(const file of files){const bytes=await readFile(file);if(!initialAssets.has('/'+file.slice(4))&&(bytes.length>262144||bytes.includes('wink-nlp-2.4.0')))deferred.push(file);}
+const deferred=[];for(const file of files){const bytes=await readFile(file);if(!initialAssets.has('/'+file.slice(4))&&(bytes.length>262144||bytes.includes('wink-nlp-2.4.0')||bytes.includes('kuroshiro-kuromoji-1.1.0')))deferred.push(file);}
 const shellFiles=files.filter(file=>!deferred.includes(file));
 const hash=createHash('sha256');for(const file of [...files,'out/index.html','out/manifest.webmanifest','public/sw.js','out/api/app-update.html','out/api/app-update.js','out/api/update-core.js',...(await walk('out/icons')).sort(),...(await walk('out/content/library')).sort()]){hash.update(file);hash.update(await readFile(file));}
 const packageVersion=JSON.parse(await readFile('package.json','utf8')).version;

@@ -11,3 +11,4 @@ output/
 supabase/.temp/
 
 public/content/library/
+public/language/kuromoji-0.1.2/dict/

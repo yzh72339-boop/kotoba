@@ -1,3 +1,10 @@
+# 3.1.0-preview.3 — optional Japanese reading analysis
+
+- Optional local Kuroshiro/Kuromoji worker for course and personal-text ruby, with known-word readings and original UTF-16 text retained.
+- Inflected Japanese words link to stable headword cards and existing source/SRS flow.
+- Explicit 17.8 MB dictionary download, warm offline cache, cleanup/error/fallback, licenses and mobile/browser regression checks.
+- Existing canonical recovery route, accounts, ten-seat admission and database/sync semantics preserved. No curriculum quantity change or full V3.1 completion claim.
+
 # 3.0.1 — reliable server identity and safe PWA updates
 
 - Independent build metadata and compiled page identity; current/active/latest/waiting states no longer collapse into one boolean.

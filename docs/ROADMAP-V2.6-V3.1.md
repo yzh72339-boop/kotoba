@@ -1,3 +1,5 @@
+> Current continuation: **3.1.0-preview.3 — optional Japanese reading analysis**. Preserves the 3.0.1 canonical recovery fix and all learning/account data. See [integration and verification limits](JAPANESE-READING-INTEGRATION-V3.1.md). Earlier checkpoints below are historical.
+
 > Current engineering release **3.0.1 — PWA update-system repair**. Based on the latest preserved 3.1 preview source, with no feature/data rollback. Independent server metadata, page/controller/waiting identities, save-first acknowledged activation and automatic checks are implemented. Production Sites and GitHub CI are separate; CI is not an automatic Sites publisher. See [mechanism, deployment limits and actual acceptance](PWA-UPDATE-SYSTEM-3.0.1.md). Prior checkpoints below are historical.
 
 # V3.1 preview.2 continuation

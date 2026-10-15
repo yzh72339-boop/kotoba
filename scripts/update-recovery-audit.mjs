@@ -57,7 +57,7 @@ try{
   staleRoot=true;const stale=await inspect(page);assert.equal(stale.error,'install-error');staleRoot=false;
   await page.goto(origin+'/api/app-update.html');assert.equal(new URL(page.url()).pathname,'/api/app-update');await page.waitForFunction(()=>!document.querySelector('#check').disabled&&document.querySelector('#status').textContent.includes('新版已下载'));
   assert.equal(await page.locator('#activate').isEnabled(),false);assert.ok((await page.locator('#build').textContent()).includes(target));
-  await page.reload();await page.waitForFunction(()=>!document.querySelector('#check').disabled&&document.querySelector('#waiting-build').textContent.includes('kotoba-3.0.1-'));
+  await page.reload();await page.waitForFunction(expected=>!document.querySelector('#check').disabled&&document.querySelector('#waiting-build').textContent.includes(expected),target);
   const other=await context.newPage();await other.goto(origin+'/#Review');
   await page.goto(origin+'/#Settings');await page.waitForFunction(()=>window.updates);
   const legacyReply=await page.evaluate(async()=>await new Promise(resolve=>{navigator.serviceWorker.addEventListener('message',function reply(e){if(e.data.type==='UPDATE_RESULT'){navigator.serviceWorker.removeEventListener('message',reply);resolve(e.data)}});navigator.serviceWorker.getRegistration().then(r=>r.waiting.postMessage({type:'ACTIVATE_UPDATE'}))}));assert.equal(legacyReply.status,'blocked');assert.equal(legacyReply.recoveryUrl,'/api/app-update.html?reason=other-windows');

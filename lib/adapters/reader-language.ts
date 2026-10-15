@@ -1,11 +1,12 @@
 import type {Word,Language} from '../content';
 import type {AppState} from '../store';
 import type {EnglishToken} from './english-core';
+import type {JapaneseToken} from './japanese-types';
 import {vocabularyOccurrences} from '../vocabulary-occurrence';
-export type ReaderSegment={start:number;end:number;wordId?:string;grammarId?:string;surface:string;lemma?:string;pos?:string};
+export type ReaderSegment={start:number;end:number;wordId?:string;grammarId?:string;surface:string;lemma?:string;pos?:string;reading?:string|null};
 // Linked course IDs win; adding annotation never replaces a saved/SRS card identity.
 export function readerLexicon(linked:Word[],catalog:Word[]){const seen=new Set<string>();return [...linked,...catalog].filter(w=>{const key=w.word.normalize('NFKC').toLowerCase();if(seen.has(key))return false;seen.add(key);return true})}
-export function readerSegments(text:string,language:Language,words:Word[],grammar:{id:string;surface:string}[],tokens:EnglishToken[]=[]):ReaderSegment[]{
+export function readerSegments(text:string,language:Language,words:Word[],grammar:{id:string;surface:string}[],tokens:EnglishToken[]=[],japanese:JapaneseToken[]=[]):ReaderSegment[]{
  const matches:(ReaderSegment&{priority:number})[]=[];
  for(const g of grammar)for(const p of vocabularyOccurrences(text,g.surface,language))matches.push({...p,grammarId:g.id,surface:text.slice(p.start,p.end),priority:0});
  for(const w of words)for(const p of vocabularyOccurrences(text,w.word,language)){
@@ -18,6 +19,10 @@ export function readerSegments(text:string,language:Language,words:Word[],gramma
  if(language==='en'){
   const lemmas=new Map(words.map(w=>[w.word.toLowerCase(),w]));
   for(const t of tokens){const w=lemmas.get(t.lemma.toLowerCase());if(w&&t.start>=0&&t.end<=text.length&&text.slice(t.start,t.end)===t.surface&&!['PUNCT','SPACE','SYM'].includes(t.pos))matches.push({...t,wordId:w.id,priority:2})}
+ }
+ if(language==='ja'){
+  const lemmas=new Map(words.map(w=>[w.word,w]));
+  for(const t of japanese)if(t.start>=0&&t.end<=text.length&&t.start<t.end&&text.slice(t.start,t.end)===t.surface)matches.push({...t,wordId:lemmas.get(t.lemma)?.id,priority:2});
  }
  // Grammar, exact phrases, then lemma matches; each original character stays once.
  const accepted:ReaderSegment[]=[];
