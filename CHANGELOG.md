@@ -1,3 +1,9 @@
+## 3.1.0-preview.6
+
+- Add three full N2 patterns and two linked original readers,12 examples/25 explained practice items; preserve all existing documents and cards.
+- Restore private-word lookup IDs from the current account/content language after refresh and backup. Keep Auth/RLS, SRS, quota, offline/sync and migrations unchanged.
+- Add exact baseline, curriculum and recovery regressions plus compiled phone/offline checks. Full targets and physical/production account acceptance remain incomplete.
+
 ## 3.1.0-preview.5
 
 - Reader vocabulary sheet connects catalog/private words and real morphology to existing lookup, source-preserving collection and article-scoped SRS.

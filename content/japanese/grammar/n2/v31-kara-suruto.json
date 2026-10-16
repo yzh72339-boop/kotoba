@@ -1,0 +1,137 @@
+{
+  "id": "grammar-ja-n2-kara-suruto",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N2",
+  "difficulty": 3,
+  "tags": [
+    "N2",
+    "v3-n2-context-04",
+    "判断与行动"
+  ],
+  "title": "〜からすると",
+  "pattern": "〜からすると",
+  "meaningZh": "从某个立场或线索来看",
+  "meaningEn": "judging from; from the standpoint of",
+  "explanation": "接在表示立场或判断线索的名词后，说明后面的看法建立在哪一依据上。利用者からすると表示从使用者角度看；記録からすると表示根据记录推断。它交代判断的出发点，并不自动保证结论正确，也不等于动作的直接原因。",
+  "usage": "比较不同人群的立场，或根据外表、资料、记录作有限推断。",
+  "nuance": "からすれば、からしたら也可表达类似视角；推断时常搭配ようだ、らしい。不要把线索当成已经证实的事实。",
+  "structure": [
+    "N + からすると／からすれば／からしたら"
+  ],
+  "formation": [
+    "N + からすると／からすれば／からしたら"
+  ],
+  "examples": [
+    {
+      "target": "利用者からすると、受付の場所が分かりにくい。",
+      "reading": "りようしゃからすると、うけつけのばしょがわかりにくい。",
+      "zh": "从使用者角度看，接待处的位置不容易找到。"
+    },
+    {
+      "target": "この記録からすると、電池は去年交換されたようだ。",
+      "reading": "このきろくからすると、でんちはきょねんこうかんされたようだ。",
+      "zh": "根据这份记录，电池似乎去年更换过。"
+    },
+    {
+      "target": "店の人からすれば、急な変更は困るだろう。",
+      "reading": "みせのひとからすれば、きゅうなへんこうはこまるだろう。",
+      "zh": "从店里工作人员的角度看，临时变更会让人困扰吧。"
+    },
+    {
+      "target": "昨日の説明からすると、予約がなくても相談できるらしい。",
+      "reading": "きのうのせつめいからすると、よやくがなくてもそうだんできるらしい。",
+      "zh": "根据昨天的说明，好像没有预约也能咨询。"
+    }
+  ],
+  "notes": [
+    "等级用于学习编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "利用者がからすると、受付が分かりにくい。",
+      "correct": "利用者からすると、受付が分かりにくい。",
+      "explanation": "表示立场的名词直接接からすると，不能在名词后插入主格助词が。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n2-ni-chigainai",
+      "explanation": "からすると交代依据或视角；に違いない表达说话人的较强确信。有限记录常配ようだ，不能凭有依据就升级为绝对判断。"
+    },
+    {
+      "grammarId": "grammar-ja-n2-ni-motozuite",
+      "explanation": "に基づいて侧重按依据制定或实施；からすると侧重依据所形成的看法或推断。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n2-ni-chigainai",
+    "grammar-ja-n2-ni-motozuite"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n2-kara-suruto-meaning",
+      "kind": "meaning",
+      "prompt": "「利用者からすると、受付が分かりにくい。」把谁的视角作为出发点？",
+      "acceptedAnswers": [
+        "使用者"
+      ],
+      "explanation": "利用者是表示立场的名词，不是造成接待处位置变化的直接原因。",
+      "options": [
+        "修理工具",
+        "店里的销售目标",
+        "使用者"
+      ]
+    },
+    {
+      "id": "grammar-ja-n2-kara-suruto-fill",
+      "kind": "fill",
+      "prompt": "根据记录进行有限推断：この記録（　）、電池は去年交換されたようだ。",
+      "acceptedAnswers": [
+        "からすると"
+      ],
+      "explanation": "記録是判断线索，からすると连接线索与推断；ようだ保留推断语气。",
+      "options": [
+        "からすると",
+        "をするために",
+        "に対して"
+      ]
+    },
+    {
+      "id": "grammar-ja-n2-kara-suruto-context",
+      "kind": "context",
+      "prompt": "店方认为时间安排方便，但客人找不到入口。哪句准确交代客人的立场？",
+      "acceptedAnswers": [
+        "利用者からすると、入口が分かりにくい。"
+      ],
+      "explanation": "同一安排可以有不同评价。用利用者からすると明确从使用者立场看，而不是断言所有人都会这样想。",
+      "options": [
+        "入口からすると、利用者が分かりにくい。",
+        "利用者からすると、入口が分かりにくい。",
+        "利用者を交換すると、入口が分かりにくい。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n2-kara-suruto-error",
+      "kind": "error",
+      "prompt": "改正接续：利用者がからすると、受付が分かりにくい。",
+      "acceptedAnswers": [
+        "利用者からすると、受付が分かりにくい。"
+      ],
+      "explanation": "名词直接接からすると，不加が。"
+    },
+    {
+      "id": "grammar-ja-n2-kara-suruto-translation",
+      "kind": "translation",
+      "prompt": "用本课表达译成日语：从店里工作人员的角度看，临时变更会让人困扰吧。",
+      "acceptedAnswers": [
+        "店の人からすれば、急な変更は困るだろう。",
+        "店の人からすると、急な変更は困るだろう。"
+      ],
+      "explanation": "先交代店の人的立场，再用だろう表达对其处境的判断；不是替对方宣布已经确认的事实。"
+    }
+  ]
+}
