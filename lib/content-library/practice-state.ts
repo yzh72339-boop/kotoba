@@ -20,7 +20,7 @@ export function grammarDraft(s:AppState,g:GrammarPoint):GrammarDraft{
 export function saveGrammarDraft(s:AppState,g:GrammarPoint,value:GrammarDraft):AppState{return {...s,notes:{...s.notes,[`library-grammar-draft-${g.id}`]:JSON.stringify(value)}}}
 export type ReadingDraft={answers:Record<string,number>;checked:Record<string,boolean>;phase:'practice'|'complete';difficulty:'easy'|'right'|'hard';startedAt:number;activeSeconds:number;attemptId:string;lookedUpWords:string[];grammarViewed:string[];savedWords:string[];questionId?:string};
 export function readingDraft(s:AppState,a:ReadingDocument):ReadingDraft{
- const vocabularyIds=new Set([...a.vocabulary,...allCourseWords(a.language).map(w=>w.id)]);
+ const vocabularyIds=new Set([...a.vocabulary,...allCourseWords(a.language).map(w=>w.id),...Object.values(s.dictionary).filter(w=>w.language===a.language).map(w=>w.id)]);
  const result:ReadingDraft={answers:{},checked:{},phase:'practice',difficulty:'right',startedAt:0,activeSeconds:0,attemptId:'',lookedUpWords:[],grammarViewed:[],savedWords:[]};
  try{
   const value=JSON.parse(s.notes[`library-reading-draft-${a.id}`]??s.notes[`library-draft-${a.id}`]??'{}');

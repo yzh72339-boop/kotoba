@@ -1,0 +1,136 @@
+{
+  "id": "grammar-ja-n2-ni-saishite",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N2",
+  "difficulty": 3,
+  "tags": [
+    "N2",
+    "v3-n2-context-04",
+    "判断与行动"
+  ],
+  "title": "〜に際して",
+  "pattern": "〜に際して",
+  "meaningZh": "在进行重要行动或迎来某个节点之际",
+  "meaningEn": "on the occasion of; when undertaking",
+  "explanation": "用名词或动词辞书形指示重要行动、正式事项发生的节点，后面说明当时需要做的准备、遵守的事项或给予的帮助。常见于手续、设备使用和正式通知。它不限于事前，不能把任何日常重复动作都机械地换成这一正式表达。",
+  "usage": "办理手续、启用设备、出发、加入组织等正式事项的说明。",
+  "nuance": "可写に際し；に際しての修饰后面的名词。にあたって与其重叠较多，后者常带积极迎接阶段的语气，不能把这一区别当作所有语境的硬规则。",
+  "structure": [
+    "N／V辞书形 + に際して；N／V辞书形 + に際しての + N"
+  ],
+  "formation": [
+    "N／V辞书形 + に際して；N／V辞书形 + に際しての + N"
+  ],
+  "examples": [
+    {
+      "target": "機器を使うに際して、注意事項を確認してください。",
+      "reading": "ききをつかうにさいして、ちゅういじこうをかくにんしてください。",
+      "zh": "使用设备之际，请确认注意事项。"
+    },
+    {
+      "target": "申し込みに際して、住所をもう一度確認した。",
+      "reading": "もうしこみにさいして、じゅうしょをもういちどかくにんした。",
+      "zh": "办理申请时，我再次确认了地址。"
+    },
+    {
+      "target": "出発に際し、参加者全員に資料が渡された。",
+      "reading": "しゅっぱつにさいし、さんかしゃぜんいんにしりょうがわたされた。",
+      "zh": "出发之际，资料发给了所有参加者。"
+    },
+    {
+      "target": "入会に際しての説明は、受付で聞くことができる。",
+      "reading": "にゅうかいにさいしてのせつめいは、うけつけできくことができる。",
+      "zh": "入会时的说明可以在接待处听取。"
+    }
+  ],
+  "notes": [
+    "等级用于学习编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "機器を使ったに際して、注意事項を確認する。",
+      "correct": "機器を使うに際して、注意事項を確認する。",
+      "explanation": "这个接续使用动词辞书形使う。整句要叙述过去事件，可以改变后项时态，而不是把使う改成使った接在に際して前。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n2-ni-atatte",
+      "explanation": "两者都用于重要节点和正式说明。にあたって常见于积极迎接新阶段；に際して也用于中性的手续或注意事项，很多语境可以互换。"
+    },
+    {
+      "grammarId": "grammar-ja-n2-ni-sakidatte",
+      "explanation": "に先立って明确说明在某事之前；に際して以事情发生的节点为中心，不单独限定事前。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n2-ni-atatte",
+    "grammar-ja-n2-ni-sakidatte"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n2-ni-saishite-meaning",
+      "kind": "meaning",
+      "prompt": "「機器を使うに際して、注意事項を確認してください。」要求在什么节点确认？",
+      "acceptedAnswers": [
+        "使用设备时"
+      ],
+      "explanation": "使うに際して把设备使用作为正式事项的节点，不是表示设备已经坏了的原因。",
+      "options": [
+        "使用设备时",
+        "因为注意事项太少",
+        "虽然不使用设备"
+      ]
+    },
+    {
+      "id": "grammar-ja-n2-ni-saishite-fill",
+      "kind": "fill",
+      "prompt": "按本课接续填空：機器を（　）に際して、注意事項を確認する。",
+      "acceptedAnswers": [
+        "使う"
+      ],
+      "explanation": "动词辞书形使う接に際して；使った、使って不能直接放入这一接续。",
+      "options": [
+        "使って",
+        "使う",
+        "使った"
+      ]
+    },
+    {
+      "id": "grammar-ja-n2-ni-saishite-transform",
+      "kind": "transform",
+      "prompt": "把「入会时的说明」连接成名词短语。",
+      "acceptedAnswers": [
+        "入会に際しての説明"
+      ],
+      "explanation": "后面修饰名词説明，需要に際しての，不是把の加在入会后面。"
+    },
+    {
+      "id": "grammar-ja-n2-ni-saishite-context",
+      "kind": "context",
+      "prompt": "要在正式申请通知中说明所需资料，哪句接续正确？",
+      "acceptedAnswers": [
+        "申し込みに際して、資料を確認してください。"
+      ],
+      "explanation": "名词申し込み直接接に際して；该正式语域适用于办理手续的说明。",
+      "options": [
+        "申し込みを際して、資料を確認してください。",
+        "申し込みで際して、資料を確認してください。",
+        "申し込みに際して、資料を確認してください。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n2-ni-saishite-translation",
+      "kind": "translation",
+      "prompt": "用本课表达译成日语：办理申请时，我再次确认了地址。",
+      "acceptedAnswers": [
+        "申し込みに際して、住所をもう一度確認した。"
+      ],
+      "explanation": "申し込み是申请这一事项；后项確認した表示已经做过，名词接续不受后项过去时影响。"
+    }
+  ]
+}
