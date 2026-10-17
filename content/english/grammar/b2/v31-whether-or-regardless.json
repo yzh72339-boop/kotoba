@@ -1,0 +1,134 @@
+{
+  "id": "grammar-en-b2-whether-or-regardless",
+  "kind": "grammar",
+  "language": "en",
+  "level": "B2",
+  "difficulty": 3,
+  "tags": [
+    "B2",
+    "v3-context-05",
+    "判断与选择"
+  ],
+  "title": "Whether … or …: one decision across alternatives",
+  "pattern": "whether + clause + or + alternative",
+  "meaningZh": "无论……还是……",
+  "meaningEn": "regardless of which alternative applies",
+  "explanation": "把两种可能情况并列，并说明主句在两种情况下都成立。Whether we meet online or in person, we will use the same notes不是询问会议方式，而是说方式不会改变记录规则。它与I do not know whether we will meet online不同：后者是间接疑问，没有提供两种情况下共同成立的结论。",
+  "usage": "宣布不随条件改变的安排、原则或承诺。",
+  "nuance": "两个选项应在语法与意义上相互对应。否定选择可用whether ... or not，但正文应说明不会改变什么，而不是暗示一切差别都不重要。",
+  "structure": [
+    "Whether + subject + verb + A or B, common main clause",
+    "Whether + subject + verb + or not, common main clause"
+  ],
+  "formation": [
+    "Whether + subject + verb + A or B, common main clause",
+    "Whether + subject + verb + or not, common main clause"
+  ],
+  "examples": [
+    {
+      "target": "Whether we meet online or in person, we will use the same notes.",
+      "zh": "无论在线上还是当面碰面，我们都会使用同一份记录。"
+    },
+    {
+      "target": "Whether the room is large or small, everyone needs to hear the speaker.",
+      "zh": "无论房间大小，每个人都需要听清发言人。"
+    },
+    {
+      "target": "Whether you join now or next week, you can start with the short task.",
+      "zh": "无论你现在还是下周加入，都可以从短任务开始。"
+    },
+    {
+      "target": "Whether the first plan succeeds or not, we will review the results.",
+      "zh": "无论第一个计划是否成功，我们都会回顾结果。"
+    }
+  ],
+  "notes": [
+    "等级用于学习编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Whether we meet online nor in person, we will use the same notes.",
+      "correct": "Whether we meet online or in person, we will use the same notes.",
+      "explanation": "whether的选择由or连接；nor常与neither配对，不用于这里的两种可能选择。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-b1-indirect-questions",
+      "explanation": "间接疑问中的whether表示“是否”，如I wonder whether...；本课句子在备选情况之后给出共同结论，不是单纯发问。"
+    },
+    {
+      "grammarId": "grammar-en-b2-even-if-even-though",
+      "explanation": "even if强调一个可能障碍也不会改变决定；whether...or...同时列出两种情况并给出共同结果。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-b1-first-conditional"
+  ],
+  "relatedGrammar": [
+    "grammar-en-b1-indirect-questions",
+    "grammar-en-b2-even-if-even-though"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-b2-whether-or-regardless-meaning",
+      "kind": "meaning",
+      "prompt": "“Whether we meet online or in person, we will use the same notes.” 的核心是什么？",
+      "acceptedAnswers": [
+        "两种碰面方式都采用同一份记录"
+      ],
+      "explanation": "共同的记录规则不随所列两种方式改变。",
+      "options": [
+        "两种碰面方式都采用同一份记录",
+        "只允许线上碰面",
+        "说话人不知道记录在哪里"
+      ]
+    },
+    {
+      "id": "grammar-en-b2-whether-or-regardless-fill",
+      "kind": "fill",
+      "prompt": "Whether the room is large ( ) small, everyone needs to hear the speaker.",
+      "acceptedAnswers": [
+        "or"
+      ],
+      "explanation": "whether列举的两种备选情况用or连接。",
+      "options": [
+        "nor",
+        "or",
+        "but"
+      ]
+    },
+    {
+      "id": "grammar-en-b2-whether-or-regardless-context",
+      "kind": "context",
+      "prompt": "无论新人现在还是下周加入，都从短任务开始。选择与此规则一致的句子。",
+      "acceptedAnswers": [
+        "Whether you join now or next week, you can start with the short task."
+      ],
+      "explanation": "两种加入时间共享同一个入门安排。",
+      "options": [
+        "You can start only if you joined last week.",
+        "Whether you join now, you cannot start any task.",
+        "Whether you join now or next week, you can start with the short task."
+      ]
+    },
+    {
+      "id": "grammar-en-b2-whether-or-regardless-error",
+      "kind": "error",
+      "prompt": "改正连接词：Whether we meet online nor in person, we will use the same notes.",
+      "acceptedAnswers": [
+        "Whether we meet online or in person, we will use the same notes."
+      ],
+      "explanation": "选择结构用or连接，保持两个方式平行。"
+    },
+    {
+      "id": "grammar-en-b2-whether-or-regardless-translation",
+      "kind": "translation",
+      "prompt": "用本课表达译成英语：无论第一个计划是否成功，我们都会回顾结果。",
+      "acceptedAnswers": [
+        "Whether the first plan succeeds or not, we will review the results."
+      ],
+      "explanation": "or not提供否定选项；未来安排的条件从句用现在时succeeds。"
+    }
+  ]
+}

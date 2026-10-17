@@ -1,3 +1,9 @@
+# 3.1.0-preview.7 — N3/B2 contextual learning
+
+- Add four N3 and two B2 full grammar topics, three original linked readers,24 examples and45 explained practice items. Preserve268 prior course payloads and927 words.
+- Restore stable pins/options across language switch and repeated collection using existing stores/SRS. Extend mobile QA to both languages, downloaded article recovery and actual English worker analysis; correct stale QA captions.
+- No dependency, schema, quota, Auth/RLS or scheduler change. Full1260/590 content target and physical-device/live-account acceptance remain unfinished.
+
 ## 3.1.0-preview.6
 
 - Add three full N2 patterns and two linked original readers,12 examples/25 explained practice items; preserve all existing documents and cards.
