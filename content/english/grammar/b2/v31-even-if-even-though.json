@@ -1,0 +1,129 @@
+{
+  "id": "grammar-en-b2-even-if-even-though",
+  "kind": "grammar",
+  "language": "en",
+  "level": "B2",
+  "difficulty": 3,
+  "tags": [
+    "B2",
+    "v3-context-05",
+    "判断与选择"
+  ],
+  "title": "Even if / even though: imagined or established?",
+  "pattern": "even if / even though + clause",
+  "meaningZh": "即使（假设）；尽管（已成立）",
+  "meaningEn": "even if (hypothetical); even though (established)",
+  "explanation": "even if引入尚未确定或作为假设提出的情况，后面的决定在该情况下仍成立。even though把情况作为已知事实来让步。We will meet even if it rains不能证明真的会下雨；We met even though it was raining把雨当成实际背景。区别在信息地位，而不仅在中文都能译成“即使”。",
+  "usage": "说明一项决定不依赖某个不确定情况，或强调结果与已知背景相反。",
+  "nuance": "未来条件从句通常用现在时，不把will机械地放进if从句；even though可根据实际时间使用过去或现在时。",
+  "structure": [
+    "even if + present clause, will / modal + verb (future possibility)",
+    "even though + factual clause, contrasting main clause"
+  ],
+  "formation": [
+    "even if + present clause, will / modal + verb (future possibility)",
+    "even though + factual clause, contrasting main clause"
+  ],
+  "examples": [
+    {
+      "target": "We will meet outside even if only two people come.",
+      "zh": "即使只有两个人来，我们也会在外面碰面。"
+    },
+    {
+      "target": "We met outside even though only two people came.",
+      "zh": "尽管只有两个人来了，我们还是在外面碰面了。"
+    },
+    {
+      "target": "I will keep a paper copy even if the online plan works well.",
+      "zh": "即使线上计划运行良好，我也会保留一份纸质副本。"
+    },
+    {
+      "target": "She asked for more time even though she had prepared carefully.",
+      "zh": "尽管她认真准备过了，她还是请求多一些时间。"
+    }
+  ],
+  "notes": [
+    "等级用于学习编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "We will meet even if it will rain.",
+      "correct": "We will meet even if it rains.",
+      "explanation": "表示未来条件时通常用现在时rains。主句的will不意味着条件从句也必须用will。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-b1-first-conditional",
+      "explanation": "普通if常把结果与条件相连；even if强调即使出现这个条件，主句的决定仍不变。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-b1-first-conditional"
+  ],
+  "relatedGrammar": [
+    "grammar-en-b1-first-conditional"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-b2-even-if-even-though-meaning",
+      "kind": "meaning",
+      "prompt": "“We will meet even if only two people come.” 能确认什么？",
+      "acceptedAnswers": [
+        "两个人来这一可能性不会改变碰面的决定"
+      ],
+      "explanation": "even if不确认人数，强调决定在假设成立时仍不变。",
+      "options": [
+        "两个人来这一可能性不会改变碰面的决定",
+        "只有两个人已经到了",
+        "如果三个人来就一定取消"
+      ]
+    },
+    {
+      "id": "grammar-en-b2-even-if-even-though-fill",
+      "kind": "fill",
+      "prompt": "你已确认昨天下雨，但仍按计划见面：We met outside ( ) it was raining.",
+      "acceptedAnswers": [
+        "even though"
+      ],
+      "explanation": "雨是实际发生的背景，用even though。",
+      "options": [
+        "even if",
+        "even though",
+        "unless"
+      ]
+    },
+    {
+      "id": "grammar-en-b2-even-if-even-though-context",
+      "kind": "context",
+      "prompt": "今晚的天气还不确定，你决定无论下不下雨都见面。选择准确表达。",
+      "acceptedAnswers": [
+        "We will meet even if it rains."
+      ],
+      "explanation": "把雨作为未确定的条件，同时保持决定不变。",
+      "options": [
+        "We met even though it rained.",
+        "We will only meet if it rains.",
+        "We will meet even if it rains."
+      ]
+    },
+    {
+      "id": "grammar-en-b2-even-if-even-though-error",
+      "kind": "error",
+      "prompt": "改正未来条件句：We will meet even if it will rain.",
+      "acceptedAnswers": [
+        "We will meet even if it rains."
+      ],
+      "explanation": "使用现在时表达未来条件；主句保留will。"
+    },
+    {
+      "id": "grammar-en-b2-even-if-even-though-translation",
+      "kind": "translation",
+      "prompt": "译成英语：尽管她认真准备过了，她还是请求多一些时间。",
+      "acceptedAnswers": [
+        "She asked for more time even though she had prepared carefully."
+      ],
+      "explanation": "even though引入已成立的准备背景；had prepared表示准备发生在请求之前。"
+    }
+  ]
+}

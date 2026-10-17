@@ -1,0 +1,131 @@
+{
+  "id": "grammar-ja-n3-koto-wa-nai-no-need",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N3",
+  "difficulty": 3,
+  "tags": [
+    "N3",
+    "v3-context-05",
+    "判断与选择"
+  ],
+  "title": "Vることはない：无需做某事",
+  "pattern": "V辞书形 + ことはない",
+  "meaningZh": "没有必要做；不必",
+  "meaningEn": "there is no need to",
+  "explanation": "用动词辞书形接ことはない，说明当前情况下不需要采取某行动，常用于安慰或劝告。急ぐことはない表示“不必着急”，并不是禁止着急。与経験用法Vたことがない不同：后者说明没有做过某事，前者评价现在有没有必要。",
+  "usage": "安慰担心的人，或在提供替代办法时说明不必采取过度行动。",
+  "nuance": "可能带有建议语气。涉及重要决定时应说明依据，而不是代替对方作决定。特定句中还可能读成“不会发生某事”，须依上下文判断。",
+  "structure": [
+    "V辞书形 + ことはない（无需做）"
+  ],
+  "formation": [
+    "V辞书形 + ことはない（无需做）"
+  ],
+  "examples": [
+    {
+      "target": "まだ時間があるから、急ぐことはない。",
+      "reading": "まだじかんがあるから、いそぐことはない。",
+      "zh": "还有时间，不必着急。"
+    },
+    {
+      "target": "一度間違えただけだ。そんなに気にすることはない。",
+      "reading": "いちどまちがえただけだ。そんなにきにすることはない。",
+      "zh": "只是错了一次，不必那么放在心上。"
+    },
+    {
+      "target": "全部一人で準備することはない。分からないところは相談しよう。",
+      "reading": "ぜんぶひとりでじゅんびすることはない。わからないところはそうだんしよう。",
+      "zh": "不必全部独自准备。不明白的地方一起商量吧。"
+    },
+    {
+      "target": "必要な資料はここにあるので、家まで取りに戻ることはない。",
+      "reading": "ひつようなしりょうはここにあるので、いえまでとりにもどることはない。",
+      "zh": "所需资料在这里，不必回家去取。"
+    }
+  ],
+  "notes": [
+    "等级用于学习编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "まだ時間があるから、急いだことはない。",
+      "correct": "まだ時間があるから、急ぐことはない。",
+      "explanation": "急いだことはない表示从未着急过的经历；无需着急使用辞书形急ぐ。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n4-ta-koto-ga-aru",
+      "explanation": "たことがある表示曾经做过，否定形式たことがない表示没有经历。本课用辞书形＋ことはない，评价当前无需采取某行动。不要把必要性与经历混为一谈。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n4-ta-koto-ga-aru"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n3-koto-wa-nai-no-need-meaning",
+      "kind": "meaning",
+      "prompt": "「まだ時間があるから、急ぐことはない。」是在说什么？",
+      "acceptedAnswers": [
+        "现在没有必要着急"
+      ],
+      "explanation": "用现在剩余时间说明不需要急，不是从来没有急过。",
+      "options": [
+        "现在没有必要着急",
+        "说话人从未着急过",
+        "禁止所有人走得快"
+      ]
+    },
+    {
+      "id": "grammar-ja-n3-koto-wa-nai-no-need-fill",
+      "kind": "fill",
+      "prompt": "安慰同伴：一度間違えただけだ。そんなに（　）ことはない。",
+      "acceptedAnswers": [
+        "気にする"
+      ],
+      "explanation": "接辞书形気にする，表达不用过分在意。",
+      "options": [
+        "気にした",
+        "気にする",
+        "気にして"
+      ]
+    },
+    {
+      "id": "grammar-ja-n3-koto-wa-nai-no-need-context",
+      "kind": "context",
+      "prompt": "资料就在教室里，朋友担心必须回家去取。哪句表达无需回家？",
+      "acceptedAnswers": [
+        "必要な資料はここにあるので、家まで取りに戻ることはない。"
+      ],
+      "explanation": "先给出资料可用的依据，再说明不必采取回家这一行动。",
+      "options": [
+        "資料があるので、家に戻ったことがない。",
+        "資料があるので、家まで戻らなければならない。",
+        "必要な資料はここにあるので、家まで取りに戻ることはない。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n3-koto-wa-nai-no-need-error",
+      "kind": "error",
+      "prompt": "改正“无需着急”的形式：まだ時間があるから、急いだことはない。",
+      "acceptedAnswers": [
+        "まだ時間があるから、急ぐことはない。"
+      ],
+      "explanation": "改为辞书形，不使用经历句的た形。"
+    },
+    {
+      "id": "grammar-ja-n3-koto-wa-nai-no-need-translation",
+      "kind": "translation",
+      "prompt": "用本课表达译成日语：不必全部独自准备。不明白的地方一起商量吧。",
+      "acceptedAnswers": [
+        "全部一人で準備することはない。分からないところは相談しよう。"
+      ],
+      "explanation": "给出可以求助的替代办法，建议的理由和行动形成连贯关系。"
+    }
+  ]
+}

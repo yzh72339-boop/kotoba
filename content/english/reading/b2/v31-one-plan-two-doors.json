@@ -1,0 +1,112 @@
+{
+  "id": "article-en-b2-one-plan-two-doors",
+  "kind": "reading",
+  "language": "en",
+  "level": "B2",
+  "difficulty": 3,
+  "tags": [
+    "B2",
+    "v3-context-05",
+    "判断与选择"
+  ],
+  "title": "One plan, two ways in",
+  "topic": "工作与社区 · 条件变化中的共同安排",
+  "genre": "essay",
+  "estimatedMinutes": 3,
+  "paragraphs": [
+    "When our neighbourhood group tried to hold a short planning meeting, the first argument was about the room. Some members wanted to meet at the library, while others preferred an online call. Marta, who had volunteered to organise it, began comparing chairs, screens and travel time. Then a member asked a simpler question: what did they actually need to decide? The group wanted to choose one small project for the coming month. They did not need a perfect venue before they could start discussing that choice.",
+    "Marta wrote a short notice and a shared plan. Whether we meet online or in person, she explained, we will use the same notes and finish with one decision. She sent the project descriptions in advance, so that people could read them without following a fast conversation. Even though she had prepared carefully, she still asked a colleague to check whether the instructions were clear. The colleague found that the online link was easy to see, but the library entrance was not explained. They added a sentence about the side door and a contact number.",
+    "On the morning of the meeting, the library room became unavailable. Marta did not pretend that the change was convenient for everyone. Two members had already planned their journeys, and another did not have a reliable internet connection. She offered a phone call after the online discussion and a paper copy of the notes. I will keep a paper copy even if the online plan works well, she told the group. This was not a promise that every problem would disappear. It was a way to keep information available when one route failed.",
+    "The online discussion was shorter than expected. One person joined late, and another could not hear the first explanation. Instead of starting every presentation again, Marta pointed them to the written descriptions and repeated the question the group needed to answer. They chose a small book exchange rather than a larger event. Whether the first plan succeeds or not, we will review the results next month, she said. People who had missed the call could still send comments before the final arrangements were made.",
+    "Afterwards, Marta kept two kinds of notes. One described the decision; the other recorded where people had trouble joining or understanding. Her experience did not show that online meetings were always better. Nor did one cancelled room prove that face-to-face meetings were a mistake. A stable purpose and flexible ways to take part had helped this particular group. Next time, she would ask about access earlier, while keeping the same clear question at the centre of the meeting."
+  ],
+  "translation": [
+    "社区小组尝试举办一次简短的计划会议时，最先争论的是房间。有些成员想在图书馆见面，另一些更喜欢线上通话。自愿组织的玛尔塔开始比较椅子、屏幕与出行时间。随后，一位成员提出更简单的问题：他们究竟需要决定什么？小组想为下个月选一个小项目。他们不需要先有完美的场地，才能讨论这个选择。",
+    "玛尔塔写了简短通知和共享计划。她说明，无论线上还是当面碰面，大家都会使用同一份记录，并以一个决定结束。她提前发送项目介绍，让人们无需紧跟快速对话也能阅读。尽管认真准备过，她仍请同事检查指示是否清楚。同事发现线上链接容易找到，却没有解释图书馆入口。他们增加了一句侧门说明与联系电话。",
+    "会议当天早晨，图书馆的房间无法使用了。玛尔塔没有假装这个变化对所有人都方便。两名成员已经安排好出行，另一人的网络连接不可靠。她提供线上讨论之后的电话沟通以及纸质记录。她告诉大家，即使线上计划运行良好，也会保留纸质副本。这并非承诺所有问题都会消失，而是在一种途径失败时仍让信息可获得的办法。",
+    "线上讨论比预想的短。一人迟到，另一人没听清最初的说明。玛尔塔没有重新开始所有介绍，而是引导他们阅读书面介绍，并重复小组需要回答的问题。大家选了小型图书交换会，而不是大型活动。她说，无论第一个计划是否成功，下个月都会回顾结果。错过通话的人仍可在最终安排确定前提交意见。",
+    "结束后，玛尔塔保留了两类记录。一类描述决定，另一类记录人们在加入或理解方面遇到的困难。这次经历并未证明线上会议总是更好。一间房间取消，也不说明当面会议是错误。稳定的目的与灵活的参与途径帮助了这个具体小组。下次，她会更早询问参与条件，同时让同一个清楚的问题保持在会议中心。"
+  ],
+  "vocabulary": [
+    "lex-en-a2-plan",
+    "context-en-a2-6162ff073e3e",
+    "lex-en-a1-time",
+    "course-en-b1-1"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-b2-whether-or-regardless",
+      "surface": "Whether we meet online or in person"
+    },
+    {
+      "id": "grammar-en-b2-even-if-even-though",
+      "surface": "Even though she had prepared carefully"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-b2-one-plan-two-doors-main-idea",
+      "type": "main-idea",
+      "prompt": "What is the main lesson of Marta’s experience?",
+      "options": [
+        "An online meeting always produces a better decision.",
+        "A clear purpose can stay stable while ways to participate change.",
+        "Choosing a room matters more than choosing a project."
+      ],
+      "answer": 1,
+      "explanation": "The final paragraph limits the claim to this group and stresses a stable purpose with flexible participation, not the superiority of one venue."
+    },
+    {
+      "id": "article-en-b2-one-plan-two-doors-detail",
+      "type": "detail",
+      "prompt": "What did the colleague find before the meeting?",
+      "options": [
+        "The project descriptions had not been sent.",
+        "The group had already chosen a book exchange.",
+        "The library entrance needed a clearer explanation."
+      ],
+      "answer": 2,
+      "explanation": "Paragraph two says the online link was visible but the library entrance was not explained. The book exchange was chosen later."
+    },
+    {
+      "id": "article-en-b2-one-plan-two-doors-inference",
+      "type": "inference",
+      "prompt": "Why did Marta keep a paper copy even if the online plan worked?",
+      "options": [
+        "To preserve an alternative route to information.",
+        "To stop members from making online comments.",
+        "To prove that no member could use the internet."
+      ],
+      "answer": 0,
+      "explanation": "Paragraph three connects the paper copy with keeping information available when one route fails. It does not describe a ban or make a claim about all members."
+    },
+    {
+      "id": "article-en-b2-one-plan-two-doors-grammar",
+      "type": "grammar",
+      "prompt": "What does “Whether the first plan succeeds or not, we will review the results” mean?",
+      "options": [
+        "The review will happen only if the plan fails.",
+        "The review is planned in both possible outcomes.",
+        "The plan has already failed and has been reviewed."
+      ],
+      "answer": 1,
+      "explanation": "Whether ... or not lists success and lack of success; the same future review applies to both. It does not report an outcome."
+    },
+    {
+      "id": "article-en-b2-one-plan-two-doors-author-intent",
+      "type": "author-intent",
+      "prompt": "Why does the writer say this does not show online meetings are always better?",
+      "options": [
+        "To withdraw the decision to hold the book exchange.",
+        "To suggest that Marta never learned anything.",
+        "To avoid turning one experience into a universal rule."
+      ],
+      "answer": 2,
+      "explanation": "The last paragraph explicitly limits what can be inferred from this particular experience, while retaining the practical lesson about access and purpose."
+    }
+  ],
+  "notes": [
+    "原创教学情境，不是真实新闻或专业决策建议。",
+    "预计用时按每分钟约160个英文单词计算，不是个人速度预测。"
+  ]
+}

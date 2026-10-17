@@ -1,0 +1,133 @@
+{
+  "id": "grammar-ja-n3-wake-conclusion",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N3",
+  "difficulty": 3,
+  "tags": [
+    "N3",
+    "v3-context-05",
+    "判断与选择"
+  ],
+  "title": "〜わけだ：由情况得出的解释",
+  "pattern": "〜わけだ",
+  "meaningZh": "难怪；也就是说；由此可知",
+  "meaningEn": "that explains why; it follows that",
+  "explanation": "把已经知道的情况与一个合理结论连接起来，表示说话人理解了原因，或把数量、条件换算成结论。原来每天走路上班，所以熟悉小路——此时わけだ表示“难怪”。它不是愿望，也不要求结论一定来自专业证明；上下文必须能支持这个理解。",
+  "usage": "听到背景后解释眼前现象，或根据明确数字进行换算。",
+  "nuance": "单独的そういうわけです也可承接前面的说明。不能把没有线索的猜测直接包装成既定结论。",
+  "structure": [
+    "V普通形／い形容词普通形 + わけだ",
+    "な形容词な／Nな／Nである + わけだ"
+  ],
+  "formation": [
+    "V普通形／い形容词普通形 + わけだ",
+    "な形容词な／Nな／Nである + わけだ"
+  ],
+  "examples": [
+    {
+      "target": "毎日この道を歩いているんですね。小さな店まで知っているわけだ。",
+      "reading": "まいにちこのみちをあるいているんですね。ちいさなみせまでしっているわけだ。",
+      "zh": "原来你每天都走这条路啊。难怪连小店都知道。"
+    },
+    {
+      "target": "一回二十分で三回練習したから、合計一時間練習したわけだ。",
+      "reading": "いっかいにじゅっぷんでさんかいれんしゅうしたから、ごうけいいちじかんれんしゅうしたわけだ。",
+      "zh": "每次二十分钟，练习了三次，也就是说总共练习了一小时。"
+    },
+    {
+      "target": "駅の出口が変わったんですね。昨日、道に迷ったわけだ。",
+      "reading": "えきのでぐちがかわったんですね。きのう、みちにまよったわけだ。",
+      "zh": "原来车站出口变了啊。难怪昨天迷路了。"
+    },
+    {
+      "target": "この部屋は窓が二つある。昼間は明るいわけだ。",
+      "reading": "このへやはまどがふたつある。ひるまはあかるいわけだ。",
+      "zh": "这间屋子有两扇窗。难怪白天很亮。"
+    }
+  ],
+  "notes": [
+    "等级用于学习编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "一回二十分を三回だから、合計十分練習したわけだ。",
+      "correct": "一回二十分を三回だから、合計一時間練習したわけだ。",
+      "explanation": "接续正确不代表结论正确。二十分钟乘三是六十分钟，わけだ前后的依据与结论必须一致。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n3-you-da-inference",
+      "explanation": "ようだ根据迹象作推断，仍有不确定性；わけだ强调接受背景后理解理由或得到结论。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n3-you-da-inference"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n3-wake-conclusion-meaning",
+      "kind": "meaning",
+      "prompt": "「毎日歩いているんですね。道をよく知っているわけだ。」表示什么？",
+      "acceptedAnswers": [
+        "知道背景后，理解了为什么熟悉道路"
+      ],
+      "explanation": "每天走路是支持结论的背景，わけだ在这里相当于“难怪”。",
+      "options": [
+        "知道背景后，理解了为什么熟悉道路",
+        "认为对方一定不会走这条路",
+        "请求对方教自己走路"
+      ]
+    },
+    {
+      "id": "grammar-ja-n3-wake-conclusion-fill",
+      "kind": "fill",
+      "prompt": "一回二十分で三回練習した。合計一時間練習した（　）。",
+      "acceptedAnswers": [
+        "わけだ"
+      ],
+      "explanation": "由明确数字换算出的结论用わけだ。",
+      "options": [
+        "ところだ",
+        "わけだ",
+        "たびに"
+      ]
+    },
+    {
+      "id": "grammar-ja-n3-wake-conclusion-context",
+      "kind": "context",
+      "prompt": "知道车站出口已经改变后，哪句自然解释昨天的迷路？",
+      "acceptedAnswers": [
+        "出口が変わったんですね。昨日、道に迷ったわけだ。"
+      ],
+      "explanation": "先接受新背景，再把它与昨天的现象联系起来。",
+      "options": [
+        "昨日、道に迷ったたびに。",
+        "出口が変わったから、昨日迷うつもりだ。",
+        "出口が変わったんですね。昨日、道に迷ったわけだ。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n3-wake-conclusion-error",
+      "kind": "error",
+      "prompt": "改正错误结论：一回二十分を三回だから、合計十分練習したわけだ。",
+      "acceptedAnswers": [
+        "一回二十分を三回だから、合計一時間練習したわけだ。"
+      ],
+      "explanation": "不仅检查形式，也检查依据：二十乘三是六十分钟。"
+    },
+    {
+      "id": "grammar-ja-n3-wake-conclusion-translation",
+      "kind": "translation",
+      "prompt": "用わけだ译成日语：这间屋子有两扇窗。难怪白天很亮。",
+      "acceptedAnswers": [
+        "この部屋は窓が二つある。昼間は明るいわけだ。"
+      ],
+      "explanation": "先提供明亮的原因，再用わけだ表达“理解了，难怪”。"
+    }
+  ]
+}
