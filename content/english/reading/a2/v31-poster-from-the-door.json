@@ -1,0 +1,112 @@
+{
+  "id": "article-en-a2-poster-from-the-door",
+  "kind": "reading",
+  "language": "en",
+  "level": "A2",
+  "difficulty": 2,
+  "tags": [
+    "A2",
+    "v3-foundations-06",
+    "日常表达"
+  ],
+  "title": "Read it from the door",
+  "topic": "社区 · 用实际需要检查信息",
+  "genre": "story",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "Our reading group usually meets in a small room after school. We sometimes invite new people, so we wanted a poster for the door. My friend Leo wrote the first one. It had the date, the time and our phone number. All the information was correct, but the letters were too small to read from the door. People had to stand very close to it.",
+    "I said, \"We should make the main information bigger.\" Leo changed the date and the time to large letters. Then he asked me to stand outside the room and try again. I could read those lines, but not the phone number. We made that line bigger too. We did not make every word the same size: the long description could stay smaller.",
+    "The next day, a new student found the room without asking the school office. She said the time was clear and she had enough time to join us. We were pleased, but we kept the old poster in our notebook. It reminded us to check our next poster from the place where people would really read it."
+  ],
+  "translation": [
+    "我们的阅读小组通常在放学后的一间小屋子见面。有时会邀请新人，所以我们想在门上贴一张海报。朋友利奥写了第一张，上面有日期、时间和电话号码。所有信息都正确，但字太小，从门口看不清。人们必须站得很近。",
+    "我说：“我们应该把主要信息写大一些。”利奥把日期和时间改成大字，然后请我站在屋外再试一次。我能看清这几行，却看不清电话号码。我们也把那一行放大。没有把所有字都变成同样大：长介绍可以保持较小的字。",
+    "第二天，一名新同学没向学校办公室问路就找到了屋子。她说时间很清楚，自己有足够时间加入。我们很高兴，但把旧海报留在笔记本里。它提醒我们，下次要从人们实际阅读的位置检查海报。"
+  ],
+  "vocabulary": [
+    "course-en-a1-4",
+    "course-en-a1-7",
+    "lex-en-a1-time",
+    "supp-en-a1-13"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-a2-adverbs-frequency",
+      "surface": "usually meets"
+    },
+    {
+      "id": "grammar-en-a2-too-enough",
+      "surface": "too small to read from the door"
+    },
+    {
+      "id": "grammar-en-a2-should-advice",
+      "surface": "We should make the main information bigger"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-a2-poster-from-the-door-main-idea",
+      "type": "main-idea",
+      "prompt": "What did the group learn about making a poster?",
+      "options": [
+        "Correct information also needs to be readable from the user’s position.",
+        "Every word on a poster must be exactly the same size.",
+        "A poster should never have a phone number."
+      ],
+      "answer": 0,
+      "explanation": "The facts were correct at first, but the group had to test and enlarge key lines so people could read them from the door."
+    },
+    {
+      "id": "article-en-a2-poster-from-the-door-detail",
+      "type": "detail",
+      "prompt": "Which line needed another change after the first test?",
+      "options": [
+        "The date.",
+        "The phone number.",
+        "The group’s long description."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph two says the date and time were readable, but the phone number was not."
+    },
+    {
+      "id": "article-en-a2-poster-from-the-door-inference",
+      "type": "inference",
+      "prompt": "Why did the group keep the old poster?",
+      "options": [
+        "To replace the improved poster immediately.",
+        "To prove that all small letters are always useless.",
+        "To remind themselves to test future posters where readers will stand."
+      ],
+      "answer": 2,
+      "explanation": "The last paragraph explains its purpose as a reminder of how to check the next poster, not a reason to reject every small detail."
+    },
+    {
+      "id": "article-en-a2-poster-from-the-door-grammar",
+      "type": "grammar",
+      "prompt": "What does “usually meets” tell us?",
+      "options": [
+        "A common habit, which may have exceptions.",
+        "An exact measured percentage.",
+        "Only what happened once yesterday."
+      ],
+      "answer": 0,
+      "explanation": "Usually describes a frequent pattern; it does not establish a precise percentage or mean every single occasion."
+    },
+    {
+      "id": "article-en-a2-poster-from-the-door-author-intent",
+      "type": "author-intent",
+      "prompt": "Why does the writer mention that the long description stayed smaller?",
+      "options": [
+        "To say it was more important than the time.",
+        "To show that information can have different visual priorities.",
+        "To say new people cannot read any description."
+      ],
+      "answer": 1,
+      "explanation": "The main information was enlarged while less essential detail stayed smaller; the example shows useful hierarchy, not a rule that all detail is unreadable."
+    }
+  ],
+  "notes": [
+    "原创教学情境，不是真实新闻或通用操作标准。",
+    "预计用时按每分钟约160个英文单词计算，不是个人速度预测。"
+  ]
+}

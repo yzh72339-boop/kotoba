@@ -1,0 +1,130 @@
+{
+  "id": "grammar-en-a2-adverbs-frequency",
+  "kind": "grammar",
+  "language": "en",
+  "level": "A2",
+  "difficulty": 2,
+  "tags": [
+    "A2",
+    "v3-foundations-06",
+    "日常表达"
+  ],
+  "title": "Usually and sometimes: how often?",
+  "pattern": "frequency adverb + main verb / be + frequency adverb",
+  "meaningZh": "通常；有时；从不等频率",
+  "meaningEn": "frequency of a repeated action or state",
+  "explanation": "usually、often、sometimes、never说明动作或状态出现的频率。通常放在实义动词前，如I usually walk；放在be之后，如The room is usually quiet。sometimes也可放句首。频率词不等于精确百分比，never表示从不，句中通常不再加not。",
+  "usage": "描述日常习惯或常见状态，把一次事件与长期习惯区分开。",
+  "nuance": "词序有语境变化，本课使用最常见的中性位置。不要把always/usually等当成测量得来的统计值；配合一般现在时描述习惯。",
+  "structure": [
+    "subject + usually / often / sometimes / never + main verb",
+    "subject + be + usually / often / sometimes / never + complement"
+  ],
+  "formation": [
+    "subject + usually / often / sometimes / never + main verb",
+    "subject + be + usually / often / sometimes / never + complement"
+  ],
+  "examples": [
+    {
+      "target": "I usually walk to the library.",
+      "zh": "我通常步行去图书馆。"
+    },
+    {
+      "target": "The room is usually quiet in the morning.",
+      "zh": "这间屋子早晨通常很安静。"
+    },
+    {
+      "target": "Sometimes we read outside.",
+      "zh": "有时我们在外面读书。"
+    },
+    {
+      "target": "He never leaves his books on the floor.",
+      "zh": "他从不把书放在地板上。"
+    }
+  ],
+  "notes": [
+    "等级用于教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "He does not never leave his books on the floor.",
+      "correct": "He never leaves his books on the floor.",
+      "explanation": "never本身包含否定。在本课中性书面语里，不再叠加does not形成双重否定。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-a1-present-simple-routine",
+      "explanation": "一般现在时给出习惯；频率词补充通常、偶尔或从不，并没有提供精确次数。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-a1-present-simple-routine"
+  ],
+  "relatedGrammar": [
+    "grammar-en-a1-present-simple-routine"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-a2-adverbs-frequency-meaning",
+      "kind": "meaning",
+      "prompt": "“I usually walk to the library.” 是否说明每一次都步行？",
+      "acceptedAnswers": [
+        "不是，通常如此，但仍可有例外"
+      ],
+      "explanation": "usually是常见习惯，不等于always；不能把它自动读成百分之百。",
+      "options": [
+        "不是，通常如此，但仍可有例外",
+        "是，没有任何例外",
+        "这句话只讲昨天一次出行"
+      ]
+    },
+    {
+      "id": "grammar-en-a2-adverbs-frequency-fill",
+      "kind": "fill",
+      "prompt": "用本课中性词序表达“屋子通常很安静”：The room ( ).",
+      "acceptedAnswers": [
+        "is usually quiet"
+      ],
+      "explanation": "频率词通常在be之后、形容词之前。",
+      "options": [
+        "usually quiet",
+        "is usually quiet",
+        "is usually quietly"
+      ]
+    },
+    {
+      "id": "grammar-en-a2-adverbs-frequency-context",
+      "kind": "context",
+      "prompt": "选择本课中性书面语中正确表达“他从不把书放在地板上”的句子。",
+      "acceptedAnswers": [
+        "He never leaves his books on the floor."
+      ],
+      "explanation": "never提供否定，第三人称的实义动词仍用leaves。",
+      "options": [
+        "He does not never leave his books on the floor.",
+        "He never to leave his books on the floor.",
+        "He never leaves his books on the floor."
+      ]
+    },
+    {
+      "id": "grammar-en-a2-adverbs-frequency-error",
+      "kind": "error",
+      "prompt": "改正双重否定：He does not never leave his books on the floor.",
+      "acceptedAnswers": [
+        "He never leaves his books on the floor."
+      ],
+      "explanation": "去掉does not后，never仍表达从不，动词恢复第三人称leaves。"
+    },
+    {
+      "id": "grammar-en-a2-adverbs-frequency-translation",
+      "kind": "translation",
+      "prompt": "译成英语：有时我们在外面读书。",
+      "acceptedAnswers": [
+        "Sometimes we read outside.",
+        "We sometimes read outside."
+      ],
+      "explanation": "sometimes可放句首，也可放实义动词read前，两种都保留习惯频率的意思。"
+    }
+  ]
+}

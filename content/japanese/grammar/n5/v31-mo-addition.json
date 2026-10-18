@@ -1,0 +1,133 @@
+{
+  "id": "grammar-ja-n5-mo-addition",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N5",
+  "difficulty": 1,
+  "tags": [
+    "N5",
+    "v3-foundations-06",
+    "日常表达"
+  ],
+  "title": "も：把相同说明加给另一个对象",
+  "pattern": "N + も + 谓语",
+  "meaningZh": "也；同样",
+  "meaningEn": "also; too",
+  "explanation": "も把前面已经成立的说明扩展到另一人或另一事物。私は学生です。ゆきさんも学生です表示两人同为学生。这里も代替话题助词は，而不是叠成はも。动词相同并不自动意味着所有细节都相同，句中共享的范围要由上下文给出。",
+  "usage": "介绍共同身份、相同行动或相同愿望；谈话中附加另一个例子。",
+  "nuance": "初学先掌握单一名词后的添加用法。位置等其他助词可以与も组合，但不要把所有助词都用同一规则替换。",
+  "structure": [
+    "Nは...。另一个Nも...。",
+    "N + も + 相同身份、状态或动作"
+  ],
+  "formation": [
+    "Nは...。另一个Nも...。",
+    "N + も + 相同身份、状态或动作"
+  ],
+  "examples": [
+    {
+      "target": "私は学生です。ゆきさんも学生です。",
+      "zh": "我是学生。由纪也是学生。",
+      "reading": "わたしはがくせいです。ゆきさんもがくせいです。"
+    },
+    {
+      "target": "私は九時に着きます。けんさんも九時に着きます。",
+      "zh": "我九点到。健也九点到。",
+      "reading": "わたしはくじにつきます。けんさんもくじにつきます。"
+    },
+    {
+      "target": "私は本を読みたいです。けんさんも本を読みたいです。",
+      "zh": "我想读书。健也想读书。",
+      "reading": "わたしはほんをよみたいです。けんさんもほんをよみたいです。"
+    },
+    {
+      "target": "この本は新しいです。その本も新しいです。",
+      "zh": "这本书是新的。那本书也是新的。",
+      "reading": "このほんはあたらしいです。そのほんもあたらしいです。"
+    }
+  ],
+  "notes": [
+    "等级用于教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は学生です。ゆきさんはも学生です。",
+      "correct": "私は学生です。ゆきさんも学生です。",
+      "explanation": "在这个添加共同身份的语境中，も代替は，不能写成はも。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n5-wa-topic",
+      "explanation": "は先引入话题；も在已有说明的基础上表示另一个对象也如此。没有对应背景时，应先交代共享的信息。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-wa-topic"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n5-wa-topic"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n5-mo-addition-meaning",
+      "kind": "meaning",
+      "prompt": "「私は学生です。ゆきさんも学生です。」表示什么？",
+      "acceptedAnswers": [
+        "我和由纪都是学生"
+      ],
+      "explanation": "も把“是学生”这项说明也加给由纪，不是说两人身份相反。",
+      "options": [
+        "我和由纪都是学生",
+        "由纪是老师，我是学生",
+        "只有由纪是学生"
+      ]
+    },
+    {
+      "id": "grammar-ja-n5-mo-addition-fill",
+      "kind": "fill",
+      "prompt": "我想读书，健也想读书：けんさん（　）本を読みたいです。",
+      "acceptedAnswers": [
+        "も"
+      ],
+      "explanation": "用も添加具有相同愿望的人；愿望的动作仍是本を読みたい。",
+      "options": [
+        "はも",
+        "も",
+        "を"
+      ]
+    },
+    {
+      "id": "grammar-ja-n5-mo-addition-context",
+      "kind": "context",
+      "prompt": "已经说了这本书是新的，再说明那本也新。哪句自然？",
+      "acceptedAnswers": [
+        "その本も新しいです。"
+      ],
+      "explanation": "共享的说明是新しい，用も把它扩展到その本。",
+      "options": [
+        "その本はも新しいです。",
+        "その本を新しいです。",
+        "その本も新しいです。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n5-mo-addition-error",
+      "kind": "error",
+      "prompt": "改正重复助词：私は学生です。ゆきさんはも学生です。",
+      "acceptedAnswers": [
+        "私は学生です。ゆきさんも学生です。"
+      ],
+      "explanation": "这里も代替话题助词は，表达由纪也具有同一身份。"
+    },
+    {
+      "id": "grammar-ja-n5-mo-addition-translation",
+      "kind": "translation",
+      "prompt": "译成日语：我九点到。健也九点到。",
+      "acceptedAnswers": [
+        "私は九時に着きます。けんさんも九時に着きます。"
+      ],
+      "explanation": "第一句给出到达时间，第二句用も表示健的到达时间也相同。"
+    }
+  ]
+}

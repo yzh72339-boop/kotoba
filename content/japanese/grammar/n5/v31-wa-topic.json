@@ -1,0 +1,136 @@
+{
+  "id": "grammar-ja-n5-wa-topic",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N5",
+  "difficulty": 1,
+  "tags": [
+    "N5",
+    "v3-foundations-06",
+    "日常表达"
+  ],
+  "title": "は：先说明谈论什么",
+  "pattern": "N + は + 谓语",
+  "meaningZh": "关于……；把某事作为话题",
+  "meaningEn": "as for; topic marker",
+  "explanation": "は写作假名は，作为助词时读wa。先说明接下来谈论的人或事，再给出身份、状态或动作。私は学生です是在“我”这个话题下说自己的身份。は不直接标记动作的宾语，也不能把每个中文主语都机械替换成は。",
+  "usage": "自我介绍、说明物品或日程，以及对已知的人或事补充信息。",
+  "nuance": "当回答“是谁”这类问题，新的焦点通常用が。は还可产生对比，但初学时先掌握话题与后面的说明。",
+  "structure": [
+    "N + は + Nです",
+    "N + は + 状态或动作"
+  ],
+  "formation": [
+    "N + は + Nです",
+    "N + は + 状态或动作"
+  ],
+  "examples": [
+    {
+      "target": "私は学生です。",
+      "zh": "我是学生。",
+      "reading": "わたしはがくせいです。"
+    },
+    {
+      "target": "この本は日本語の本です。",
+      "zh": "这本书是日语书。",
+      "reading": "このほんはにほんごのほんです。"
+    },
+    {
+      "target": "図書館は九時からです。",
+      "zh": "图书馆九点起开放。",
+      "reading": "としょかんはくじからです。"
+    },
+    {
+      "target": "今日は学校で本を読みます。",
+      "zh": "今天在学校读书。",
+      "reading": "きょうはがっこうでほんをよみます。"
+    }
+  ],
+  "notes": [
+    "等级用于教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "私は本は読みます。（中性说明读什么时）",
+      "correct": "私は本を読みます。",
+      "explanation": "如果只是中性地说明读书，本用宾语助词を。第二个は会把书设为话题或对比，不应把它当成普通宾语标记。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n5-ga-new-information",
+      "explanation": "は说明话题，が可标示新的焦点。如谈论先生可说先生は...；回答だれが时通常用先生が...。"
+    },
+    {
+      "grammarId": "grammar-ja-n5-wo-object",
+      "explanation": "は安排话题，を标示动作对象；同一句中可以出现私は本を読みます。"
+    }
+  ],
+  "prerequisites": [],
+  "relatedGrammar": [
+    "grammar-ja-n5-ga-new-information",
+    "grammar-ja-n5-wo-object"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n5-wa-topic-meaning",
+      "kind": "meaning",
+      "prompt": "「私は学生です。」先把什么设为话题？",
+      "acceptedAnswers": [
+        "我"
+      ],
+      "explanation": "私は给出话题，学生です提供关于这个话题的身份说明。",
+      "options": [
+        "我",
+        "读书动作的对象",
+        "某间教室的位置"
+      ]
+    },
+    {
+      "id": "grammar-ja-n5-wa-topic-fill",
+      "kind": "fill",
+      "prompt": "介绍自己的身份：私（　）学生です。",
+      "acceptedAnswers": [
+        "は"
+      ],
+      "explanation": "用は说明谈论的是“我”；这里是身份介绍，不是列出动作宾语。",
+      "options": [
+        "を",
+        "は",
+        "で"
+      ]
+    },
+    {
+      "id": "grammar-ja-n5-wa-topic-context",
+      "kind": "context",
+      "prompt": "向同学说明这本书是什么书。哪句自然？",
+      "acceptedAnswers": [
+        "この本は日本語の本です。"
+      ],
+      "explanation": "この本は先引入话题，后面说明它是日语书。",
+      "options": [
+        "この本を日本語の本です。",
+        "この本で日本語の本です。",
+        "この本は日本語の本です。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n5-wa-topic-error",
+      "kind": "error",
+      "prompt": "中性说明“我读书”，改正把宾语也标为话题的表达：私は本は読みます。",
+      "acceptedAnswers": [
+        "私は本を読みます。"
+      ],
+      "explanation": "读的对象本用を；若特意说本は，会引入话题或对比，改变原来的中性语境。"
+    },
+    {
+      "id": "grammar-ja-n5-wa-topic-translation",
+      "kind": "translation",
+      "prompt": "用は译成日语：这本书是日语书。",
+      "acceptedAnswers": [
+        "この本は日本語の本です。"
+      ],
+      "explanation": "先引入この本，后面说明书的种类；日本語の本里的の连接两个名词。"
+    }
+  ]
+}

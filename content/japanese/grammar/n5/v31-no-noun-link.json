@@ -1,0 +1,129 @@
+{
+  "id": "grammar-ja-n5-no-noun-link",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N5",
+  "difficulty": 1,
+  "tags": [
+    "N5",
+    "v3-foundations-06",
+    "日常表达"
+  ],
+  "title": "の：用前一个名词说明后一个名词",
+  "pattern": "N1 + の + N2",
+  "meaningZh": "……的；所属、种类或关联",
+  "meaningEn": "possession or association between nouns",
+  "explanation": "の连接两个名词，前一个名词说明后一个名词。先生の本表示老师的书，日本語の本表示日语书，学校の前表示学校前面。核心通常是后面的名词：先生の本说的是一本书，而不是老师。の不只表示拥有，关系还可以是种类、地点或所属。",
+  "usage": "说明物品属于谁、书是什么种类，以及地点之间的关系。",
+  "nuance": "不能把所有中文“的”都译成の。形容词修饰名词有自己的规则，例如新しい本不加の；な形容词另用な。",
+  "structure": [
+    "N1 + の + N2（前一个名词限定后一个名词）"
+  ],
+  "formation": [
+    "N1 + の + N2（前一个名词限定后一个名词）"
+  ],
+  "examples": [
+    {
+      "target": "これは先生の本です。",
+      "zh": "这是老师的书。",
+      "reading": "これはせんせいのほんです。"
+    },
+    {
+      "target": "日本語の本を読みます。",
+      "zh": "读日语书。",
+      "reading": "にほんごのほんをよみます。"
+    },
+    {
+      "target": "学校の前で友達と会います。",
+      "zh": "在学校前面和朋友见面。",
+      "reading": "がっこうのまえでともだちとあいます。"
+    },
+    {
+      "target": "私の家は駅の近くです。",
+      "zh": "我家在车站附近。",
+      "reading": "わたしのいえはえきのちかくです。"
+    }
+  ],
+  "notes": [
+    "等级用于教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "これは先生本です。",
+      "correct": "これは先生の本です。",
+      "explanation": "在本课所属表达中，两个名词先生与本之间用の连接。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n5-wa-topic",
+      "explanation": "の在名词短语内部连接信息；は把整个短语设为话题。例如先生の本は...，两者不能互换。"
+    }
+  ],
+  "prerequisites": [],
+  "relatedGrammar": [
+    "grammar-ja-n5-wa-topic"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n5-no-noun-link-meaning",
+      "kind": "meaning",
+      "prompt": "「日本語の本」这个短语的核心是什么？",
+      "acceptedAnswers": [
+        "本"
+      ],
+      "explanation": "后面的名词本是核心，日本語说明它的种类；不是在说日语拥有某物。",
+      "options": [
+        "本",
+        "の这个助词本身",
+        "读书这个动作"
+      ]
+    },
+    {
+      "id": "grammar-ja-n5-no-noun-link-fill",
+      "kind": "fill",
+      "prompt": "这是老师的书：これは先生（　）本です。",
+      "acceptedAnswers": [
+        "の"
+      ],
+      "explanation": "先生和本都是名词，用の表达两者的所属关系。",
+      "options": [
+        "を",
+        "の",
+        "で"
+      ]
+    },
+    {
+      "id": "grammar-ja-n5-no-noun-link-context",
+      "kind": "context",
+      "prompt": "要说在学校前面与朋友见面，哪句正确连接地点名词？",
+      "acceptedAnswers": [
+        "学校の前で友達と会います。"
+      ],
+      "explanation": "学校の前是地点短语，の连接学校与前，で再标示见面场所。",
+      "options": [
+        "学校を前で友達と会います。",
+        "学校で前の友達と会います。",
+        "学校の前で友達と会います。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n5-no-noun-link-error",
+      "kind": "error",
+      "prompt": "改正所属表达：これは先生本です。",
+      "acceptedAnswers": [
+        "これは先生の本です。"
+      ],
+      "explanation": "本课的名词所属结构需要N1のN2，不能直接把先生本当作这个短语。"
+    },
+    {
+      "id": "grammar-ja-n5-no-noun-link-translation",
+      "kind": "translation",
+      "prompt": "译成日语：读日语书。",
+      "acceptedAnswers": [
+        "日本語の本を読みます。"
+      ],
+      "explanation": "日本語の本是动作对象，短语内部用の，整个对象用を。"
+    }
+  ]
+}
