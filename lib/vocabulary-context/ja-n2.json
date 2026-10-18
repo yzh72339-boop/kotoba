@@ -1415,5 +1415,304 @@
     "frequency": "medium",
     "register": "neutral",
     "sourceRef": "Kotoba 2.7 N2 practical content batch 01"
+  },
+  {
+    "id": "context-ja-n2-b08-haichi",
+    "word": "配置",
+    "pronunciation": "はいち",
+    "meaning": "布置；安排位置",
+    "example": "窓口の配置を変えると、入口が広くなりました。",
+    "translation": "调整服务窗口的布置后，入口变宽敞了。",
+    "tag": "JLPT N2 · noun",
+    "related": "窓口の配置",
+    "pos": "noun",
+    "senses": [
+      "布置",
+      "安排位置"
+    ],
+    "collocations": [
+      "窓口の配置"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-ja-n2-b08-kaishuu",
+    "word": "回収",
+    "pronunciation": "かいしゅう",
+    "meaning": "收回；回收",
+    "example": "記入済みの用紙は、終了後に回収します。",
+    "translation": "填写完的表格会在结束后收回。",
+    "tag": "JLPT N2 · noun",
+    "related": "用紙を回収する",
+    "pos": "noun",
+    "senses": [
+      "收回",
+      "回收"
+    ],
+    "collocations": [
+      "用紙を回収する"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-ja-n2-b08-setchi",
+    "word": "設置",
+    "pronunciation": "せっち",
+    "meaning": "设置；安装",
+    "example": "入口の近くに返却箱を設置しました。",
+    "translation": "在入口附近设置了归还箱。",
+    "tag": "JLPT N2 · noun",
+    "related": "返却箱を設置する",
+    "pos": "noun",
+    "senses": [
+      "设置",
+      "安装"
+    ],
+    "collocations": [
+      "返却箱を設置する"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-ja-n2-b08-hosoku",
+    "word": "補足",
+    "pronunciation": "ほそく",
+    "meaning": "补充说明",
+    "example": "説明に補足が必要なら、担当者に聞いてください。",
+    "translation": "如果说明还需要补充，请询问负责人。",
+    "tag": "JLPT N2 · noun",
+    "related": "説明を補足する",
+    "pos": "noun",
+    "senses": [
+      "补充说明"
+    ],
+    "collocations": [
+      "説明を補足する"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-ja-n2-b08-shougou",
+    "word": "照合",
+    "pronunciation": "しょうごう",
+    "meaning": "核对；对照检查",
+    "example": "箱の番号と一覧表を照合しました。",
+    "translation": "核对了箱子的编号与一览表。",
+    "tag": "JLPT N2 · noun",
+    "related": "番号を照合する",
+    "pos": "noun",
+    "senses": [
+      "核对",
+      "对照检查"
+    ],
+    "collocations": [
+      "番号を照合する"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-ja-n2-b08-madoguchi",
+    "word": "窓口",
+    "pronunciation": "まどぐち",
+    "meaning": "服务窗口；受理处",
+    "example": "貸出の窓口は、入口の右側です。",
+    "translation": "出借服务窗口在入口右侧。",
+    "tag": "JLPT N2 · noun",
+    "related": "貸出の窓口",
+    "pos": "noun",
+    "senses": [
+      "服务窗口",
+      "受理处"
+    ],
+    "collocations": [
+      "貸出の窓口"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-ja-n2-b08-youshi",
+    "word": "用紙",
+    "pronunciation": "ようし",
+    "meaning": "纸张；表格用纸",
+    "example": "名前を書く用紙を一枚受け取りました。",
+    "translation": "领取了一张填写姓名的表格。",
+    "tag": "JLPT N2 · noun",
+    "related": "用紙に記入する",
+    "pos": "noun",
+    "senses": [
+      "纸张",
+      "表格用纸"
+    ],
+    "collocations": [
+      "用紙に記入する"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-ja-n2-b08-kisai",
+    "word": "記載",
+    "pronunciation": "きさい",
+    "meaning": "记载；填写在文书上",
+    "example": "返す日は、用紙の下に記載されています。",
+    "translation": "归还日期记载在表格下方。",
+    "tag": "JLPT N2 · noun",
+    "related": "返却日を記載する",
+    "pos": "noun",
+    "senses": [
+      "记载",
+      "填写在文书上"
+    ],
+    "collocations": [
+      "返却日を記載する"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-ja-n2-b08-teisei",
+    "word": "訂正",
+    "pronunciation": "ていせい",
+    "meaning": "订正；改正书写错误",
+    "example": "番号の訂正には、理由も書き添えました。",
+    "translation": "订正编号时，也补写了原因。",
+    "tag": "JLPT N2 · noun",
+    "related": "番号を訂正する",
+    "pos": "noun",
+    "senses": [
+      "订正",
+      "改正书写错误"
+    ],
+    "collocations": [
+      "番号を訂正する"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-ja-n2-b08-kimei",
+    "word": "記名",
+    "pronunciation": "きめい",
+    "meaning": "填写姓名；署名",
+    "example": "記名が必要な欄を、先に確かめました。",
+    "translation": "事先确认了需要填写姓名的栏目。",
+    "tag": "JLPT N2 · noun",
+    "related": "記名する欄",
+    "pos": "noun",
+    "senses": [
+      "填写姓名",
+      "署名"
+    ],
+    "collocations": [
+      "記名する欄"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-ja-n2-b08-kashidashi",
+    "word": "貸出",
+    "pronunciation": "かしだし",
+    "meaning": "出借；外借",
+    "example": "この棚には、貸出できる道具を並べています。",
+    "translation": "这个架子上摆放着可出借的工具。",
+    "tag": "JLPT N2 · noun",
+    "related": "道具の貸出",
+    "pos": "noun",
+    "senses": [
+      "出借",
+      "外借"
+    ],
+    "collocations": [
+      "道具の貸出"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-ja-n2-b08-hokan",
+    "word": "保管",
+    "pronunciation": "ほかん",
+    "meaning": "保管；妥善存放",
+    "example": "回収した用紙は、決められた場所で保管します。",
+    "translation": "收回的表格在指定位置保管。",
+    "tag": "JLPT N2 · noun",
+    "related": "用紙を保管する",
+    "pos": "noun",
+    "senses": [
+      "保管",
+      "妥善存放"
+    ],
+    "collocations": [
+      "用紙を保管する"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
   }
 ]

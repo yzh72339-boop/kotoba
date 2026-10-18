@@ -1,3 +1,4 @@
+import {preservedVocabulary,isPreservedVocabulary} from './helpers/preserved-vocabulary.mjs';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
@@ -20,12 +21,12 @@ test('2.7 keeps every original word payload and ID, with complete distinct conte
   assert.equal(createHash('sha256').update(JSON.stringify(old)).digest('hex'),expected[language]);
   const seen=new Set(old.map(w=>w.word.normalize('NFKC').toLowerCase()));
   for(const level of levels[language])for(const w of contextualWords(language,level)){
-   assert.equal(contextualWords(language,level).length,language==='ja'&&level==='N2'?60:20);assert.ok(!seen.has(w.word.normalize('NFKC').toLowerCase()),w.word);seen.add(w.word.normalize('NFKC').toLowerCase());
+   assert.equal(contextualWords(language,level).filter(w=>isPreservedVocabulary(w.id)).length,language==='ja'&&level==='N2'?60:20);assert.ok(!seen.has(w.word.normalize('NFKC').toLowerCase()),w.word);seen.add(w.word.normalize('NFKC').toLowerCase());
    for(const key of ['pronunciation','meaning','example','translation','pos'])assert.ok(w[key]);
    assert.ok(w.collocations.length>0);
   }
  }
- assert.equal(allCourseWords('ja').length+allCourseWords('en').length,927);
+ assert.equal(preservedVocabulary().length,927);
 });
 test('English reading references match whole words and phrases, preserving Unicode offsets',()=>{
  assert.equal(wordOccursInText('already growing','read','en'),false);

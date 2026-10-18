@@ -1,0 +1,131 @@
+{
+  "id": "grammar-en-b2-neednt-have-done",
+  "kind": "grammar",
+  "language": "en",
+  "level": "B2",
+  "difficulty": 3,
+  "tags": [
+    "B2",
+    "v3-vocabulary-08",
+    "借还与记录"
+  ],
+  "title": "Needn’t have done: an action that was unnecessary",
+  "pattern": "need not have + past participle",
+  "meaningZh": "本来不必做，但已经做了",
+  "meaningEn": "a completed action that was unnecessary",
+  "explanation": "needn’t have done通常明确表示某行动实际发生了，但后来知道没有必要。I needn’t have printed the draft说明已经打印。didn’t need to print只说明当时没有打印的必要，本身不保证是否真的打印了，要看上下文。不要把两者都简化为“没做”。",
+  "usage": "回顾一次多余的行动，说明后来得到的信息如何改变对必要性的判断。",
+  "nuance": "needn’t have后用过去分词。这个结构可表达遗憾或安慰，不必带责备；避免据此推断当事人在行动前已经知道不必要。",
+  "structure": [
+    "subject + need not / needn’t + have + past participle"
+  ],
+  "formation": [
+    "subject + need not / needn’t + have + past participle"
+  ],
+  "examples": [
+    {
+      "target": "I needn’t have printed the draft; we had already received a copy.",
+      "zh": "我本来不必打印初稿；我们此前已收到一份了。"
+    },
+    {
+      "target": "She needn’t have made a second entry, but she did not know the first one was saved.",
+      "zh": "她本不必再建一条记录，但当时不知道第一条已经保存。"
+    },
+    {
+      "target": "We didn’t need to revise the label because its date was correct.",
+      "zh": "标签日期正确，所以我们没有修改它的必要。"
+    },
+    {
+      "target": "You needn’t have brought another box, but thank you for offering to help.",
+      "zh": "你本不必再带一个箱子，不过谢谢你愿意帮忙。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I needn’t have print the draft.",
+      "correct": "I needn’t have printed the draft.",
+      "explanation": "have后接过去分词printed，不能使用原形print。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-b2-past-modal-deduction",
+      "explanation": "都用情态形式+have+分词，但needn’t have评价已做行为的必要性；must/might/can’t have主要推断过去是否发生。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-a2-must-have-to",
+    "grammar-en-b1-present-perfect-and-past-simple"
+  ],
+  "relatedGrammar": [
+    "grammar-en-b2-past-modal-deduction"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-b2-neednt-have-done-meaning",
+      "kind": "meaning",
+      "prompt": "“I needn’t have printed the draft.” 通常可确认什么？",
+      "acceptedAnswers": [
+        "实际打印了，但打印没有必要"
+      ],
+      "explanation": "这个结构通常同时给出已发生与不必要两层意思，不是说没有打印。",
+      "options": [
+        "实际打印了，但打印没有必要",
+        "从来没有打印过任何初稿",
+        "当时必须打印而且没有打印"
+      ]
+    },
+    {
+      "id": "grammar-en-b2-neednt-have-done-fill",
+      "kind": "fill",
+      "prompt": "I needn’t have ( ) the draft.",
+      "acceptedAnswers": [
+        "printed"
+      ],
+      "explanation": "needn’t have后用过去分词printed，组成对已完成行动的必要性评价。",
+      "options": [
+        "print",
+        "printed",
+        "printing"
+      ]
+    },
+    {
+      "id": "grammar-en-b2-neednt-have-done-context",
+      "kind": "context",
+      "prompt": "她确实重复建了记录，当时不知道第一条已保存。哪句准确？",
+      "acceptedAnswers": [
+        "She needn’t have made a second entry, but she did not know the first one was saved."
+      ],
+      "explanation": "保留已做事实和当时的信息不足，不能把后见之明当成她预先知道的事。",
+      "options": [
+        "She never made a second entry, so there was a duplicate.",
+        "She must have known no entry was saved, because she saved one.",
+        "She needn’t have made a second entry, but she did not know the first one was saved."
+      ]
+    },
+    {
+      "id": "grammar-en-b2-neednt-have-done-error",
+      "kind": "error",
+      "prompt": "改正过去分词：I needn’t have print the draft.",
+      "acceptedAnswers": [
+        "I needn’t have printed the draft.",
+        "I needn't have printed the draft."
+      ],
+      "explanation": "have后改用printed，保留实际已打印而不必要的语义。"
+    },
+    {
+      "id": "grammar-en-b2-neednt-have-done-translation",
+      "kind": "translation",
+      "prompt": "译成英语：你本不必再带一个箱子，不过谢谢你愿意帮忙。",
+      "acceptedAnswers": [
+        "You needn’t have brought another box, but thank you for offering to help.",
+        "You need not have brought another box, but thank you for offering to help.",
+        "You needn't have brought another box, but thank you for offering to help."
+      ],
+      "explanation": "brought是bring的过去分词；句子可以用于感谢与安慰，不必理解为责备。"
+    }
+  ]
+}

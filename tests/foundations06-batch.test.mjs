@@ -1,3 +1,4 @@
+import {preservedVocabulary} from './helpers/preserved-vocabulary.mjs';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -22,7 +23,7 @@ test('foundations06 preserves all 277 prior course payloads and 927 word IDs and
  const frozen=JSON.parse(readFileSync(new URL('./fixtures/v3-preview-07-baseline.json',import.meta.url),'utf8'));
  const prior=docs.filter(d=>frozen.ids.includes(d.id));assert.equal(prior.length,277);assert.equal(prior.length,frozen.count);
  assert.equal(createHash('sha256').update(JSON.stringify(prior)).digest('hex'),frozen.hash);
- const words=['ja','en'].flatMap(allCourseWords);assert.equal(words.length,frozen.vocabularyCount);
+ const words=preservedVocabulary();assert.equal(words.length,frozen.vocabularyCount);
  assert.equal(createHash('sha256').update(JSON.stringify(words)).digest('hex'),frozen.vocabularyHash);
 });
 

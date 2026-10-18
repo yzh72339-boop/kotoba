@@ -1,0 +1,130 @@
+{
+  "id": "grammar-en-b2-be-get-used-to",
+  "kind": "grammar",
+  "language": "en",
+  "level": "B2",
+  "difficulty": 3,
+  "tags": [
+    "B2",
+    "v3-vocabulary-08",
+    "借还与记录"
+  ],
+  "title": "Be / get used to: familiarity, not a past habit",
+  "pattern": "be / get used to + noun / -ing",
+  "meaningZh": "习惯于；逐渐适应",
+  "meaningEn": "be accustomed to; become accustomed to",
+  "explanation": "be used to描述已经习惯的状态，get used to描述适应过程。这里的to是介词，后接名词或-ing：I am used to checking the inventory。它不同于used to +动词原形的过去习惯。I used to check表示过去经常检查；I am used to checking表示现在检查这件事对我并不陌生。",
+  "usage": "比较旧习惯与目前适应程度，说明新流程是否已经熟悉。",
+  "nuance": "be的时态决定习惯状态所处时间。got used to不是已经证明新方法最好，只表示逐渐熟悉；不把适应当成质量评价。",
+  "structure": [
+    "subject + be used to + noun / V-ing",
+    "subject + get used to + noun / V-ing"
+  ],
+  "formation": [
+    "subject + be used to + noun / V-ing",
+    "subject + get used to + noun / V-ing"
+  ],
+  "examples": [
+    {
+      "target": "I am used to checking each entry before saving it.",
+      "zh": "我已习惯在保存前检查每条记录。"
+    },
+    {
+      "target": "She got used to the new checklist after a week.",
+      "zh": "一周后，她逐渐适应了新的核对清单。"
+    },
+    {
+      "target": "We were not used to keeping a receipt for every loan.",
+      "zh": "我们当时不习惯每次借出都保留收条。"
+    },
+    {
+      "target": "He used to work alone, but now he is used to asking for help.",
+      "zh": "他过去常独自工作，但现在习惯了求助。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "I am used to check each entry.",
+      "correct": "I am used to checking each entry.",
+      "explanation": "be used to里的to是介词，后接-ing；不要套用过去习惯used to check。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-b1-used-to-and-would",
+      "explanation": "used to+原形讲过去常做的事；be used to+-ing讲习惯状态，get used to讲形成这种状态的过程。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-b1-used-to-and-would",
+    "grammar-en-b1-gerunds-after-prepositions"
+  ],
+  "relatedGrammar": [
+    "grammar-en-b1-used-to-and-would"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-b2-be-get-used-to-meaning",
+      "kind": "meaning",
+      "prompt": "“I am used to checking each entry.” 表示什么？",
+      "acceptedAnswers": [
+        "检查每条记录是我已习惯的事"
+      ],
+      "explanation": "be used to描述熟悉状态，并不等于过去做现在一定不做。",
+      "options": [
+        "只报告过去经常检查、现在一定不检查",
+        "保证所有记录从不出错",
+        "检查每条记录是我已习惯的事"
+      ]
+    },
+    {
+      "id": "grammar-en-b2-be-get-used-to-fill",
+      "kind": "fill",
+      "prompt": "I am used to ( ) each entry before saving it.",
+      "acceptedAnswers": [
+        "checking"
+      ],
+      "explanation": "to在这个表达中是介词，后接checking，不接原形check。",
+      "options": [
+        "checking",
+        "check",
+        "checked by"
+      ]
+    },
+    {
+      "id": "grammar-en-b2-be-get-used-to-context",
+      "kind": "context",
+      "prompt": "要说过去习惯独自工作，现在已习惯求助，哪句准确？",
+      "acceptedAnswers": [
+        "He used to work alone, but now he is used to asking for help."
+      ],
+      "explanation": "前半用used to+原形描述过去，后半用is used to+-ing描述现在熟悉的行动。",
+      "options": [
+        "He is used to work alone, but now he used to asking for help.",
+        "He used to work alone, but now he is used to asking for help.",
+        "He used to working alone, but now he is used to ask for help."
+      ]
+    },
+    {
+      "id": "grammar-en-b2-be-get-used-to-error",
+      "kind": "error",
+      "prompt": "改正当前习惯状态：I am used to check each entry.",
+      "acceptedAnswers": [
+        "I am used to checking each entry."
+      ],
+      "explanation": "保留am used to，再把check改为checking；不是把整句变成过去习惯。"
+    },
+    {
+      "id": "grammar-en-b2-be-get-used-to-translation",
+      "kind": "translation",
+      "prompt": "译成英语：一周后，她逐渐适应了新的核对清单。",
+      "acceptedAnswers": [
+        "She got used to the new checklist after a week."
+      ],
+      "explanation": "got used to描述适应过程的形成，后面的名词短语无需改成动词。"
+    }
+  ]
+}
