@@ -469,5 +469,293 @@
     "frequency": "medium",
     "register": "neutral",
     "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b1-b09-queue",
+    "word": "queue",
+    "pronunciation": "/kjuː/",
+    "meaning": "队伍",
+    "example": "The queue is near the entrance.",
+    "translation": "队伍在入口附近。",
+    "tag": "B1 · noun",
+    "related": "join a queue",
+    "pos": "noun",
+    "senses": [
+      "队伍"
+    ],
+    "collocations": [
+      "join a queue"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "community-delivery"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-b1-b09-shift",
+    "word": "shift",
+    "pronunciation": "/ʃɪft/",
+    "meaning": "轮班；班次",
+    "example": "The next shift can check the update.",
+    "translation": "下一班可以查看最新说明。",
+    "tag": "B1 · noun",
+    "related": "the next shift",
+    "pos": "noun",
+    "senses": [
+      "轮班；班次"
+    ],
+    "collocations": [
+      "the next shift"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "community-delivery"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-b1-b09-deliver",
+    "word": "deliver",
+    "pronunciation": "/dɪˈlɪvə/",
+    "meaning": "递送",
+    "example": "We deliver food to people at home.",
+    "translation": "我们把食物送到人们家里。",
+    "tag": "B1 · verb",
+    "related": "deliver food",
+    "pos": "verb",
+    "senses": [
+      "递送"
+    ],
+    "collocations": [
+      "deliver food"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "community-delivery"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-b1-b09-pack",
+    "word": "pack",
+    "pronunciation": "/pæk/",
+    "meaning": "打包",
+    "example": "We pack the parcels before lunch.",
+    "translation": "我们午饭前打包包裹。",
+    "tag": "B1 · verb",
+    "related": "pack a parcel",
+    "pos": "verb",
+    "senses": [
+      "打包"
+    ],
+    "collocations": [
+      "pack a parcel"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "community-delivery"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-b1-b09-sort",
+    "word": "sort",
+    "pronunciation": "/sɔːt/",
+    "meaning": "分类；分拣",
+    "example": "We sort the parcels by street.",
+    "translation": "我们按街道分拣包裹。",
+    "tag": "B1 · verb",
+    "related": "sort the parcels",
+    "pos": "verb",
+    "senses": [
+      "分类；分拣"
+    ],
+    "collocations": [
+      "sort the parcels"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "community-delivery"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-b1-b09-parcel",
+    "word": "parcel",
+    "pronunciation": "/ˈpɑːsəl/",
+    "meaning": "包裹",
+    "example": "Each parcel has a name on it.",
+    "translation": "每个包裹上都有一个名字。",
+    "tag": "B1 · noun",
+    "related": "a food parcel",
+    "pos": "noun",
+    "senses": [
+      "包裹"
+    ],
+    "collocations": [
+      "a food parcel"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "community-delivery"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-b1-b09-delay",
+    "word": "delay",
+    "pronunciation": "/dɪˈleɪ/",
+    "meaning": "延误",
+    "example": "The rain caused a short delay.",
+    "translation": "下雨导致了短暂延误。",
+    "tag": "B1 · noun",
+    "related": "a short delay",
+    "pos": "noun",
+    "senses": [
+      "延误"
+    ],
+    "collocations": [
+      "a short delay"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "community-delivery"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-b1-b09-supply",
+    "word": "supply",
+    "pronunciation": "/səˈplaɪ/",
+    "meaning": "供应量；储备物资",
+    "example": "We check the supply before the next shift.",
+    "translation": "我们在下一班到来前核查物资。",
+    "tag": "B1 · noun",
+    "related": "a supply of food",
+    "pos": "noun",
+    "senses": [
+      "供应量；储备物资"
+    ],
+    "collocations": [
+      "a supply of food"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "community-delivery"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-b1-b09-separate",
+    "word": "separate",
+    "pronunciation": "/ˈsepəreɪt/",
+    "meaning": "分开",
+    "example": "We separate the two queues.",
+    "translation": "我们把两条队伍分开。",
+    "tag": "B1 · verb",
+    "related": "separate two groups",
+    "pos": "verb",
+    "senses": [
+      "分开"
+    ],
+    "collocations": [
+      "separate two groups"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "community-delivery"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-b1-b09-check",
+    "word": "check",
+    "pronunciation": "/tʃek/",
+    "meaning": "检查；核查",
+    "example": "Please check the name on each parcel.",
+    "translation": "请核查每个包裹上的名字。",
+    "tag": "B1 · verb",
+    "related": "check a name",
+    "pos": "verb",
+    "senses": [
+      "检查；核查"
+    ],
+    "collocations": [
+      "check a name"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "community-delivery"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-b1-b09-update",
+    "word": "update",
+    "pronunciation": "/ˈʌpdeɪt/",
+    "meaning": "最新说明；更新信息",
+    "example": "Mina wrote an update for the next shift.",
+    "translation": "米娜给下一班写了最新说明。",
+    "tag": "B1 · noun",
+    "related": "a short update",
+    "pos": "noun",
+    "senses": [
+      "最新说明；更新信息"
+    ],
+    "collocations": [
+      "a short update"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "community-delivery"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-b1-b09-entrance",
+    "word": "entrance",
+    "pronunciation": "/ˈentrəns/",
+    "meaning": "入口",
+    "example": "People can wait near the entrance.",
+    "translation": "人们可以在入口附近等候。",
+    "tag": "B1 · noun",
+    "related": "the main entrance",
+    "pos": "noun",
+    "senses": [
+      "入口"
+    ],
+    "collocations": [
+      "the main entrance"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "community-delivery"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
   }
 ]

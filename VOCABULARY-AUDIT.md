@@ -9,14 +9,14 @@ Counts are course cards; JLPT/CEFR tags are editorial teaching levels, not offic
 | ja | N3 | 81 | 79 | 20 | 30 | 14 |
 | ja | N2 | 222 | 222 | 72 | 119 | 71 |
 | ja | N1 | 70 | 70 | 20 | 11 | 8 |
-| en | A1 | 70 | 70 | 20 | 54 | 18 |
+| en | A1 | 82 | 82 | 32 | 66 | 30 |
 | en | A2 | 70 | 70 | 20 | 33 | 17 |
-| en | B1 | 76 | 70 | 20 | 23 | 15 |
+| en | B1 | 88 | 82 | 32 | 35 | 27 |
 | en | B2 | 82 | 82 | 32 | 36 | 26 |
 | en | C1 | 70 | 70 | 20 | 14 | 10 |
 | en | C2 | 70 | 70 | 20 | 4 | 3 |
 
-Total cards: 951. New distinct cards: 284. Retained legacy repeated terms across sources/levels: 19.
+Total cards: 975. New distinct cards: 308. Retained legacy repeated terms across sources/levels: 19.
 Quality errors: 0.
 
 This original graded supplement improves course/reading coverage; it is not an exhaustive dictionary. Inflected occurrences are not fabricated as exact matches. IPA is a broad British-oriented transcription; individual accents vary. Original examples and translations were spot-checked; automated checks do not replace independent editorial review.

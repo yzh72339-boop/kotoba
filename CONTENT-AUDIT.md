@@ -9,20 +9,20 @@ Counts include only schema-validated V3 lessons. Legacy lessons remain available
 | ja | N3 | 14 / 150 | 7 / 70 | 56 | 368–547 | 14 / 10 | 7 / 5 |
 | ja | N2 | 69 / 180 | 26 / 60 | 276 | 593–869 | 69 / 50 | 26 / 10 |
 | ja | N1 | 16 / 180 | 8 / 50 | 64 | 880–1262 | 16 / 10 | 8 / 5 |
-| en | A1 | 10 / 60 | 5 / 40 | 40 | 104–114 | 10 / 10 | 5 / 5 |
+| en | A1 | 12 / 60 | 6 / 40 | 48 | 104–168 | 12 / 10 | 6 / 5 |
 | en | A2 | 14 / 80 | 7 / 50 | 56 | 168–203 | 14 / 10 | 7 / 5 |
-| en | B1 | 10 / 100 | 5 / 60 | 40 | 268–338 | 10 / 10 | 5 / 5 |
+| en | B1 | 12 / 100 | 6 / 60 | 48 | 268–338 | 12 / 10 | 6 / 5 |
 | en | B2 | 14 / 120 | 7 / 60 | 56 | 411–481 | 14 / 10 | 7 / 5 |
 | en | C1 | 14 / 120 | 7 / 50 | 56 | 629–670 | 14 / 10 | 7 / 5 |
 | en | C2 | 12 / 100 | 6 / 40 | 48 | 847–969 | 12 / 10 | 6 / 5 |
 
 2.6 stage status: **MET**. Remaining stage units: 0.
-Correct-option position distribution (zero-based): {"grammar":{"0":279,"1":226,"2":206},"reading":{"0":171,"1":146,"2":164}}. Frozen option ordering is preserved in the compiled documents.
+Correct-option position distribution (zero-based): {"grammar":{"0":283,"1":230,"2":210},"reading":{"0":174,"1":150,"2":167}}. Frozen option ordering is preserved in the compiled documents.
 
-Target status: **NOT MET**. Remaining units: 1546.
+Target status: **NOT MET**. Remaining units: 1540.
 Quality errors: 0. Length warnings: 0.
 
-Grammar with explicit reading links: 208. Unlinked grammar: 0 (follow-up association work, including existing N2 lessons and conjugation foundations).
+Grammar with explicit reading links: 212. Unlinked grammar: 0 (follow-up association work, including existing N2 lessons and conjugation foundations).
 
 ## Errors
 None.

@@ -1,0 +1,132 @@
+{
+  "id": "grammar-en-a1-place-prepositions",
+  "kind": "grammar",
+  "language": "en",
+  "level": "A1",
+  "difficulty": 1,
+  "tags": [
+    "A1",
+    "v3-vocabulary-09",
+    "位置与协作"
+  ],
+  "title": "Place: under, behind and between",
+  "pattern": "under / behind / between + noun phrase",
+  "meaningZh": "在……下面／后面／两者之间",
+  "meaningEn": "locating things under, behind or between others",
+  "explanation": "位置介词把物品与一个参照物联系起来。under the desk说明在桌子下面；behind the green box说明在绿色盒子后面；between the pen and the pencil说明在两个参照物之间。between后要说清参照物，常用A and B，而不是把and换成to。",
+  "usage": "寻找物品、描述摆放位置，或在指令中说明东西要放在哪里。",
+  "nuance": "本课的under表示较低的位置，不要求物品接触；behind依赖观察方向。between也可用于更多清楚区分的对象，本课先练习两个参照物。",
+  "structure": [
+    "Noun + be + under / behind + noun phrase",
+    "Noun + be + between + A + and + B",
+    "Put + object + under / behind / between ..."
+  ],
+  "formation": [
+    "Noun + be + under / behind + noun phrase",
+    "Noun + be + between + A + and + B",
+    "Put + object + under / behind / between ..."
+  ],
+  "examples": [
+    {
+      "target": "The green box is under the desk.",
+      "zh": "绿色盒子在书桌下面。"
+    },
+    {
+      "target": "The yellow key is behind the green box.",
+      "zh": "黄色钥匙在绿色盒子后面。"
+    },
+    {
+      "target": "The paper is between the pen and the pencil.",
+      "zh": "纸在钢笔和铅笔之间。"
+    },
+    {
+      "target": "Put the bag under the chair, please.",
+      "zh": "请把包放在椅子下面。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The paper is between the pen to the pencil.",
+      "correct": "The paper is between the pen and the pencil.",
+      "explanation": "描述两个参照物时使用between A and B，不是between A to B。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-a1-there-is-are",
+      "explanation": "There is a box先介绍存在；The box is under the desk把已知盒子定位。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-a1-be-identity",
+    "grammar-en-a1-indefinite-article"
+  ],
+  "relatedGrammar": [
+    "grammar-en-a1-there-is-are"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-a1-place-prepositions-meaning",
+      "kind": "meaning",
+      "prompt": "“The yellow key is behind the green box.” 钥匙在哪里？",
+      "acceptedAnswers": [
+        "在绿色盒子后面"
+      ],
+      "explanation": "behind表示在参照物后面，不是下面或里面。",
+      "options": [
+        "在绿色盒子里面",
+        "在绿色盒子后面",
+        "在绿色盒子下面"
+      ]
+    },
+    {
+      "id": "grammar-en-a1-place-prepositions-fill",
+      "kind": "fill",
+      "prompt": "The paper is between the pen ( ) the pencil.",
+      "acceptedAnswers": [
+        "and"
+      ],
+      "explanation": "两个明确参照物通常用between A and B连接。",
+      "options": [
+        "to",
+        "under",
+        "and"
+      ]
+    },
+    {
+      "id": "grammar-en-a1-place-prepositions-context",
+      "kind": "context",
+      "prompt": "纸在钢笔与铅笔之间，哪句准确？",
+      "acceptedAnswers": [
+        "The paper is between the pen and the pencil."
+      ],
+      "explanation": "between连接两边的参照物，保留纸作为被定位物。",
+      "options": [
+        "The paper is between the pen and the pencil.",
+        "The paper is behind the pen and every pencil.",
+        "The pen is between the paper and the pencil."
+      ]
+    },
+    {
+      "id": "grammar-en-a1-place-prepositions-error",
+      "kind": "error",
+      "prompt": "改正位置表达：The paper is between the pen to the pencil.",
+      "acceptedAnswers": [
+        "The paper is between the pen and the pencil."
+      ],
+      "explanation": "把to换为and，形成between A and B的位置表达。"
+    },
+    {
+      "id": "grammar-en-a1-place-prepositions-translation",
+      "kind": "translation",
+      "prompt": "译成英语：绿色盒子在书桌下面。",
+      "acceptedAnswers": [
+        "The green box is under the desk."
+      ],
+      "explanation": "is与单数box一致；under the desk说明盒子的位置。"
+    }
+  ]
+}

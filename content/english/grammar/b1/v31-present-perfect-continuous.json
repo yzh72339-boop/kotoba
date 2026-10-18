@@ -1,0 +1,132 @@
+{
+  "id": "grammar-en-b1-present-perfect-continuous",
+  "kind": "grammar",
+  "language": "en",
+  "level": "B1",
+  "difficulty": 3,
+  "tags": [
+    "B1",
+    "v3-vocabulary-09",
+    "持续活动与目的"
+  ],
+  "title": "Present perfect continuous: activity up to now",
+  "pattern": "have / has been + -ing",
+  "meaningZh": "从过去延续到现在的活动，或刚停止但仍有影响的活动",
+  "meaningEn": "an activity continuing up to now or with a present result",
+  "explanation": "现在完成进行时用have或has been加-ing，强调过去开始、与现在相关的活动及持续过程。We have been packing parcels since nine可表示从九点一直忙到现在；说话时可能仍在做，也可能刚停下来。它不等于已经完成多少份；若强调数量结果，常改用现在完成时。",
+  "usage": "说明最近或持续进行的工作、等待与变化，交代现在疲惫、潮湿等状态的活动原因。",
+  "nuance": "since引出起点，for引出一段时长。know等状态动词通常不用进行式；持续时长不自动证明工作已经全部完成。",
+  "structure": [
+    "Subject + have / has been + verb-ing",
+    "have / has been + -ing + since + starting point",
+    "have / has been + -ing + for + duration"
+  ],
+  "formation": [
+    "Subject + have / has been + verb-ing",
+    "have / has been + -ing + since + starting point",
+    "have / has been + -ing + for + duration"
+  ],
+  "examples": [
+    {
+      "target": "We have been packing parcels since nine.",
+      "zh": "我们从九点开始一直在打包包裹。"
+    },
+    {
+      "target": "Mina has been checking the queue for half an hour.",
+      "zh": "米娜一直在查看队伍，已经半小时了。"
+    },
+    {
+      "target": "I have packed twelve parcels today.",
+      "zh": "我今天已经打包了十二个包裹。"
+    },
+    {
+      "target": "We have been delivering food this morning, so our coats are wet.",
+      "zh": "我们今天上午一直在送食物，所以外套都湿了。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "We have been packing parcels since two hours.",
+      "correct": "We have been packing parcels for two hours.",
+      "explanation": "two hours是一段时长，用for；since后接起点，如nine或Monday。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-b1-present-perfect-and-past-simple",
+      "explanation": "have packed twelve强调已完成的数量；have been packing强调活动过程，不承诺全部完成。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-b1-present-perfect-and-past-simple",
+    "grammar-en-a2-present-continuous"
+  ],
+  "relatedGrammar": [
+    "grammar-en-b1-present-perfect-and-past-simple"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-b1-present-perfect-continuous-meaning",
+      "kind": "meaning",
+      "prompt": "“We have been packing parcels since nine.” 主要强调什么？",
+      "acceptedAnswers": [
+        "从九点起持续打包的活动"
+      ],
+      "explanation": "完成进行时强调活动过程；句子没有提供已完成总数。",
+      "options": [
+        "所有包裹都已经送达",
+        "明天九点才开始打包",
+        "从九点起持续打包的活动"
+      ]
+    },
+    {
+      "id": "grammar-en-b1-present-perfect-continuous-fill",
+      "kind": "fill",
+      "prompt": "Mina has been checking the queue ( ) half an hour.",
+      "acceptedAnswers": [
+        "for"
+      ],
+      "explanation": "half an hour表示一段持续时间，应搭配for。",
+      "options": [
+        "for",
+        "since",
+        "during of"
+      ]
+    },
+    {
+      "id": "grammar-en-b1-present-perfect-continuous-context",
+      "kind": "context",
+      "prompt": "你想报告今天已打包的确切数量，哪句更合适？",
+      "acceptedAnswers": [
+        "I have packed twelve parcels today."
+      ],
+      "explanation": "完成时加数量直接报告结果；进行时强调忙碌过程。",
+      "options": [
+        "I have been packing parcels today.",
+        "I have packed twelve parcels today.",
+        "I will pack twelve parcels next week."
+      ]
+    },
+    {
+      "id": "grammar-en-b1-present-perfect-continuous-error",
+      "kind": "error",
+      "prompt": "改正时长表达：We have been packing parcels since two hours.",
+      "acceptedAnswers": [
+        "We have been packing parcels for two hours."
+      ],
+      "explanation": "two hours为时长而非开始时点，因此将since改为for。"
+    },
+    {
+      "id": "grammar-en-b1-present-perfect-continuous-translation",
+      "kind": "translation",
+      "prompt": "译成英语：米娜一直在查看队伍，已经半小时了。",
+      "acceptedAnswers": [
+        "Mina has been checking the queue for half an hour."
+      ],
+      "explanation": "单数Mina配has been checking；for引出持续时长。"
+    }
+  ]
+}

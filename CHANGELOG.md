@@ -1,3 +1,9 @@
+# 3.1.0-preview.11 — English foundations in context
+
+- Add24 A1/B1 cards,4 grammar,2 original readers,16 examples and30 explained practice items; reuse local source-form lookup and original collection/SRS paths.
+- Freeze all951 prior vocabulary and304 course payloads. Actual new-course tests cover level/language switching, ID/answer restore, source/duplicate safety and existing SRS dates.
+- No dependency, Auth/RLS, quota, schema or migration changes. Full1260/590 target remains incomplete; real-device/account acceptance remains separate.
+
 # 3.1.0-preview.10 — words from learning contexts
 
 - Add24 distinct N2/B2 vocabulary cards with kana/IPA, meaning, examples, collocations and actual new reader links. Reuse existing course/dictionary/source/SRS paths; old927 IDs/payloads unchanged.
