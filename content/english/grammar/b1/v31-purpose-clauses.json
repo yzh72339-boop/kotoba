@@ -101,10 +101,10 @@
       "acceptedAnswers": [
         "Mina wrote an update so that the next shift could check the supply."
       ],
-      "explanation": "so that之后明示the next shift，避免把核查者误读为Mina。",
+      "explanation": "正确句明确the next shift是核查者；she把行动者改成Mina，because把目的变成已发生的原因。",
       "options": [
-        "Mina wrote an update to the next shift could check the supply.",
-        "The next shift wrote Mina so the supply checked itself.",
+        "Mina wrote an update so that she could check the supply.",
+        "Mina wrote an update because the next shift had already checked the supply.",
         "Mina wrote an update so that the next shift could check the supply."
       ]
     },

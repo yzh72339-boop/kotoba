@@ -106,7 +106,7 @@
       "explanation": "between连接两边的参照物，保留纸作为被定位物。",
       "options": [
         "The paper is between the pen and the pencil.",
-        "The paper is behind the pen and every pencil.",
+        "The paper is behind the pen.",
         "The pen is between the paper and the pencil."
       ]
     },
