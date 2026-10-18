@@ -472,5 +472,304 @@
     "frequency": "medium",
     "register": "neutral",
     "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-b2-b08-label",
+    "word": "label",
+    "pronunciation": "ˈleɪbəl",
+    "meaning": "标签；标记说明",
+    "example": "The label shows which shelf the box belongs on.",
+    "translation": "标签说明这个箱子应放在哪个架子上。",
+    "tag": "CEFR B2 · noun",
+    "related": "a clear label",
+    "pos": "noun",
+    "senses": [
+      "标签",
+      "标记说明"
+    ],
+    "collocations": [
+      "a clear label"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-en-b2-b08-draft",
+    "word": "draft",
+    "pronunciation": "drɑːft",
+    "meaning": "草稿；初稿",
+    "example": "The first draft did not explain the return procedure.",
+    "translation": "初稿没有说明归还流程。",
+    "tag": "CEFR B2 · noun",
+    "related": "a first draft",
+    "pos": "noun",
+    "senses": [
+      "草稿",
+      "初稿"
+    ],
+    "collocations": [
+      "a first draft"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-en-b2-b08-entry",
+    "word": "entry",
+    "pronunciation": "ˈentri",
+    "meaning": "记录条目；登记项",
+    "example": "Each entry includes the box number and the date.",
+    "translation": "每条记录都包含箱子编号与日期。",
+    "tag": "CEFR B2 · noun",
+    "related": "a separate entry",
+    "pos": "noun",
+    "senses": [
+      "记录条目",
+      "登记项"
+    ],
+    "collocations": [
+      "a separate entry"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-en-b2-b08-duplicate",
+    "word": "duplicate",
+    "pronunciation": "ˈdjuːplɪkət",
+    "meaning": "重复项；副本",
+    "example": "We found a duplicate when we compared the two lists.",
+    "translation": "对照两份清单时，我们发现了一项重复记录。",
+    "tag": "CEFR B2 · noun",
+    "related": "find a duplicate",
+    "pos": "noun",
+    "senses": [
+      "重复项",
+      "副本"
+    ],
+    "collocations": [
+      "find a duplicate"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-en-b2-b08-revision",
+    "word": "revision",
+    "pronunciation": "rɪˈvɪʒən",
+    "meaning": "修订；修订版本",
+    "example": "The revision makes the instructions easier to follow.",
+    "translation": "修订让说明更容易遵循。",
+    "tag": "CEFR B2 · noun",
+    "related": "a careful revision",
+    "pos": "noun",
+    "senses": [
+      "修订",
+      "修订版本"
+    ],
+    "collocations": [
+      "a careful revision"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-en-b2-b08-request",
+    "word": "request",
+    "pronunciation": "rɪˈkwest",
+    "meaning": "请求；申请",
+    "example": "Her request was for a shorter form, not a new system.",
+    "translation": "她请求的是更简短的表格，而不是一套新系统。",
+    "tag": "CEFR B2 · noun",
+    "related": "a written request",
+    "pos": "noun",
+    "senses": [
+      "请求",
+      "申请"
+    ],
+    "collocations": [
+      "a written request"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-en-b2-b08-receipt",
+    "word": "receipt",
+    "pronunciation": "rɪˈsiːt",
+    "meaning": "收据；收条",
+    "example": "Keep the receipt until you return the box.",
+    "translation": "归还箱子之前请保留收条。",
+    "tag": "CEFR B2 · noun",
+    "related": "keep a receipt",
+    "pos": "noun",
+    "senses": [
+      "收据",
+      "收条"
+    ],
+    "collocations": [
+      "keep a receipt"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-en-b2-b08-retain",
+    "word": "retain",
+    "pronunciation": "rɪˈteɪn",
+    "meaning": "保留；留存",
+    "example": "We retain the original note when a number is corrected.",
+    "translation": "订正编号时，我们保留原始记录。",
+    "tag": "CEFR B2 · verb",
+    "related": "retain the original",
+    "pos": "verb",
+    "senses": [
+      "保留",
+      "留存"
+    ],
+    "collocations": [
+      "retain the original"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-en-b2-b08-clarify",
+    "word": "clarify",
+    "pronunciation": "ˈklærɪfaɪ",
+    "meaning": "澄清；说明清楚",
+    "example": "The example helps clarify when the form is needed.",
+    "translation": "这个例子有助于说明何时需要表格。",
+    "tag": "CEFR B2 · verb",
+    "related": "clarify the instructions",
+    "pos": "verb",
+    "senses": [
+      "澄清",
+      "说明清楚"
+    ],
+    "collocations": [
+      "clarify the instructions"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-en-b2-b08-specify",
+    "word": "specify",
+    "pronunciation": "ˈspesɪfaɪ",
+    "meaning": "明确说明；具体列明",
+    "example": "Please specify which box you want to borrow.",
+    "translation": "请明确说明想借哪一个箱子。",
+    "tag": "CEFR B2 · verb",
+    "related": "specify the date",
+    "pos": "verb",
+    "senses": [
+      "明确说明",
+      "具体列明"
+    ],
+    "collocations": [
+      "specify the date"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-en-b2-b08-checklist",
+    "word": "checklist",
+    "pronunciation": "ˈtʃeklɪst",
+    "meaning": "核对清单",
+    "example": "A short checklist reminds us to check the date.",
+    "translation": "简短的核对清单提醒我们检查日期。",
+    "tag": "CEFR B2 · noun",
+    "related": "follow a checklist",
+    "pos": "noun",
+    "senses": [
+      "核对清单"
+    ],
+    "collocations": [
+      "follow a checklist"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-en-b2-b08-inventory",
+    "word": "inventory",
+    "pronunciation": "ˈɪnvəntri",
+    "meaning": "库存清单；物品清册",
+    "example": "The inventory lists the tools available for loan.",
+    "translation": "物品清册列出了可出借的工具。",
+    "tag": "CEFR B2 · noun",
+    "related": "update the inventory",
+    "pos": "noun",
+    "senses": [
+      "库存清单",
+      "物品清册"
+    ],
+    "collocations": [
+      "update the inventory"
+    ],
+    "topics": [
+      "v3-vocabulary-08",
+      "community-lending"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch08"
   }
 ]

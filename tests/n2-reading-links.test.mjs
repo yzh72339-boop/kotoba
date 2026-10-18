@@ -1,3 +1,4 @@
+import {preservedVocabulary} from './helpers/preserved-vocabulary.mjs';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
@@ -22,7 +23,7 @@ const restore=s=>parseBackup(exportJSON(s));
 const hash=value=>createHash('sha256').update(JSON.stringify(value)).digest('hex');
 
 test('linked N2 batch keeps all 927 vocabulary payloads and every original question identity/answer',()=>{
- assert.equal(hash(cards),'1b562788e4b02cbed1250ff8a46cf857b1ec8e6d9ceced7736ff7f52f9959314');
+ assert.equal(hash(preservedVocabulary()),'1b562788e4b02cbed1250ff8a46cf857b1ec8e6d9ceced7736ff7f52f9959314');
  const original=grammars.map(g=>({id:g.id,questions:g.exercises.slice(0,5).map(q=>Object.fromEntries(Object.entries(q).filter(([key])=>key!=='explanation')))})).sort((a,b)=>a.id.localeCompare(b.id));
  assert.equal(hash(original),'4d6b72705ee678dfec6893c40e0d060491459d410c0b070694bfbd55f8cb0c8d');
  for(const g of grammars){assert.equal(g.exercises.length,7);assert.equal(g.examples.length,4)}

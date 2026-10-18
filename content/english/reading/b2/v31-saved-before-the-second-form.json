@@ -1,0 +1,120 @@
+{
+  "id": "article-en-b2-saved-before-the-second-form",
+  "kind": "reading",
+  "language": "en",
+  "level": "B2",
+  "difficulty": 3,
+  "tags": [
+    "B2",
+    "v3-vocabulary-08",
+    "借还与记录"
+  ],
+  "title": "Saved before the second form",
+  "topic": "共享资源 · 对重复记录的后见判断",
+  "genre": "story",
+  "estimatedMinutes": 3,
+  "paragraphs": [
+    "Our neighbourhood tool group kept an inventory in a shared file. Each box had a label, and each loan needed a separate entry. I had worked with paper lists before, but I was not used to checking whether an online entry had finished saving. On my first afternoon, I submitted one form, saw no clear message, and submitted another. Later, a colleague found a duplicate for the same box. I had not tried to borrow it twice; I had tried to find out whether the first request had worked.",
+    "The colleague said, \"You needn’t have made a second entry. The first one was already saved.\" That was true, but it did not mean I had known this when I clicked again. We had retained the original request, so we could see the order of events. Instead of simply deleting one line, she added a note explaining which entry should be used. The problem was a missing sign of completion, not a need for every user to become an expert in the file.",
+    "We decided to revise the instructions. The first draft told people to click Save, but it did not specify what they should see next. A short revision added the exact confirmation message and explained what to do if it did not appear. We also agreed to retain the original note when making a correction. This would help the next person understand why the record had changed, rather than assuming that a different box had been borrowed.",
+    "One member asked for a printed receipt. I first thought this meant printing every form, which would have taken more work. She only wanted something that showed her loan was complete and stated the return date. Her example helped clarify the difference between a useful confirmation and a full copy of our internal record. We tested a small receipt with the box number and date, and asked her whether the information answered her question.",
+    "By the following week, I had got used to the new checklist. It reminded me to compare the box number, wait for the confirmation, and hand over the receipt. Becoming familiar with the process did not prove that the process was perfect. We still asked new members to try it, because they noticed steps that regular volunteers no longer thought about. When we looked back at the duplicate, we could say that my second action had been unnecessary without pretending that the information available to me had been clear."
+  ],
+  "translation": [
+    "社区工具小组用共享文件保存物品清册。每个箱子有标签，每次借出需要单独记录。我以前用过纸质清单，但不习惯检查线上记录是否保存完毕。第一天下午，我提交一次表格，没有看到清楚提示，于是又提交。后来同事发现同一箱子的重复项。我不是想借两次，而是想知道第一次请求是否成功。",
+    "同事说：“你本不必再建一条，第一条已经保存了。”这是真的，但不意味着我再次点击时就知道。我们保留了原始请求，能够看出事件顺序。她没有简单删掉一行，而是加注说明该使用哪条记录。问题是完成标志缺失，而非每个使用者都必须成为文件专家。",
+    "大家决定修订说明。初稿只说点击保存，却没明确之后该看到什么。一次简短修订加入准确的确认提示，也说明未出现时怎么办。我们还同意，订正时保留原始说明，这样下一位负责人能理解为何改动，而不会误以为借出了另一个箱子。",
+    "一名成员要求纸质收条。我起初以为要打印每张完整表格，那会增加工作。其实她只想知道借出已完成，并看到归还日期。这个例子帮助澄清了有效确认与完整内部记录的区别。我们测试一张带编号与日期的小收条，请她判断信息是否回答了疑问。",
+    "下一周，我逐渐适应新核对清单。它提醒我对照箱号、等待确认，再交付收条。熟悉流程不证明流程完美。我们仍请新成员试用，因为他们能注意到常规志愿者不再考虑的步骤。回看重复项时，我们可以说第二次行动没有必要，却不假装我当时得到的信息已经清楚。"
+  ],
+  "vocabulary": [
+    "context-en-b2-b08-label",
+    "context-en-b2-b08-draft",
+    "context-en-b2-b08-entry",
+    "context-en-b2-b08-duplicate",
+    "context-en-b2-b08-revision",
+    "context-en-b2-b08-request",
+    "context-en-b2-b08-receipt",
+    "context-en-b2-b08-retain",
+    "context-en-b2-b08-clarify",
+    "context-en-b2-b08-specify",
+    "context-en-b2-b08-checklist",
+    "context-en-b2-b08-inventory"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-b2-be-get-used-to",
+      "surface": "not used to checking"
+    },
+    {
+      "id": "grammar-en-b2-neednt-have-done",
+      "surface": "needn’t have made a second entry"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-b2-saved-before-the-second-form-main-idea",
+      "type": "main-idea",
+      "prompt": "What is the central lesson of the duplicate entry?",
+      "options": [
+        "Users should never be allowed to ask for confirmation.",
+        "A clear completion signal matters, and hindsight should not replace what the user knew then.",
+        "Every loan requires a printed copy of the whole file."
+      ],
+      "answer": 1,
+      "explanation": "The story separates an unnecessary action from the unclear information available at the time, then tests a more useful confirmation process."
+    },
+    {
+      "id": "article-en-b2-saved-before-the-second-form-detail",
+      "type": "detail",
+      "prompt": "What did the member actually want from a receipt?",
+      "options": [
+        "A complete copy of every member’s internal notes.",
+        "A new label for all boxes in the group.",
+        "Confirmation of her loan and the return date."
+      ],
+      "answer": 2,
+      "explanation": "Paragraph four explicitly distinguishes useful confirmation from a full internal record."
+    },
+    {
+      "id": "article-en-b2-saved-before-the-second-form-inference",
+      "type": "inference",
+      "prompt": "Why did the group retain the original note when making a correction?",
+      "options": [
+        "So another volunteer could understand why the record changed.",
+        "To prove that the system could never make mistakes.",
+        "To encourage people to submit every request twice."
+      ],
+      "answer": 0,
+      "explanation": "Paragraph three explains that preserving the note helps later staff interpret the change without assuming a different box was borrowed."
+    },
+    {
+      "id": "article-en-b2-saved-before-the-second-form-grammar",
+      "type": "grammar",
+      "prompt": "What does “You needn’t have made a second entry” imply here?",
+      "options": [
+        "The second entry was never made.",
+        "It was made, but was unnecessary; this does not prove the user knew that beforehand.",
+        "The first entry certainly failed to save."
+      ],
+      "answer": 1,
+      "explanation": "The actual duplicate confirms the second action happened. The next sentence distinguishes later knowledge from what was clear at the time."
+    },
+    {
+      "id": "article-en-b2-saved-before-the-second-form-author-intent",
+      "type": "author-intent",
+      "prompt": "Why does the writer say familiarity did not prove the process was perfect?",
+      "options": [
+        "To say experienced volunteers had learned nothing.",
+        "To reject every use of a checklist.",
+        "To leave room for new users to reveal unclear steps that regular users overlook."
+      ],
+      "answer": 2,
+      "explanation": "The final paragraph keeps inviting new members to test the process, treating familiarity as adaptation rather than evidence of quality."
+    }
+  ],
+  "notes": [
+    "原创教学情境，不是实际机构规则或个人信息处理规范。",
+    "预计用时按200日文字符/分钟或160英文词/分钟计算，不是个人速度预测。"
+  ]
+}

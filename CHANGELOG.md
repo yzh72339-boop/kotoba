@@ -1,3 +1,9 @@
+# 3.1.0-preview.10 — words from learning contexts
+
+- Add24 distinct N2/B2 vocabulary cards with kana/IPA, meaning, examples, collocations and actual new reader links. Reuse existing course/dictionary/source/SRS paths; old927 IDs/payloads unchanged.
+- Add4 complete grammar/2 original readers,16 examples and30 explained practice items; preserve all298 previous course payloads.
+- Historical tests keep the original927 membership/hash while separate new tests verify951 current cards. No dependency, migration, Auth/RLS, quota or schedule change. Full1260/590 target and physical-device/live-account acceptance remain incomplete.
+
 # 3.1.0-preview.9 — contextual reader search
 
 - Connect WanaKana query aliases and actual wink/Kuroshiro article forms to existing reader vocabulary; retain original IDs/source/SRS, composition/stale-response guards and account scope. No extra English query model.

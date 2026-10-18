@@ -1,3 +1,4 @@
+import {preservedVocabulary} from './helpers/preserved-vocabulary.mjs';
 import {test} from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {createHash} from 'node:crypto';
 import {loadDocuments} from '../scripts/content-files.mjs';import {contentEntry,documentLength} from '../lib/content-library/schema.ts';import {allCourseWords} from '../lib/course-library.ts';
 import {initialState} from '../lib/store.ts';import {coursePlan,beginCourseSession,storedCoursePlan,switchLearningScope} from '../lib/content-library/daily-course-plan.ts';
@@ -6,7 +7,7 @@ import {collectReadingWord,readingSources} from '../lib/content-library/reading-
 import {wordOccursInText} from '../lib/vocabulary-occurrence.ts';import {parseBackup} from '../lib/backend/backup-schema.ts';import {exportJSON} from '../lib/export.ts';
 const docs=await loadDocuments(),batch=docs.filter(d=>d.tags.includes('v3-n2-context-04')),grammar=batch.filter(d=>d.kind==='grammar'),readings=batch.filter(d=>d.kind==='reading'),restore=s=>parseBackup(exportJSON(s));
 test('all 263 prior documents and 927 word IDs/payloads remain exact',()=>{
- const frozen=JSON.parse(readFileSync(new URL('./fixtures/v3-preview-05-baseline.json',import.meta.url),'utf8'));const prior=docs.filter(d=>frozen.ids.includes(d.id));assert.equal(prior.length,frozen.count);assert.equal(createHash('sha256').update(JSON.stringify(prior)).digest('hex'),frozen.hash);const words=['ja','en'].flatMap(allCourseWords);assert.equal(words.length,frozen.vocabularyCount);assert.equal(createHash('sha256').update(JSON.stringify(words)).digest('hex'),frozen.vocabularyHash);
+ const frozen=JSON.parse(readFileSync(new URL('./fixtures/v3-preview-05-baseline.json',import.meta.url),'utf8'));const prior=docs.filter(d=>frozen.ids.includes(d.id));assert.equal(prior.length,frozen.count);assert.equal(createHash('sha256').update(JSON.stringify(prior)).digest('hex'),frozen.hash);const words=preservedVocabulary();assert.equal(words.length,frozen.vocabularyCount);assert.equal(createHash('sha256').update(JSON.stringify(words)).digest('hex'),frozen.vocabularyHash);
 });
 test('N2 additions teach three distinct patterns with explained practice and real linked readers',()=>{
  assert.equal(grammar.length,3);assert.equal(readings.length,2);assert.equal(new Set(grammar.map(g=>g.pattern)).size,3);

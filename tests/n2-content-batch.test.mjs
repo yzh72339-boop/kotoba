@@ -1,3 +1,4 @@
+import {isPreservedVocabulary} from './helpers/preserved-vocabulary.mjs';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {createHash} from 'node:crypto';
@@ -15,10 +16,10 @@ import {parseBackup} from '../lib/backend/backup-schema.ts';
 const docs=await loadDocuments(),catalog=docs.map(d=>contentEntry(d));
 const grammarIds=['ni-sakidatte','shidai-immediate','shidai-de','wo-kikkake-ni'].map(s=>'grammar-ja-n2-'+s);
 const readingIds=['before-the-workshop','application-after-sending','return-dependent-plan','a-handle-from-one-question'].map(s=>'article-ja-n2-'+s);
-const additions=contextualWords('ja','N2').slice(20);
+const additions=contextualWords('ja','N2').filter(w=>isPreservedVocabulary(w.id)).slice(20);
 
 test('N2 batch preserves all prior Japanese word payloads and gives every added card an actual reading occurrence',()=>{
- const prior=allCourseWords('ja').filter(w=>!additions.some(a=>a.id===w.id));
+ const prior=allCourseWords('ja').filter(w=>isPreservedVocabulary(w.id)&&!additions.some(a=>a.id===w.id));
  assert.equal(createHash('sha256').update(JSON.stringify(prior)).digest('hex'),'069acf5716ac0581b59d26ed74615e8da42d12490bd21443b4b7f1fe680d36ea');
  assert.equal(additions.length,40);
  for(const word of additions){

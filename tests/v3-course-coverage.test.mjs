@@ -1,3 +1,4 @@
+import {preservedVocabulary} from './helpers/preserved-vocabulary.mjs';
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -22,7 +23,7 @@ const articles=docs.filter(d=>newReading.includes(d.id));
 test('V3 batch preserves all prior 224 course payloads, vocabulary and original answer mappings',()=>{
  const frozen=JSON.parse(readFileSync(new URL('./fixtures/v3-preview-01-baseline.json',import.meta.url),'utf8')).ids;const prior=docs.filter(d=>frozen.includes(d.id)&&![...newGrammar,...newReading].includes(d.id));assert.equal(prior.length,224);
  assert.equal(createHash('sha256').update(JSON.stringify(prior)).digest('hex'),'6e8d9fbf233e33c40b9f5c9f01a43085c28f56804764aa1dcfc0c609b7599835');
- const words=['ja','en'].flatMap(allCourseWords);assert.equal(words.length,927);assert.equal(createHash('sha256').update(JSON.stringify(words)).digest('hex'),'1b562788e4b02cbed1250ff8a46cf857b1ec8e6d9ceced7736ff7f52f9959314');
+ const words=preservedVocabulary();assert.equal(words.length,927);assert.equal(createHash('sha256').update(JSON.stringify(words)).digest('hex'),'1b562788e4b02cbed1250ff8a46cf857b1ec8e6d9ceced7736ff7f52f9959314');
 });
 test('new courses have full teaching content and every prior grammar now has a real linked reading',()=>{
  for(const id of newGrammar){const g=docs.find(d=>d.id===id);assert.equal(g.examples.length,4);assert.equal(g.exercises.length,5);assert.ok(g.explanation.length>=40);assert.ok(g.commonMistakes.length);assert.ok(g.comparison.length);assert.ok(g.prerequisites.length)}
