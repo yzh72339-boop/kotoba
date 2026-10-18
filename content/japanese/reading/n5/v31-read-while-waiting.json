@@ -1,0 +1,113 @@
+{
+  "id": "article-ja-n5-read-while-waiting",
+  "kind": "reading",
+  "language": "ja",
+  "level": "N5",
+  "difficulty": 1,
+  "tags": [
+    "N5",
+    "v3-foundations-06",
+    "日常表达"
+  ],
+  "title": "店が開くまで",
+  "topic": "日常生活 · 等待时的共同活动",
+  "genre": "story",
+  "estimatedMinutes": 1,
+  "paragraphs": [
+    "土曜日、友達のけんさんと学校の前で会います。私は九時に着きます。けんさんも九時に着きます。でも、店は十時からです。",
+    "図書館は九時からです。私は本を読みたいです。けんさんも本を読みたいです。二人で図書館に行きます。私は日本語の本を、けんさんは英語の本を読みます。",
+    "十時に店へ行きます。けんさんは小さいパンを買います。私も同じパンを買います。二人で「待つ時間に本を読んだね。よかったね」と話します。"
+  ],
+  "translation": [
+    "星期六和朋友健在学校前面见面。我九点到。健也九点到。但是，店十点起营业。",
+    "图书馆九点起开放。我想读书。健也想读书。两个人一起去图书馆。我读日语书，健读英语书。",
+    "十点去店里。健买小面包。我也买同样的面包。两人聊着：“等待的时间里读了书，真好啊。”"
+  ],
+  "vocabulary": [
+    "course-ja-n5-7",
+    "course-ja-n5-5",
+    "course-ja-n5-9",
+    "lex-ja-n5-jikan",
+    "context-ja-n5-61c4363ce176"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-ja-n5-mo-addition",
+      "surface": "けんさんも本を読みたい"
+    },
+    {
+      "id": "grammar-ja-n5-wa-topic",
+      "surface": "図書館は九時から"
+    },
+    {
+      "id": "grammar-ja-n5-no-noun-link",
+      "surface": "日本語の本"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-ja-n5-read-while-waiting-main-idea",
+      "type": "main-idea",
+      "prompt": "两人等待店开门时做什么？",
+      "options": [
+        "一直在店前抱怨",
+        "去已经开放的图书馆读书",
+        "各自回家睡觉"
+      ],
+      "answer": 1,
+      "explanation": "第二段说图书馆九点开放，两人都想读书，因此一起去图书馆。"
+    },
+    {
+      "id": "article-ja-n5-read-while-waiting-detail",
+      "type": "detail",
+      "prompt": "店什么时候开始营业？",
+      "options": [
+        "八点",
+        "九点",
+        "十点"
+      ],
+      "answer": 2,
+      "explanation": "第一段明确店は十時から，不能把图书馆的九点开放当成店的时间。"
+    },
+    {
+      "id": "article-ja-n5-read-while-waiting-inference",
+      "type": "inference",
+      "prompt": "为什么九点时可以选择去图书馆？",
+      "options": [
+        "图书馆已开放，而且两人都想读书",
+        "店里的面包全部卖完了",
+        "只有健可以进入图书馆"
+      ],
+      "answer": 0,
+      "explanation": "第一、二段给出两人的到达时间、图书馆开放时间及共同愿望；没有售罄或限制入馆的信息。"
+    },
+    {
+      "id": "article-ja-n5-read-while-waiting-grammar",
+      "type": "grammar",
+      "prompt": "「けんさんも本を読みたい」的も表示什么？",
+      "options": [
+        "健也有同样想读书的愿望",
+        "只有健想读书，我不想",
+        "健已经买了所有的书"
+      ],
+      "answer": 0,
+      "explanation": "前句我想读书，も把这个愿望也加给健，不说明谁买书。"
+    },
+    {
+      "id": "article-ja-n5-read-while-waiting-author-intent",
+      "type": "author-intent",
+      "prompt": "结尾「よかったね」呼应了哪件事？",
+      "options": [
+        "店提前一小时开门",
+        "两人把等待时间用于自己都喜欢的阅读",
+        "两人读完了图书馆所有的书"
+      ],
+      "answer": 1,
+      "explanation": "结尾提到等待时间读书，说明等待时有了合适的活动；没有声称提前开门或全部读完。"
+    }
+  ],
+  "notes": [
+    "原创教学情境，不是真实新闻或通用操作标准。",
+    "预计用时按每分钟约200个日文字符计算，不是个人速度预测。"
+  ]
+}

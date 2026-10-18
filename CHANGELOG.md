@@ -1,3 +1,9 @@
+# 3.1.0-preview.8 — N5/A2 foundations in context
+
+- Add four N5 core-particle and four A2 practical-expression lessons, four original linked readers,32 examples and60 explained practice items. Preserve277 prior courses and927 word cards.
+- Extend existing compiled mobile recovery/collection/offline QA to both introductory grades; fixed answer mappings and original SRS dates remain preserved.
+- No dependency, schema, quota, Auth/RLS or scheduler change. Full1260/590 targets and physical-device/live-account acceptance remain unfinished.
+
 # 3.1.0-preview.7 — N3/B2 contextual learning
 
 - Add four N3 and two B2 full grammar topics, three original linked readers,24 examples and45 explained practice items. Preserve268 prior course payloads and927 words.

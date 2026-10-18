@@ -1,0 +1,132 @@
+{
+  "id": "grammar-en-a2-could-polite-requests",
+  "kind": "grammar",
+  "language": "en",
+  "level": "A2",
+  "difficulty": 2,
+  "tags": [
+    "A2",
+    "v3-foundations-06",
+    "日常表达"
+  ],
+  "title": "Could you…?: ask for help politely",
+  "pattern": "Could you + base verb...?",
+  "meaningZh": "能请你……吗",
+  "meaningEn": "a polite request",
+  "explanation": "Could you加动词原形，请别人做某事。Could you help me?是在当前场景请求帮助，不是在问对方过去有没有能力。could在这里让请求更委婉，不能只按过去式理解。回答可以用Sure、Of course或说明无法做到的原因，不必机械回答Yes, I could。",
+  "usage": "向同学、工作人员或不太熟悉的人提出明确、可执行的请求。",
+  "nuance": "can you也可请求，could you往往更委婉。不要认为委婉形式保证对方会同意；需要说明对象或任务，避免模糊请求。",
+  "structure": [
+    "Could you + base verb + object, please?"
+  ],
+  "formation": [
+    "Could you + base verb + object, please?"
+  ],
+  "examples": [
+    {
+      "target": "Could you help me carry this box, please?",
+      "zh": "能请你帮我搬这个箱子吗？"
+    },
+    {
+      "target": "Could you write the time on the poster?",
+      "zh": "能请你把时间写在海报上吗？"
+    },
+    {
+      "target": "Could you speak a little more slowly, please?",
+      "zh": "能请你说得稍微慢一点吗？"
+    },
+    {
+      "target": "Could you meet me at the library door?",
+      "zh": "能请你在图书馆门口与我见面吗？"
+    }
+  ],
+  "notes": [
+    "等级用于教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Could you to help me?",
+      "correct": "Could you help me?",
+      "explanation": "could后直接接原形help，不加to。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-a1-can-ability",
+      "explanation": "can表能力，也可提出请求；本课could you不是过去能力报告，而是委婉请求。"
+    },
+    {
+      "grammarId": "grammar-en-a2-should-advice",
+      "explanation": "Could you...?请对方行动；You should...建议对方行动，两者交际目的不同。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-a1-can-ability"
+  ],
+  "relatedGrammar": [
+    "grammar-en-a1-can-ability",
+    "grammar-en-a2-should-advice"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-a2-could-polite-requests-meaning",
+      "kind": "meaning",
+      "prompt": "“Could you help me carry this box?” 在本课情境中表示什么？",
+      "acceptedAnswers": [
+        "当前委婉请求对方帮忙"
+      ],
+      "explanation": "could you在这里是请求形式，不是过去能否搬箱子的调查。",
+      "options": [
+        "当前委婉请求对方帮忙",
+        "报告对方昨天已经搬了箱子",
+        "证明说话人永远搬不动东西"
+      ]
+    },
+    {
+      "id": "grammar-en-a2-could-polite-requests-fill",
+      "kind": "fill",
+      "prompt": "Could you ( ) a little more slowly, please?",
+      "acceptedAnswers": [
+        "speak"
+      ],
+      "explanation": "could后用原形speak，please使请求更礼貌。",
+      "options": [
+        "speaks",
+        "speak",
+        "to speak"
+      ]
+    },
+    {
+      "id": "grammar-en-a2-could-polite-requests-context",
+      "kind": "context",
+      "prompt": "想请同伴在海报上写时间，哪句是当前礼貌请求？",
+      "acceptedAnswers": [
+        "Could you write the time on the poster?"
+      ],
+      "explanation": "用Could you + write提出明确行动请求，不加过去式或to。",
+      "options": [
+        "Could you wrote the time on the poster?",
+        "Could you to write the time on the poster?",
+        "Could you write the time on the poster?"
+      ]
+    },
+    {
+      "id": "grammar-en-a2-could-polite-requests-error",
+      "kind": "error",
+      "prompt": "改正请求句：Could you to help me?",
+      "acceptedAnswers": [
+        "Could you help me?"
+      ],
+      "explanation": "could后直接接动词原形，不带to。"
+    },
+    {
+      "id": "grammar-en-a2-could-polite-requests-translation",
+      "kind": "translation",
+      "prompt": "译成英语：能请你在图书馆门口与我见面吗？",
+      "acceptedAnswers": [
+        "Could you meet me at the library door?"
+      ],
+      "explanation": "meet me说明请求的行动，at the library door说明约定地点。"
+    }
+  ]
+}

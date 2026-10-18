@@ -1,0 +1,139 @@
+{
+  "id": "grammar-ja-n5-ga-new-information",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N5",
+  "difficulty": 1,
+  "tags": [
+    "N5",
+    "v3-foundations-06",
+    "日常表达"
+  ],
+  "title": "が：指出是谁或有什么",
+  "pattern": "N + が + 谓语",
+  "meaningZh": "指出新的主体或存在的对象",
+  "meaningEn": "subject or newly focused information",
+  "explanation": "が标示谓语的主体，在初学场景中常用来回答“是谁”，或介绍眼前有什么。だれが来ますか的答案ゆきさんが来ます指出来的人。机の上に本があります用が标记存在的本，に标记位置。が不是地点助词，也不等于每次都带强烈强调。",
+  "usage": "回答だれが、何が；描述新出现的事物；配合あります、います说明存在。",
+  "nuance": "は与が的选择取决于谈话信息。已知话题的说明和新主体的介绍不同，不能只按中文译文决定。",
+  "structure": [
+    "だれ／何 + が + 谓语",
+    "位置に + Nが + あります／います"
+  ],
+  "formation": [
+    "だれ／何 + が + 谓语",
+    "位置に + Nが + あります／います"
+  ],
+  "examples": [
+    {
+      "target": "だれが来ますか。ゆきさんが来ます。",
+      "zh": "谁来？由纪来。",
+      "reading": "だれがきますか。ゆきさんがきます。"
+    },
+    {
+      "target": "机の上に本があります。",
+      "zh": "桌上有书。",
+      "reading": "つくえのうえにほんがあります。"
+    },
+    {
+      "target": "学校の前に猫がいます。",
+      "zh": "学校前面有只猫。",
+      "reading": "がっこうのまえにねこがいます。"
+    },
+    {
+      "target": "この道は静かです。でも、車が来ました。",
+      "zh": "这条路很安静。不过，有车来了。",
+      "reading": "このみちはしずかです。でも、くるまがきました。"
+    }
+  ],
+  "notes": [
+    "等级用于教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "机の上が本にあります。",
+      "correct": "机の上に本があります。",
+      "explanation": "存在的位置用に，存在的对象本用が；不能把位置和对象标记交换。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n5-wa-topic",
+      "explanation": "は先立话题；が常引入新的主体或回答是谁。ゆきさんは学生です说明由纪的身份，ゆきさんが来ます回答谁来。"
+    },
+    {
+      "grammarId": "grammar-ja-n5-ni-existence",
+      "explanation": "存在句中に标位置，が标对象，如図書館に本があります。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-wa-topic",
+    "grammar-ja-n5-ni-existence"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n5-wa-topic",
+    "grammar-ja-n5-ni-existence"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n5-ga-new-information-meaning",
+      "kind": "meaning",
+      "prompt": "「だれが来ますか。ゆきさんが来ます。」答案的焦点是什么？",
+      "acceptedAnswers": [
+        "来的人是由纪"
+      ],
+      "explanation": "が在这里指出问题所问的新主体，而不是说明她的身份或位置。",
+      "options": [
+        "来的人是由纪",
+        "来访的时间是九点",
+        "书在由纪家里"
+      ]
+    },
+    {
+      "id": "grammar-ja-n5-ga-new-information-fill",
+      "kind": "fill",
+      "prompt": "桌上有书：机の上に本（　）あります。",
+      "acceptedAnswers": [
+        "が"
+      ],
+      "explanation": "本是存在的对象，用が；机の上に已经标示位置。",
+      "options": [
+        "で",
+        "が",
+        "に"
+      ]
+    },
+    {
+      "id": "grammar-ja-n5-ga-new-information-context",
+      "kind": "context",
+      "prompt": "有人问「だれが来ますか」。用本课表达回答“由纪来”。",
+      "acceptedAnswers": [
+        "ゆきさんが来ます。"
+      ],
+      "explanation": "问题要求指出主体，回答用ゆきさんが。",
+      "options": [
+        "ゆきさんを来ます。",
+        "ゆきさんに来ます。",
+        "ゆきさんが来ます。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n5-ga-new-information-error",
+      "kind": "error",
+      "prompt": "改正位置和对象的助词：机の上が本にあります。",
+      "acceptedAnswers": [
+        "机の上に本があります。"
+      ],
+      "explanation": "机の上是位置，用に；本是存在的对象，用が。"
+    },
+    {
+      "id": "grammar-ja-n5-ga-new-information-translation",
+      "kind": "translation",
+      "prompt": "译成日语：学校前面有只猫。",
+      "acceptedAnswers": [
+        "学校の前に猫がいます。"
+      ],
+      "explanation": "位置用に，猫用が；动物的存在通常用います，不用あります。"
+    }
+  ]
+}

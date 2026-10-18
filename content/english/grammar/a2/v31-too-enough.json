@@ -1,0 +1,131 @@
+{
+  "id": "grammar-en-a2-too-enough",
+  "kind": "grammar",
+  "language": "en",
+  "level": "A2",
+  "difficulty": 2,
+  "tags": [
+    "A2",
+    "v3-foundations-06",
+    "日常表达"
+  ],
+  "title": "Too / enough: a limit or sufficient room?",
+  "pattern": "too + adjective + to do / adjective + enough + to do",
+  "meaningZh": "太……而不能；足够……可以",
+  "meaningEn": "an excessive degree; a sufficient degree",
+  "explanation": "too加形容词表示超过合适的程度，常接to说明无法完成的行动。The box is too heavy to carry表示太重而搬不动，不是“非常重但一定能搬”。enough表示达到所需程度，放在形容词后，如big enough。修饰名词时enough在前，如enough time，位置不能混用。",
+  "usage": "根据某项具体行动判断重量、大小、速度或时间是否合适，提出可检查的调整。",
+  "nuance": "too与very不同：very只加强程度，不必说明限制。enough取决于任务，不是固定数值；最好说明for谁或to做什么。",
+  "structure": [
+    "too + adjective + to + base verb",
+    "adjective + enough + to + base verb",
+    "enough + noun"
+  ],
+  "formation": [
+    "too + adjective + to + base verb",
+    "adjective + enough + to + base verb",
+    "enough + noun"
+  ],
+  "examples": [
+    {
+      "target": "This box is too heavy to carry alone.",
+      "zh": "这个箱子太重了，无法独自搬动。"
+    },
+    {
+      "target": "The letters are big enough to read from the door.",
+      "zh": "字足够大，从门口就能看清。"
+    },
+    {
+      "target": "We have enough time to ask questions.",
+      "zh": "我们有足够的时间提问。"
+    },
+    {
+      "target": "The table is not wide enough for all the books.",
+      "zh": "桌子不够宽，放不下所有的书。"
+    }
+  ],
+  "notes": [
+    "等级用于教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "The letters are enough big to read.",
+      "correct": "The letters are big enough to read.",
+      "explanation": "enough在形容词big后面；修饰名词时才放前面，如enough time。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-a2-comparatives",
+      "explanation": "比较级比两个对象的大小；too/enough评价相对于某项行动是否过量或充足。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-a1-be-identity"
+  ],
+  "relatedGrammar": [
+    "grammar-en-a2-comparatives"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-a2-too-enough-meaning",
+      "kind": "meaning",
+      "prompt": "“This box is too heavy to carry alone.” 表明什么？",
+      "acceptedAnswers": [
+        "重量超过了独自搬动的合适程度"
+      ],
+      "explanation": "too...to...表达行动受限制，不只加强heavy的程度。",
+      "options": [
+        "重量超过了独自搬动的合适程度",
+        "箱子很轻，可以轻松独自搬动",
+        "箱子昨天已经搬完"
+      ]
+    },
+    {
+      "id": "grammar-en-a2-too-enough-fill",
+      "kind": "fill",
+      "prompt": "The letters are ( ) to read from the door.",
+      "acceptedAnswers": [
+        "big enough"
+      ],
+      "explanation": "修饰形容词时enough放在big之后；后面的to read说明具体任务。",
+      "options": [
+        "enough big",
+        "big enough",
+        "enough bigger"
+      ]
+    },
+    {
+      "id": "grammar-en-a2-too-enough-context",
+      "kind": "context",
+      "prompt": "想说明有足够提问时间，哪句正确？",
+      "acceptedAnswers": [
+        "We have enough time to ask questions."
+      ],
+      "explanation": "enough修饰名词time时放在前面；to ask说明时间用于什么。",
+      "options": [
+        "We have time enough big to ask questions.",
+        "We have too time to ask questions.",
+        "We have enough time to ask questions."
+      ]
+    },
+    {
+      "id": "grammar-en-a2-too-enough-error",
+      "kind": "error",
+      "prompt": "改正形容词与enough的顺序：The letters are enough big to read.",
+      "acceptedAnswers": [
+        "The letters are big enough to read."
+      ],
+      "explanation": "形容词big在enough前，不沿用名词enough time的顺序。"
+    },
+    {
+      "id": "grammar-en-a2-too-enough-translation",
+      "kind": "translation",
+      "prompt": "译成英语：桌子不够宽，放不下所有的书。",
+      "acceptedAnswers": [
+        "The table is not wide enough for all the books."
+      ],
+      "explanation": "not wide enough说明相对所有书的空间不足，不是比较桌子与另一张桌子的宽度。"
+    }
+  ]
+}

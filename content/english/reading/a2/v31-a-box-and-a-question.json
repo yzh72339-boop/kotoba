@@ -1,0 +1,112 @@
+{
+  "id": "article-en-a2-a-box-and-a-question",
+  "kind": "reading",
+  "language": "en",
+  "level": "A2",
+  "difficulty": 2,
+  "tags": [
+    "A2",
+    "v3-foundations-06",
+    "日常表达"
+  ],
+  "title": "A box and a question",
+  "topic": "学校 · 提出具体请求",
+  "genre": "story",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "On Friday, our class moved some books to a different room. I wanted to finish before lunch, so I put every book in one box. The box was too heavy to carry alone. I tried to lift it, but I stopped. My friend Ana saw me and said, \"You should ask for help. You do not need to move everything at once.\"",
+    "I asked, \"Could you help me carry this box, please?\" Ana agreed, but she had a better idea. We took half the books out and put them in a second box. Then each of us carried one box. The teacher opened the door for us. We did not need to run or hurry.",
+    "After lunch, I wrote a short note for the next class. I suggested using smaller boxes and asking another person before lifting a heavy one. I did not write that every box needed two people. Some boxes were light enough for one person. Ana said the note was useful because it described a problem and a clear way to ask for help."
+  ],
+  "translation": [
+    "星期五，我们班把一些书搬到另一个房间。我想在午饭前完成，于是把每本书都装进同一个箱子。箱子太重了，不能独自搬。我试着提起它，但停了下来。朋友安娜看到后说：“你应该寻求帮助。不需要一次把所有东西都搬走。”",
+    "我问：“能请你帮我搬这个箱子吗？”安娜答应了，但她有更好的办法。我们取出一半的书，放进第二个箱子。然后每人搬一个箱子。老师为我们开门。我们不需要跑或着急。",
+    "午饭后，我为下一个班写了一张简短说明，建议使用较小的箱子，并在提起重箱子前问另一个人。我没有写每个箱子都需要两个人。有些箱子足够轻，一人就能搬。安娜说说明很有用，因为它描述了问题，并给出明确的求助方式。"
+  ],
+  "vocabulary": [
+    "course-en-a1-6",
+    "course-en-a1-4",
+    "complete-en-a1-help",
+    "complete-en-a1-need"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-a2-should-advice",
+      "surface": "You should ask for help"
+    },
+    {
+      "id": "grammar-en-a2-could-polite-requests",
+      "surface": "Could you help me carry this box"
+    },
+    {
+      "id": "grammar-en-a2-too-enough",
+      "surface": "too heavy to carry alone"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-a2-a-box-and-a-question-main-idea",
+      "type": "main-idea",
+      "prompt": "What does the story mainly show?",
+      "options": [
+        "Finishing fast always means carrying the largest box.",
+        "Asking clearly and changing the load can solve a problem.",
+        "The teacher carried every book alone."
+      ],
+      "answer": 1,
+      "explanation": "The speaker asks for help and the pair divides the books between two boxes; the teacher only opens the door."
+    },
+    {
+      "id": "article-en-a2-a-box-and-a-question-detail",
+      "type": "detail",
+      "prompt": "What was Ana’s idea?",
+      "options": [
+        "To leave all the books outside.",
+        "To wait until the next week.",
+        "To put half the books in a second box."
+      ],
+      "answer": 2,
+      "explanation": "Paragraph two explicitly describes taking half the books out and using a second box."
+    },
+    {
+      "id": "article-en-a2-a-box-and-a-question-inference",
+      "type": "inference",
+      "prompt": "Why did the note not say every box needed two people?",
+      "options": [
+        "Some boxes were light enough for one person.",
+        "No other class would use the room.",
+        "Ana did not want anyone to ask for help."
+      ],
+      "answer": 0,
+      "explanation": "Paragraph three states that some boxes were light enough; advice is adjusted to the actual load rather than imposed on every box."
+    },
+    {
+      "id": "article-en-a2-a-box-and-a-question-grammar",
+      "type": "grammar",
+      "prompt": "What is “Could you help me carry this box, please?” doing here?",
+      "options": [
+        "Reporting an action that happened yesterday.",
+        "Making a polite request in the current situation.",
+        "Saying that carrying books is forbidden."
+      ],
+      "answer": 1,
+      "explanation": "The speaker is asking Ana to do something now; could is a request form, not a past ability report."
+    },
+    {
+      "id": "article-en-a2-a-box-and-a-question-author-intent",
+      "type": "author-intent",
+      "prompt": "Why is the note called useful?",
+      "options": [
+        "It tells everyone to run before lunch.",
+        "It lists the names of every book.",
+        "It connects a real problem with a clear request for help."
+      ],
+      "answer": 2,
+      "explanation": "The final sentence identifies both the problem and the practical way of asking for help as the note’s value."
+    }
+  ],
+  "notes": [
+    "原创教学情境，不是真实新闻或通用操作标准。",
+    "预计用时按每分钟约160个英文单词计算，不是个人速度预测。"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "article-ja-n5-whose-blue-book",
+  "kind": "reading",
+  "language": "ja",
+  "level": "N5",
+  "difficulty": 1,
+  "tags": [
+    "N5",
+    "v3-foundations-06",
+    "日常表达"
+  ],
+  "title": "だれの本ですか",
+  "topic": "学校 · 用名字确认物品",
+  "genre": "story",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "今日は学校の図書館で本を読みます。机の上に青い本があります。友達のゆきさんが「これはだれの本ですか」と聞きます。私は「私の本ではありません」と答えます。",
+    "本には「さとう」と書いてあります。佐藤先生は今、となりの教室にいます。ゆきさんは先生のところへ行きます。先生は「これは私の本です。ありがとう」と言います。",
+    "青い本は先生の本です。私たちは先生に本を渡して、図書館に戻ります。ゆきさんは赤い本を、私は白い本を読みます。"
+  ],
+  "translation": [
+    "今天在学校图书馆读书。桌上有一本蓝色的书。朋友由纪问：“这是谁的书？”我回答：“不是我的书。”",
+    "书上写着“さとう”。佐藤老师现在在隔壁教室。由纪去找老师。老师说：“这是我的书。谢谢。”",
+    "蓝色的书是老师的。我们把书交给老师，然后回到图书馆。由纪读红色的书，我读白色的书。"
+  ],
+  "vocabulary": [
+    "course-ja-n5-9",
+    "course-ja-n5-6",
+    "context-ja-n5-61c4363ce176",
+    "course-ja-n5-7"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-ja-n5-wa-topic",
+      "surface": "佐藤先生は"
+    },
+    {
+      "id": "grammar-ja-n5-ga-new-information",
+      "surface": "青い本があります"
+    },
+    {
+      "id": "grammar-ja-n5-no-noun-link",
+      "surface": "先生の本"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-ja-n5-whose-blue-book-main-idea",
+      "type": "main-idea",
+      "prompt": "这篇文章主要讲什么？",
+      "options": [
+        "确认蓝色的书属于谁，并交还老师",
+        "老师给所有学生买蓝色的书",
+        "由纪不想去图书馆"
+      ],
+      "answer": 0,
+      "explanation": "第二段老师确认书属于自己，第三段把书交还；没有描述购买或拒绝去图书馆。"
+    },
+    {
+      "id": "article-ja-n5-whose-blue-book-detail",
+      "type": "detail",
+      "prompt": "老师在哪里？",
+      "options": [
+        "图书馆外的店里",
+        "隔壁教室里",
+        "车站前面"
+      ],
+      "answer": 1,
+      "explanation": "第二段明确说となりの教室にいます，不能由老师在学校就推断在其他地方。"
+    },
+    {
+      "id": "article-ja-n5-whose-blue-book-inference",
+      "type": "inference",
+      "prompt": "为什么由纪去找佐藤老师？",
+      "options": [
+        "她已经确定老师买了新书",
+        "因为所有蓝色书都属于老师",
+        "书上写着「さとう」，她去请老师确认"
+      ],
+      "answer": 2,
+      "explanation": "书上的名字提供线索，老师随后亲口确认；正文没有说所有同色书都属于老师。"
+    },
+    {
+      "id": "article-ja-n5-whose-blue-book-grammar",
+      "type": "grammar",
+      "prompt": "「先生の本」的核心是哪一个名词？",
+      "options": [
+        "本，先生说明这本书的所属",
+        "先生，本说明老师的职业",
+        "学校，说明书的颜色"
+      ],
+      "answer": 0,
+      "explanation": "の连接两个名词，后面的本是核心；这里前面的先生说明所属。"
+    },
+    {
+      "id": "article-ja-n5-whose-blue-book-author-intent",
+      "type": "author-intent",
+      "prompt": "结尾分别写两个人读的书，有什么作用？",
+      "options": [
+        "说明老师必须读三本书",
+        "说明归还蓝色书后，两人继续自己的阅读",
+        "证明蓝色书被丢掉了"
+      ],
+      "answer": 1,
+      "explanation": "第三段先交还蓝色书，再分别读红色和白色的书，事件结束后回到原来的活动。"
+    }
+  ],
+  "notes": [
+    "原创教学情境，不是真实新闻或通用操作标准。",
+    "预计用时按每分钟约200个日文字符计算，不是个人速度预测。"
+  ]
+}

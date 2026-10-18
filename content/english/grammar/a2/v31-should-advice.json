@@ -1,0 +1,130 @@
+{
+  "id": "grammar-en-a2-should-advice",
+  "kind": "grammar",
+  "language": "en",
+  "level": "A2",
+  "difficulty": 2,
+  "tags": [
+    "A2",
+    "v3-foundations-06",
+    "日常表达"
+  ],
+  "title": "Should: a practical suggestion",
+  "pattern": "should / should not + base verb",
+  "meaningZh": "应该；建议做或不做",
+  "meaningEn": "advice; a recommended action",
+  "explanation": "should加动词原形给出建议，should not或shouldn’t建议不要做。它通常比must表达的强制义务弱。You should ask the teacher不是已经问过，也不是保证一定会问；它说明说话人认为这个行动合适。应交代理由，而不把建议说成事实或命令。",
+  "usage": "给同伴提供学习、安排或沟通建议；说明一个更合适的做法。",
+  "nuance": "should后的动词不加to或第三人称-s。疑问句Should I...?可征求建议。本课不涵盖过去的should have done。",
+  "structure": [
+    "subject + should / should not + base verb",
+    "Should + subject + base verb...?"
+  ],
+  "formation": [
+    "subject + should / should not + base verb",
+    "Should + subject + base verb...?"
+  ],
+  "examples": [
+    {
+      "target": "You should ask the teacher before the lesson.",
+      "zh": "你应该在课前问老师。"
+    },
+    {
+      "target": "We should leave enough time for questions.",
+      "zh": "我们应该留出足够的提问时间。"
+    },
+    {
+      "target": "You should not carry all the books alone.",
+      "zh": "你不应该独自搬所有的书。"
+    },
+    {
+      "target": "Should I write the time on the poster?",
+      "zh": "我应该把时间写在海报上吗？"
+    }
+  ],
+  "notes": [
+    "等级用于教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "She should asks for help.",
+      "correct": "She should ask for help.",
+      "explanation": "should后用动词原形ask，不随第三人称she加-s。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-a2-must-have-to",
+      "explanation": "must/have to通常表示较强的义务或要求；should给建议，听者仍可根据实际情况决定。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-a1-can-ability"
+  ],
+  "relatedGrammar": [
+    "grammar-en-a2-must-have-to"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-a2-should-advice-meaning",
+      "kind": "meaning",
+      "prompt": "“You should ask the teacher.” 主要是在做什么？",
+      "acceptedAnswers": [
+        "建议你去问老师"
+      ],
+      "explanation": "should评价这个行动是合适的，没有陈述行动已经完成或保证将发生。",
+      "options": [
+        "建议你去问老师",
+        "说你已经问过老师",
+        "保证老师一定会来"
+      ]
+    },
+    {
+      "id": "grammar-en-a2-should-advice-fill",
+      "kind": "fill",
+      "prompt": "She should ( ) for help.",
+      "acceptedAnswers": [
+        "ask"
+      ],
+      "explanation": "情态动词should后接原形ask，不用asks或to ask。",
+      "options": [
+        "asks",
+        "ask",
+        "to ask"
+      ]
+    },
+    {
+      "id": "grammar-en-a2-should-advice-context",
+      "kind": "context",
+      "prompt": "朋友不知道是否把时间写在海报上，怎样征求你的建议？",
+      "acceptedAnswers": [
+        "Should I write the time on the poster?"
+      ],
+      "explanation": "Should I...?询问某项行动是否合适。",
+      "options": [
+        "Should I wrote the time on the poster?",
+        "Do I should write the time on the poster?",
+        "Should I write the time on the poster?"
+      ]
+    },
+    {
+      "id": "grammar-en-a2-should-advice-error",
+      "kind": "error",
+      "prompt": "改正动词形式：She should asks for help.",
+      "acceptedAnswers": [
+        "She should ask for help."
+      ],
+      "explanation": "第三人称-s不加在should后面的动词上，用原形ask。"
+    },
+    {
+      "id": "grammar-en-a2-should-advice-translation",
+      "kind": "translation",
+      "prompt": "译成英语：你不应该独自搬所有的书。",
+      "acceptedAnswers": [
+        "You should not carry all the books alone.",
+        "You shouldn't carry all the books alone."
+      ],
+      "explanation": "should not建议不要采取该行动，后面的carry保持原形。"
+    }
+  ]
+}
