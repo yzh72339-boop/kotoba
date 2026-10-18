@@ -1,0 +1,131 @@
+{
+  "id": "grammar-ja-n1-ni-hikikae",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N1",
+  "difficulty": 4,
+  "tags": [
+    "N1",
+    "v3-reader-context-07",
+    "判断与语篇"
+  ],
+  "title": "〜にひきかえ：鲜明的反差",
+  "pattern": "N + にひきかえ",
+  "meaningZh": "与……形成鲜明对照",
+  "meaningEn": "in sharp contrast to",
+  "explanation": "把一方作为比较基准，突出另一方的反差，常带有说话人的评价或感慨。昨年にひきかえ今年は静かだ不只列出两年，而是强调安静与往年的不同。它不要求后项一定是负面评价，也不表示前项导致后项。",
+  "usage": "比较人物态度、前后两次活动或外部声势与实际体验。",
+  "nuance": "本课使用名词接续。普通形也可通过の接入，但不要把比较表达当作原因句或把に误换成を。",
+  "structure": [
+    "N + にひきかえ（本课的名词用法）"
+  ],
+  "formation": [
+    "N + にひきかえ（本课的名词用法）"
+  ],
+  "examples": [
+    {
+      "target": "昨年にひきかえ、今年の会場は静かだった。",
+      "zh": "与去年形成鲜明对比，今年的会场很安静。",
+      "reading": "さくねんにひきかえ、ことしのかいじょうはしずかだった。"
+    },
+    {
+      "target": "大きな宣伝にひきかえ、当日の案内は簡素だった。",
+      "zh": "与大规模宣传形成反差，当天的引导很简朴。",
+      "reading": "おおきなせんでんにひきかえ、とうじつのあんないはかんそだった。"
+    },
+    {
+      "target": "兄にひきかえ、弟は人前でも落ち着いて話す。",
+      "zh": "与哥哥形成鲜明对照，弟弟在人前也能沉着讲话。",
+      "reading": "あににひきかえ、おとうとはひとまえでもおちついてはなす。"
+    },
+    {
+      "target": "前回の説明にひきかえ、今回は質問の時間が十分にあった。",
+      "zh": "与上次的说明会形成对照，这次有充足的提问时间。",
+      "reading": "ぜんかいのせつめいにひきかえ、こんかいはしつもんのじかんがじゅうぶんにあった。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "昨年をひきかえ、今年は静かだった。",
+      "correct": "昨年にひきかえ、今年は静かだった。",
+      "explanation": "比较基准昨年后用にひきかえ，不用をひきかえ。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n2-ni-kurabete",
+      "explanation": "に比べて可中性地比较程度，にひきかえ更突出反差和说话人的评价，但不必总是批评后项。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n2-ni-kurabete"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n2-ni-kurabete"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n1-ni-hikikae-meaning",
+      "kind": "meaning",
+      "prompt": "「昨年にひきかえ、今年の会場は静かだった。」强调什么？",
+      "acceptedAnswers": [
+        "两年的会场气氛有明显反差"
+      ],
+      "explanation": "昨年是比较基准，静かだった是今年的情况；不是去年的存在造成今年安静。",
+      "options": [
+        "两年完全没有变化",
+        "去年是今年安静的唯一原因",
+        "两年的会场气氛有明显反差"
+      ]
+    },
+    {
+      "id": "grammar-ja-n1-ni-hikikae-fill",
+      "kind": "fill",
+      "prompt": "与大规模宣传形成反差：大きな宣伝（　）、当日の案内は簡素だった。",
+      "acceptedAnswers": [
+        "にひきかえ"
+      ],
+      "explanation": "把宣传声势与实际引导相比较，突出两者不相称的反差。",
+      "options": [
+        "にひきかえ",
+        "をひきかえ",
+        "だからといえども"
+      ]
+    },
+    {
+      "id": "grammar-ja-n1-ni-hikikae-context",
+      "kind": "context",
+      "prompt": "上次没有提问机会，这次时间充足。哪句正确突出变化？",
+      "acceptedAnswers": [
+        "前回の説明にひきかえ、今回は質問の時間が十分にあった。"
+      ],
+      "explanation": "后项在这里是积极变化，因此にひきかえ不必一律理解成批评后项。",
+      "options": [
+        "前回の説明に加えて、今回も質問の時間は設けなかった。",
+        "前回の説明にひきかえ、今回は質問の時間が十分にあった。",
+        "前回の説明と同じく、今回も質問を受け付けなかった。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n1-ni-hikikae-error",
+      "kind": "error",
+      "prompt": "改正比较基准的接续：昨年をひきかえ、今年は静かだった。",
+      "acceptedAnswers": [
+        "昨年にひきかえ、今年は静かだった。"
+      ],
+      "explanation": "本课结构为Nにひきかえ，不能用宾语助词を。"
+    },
+    {
+      "id": "grammar-ja-n1-ni-hikikae-translation",
+      "kind": "translation",
+      "prompt": "用本课表达译成日语：与大规模宣传形成反差，当天的引导很简朴。",
+      "acceptedAnswers": [
+        "大きな宣伝にひきかえ、当日の案内は簡素だった。"
+      ],
+      "explanation": "先列比较基准，再给实际情况；保留说话人感到反差的语气。"
+    }
+  ]
+}

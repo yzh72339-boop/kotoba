@@ -1,9 +1,20 @@
 import type {Word,Language} from '../content';
 import type {ReaderSegment} from './reader-language';
 import type {ReadingSource} from '../content-library/reading-collection';
+import {searchVocabulary} from '../vocabulary-search';
 export type ReaderOccurrence={paragraphIndex:number;start:number;end:number;surface:string;lemma?:string};
 export type ReaderVocabularyRow={word:Word;occurrences:ReaderOccurrence[]};
 export type ReaderSnapshot={snapshotId:string;version:number;paragraphIds:string[]};
+/** Search only the already matched article rows, including their actual source forms.
+ * Kana aliases come from the existing lazy WanaKana adapter; no new cards or guessed lemmas. */
+export function searchReaderVocabulary(rows:ReaderVocabularyRow[],query:string,aliases:string[]=[]):ReaderVocabularyRow[]{
+ const normalized=query.normalize('NFKC').trim().toLowerCase();if(normalized.length>100)return [];
+ const byId=new Map(rows.map(row=>[row.word.id,row]));
+ const direct=searchVocabulary(rows.map(row=>row.word),query,aliases).map(word=>byId.get(word.id)!);
+ if(!normalized)return direct;
+ const found=new Set(direct.map(row=>row.word.id));
+ return [...direct,...rows.filter(row=>!found.has(row.word.id)&&row.occurrences.some(occurrence=>occurrence.surface.normalize('NFKC').toLowerCase().includes(normalized)))];
+}
 // Index only real, source-aligned matches; retain the matched card's original ID.
 export function readerVocabularyRows(paragraphs:string[],segments:ReaderSegment[][],words:Word[]):ReaderVocabularyRow[]{
  const catalog=new Map(words.map(word=>[word.id,word])),rows=new Map<string,ReaderVocabularyRow>();

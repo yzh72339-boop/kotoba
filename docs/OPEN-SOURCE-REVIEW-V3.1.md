@@ -1,3 +1,5 @@
+2026-10-18 continuation: preview.9 reuses WanaKana for romanised article-vocabulary lookup and actual wink/Kuroshiro source forms for aligned row search. Stable metadata for the four active packages still matches locked versions; no install/upgrade. Deferred-project metadata below retains its original review date. Read [current usage and limits](READER-SEARCH-CONTEXT-V3.1.md).
+
 # V3.1 open-source integration — 2026-10-14
 
 2026-10-15 continuation: optional Kuroshiro/Kuromoji integration is now implemented in preview.3; its current adapter, dictionary licensing/cost and verification limits are in [JAPANESE-READING-INTEGRATION-V3.1.md](JAPANESE-READING-INTEGRATION-V3.1.md). The table below records the earlier selection, not a claim that the analyzer is still absent.
