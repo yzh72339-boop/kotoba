@@ -1,0 +1,127 @@
+{
+  "id": "grammar-en-c1-much-as-concession",
+  "kind": "grammar",
+  "language": "en",
+  "level": "C1",
+  "difficulty": 4,
+  "tags": [
+    "C1",
+    "v3-reader-context-07",
+    "判断与语篇"
+  ],
+  "title": "Much as: acknowledge, then qualify",
+  "pattern": "Much as + subject + verb, main clause",
+  "meaningZh": "尽管很……；虽然十分……",
+  "meaningEn": "although; however much",
+  "explanation": "Much as I value quick replies, I cannot approve an unclear statement先承认真正重视快速答复，再给出不随这种重视改变的限制。Much as是较书面、带立场色彩的让步框架，不是把much理解成一个数量。主句仍须给出与让步形成张力的判断，避免把承认写成无条件同意。",
+  "usage": "评论、讨论与正式协商中承认对方价值或自身愿望，再提出保留。",
+  "nuance": "使用正常主语动词顺序，不因much放句首就倒装。标准句中不再在主句前叠加but；much as不表示因果。",
+  "structure": [
+    "Much as + subject + verb, contrasting main clause"
+  ],
+  "formation": [
+    "Much as + subject + verb, contrasting main clause"
+  ],
+  "examples": [
+    {
+      "target": "Much as I value quick replies, I cannot approve an unclear statement.",
+      "zh": "尽管我很重视快速答复，但不能批准含糊的声明。"
+    },
+    {
+      "target": "Much as she wanted to agree, she asked to see the original notes.",
+      "zh": "尽管她很想同意，她还是要求看原始记录。"
+    },
+    {
+      "target": "Much as we admire the design, its instructions need revision.",
+      "zh": "尽管我们很欣赏这个设计，它的说明仍需修改。"
+    },
+    {
+      "target": "Much as I would like a simple answer, the evidence remains mixed.",
+      "zh": "尽管我很想得到简单答案，证据仍然有支持也有反对。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Much as we admire the design, but its instructions need revision.",
+      "correct": "Much as we admire the design, its instructions need revision.",
+      "explanation": "Much as已引导让步，标准结构中主句前不再添加but。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-c1-concession-even",
+      "explanation": "even though也承认事实再转折；much as常把自身重视、愿望或欣赏放在前面，语域较正式，表达有保留的立场。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-c1-concession-even"
+  ],
+  "relatedGrammar": [
+    "grammar-en-c1-concession-even"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-c1-much-as-concession-meaning",
+      "kind": "meaning",
+      "prompt": "“Much as she wanted to agree, she asked to see the original notes.” 表明什么立场？",
+      "acceptedAnswers": [
+        "认可自己的同意意愿，但仍要求依据"
+      ],
+      "explanation": "前项承认愿望，后项保留核对要求；愿望并未自动替代证据。",
+      "options": [
+        "她完全没有同意意愿",
+        "认可自己的同意意愿，但仍要求依据",
+        "她已经销毁了所有原始记录"
+      ]
+    },
+    {
+      "id": "grammar-en-c1-much-as-concession-fill",
+      "kind": "fill",
+      "prompt": "选择标准结构：Much as we admire the design, ( ).",
+      "acceptedAnswers": [
+        "its instructions need revision"
+      ],
+      "explanation": "Much as引导让步后接独立主句，不再添加but，也不把主句倒装成疑问句。",
+      "options": [
+        "but its instructions need revision",
+        "do its instructions need revision",
+        "its instructions need revision"
+      ]
+    },
+    {
+      "id": "grammar-en-c1-much-as-concession-context",
+      "kind": "context",
+      "prompt": "想既承认重视快速答复，又保留对含糊声明的审批限制，哪句最准确？",
+      "acceptedAnswers": [
+        "Much as I value quick replies, I cannot approve an unclear statement."
+      ],
+      "explanation": "句子同时保留认可与限制，避免把速度写成唯一标准。",
+      "options": [
+        "Much as I value quick replies, I cannot approve an unclear statement.",
+        "I value quick replies, so evidence is never necessary.",
+        "Much as do I value quick replies, I approve every statement."
+      ]
+    },
+    {
+      "id": "grammar-en-c1-much-as-concession-error",
+      "kind": "error",
+      "prompt": "改正重复连接词：Much as we admire the design, but its instructions need revision.",
+      "acceptedAnswers": [
+        "Much as we admire the design, its instructions need revision."
+      ],
+      "explanation": "保留Much as引导的让步，移除主句前多余的but。"
+    },
+    {
+      "id": "grammar-en-c1-much-as-concession-translation",
+      "kind": "translation",
+      "prompt": "译成英语：尽管我很想得到简单答案，证据仍然有支持也有反对。",
+      "acceptedAnswers": [
+        "Much as I would like a simple answer, the evidence remains mixed."
+      ],
+      "explanation": "would like表达愿望，remains mixed保留对证据分歧的限定，不能改成证据已完全一致。"
+    }
+  ]
+}

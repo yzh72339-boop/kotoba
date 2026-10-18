@@ -1,3 +1,9 @@
+# 3.1.0-preview.9 — contextual reader search
+
+- Connect WanaKana query aliases and actual wink/Kuroshiro article forms to existing reader vocabulary; retain original IDs/source/SRS, composition/stale-response guards and account scope. No extra English query model.
+- Add four N1/two C1 grammar, three original linked readers,24examples and45 explained practice items. Preserve289 prior course documents and927 word cards.
+- No dependency, migration, Auth/RLS, quota or scheduler change. Full1260/590 targets and real device/account acceptance remain unfinished.
+
 # 3.1.0-preview.8 — N5/A2 foundations in context
 
 - Add four N5 core-particle and four A2 practical-expression lessons, four original linked readers,32 examples and60 explained practice items. Preserve277 prior courses and927 word cards.

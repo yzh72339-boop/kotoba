@@ -1,0 +1,131 @@
+{
+  "id": "grammar-en-c1-with-absolute-background",
+  "kind": "grammar",
+  "language": "en",
+  "level": "C1",
+  "difficulty": 4,
+  "tags": [
+    "C1",
+    "v3-reader-context-07",
+    "判断与语篇"
+  ],
+  "title": "With + noun + participle: frame the background",
+  "pattern": "with + noun phrase + participle / adjective / preposition phrase",
+  "meaningZh": "在……背景下；随着……",
+  "meaningEn": "with a separate background subject",
+  "explanation": "with引出有自己名词主体的背景结构：With the names removed, the editor published the extract中removed描述names的被动状态，不是说editor被移除了。这个结构能压缩背景，但不能让行为主体或时间关系变得含糊。与常规分词状语不同，with结构里的名词不必等于主句主语。",
+  "usage": "正式报道、分析和叙事中压缩条件、伴随状态或变化中的背景。",
+  "nuance": "主动过程常用-ing，被动或完成的状态可用过去分词；也可接形容词或介词短语。这里没有完整的有限动词从句，不能直接插入were。",
+  "structure": [
+    "with + noun phrase + V-ing (active process)",
+    "with + noun phrase + past participle (passive/resulting state)",
+    "with + noun phrase + adjective / preposition phrase"
+  ],
+  "formation": [
+    "with + noun phrase + V-ing (active process)",
+    "with + noun phrase + past participle (passive/resulting state)",
+    "with + noun phrase + adjective / preposition phrase"
+  ],
+  "examples": [
+    {
+      "target": "With the names removed, the editor published a shorter extract.",
+      "zh": "姓名被移除后，编辑发表了较短的摘录。"
+    },
+    {
+      "target": "With the deadline approaching, the team narrowed the scope of the review.",
+      "zh": "随着截止日期临近，团队缩小了审阅范围。"
+    },
+    {
+      "target": "With the original notes still available, readers could check the wording.",
+      "zh": "原始记录仍可获取，读者因此能够核对措辞。"
+    },
+    {
+      "target": "With two versions on the table, the discussion became more precise.",
+      "zh": "桌上放着两个版本，讨论变得更具体了。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "With the names were removed, the editor published the extract.",
+      "correct": "With the names removed, the editor published the extract.",
+      "explanation": "本课with结构不是有限从句，去掉were，保留names与removed的被动状态关系。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-c1-participle-clause-shared-subject",
+      "explanation": "常规分词状语通常与主句共享主语；with结构明确给出自己的名词主体，names removed与editor published不必共享主语。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-b1-passive-processes"
+  ],
+  "relatedGrammar": [
+    "grammar-en-c1-participle-clause-shared-subject"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-c1-with-absolute-background-meaning",
+      "kind": "meaning",
+      "prompt": "“With the names removed, the editor published the extract.” 中removed描述谁？",
+      "acceptedAnswers": [
+        "被移除的是姓名，不是编辑"
+      ],
+      "explanation": "with结构有自己的名词主体the names，主句主体the editor执行发表动作。",
+      "options": [
+        "被移除的是编辑",
+        "被移除的是发表动作的时间",
+        "被移除的是姓名，不是编辑"
+      ]
+    },
+    {
+      "id": "grammar-en-c1-with-absolute-background-fill",
+      "kind": "fill",
+      "prompt": "截止日期正在临近：With the deadline ( ), the team narrowed the scope.",
+      "acceptedAnswers": [
+        "approaching"
+      ],
+      "explanation": "deadline与approach构成主动过程，使用approaching，不用过去分词表示它被靠近。",
+      "options": [
+        "approaching",
+        "were approaching",
+        "approached by the scope"
+      ]
+    },
+    {
+      "id": "grammar-en-c1-with-absolute-background-context",
+      "kind": "context",
+      "prompt": "想说明读者能够核对，因为原记录仍可获取，哪句最准确？",
+      "acceptedAnswers": [
+        "With the original notes still available, readers could check the wording."
+      ],
+      "explanation": "available说明notes的状态；不要求notes和readers是同一主体。",
+      "options": [
+        "With the original notes were still available, readers could check the wording.",
+        "With the original notes still available, readers could check the wording.",
+        "With readers checking the wording, the original notes became available."
+      ]
+    },
+    {
+      "id": "grammar-en-c1-with-absolute-background-error",
+      "kind": "error",
+      "prompt": "改正with背景结构：With the names were removed, the editor published the extract.",
+      "acceptedAnswers": [
+        "With the names removed, the editor published the extract."
+      ],
+      "explanation": "with后用名词加过去分词，不在该非限定结构中保留were。"
+    },
+    {
+      "id": "grammar-en-c1-with-absolute-background-translation",
+      "kind": "translation",
+      "prompt": "译成英语：随着截止日期临近，团队缩小了审阅范围。",
+      "acceptedAnswers": [
+        "With the deadline approaching, the team narrowed the scope of the review."
+      ],
+      "explanation": "deadline是背景结构主体，team是主句主体；approaching保留正在推进的过程。"
+    }
+  ]
+}
