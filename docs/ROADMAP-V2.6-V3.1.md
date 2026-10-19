@@ -1,3 +1,5 @@
+> Current continuation: **3.1.0-preview.13 — N4/A2/B2 practical units**. +36 source vocabulary/+6 full grammar/+3 readers/+45 explained practice items. Current **1035 words /222 grammar /103 readers**; preserve999 prior word payloads and316 complete courses. Full target gap1525. See [scope and verification limits](PRACTICAL-UNITS-BATCH-11.md). Earlier checkpoints are historical.
+
 > Current continuation: **3.1.0-preview.12 — N3/N1 contexts**. +24 vocabulary cards/+4 full grammar/+2 readers/+30 explained practice items. Current **999 words /216 grammar /100 readers**; all975 prior word payloads and310 complete courses preserved. Full target gap1534. See [scope and verification limits](JAPANESE-CONTEXT-BATCH-10.md). Earlier checkpoints are historical.
 
 > Current continuation: **3.1.0-preview.11 — A1/B1 foundations in context**. +24 distinct vocabulary cards/+4 complete grammar/+2 readers/+30 explained practice items. Current **975 words /212 grammar /98 readers**; all951 prior word payloads and304 courses preserved. Full target gap1540. See [scope, preservation and verification limits](ENGLISH-FOUNDATIONS-BATCH-09.md). Earlier checkpoints are historical.

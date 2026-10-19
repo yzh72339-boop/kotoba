@@ -1,3 +1,9 @@
+# 3.1.0-preview.13 — three practical learning units
+
+- Add36 N4/A2/B2 cards,6 complete grammar,3 original readers,24 examples and45 explained practice items. Preserve999 prior word and316 course payloads/IDs.
+- Reuse kana/actual source-form lookup,ruby,article-scoped review/source,offline/sync. Guard curated出口/でぐち against an ambiguous raw analyzer reading; no analyzer or scheduler rewrite.
+- No dependency,Auth/RLS,quota,schema or historical migration changes. Full1260/590 and real-device/account/external editing acceptance remain incomplete.
+
 # 3.1.0-preview.12 — Japanese contextual learning
 
 - Add24 N3/N1 context cards,4 complete grammar,2 original readers,16 examples and30 explained practice items. Reuse optional Japanese source-aligned ruby, WanaKana lookup, original collection/source/SRS and offline flows.

@@ -465,5 +465,293 @@
     "frequency": "high",
     "register": "neutral",
     "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a2-b11-01",
+    "word": "cup",
+    "pronunciation": "/kʌp/",
+    "meaning": "杯子",
+    "example": "A cup of water was on the table.",
+    "translation": "桌上有一杯水。",
+    "tag": "A2 · noun",
+    "related": "a cup of water",
+    "pos": "noun",
+    "senses": [
+      "杯子"
+    ],
+    "collocations": [
+      "a cup of water"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "cooking-comparison"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-a2-b11-02",
+    "word": "spoon",
+    "pronunciation": "/spuːn/",
+    "meaning": "勺子",
+    "example": "I tasted the soup with a spoon.",
+    "translation": "我用勺子尝了汤。",
+    "tag": "A2 · noun",
+    "related": "a small spoon",
+    "pos": "noun",
+    "senses": [
+      "勺子"
+    ],
+    "collocations": [
+      "a small spoon"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "cooking-comparison"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-a2-b11-03",
+    "word": "plate",
+    "pronunciation": "/pleɪt/",
+    "meaning": "盘子",
+    "example": "The bread was on a plate.",
+    "translation": "面包放在盘子里。",
+    "tag": "A2 · noun",
+    "related": "a clean plate",
+    "pos": "noun",
+    "senses": [
+      "盘子"
+    ],
+    "collocations": [
+      "a clean plate"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "cooking-comparison"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-a2-b11-04",
+    "word": "bowl",
+    "pronunciation": "/bəʊl/",
+    "meaning": "碗",
+    "example": "This bowl is not as big as that one.",
+    "translation": "这个碗没有那个大。",
+    "tag": "A2 · noun",
+    "related": "a bowl of soup",
+    "pos": "noun",
+    "senses": [
+      "碗"
+    ],
+    "collocations": [
+      "a bowl of soup"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "cooking-comparison"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-a2-b11-05",
+    "word": "soup",
+    "pronunciation": "/suːp/",
+    "meaning": "汤",
+    "example": "My soup is as warm as yours.",
+    "translation": "我的汤和你的一样温热。",
+    "tag": "A2 · noun",
+    "related": "make soup",
+    "pos": "noun",
+    "senses": [
+      "汤"
+    ],
+    "collocations": [
+      "make soup"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "cooking-comparison"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-a2-b11-06",
+    "word": "salt",
+    "pronunciation": "/sɔːlt/",
+    "meaning": "盐",
+    "example": "Please taste it before adding salt.",
+    "translation": "加盐前请先尝一下。",
+    "tag": "A2 · noun",
+    "related": "add salt",
+    "pos": "noun",
+    "senses": [
+      "盐"
+    ],
+    "collocations": [
+      "add salt"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "cooking-comparison"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-a2-b11-07",
+    "word": "sweet",
+    "pronunciation": "/swiːt/",
+    "meaning": "甜的",
+    "example": "This soup is not as sweet as yesterday’s soup.",
+    "translation": "这份汤没有昨天的那么甜。",
+    "tag": "A2 · adjective",
+    "related": "a sweet taste",
+    "pos": "adjective",
+    "senses": [
+      "甜的"
+    ],
+    "collocations": [
+      "a sweet taste"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "cooking-comparison"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-a2-b11-08",
+    "word": "sour",
+    "pronunciation": "/saʊə/",
+    "meaning": "酸的",
+    "example": "The lemon tasted sour.",
+    "translation": "柠檬尝起来是酸的。",
+    "tag": "A2 · adjective",
+    "related": "a sour taste",
+    "pos": "adjective",
+    "senses": [
+      "酸的"
+    ],
+    "collocations": [
+      "a sour taste"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "cooking-comparison"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-a2-b11-09",
+    "word": "warm",
+    "pronunciation": "/wɔːm/",
+    "meaning": "温热的",
+    "example": "The soup was still warm.",
+    "translation": "汤还温热。",
+    "tag": "A2 · adjective",
+    "related": "warm soup",
+    "pos": "adjective",
+    "senses": [
+      "温热的"
+    ],
+    "collocations": [
+      "warm soup"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "cooking-comparison"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-a2-b11-10",
+    "word": "cool",
+    "pronunciation": "/kuːl/",
+    "meaning": "凉的；凉爽的",
+    "example": "The soup was cool after we waited.",
+    "translation": "等了一会儿以后，汤凉了。",
+    "tag": "A2 · adjective",
+    "related": "cool water",
+    "pos": "adjective",
+    "senses": [
+      "凉的；凉爽的"
+    ],
+    "collocations": [
+      "cool water"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "cooking-comparison"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-a2-b11-11",
+    "word": "taste",
+    "pronunciation": "/teɪst/",
+    "meaning": "品尝",
+    "example": "I want to taste the soup first.",
+    "translation": "我想先尝一下汤。",
+    "tag": "A2 · verb",
+    "related": "taste the soup",
+    "pos": "verb",
+    "senses": [
+      "品尝"
+    ],
+    "collocations": [
+      "taste the soup"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "cooking-comparison"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-a2-b11-12",
+    "word": "recipe",
+    "pronunciation": "/ˈresəpi/",
+    "meaning": "食谱",
+    "example": "She needs to read the recipe again.",
+    "translation": "她需要再读一遍食谱。",
+    "tag": "A2 · noun",
+    "related": "follow a recipe",
+    "pos": "noun",
+    "senses": [
+      "食谱"
+    ],
+    "collocations": [
+      "follow a recipe"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "cooking-comparison"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
   }
 ]

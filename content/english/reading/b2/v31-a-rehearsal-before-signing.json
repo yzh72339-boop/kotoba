@@ -1,0 +1,119 @@
+{
+  "id": "article-en-b2-a-rehearsal-before-signing",
+  "kind": "reading",
+  "language": "en",
+  "level": "B2",
+  "difficulty": 4,
+  "tags": [
+    "B2",
+    "v3-vocabulary-11"
+  ],
+  "title": "A rehearsal before signing",
+  "topic": "文化 · 音乐活动与条件判断",
+  "genre": "story",
+  "estimatedMinutes": 3,
+  "paragraphs": [
+    "On Monday, a small music group visited a possible venue for its autumn concert. The online photographs looked promising, but the musicians wanted to hear the room before making a final reservation. One member asked about accessibility, while another checked where the equipment could be stored. Despite the rain, they stayed for a short rehearsal. The room sounded different once people and instruments were inside, and its acoustics mattered more than the empty-room photographs had suggested.",
+    "At Wednesday’s meeting, the organiser described the next steps. “By Friday, we will have tested the backup equipment,” she said. Several people wrote that sentence down as if it settled the technical questions. The sound engineer asked them to add one word beside it: planned. He had not yet received the final cable, and a delivery date was still being discussed. He was not rejecting the schedule; he wanted the group to keep an expected future result separate from a test that had actually taken place.",
+    "There was also a contract to consider. The first room required a deposit, but the invoice included services the group had not requested. The organiser asked for an extension to the signing deadline so that they could check the details. In spite of careful planning, this part took longer than expected. One musician wanted to sign immediately, afraid of losing the date. Another pointed out that knowing the concert date was not the same as knowing which services were included in the price.",
+    "The manager of the first room later agreed to refund the deposit because a separately stated cancellation condition had been met. It was refunded before the group chose another room. The organiser explained that this was the outcome of their particular agreement, not a rule for every booking or every expense. The second room was smaller, but its layout worked better for the group. Before accepting it, they repeated the checks rather than assuming that a friendlier welcome answered every practical question.",
+    "On Friday afternoon, the cable arrived. The engineer tested it with the backup system and reported exactly what had been tried. There was still one microphone setting to discuss, so the organiser did not simply copy Wednesday’s confident language into the final message. Instead, she listed completed checks, the remaining question and the person responsible for answering it. The group then decided which details had to be agreed before signing. For them, the extra rehearsal had been useful because it changed their questions, not because it removed every uncertainty."
+  ],
+  "translation": [
+    "周一，一个小型音乐团体去看秋季音乐会的候选场地。网上照片很吸引人，但大家想在最终预订前听听房间的声音。一人询问无障碍可达性，另一人确认设备存放位置。尽管下雨，他们还是留下来作了短排练。有人和乐器进入后，声音与空房间不同，音响条件比照片所显示的更重要。",
+    "周三开会时，组织者说：“到周五，我们预计将已经测试完备用设备。”几个人把这句话记了下来，仿佛技术问题已经解决。音响师请他们在旁边加上“计划中”。最后一根线材还没收到，送达时间也仍在商议。他不是否定日程，而是希望大家区分预期的未来结果与实际完成的测试。",
+    "还有合同要考虑。第一个房间要求订金，但账单里含有团体未要求的服务。组织者请求延长签署期限，好核对细节。尽管事先作了细致计划，这一环仍比预期更久。一位乐手怕失去日期，想马上签。另一人指出，知道演出日期不等于知道费用包括哪些服务。",
+    "后来，第一个场地的经理因约定的取消条件已经满足，同意退还订金。在团队选另一房间前，订金已经退还。组织者说明，这只是这份具体协议的结果，不是所有预订和费用都适用的规则。第二个房间虽小，布局却更合适。在接受之前，他们重新核查，而没有把更友善的接待当成所有实际问题都已解决。",
+    "周五下午，线材到了。音响师用备用系统测试，并准确报告了测试内容。还有一个麦克风设置待讨论，所以组织者没有直接把周三那些自信措辞照抄到最终消息中，而是列出已完成项目、待答问题和负责人。随后，团队决定签署前哪些细节必须谈妥。额外排练的价值在于改变了问题，而不是消除了所有不确定性。"
+  ],
+  "vocabulary": [
+    "context-en-b2-b11-01",
+    "context-en-b2-b11-02",
+    "context-en-b2-b11-03",
+    "context-en-b2-b11-04",
+    "context-en-b2-b11-05",
+    "context-en-b2-b11-06",
+    "context-en-b2-b11-07",
+    "context-en-b2-b11-08",
+    "context-en-b2-b11-09",
+    "context-en-b2-b11-10",
+    "context-en-b2-b11-11",
+    "context-en-b2-b11-12"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-b2-future-perfect",
+      "surface": "will have tested"
+    },
+    {
+      "id": "grammar-en-b2-despite-in-spite-of",
+      "surface": "Despite the rain"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-b2-a-rehearsal-before-signing-main-idea",
+      "type": "main-idea",
+      "prompt": "这篇文章主要强调什么？",
+      "options": [
+        "把实际检查、未来安排和协议条件区分清楚，帮助作决定",
+        "只要场地照片好看，就能替代排练与核查",
+        "延长签署期限必然意味着活动失败"
+      ],
+      "answer": 0,
+      "explanation": "故事持续对照照片与声音、计划与测试、日期与服务条件，支持更清楚地判断。"
+    },
+    {
+      "id": "article-en-b2-a-rehearsal-before-signing-detail",
+      "type": "detail",
+      "prompt": "音响师为什么要求在周五测试的表述旁加“planned”？",
+      "options": [
+        "所有设备已经完成了同样的测试",
+        "线材尚未收到，测试仍是预计完成的事项",
+        "他明确决定取消所有技术检查"
+      ],
+      "answer": 1,
+      "explanation": "第二段说线材与送达时间未定；他要保留未来预期与完成事实之间的区别。"
+    },
+    {
+      "id": "article-en-b2-a-rehearsal-before-signing-grammar",
+      "type": "grammar",
+      "prompt": "“By Friday, we will have tested the backup equipment.” 从哪个参照点看完成？",
+      "options": [
+        "从现在确认所有测试都已完成",
+        "从周一以前回看当时已经发生的排练",
+        "从将来的周五回看届时预计完成的测试"
+      ],
+      "answer": 2,
+      "explanation": "将来完成时will have tested以未来期限为参照，不构成当前已经完成的证据。"
+    },
+    {
+      "id": "article-en-b2-a-rehearsal-before-signing-inference",
+      "type": "inference",
+      "prompt": "为什么第二个房间的接待更友善仍不足以直接接受？",
+      "options": [
+        "友善态度不能替代对具体设备、布局和条件的核查",
+        "友善接待证明所有合同条件都更差",
+        "房间只要更小就一定无法举行活动"
+      ],
+      "answer": 0,
+      "explanation": "第四段重做检查说明实际问题需要分别确认，不能仅凭接待态度推断全部条件。"
+    },
+    {
+      "id": "article-en-b2-a-rehearsal-before-signing-author-intent",
+      "type": "author-intent",
+      "prompt": "最后说排练改变了问题而非消除全部不确定性，意在说明什么？",
+      "options": [
+        "保留任何问题就说明检查毫无价值",
+        "实践检查的价值包括明确还需问什么，而非制造全部解决的印象",
+        "未来安排可以直接写成已经完成的事实"
+      ],
+      "answer": 1,
+      "explanation": "结尾实际列出已查、未解及负责人，肯定检查对后续判断的帮助，同时避免假装完全确定。"
+    }
+  ],
+  "notes": [
+    "原创虚构学习场景；词汇等级为语境教学编排，非官方穷尽列表。",
+    "预计时长按每分钟200日文字符或160英语单词向上取整，非个人实测。"
+  ]
+}

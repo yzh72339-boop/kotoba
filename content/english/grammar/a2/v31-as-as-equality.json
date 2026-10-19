@@ -1,0 +1,129 @@
+{
+  "id": "grammar-en-a2-as-as-equality",
+  "kind": "grammar",
+  "language": "en",
+  "level": "A2",
+  "difficulty": 2,
+  "tags": [
+    "A2",
+    "v3-vocabulary-11"
+  ],
+  "title": "As ... as: comparing the same quality",
+  "pattern": "as + adjective + as; not as + adjective + as",
+  "meaningZh": "和……一样……；没有……那么……",
+  "meaningEn": "equal comparison; a lower degree with not as ... as",
+  "explanation": "as加形容词原级再加as，把同一种性质拿来比较。My soup is as warm as yours表示两份汤的温热程度相当；not as warm as表示没有对方那么温热，并不等于完全冰凉。中间不用比较级warmer，比较对象也应当清楚。",
+  "usage": "比较温度、大小、难易等同一性质，表达大致相同或程度较低。",
+  "nuance": "日常感觉的比较不是精确测量；as ... as不自动表示其他性质也相同。",
+  "structure": [
+    "A + be + as + adjective + as + B",
+    "A + be + not as + adjective + as + B"
+  ],
+  "formation": [
+    "A + be + as + adjective + as + B",
+    "A + be + not as + adjective + as + B"
+  ],
+  "examples": [
+    {
+      "target": "My soup is as warm as yours.",
+      "zh": "我的汤和你的一样温热。"
+    },
+    {
+      "target": "This bowl is not as big as that one.",
+      "zh": "这个碗没有那个大。"
+    },
+    {
+      "target": "The recipe is as easy as the old one.",
+      "zh": "这份食谱和以前那份一样简单。"
+    },
+    {
+      "target": "This soup is not as sweet as yesterday’s soup.",
+      "zh": "这份汤没有昨天的汤那么甜。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "My soup is as warmer as yours.",
+      "correct": "My soup is as warm as yours.",
+      "explanation": "as ... as之间使用形容词原级warm，而不是比较级warmer。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-a2-comparatives",
+      "explanation": "warmer than表达程度更高；as warm as表达相当，not as warm as表达较低，注意比较形式与方向。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-a1-be-identity",
+    "grammar-en-a2-comparatives"
+  ],
+  "relatedGrammar": [
+    "grammar-en-a2-comparatives"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-a2-as-as-equality-meaning",
+      "kind": "meaning",
+      "prompt": "“This soup is not as sweet as yesterday’s soup.” 表示什么？",
+      "acceptedAnswers": [
+        "这份汤的甜度较低"
+      ],
+      "explanation": "not as ... as比较同一种性质的程度，不表示完全没有甜味。",
+      "options": [
+        "两份汤一定完全没有甜味",
+        "这份汤一定比昨天更甜",
+        "这份汤的甜度较低"
+      ]
+    },
+    {
+      "id": "grammar-en-a2-as-as-equality-fill",
+      "kind": "fill",
+      "prompt": "My soup is as ( ) as yours.",
+      "acceptedAnswers": [
+        "warm"
+      ],
+      "explanation": "as ... as之间使用形容词原级warm。",
+      "options": [
+        "warm",
+        "warmer",
+        "warmest"
+      ]
+    },
+    {
+      "id": "grammar-en-a2-as-as-equality-context",
+      "kind": "context",
+      "prompt": "两份汤感觉同样温热，哪句与此一致？",
+      "acceptedAnswers": [
+        "My soup is as warm as yours."
+      ],
+      "explanation": "正确句比较同一性质并表达相当；另两句分别表示更热和更凉。",
+      "options": [
+        "My soup is warmer than yours.",
+        "My soup is as warm as yours.",
+        "My soup is not as warm as yours."
+      ]
+    },
+    {
+      "id": "grammar-en-a2-as-as-equality-error",
+      "kind": "error",
+      "prompt": "改正比较形式：My soup is as warmer as yours.",
+      "acceptedAnswers": [
+        "My soup is as warm as yours."
+      ],
+      "explanation": "把warmer改为原级warm，保留as ... as结构。"
+    },
+    {
+      "id": "grammar-en-a2-as-as-equality-translation",
+      "kind": "translation",
+      "prompt": "译成英语：这个碗没有那个大。",
+      "acceptedAnswers": [
+        "This bowl is not as big as that one."
+      ],
+      "explanation": "not as big as表示大小程度较低，that one代替另一个碗。"
+    }
+  ]
+}

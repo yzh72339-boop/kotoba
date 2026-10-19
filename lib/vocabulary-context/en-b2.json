@@ -771,5 +771,293 @@
     "frequency": "medium",
     "register": "neutral",
     "sourceRef": "Kotoba 3.1 original vocabulary batch08"
+  },
+  {
+    "id": "context-en-b2-b11-01",
+    "word": "venue",
+    "pronunciation": "/ˈvenjuː/",
+    "meaning": "活动场地",
+    "example": "The group visited the venue before signing.",
+    "translation": "签署前，团队看了活动场地。",
+    "tag": "B2 · noun",
+    "related": "choose a venue",
+    "pos": "noun",
+    "senses": [
+      "活动场地"
+    ],
+    "collocations": [
+      "choose a venue"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "music-venue"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-b2-b11-02",
+    "word": "equipment",
+    "pronunciation": "/ɪˈkwɪpmənt/",
+    "meaning": "设备",
+    "example": "We will test the equipment on Friday.",
+    "translation": "我们周五将测试设备。",
+    "tag": "B2 · noun",
+    "related": "test the equipment",
+    "pos": "noun",
+    "senses": [
+      "设备"
+    ],
+    "collocations": [
+      "test the equipment"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "music-venue"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-b2-b11-03",
+    "word": "backup",
+    "pronunciation": "/ˈbækʌp/",
+    "meaning": "备用物；备份",
+    "example": "The backup was in a separate box.",
+    "translation": "备用物放在另一个箱子里。",
+    "tag": "B2 · noun",
+    "related": "keep a backup",
+    "pos": "noun",
+    "senses": [
+      "备用物；备份"
+    ],
+    "collocations": [
+      "keep a backup"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "music-venue"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-b2-b11-04",
+    "word": "rehearsal",
+    "pronunciation": "/rɪˈhɜːsəl/",
+    "meaning": "排练",
+    "example": "The rehearsal went ahead despite the rain.",
+    "translation": "尽管下雨，排练仍进行了。",
+    "tag": "B2 · noun",
+    "related": "hold a rehearsal",
+    "pos": "noun",
+    "senses": [
+      "排练"
+    ],
+    "collocations": [
+      "hold a rehearsal"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "music-venue"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-b2-b11-05",
+    "word": "acoustics",
+    "pronunciation": "/əˈkuːstɪks/",
+    "meaning": "声学效果；音响条件",
+    "example": "The acoustics changed when people entered.",
+    "translation": "有人进来后，音响效果发生了变化。",
+    "tag": "B2 · noun",
+    "related": "the acoustics of a room",
+    "pos": "noun",
+    "senses": [
+      "声学效果；音响条件"
+    ],
+    "collocations": [
+      "the acoustics of a room"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "music-venue"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-b2-b11-06",
+    "word": "reservation",
+    "pronunciation": "/ˌrezəˈveɪʃən/",
+    "meaning": "预订",
+    "example": "The reservation did not include every service.",
+    "translation": "预订并不包括所有服务。",
+    "tag": "B2 · noun",
+    "related": "confirm a reservation",
+    "pos": "noun",
+    "senses": [
+      "预订"
+    ],
+    "collocations": [
+      "confirm a reservation"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "music-venue"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-b2-b11-07",
+    "word": "deposit",
+    "pronunciation": "/dɪˈpɒzɪt/",
+    "meaning": "订金；保证金",
+    "example": "The deposit was returned after the cancellation.",
+    "translation": "取消后订金退还了。",
+    "tag": "B2 · noun",
+    "related": "pay a deposit",
+    "pos": "noun",
+    "senses": [
+      "订金；保证金"
+    ],
+    "collocations": [
+      "pay a deposit"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "music-venue"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-b2-b11-08",
+    "word": "refund",
+    "pronunciation": "/rɪˈfʌnd/",
+    "meaning": "退还款项",
+    "example": "The manager agreed to refund the deposit.",
+    "translation": "经理同意退还订金。",
+    "tag": "B2 · verb",
+    "related": "refund a deposit",
+    "pos": "verb",
+    "senses": [
+      "退还款项"
+    ],
+    "collocations": [
+      "refund a deposit"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "music-venue"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-b2-b11-09",
+    "word": "accessibility",
+    "pronunciation": "/əkˌsesəˈbɪləti/",
+    "meaning": "无障碍可达性；可用性",
+    "example": "They checked accessibility before making a decision.",
+    "translation": "他们在决定前检查了无障碍可达性。",
+    "tag": "B2 · noun",
+    "related": "check accessibility",
+    "pos": "noun",
+    "senses": [
+      "无障碍可达性；可用性"
+    ],
+    "collocations": [
+      "check accessibility"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "music-venue"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-b2-b11-10",
+    "word": "invoice",
+    "pronunciation": "/ˈɪnvɔɪs/",
+    "meaning": "发票；付款账单",
+    "example": "She checked the invoice carefully.",
+    "translation": "她仔细核查了发票。",
+    "tag": "B2 · noun",
+    "related": "check an invoice",
+    "pos": "noun",
+    "senses": [
+      "发票；付款账单"
+    ],
+    "collocations": [
+      "check an invoice"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "music-venue"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-b2-b11-11",
+    "word": "extension",
+    "pronunciation": "/ɪkˈstenʃən/",
+    "meaning": "延期；延长",
+    "example": "They asked for an extension to the deadline.",
+    "translation": "他们请求延长期限。",
+    "tag": "B2 · noun",
+    "related": "request an extension",
+    "pos": "noun",
+    "senses": [
+      "延期；延长"
+    ],
+    "collocations": [
+      "request an extension"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "music-venue"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-b2-b11-12",
+    "word": "contract",
+    "pronunciation": "/ˈkɒntrækt/",
+    "meaning": "合同",
+    "example": "They read the contract before signing.",
+    "translation": "他们签署前阅读了合同。",
+    "tag": "B2 · noun",
+    "related": "sign a contract",
+    "pos": "noun",
+    "senses": [
+      "合同"
+    ],
+    "collocations": [
+      "sign a contract"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "music-venue"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
   }
 ]

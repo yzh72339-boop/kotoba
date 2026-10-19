@@ -1,0 +1,133 @@
+{
+  "id": "grammar-ja-n4-te-mo-concession",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "N4",
+    "v3-vocabulary-11"
+  ],
+  "title": "〜ても：即使如此，后面的情况仍成立",
+  "pattern": "Vて／い形容词くて／な形容词で／Nで + も",
+  "meaningZh": "即使……也……；虽然……仍……",
+  "meaningEn": "even if; even though",
+  "explanation": "ても把前项作为假设或已有情况，表示即使出现该情况，后项仍然成立。雨が降っても行く可谈假设；説明を聞いても分からなかった可谈已经发生的事。它不同于たら的一般条件关系，也不能把触ってもいい等许可表达中的ても一律解释成转折。",
+  "usage": "说明某条件不会改变后续打算，或已有情况仍未带来预期结果。",
+  "nuance": "本课讨论让步用法。事实还是假设取决于语境，不只由ても这个形式决定。",
+  "structure": [
+    "Vて + も",
+    "い形容词くても／な形容词でも／Nでも"
+  ],
+  "formation": [
+    "Vて + も",
+    "い形容词くても／な形容词でも／Nでも"
+  ],
+  "examples": [
+    {
+      "target": "雨が降っても、美術館へ行くつもりだ。",
+      "reading": "あめがふっても、びじゅつかんへいくつもりだ。",
+      "zh": "即使下雨，我也打算去美术馆。"
+    },
+    {
+      "target": "説明を聞いても、分からない所があった。",
+      "reading": "せつめいをきいても、わからないところがあった。",
+      "zh": "虽然听了说明，仍有不明白的地方。"
+    },
+    {
+      "target": "入口が静かでも、中には人がいるかもしれない。",
+      "reading": "いりぐちがしずかでも、なかにはひとがいるかもしれない。",
+      "zh": "即使入口很安静，里面也可能有人。"
+    },
+    {
+      "target": "この作品は小さくても、形がよく分かる。",
+      "reading": "このさくひんはちいさくても、かたちがよくわかる。",
+      "zh": "这件作品虽然小，形状却很清楚。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "入口が静かなても、中には人がいるかもしれない。",
+      "correct": "入口が静かでも、中には人がいるかもしれない。",
+      "explanation": "な形容词的让步接续为でも，不使用なても。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n4-tara-conditional",
+      "explanation": "たら常建立某条件成立后的情况；ても强调即使出现该条件，后项仍成立，不能只按“如果”互换。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form",
+    "grammar-ja-n5-te-mo-ii-permission"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n4-tara-conditional"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n4-te-mo-concession-meaning",
+      "kind": "meaning",
+      "prompt": "“雨が降っても、美術館へ行くつもりだ。” 对下雨有什么态度？",
+      "acceptedAnswers": [
+        "下雨也不改变去美术馆的打算"
+      ],
+      "explanation": "ても强调该条件不会改变后面的打算，并非等雨停才出发。",
+      "options": [
+        "下雨也不改变去美术馆的打算",
+        "只有下雨时才去美术馆",
+        "已经确定今天不会下雨"
+      ]
+    },
+    {
+      "id": "grammar-ja-n4-te-mo-concession-fill",
+      "kind": "fill",
+      "prompt": "入口が静か（　）、中には人がいるかもしれない。",
+      "acceptedAnswers": [
+        "でも"
+      ],
+      "explanation": "静か是な形容词，让步接续用でも。",
+      "options": [
+        "なても",
+        "でも",
+        "くても"
+      ]
+    },
+    {
+      "id": "grammar-ja-n4-te-mo-concession-context",
+      "kind": "context",
+      "prompt": "已经听了说明，但仍有不明白处，哪句准确？",
+      "acceptedAnswers": [
+        "説明を聞いても、分からない所があった。"
+      ],
+      "explanation": "这里的ても连接事实与未达预期结果；其他句子分别说先后顺序或尚未听说明。",
+      "options": [
+        "説明を聞いたら、全部分かるようになった。",
+        "説明を聞く前に、質問をまとめた。",
+        "説明を聞いても、分からない所があった。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n4-te-mo-concession-error",
+      "kind": "error",
+      "prompt": "改正接续：入口が静かなても、中には人がいるかもしれない。",
+      "acceptedAnswers": [
+        "入口が静かでも、中には人がいるかもしれない。"
+      ],
+      "explanation": "把静かなても改为静かでも，保留让步含义。"
+    },
+    {
+      "id": "grammar-ja-n4-te-mo-concession-translation",
+      "kind": "translation",
+      "prompt": "译成日语：即使下雨，我也打算去美术馆。",
+      "acceptedAnswers": [
+        "雨が降っても、美術館へ行くつもりだ。"
+      ],
+      "explanation": "雨が降っても标出不改变后项打算的条件，つもりだ表达计划。"
+    }
+  ]
+}

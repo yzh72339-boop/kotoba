@@ -1,0 +1,127 @@
+{
+  "id": "grammar-en-b2-future-perfect",
+  "kind": "grammar",
+  "language": "en",
+  "level": "B2",
+  "difficulty": 4,
+  "tags": [
+    "B2",
+    "v3-vocabulary-11"
+  ],
+  "title": "Future perfect: looking back from a future point",
+  "pattern": "will have + past participle",
+  "meaningZh": "到将来某时为止将已经完成",
+  "meaningEn": "completion viewed from a future reference point",
+  "explanation": "将来完成时用will have加过去分词，从一个将来参照点回看某行动已完成。By Friday, we will have tested the backup equipment把周五作为期限。这种说法是在预测、安排或假设基础上作出的未来判断，不证明现在已经测试完，也不保证计划必然实现。",
+  "usage": "交代到某期限预计完成的事项，或说明未来时点之前累计的结果。",
+  "nuance": "by常标出不晚于某时的期限；at仅定位时刻。过去分词不因主语改变，will后也不改成has。",
+  "structure": [
+    "Subject + will have + past participle + by + future time"
+  ],
+  "formation": [
+    "Subject + will have + past participle + by + future time"
+  ],
+  "examples": [
+    {
+      "target": "By Friday, we will have tested the backup equipment.",
+      "zh": "到周五，我们预计将已经测试完备用设备。"
+    },
+    {
+      "target": "She will have checked the invoice by tomorrow morning.",
+      "zh": "到明早，她将已核查完发票。"
+    },
+    {
+      "target": "By the end of the rehearsal, we will have tried both microphones.",
+      "zh": "到排练结束时，我们将已试过两支麦克风。"
+    },
+    {
+      "target": "They will have signed the contract by next week if the final details are agreed.",
+      "zh": "如果最后的细节谈妥，到下周他们将已签署合同。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "By Friday, we will have test the equipment.",
+      "correct": "By Friday, we will have tested the equipment.",
+      "explanation": "have后接过去分词tested，不能使用原形test。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-b1-present-perfect-and-past-simple",
+      "explanation": "have tested从现在回看已完成；will have tested从未来参照点回看，不能把未来安排当作现时完成证据。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-b1-present-perfect-and-past-simple",
+    "grammar-en-a2-will-spontaneous"
+  ],
+  "relatedGrammar": [
+    "grammar-en-b1-present-perfect-and-past-simple"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-b2-future-perfect-meaning",
+      "kind": "meaning",
+      "prompt": "“By Friday, we will have tested the backup equipment.” 可以直接确认什么？",
+      "acceptedAnswers": [
+        "说话人预计到周五时测试已经完成"
+      ],
+      "explanation": "这是从未来期限回看的判断，不能据此证明当前已经完成。",
+      "options": [
+        "说话时所有测试已经完成",
+        "说话人预计到周五时测试已经完成",
+        "测试只能在周五之后开始"
+      ]
+    },
+    {
+      "id": "grammar-en-b2-future-perfect-fill",
+      "kind": "fill",
+      "prompt": "By Friday, we will have ( ) the equipment.",
+      "acceptedAnswers": [
+        "tested"
+      ],
+      "explanation": "will have后用过去分词tested。",
+      "options": [
+        "test",
+        "testing",
+        "tested"
+      ]
+    },
+    {
+      "id": "grammar-en-b2-future-perfect-context",
+      "kind": "context",
+      "prompt": "想说明到排练结束时两支麦克风都预计试过，哪句准确？",
+      "acceptedAnswers": [
+        "By the end of the rehearsal, we will have tried both microphones."
+      ],
+      "explanation": "参照点是排练结束，动作在此之前预计完成；不是报告此刻正在做什么。",
+      "options": [
+        "By the end of the rehearsal, we will have tried both microphones.",
+        "At this moment, we are trying one microphone.",
+        "We will begin trying the microphones after the rehearsal."
+      ]
+    },
+    {
+      "id": "grammar-en-b2-future-perfect-error",
+      "kind": "error",
+      "prompt": "改正分词：By Friday, we will have test the equipment.",
+      "acceptedAnswers": [
+        "By Friday, we will have tested the equipment."
+      ],
+      "explanation": "have后用tested组成完成结构，不改动原期限。"
+    },
+    {
+      "id": "grammar-en-b2-future-perfect-translation",
+      "kind": "translation",
+      "prompt": "译成英语：到明早，她将已核查完发票。",
+      "acceptedAnswers": [
+        "She will have checked the invoice by tomorrow morning."
+      ],
+      "explanation": "will have checked表达未来参照点前的完成，by tomorrow morning给出期限。"
+    }
+  ]
+}
