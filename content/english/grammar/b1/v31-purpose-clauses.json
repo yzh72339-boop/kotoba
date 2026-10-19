@@ -1,0 +1,131 @@
+{
+  "id": "grammar-en-b1-purpose-clauses",
+  "kind": "grammar",
+  "language": "en",
+  "level": "B1",
+  "difficulty": 3,
+  "tags": [
+    "B1",
+    "v3-vocabulary-09",
+    "持续活动与目的"
+  ],
+  "title": "Purpose: to, in order to and so that",
+  "pattern": "to / in order to + verb; so that + clause",
+  "meaningZh": "说明做某事的目的，而非保证已经实现的结果",
+  "meaningEn": "stating a goal with an infinitive or a so that clause",
+  "explanation": "表达目的时，可用to或in order to加动词原形，通常由主句主语执行该动作。We moved the table in order to separate the two queues说明搬桌子的目标。若目的涉及另一个行动者，so that后接有主语和动词的从句更清楚，如so that visitors could wait inside。目的不等于已经证实的结果。",
+  "usage": "解释安排、计划或改进措施为什么这样做，清楚区分谁行动、谁受益。",
+  "nuance": "in order to较明确、略正式；普通to更简短。so that常搭配can或could；注意so + adjective + that是另一个表示程度与结果的结构。",
+  "structure": [
+    "Subject + action + to / in order to + base verb",
+    "Subject + action + so that + subject + can / could + base verb"
+  ],
+  "formation": [
+    "Subject + action + to / in order to + base verb",
+    "Subject + action + so that + subject + can / could + base verb"
+  ],
+  "examples": [
+    {
+      "target": "We moved the table in order to separate the two queues.",
+      "zh": "我们搬了桌子，以便把两条队伍分开。"
+    },
+    {
+      "target": "Mina wrote an update so that the next shift could check the supply.",
+      "zh": "米娜写了最新说明，好让下一班能核查物资。"
+    },
+    {
+      "target": "I came early to sort the parcels.",
+      "zh": "我早点来是为了分拣包裹。"
+    },
+    {
+      "target": "We opened the entrance so that visitors could wait inside.",
+      "zh": "我们打开入口，让来访者可以在里面等候。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Mina wrote an update in order to the next shift could check the supply.",
+      "correct": "Mina wrote an update so that the next shift could check the supply.",
+      "explanation": "后面有独立主语the next shift及could，应使用so that从句，不能直接接在in order to之后。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-b1-first-conditional",
+      "explanation": "目的从句交代采取行动的目标；if条件句说明在什么条件下才会有后续行动或结果。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-a1-can-ability",
+    "grammar-en-a2-past-simple"
+  ],
+  "relatedGrammar": [
+    "grammar-en-b1-first-conditional"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-b1-purpose-clauses-meaning",
+      "kind": "meaning",
+      "prompt": "“I came early to sort the parcels.” 中to sort说明什么？",
+      "acceptedAnswers": [
+        "早点到的目的"
+      ],
+      "explanation": "目的不保证包裹已经全部分拣完；它解释为什么早点来。",
+      "options": [
+        "早点到的目的",
+        "所有包裹已经分拣完的证据",
+        "来早这一事实的日期"
+      ]
+    },
+    {
+      "id": "grammar-en-b1-purpose-clauses-fill",
+      "kind": "fill",
+      "prompt": "Mina wrote an update ( ) the next shift could check the supply.",
+      "acceptedAnswers": [
+        "so that"
+      ],
+      "explanation": "后面有自己的主语和情态动词，需要完整目的从句。",
+      "options": [
+        "in order to",
+        "so that",
+        "to"
+      ]
+    },
+    {
+      "id": "grammar-en-b1-purpose-clauses-context",
+      "kind": "context",
+      "prompt": "下一班是核查物资的人，哪句保留了这个行动者？",
+      "acceptedAnswers": [
+        "Mina wrote an update so that the next shift could check the supply."
+      ],
+      "explanation": "正确句明确the next shift是核查者；she把行动者改成Mina，because把目的变成已发生的原因。",
+      "options": [
+        "Mina wrote an update so that she could check the supply.",
+        "Mina wrote an update because the next shift had already checked the supply.",
+        "Mina wrote an update so that the next shift could check the supply."
+      ]
+    },
+    {
+      "id": "grammar-en-b1-purpose-clauses-error",
+      "kind": "error",
+      "prompt": "改正连接：Mina wrote an update in order to the next shift could check the supply.",
+      "acceptedAnswers": [
+        "Mina wrote an update so that the next shift could check the supply."
+      ],
+      "explanation": "以so that引出有独立主语的从句，保留原有目的与行动者。"
+    },
+    {
+      "id": "grammar-en-b1-purpose-clauses-translation",
+      "kind": "translation",
+      "prompt": "译成英语：我早点来是为了分拣包裹。",
+      "acceptedAnswers": [
+        "I came early to sort the parcels.",
+        "I came early in order to sort the parcels."
+      ],
+      "explanation": "同一主语I执行came和sort，可用to或in order to加动词原形。"
+    }
+  ]
+}

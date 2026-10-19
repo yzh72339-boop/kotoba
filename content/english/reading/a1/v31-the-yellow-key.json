@@ -1,0 +1,119 @@
+{
+  "id": "article-en-a1-the-yellow-key",
+  "kind": "reading",
+  "language": "en",
+  "level": "A1",
+  "difficulty": 1,
+  "tags": [
+    "A1",
+    "v3-vocabulary-09",
+    "位置与协作"
+  ],
+  "title": "The yellow key",
+  "topic": "学校 · 合作寻找物品",
+  "genre": "story",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "Our school has a small reading room. I help there with Ana. Today, a green box is under the desk. Two keys are in the box: one is red and one is yellow. The yellow key is for the reading room.",
+    "Ana says, “Open the green box, please.” I open it. There is a pen behind the box. A pencil and some paper are on the desk. “Put the yellow key between the pen and the pencil,” she says.",
+    "I put it under the paper. Ana looks at the desk. “Where is the key?” she asks. I show her. “It is under the paper.” We laugh. We want the key in different places.",
+    "“Do not put the paper on the key,” Ana says. “Please put the paper in the box.” Now the key is easy to see. It is between the pen and the pencil.",
+    "At four, a new student comes. We can open the reading room. The key is in the right place, and we are ready."
+  ],
+  "translation": [
+    "我们学校有一间小阅览室。我和安娜在那里帮忙。今天，书桌下面有一个绿色盒子。盒子里有两把钥匙：一把红色，一把黄色。黄色钥匙是阅览室的。",
+    "安娜说：“请打开绿色盒子。”我把它打开。盒子后面有一支钢笔。书桌上有一支铅笔和一些纸。“把黄色钥匙放在钢笔和铅笔之间，”她说。",
+    "我把它放在纸下面。安娜看着书桌问：“钥匙在哪里？”我指给她看：“在纸下面。”我们笑了。我们想放钥匙的位置不一样。",
+    "安娜说：“不要把纸放在钥匙上面。请把纸放进盒子里。”现在很容易看到钥匙了。它在钢笔和铅笔之间。",
+    "四点，一位新同学来了。我们可以打开阅览室。钥匙放在了正确的位置，我们也准备好了。"
+  ],
+  "vocabulary": [
+    "context-en-a1-b09-desk",
+    "context-en-a1-b09-key",
+    "context-en-a1-b09-pen",
+    "context-en-a1-b09-pencil",
+    "context-en-a1-b09-paper",
+    "context-en-a1-b09-green",
+    "context-en-a1-b09-yellow",
+    "context-en-a1-b09-under",
+    "context-en-a1-b09-behind",
+    "context-en-a1-b09-between",
+    "context-en-a1-b09-put",
+    "context-en-a1-b09-open"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-a1-imperatives",
+      "surface": "Open the green box, please."
+    },
+    {
+      "id": "grammar-en-a1-place-prepositions",
+      "surface": "between the pen and the pencil"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-a1-the-yellow-key-main-idea",
+      "type": "main-idea",
+      "prompt": "这个故事主要讲什么？",
+      "options": [
+        "两人把钥匙放在清楚的位置，准备打开阅览室",
+        "学生决定关闭学校",
+        "安娜买了许多新钥匙"
+      ],
+      "answer": 0,
+      "explanation": "从寻找、调整位置到开门，行动主线是合作准备阅览室，不是采购。"
+    },
+    {
+      "id": "article-en-a1-the-yellow-key-detail",
+      "type": "detail",
+      "prompt": "绿色盒子最初在哪里？",
+      "options": [
+        "在阅览室外面",
+        "在书桌下面",
+        "在新同学的包里"
+      ],
+      "answer": 1,
+      "explanation": "第一段明确说a green box is under the desk，给出盒子的初始位置。"
+    },
+    {
+      "id": "article-en-a1-the-yellow-key-inference",
+      "type": "inference",
+      "prompt": "为什么把纸移到盒子里后钥匙更容易看到？",
+      "options": [
+        "黄色钥匙变成了红色",
+        "新同学拿走了书桌",
+        "纸不再挡着钥匙"
+      ],
+      "answer": 2,
+      "explanation": "此前钥匙在纸下面；移开纸消除了遮挡，故事没有改变钥匙颜色。"
+    },
+    {
+      "id": "article-en-a1-the-yellow-key-grammar",
+      "type": "grammar",
+      "prompt": "“Open the green box, please.” 在这里有什么作用？",
+      "options": [
+        "请对方执行一个具体动作",
+        "描述安娜每天的习惯",
+        "报告盒子昨天的位置"
+      ],
+      "answer": 0,
+      "explanation": "动词原形open组成祈使句，please使请求更缓和，并非过去的报告。"
+    },
+    {
+      "id": "article-en-a1-the-yellow-key-author-intent",
+      "type": "author-intent",
+      "prompt": "“We want the key in different places.” 在故事中强调什么？",
+      "options": [
+        "两人来自不同国家",
+        "两人对放置位置的理解不同，需要说清楚",
+        "两人不愿意一起工作"
+      ],
+      "answer": 1,
+      "explanation": "我放在纸下面而安娜要求放在两支笔之间，后文通过明确位置解决问题。"
+    }
+  ],
+  "notes": [
+    "原创分级故事。预计时长按每分钟160个英语单词向上取整，非个人实测。"
+  ]
+}

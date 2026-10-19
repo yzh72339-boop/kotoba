@@ -1,0 +1,119 @@
+{
+  "id": "article-en-b1-a-queue-moves-inside",
+  "kind": "reading",
+  "language": "en",
+  "level": "B1",
+  "difficulty": 3,
+  "tags": [
+    "B1",
+    "v3-vocabulary-09",
+    "持续活动与目的"
+  ],
+  "title": "A queue moves inside",
+  "topic": "社区 · 在协作中说明过程与目的",
+  "genre": "story",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "At a small community centre, volunteers prepare food parcels on Saturday mornings. Mina usually works the first shift. This week, rain has brought more people to the entrance, where the queue reaches the pavement. Inside, two volunteers are trying to pack food while answering questions about a short delay.",
+    "“We have been packing parcels since nine,” Mina tells Tom when he arrives. “I have packed twelve, but the supply is not ready for everyone yet.” Tom looks at the waiting families. Hearing a number is useful, but he still needs to know which parcels are ready. He offers to sort them by street so that they are easier to find.",
+    "Mina has also been delivering food to people who cannot leave home. Her coat is wet, and she needs a moment to rest. Tom asks whether he should deliver the next parcel himself. Before he goes, Mina shows him how to check the name and address. One person in the queue has the same first name as another, so a name alone is not enough.",
+    "The rain becomes heavier. “We moved the table in order to separate the two queues,” Mina writes in a short update. One queue is for collection, and the other is for questions. The volunteers also open a second entrance so that visitors can wait inside. They explain the change to the people outside rather than expecting them to understand a new sign at once.",
+    "At noon, the next shift reads the update. It gives the reason for the change, not just a list of instructions. The queue is shorter, but Mina does not claim that moving a table solved everything. There was also more food, and two extra people came to help. For her, a useful record says what the team did, what it hoped to achieve, and what still needs attention."
+  ],
+  "translation": [
+    "一家小社区中心的志愿者每周六上午准备食物包裹。米娜通常上第一班。这周下雨，入口处来了更多人，队伍排到了人行道上。室内，两位志愿者一边打包食物，一边回答有关短暂延误的问题。",
+    "汤姆到来时，米娜告诉他：“我们从九点开始一直在打包。我已经打包了十二个，但还没有备齐所有人的物资。”汤姆看着等候的家庭。知道数量是有用的，但他还需要知道哪些包裹已经准备好。他提出按街道分拣，这样就更容易找到。",
+    "米娜也一直在给无法出门的人送食物。她的外套湿了，需要休息一会儿。汤姆问下一个包裹是否该由自己去送。出发前，米娜教他怎样核查姓名和地址。队伍中有两人的名字相同，所以只看名字不够。",
+    "雨更大了。米娜在简短的最新说明里写道：我们搬了桌子，以便把两条队伍分开；一条用于领取，另一条用于提问。志愿者还打开第二个入口，让来访者能在室内等候。他们向外面的人解释变化，而不是指望大家马上理解一块新标牌。",
+    "中午，下一班读了最新说明。里面交代了改变的原因，不只是指令清单。队伍变短了，但米娜没有声称搬桌子解决了一切。食物也增加了，还有两个人来帮忙。对她而言，有用的记录要说明团队做了什么、希望达到什么，以及还有什么需要关注。"
+  ],
+  "vocabulary": [
+    "context-en-b1-b09-queue",
+    "context-en-b1-b09-shift",
+    "context-en-b1-b09-deliver",
+    "context-en-b1-b09-pack",
+    "context-en-b1-b09-sort",
+    "context-en-b1-b09-parcel",
+    "context-en-b1-b09-delay",
+    "context-en-b1-b09-supply",
+    "context-en-b1-b09-separate",
+    "context-en-b1-b09-check",
+    "context-en-b1-b09-update",
+    "context-en-b1-b09-entrance"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-b1-present-perfect-continuous",
+      "surface": "have been packing"
+    },
+    {
+      "id": "grammar-en-b1-purpose-clauses",
+      "surface": "in order to separate"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-b1-a-queue-moves-inside-main-idea",
+      "type": "main-idea",
+      "prompt": "这篇文章的主线是什么？",
+      "options": [
+        "志愿者只需增加标牌，就能避免向等候者解释",
+        "团队一边处理配送与排队，一边记录行动及其目的",
+        "交接记录应只写最终数量，省略目的和未解决问题"
+      ],
+      "answer": 1,
+      "explanation": "文章从忙碌现场写到分工、搬桌子与交接记录，强调过程、目的和待办事项。"
+    },
+    {
+      "id": "article-en-b1-a-queue-moves-inside-detail",
+      "type": "detail",
+      "prompt": "为什么汤姆送包裹前需要核查地址？",
+      "options": [
+        "每个包裹都没有任何名字",
+        "所有人住在同一个地址",
+        "队伍中有人名字相同，只看名字无法可靠区分"
+      ],
+      "answer": 2,
+      "explanation": "第三段指出两人的first name相同，因此仅凭名字不够，不能推断完全没有标签。"
+    },
+    {
+      "id": "article-en-b1-a-queue-moves-inside-grammar",
+      "type": "grammar",
+      "prompt": "“have been packing parcels since nine” 与“have packed twelve”侧重点有何区别？",
+      "options": [
+        "前者强调持续活动，后者报告已完成数量",
+        "前者保证全部完成，后者只说明将来计划",
+        "两句都表示昨天九点以前完成"
+      ],
+      "answer": 0,
+      "explanation": "第二段直接对照活动过程与十二个这一结果；完成进行时不保证任务全部结束。"
+    },
+    {
+      "id": "article-en-b1-a-queue-moves-inside-inference",
+      "type": "inference",
+      "prompt": "为什么不能仅凭队伍变短就认定搬桌子解决了一切？",
+      "options": [
+        "文章说明桌子从未移动过",
+        "食物增加和额外人手也可能起作用",
+        "队伍其实一直在室外变长"
+      ],
+      "answer": 1,
+      "explanation": "最后一段同时指出物资与人手增加，存在其他可能解释，不能独断归因。"
+    },
+    {
+      "id": "article-en-b1-a-queue-moves-inside-author-intent",
+      "type": "author-intent",
+      "prompt": "作者为什么写下一班阅读update的场景？",
+      "options": [
+        "证明只有第一班可以改变流程",
+        "要求下一班忽略尚未解决的问题",
+        "说明记录原因和目标能帮助后续人员理解安排"
+      ],
+      "answer": 2,
+      "explanation": "最后一段强调记录既写行动，也写目的及待关注问题，使交接有上下文。"
+    }
+  ],
+  "notes": [
+    "原创分级故事。预计时长按每分钟160个英语单词向上取整，非个人实测。"
+  ]
+}

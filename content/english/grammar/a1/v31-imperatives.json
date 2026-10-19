@@ -1,0 +1,133 @@
+{
+  "id": "grammar-en-a1-imperatives",
+  "kind": "grammar",
+  "language": "en",
+  "level": "A1",
+  "difficulty": 1,
+  "tags": [
+    "A1",
+    "v3-vocabulary-09",
+    "位置与协作"
+  ],
+  "title": "Imperatives: one clear step at a time",
+  "pattern": "base verb / do not + base verb",
+  "meaningZh": "用动词原形给出指令；用do not表示不要做",
+  "meaningEn": "instructions with the base verb and do not",
+  "explanation": "祈使句通常省略主语you，以动词原形开始，用于指路、说明操作或请求。Put the key on the desk是一项具体指令；Don’t open the box是否定指令。please可放在句首或句末来缓和语气，但礼貌还取决于语调与关系，不是加上please就一定合适。",
+  "usage": "给出简短、可执行的一步操作，或说明某一步暂时不能做。",
+  "nuance": "祈使句不是陈述他人平时的习惯；不要在动词后加第三人称-s。口语中don’t常代替do not。",
+  "structure": [
+    "Base verb + object / place",
+    "Do not / Don’t + base verb",
+    "Please + base verb / base verb + please"
+  ],
+  "formation": [
+    "Base verb + object / place",
+    "Do not / Don’t + base verb",
+    "Please + base verb / base verb + please"
+  ],
+  "examples": [
+    {
+      "target": "Put the yellow key on the desk, please.",
+      "zh": "请把黄色钥匙放在书桌上。"
+    },
+    {
+      "target": "Open the green box.",
+      "zh": "打开绿色盒子。"
+    },
+    {
+      "target": "Do not put the paper under the box.",
+      "zh": "不要把纸放在盒子下面。"
+    },
+    {
+      "target": "Please write your name with a pencil.",
+      "zh": "请用铅笔写下你的名字。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Opens the green box, please.",
+      "correct": "Open the green box, please.",
+      "explanation": "祈使句用动词原形open；opens用于如she opens这样的陈述句。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-a1-present-simple-routine",
+      "explanation": "She opens the box说明她的习惯；Open the box直接请对方行动。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-a1-present-simple-routine"
+  ],
+  "relatedGrammar": [
+    "grammar-en-a1-present-simple-routine"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-a1-imperatives-meaning",
+      "kind": "meaning",
+      "prompt": "“Do not put the paper under the box.” 要求什么？",
+      "acceptedAnswers": [
+        "不要把纸放在盒子下面"
+      ],
+      "explanation": "do not否定后面的动作，不是说纸已经放好了。",
+      "options": [
+        "不要把纸放在盒子下面",
+        "纸已经在盒子下面",
+        "每个人都必须打开盒子"
+      ]
+    },
+    {
+      "id": "grammar-en-a1-imperatives-fill",
+      "kind": "fill",
+      "prompt": "Please ( ) the green box.",
+      "acceptedAnswers": [
+        "open"
+      ],
+      "explanation": "祈使句以动词原形open发出具体操作指令。",
+      "options": [
+        "opens",
+        "open",
+        "opening"
+      ]
+    },
+    {
+      "id": "grammar-en-a1-imperatives-context",
+      "kind": "context",
+      "prompt": "你想请同学把钥匙放桌上，哪句是明确指令？",
+      "acceptedAnswers": [
+        "Put the key on the desk, please."
+      ],
+      "explanation": "省略you并使用put原形；句末please缓和指令。",
+      "options": [
+        "The key is on the desk.",
+        "She puts the key on the desk every day.",
+        "Put the key on the desk, please."
+      ]
+    },
+    {
+      "id": "grammar-en-a1-imperatives-error",
+      "kind": "error",
+      "prompt": "改正指令：Opens the green box, please.",
+      "acceptedAnswers": [
+        "Open the green box, please."
+      ],
+      "explanation": "把opens改为open，保留原有对象与请求语气。"
+    },
+    {
+      "id": "grammar-en-a1-imperatives-translation",
+      "kind": "translation",
+      "prompt": "译成英语：不要把纸放在盒子下面。",
+      "acceptedAnswers": [
+        "Do not put the paper under the box.",
+        "Don't put the paper under the box.",
+        "Don’t put the paper under the box."
+      ],
+      "explanation": "do not或don’t后接put原形，under the box表示位置。"
+    }
+  ]
+}

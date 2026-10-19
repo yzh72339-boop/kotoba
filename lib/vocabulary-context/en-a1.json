@@ -461,5 +461,293 @@
     "frequency": "high",
     "register": "neutral",
     "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-a1-b09-desk",
+    "word": "desk",
+    "pronunciation": "/desk/",
+    "meaning": "书桌",
+    "example": "The green box is under the desk.",
+    "translation": "绿色盒子在书桌下面。",
+    "tag": "A1 · noun",
+    "related": "on the desk",
+    "pos": "noun",
+    "senses": [
+      "书桌"
+    ],
+    "collocations": [
+      "on the desk"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "classroom-locations"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-a1-b09-key",
+    "word": "key",
+    "pronunciation": "/kiː/",
+    "meaning": "钥匙",
+    "example": "The yellow key is behind the box.",
+    "translation": "黄色钥匙在盒子后面。",
+    "tag": "A1 · noun",
+    "related": "a door key",
+    "pos": "noun",
+    "senses": [
+      "钥匙"
+    ],
+    "collocations": [
+      "a door key"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "classroom-locations"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-a1-b09-pen",
+    "word": "pen",
+    "pronunciation": "/pen/",
+    "meaning": "钢笔；笔",
+    "example": "The paper is next to the pen.",
+    "translation": "纸在钢笔旁边。",
+    "tag": "A1 · noun",
+    "related": "write with a pen",
+    "pos": "noun",
+    "senses": [
+      "钢笔；笔"
+    ],
+    "collocations": [
+      "write with a pen"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "classroom-locations"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-a1-b09-pencil",
+    "word": "pencil",
+    "pronunciation": "/ˈpensəl/",
+    "meaning": "铅笔",
+    "example": "Please write your name with a pencil.",
+    "translation": "请用铅笔写下你的名字。",
+    "tag": "A1 · noun",
+    "related": "a yellow pencil",
+    "pos": "noun",
+    "senses": [
+      "铅笔"
+    ],
+    "collocations": [
+      "a yellow pencil"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "classroom-locations"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-a1-b09-paper",
+    "word": "paper",
+    "pronunciation": "/ˈpeɪpə/",
+    "meaning": "纸",
+    "example": "The paper is between the pen and the pencil.",
+    "translation": "纸在钢笔和铅笔之间。",
+    "tag": "A1 · noun",
+    "related": "a piece of paper",
+    "pos": "noun",
+    "senses": [
+      "纸"
+    ],
+    "collocations": [
+      "a piece of paper"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "classroom-locations"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-a1-b09-green",
+    "word": "green",
+    "pronunciation": "/ɡriːn/",
+    "meaning": "绿色的",
+    "example": "Open the green box, please.",
+    "translation": "请打开绿色盒子。",
+    "tag": "A1 · adjective",
+    "related": "a green box",
+    "pos": "adjective",
+    "senses": [
+      "绿色的"
+    ],
+    "collocations": [
+      "a green box"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "classroom-locations"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-a1-b09-yellow",
+    "word": "yellow",
+    "pronunciation": "/ˈjeləʊ/",
+    "meaning": "黄色的",
+    "example": "The yellow key is on the desk.",
+    "translation": "黄色钥匙在书桌上。",
+    "tag": "A1 · adjective",
+    "related": "a yellow key",
+    "pos": "adjective",
+    "senses": [
+      "黄色的"
+    ],
+    "collocations": [
+      "a yellow key"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "classroom-locations"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-a1-b09-under",
+    "word": "under",
+    "pronunciation": "/ˈʌndə/",
+    "meaning": "在……下面",
+    "example": "My bag is under the chair.",
+    "translation": "我的包在椅子下面。",
+    "tag": "A1 · preposition",
+    "related": "under the desk",
+    "pos": "preposition",
+    "senses": [
+      "在……下面"
+    ],
+    "collocations": [
+      "under the desk"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "classroom-locations"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-a1-b09-behind",
+    "word": "behind",
+    "pronunciation": "/bɪˈhaɪnd/",
+    "meaning": "在……后面",
+    "example": "The key is behind the green box.",
+    "translation": "钥匙在绿色盒子后面。",
+    "tag": "A1 · preposition",
+    "related": "behind the box",
+    "pos": "preposition",
+    "senses": [
+      "在……后面"
+    ],
+    "collocations": [
+      "behind the box"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "classroom-locations"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-a1-b09-between",
+    "word": "between",
+    "pronunciation": "/bɪˈtwiːn/",
+    "meaning": "在……之间",
+    "example": "The paper is between the pen and the pencil.",
+    "translation": "纸在钢笔和铅笔之间。",
+    "tag": "A1 · preposition",
+    "related": "between two chairs",
+    "pos": "preposition",
+    "senses": [
+      "在……之间"
+    ],
+    "collocations": [
+      "between two chairs"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "classroom-locations"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-a1-b09-put",
+    "word": "put",
+    "pronunciation": "/pʊt/",
+    "meaning": "放；放置",
+    "example": "Please put the key on the desk.",
+    "translation": "请把钥匙放在书桌上。",
+    "tag": "A1 · verb",
+    "related": "put something on a table",
+    "pos": "verb",
+    "senses": [
+      "放；放置"
+    ],
+    "collocations": [
+      "put something on a table"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "classroom-locations"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-a1-b09-open",
+    "word": "open",
+    "pronunciation": "/ˈəʊpən/",
+    "meaning": "打开",
+    "example": "Please open the box.",
+    "translation": "请打开盒子。",
+    "tag": "A1 · verb",
+    "related": "open a box",
+    "pos": "verb",
+    "senses": [
+      "打开"
+    ],
+    "collocations": [
+      "open a box"
+    ],
+    "topics": [
+      "v3-vocabulary-09",
+      "classroom-locations"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch09"
   }
 ]
