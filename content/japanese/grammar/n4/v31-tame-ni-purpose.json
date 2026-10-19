@@ -1,0 +1,133 @@
+{
+  "id": "grammar-ja-n4-tame-ni-purpose",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "N4",
+    "v3-vocabulary-11"
+  ],
+  "title": "〜ために：说明有意行动的目的",
+  "pattern": "V辞书形／Nの + ために",
+  "meaningZh": "为了……",
+  "meaningEn": "in order to; for the purpose of",
+  "explanation": "ために可以说明行动目的。作品を見るために早く出た把看作品作为早点出发的目标；旅行のためにお金をためる用名词加の连接。本课以有意行动为中心，通常前后行动主体一致；为了达到某种能力或自然状态时，ように往往更自然，不能把所有“为了”都直接套成ために。",
+  "usage": "解释准备、等待或选择为什么要这样做，明确行动者想达到的目标。",
+  "nuance": "ために也有原因等用法，本课不混同。目标并不等于已经实现的结果。",
+  "structure": [
+    "V辞书形 + ために + 有意行动",
+    "Nの + ために + 行动"
+  ],
+  "formation": [
+    "V辞书形 + ために + 有意行动",
+    "Nの + ために + 行动"
+  ],
+  "examples": [
+    {
+      "target": "展示を見るために、早く家を出た。",
+      "reading": "てんじをみるために、はやくいえをでた。",
+      "zh": "为了看展览，我早早出了门。"
+    },
+    {
+      "target": "作品の形を確かめるために、手袋をした。",
+      "reading": "さくひんのかたちをたしかめるために、てぶくろをした。",
+      "zh": "为了确认作品形状，我戴上手套。"
+    },
+    {
+      "target": "旅行のために、少しずつお金をためている。",
+      "reading": "りょこうのために、すこしずつおかねをためている。",
+      "zh": "为了旅行，我在一点点存钱。"
+    },
+    {
+      "target": "先生に質問するために、授業の後で少し待った。",
+      "reading": "せんせいにしつもんするために、じゅぎょうのあとですこしまった。",
+      "zh": "为了向老师提问，我在下课后等了一会儿。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "旅行ために、お金をためている。",
+      "correct": "旅行のために、お金をためている。",
+      "explanation": "名词旅行接ために时需要の；动词辞书形则直接接。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n4-tsumori",
+      "explanation": "つもりだ说明打算做什么；ために把该目标与另一个有意行动联系起来，回答为什么做这一步。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form",
+    "grammar-ja-n5-no-noun-link"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n4-tsumori"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n4-tame-ni-purpose-meaning",
+      "kind": "meaning",
+      "prompt": "“展示を見るために、早く家を出た。” 早点出发的目的是什么？",
+      "acceptedAnswers": [
+        "看展览"
+      ],
+      "explanation": "ために前面的看展览是行动目标，不是保证展览已经看完。",
+      "options": [
+        "避开展览而不进美术馆",
+        "看展览",
+        "解释展览为何提早结束"
+      ]
+    },
+    {
+      "id": "grammar-ja-n4-tame-ni-purpose-fill",
+      "kind": "fill",
+      "prompt": "旅行（　）ために、お金をためている。",
+      "acceptedAnswers": [
+        "の"
+      ],
+      "explanation": "名词旅行与ために之间用の连接。",
+      "options": [
+        "を",
+        "に",
+        "の"
+      ]
+    },
+    {
+      "id": "grammar-ja-n4-tame-ni-purpose-context",
+      "kind": "context",
+      "prompt": "想说明等待是为了提问，哪句准确？",
+      "acceptedAnswers": [
+        "先生に質問するために、授業の後で少し待った。"
+      ],
+      "explanation": "質問する是主动目标，待った是为此采取的行动。",
+      "options": [
+        "先生に質問するために、授業の後で少し待った。",
+        "先生に質問した後で、授業が始まった。",
+        "先生に質問するつもりだったが、待たずに帰った。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n4-tame-ni-purpose-error",
+      "kind": "error",
+      "prompt": "改正接续：旅行ために、お金をためている。",
+      "acceptedAnswers": [
+        "旅行のために、お金をためている。"
+      ],
+      "explanation": "名词后补上の，形成旅行のために。"
+    },
+    {
+      "id": "grammar-ja-n4-tame-ni-purpose-translation",
+      "kind": "translation",
+      "prompt": "译成日语：为了看展览，我早早出了门。",
+      "acceptedAnswers": [
+        "展示を見るために、早く家を出た。"
+      ],
+      "explanation": "見る用辞书形直接连接ために，后项说明为此所做的出发动作。"
+    }
+  ]
+}

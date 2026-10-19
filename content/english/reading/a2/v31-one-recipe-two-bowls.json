@@ -1,0 +1,119 @@
+{
+  "id": "article-en-a2-one-recipe-two-bowls",
+  "kind": "reading",
+  "language": "en",
+  "level": "A2",
+  "difficulty": 2,
+  "tags": [
+    "A2",
+    "v3-vocabulary-11"
+  ],
+  "title": "One recipe, two bowls",
+  "topic": "日常 · 合作烹饪与比较",
+  "genre": "story",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "My brother and I wanted to make lunch together. We chose one recipe for vegetable soup. He put bread on a plate, and I put a cup of water on the table. We had a spoon each and two bowls, one blue and one red.",
+    "“I want to taste the soup first,” I said. It seemed quite sweet. My brother thought it needed salt. He put a little soup in his bowl, but I waited. When I filled mine, I said, “My soup is not as warm as yours.” We were comparing food from the same pot at different times.",
+    "I tasted his soup with a clean spoon. It was warmer, and I was not sure about the taste. “We need to wait a minute,” he said. We left both bowls on the table. Meanwhile, he showed me a lemon. It tasted sour, so we tried only a little in a separate spoonful.",
+    "After waiting, my soup was as warm as his. We tasted them again. Now we could talk about sweet and sour without also talking about different temperatures. We did not like exactly the same taste, but neither of us needed to change the whole pot.",
+    "The soup was cool when we finished lunch. We wrote two small notes beside the recipe. We plan to cook it again on Sunday, and this time we want to ask our sister to join us."
+  ],
+  "translation": [
+    "我和哥哥想一起做午饭。我们选了一份蔬菜汤食谱。他把面包放在盘子里，我在桌上放了一杯水。我们各有一把勺子，还有蓝、红两个碗。",
+    "我说：“我想先尝一下汤。”汤似乎挺甜。哥哥觉得需要盐。他先盛了一点到自己的碗里，我却等了一会儿。等我盛好，我说：“我的汤没有你的那么温热。”我们在不同时间比较来自同一锅的汤。",
+    "我用干净勺子尝了他的汤。它更热，味道我还拿不准。他说：“我们需要等一分钟。”我们把两个碗留在桌上。他又给我看了柠檬。柠檬是酸的，所以我们只在另外一小勺汤里试了一点。",
+    "等过之后，我的汤和他的一样温热。我们再次尝了尝。现在可以讨论甜和酸，不再同时纠结温度不同。我们的偏好不完全相同，但谁都不必把整锅汤都改掉。",
+    "吃完午饭时，汤已经凉了。我们在食谱旁各写了一条小注。我们计划周日再做一次，这次想请姐姐一起加入。"
+  ],
+  "vocabulary": [
+    "context-en-a2-b11-01",
+    "context-en-a2-b11-02",
+    "context-en-a2-b11-03",
+    "context-en-a2-b11-04",
+    "context-en-a2-b11-05",
+    "context-en-a2-b11-06",
+    "context-en-a2-b11-07",
+    "context-en-a2-b11-08",
+    "context-en-a2-b11-09",
+    "context-en-a2-b11-10",
+    "context-en-a2-b11-11",
+    "context-en-a2-b11-12"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-a2-as-as-equality",
+      "surface": "as warm as his"
+    },
+    {
+      "id": "grammar-en-a2-to-infinitive-goals",
+      "surface": "need to wait"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-a2-one-recipe-two-bowls-main-idea",
+      "type": "main-idea",
+      "prompt": "这个故事主要写什么？",
+      "options": [
+        "两人必须喜欢完全一样的味道才能做饭",
+        "两人通过小份尝试和更清楚的比较一起做汤",
+        "两人分别使用了完全不同的食谱"
+      ],
+      "answer": 1,
+      "explanation": "他们用同一食谱，调整比较方式并保留各自偏好，未要求整锅都按一人改变。"
+    },
+    {
+      "id": "article-en-a2-one-recipe-two-bowls-detail",
+      "type": "detail",
+      "prompt": "最初比较两碗汤时，什么条件不同？",
+      "options": [
+        "两碗汤来自两个不同的锅",
+        "蓝碗里没有汤，只有清水",
+        "盛汤和比较的时间不同，温热程度也不同"
+      ],
+      "answer": 2,
+      "explanation": "第二段明确说明来自同一锅，却在不同时间比较；温度差异被点出来。"
+    },
+    {
+      "id": "article-en-a2-one-recipe-two-bowls-grammar",
+      "type": "grammar",
+      "prompt": "“My soup was as warm as his.” 表示怎样的比较？",
+      "options": [
+        "两份汤的温热程度相当",
+        "我的汤比他的更热",
+        "两份汤的所有味道都完全相同"
+      ],
+      "answer": 0,
+      "explanation": "as warm as只比较温热程度，不保证甜酸等其他性质也相同。"
+    },
+    {
+      "id": "article-en-a2-one-recipe-two-bowls-inference",
+      "type": "inference",
+      "prompt": "为什么先在另外一小勺汤里试柠檬？",
+      "options": [
+        "柠檬的味道完全无法尝出来",
+        "可以小范围试味道，不必马上改变整锅",
+        "食谱明确规定必须把整颗柠檬加进锅里"
+      ],
+      "answer": 1,
+      "explanation": "后文强调两人偏好不同也不必改整锅，小份试味让这种选择成为可能。"
+    },
+    {
+      "id": "article-en-a2-one-recipe-two-bowls-author-intent",
+      "type": "author-intent",
+      "prompt": "结尾写在食谱旁作注并计划再做，有什么作用？",
+      "options": [
+        "证明两人以后不会再一起做饭",
+        "表示所有人的偏好已经永远固定",
+        "把这次发现留给下一次共同尝试"
+      ],
+      "answer": 2,
+      "explanation": "写注和再做计划呼应本次合作与比较经验，未把一次偏好定为永久结论。"
+    }
+  ],
+  "notes": [
+    "原创虚构学习场景；词汇等级为语境教学编排，非官方穷尽列表。",
+    "预计时长按每分钟200日文字符或160英语单词向上取整，非个人实测。"
+  ]
+}

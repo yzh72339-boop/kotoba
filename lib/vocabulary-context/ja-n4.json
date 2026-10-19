@@ -468,5 +468,293 @@
     "frequency": "high",
     "register": "neutral",
     "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n4-b11-01",
+    "word": "美術館",
+    "pronunciation": "びじゅつかん",
+    "meaning": "美术馆",
+    "example": "美術館の入口で友達と会った。",
+    "translation": "我在美术馆入口遇到了朋友。",
+    "tag": "N4 · noun",
+    "related": "美術館に行く",
+    "pos": "noun",
+    "senses": [
+      "美术馆"
+    ],
+    "collocations": [
+      "美術館に行く"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "tactile-exhibition"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-ja-n4-b11-02",
+    "word": "作品",
+    "pronunciation": "さくひん",
+    "meaning": "作品",
+    "example": "この作品は小さくても、形がよく分かる。",
+    "translation": "这件作品虽然小，形状却很清楚。",
+    "tag": "N4 · noun",
+    "related": "作品を見る",
+    "pos": "noun",
+    "senses": [
+      "作品"
+    ],
+    "collocations": [
+      "作品を見る"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "tactile-exhibition"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-ja-n4-b11-03",
+    "word": "展示",
+    "pronunciation": "てんじ",
+    "meaning": "展示；展览",
+    "example": "展示を見るために、早く家を出た。",
+    "translation": "为了看展览，我早早出了门。",
+    "tag": "N4 · noun",
+    "related": "展示を見る",
+    "pos": "noun",
+    "senses": [
+      "展示；展览"
+    ],
+    "collocations": [
+      "展示を見る"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "tactile-exhibition"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-ja-n4-b11-04",
+    "word": "見える",
+    "pronunciation": "みえる",
+    "meaning": "看得见",
+    "example": "窓から入口が見える。",
+    "translation": "从窗户能看见入口。",
+    "tag": "N4 · verb",
+    "related": "遠くまで見える",
+    "pos": "verb",
+    "senses": [
+      "看得见"
+    ],
+    "collocations": [
+      "遠くまで見える"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "tactile-exhibition"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-ja-n4-b11-05",
+    "word": "触る",
+    "pronunciation": "さわる",
+    "meaning": "触摸",
+    "example": "この作品に触る前に、説明を聞いた。",
+    "translation": "触摸这件作品之前，我听了说明。",
+    "tag": "N4 · verb",
+    "related": "作品に触る",
+    "pos": "verb",
+    "senses": [
+      "触摸"
+    ],
+    "collocations": [
+      "作品に触る"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "tactile-exhibition"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-ja-n4-b11-06",
+    "word": "並ぶ",
+    "pronunciation": "ならぶ",
+    "meaning": "排队；排列着",
+    "example": "入口に並ぶ人を見た。",
+    "translation": "我看见了在入口排队的人。",
+    "tag": "N4 · verb",
+    "related": "列に並ぶ",
+    "pos": "verb",
+    "senses": [
+      "排队；排列着"
+    ],
+    "collocations": [
+      "列に並ぶ"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "tactile-exhibition"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-ja-n4-b11-07",
+    "word": "並べる",
+    "pronunciation": "ならべる",
+    "meaning": "排列；摆放",
+    "example": "机の上に見本を並べる。",
+    "translation": "把样品摆在桌上。",
+    "tag": "N4 · verb",
+    "related": "見本を並べる",
+    "pos": "verb",
+    "senses": [
+      "排列；摆放"
+    ],
+    "collocations": [
+      "見本を並べる"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "tactile-exhibition"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-ja-n4-b11-08",
+    "word": "指",
+    "pronunciation": "ゆび",
+    "meaning": "手指",
+    "example": "指で形を確かめた。",
+    "translation": "我用手指确认了形状。",
+    "tag": "N4 · noun",
+    "related": "指で触る",
+    "pos": "noun",
+    "senses": [
+      "手指"
+    ],
+    "collocations": [
+      "指で触る"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "tactile-exhibition"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-ja-n4-b11-09",
+    "word": "手袋",
+    "pronunciation": "てぶくろ",
+    "meaning": "手套",
+    "example": "手袋をしてから、作品を見せてもらった。",
+    "translation": "戴好手套后，对方给我看了作品。",
+    "tag": "N4 · noun",
+    "related": "手袋をする",
+    "pos": "noun",
+    "senses": [
+      "手套"
+    ],
+    "collocations": [
+      "手袋をする"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "tactile-exhibition"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-ja-n4-b11-10",
+    "word": "入口",
+    "pronunciation": "いりぐち",
+    "meaning": "入口",
+    "example": "入口で展示の案内を読んだ。",
+    "translation": "我在入口读了展览介绍。",
+    "tag": "N4 · noun",
+    "related": "建物の入口",
+    "pos": "noun",
+    "senses": [
+      "入口"
+    ],
+    "collocations": [
+      "建物の入口"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "tactile-exhibition"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-ja-n4-b11-11",
+    "word": "出口",
+    "pronunciation": "でぐち",
+    "meaning": "出口",
+    "example": "出口の近くで友達を待った。",
+    "translation": "我在出口附近等朋友。",
+    "tag": "N4 · noun",
+    "related": "出口を探す",
+    "pos": "noun",
+    "senses": [
+      "出口"
+    ],
+    "collocations": [
+      "出口を探す"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "tactile-exhibition"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-ja-n4-b11-12",
+    "word": "階段",
+    "pronunciation": "かいだん",
+    "meaning": "楼梯",
+    "example": "階段を上がると、別の部屋があった。",
+    "translation": "上楼后有另一个房间。",
+    "tag": "N4 · noun",
+    "related": "階段を上がる",
+    "pos": "noun",
+    "senses": [
+      "楼梯"
+    ],
+    "collocations": [
+      "階段を上がる"
+    ],
+    "topics": [
+      "v3-vocabulary-11",
+      "tactile-exhibition"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch11"
   }
 ]

@@ -1,0 +1,130 @@
+{
+  "id": "grammar-en-b2-despite-in-spite-of",
+  "kind": "grammar",
+  "language": "en",
+  "level": "B2",
+  "difficulty": 4,
+  "tags": [
+    "B2",
+    "v3-vocabulary-11"
+  ],
+  "title": "Despite and in spite of: an obstacle without the expected result",
+  "pattern": "despite / in spite of + noun / -ing",
+  "meaningZh": "尽管……仍……",
+  "meaningEn": "concession followed by a noun phrase or -ing form",
+  "explanation": "despite和in spite of引出名词短语或-ing形式，说明某情况没有导致通常预期的结果。Despite the rain, the rehearsal went ahead表示下雨但排练照常。若后面直接用有主语与谓语的从句，应改用even though，或使用despite the fact that，不能把despite直接当连词。",
+  "usage": "在叙述中保留困难或限制，同时说明行动或结果仍然发生。",
+  "nuance": "despite后不加of，in spite则保留of。它不自动说明障碍无关紧要，只说明后项没有被该障碍阻止。",
+  "structure": [
+    "Despite / In spite of + noun phrase / -ing, main clause",
+    "Despite / In spite of the fact that + clause, main clause"
+  ],
+  "formation": [
+    "Despite / In spite of + noun phrase / -ing, main clause",
+    "Despite / In spite of the fact that + clause, main clause"
+  ],
+  "examples": [
+    {
+      "target": "Despite the rain, the rehearsal went ahead.",
+      "zh": "尽管下雨，排练仍照常进行。"
+    },
+    {
+      "target": "In spite of testing the equipment, we still found a fault.",
+      "zh": "尽管测试过设备，我们仍发现了一个故障。"
+    },
+    {
+      "target": "Despite the fact that the room was smaller, the group chose it.",
+      "zh": "尽管房间较小，团队仍选择了它。"
+    },
+    {
+      "target": "Despite careful planning, the equipment arrived late.",
+      "zh": "尽管做了细致计划，设备仍然迟到了。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "Despite of the rain, the rehearsal went ahead.",
+      "correct": "Despite the rain, the rehearsal went ahead.",
+      "explanation": "despite后直接接名词短语the rain，不加of；in spite of则必须保留of。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-b2-even-if-even-though",
+      "explanation": "even though后用完整从句；despite后通常用名词或-ing。even if还可谈假设，不与事实让步机械等同。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-b1-gerunds-after-prepositions",
+    "grammar-en-b2-even-if-even-though"
+  ],
+  "relatedGrammar": [
+    "grammar-en-b2-even-if-even-though"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-b2-despite-in-spite-of-meaning",
+      "kind": "meaning",
+      "prompt": "“Despite the rain, the rehearsal went ahead.” 说明什么？",
+      "acceptedAnswers": [
+        "下雨没有阻止排练进行"
+      ],
+      "explanation": "让步关系保留了下雨与继续排练两项事实，不说明雨已经停止。",
+      "options": [
+        "排练必须等雨停后才会开始",
+        "说话人无法确定是否下过雨",
+        "下雨没有阻止排练进行"
+      ]
+    },
+    {
+      "id": "grammar-en-b2-despite-in-spite-of-fill",
+      "kind": "fill",
+      "prompt": "( ) the rain, the rehearsal went ahead.",
+      "acceptedAnswers": [
+        "Despite"
+      ],
+      "explanation": "despite直接接名词短语the rain；不写despite of。",
+      "options": [
+        "Despite",
+        "Despite of",
+        "Even though"
+      ]
+    },
+    {
+      "id": "grammar-en-b2-despite-in-spite-of-context",
+      "kind": "context",
+      "prompt": "若后面保留“the room was smaller”这个完整从句，哪句正确？",
+      "acceptedAnswers": [
+        "Despite the fact that the room was smaller, the group chose it."
+      ],
+      "explanation": "the fact that把完整从句放进名词结构；另两句都把despite错误地直接当连词。",
+      "options": [
+        "Despite the room was smaller, the group chose it.",
+        "Despite the fact that the room was smaller, the group chose it.",
+        "In spite of the room was smaller, the group chose it."
+      ]
+    },
+    {
+      "id": "grammar-en-b2-despite-in-spite-of-error",
+      "kind": "error",
+      "prompt": "改正介词：Despite of the rain, the rehearsal went ahead.",
+      "acceptedAnswers": [
+        "Despite the rain, the rehearsal went ahead."
+      ],
+      "explanation": "despite不带of；保持名词短语与主句不变。"
+    },
+    {
+      "id": "grammar-en-b2-despite-in-spite-of-translation",
+      "kind": "translation",
+      "prompt": "译成英语：尽管下雨，排练仍照常进行。",
+      "acceptedAnswers": [
+        "Despite the rain, the rehearsal went ahead.",
+        "In spite of the rain, the rehearsal went ahead."
+      ],
+      "explanation": "despite与in spite of均可接the rain表达这组事实之间的让步关系。"
+    }
+  ]
+}

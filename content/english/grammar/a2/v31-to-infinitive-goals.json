@@ -1,0 +1,126 @@
+{
+  "id": "grammar-en-a2-to-infinitive-goals",
+  "kind": "grammar",
+  "language": "en",
+  "level": "A2",
+  "difficulty": 2,
+  "tags": [
+    "A2",
+    "v3-vocabulary-11"
+  ],
+  "title": "Want, need and plan: what to do next",
+  "pattern": "want / need / plan + to + base verb",
+  "meaningZh": "想要／需要／计划做某事",
+  "meaningEn": "goals with want, need or plan followed by an infinitive",
+  "explanation": "want、need、plan后可以用to加动词原形说明想做、需要做或计划做的行动。We need to wait强调有等待的必要；We want to wait强调愿望。主语与to后动作的执行者在本课例子中相同。并非所有动词都使用这一补语形式，不能机械推广到enjoy等词。",
+  "usage": "说清下一步的愿望、需要或计划，区别三者的语义强度。",
+  "nuance": "to后用原形，不是过去式或-ing；有计划不等于动作已经发生。",
+  "structure": [
+    "Subject + want / need / plan + to + base verb"
+  ],
+  "formation": [
+    "Subject + want / need / plan + to + base verb"
+  ],
+  "examples": [
+    {
+      "target": "We need to wait a minute.",
+      "zh": "我们需要等一分钟。"
+    },
+    {
+      "target": "I want to taste the soup first.",
+      "zh": "我想先尝一下汤。"
+    },
+    {
+      "target": "We plan to cook together on Sunday.",
+      "zh": "我们计划周日一起做饭。"
+    },
+    {
+      "target": "She needs to read the recipe again.",
+      "zh": "她需要再读一遍食谱。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "We plan cooking together on Sunday.",
+      "correct": "We plan to cook together on Sunday.",
+      "explanation": "本课用plan to do表达计划，to后接原形cook。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-en-a2-going-to-plan",
+      "explanation": "plan to说明现有计划；be going to也可谈将来打算，但结构不同，不能把两套形式直接拼在一起。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-en-a1-present-simple-routine"
+  ],
+  "relatedGrammar": [
+    "grammar-en-a2-going-to-plan"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-en-a2-to-infinitive-goals-meaning",
+      "kind": "meaning",
+      "prompt": "“We need to wait a minute.” 突出什么？",
+      "acceptedAnswers": [
+        "有等待一分钟的必要"
+      ],
+      "explanation": "need侧重需要，不只是个人愿望，也不说明已经等完。",
+      "options": [
+        "有等待一分钟的必要",
+        "已经完成等待这一动作",
+        "只是想象昨天可能等过"
+      ]
+    },
+    {
+      "id": "grammar-en-a2-to-infinitive-goals-fill",
+      "kind": "fill",
+      "prompt": "She needs ( ) the recipe again.",
+      "acceptedAnswers": [
+        "to read"
+      ],
+      "explanation": "need后用to加动词原形，read在此是原形。",
+      "options": [
+        "reading",
+        "to read",
+        "to reads"
+      ]
+    },
+    {
+      "id": "grammar-en-a2-to-infinitive-goals-context",
+      "kind": "context",
+      "prompt": "你只是表达想先尝汤，而非已经尝过，哪句准确？",
+      "acceptedAnswers": [
+        "I want to taste the soup first."
+      ],
+      "explanation": "want to taste表达尚待执行的愿望；过去式和完成事实不等价。",
+      "options": [
+        "I tasted the soup first.",
+        "I have already tasted the soup.",
+        "I want to taste the soup first."
+      ]
+    },
+    {
+      "id": "grammar-en-a2-to-infinitive-goals-error",
+      "kind": "error",
+      "prompt": "改正计划表达：We plan cooking together on Sunday.",
+      "acceptedAnswers": [
+        "We plan to cook together on Sunday."
+      ],
+      "explanation": "使用plan to cook，不在plan后直接放cooking。"
+    },
+    {
+      "id": "grammar-en-a2-to-infinitive-goals-translation",
+      "kind": "translation",
+      "prompt": "译成英语：我们需要等一分钟。",
+      "acceptedAnswers": [
+        "We need to wait a minute."
+      ],
+      "explanation": "need to wait说明等待的必要性，a minute表示时长。"
+    }
+  ]
+}
