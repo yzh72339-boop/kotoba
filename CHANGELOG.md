@@ -1,3 +1,9 @@
+# 3.1.0-preview.12 — Japanese contextual learning
+
+- Add24 N3/N1 context cards,4 complete grammar,2 original readers,16 examples and30 explained practice items. Reuse optional Japanese source-aligned ruby, WanaKana lookup, original collection/source/SRS and offline flows.
+- Preserve310 prior documents and975 word payloads/IDs. Verify actual new courses, level/language recovery, answer mappings and duplicate-safe source/old SRS dates. No dependencies, Auth/RLS, quota, schema or historical migration changes.
+- Full1260/590 target remains incomplete; real-device/account and external native-speaker acceptance remain separate.
+
 # 3.1.0-preview.11 — English foundations in context
 
 - Add24 A1/B1 cards,4 grammar,2 original readers,16 examples and30 explained practice items; reuse local source-form lookup and original collection/SRS paths.

@@ -1,0 +1,134 @@
+{
+  "id": "grammar-ja-n3-mama-state",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N3",
+  "difficulty": 3,
+  "tags": [
+    "N3",
+    "v3-vocabulary-10",
+    "手仕事"
+  ],
+  "title": "〜まま：某种状态保持着",
+  "pattern": "Vた／Vない・い形容词・な形容词な・Nの + まま",
+  "meaningZh": "保持……状态；仍然……",
+  "meaningEn": "with a state unchanged",
+  "explanation": "まま把某种状态当作持续不变的背景。青いまま残す表示保留蓝色状态；針に糸を通したまま表示穿好线后没有改变这一状态。它既可描述忘记处理的情况，也可表达有意保留，不是出现まま就一定表示疏忽或错误。",
+  "usage": "说明动作完成后或尚未做某动作的状态继续存在，也用于表达有意保持外观或安排。",
+  "nuance": "注意区分动作并行和状态保持：縫いながら話す是边缝边说；糸を通したまま置く是保持穿线状态放着。",
+  "structure": [
+    "Vた／Vない + まま",
+    "い形容词 + まま／な形容词な + まま／Nの + まま"
+  ],
+  "formation": [
+    "Vた／Vない + まま",
+    "い形容词 + まま／な形容词な + まま／Nの + まま"
+  ],
+  "examples": [
+    {
+      "target": "この袖を青いまま残したい。",
+      "reading": "このそでをあおいままのこしたい。",
+      "zh": "我想把这只袖子保留原来的蓝色。"
+    },
+    {
+      "target": "母は針に糸を通したまま、少し手を止めた。",
+      "reading": "ははははりにいとをとおしたまま、すこしてをとめた。",
+      "zh": "母亲保持着针上穿线的状态，暂时停了手。"
+    },
+    {
+      "target": "借りた道具を返さないまま、帰ってしまった。",
+      "reading": "かりたどうぐをかえさないまま、かえってしまった。",
+      "zh": "借来的工具还没归还，人就回去了。"
+    },
+    {
+      "target": "店の名前は昔のまま変わっていない。",
+      "reading": "みせのなまえはむかしのままかわっていない。",
+      "zh": "店名一直和从前一样，没有改变。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "この袖を青いのまま残したい。",
+      "correct": "この袖を青いまま残したい。",
+      "explanation": "い形容词直接接まま；の用于昔のまま这样的名词接续。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n4-nagara",
+      "explanation": "ながら把两项动作并行表达；まま突出一个状态未变，后续可以做另一件事，也可以暂时不行动。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form",
+    "grammar-ja-n5-no-noun-link"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n4-nagara"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n3-mama-state-meaning",
+      "kind": "meaning",
+      "prompt": "“この袖を青いまま残したい。” 希望保留什么？",
+      "acceptedAnswers": [
+        "袖子的蓝色状态"
+      ],
+      "explanation": "まま表示既有状态继续保留，句子没有要求换成别的颜色。",
+      "options": [
+        "袖子需要重新染成红色",
+        "袖子的蓝色状态",
+        "袖子必须在缝纫时被剪掉"
+      ]
+    },
+    {
+      "id": "grammar-ja-n3-mama-state-fill",
+      "kind": "fill",
+      "prompt": "この袖を青い（　）残したい。",
+      "acceptedAnswers": [
+        "まま"
+      ],
+      "explanation": "い形容词青い后直接用まま，表示保持蓝色。",
+      "options": [
+        "のまま",
+        "なまま",
+        "まま"
+      ]
+    },
+    {
+      "id": "grammar-ja-n3-mama-state-context",
+      "kind": "context",
+      "prompt": "哪句说明针上的线没有取下，只是暂时停手？",
+      "acceptedAnswers": [
+        "母は針に糸を通したまま、少し手を止めた。"
+      ],
+      "explanation": "Vたまま保持已经穿线的状态；另外两句改变了穿线状态或动作次序。",
+      "options": [
+        "母は針に糸を通したまま、少し手を止めた。",
+        "母は針から糸を抜いて、少し手を止めた。",
+        "母は手を止めてから、初めて針に糸を通した。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n3-mama-state-error",
+      "kind": "error",
+      "prompt": "改正接续：この袖を青いのまま残したい。",
+      "acceptedAnswers": [
+        "この袖を青いまま残したい。"
+      ],
+      "explanation": "删除多余的の，使い形容词青い直接连接まま。"
+    },
+    {
+      "id": "grammar-ja-n3-mama-state-translation",
+      "kind": "translation",
+      "prompt": "译成日语：我想把这只袖子保留原来的蓝色。",
+      "acceptedAnswers": [
+        "この袖を青いまま残したい。"
+      ],
+      "explanation": "袖を作保留的对象；青いまま说明希望不改变的颜色状态。"
+    }
+  ]
+}

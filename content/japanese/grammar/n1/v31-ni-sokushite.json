@@ -1,0 +1,133 @@
+{
+  "id": "grammar-ja-n1-ni-sokushite",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N1",
+  "difficulty": 5,
+  "tags": [
+    "N1",
+    "v3-vocabulary-10",
+    "環境と公共空間"
+  ],
+  "title": "〜に即して：贴合实际或依据相应准则",
+  "pattern": "N + に即して／に即した + N",
+  "meaningZh": "根据并贴合……；按照……",
+  "meaningEn": "in accordance with or closely adapted to",
+  "explanation": "に即して表示行动或判断贴合某个事实、实际情况、目的或准则。実情に即して强调不是只照搬抽象方案，而是使做法与实际相合；目的に即した説明则把说明与目的联系起来。这里的即して不是“立即”的意思，也不能把它当成单纯的时间连接。",
+  "usage": "在正式讨论中说明方案、说明方式或判断如何与事实条件、目的、准则相合。",
+  "nuance": "に基づいて也可表示依据，二者有重叠；本课突出即して的贴合性，不能据词形就认定一个方案符合事实，仍需交代具体依据。",
+  "structure": [
+    "N + に即して + 动作／判断",
+    "N + に即した + N"
+  ],
+  "formation": [
+    "N + に即して + 动作／判断",
+    "N + に即した + N"
+  ],
+  "examples": [
+    {
+      "target": "流域の実情に即して、通路の配置を見直す。",
+      "reading": "りゅういきのじつじょうにそくして、つうろのはいちをみなおす。",
+      "zh": "根据并贴合流域实情，重新考虑通路布局。"
+    },
+    {
+      "target": "治水の目的に即した説明が必要だ。",
+      "reading": "ちすいのもくてきにそくしたせつめいがひつようだ。",
+      "zh": "需要符合治水目的的说明。"
+    },
+    {
+      "target": "護岸の状態に即して、作業の順序を変えた。",
+      "reading": "ごがんのじょうたいにそくして、さぎょうのじゅんじょをかえた。",
+      "zh": "根据护岸状况，改变了作业顺序。"
+    },
+    {
+      "target": "現地の条件に即した判断が求められる。",
+      "reading": "げんちのじょうけんにそくしたはんだんがもとめられる。",
+      "zh": "需要贴合现场条件的判断。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "実情を即して、案を見直す。",
+      "correct": "実情に即して、案を見直す。",
+      "explanation": "该接续以に标出所贴合的实情，不能把に改成を。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n2-ni-motozuite",
+      "explanation": "に基づいて突出某依据；に即して常强调处理与实际或准则相合，语境可能重叠，不宜规定成绝对互斥。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n2-ni-motozuite"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n2-ni-motozuite"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n1-ni-sokushite-meaning",
+      "kind": "meaning",
+      "prompt": "“流域の実情に即して、通路の配置を見直す。” 对方案提出什么要求？",
+      "acceptedAnswers": [
+        "重新考虑时应贴合流域的实际情况"
+      ],
+      "explanation": "即して把判断与实情联系起来，不是单凭这一措辞证明方案已经安全。",
+      "options": [
+        "要求看到实情后立即完成所有施工",
+        "要求排除现场情况，只按通用图纸决定",
+        "重新考虑时应贴合流域的实际情况"
+      ]
+    },
+    {
+      "id": "grammar-ja-n1-ni-sokushite-fill",
+      "kind": "fill",
+      "prompt": "現地の条件（　）即した判断が求められる。",
+      "acceptedAnswers": [
+        "に"
+      ],
+      "explanation": "固定接续Nに即したN，以に标出判断所贴合的条件。",
+      "options": [
+        "に",
+        "を",
+        "で"
+      ]
+    },
+    {
+      "id": "grammar-ja-n1-ni-sokushite-context",
+      "kind": "context",
+      "prompt": "想把说明内容与治水目的相对应，哪句最合适？",
+      "acceptedAnswers": [
+        "治水の目的に即した説明が必要だ。"
+      ],
+      "explanation": "に即した修饰説明，表明说明要符合目的；时间先后或传闻都不能替代这一联系。",
+      "options": [
+        "治水の説明を聞いた後で、目的を決める予定だ。",
+        "治水の目的に即した説明が必要だ。",
+        "治水の目的について、誰かが説明したそうだ。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n1-ni-sokushite-error",
+      "kind": "error",
+      "prompt": "改正助词：実情を即して、案を見直す。",
+      "acceptedAnswers": [
+        "実情に即して、案を見直す。"
+      ],
+      "explanation": "以に标出所依据、贴合的实际情况；を不符合此处接续。"
+    },
+    {
+      "id": "grammar-ja-n1-ni-sokushite-translation",
+      "kind": "translation",
+      "prompt": "译成日语：需要贴合现场条件的判断。",
+      "acceptedAnswers": [
+        "現地の条件に即した判断が求められる。"
+      ],
+      "explanation": "に即した连体修饰判断，强调判断与现场条件相合。"
+    }
+  ]
+}
