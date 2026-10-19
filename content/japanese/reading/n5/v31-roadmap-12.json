@@ -1,0 +1,116 @@
+{
+  "id": "article-ja-n5-before-the-door-opens",
+  "kind": "reading",
+  "language": "ja",
+  "level": "N5",
+  "difficulty": 1,
+  "tags": [
+    "v31-roadmap-12",
+    "contextual-course"
+  ],
+  "title": "本を読む前に",
+  "topic": "日常生活",
+  "genre": "story",
+  "estimatedMinutes": 1,
+  "paragraphs": [
+    "日曜日、友達と図書館へ行きます。図書館は九時から五時までです。私たちは八時半に駅で会います。",
+    "駅から図書館まで歩きます。図書館に入る前に、近くの店で水を買います。",
+    "友達は日本の本を読みます。私は学校の本を読みます。本を読む前に手を洗います。",
+    "十二時まで勉強します。それから、二人で昼ご飯を食べます。午後は家で休みます。"
+  ],
+  "translation": [
+    "星期天要和朋友去图书馆。图书馆从九点开放到五点。我们八点半在车站见面。",
+    "从车站走到图书馆。进图书馆之前，在附近的店买水。",
+    "朋友读日本的书。我读学校的书。读书前洗手。",
+    "学习到十二点。然后两个人一起吃午饭。下午在家休息。"
+  ],
+  "vocabulary": [
+    "course-ja-n5-1",
+    "course-ja-n5-5",
+    "course-ja-n5-7",
+    "course-ja-n5-8",
+    "course-ja-n5-9",
+    "supp-ja-n5-1",
+    "lex-ja-n5-yomu",
+    "complete-ja-n5-4912771a42",
+    "complete-ja-n5-22df192e24",
+    "context-ja-n5-61c4363ce176",
+    "context-ja-n5-41d9658235ab",
+    "course-ja-n4-8"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-ja-n5-kara-made-range",
+      "surface": "九時から五時まで"
+    },
+    {
+      "id": "grammar-ja-n5-mae-ni-before",
+      "surface": "本を読む前に"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-ja-n5-before-the-door-opens-q1",
+      "type": "detail",
+      "prompt": "图书馆几点开放？",
+      "options": [
+        "八点半",
+        "九点",
+        "十二点"
+      ],
+      "answer": 1,
+      "explanation": "首段说九時から五時まで，九点是开放时间；八点半是车站见面的时间。"
+    },
+    {
+      "id": "article-ja-n5-before-the-door-opens-q2",
+      "type": "grammar",
+      "prompt": "「図書館に入る前に」之后提到的买水发生在什么时候？",
+      "options": [
+        "进馆以后",
+        "下午休息以后",
+        "进馆以前"
+      ],
+      "answer": 2,
+      "explanation": "第二段把买水放在入る前に，明确发生在进入图书馆之前。"
+    },
+    {
+      "id": "article-ja-n5-before-the-door-opens-q3",
+      "type": "detail",
+      "prompt": "两人读书以前做什么？",
+      "options": [
+        "洗手",
+        "吃午饭",
+        "回家"
+      ],
+      "answer": 0,
+      "explanation": "第三段明确说本を読む前に手を洗います；午饭在十二点学习结束之后。"
+    },
+    {
+      "id": "article-ja-n5-before-the-door-opens-q4",
+      "type": "inference",
+      "prompt": "从末段可推断，午饭在什么活动结束后？",
+      "options": [
+        "下午休息之后",
+        "图书馆五点关门之后",
+        "十二点结束的学习之后"
+      ],
+      "answer": 2,
+      "explanation": "十二時まで勉強します后接それから食べます，因此午饭在学习之后，不必等到闭馆。"
+    },
+    {
+      "id": "article-ja-n5-before-the-door-opens-q5",
+      "type": "author-intent",
+      "prompt": "作者主要说明什么？",
+      "options": [
+        "星期天上午与朋友的学习安排",
+        "如何购买火车票",
+        "学校新学期的规定"
+      ],
+      "answer": 0,
+      "explanation": "文章按见面、步行、买水、读书、午饭的顺序说明一次图书馆学习安排。"
+    }
+  ],
+  "notes": [
+    "から与まで标示时段；動詞辞书形＋前に明确准备动作先于读书或入馆。"
+  ]
+}

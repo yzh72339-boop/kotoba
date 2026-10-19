@@ -1,0 +1,268 @@
+[
+  {
+    "id": "grammar-en-c1-may-well-epistemic",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 5,
+    "tags": [
+      "v31-roadmap-12",
+      "contextual-course"
+    ],
+    "title": "may well / might well：有理由认为可能",
+    "pattern": "may well / might well",
+    "meaningZh": "很可能；有理由认为可能",
+    "meaningEn": "A plausible possibility supported by reasons",
+    "explanation": "may well和might well可把一种可能性标记为有理由相信的判断，但并不提供证明，也不能替代证据。well位于情态动词后、实义动词或完成式之前。其力度取决于语境，不存在固定概率；might往往较试探，但不能机械地把两者换算为百分比。",
+    "usage": "在评论、研究讨论或正式说明中提出有依据但仍有限制的解释。",
+    "nuance": "may well have + 过去分词推测过去；may as well则通常表示在现状下不如做某事，是不同表达。",
+    "structure": [
+      "Subject + may/might + well + base verb",
+      "Subject + may/might + well + have + past participle"
+    ],
+    "formation": [
+      "Subject + may/might + well + base verb",
+      "Subject + may/might + well + have + past participle"
+    ],
+    "examples": [
+      {
+        "target": "The labels may well discourage a hurried visitor.",
+        "zh": "这些说明牌很可能会让匆忙的访客望而却步。"
+      },
+      {
+        "target": "The apparent improvement might well reflect a different sample.",
+        "zh": "表面上的改善很可能反映了样本不同。"
+      },
+      {
+        "target": "Some visitors may well have left without commenting.",
+        "zh": "一些访客很可能没留言就离开了。"
+      },
+      {
+        "target": "A quieter room might well help, but that remains untested.",
+        "zh": "更安静的房间或许确实有帮助，但这还未经检验。"
+      }
+    ],
+    "notes": [
+      "学习目标：在评论、研究讨论或正式说明中提出有依据但仍有限制的解释。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The change may well proves the explanation.",
+        "correct": "The change may well support the explanation.",
+        "explanation": "情态动词后用原形；更重要的是推测性的may well support不能升级成证明因果的断言。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-c1-seem-appear-stance",
+        "explanation": "seem描述表象或判断；may well提出有理由相信的可能性。两者都不等于独立证实。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-c1-seem-appear-stance"
+    ],
+    "relatedGrammar": [
+      "grammar-en-c1-seem-appear-stance"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-c1-may-well-epistemic-1",
+        "kind": "meaning",
+        "prompt": "A report says: “The rise may well reflect a change in the sample.” What does it claim?",
+        "acceptedAnswers": [
+          "The sample is a plausible explanation, not an established cause."
+        ],
+        "explanation": "May well presents a reasoned possibility; the wording does not establish a causal result.",
+        "options": [
+          "The change has been proved to cause the rise.",
+          "The sample cannot matter.",
+          "The sample is a plausible explanation, not an established cause."
+        ]
+      },
+      {
+        "id": "grammar-en-c1-may-well-epistemic-2",
+        "kind": "fill",
+        "prompt": "The missing comments may well (　) lost before the review began.",
+        "acceptedAnswers": [
+          "have been"
+        ],
+        "explanation": "A modal takes the base have; have been lost is a passive perfect locating the possible loss earlier.",
+        "options": [
+          "have been",
+          "had been",
+          "has been"
+        ]
+      },
+      {
+        "id": "grammar-en-c1-may-well-epistemic-3",
+        "kind": "context",
+        "prompt": "A different audience is a possible reason for better ratings. Which wording preserves that uncertainty?",
+        "acceptedAnswers": [
+          "The ratings might well reflect a different audience."
+        ],
+        "explanation": "Might well leaves the alternative explanation open rather than claiming universal success or proof.",
+        "options": [
+          "Better ratings prove the new design works.",
+          "The ratings might well reflect a different audience.",
+          "The new design must always improve ratings."
+        ]
+      },
+      {
+        "id": "grammar-en-c1-may-well-epistemic-4",
+        "kind": "error",
+        "prompt": "Which sentence uses the target structure correctly?",
+        "acceptedAnswers": [
+          "The result may well support that view."
+        ],
+        "explanation": "Well follows may in the taught pattern, and support remains in the base form after a modal.",
+        "options": [
+          "The result may well supports that view.",
+          "The result well may supports that view.",
+          "The result may well support that view."
+        ]
+      },
+      {
+        "id": "grammar-en-c1-may-well-epistemic-5",
+        "kind": "translation",
+        "prompt": "Using may well, translate: 一些访客很可能没留言就离开了。",
+        "acceptedAnswers": [
+          "Some visitors may well have left without commenting."
+        ],
+        "explanation": "May well have left expresses a plausible past event, not a confirmed count of people who left."
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c1-insofar-as-limits",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 5,
+    "tags": [
+      "v31-roadmap-12",
+      "contextual-course"
+    ],
+    "title": "insofar as：限定论断的适用范围",
+    "pattern": "insofar as",
+    "meaningZh": "就……而言；在……范围内",
+    "meaningEn": "To the extent that a statement applies",
+    "explanation": "insofar as引出一个完整从句，为主句限定成立的范围或程度。它常用于正式论证，承认一项判断在特定条件下有效，同时保留未涉及的方面。它有时接近in that或because，但本课着重范围限制；不能随意把它替换成表示所有条件都满足的if。",
+    "usage": "在正式评论中明确证据支持到哪里，避免把局部结论推广到整体。",
+    "nuance": "insofar as it measures reported comfort只谈自报舒适度，不涵盖未回答的人或观察到的行为。insofar as后需有限定动词的从句，不能直接接名词。",
+    "structure": [
+      "Main clause + insofar as + subject + finite verb",
+      "Insofar as + subject + finite verb, main clause"
+    ],
+    "formation": [
+      "Main clause + insofar as + subject + finite verb",
+      "Insofar as + subject + finite verb, main clause"
+    ],
+    "examples": [
+      {
+        "target": "The survey is useful insofar as it records reported comfort.",
+        "zh": "这项调查的价值在于记录了受访者自报的舒适度。"
+      },
+      {
+        "target": "Insofar as the two groups are comparable, the contrast is informative.",
+        "zh": "在两个群体具有可比性的范围内，这一对比才有参考价值。"
+      },
+      {
+        "target": "The change is welcome insofar as it gives visitors a choice.",
+        "zh": "就这项改变给予访客选择而言，它值得欢迎。"
+      },
+      {
+        "target": "The archive is reliable insofar as its gaps are made explicit.",
+        "zh": "就档案明确标出自身缺漏这一点而言，它是可信的。"
+      }
+    ],
+    "notes": [
+      "学习目标：在正式评论中明确证据支持到哪里，避免把局部结论推广到整体。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The survey is useful insofar as reported comfort.",
+        "correct": "The survey is useful insofar as it records reported comfort.",
+        "explanation": "insofar as后接完整从句；名词reported comfort不能单独承担这个结构。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-c1-provided-condition",
+        "explanation": "provided that提出条件；insofar as更明确地限定陈述在何种范围或程度上成立，不声称范围之外也成立。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-c1-whereas-comparison"
+    ],
+    "relatedGrammar": [
+      "grammar-en-c1-provided-condition"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-c1-insofar-as-limits-1",
+        "kind": "meaning",
+        "prompt": "“The evidence helps insofar as it describes current users.” What is being limited?",
+        "acceptedAnswers": [
+          "The scope in which the evidence is helpful."
+        ],
+        "explanation": "The clause restricts usefulness to describing current users; it does not establish claims about everyone else.",
+        "options": [
+          "The scope in which the evidence is helpful.",
+          "The exact time all users arrived.",
+          "The total number of future users."
+        ]
+      },
+      {
+        "id": "grammar-en-c1-insofar-as-limits-2",
+        "kind": "fill",
+        "prompt": "The comparison is valid insofar as (　).",
+        "acceptedAnswers": [
+          "the groups are comparable"
+        ],
+        "explanation": "Insofar as introduces a finite clause: subject the groups plus verb are and its complement.",
+        "options": [
+          "the comparable groups",
+          "the groups are comparable",
+          "comparable the groups"
+        ]
+      },
+      {
+        "id": "grammar-en-c1-insofar-as-limits-3",
+        "kind": "context",
+        "prompt": "A poll covers only volunteers. Which statement avoids claiming it represents non-respondents?",
+        "acceptedAnswers": [
+          "The poll is informative insofar as it records volunteers’ views."
+        ],
+        "explanation": "The final option confines the claim to the people actually represented in the data.",
+        "options": [
+          "The poll describes everyone accurately.",
+          "Every silent visitor agrees with the poll.",
+          "The poll is informative insofar as it records volunteers’ views."
+        ]
+      },
+      {
+        "id": "grammar-en-c1-insofar-as-limits-4",
+        "kind": "error",
+        "prompt": "Which sentence correctly limits the usefulness of a record?",
+        "acceptedAnswers": [
+          "The record helps insofar as it identifies missing dates."
+        ],
+        "explanation": "The target expression needs a finite clause; neither a bare noun phrase nor a to-infinitive supplies it.",
+        "options": [
+          "The record helps insofar as it identifies missing dates.",
+          "The record helps insofar as missing dates.",
+          "The record helps insofar as to identify missing dates."
+        ]
+      },
+      {
+        "id": "grammar-en-c1-insofar-as-limits-5",
+        "kind": "translation",
+        "prompt": "Using insofar as, translate: 就这项改变给予访客选择而言，它值得欢迎。",
+        "acceptedAnswers": [
+          "The change is welcome insofar as it gives visitors a choice."
+        ],
+        "explanation": "The clause states a bounded reason for approval; it does not endorse every consequence of the change."
+      }
+    ]
+  }
+]

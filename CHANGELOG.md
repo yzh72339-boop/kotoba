@@ -1,3 +1,8 @@
+## 3.1.0-preview.14 — 2026-10-19
+
+- Read-only learning route with preparation, linked reading and history-restored browsing; daily pins and SRS retained.
+- N5/C1: +4 complete grammar, +2 readers, +30 explained questions; total1035/226/105, full targets pending.
+
 # 3.1.0-preview.13 — three practical learning units
 
 - Add36 N4/A2/B2 cards,6 complete grammar,3 original readers,24 examples and45 explained practice items. Preserve999 prior word and316 course payloads/IDs.

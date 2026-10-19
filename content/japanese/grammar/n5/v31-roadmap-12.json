@@ -1,0 +1,281 @@
+[
+  {
+    "id": "grammar-ja-n5-kara-made-range",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "v31-roadmap-12",
+      "contextual-course"
+    ],
+    "title": "〜から〜まで：时间与地点的起止",
+    "pattern": "〜から〜まで",
+    "meaningZh": "从……到……",
+    "meaningEn": "From a starting point to an endpoint",
+    "explanation": "から标记时间或地点的起点，まで标记终点。两者可以成对使用，也可以只说其中一端。时间名词直接接から或まで，不能在から前再加表示时间点的に。まで表示活动持续到某时，与“某时之前完成”的截止表达不同。",
+    "usage": "用起点和终点说明营业时间、活动时段或路线。",
+    "nuance": "九時から十時まで読みます表示在这段时间读书；不保证一直没有休息。地点路线还需要结合歩く、行く等动词说明移动方式。",
+    "structure": [
+      "时间／地点 + から + 时间／地点 + まで",
+      "时间／地点 + から（只说起点）",
+      "时间／地点 + まで（只说终点）"
+    ],
+    "formation": [
+      "时间／地点 + から + 时间／地点 + まで",
+      "时间／地点 + から（只说起点）",
+      "时间／地点 + まで（只说终点）"
+    ],
+    "examples": [
+      {
+        "target": "図書館は九時から五時までです。",
+        "zh": "图书馆从九点开放到五点。",
+        "reading": "としょかんはくじからごじまでです。"
+      },
+      {
+        "target": "駅から学校まで歩きます。",
+        "zh": "从车站走到学校。",
+        "reading": "えきからがっこうまであるきます。"
+      },
+      {
+        "target": "母は六時まで働きます。",
+        "zh": "母亲工作到六点。",
+        "reading": "はははろくじまではたらきます。"
+      },
+      {
+        "target": "十時から本を読みます。",
+        "zh": "从十点开始读书。",
+        "reading": "じゅうじからほんをよみます。"
+      }
+    ],
+    "notes": [
+      "学习目标：用起点和终点说明营业时间、活动时段或路线。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "九時にから勉強します。",
+        "correct": "九時から勉強します。",
+        "explanation": "起点直接接から，不需要先加に。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n5-ni-existence",
+        "explanation": "に指定位置或时间点；から与まで分别划出起点和终点，不能互相替换。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-wa-topic"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n5-ni-existence"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n5-kara-made-range-1",
+        "kind": "meaning",
+        "prompt": "「九時から五時までです」说明什么？",
+        "acceptedAnswers": [
+          "九点到五点这一时段"
+        ],
+        "explanation": "から给出九点这一开端，まで给出五点这一终端。",
+        "options": [
+          "九点到五点这一时段",
+          "五点以后开始",
+          "九点之前结束"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-kara-made-range-2",
+        "kind": "fill",
+        "prompt": "駅（　）学校まで歩きます。",
+        "acceptedAnswers": [
+          "から"
+        ],
+        "explanation": "车站是出发点，学校是终点，因此车站后用から。",
+        "options": [
+          "まで",
+          "から",
+          "に"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-kara-made-range-3",
+        "kind": "context",
+        "prompt": "只知道商店晚上八点结束营业，怎样说？",
+        "acceptedAnswers": [
+          "八時までです。"
+        ],
+        "explanation": "只给终点也可以单独用まで；から会把八点变成起点。",
+        "options": [
+          "八時からです。",
+          "八時にからです。",
+          "八時までです。"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-kara-made-range-4",
+        "kind": "error",
+        "prompt": "选择正确的时间起点表达。",
+        "acceptedAnswers": [
+          "九時から始めます。"
+        ],
+        "explanation": "时间名词直接接から；不能叠加に或まで表达同一个起点。",
+        "options": [
+          "九時から始めます。",
+          "九時にから始めます。",
+          "九時までから始めます。"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-kara-made-range-5",
+        "kind": "translation",
+        "prompt": "参照例句，将“从十点开始读书。”译成日语。",
+        "acceptedAnswers": [
+          "十時から本を読みます。"
+        ],
+        "explanation": "十時から说明开始时间，読みます给出读书这一活动。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n5-mae-ni-before",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "v31-roadmap-12",
+      "contextual-course"
+    ],
+    "title": "〜前に：先做另一件事",
+    "pattern": "〜前に",
+    "meaningZh": "在……之前",
+    "meaningEn": "Before an event or activity",
+    "explanation": "前に把后一动作放在所述事件发生之前。接动词时使用辞书形，即使整句话描述过去也不把前面的动词改成た形。接名词时加の，接数词时间长度时直接加前に；三年前に是三年前，不是持续三年。",
+    "usage": "安排活动前的准备，并区分事件之前和若干时间以前。",
+    "nuance": "本を読む前に手を洗いました使用过去时洗いました，読む仍保持辞书形。単独的前也可以表示空间前方，本课只处理时间关系。",
+    "structure": [
+      "V辞书形 + 前に + 动作",
+      "N + の + 前に + 动作",
+      "时间长度 + 前に + 动作"
+    ],
+    "formation": [
+      "V辞书形 + 前に + 动作",
+      "N + の + 前に + 动作",
+      "时间长度 + 前に + 动作"
+    ],
+    "examples": [
+      {
+        "target": "本を読む前に手を洗います。",
+        "zh": "读书前洗手。",
+        "reading": "ほんをよむまえにてをあらいます。"
+      },
+      {
+        "target": "授業の前に水を飲みます。",
+        "zh": "上课前喝水。",
+        "reading": "じゅぎょうのまえにみずをのみます。"
+      },
+      {
+        "target": "出かける前に窓を閉めました。",
+        "zh": "出门前关了窗。",
+        "reading": "でかけるまえにまどをしめました。"
+      },
+      {
+        "target": "三年前に日本へ来ました。",
+        "zh": "三年前来到了日本。",
+        "reading": "さんねんまえににほんへきました。"
+      }
+    ],
+    "notes": [
+      "学习目标：安排活动前的准备，并区分事件之前和若干时间以前。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "出かけた前に窓を閉めました。",
+        "correct": "出かける前に窓を閉めました。",
+        "explanation": "过去发生的准备动作也用辞书形接前に，时态由后面的閉めました承担。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n5-kara-made-range",
+        "explanation": "前に指出动作发生在另一事件之前；から指出活动起点，まで指出持续的终点。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form",
+      "grammar-ja-n5-no-noun-link"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n5-kara-made-range"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n5-mae-ni-before-1",
+        "kind": "meaning",
+        "prompt": "「授業の前に水を飲みます」的动作顺序是？",
+        "acceptedAnswers": [
+          "先喝水再上课"
+        ],
+        "explanation": "授業の前に把喝水放在上课这一事件之前。",
+        "options": [
+          "先上课再喝水",
+          "先喝水再上课",
+          "上课同时喝水"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-mae-ni-before-2",
+        "kind": "fill",
+        "prompt": "昨日、出かける（　）窓を閉めました。",
+        "acceptedAnswers": [
+          "前に"
+        ],
+        "explanation": "动词辞书形出かける直接接前に，即使主句是过去时也不改变。",
+        "options": [
+          "前に",
+          "の前に",
+          "からまで"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-mae-ni-before-3",
+        "kind": "error",
+        "prompt": "选择“考试前吃饭”的正确表达。",
+        "acceptedAnswers": [
+          "試験の前にご飯を食べます。"
+        ],
+        "explanation": "名词試験与前之间用の连接；这里不是动词接续。",
+        "options": [
+          "試験前のにご飯を食べます。",
+          "試験を前にご飯を食べます。",
+          "試験の前にご飯を食べます。"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-mae-ni-before-4",
+        "kind": "context",
+        "prompt": "「三年前に日本へ来ました」中的三年前に是？",
+        "acceptedAnswers": [
+          "距现在三年以前"
+        ],
+        "explanation": "时间长度加前に表示相对于现在的过去时间，不表示持续时长。",
+        "options": [
+          "距现在三年以前",
+          "连续三年一直来",
+          "三年之后"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-mae-ni-before-5",
+        "kind": "translation",
+        "prompt": "参照例句，将“读书前洗手。”译成日语。",
+        "acceptedAnswers": [
+          "本を読む前に手を洗います。"
+        ],
+        "explanation": "読む用辞书形；洗います才是安排在前的动作。"
+      }
+    ]
+  }
+]
