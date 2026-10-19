@@ -474,5 +474,293 @@
     "frequency": "low",
     "register": "neutral",
     "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n1-b10-01",
+    "word": "流域",
+    "pronunciation": "りゅういき",
+    "meaning": "流域",
+    "example": "流域の実情に即して、案を見直す。",
+    "translation": "贴合流域实情重新考虑方案。",
+    "tag": "N1 · noun",
+    "related": "河川の流域",
+    "pos": "noun",
+    "senses": [
+      "流域"
+    ],
+    "collocations": [
+      "河川の流域"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "river-space"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n1-b10-02",
+    "word": "護岸",
+    "pronunciation": "ごがん",
+    "meaning": "护岸",
+    "example": "護岸の状態を現地で確認した。",
+    "translation": "我们在现场确认了护岸状况。",
+    "tag": "N1 · noun",
+    "related": "護岸の状態",
+    "pos": "noun",
+    "senses": [
+      "护岸"
+    ],
+    "collocations": [
+      "護岸の状態"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "river-space"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n1-b10-03",
+    "word": "堆積",
+    "pronunciation": "たいせき",
+    "meaning": "堆积；沉积",
+    "example": "橋の下に土の堆積が見られた。",
+    "translation": "桥下可见泥土堆积。",
+    "tag": "N1 · noun",
+    "related": "土砂の堆積",
+    "pos": "noun",
+    "senses": [
+      "堆积；沉积"
+    ],
+    "collocations": [
+      "土砂の堆積"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "river-space"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n1-b10-04",
+    "word": "氾濫",
+    "pronunciation": "はんらん",
+    "meaning": "河水泛滥",
+    "example": "氾濫への不安を住民から聞いた。",
+    "translation": "我们听居民讲述了对河水泛滥的担忧。",
+    "tag": "N1 · noun",
+    "related": "河川の氾濫",
+    "pos": "noun",
+    "senses": [
+      "河水泛滥"
+    ],
+    "collocations": [
+      "河川の氾濫"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "river-space"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n1-b10-05",
+    "word": "生態系",
+    "pronunciation": "せいたいけい",
+    "meaning": "生态系统",
+    "example": "地域の生態系について、専門家に話を聞いた。",
+    "translation": "我们向专家了解了地区生态系统。",
+    "tag": "N1 · noun",
+    "related": "生態系を考慮する",
+    "pos": "noun",
+    "senses": [
+      "生态系统"
+    ],
+    "collocations": [
+      "生態系を考慮する"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "river-space"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n1-b10-06",
+    "word": "植生",
+    "pronunciation": "しょくせい",
+    "meaning": "植被",
+    "example": "岸辺の植生を調べる計画がある。",
+    "translation": "有一项调查岸边植被的计划。",
+    "tag": "N1 · noun",
+    "related": "岸辺の植生",
+    "pos": "noun",
+    "senses": [
+      "植被"
+    ],
+    "collocations": [
+      "岸辺の植生"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "river-space"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n1-b10-07",
+    "word": "治水",
+    "pronunciation": "ちすい",
+    "meaning": "治水；防洪治理",
+    "example": "治水の目的を説明する必要がある。",
+    "translation": "需要说明治水的目的。",
+    "tag": "N1 · noun",
+    "related": "治水の計画",
+    "pos": "noun",
+    "senses": [
+      "治水；防洪治理"
+    ],
+    "collocations": [
+      "治水の計画"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "river-space"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n1-b10-08",
+    "word": "遊水地",
+    "pronunciation": "ゆうすいち",
+    "meaning": "调蓄洪水的区域；蓄滞洪区",
+    "example": "遊水地の候補について話し合った。",
+    "translation": "我们讨论了蓄滞洪区的候选地点。",
+    "tag": "N1 · noun",
+    "related": "遊水地の候補",
+    "pos": "noun",
+    "senses": [
+      "调蓄洪水的区域；蓄滞洪区"
+    ],
+    "collocations": [
+      "遊水地の候補"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "river-space"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n1-b10-09",
+    "word": "支流",
+    "pronunciation": "しりゅう",
+    "meaning": "支流",
+    "example": "支流の近くにも聞き取りに行った。",
+    "translation": "我们也去支流附近进行了访谈。",
+    "tag": "N1 · noun",
+    "related": "川の支流",
+    "pos": "noun",
+    "senses": [
+      "支流"
+    ],
+    "collocations": [
+      "川の支流"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "river-space"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n1-b10-10",
+    "word": "合流",
+    "pronunciation": "ごうりゅう",
+    "meaning": "汇流；汇合",
+    "example": "二つの川の合流する場所を歩いた。",
+    "translation": "我们走访了两条河汇合的地方。",
+    "tag": "N1 · noun",
+    "related": "河川の合流",
+    "pos": "noun",
+    "senses": [
+      "汇流；汇合"
+    ],
+    "collocations": [
+      "河川の合流"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "river-space"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n1-b10-11",
+    "word": "可逆性",
+    "pronunciation": "かぎゃくせい",
+    "meaning": "可逆性；可恢复到先前状态的性质",
+    "example": "案を比べる際に可逆性も検討した。",
+    "translation": "比较方案时，我们也考虑了可逆性。",
+    "tag": "N1 · noun",
+    "related": "変更の可逆性",
+    "pos": "noun",
+    "senses": [
+      "可逆性；可恢复到先前状态的性质"
+    ],
+    "collocations": [
+      "変更の可逆性"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "river-space"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n1-b10-12",
+    "word": "逡巡",
+    "pronunciation": "しゅんじゅん",
+    "meaning": "迟疑；犹豫",
+    "example": "彼の逡巡には、選択を急げない理由があった。",
+    "translation": "他的迟疑背后有不能急于选择的理由。",
+    "tag": "N1 · noun",
+    "related": "判断を前に逡巡する",
+    "pos": "noun",
+    "senses": [
+      "迟疑；犹豫"
+    ],
+    "collocations": [
+      "判断を前に逡巡する"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "river-space"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
   }
 ]

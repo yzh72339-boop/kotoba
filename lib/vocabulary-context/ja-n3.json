@@ -468,5 +468,293 @@
     "frequency": "medium",
     "register": "neutral",
     "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n3-b10-01",
+    "word": "糸",
+    "pronunciation": "いと",
+    "meaning": "线；丝线",
+    "example": "袖の色に合わせて糸を選んだ。",
+    "translation": "我按袖子的颜色选了线。",
+    "tag": "N3 · noun",
+    "related": "糸を通す",
+    "pos": "noun",
+    "senses": [
+      "线；丝线"
+    ],
+    "collocations": [
+      "糸を通す"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "handcraft"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n3-b10-02",
+    "word": "針",
+    "pronunciation": "はり",
+    "meaning": "针",
+    "example": "針の先を確かめてから、作業を始めた。",
+    "translation": "确认针尖后，我开始了作业。",
+    "tag": "N3 · noun",
+    "related": "針に糸を通す",
+    "pos": "noun",
+    "senses": [
+      "针"
+    ],
+    "collocations": [
+      "針に糸を通す"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "handcraft"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n3-b10-03",
+    "word": "袖",
+    "pronunciation": "そで",
+    "meaning": "袖子",
+    "example": "この袖を青いまま残したい。",
+    "translation": "我想保留这只袖子原来的蓝色。",
+    "tag": "N3 · noun",
+    "related": "袖を直す",
+    "pos": "noun",
+    "senses": [
+      "袖子"
+    ],
+    "collocations": [
+      "袖を直す"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "handcraft"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n3-b10-04",
+    "word": "布",
+    "pronunciation": "ぬの",
+    "meaning": "布；布料",
+    "example": "同じ布の小さな切れ端で試した。",
+    "translation": "我用同种布料的小块边角料试了试。",
+    "tag": "N3 · noun",
+    "related": "布を選ぶ",
+    "pos": "noun",
+    "senses": [
+      "布；布料"
+    ],
+    "collocations": [
+      "布を選ぶ"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "handcraft"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n3-b10-05",
+    "word": "縫う",
+    "pronunciation": "ぬう",
+    "meaning": "缝；缝纫",
+    "example": "家でも一度縫うつもりだ。",
+    "translation": "我打算在家也缝一次。",
+    "tag": "N3 · verb",
+    "related": "布を縫う",
+    "pos": "verb",
+    "senses": [
+      "缝；缝纫"
+    ],
+    "collocations": [
+      "布を縫う"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "handcraft"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n3-b10-06",
+    "word": "ほどく",
+    "pronunciation": "ほどく",
+    "meaning": "解开；拆开",
+    "example": "古い糸をほどくと、縫い目が見えた。",
+    "translation": "拆开旧线后，露出了缝线痕迹。",
+    "tag": "N3 · verb",
+    "related": "糸をほどく",
+    "pos": "verb",
+    "senses": [
+      "解开；拆开"
+    ],
+    "collocations": [
+      "糸をほどく"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "handcraft"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n3-b10-07",
+    "word": "乾く",
+    "pronunciation": "かわく",
+    "meaning": "干；变干",
+    "example": "布が乾くまで、別の作業をした。",
+    "translation": "我在布料变干前做了别的事。",
+    "tag": "N3 · verb",
+    "related": "布が乾く",
+    "pos": "verb",
+    "senses": [
+      "干；变干"
+    ],
+    "collocations": [
+      "布が乾く"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "handcraft"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n3-b10-08",
+    "word": "濡れる",
+    "pronunciation": "ぬれる",
+    "meaning": "湿；淋湿",
+    "example": "布は濡れると、色が濃く見えた。",
+    "translation": "布料湿后颜色看起来深了。",
+    "tag": "N3 · verb",
+    "related": "雨に濡れる",
+    "pos": "verb",
+    "senses": [
+      "湿；淋湿"
+    ],
+    "collocations": [
+      "雨に濡れる"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "handcraft"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n3-b10-09",
+    "word": "縮む",
+    "pronunciation": "ちぢむ",
+    "meaning": "缩小；缩水",
+    "example": "洗うと縮む布もあると聞いた。",
+    "translation": "我听说有些布料一洗就缩水。",
+    "tag": "N3 · verb",
+    "related": "布が縮む",
+    "pos": "verb",
+    "senses": [
+      "缩小；缩水"
+    ],
+    "collocations": [
+      "布が縮む"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "handcraft"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n3-b10-10",
+    "word": "伸びる",
+    "pronunciation": "のびる",
+    "meaning": "伸长；延伸",
+    "example": "引っ張ると糸が少し伸びる。",
+    "translation": "一拉，线会略微伸长。",
+    "tag": "N3 · verb",
+    "related": "糸が伸びる",
+    "pos": "verb",
+    "senses": [
+      "伸长；延伸"
+    ],
+    "collocations": [
+      "糸が伸びる"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "handcraft"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n3-b10-11",
+    "word": "洗濯",
+    "pronunciation": "せんたく",
+    "meaning": "洗衣；洗涤",
+    "example": "洗濯の前に、服の表示を見た。",
+    "translation": "洗衣前我看了衣服的标签。",
+    "tag": "N3 · noun",
+    "related": "洗濯をする",
+    "pos": "noun",
+    "senses": [
+      "洗衣；洗涤"
+    ],
+    "collocations": [
+      "洗濯をする"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "handcraft"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n3-b10-12",
+    "word": "裏返す",
+    "pronunciation": "うらがえす",
+    "meaning": "翻过来；翻面",
+    "example": "袖を裏返すと、古い糸が残っていた。",
+    "translation": "把袖子翻过来，里面还留着旧线。",
+    "tag": "N3 · verb",
+    "related": "服を裏返す",
+    "pos": "verb",
+    "senses": [
+      "翻过来；翻面"
+    ],
+    "collocations": [
+      "服を裏返す"
+    ],
+    "topics": [
+      "v3-vocabulary-10",
+      "handcraft"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch10"
   }
 ]

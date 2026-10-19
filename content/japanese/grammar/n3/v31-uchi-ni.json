@@ -1,0 +1,134 @@
+{
+  "id": "grammar-ja-n3-uchi-ni",
+  "kind": "grammar",
+  "language": "ja",
+  "level": "N3",
+  "difficulty": 3,
+  "tags": [
+    "N3",
+    "v3-vocabulary-10",
+    "手仕事"
+  ],
+  "title": "〜うちに：条件还在时与过程中发生的变化",
+  "pattern": "V辞书形／ない形／ている形・い形容词・な形容词な・Nの + うちに",
+  "meaningZh": "趁……还……；在……过程中不知不觉……",
+  "meaningEn": "while a condition lasts; a change during an activity",
+  "explanation": "うちに可把某状态仍持续的时间当成行动机会，如明るいうちに是在天还亮时做事；忘れないうちに是在还没忘记时行动，也就是趁忘记之前。另一种常见用法是某活动持续过程中发生变化，如何度も縫っているうちに慣れてきた，不一定是事先决定的结果。",
+  "usage": "趁条件尚未改变安排动作，或描述一段经历中逐渐出现的变化。",
+  "nuance": "Vないうちに常表示在该变化发生之前；不能为表达“忘记前”而直接写成忘れるうちに。它不要求前后动作一定由同一人同时主动完成。",
+  "structure": [
+    "V辞书形／Vない／Vている + うちに",
+    "い形容词 + うちに／な形容词な + うちに／Nの + うちに"
+  ],
+  "formation": [
+    "V辞书形／Vない／Vている + うちに",
+    "い形容词 + うちに／な形容词な + うちに／Nの + うちに"
+  ],
+  "examples": [
+    {
+      "target": "忘れないうちに、手順を書いておこう。",
+      "reading": "わすれないうちに、てじゅんをかいておこう。",
+      "zh": "趁还没忘记，把步骤写下来吧。"
+    },
+    {
+      "target": "何度も縫っているうちに、針の動きに慣れてきた。",
+      "reading": "なんどもぬっているうちに、はりのうごきになれてきた。",
+      "zh": "反复缝着缝着，渐渐习惯了针的移动。"
+    },
+    {
+      "target": "明るいうちに、糸の色を決めたい。",
+      "reading": "あかるいうちに、いとのいろをきめたい。",
+      "zh": "我想趁天还亮时决定线的颜色。"
+    },
+    {
+      "target": "母が家にいるうちに、縫い方を聞いた。",
+      "reading": "ははがいえにいるうちに、ぬいかたをきいた。",
+      "zh": "趁母亲在家时，我问了缝纫的方法。"
+    }
+  ],
+  "notes": [
+    "等级为教学编排，不代表官方穷尽语法清单。"
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "忘れるうちに、手順を書いておこう。",
+      "correct": "忘れないうちに、手順を書いておこう。",
+      "explanation": "若意思是“趁忘记前”，要保留ない，表示尚未忘记的时间范围。"
+    }
+  ],
+  "comparison": [
+    {
+      "grammarId": "grammar-ja-n4-nagara",
+      "explanation": "ながら常把同一主体主动并行的两项动作联系起来；うちに强调条件窗口或过程中出现的变化，二者不能机械互换。"
+    }
+  ],
+  "prerequisites": [
+    "grammar-ja-n5-plain-form",
+    "grammar-ja-n5-te-iru"
+  ],
+  "relatedGrammar": [
+    "grammar-ja-n4-nagara"
+  ],
+  "exercises": [
+    {
+      "id": "grammar-ja-n3-uchi-ni-meaning",
+      "kind": "meaning",
+      "prompt": "“忘れないうちに、手順を書いておこう。” 把记录安排在什么时候？",
+      "acceptedAnswers": [
+        "在尚未忘记步骤时"
+      ],
+      "explanation": "ないうちに把行动放在忘记这一变化发生之前。",
+      "options": [
+        "在尚未忘记步骤时",
+        "在已经完全忘记后",
+        "只在正在努力忘记时"
+      ]
+    },
+    {
+      "id": "grammar-ja-n3-uchi-ni-fill",
+      "kind": "fill",
+      "prompt": "想趁天还亮时选线：明るい（　）、糸の色を決めたい。",
+      "acceptedAnswers": [
+        "うちに"
+      ],
+      "explanation": "い形容词明るい直接接うちに，不加の或な。",
+      "options": [
+        "のうちに",
+        "うちに",
+        "なうちに"
+      ]
+    },
+    {
+      "id": "grammar-ja-n3-uchi-ni-context",
+      "kind": "context",
+      "prompt": "哪句说明在反复缝纫的过程中逐渐习惯了针的移动？",
+      "acceptedAnswers": [
+        "何度も縫っているうちに、針の動きに慣れてきた。"
+      ],
+      "explanation": "ているうちに可描述活动持续中出现的变化；不是先习惯再开始缝。",
+      "options": [
+        "針の動きに慣れてから、初めて縫い始めた。",
+        "針の動きに慣れるために、来月から縫い始める。",
+        "何度も縫っているうちに、針の動きに慣れてきた。"
+      ]
+    },
+    {
+      "id": "grammar-ja-n3-uchi-ni-error",
+      "kind": "error",
+      "prompt": "想表达“趁忘记前”，改正：忘れるうちに、手順を書いておこう。",
+      "acceptedAnswers": [
+        "忘れないうちに、手順を書いておこう。"
+      ],
+      "explanation": "加上ない，明确行动发生在还没忘记的时间窗口。"
+    },
+    {
+      "id": "grammar-ja-n3-uchi-ni-translation",
+      "kind": "translation",
+      "prompt": "译成日语：我想趁天还亮时决定线的颜色。",
+      "acceptedAnswers": [
+        "明るいうちに、糸の色を決めたい。"
+      ],
+      "explanation": "用明るいうちに标出机会窗口，以決めたい表达说话人的希望。"
+    }
+  ]
+}
