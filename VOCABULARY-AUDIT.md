@@ -4,7 +4,7 @@ Counts are course cards; JLPT/CEFR tags are editorial teaching levels, not offic
 
 | Language | Level | Cards | Unique terms within grade | Context additions (2.7 onward) | Current-grade words linked to readings | Added words linked to readings |
 |---|---|---:|---:|---:|---:|---:|
-| ja | N5 | 70 | 70 | 20 | 34 | 13 |
+| ja | N5 | 70 | 70 | 20 | 35 | 13 |
 | ja | N4 | 82 | 82 | 32 | 39 | 25 |
 | ja | N3 | 93 | 91 | 32 | 42 | 26 |
 | ja | N2 | 222 | 222 | 72 | 119 | 71 |
@@ -13,7 +13,7 @@ Counts are course cards; JLPT/CEFR tags are editorial teaching levels, not offic
 | en | A2 | 82 | 82 | 32 | 45 | 29 |
 | en | B1 | 88 | 82 | 32 | 35 | 27 |
 | en | B2 | 94 | 94 | 44 | 48 | 38 |
-| en | C1 | 70 | 70 | 20 | 14 | 10 |
+| en | C1 | 70 | 70 | 20 | 24 | 10 |
 | en | C2 | 70 | 70 | 20 | 4 | 3 |
 
 Total cards: 1035. New distinct cards: 368. Retained legacy repeated terms across sources/levels: 19.
