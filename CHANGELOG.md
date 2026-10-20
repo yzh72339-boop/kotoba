@@ -1,3 +1,9 @@
+## 3.1.0-preview.16 — 2026-10-20
+
+- Mobile Home recommends grouped source-backed reading mistakes and restores active practice.
+- Wrong recorded answers remain pending; retries preserve prior activity without extra records.
+- Original task IDs, SRS, scores, account isolation and content retained.
+
 ## 3.1.0-preview.15 — 2026-10-20
 
 - Source-backed reading mistake practice, persisted answers/feedback and idempotent practice records.

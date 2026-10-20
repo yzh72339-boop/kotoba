@@ -1,4 +1,5 @@
 'use client';
+import {DailyReadingRevisit} from './daily-reading-revisit';
 import {CourseRoadmap} from './course-roadmap';
 import {BudgetPlanPanel} from './budget-plan';
 import Image from 'next/image';
@@ -79,6 +80,7 @@ function MobileToday({onSetup,catalog}:{onSetup:()=>void;catalog:ContentEntry[]}
   <DailyFocus catalog={catalog}><FocusProgress/></DailyFocus>
   <div className="today-quick-stats"><button onClick={()=>navigate('Review')}><Repeat2 size={19}/><span><strong>{due}</strong><small>待复习</small></span><ArrowRight size={16}/></button><button onClick={()=>navigate('Vocabulary')}><Layers size={19}/><span><strong>{stats.newWords}</strong><small>今日已学新词</small></span><ArrowRight size={16}/></button></div>
   <LearningSaveStatus/>
+  <DailyReadingRevisit catalog={catalog}/>
   {(reading||nextReading)&&<section className="mobile-next"><SectionHeading title={reading?'继续阅读':'关联阅读'} aside={<button className="text-link" onClick={()=>navigate('Reading')}>查看全部 <ArrowRight size={14}/></button>}/><button className="linked-reading-row" onClick={()=>navigate('Reading',{content:reading?.id??nextReading?.id,legacy:reading?.legacy})}><span className="reading-cover-mini" aria-hidden="true">{ja?<Image src="/images/reading-japan.jpg" width={124} height={120} alt="" unoptimized/>:<BookOpen size={24}/>}</span><span><strong>{reading?.title??nextReading?.title}</strong><small>{readingLevel??'阅读'} · {reading?`已读 ${Math.round(reading.progress)}%`:`约 ${nextReading?.minutes} 分钟`}</small></span><ArrowRight size={18}/></button></section>}
   <section className="mobile-next"><SectionHeading title="按内容学习" aside={<span className="subtle">{state.profile.level}</span>}/>{[{name:'语法',detail:grammar?.title??'查看当前等级资料',icon:Type,page:'Grammar' as const,content:grammar?.id},{name:'听力',detail:'听读与跟读',icon:Headphones,page:'Listening' as const,content:undefined}].map(n=><button key={n.name} onClick={()=>navigate(n.page,n.content?{content:n.content}:undefined)}><span className="plan-icon"><n.icon size={19}/></span><div><strong>{n.name}</strong><small>{n.detail}</small></div><ArrowRight size={17}/></button>)}</section>
   <BudgetPlanPanel catalog={catalog??[]}/><DailyPlanPreview catalog={catalog}/>
