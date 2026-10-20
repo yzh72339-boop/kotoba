@@ -8,7 +8,7 @@ import {fetchDocument} from '@/lib/content-library/client';
 import {readingMistakeSource,readingRevisit,revisitDraft,saveRevisitDraft} from '@/lib/reading-revisit';
 import type {Mistake} from '@/lib/store';
 
-export function ReadingRevisit({mistake,onClose}:{mistake:Mistake;onClose:()=>void}){
+export function ReadingRevisit({mistake,onClose}:{mistake:Mistake;onClose:(reason?:'source')=>void}){
  const {state,setState,navigate,record}=useStudy(),current=useRef(state);current.current=state;
  const [lesson,setLesson]=useState<ReturnType<typeof readingRevisit>>(null),[error,setError]=useState(''),[retry,setRetry]=useState(0);const lock=useRef(false);
  useEffect(()=>{const c=new AbortController();setError('');setLesson(null);const source=readingMistakeSource(current.current,mistake);
@@ -21,11 +21,11 @@ export function ReadingRevisit({mistake,onClose}:{mistake:Mistake;onClose:()=>vo
   {error?<div role="alert"><p>{error}</p><Button variant="outline" onClick={()=>setRetry(n=>n+1)}>重新读取</Button></div>:!lesson||!draft?<p role="status">正在读取原题与文章…</p>:<div className="reading-revisit">
    <p className="subtle">{lesson.article.level} · {lesson.article.title}</p><p className="subtle">这是已保存错题的原题重练，不是新的阅读测验；不会覆盖文章成绩或改变复习日期。</p>
    <details><summary>重读原文</summary><div className="revisit-text" lang={mistake.language==='ja'?'ja':'en'}>{lesson.article.paragraphs.map((p,i)=><p key={i}>{p}</p>)}</div></details>
-   <Button variant="outline" onClick={()=>{onClose();navigate('Reading',{content:lesson.article.id})}}>打开原文章（保留阅读位置）</Button>
+   <Button variant="outline" onClick={()=>{onClose('source');navigate('Reading',{content:lesson.article.id})}}>打开原文章（保留阅读位置）</Button>
    <h3>{lesson.question.prompt}</h3><p>上次答案：{mistake.original}</p>
    <div className="quiz-options">{lesson.question.options.map((option,i)=><button key={i} className={`${draft.answer===i?'selected ':''}${draft.checked&&i===lesson.question.answer?'correct':''}`} disabled={draft.checked} aria-pressed={draft.answer===i} onClick={()=>setState(s=>saveRevisitDraft(s,mistake.id,{...revisitDraft(s,mistake.id,lesson.question),answer:i,checked:false}))}>{option}</button>)}</div>
    <Button disabled={draft.answer===null||draft.checked} onClick={()=>setState(s=>saveRevisitDraft(s,mistake.id,{...revisitDraft(s,mistake.id,lesson.question),checked:true}))}>提交并查看解析</Button>
-   {draft.checked&&<div className={`question-feedback ${draft.answer===lesson.question.answer?'is-correct':'is-incorrect'}`} role="status"><p>{draft.answer===lesson.question.answer?'本次回答正确':'再结合原文看看'}</p><p>本次答案：{draft.answer===null?'未作答':lesson.question.options[draft.answer]}</p><p>正确答案：{lesson.question.options[lesson.question.answer]}</p><p>{lesson.question.explanation}</p><Button disabled={draft.recorded} onClick={finish}>{draft.recorded?'本次巩固已记录':'完成这次巩固'}</Button>{!draft.recorded&&<Button variant="ghost" onClick={()=>setState(s=>saveRevisitDraft(s,mistake.id,{...revisitDraft(s,mistake.id,lesson.question),answer:null,checked:false}))}>重新作答</Button>}</div>}
+   {draft.checked&&<div className={`question-feedback ${draft.answer===lesson.question.answer?'is-correct':'is-incorrect'}`} role="status"><p>{draft.answer===lesson.question.answer?'本次回答正确':'再结合原文看看'}</p><p>本次答案：{draft.answer===null?'未作答':lesson.question.options[draft.answer]}</p><p>正确答案：{lesson.question.options[lesson.question.answer]}</p><p>{lesson.question.explanation}</p><Button disabled={draft.recorded} onClick={finish}>{draft.recorded?'本次巩固已记录':'完成这次巩固'}</Button><Button variant="ghost" onClick={()=>setState(s=>saveRevisitDraft(s,mistake.id,{...revisitDraft(s,mistake.id,lesson.question),answer:null,checked:false}))}>重新作答</Button></div>}
    <LearningSaveStatus/>
   </div>}
  </Dialog>;

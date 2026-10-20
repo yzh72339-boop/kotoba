@@ -1,6 +1,6 @@
 {
   "name": "kotoba",
-  "version": "3.1.0-preview.15",
+  "version": "3.1.0-preview.16",
   "private": true,
   "scripts": {
     "dev": "node scripts/prepare-japanese-tools.mjs && node scripts/check-public-environment.mjs development && next dev --hostname 0.0.0.0",
