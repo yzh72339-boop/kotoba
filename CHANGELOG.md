@@ -1,3 +1,8 @@
+## 3.1.0-preview.15 — 2026-10-20
+
+- Source-backed reading mistake practice, persisted answers/feedback and idempotent practice records.
+- Existing article scores, SRS and content remain unchanged.
+
 ## 3.1.0-preview.14 — 2026-10-19
 
 - Read-only learning route with preparation, linked reading and history-restored browsing; daily pins and SRS retained.
