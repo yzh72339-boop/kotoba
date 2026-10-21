@@ -1,0 +1,272 @@
+[
+  {
+    "id": "grammar-en-c2-if-only-to-rationale",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C2",
+    "difficulty": 5,
+    "tags": [
+      "v3-vocabulary-13",
+      "C2",
+      "contextual-course"
+    ],
+    "title": "If only to: a minimum sufficient reason",
+    "pattern": "if only to + base verb",
+    "meaningZh": "哪怕只是为了；至少为了",
+    "meaningEn": "A limited but sufficient rationale",
+    "explanation": "if only to引出一个有限但足以支持行动的目的，常在论证中承认行动未必解决全部问题，同时保留一个值得做的理由。它不表示这个理由是行动者唯一的目的，也不等于条件句if followed by a finite clause。要与If only I knew这类表达愿望的结构区分。",
+    "usage": "在正式论证中承认措施的局限，同时给出最低限度仍成立的行动理由。",
+    "nuance": "“We should publish the record, if only to expose its gaps”并不承诺出版能解决争议；它说即使作用仅限暴露缺漏，也值得做。该目的通常由主句行动的参与者承担。",
+    "structure": [
+      "Main clause, if only to + base verb",
+      "Main clause + if only to + base verb"
+    ],
+    "formation": [
+      "Main clause, if only to + base verb",
+      "Main clause + if only to + base verb"
+    ],
+    "examples": [
+      {
+        "target": "We should publish the ledger, if only to make its omissions visible.",
+        "zh": "我们应公布账册，哪怕只是为了让其中的遗漏显现出来。"
+      },
+      {
+        "target": "The objection deserves a hearing, if only to clarify what is at stake.",
+        "zh": "这一异议值得被听取，至少可以澄清争议涉及什么。"
+      },
+      {
+        "target": "They kept the old label, if only to document the earlier claim.",
+        "zh": "他们保留旧标签，哪怕只是为了记录先前的主张。"
+      },
+      {
+        "target": "The council must respond, if only to explain why it cannot act.",
+        "zh": "议会必须回应，至少应解释为何无法采取行动。"
+      }
+    ],
+    "notes": [
+      "学习目标：在正式论证中承认措施的局限，同时给出最低限度仍成立的行动理由。",
+      "等级与词频为教学编排，不是官方穷尽清单或语料库测量。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "We should publish the ledger, if only make its gaps visible.",
+        "correct": "We should publish the ledger, if only to make its gaps visible.",
+        "explanation": "本课用to引出目的不定式；去掉to后，make不能承担所需结构。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-c2-be-that-as-it-may",
+        "explanation": "Be that as it may承接让步后继续论证；if only to在具体行动后提出有限但足够的目的。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-b1-purpose-clauses"
+    ],
+    "relatedGrammar": [
+      "grammar-en-c2-be-that-as-it-may"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-c2-if-only-to-rationale-1",
+        "kind": "meaning",
+        "prompt": "A writer says: “We should retain the label, if only to show how the claim changed.” What follows?",
+        "acceptedAnswers": [
+          "Showing the change is offered as a sufficient limited reason."
+        ],
+        "explanation": "The construction supplies a modest rationale; it asserts neither a complete solution nor exclusivity of purpose.",
+        "options": [
+          "Retention will settle every ownership issue.",
+          "Showing the change is offered as a sufficient limited reason.",
+          "Showing the change is the sole possible purpose."
+        ]
+      },
+      {
+        "id": "grammar-en-c2-if-only-to-rationale-2",
+        "kind": "fill",
+        "prompt": "The archive should record the objection, if only (　) its existence.",
+        "acceptedAnswers": [
+          "to acknowledge"
+        ],
+        "explanation": "If only to introduces a purpose infinitive. The subject of the main action can acknowledge the objection by recording it.",
+        "options": [
+          "acknowledge",
+          "acknowledging",
+          "to acknowledge"
+        ]
+      },
+      {
+        "id": "grammar-en-c2-if-only-to-rationale-3",
+        "kind": "context",
+        "prompt": "A procedure cannot resolve the whole dispute but can identify missing evidence. Which conclusion preserves that limited justification?",
+        "acceptedAnswers": [
+          "It is worth using, if only to identify the gaps."
+        ],
+        "explanation": "The first option keeps the modest benefit without turning it into a guarantee or denying the stated evidentiary problem.",
+        "options": [
+          "It is worth using, if only to identify the gaps.",
+          "It is worth using only if every dispute has ended.",
+          "It is worth using because no evidence is missing."
+        ]
+      },
+      {
+        "id": "grammar-en-c2-if-only-to-rationale-4",
+        "kind": "error",
+        "prompt": "Which sentence uses the taught rationale structure?",
+        "acceptedAnswers": [
+          "The council should reply, if only to explain its position."
+        ],
+        "explanation": "The to-infinitive gives a purpose for replying. The other forms do not supply that structure.",
+        "options": [
+          "The council should reply, if only explain its position.",
+          "The council should reply, if only to explain its position.",
+          "The council should reply, if only it explained already."
+        ]
+      },
+      {
+        "id": "grammar-en-c2-if-only-to-rationale-5",
+        "kind": "translation",
+        "prompt": "Using if only to, translate: 议会必须回应，至少应解释为何无法采取行动。",
+        "acceptedAnswers": [
+          "The council must respond, if only to explain why it cannot act."
+        ],
+        "explanation": "Responding is supported by the limited aim of explaining inaction; the sentence does not promise action itself."
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c2-be-it-concession",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C2",
+    "difficulty": 5,
+    "tags": [
+      "v3-vocabulary-13",
+      "C2",
+      "contextual-course"
+    ],
+    "title": "Be it X or Y: formal concessive alternatives",
+    "pattern": "be it + X + or + Y",
+    "meaningZh": "不论是……还是……",
+    "meaningEn": "Formal concession over named alternatives",
+    "explanation": "be it X or Y是较正式的让步表达，以原形be列出若干可能性，并说明主句的判断不受这些备选项影响。it应有可恢复的所指，X和Y也应保持平行。它不表示已经确定究竟是哪一个选项，也不能随意改成be it X nor Y。",
+    "usage": "在正式评论中列出不同情况，指出同一论断在这些情况下仍成立。",
+    "nuance": "“The transfer, be it a gift or a sale, needs examination”不判断转移究竟是赠与还是出售；它说明两种说法都不免除审查。此结构语体较正式，日常英语常用whether it is。",
+    "structure": [
+      "Be it + parallel X + or + parallel Y, main clause",
+      "Noun phrase, be it + X + or + Y, main clause"
+    ],
+    "formation": [
+      "Be it + parallel X + or + parallel Y, main clause",
+      "Noun phrase, be it + X + or + Y, main clause"
+    ],
+    "examples": [
+      {
+        "target": "The transfer, be it a gift or a sale, requires examination.",
+        "zh": "这次转移，无论是赠与还是出售，都需要审查。"
+      },
+      {
+        "target": "Be it a council or a family, the claimant must be heard.",
+        "zh": "无论申请者是议会还是家庭，其意见都必须得到听取。"
+      },
+      {
+        "target": "Any remedy, be it return or shared custody, will require negotiation.",
+        "zh": "任何补救方案，不论是归还还是共同保管，都需要协商。"
+      },
+      {
+        "target": "The evidence, be it written or oral, must be assessed in context.",
+        "zh": "证据不论是书面的还是口述的，都必须结合语境评估。"
+      }
+    ],
+    "notes": [
+      "学习目标：在正式评论中列出不同情况，指出同一论断在这些情况下仍成立。",
+      "等级与词频为教学编排，不是官方穷尽清单或语料库测量。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The transfer, be it a gift nor a sale, requires examination.",
+        "correct": "The transfer, be it a gift or a sale, requires examination.",
+        "explanation": "肯定列举的备选项用or连接；nor需要不同的否定结构，不能直接替换。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-c2-free-choice-ever",
+        "explanation": "Whatever the remedy涵盖所有可能的补救方案；be it return or shared custody明确列举若干方案，语体更正式。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-c2-mandative-subjunctive"
+    ],
+    "relatedGrammar": [
+      "grammar-en-c2-free-choice-ever"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-c2-be-it-concession-1",
+        "kind": "meaning",
+        "prompt": "“The transfer, be it a gift or a sale, requires examination.” What is left undecided?",
+        "acceptedAnswers": [
+          "Which of the named forms the transfer took."
+        ],
+        "explanation": "The concessive alternatives leave the form open while applying the requirement of examination to both.",
+        "options": [
+          "Whether examination is possible at all.",
+          "Whether the transfer exists.",
+          "Which of the named forms the transfer took."
+        ]
+      },
+      {
+        "id": "grammar-en-c2-be-it-concession-2",
+        "kind": "fill",
+        "prompt": "Any remedy, be it return (　) shared custody, requires negotiation.",
+        "acceptedAnswers": [
+          "or"
+        ],
+        "explanation": "Parallel alternatives in this affirmative concessive structure are linked by or.",
+        "options": [
+          "or",
+          "nor",
+          "than"
+        ]
+      },
+      {
+        "id": "grammar-en-c2-be-it-concession-3",
+        "kind": "context",
+        "prompt": "Both written and oral evidence should be considered in context. Which version retains that impartial scope?",
+        "acceptedAnswers": [
+          "The evidence, be it written or oral, needs context."
+        ],
+        "explanation": "The middle option applies the same standard to each named form without selecting one as the true form.",
+        "options": [
+          "Only written evidence needs context.",
+          "The evidence, be it written or oral, needs context.",
+          "The evidence must be oral because it needs context."
+        ]
+      },
+      {
+        "id": "grammar-en-c2-be-it-concession-4",
+        "kind": "error",
+        "prompt": "Choose the parallel, referentially clear concessive phrase.",
+        "acceptedAnswers": [
+          "The remedy, be it return or shared custody, needs agreement."
+        ],
+        "explanation": "It refers back to the remedy; return and shared custody are parallel noun phrases connected by or.",
+        "options": [
+          "The remedy, be it return or shared custody, needs agreement.",
+          "The remedy, be it return nor shared custody, needs agreement.",
+          "The remedy, being it returned or to share, needs agreement."
+        ]
+      },
+      {
+        "id": "grammar-en-c2-be-it-concession-5",
+        "kind": "translation",
+        "prompt": "Using be it, translate: 证据不论是书面的还是口述的，都必须结合语境评估。",
+        "acceptedAnswers": [
+          "The evidence, be it written or oral, must be assessed in context."
+        ],
+        "explanation": "The formal concession applies the same contextual standard to the two named forms of evidence."
+      }
+    ]
+  }
+]

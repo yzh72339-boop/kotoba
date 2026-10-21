@@ -1,0 +1,280 @@
+[
+  {
+    "id": "grammar-en-a1-whose-questions",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A1",
+    "difficulty": 1,
+    "tags": [
+      "v3-vocabulary-13",
+      "A1",
+      "contextual-course"
+    ],
+    "title": "Whose: asking who owns something",
+    "pattern": "Whose + noun + is / are + this / these?",
+    "meaningZh": "询问物品是谁的",
+    "meaningEn": "Asking who owns an identified thing",
+    "explanation": "whose询问所属关系，可以放在名词前：Whose shirt is this?也可以独立使用：Whose is this?问单件物品用is，多件物品用are。whose不是who’s；后者是who is或who has的缩写，不能直接放在shirt前询问主人。回答时可以使用人名所有格或mine、hers等物主代词。",
+    "usage": "找到不确定归属的衣物时，用whose问清主人。",
+    "nuance": "Whose jacket is this询问主人，不询问穿着者是谁。Whose本身不指明单复数，数量由后面的名词与be体现。",
+    "structure": [
+      "Whose + singular noun + is + this?",
+      "Whose + plural noun + are + these?",
+      "Whose + is / are + this / these?"
+    ],
+    "formation": [
+      "Whose + singular noun + is + this?",
+      "Whose + plural noun + are + these?",
+      "Whose + is / are + this / these?"
+    ],
+    "examples": [
+      {
+        "target": "Whose shirt is this?",
+        "zh": "这件衬衫是谁的？"
+      },
+      {
+        "target": "Whose socks are these?",
+        "zh": "这些袜子是谁的？"
+      },
+      {
+        "target": "Whose is this jacket?",
+        "zh": "这件夹克是谁的？"
+      },
+      {
+        "target": "Whose are these shoes?",
+        "zh": "这些鞋是谁的？"
+      }
+    ],
+    "notes": [
+      "学习目标：找到不确定归属的衣物时问清主人。",
+      "等级为教学编排，不代表官方穷尽清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "Who’s shirt is this?",
+        "correct": "Whose shirt is this?",
+        "explanation": "询问所属关系使用whose；who’s是who is或who has的缩写。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-a1-possessive-pronouns",
+        "explanation": "Whose is this用来询问归属；It is mine或It is hers用来回答，不必重复名词。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-a1-be-identity",
+      "grammar-en-a1-possessive-determiners"
+    ],
+    "relatedGrammar": [
+      "grammar-en-a1-possessive-pronouns"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-a1-whose-questions-1",
+        "kind": "meaning",
+        "prompt": "“Whose shirt is this?” 在询问什么？",
+        "acceptedAnswers": [
+          "衬衫的主人"
+        ],
+        "explanation": "Whose询问所属关系，目标是知道物品是谁的，而不是颜色或价格。",
+        "options": [
+          "衬衫的主人",
+          "衬衫的颜色",
+          "衬衫的价格"
+        ]
+      },
+      {
+        "id": "grammar-en-a1-whose-questions-2",
+        "kind": "fill",
+        "prompt": "Whose socks (　) these?",
+        "acceptedAnswers": [
+          "are"
+        ],
+        "explanation": "socks和these都是复数，be使用are。",
+        "options": [
+          "is",
+          "are",
+          "am"
+        ]
+      },
+      {
+        "id": "grammar-en-a1-whose-questions-3",
+        "kind": "error",
+        "prompt": "哪句正确询问夹克属于谁？",
+        "acceptedAnswers": [
+          "Whose jacket is this?"
+        ],
+        "explanation": "whose表达所属关系；who’s缩写和who本身在此都不能代替它。",
+        "options": [
+          "Who’s jacket is this?",
+          "Who jacket is this?",
+          "Whose jacket is this?"
+        ]
+      },
+      {
+        "id": "grammar-en-a1-whose-questions-4",
+        "kind": "context",
+        "prompt": "有人问“Whose shirt is this?”，哪句直接回答归属？",
+        "acceptedAnswers": [
+          "It is mine."
+        ],
+        "explanation": "mine代替my shirt说明主人；其他两句说明颜色或位置。",
+        "options": [
+          "It is mine.",
+          "It is blue.",
+          "It is on the chair."
+        ]
+      },
+      {
+        "id": "grammar-en-a1-whose-questions-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“这些鞋是谁的？”译成英语。",
+        "acceptedAnswers": [
+          "Whose are these shoes?"
+        ],
+        "explanation": "Whose独立使用；these shoes是复数，因此用are。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-a1-possessive-pronouns",
+    "kind": "grammar",
+    "language": "en",
+    "level": "A1",
+    "difficulty": 1,
+    "tags": [
+      "v3-vocabulary-13",
+      "A1",
+      "contextual-course"
+    ],
+    "title": "Mine and yours: saying who owns it",
+    "pattern": "mine / yours / his / hers / ours / theirs",
+    "meaningZh": "我的／你的等，独立代替名词短语",
+    "meaningEn": "Possessive pronouns without a following noun",
+    "explanation": "mine、yours、hers、ours和theirs可以独立代替带所属关系的名词短语，例如mine代替my shirt。它们后面不再接名词，也不加撇号。his既可以放在名词前，也可以独立使用。先用上下文说明是哪件物品，再用这些代词指出主人。",
+    "usage": "在已经明确物品的对话中说明归属，避免重复名词。",
+    "nuance": "The shirt is hers说主人是谁；She is wearing the shirt说穿戴动作，两者并不必然证明同一个人拥有它。",
+    "structure": [
+      "my + noun → mine",
+      "your + noun → yours",
+      "his + noun → his; her + noun → hers",
+      "our + noun → ours; their + noun → theirs"
+    ],
+    "formation": [
+      "my + noun → mine",
+      "your + noun → yours",
+      "his + noun → his; her + noun → hers",
+      "our + noun → ours; their + noun → theirs"
+    ],
+    "examples": [
+      {
+        "target": "The blue shirt is mine.",
+        "zh": "蓝衬衫是我的。"
+      },
+      {
+        "target": "Is this jacket yours?",
+        "zh": "这件夹克是你的吗？"
+      },
+      {
+        "target": "The red skirt is hers.",
+        "zh": "红裙子是她的。"
+      },
+      {
+        "target": "These shoes are ours.",
+        "zh": "这些鞋是我们的。"
+      }
+    ],
+    "notes": [
+      "学习目标：在已经明确物品的对话中说明归属，避免重复名词。",
+      "等级与词频为教学编排，不是官方穷尽清单或语料库测量。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "This is mine jacket.",
+        "correct": "This jacket is mine.",
+        "explanation": "mine已经代替my jacket，不能在后面继续接jacket。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-a1-possessive-determiners",
+        "explanation": "my、your、her后面接名词；mine、yours、hers独立使用。his两种位置都可以。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-a1-possessive-determiners",
+      "grammar-en-a1-demonstratives"
+    ],
+    "relatedGrammar": [
+      "grammar-en-a1-possessive-determiners"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-a1-possessive-pronouns-1",
+        "kind": "meaning",
+        "prompt": "“The blue shirt is mine.” 的含义是？",
+        "acceptedAnswers": [
+          "蓝衬衫是我的"
+        ],
+        "explanation": "mine代替my shirt，表明说话者拥有这件蓝衬衫。",
+        "options": [
+          "这是她穿着的红裙子",
+          "蓝衬衫是我的",
+          "蓝衬衫属于你"
+        ]
+      },
+      {
+        "id": "grammar-en-a1-possessive-pronouns-2",
+        "kind": "fill",
+        "prompt": "The jacket belongs to you. It is (　).",
+        "acceptedAnswers": [
+          "yours"
+        ],
+        "explanation": "此处代替your jacket并独立作表语，需要yours而非your。",
+        "options": [
+          "your",
+          "you",
+          "yours"
+        ]
+      },
+      {
+        "id": "grammar-en-a1-possessive-pronouns-3",
+        "kind": "error",
+        "prompt": "选出正确表达“这件夹克是我的”的句子。",
+        "acceptedAnswers": [
+          "This jacket is mine."
+        ],
+        "explanation": "mine独立使用；my需要后接名词，mine jacket把两种用法混在一起。",
+        "options": [
+          "This jacket is mine.",
+          "This is mine jacket.",
+          "This jacket is my."
+        ]
+      },
+      {
+        "id": "grammar-en-a1-possessive-pronouns-4",
+        "kind": "context",
+        "prompt": "已明确谈论Anna的裙子，哪句说明裙子属于她？",
+        "acceptedAnswers": [
+          "It is hers."
+        ],
+        "explanation": "hers是独立的物主代词，代替her skirt；her或she在此不能表达所需归属关系。",
+        "options": [
+          "It is her.",
+          "It is hers.",
+          "It is she."
+        ]
+      },
+      {
+        "id": "grammar-en-a1-possessive-pronouns-5",
+        "kind": "translation",
+        "prompt": "参照例句，将“这些鞋是我们的。”译成英语。",
+        "acceptedAnswers": [
+          "These shoes are ours."
+        ],
+        "explanation": "shoes是复数，be用are；ours代替our shoes。"
+      }
+    ]
+  }
+]

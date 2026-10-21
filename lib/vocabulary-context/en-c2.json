@@ -476,5 +476,281 @@
     "frequency": "low",
     "register": "neutral",
     "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c2-b13-01",
+    "word": "restitution",
+    "pronunciation": "/ˌres.tɪˈtjuː.ʃən/",
+    "meaning": "归还原物；恢复原状的补偿",
+    "example": "The parties discussed restitution without assuming that one remedy fitted every claim.",
+    "translation": "双方讨论了归还问题，但没有假定一种补救适合所有主张。",
+    "tag": "C2 · noun",
+    "related": "a claim for restitution",
+    "pos": "noun",
+    "senses": [
+      "归还原物；恢复原状的补偿"
+    ],
+    "collocations": [
+      "a claim for restitution"
+    ],
+    "topics": [
+      "claims-and-evidence"
+    ],
+    "frequency": "low",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-c2-b13-02",
+    "word": "dispossession",
+    "pronunciation": "/ˌdɪs.pəˈzeʃ.ən/",
+    "meaning": "剥夺财产或占有权",
+    "example": "The account of dispossession challenges the description of the transfer as a gift.",
+    "translation": "有关财产被剥夺的叙述挑战了将这次转移描述为赠与的说法。",
+    "tag": "C2 · noun",
+    "related": "a history of dispossession",
+    "pos": "noun",
+    "senses": [
+      "剥夺财产或占有权"
+    ],
+    "collocations": [
+      "a history of dispossession"
+    ],
+    "topics": [
+      "claims-and-evidence"
+    ],
+    "frequency": "low",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-c2-b13-03",
+    "word": "redress",
+    "pronunciation": "/rɪˈdres/",
+    "meaning": "补救；纠正不公",
+    "example": "An admission of error does not itself settle the appropriate form of redress.",
+    "translation": "承认错误本身不能决定合适的补救方式。",
+    "tag": "C2 · noun",
+    "related": "seek redress",
+    "pos": "noun",
+    "senses": [
+      "补救；纠正不公"
+    ],
+    "collocations": [
+      "seek redress"
+    ],
+    "topics": [
+      "claims-and-evidence"
+    ],
+    "frequency": "low",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-c2-b13-04",
+    "word": "inalienable",
+    "pronunciation": "/ɪnˈeɪ.li.ə.nə.bəl/",
+    "meaning": "不可转让的；不可剥夺的",
+    "example": "The association regards the object as inalienable rather than an individual’s property.",
+    "translation": "协会认为该物不可转让，而非某个个人的财产。",
+    "tag": "C2 · adjective",
+    "related": "inalienable rights",
+    "pos": "adjective",
+    "senses": [
+      "不可转让的；不可剥夺的"
+    ],
+    "collocations": [
+      "inalienable rights"
+    ],
+    "topics": [
+      "claims-and-evidence"
+    ],
+    "frequency": "low",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-c2-b13-05",
+    "word": "custodianship",
+    "pronunciation": "/kʌˈstəʊ.di.ən.ʃɪp/",
+    "meaning": "保管职责；监护管理",
+    "example": "Responsible custodianship does not automatically establish ownership.",
+    "translation": "负责任的保管并不自动确立所有权。",
+    "tag": "C2 · noun",
+    "related": "shared custodianship",
+    "pos": "noun",
+    "senses": [
+      "保管职责；监护管理"
+    ],
+    "collocations": [
+      "shared custodianship"
+    ],
+    "topics": [
+      "claims-and-evidence"
+    ],
+    "frequency": "low",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-c2-b13-06",
+    "word": "repatriation",
+    "pronunciation": "/ˌriː.pæt.riˈeɪ.ʃən/",
+    "meaning": "送回原属地；遣返",
+    "example": "The repatriation agreement includes access to the conservation records.",
+    "translation": "送回原属地的协议包括开放保护记录。",
+    "tag": "C2 · noun",
+    "related": "negotiate repatriation",
+    "pos": "noun",
+    "senses": [
+      "送回原属地；遣返"
+    ],
+    "collocations": [
+      "negotiate repatriation"
+    ],
+    "topics": [
+      "claims-and-evidence"
+    ],
+    "frequency": "low",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-c2-b13-07",
+    "word": "evidentiary",
+    "pronunciation": "/ˌev.ɪˈden.ʃər.i/",
+    "meaning": "证据方面的；与举证有关的",
+    "example": "An evidentiary gap is not automatically proof of theft.",
+    "translation": "证据缺口并不自动构成盗窃的证明。",
+    "tag": "C2 · adjective",
+    "related": "an evidentiary standard",
+    "pos": "adjective",
+    "senses": [
+      "证据方面的；与举证有关的"
+    ],
+    "collocations": [
+      "an evidentiary standard"
+    ],
+    "topics": [
+      "claims-and-evidence"
+    ],
+    "frequency": "low",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-c2-b13-08",
+    "word": "defeasible",
+    "pronunciation": "/dɪˈfiː.zə.bəl/",
+    "meaning": "可被后续理由推翻或修订的",
+    "example": "The conclusion is defeasible because new evidence may alter its basis.",
+    "translation": "结论可被修订，因为新证据可能改变其依据。",
+    "tag": "C2 · adjective",
+    "related": "a defeasible conclusion",
+    "pos": "adjective",
+    "senses": [
+      "可被后续理由推翻或修订的"
+    ],
+    "collocations": [
+      "a defeasible conclusion"
+    ],
+    "topics": [
+      "claims-and-evidence"
+    ],
+    "frequency": "low",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-c2-b13-09",
+    "word": "adjudicate",
+    "pronunciation": "/əˈdʒuː.dɪ.keɪt/",
+    "meaning": "裁决；审理并作出决定",
+    "example": "The panel can adjudicate the claim only within its stated powers.",
+    "translation": "委员会只能在明示权限内裁决该项主张。",
+    "tag": "C2 · verb",
+    "related": "adjudicate competing claims",
+    "pos": "verb",
+    "senses": [
+      "裁决；审理并作出决定"
+    ],
+    "collocations": [
+      "adjudicate competing claims"
+    ],
+    "topics": [
+      "claims-and-evidence"
+    ],
+    "frequency": "low",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-c2-b13-10",
+    "word": "entitlement",
+    "pronunciation": "/ɪnˈtaɪ.təl.mənt/",
+    "meaning": "享有某项权利的资格或根据",
+    "example": "Continued possession alone does not create an entitlement to retain the object.",
+    "translation": "仅靠持续占有并不能产生保留该物的权利根据。",
+    "tag": "C2 · noun",
+    "related": "an entitlement to compensation",
+    "pos": "noun",
+    "senses": [
+      "享有某项权利的资格或根据"
+    ],
+    "collocations": [
+      "an entitlement to compensation"
+    ],
+    "topics": [
+      "claims-and-evidence"
+    ],
+    "frequency": "low",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-c2-b13-11",
+    "word": "jurisdiction",
+    "pronunciation": "/ˌdʒʊə.rɪsˈdɪk.ʃən/",
+    "meaning": "管辖权；权限范围",
+    "example": "The panel’s jurisdiction limits the remedies it can order.",
+    "translation": "委员会的权限限制了它能够命令的补救措施。",
+    "tag": "C2 · noun",
+    "related": "within its jurisdiction",
+    "pos": "noun",
+    "senses": [
+      "管辖权；权限范围"
+    ],
+    "collocations": [
+      "within its jurisdiction"
+    ],
+    "topics": [
+      "claims-and-evidence"
+    ],
+    "frequency": "low",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-c2-b13-12",
+    "word": "stewardship",
+    "pronunciation": "/ˈstjuː.əd.ʃɪp/",
+    "meaning": "负责任的管理与照护",
+    "example": "The trustees cite their stewardship as a reason to discuss future care.",
+    "translation": "受托人以负责任的管理为由，主张讨论未来的照护安排。",
+    "tag": "C2 · noun",
+    "related": "responsible stewardship",
+    "pos": "noun",
+    "senses": [
+      "负责任的管理与照护"
+    ],
+    "collocations": [
+      "responsible stewardship"
+    ],
+    "topics": [
+      "claims-and-evidence"
+    ],
+    "frequency": "low",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
   }
 ]

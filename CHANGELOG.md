@@ -1,3 +1,9 @@
+## 3.1.0-preview.17 — 2026-10-21
+
+- Add24 distinct A1/C2 source cards, four grammar topics and two original readers with30 explained practice items; total1059/230/107, full targets pending.
+- Reuse local washing/adjudicated lemma lookup, exact sources, duplicate-safe collection/SRS and offline restoration. Preserve331 earlier course and1035 word payloads/IDs.
+- No dependency, Auth/RLS, quota, schema, synchronization or historical migration change. Real-device/live-owner and independent language-editor acceptance remain separate.
+
 ## 3.1.0-preview.16 — 2026-10-20
 
 - Mobile Home recommends grouped source-backed reading mistakes and restores active practice.

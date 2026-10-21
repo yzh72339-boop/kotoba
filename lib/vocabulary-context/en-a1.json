@@ -749,5 +749,281 @@
     "frequency": "high",
     "register": "neutral",
     "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-a1-b13-01",
+    "word": "shirt",
+    "pronunciation": "/ʃɜːt/",
+    "meaning": "衬衫",
+    "example": "I am washing my blue shirt.",
+    "translation": "我正在洗我的蓝衬衫。",
+    "tag": "A1 · noun",
+    "related": "a blue shirt",
+    "pos": "noun",
+    "senses": [
+      "衬衫"
+    ],
+    "collocations": [
+      "a blue shirt"
+    ],
+    "topics": [
+      "clothes-and-ownership"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-a1-b13-02",
+    "word": "sock",
+    "pronunciation": "/sɒk/",
+    "meaning": "短袜",
+    "example": "One sock is blue.",
+    "translation": "一只袜子是蓝色的。",
+    "tag": "A1 · noun",
+    "related": "a pair of socks",
+    "pos": "noun",
+    "senses": [
+      "短袜"
+    ],
+    "collocations": [
+      "a pair of socks"
+    ],
+    "topics": [
+      "clothes-and-ownership"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-a1-b13-03",
+    "word": "skirt",
+    "pronunciation": "/skɜːt/",
+    "meaning": "裙子",
+    "example": "Anna is washing her red skirt.",
+    "translation": "Anna正在洗她的红裙子。",
+    "tag": "A1 · noun",
+    "related": "a red skirt",
+    "pos": "noun",
+    "senses": [
+      "裙子"
+    ],
+    "collocations": [
+      "a red skirt"
+    ],
+    "topics": [
+      "clothes-and-ownership"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-a1-b13-04",
+    "word": "dress",
+    "pronunciation": "/dres/",
+    "meaning": "连衣裙",
+    "example": "The dress is hers.",
+    "translation": "连衣裙是她的。",
+    "tag": "A1 · noun",
+    "related": "wear a dress",
+    "pos": "noun",
+    "senses": [
+      "连衣裙"
+    ],
+    "collocations": [
+      "wear a dress"
+    ],
+    "topics": [
+      "clothes-and-ownership"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-a1-b13-05",
+    "word": "shoe",
+    "pronunciation": "/ʃuː/",
+    "meaning": "鞋",
+    "example": "One shoe is near the door.",
+    "translation": "一只鞋在门旁。",
+    "tag": "A1 · noun",
+    "related": "a pair of shoes",
+    "pos": "noun",
+    "senses": [
+      "鞋"
+    ],
+    "collocations": [
+      "a pair of shoes"
+    ],
+    "topics": [
+      "clothes-and-ownership"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-a1-b13-06",
+    "word": "hat",
+    "pronunciation": "/hæt/",
+    "meaning": "帽子",
+    "example": "Her red hat is on a chair.",
+    "translation": "她的红帽子在椅子上。",
+    "tag": "A1 · noun",
+    "related": "wear a hat",
+    "pos": "noun",
+    "senses": [
+      "帽子"
+    ],
+    "collocations": [
+      "wear a hat"
+    ],
+    "topics": [
+      "clothes-and-ownership"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-a1-b13-07",
+    "word": "jacket",
+    "pronunciation": "/ˈdʒæk.ɪt/",
+    "meaning": "夹克；短外套",
+    "example": "The jacket is mine.",
+    "translation": "夹克是我的。",
+    "tag": "A1 · noun",
+    "related": "a warm jacket",
+    "pos": "noun",
+    "senses": [
+      "夹克；短外套"
+    ],
+    "collocations": [
+      "a warm jacket"
+    ],
+    "topics": [
+      "clothes-and-ownership"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-a1-b13-08",
+    "word": "trousers",
+    "pronunciation": "/ˈtraʊ.zəz/",
+    "meaning": "长裤",
+    "example": "The trousers are outside.",
+    "translation": "长裤在外面。",
+    "tag": "A1 · plural noun",
+    "related": "a pair of trousers",
+    "pos": "plural noun",
+    "senses": [
+      "长裤"
+    ],
+    "collocations": [
+      "a pair of trousers"
+    ],
+    "topics": [
+      "clothes-and-ownership"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-a1-b13-09",
+    "word": "sweater",
+    "pronunciation": "/ˈswet.ə/",
+    "meaning": "毛衣",
+    "example": "The sweater is Ben’s.",
+    "translation": "毛衣是Ben的。",
+    "tag": "A1 · noun",
+    "related": "wear a sweater",
+    "pos": "noun",
+    "senses": [
+      "毛衣"
+    ],
+    "collocations": [
+      "wear a sweater"
+    ],
+    "topics": [
+      "clothes-and-ownership"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-a1-b13-10",
+    "word": "wear",
+    "pronunciation": "/weə/",
+    "meaning": "穿着；戴着",
+    "example": "I wear a jacket to school.",
+    "translation": "我穿着夹克去学校。",
+    "tag": "A1 · verb",
+    "related": "wear a jacket",
+    "pos": "verb",
+    "senses": [
+      "穿着；戴着"
+    ],
+    "collocations": [
+      "wear a jacket"
+    ],
+    "topics": [
+      "clothes-and-ownership"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-a1-b13-11",
+    "word": "wash",
+    "pronunciation": "/wɒʃ/",
+    "meaning": "洗",
+    "example": "We wash the socks together.",
+    "translation": "我们一起洗袜子。",
+    "tag": "A1 · verb",
+    "related": "wash clothes",
+    "pos": "verb",
+    "senses": [
+      "洗"
+    ],
+    "collocations": [
+      "wash clothes"
+    ],
+    "topics": [
+      "clothes-and-ownership"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
+  },
+  {
+    "id": "context-en-a1-b13-12",
+    "word": "dry",
+    "pronunciation": "/draɪ/",
+    "meaning": "使干燥；晾干",
+    "example": "We dry the trousers outside.",
+    "translation": "我们在外面晾长裤。",
+    "tag": "A1 · verb",
+    "related": "dry the clothes",
+    "pos": "verb",
+    "senses": [
+      "使干燥；晾干"
+    ],
+    "collocations": [
+      "dry the clothes"
+    ],
+    "topics": [
+      "clothes-and-ownership"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch13"
   }
 ]
