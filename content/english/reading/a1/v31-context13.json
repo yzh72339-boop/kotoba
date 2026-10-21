@@ -1,0 +1,117 @@
+{
+  "id": "article-en-a1-two-socks-and-a-blue-shirt",
+  "kind": "reading",
+  "language": "en",
+  "level": "A1",
+  "difficulty": 1,
+  "tags": [
+    "v3-vocabulary-13",
+    "A1",
+    "衣物与归属"
+  ],
+  "title": "Two socks and a blue shirt",
+  "topic": "日常生活",
+  "genre": "story",
+  "estimatedMinutes": 1,
+  "paragraphs": [
+    "It is Saturday morning. I am washing my blue shirt. My big sister Anna is washing her red skirt and a dress. Her red hat is on a chair. The hat is hers, but the jacket next to it is mine.",
+    "Our big brother Ben is wearing a sweater. He has two socks in his hand. One sock is blue and one is green. “Whose socks are these?” he asks. “The blue one is mine,” I say. “The green one is Anna’s.”",
+    "We are drying the trousers outside. Anna puts one shoe near the door. “Where is the other shoe?” she asks. Ben points to the chair. It is under the jacket.",
+    "Now we have both shoes and both socks. “Can I wear your jacket today?” Ben asks. “Yes,” I say. On Saturdays we wash and dry our clothes together. Then we have a drink."
+  ],
+  "translation": [
+    "星期六早上。我正在洗我的蓝衬衫。姐姐Anna正在洗她的红裙子和一条连衣裙。她的红帽子在椅子上。帽子是她的，但旁边的夹克是我的。",
+    "哥哥Ben正穿着一件毛衣。他手里拿着两只袜子，一只蓝色，一只绿色。“这些袜子是谁的？”他问。我说：“蓝色那只是我的。绿色那只是Anna的。”",
+    "我们正在外面晾长裤。Anna把一只鞋放在门旁。“另一只鞋在哪里？”她问。Ben指向椅子。鞋在夹克下面。",
+    "现在两只鞋和两只袜子都找齐了。Ben问：“我今天能穿你的夹克吗？”我说：“可以。”每逢星期六，我们一起洗衣晾衣，然后一起喝点东西。"
+  ],
+  "vocabulary": [
+    "context-en-a1-b13-01",
+    "context-en-a1-b13-02",
+    "context-en-a1-b13-03",
+    "context-en-a1-b13-04",
+    "context-en-a1-b13-05",
+    "context-en-a1-b13-06",
+    "context-en-a1-b13-07",
+    "context-en-a1-b13-08",
+    "context-en-a1-b13-09",
+    "context-en-a1-b13-10",
+    "context-en-a1-b13-11",
+    "context-en-a1-b13-12"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-a1-whose-questions",
+      "surface": "Whose socks are these"
+    },
+    {
+      "id": "grammar-en-a1-possessive-pronouns",
+      "surface": "The hat is hers"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-a1-two-socks-and-a-blue-shirt-q1",
+      "type": "detail",
+      "prompt": "谁正在洗蓝衬衫？",
+      "options": [
+        "说话者",
+        "Anna",
+        "Ben"
+      ],
+      "answer": 0,
+      "explanation": "第一段的I am washing my blue shirt明确把动作与说话者联系起来。"
+    },
+    {
+      "id": "article-en-a1-two-socks-and-a-blue-shirt-q2",
+      "type": "grammar",
+      "prompt": "第一段“The hat is hers”中的hers指谁的帽子？",
+      "options": [
+        "说话者的",
+        "Ben的",
+        "Anna的"
+      ],
+      "answer": 2,
+      "explanation": "此前介绍Anna的red hat，因此hers代替her hat，指Anna的帽子。"
+    },
+    {
+      "id": "article-en-a1-two-socks-and-a-blue-shirt-q3",
+      "type": "detail",
+      "prompt": "绿色袜子是谁的？",
+      "options": [
+        "Ben的",
+        "Anna的",
+        "说话者的"
+      ],
+      "answer": 1,
+      "explanation": "第二段明确说The green one is Anna’s；蓝色袜子才是说话者的。"
+    },
+    {
+      "id": "article-en-a1-two-socks-and-a-blue-shirt-q4",
+      "type": "inference",
+      "prompt": "另一只鞋被找到之前在哪里？",
+      "options": [
+        "夹克下面",
+        "门外的长裤上",
+        "Ben手中"
+      ],
+      "answer": 0,
+      "explanation": "第三段先说一只鞋在门旁，再问另一只鞋；Ben指出椅子，随后说明It is under the jacket。"
+    },
+    {
+      "id": "article-en-a1-two-socks-and-a-blue-shirt-q5",
+      "type": "main-idea",
+      "prompt": "这篇短文主要讲什么？",
+      "options": [
+        "Ben去购买新衣物",
+        "一家人清洗并整理衣物",
+        "Anna独自去旅行"
+      ],
+      "answer": 1,
+      "explanation": "文章围绕洗衣、分辨归属、找鞋袜和整理展开，不涉及购物或旅行。"
+    }
+  ],
+  "notes": [
+    "Whose询问衣物的主人，mine和hers等代词回答归属。文中的进行时描述眼前活动，wash and dry说明周六习惯；进行时另有既有A2课程可自由补学。"
+  ]
+}
