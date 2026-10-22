@@ -467,5 +467,301 @@
     "frequency": "low",
     "register": "neutral",
     "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-en-c1-b15-01",
+    "word": "allotment",
+    "pronunciation": "/əˈlɒtmənt/",
+    "meaning": "分配的菜园地块",
+    "example": "An allotment can be a place for both food and conversation.",
+    "translation": "一块菜园既可以种菜，也可以供人交流。",
+    "tag": "C1 · noun",
+    "related": "an allotment plot",
+    "pos": "noun",
+    "senses": [
+      "分配的菜园地块"
+    ],
+    "collocations": [
+      "an allotment plot"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-en-c1-b15-02",
+    "word": "tenure",
+    "pronunciation": "/ˈtenjə/",
+    "meaning": "占有或使用的期限与保障；任期",
+    "example": "Short tenure makes long-term planning difficult.",
+    "translation": "短暂的使用期限使长期规划变得困难。",
+    "tag": "C1 · noun",
+    "related": "security of tenure",
+    "pos": "noun",
+    "senses": [
+      "占有或使用的期限与保障",
+      "任期"
+    ],
+    "collocations": [
+      "security of tenure"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-en-c1-b15-03",
+    "word": "consultation",
+    "pronunciation": "/ˌkɒnsəlˈteɪʃən/",
+    "meaning": "征询意见；协商",
+    "example": "The consultation should begin before the decision is fixed.",
+    "translation": "征询意见应在决定定下之前开始。",
+    "tag": "C1 · noun",
+    "related": "public consultation",
+    "pos": "noun",
+    "senses": [
+      "征询意见",
+      "协商"
+    ],
+    "collocations": [
+      "public consultation"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-en-c1-b15-04",
+    "word": "mandate",
+    "pronunciation": "/ˈmændeɪt/",
+    "meaning": "授权；委托权限",
+    "example": "The committee has a mandate to maintain the garden.",
+    "translation": "委员会获得了维护菜园的授权。",
+    "tag": "C1 · noun",
+    "related": "a clear mandate",
+    "pos": "noun",
+    "senses": [
+      "授权",
+      "委托权限"
+    ],
+    "collocations": [
+      "a clear mandate"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-en-c1-b15-05",
+    "word": "metric",
+    "pronunciation": "/ˈmetrɪk/",
+    "meaning": "衡量指标",
+    "example": "Attendance is one metric, but it cannot describe every benefit.",
+    "translation": "出勤是一项指标，却无法描述全部益处。",
+    "tag": "C1 · noun",
+    "related": "a performance metric",
+    "pos": "noun",
+    "senses": [
+      "衡量指标"
+    ],
+    "collocations": [
+      "a performance metric"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-en-c1-b15-06",
+    "word": "proxy",
+    "pronunciation": "/ˈprɒksi/",
+    "meaning": "替代指标；代理人",
+    "example": "A count of visits is only a proxy for participation.",
+    "translation": "到访次数只是参与度的替代指标。",
+    "tag": "C1 · noun",
+    "related": "a proxy for participation",
+    "pos": "noun",
+    "senses": [
+      "替代指标",
+      "代理人"
+    ],
+    "collocations": [
+      "a proxy for participation"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-en-c1-b15-07",
+    "word": "continuity",
+    "pronunciation": "/ˌkɒntɪˈnjuːəti/",
+    "meaning": "连续性；延续",
+    "example": "The proposal should preserve continuity without excluding newcomers.",
+    "translation": "提案应保持延续性，同时不排斥新人。",
+    "tag": "C1 · noun",
+    "related": "continuity of care",
+    "pos": "noun",
+    "senses": [
+      "连续性",
+      "延续"
+    ],
+    "collocations": [
+      "continuity of care"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-en-c1-b15-08",
+    "word": "procedural",
+    "pronunciation": "/prəˈsiːdʒərəl/",
+    "meaning": "程序上的",
+    "example": "A procedural improvement can make reasons easier to inspect.",
+    "translation": "程序上的改进可以使理由更便于审查。",
+    "tag": "C1 · adjective",
+    "related": "procedural fairness",
+    "pos": "adjective",
+    "senses": [
+      "程序上的"
+    ],
+    "collocations": [
+      "procedural fairness"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-en-c1-b15-09",
+    "word": "disproportionate",
+    "pronunciation": "/ˌdɪsprəˈpɔːʃənət/",
+    "meaning": "不成比例的；过重的",
+    "example": "A small change may place a disproportionate burden on some gardeners.",
+    "translation": "小小的改变可能给部分种植者带来过重负担。",
+    "tag": "C1 · adjective",
+    "related": "a disproportionate burden",
+    "pos": "adjective",
+    "senses": [
+      "不成比例的",
+      "过重的"
+    ],
+    "collocations": [
+      "a disproportionate burden"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-en-c1-b15-10",
+    "word": "incumbent",
+    "pronunciation": "/ɪnˈkʌmbənt/",
+    "meaning": "现任的；现任者",
+    "example": "The incumbent chair should explain the proposed timetable.",
+    "translation": "现任主席应解释拟定的时间安排。",
+    "tag": "C1 · adjective",
+    "related": "the incumbent chair",
+    "pos": "adjective",
+    "senses": [
+      "现任的",
+      "现任者"
+    ],
+    "collocations": [
+      "the incumbent chair"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-en-c1-b15-11",
+    "word": "deliberation",
+    "pronunciation": "/dɪˌlɪbəˈreɪʃən/",
+    "meaning": "审慎讨论；仔细考虑",
+    "example": "Good deliberation makes disagreements visible.",
+    "translation": "良好的审议会使分歧清晰可见。",
+    "tag": "C1 · noun",
+    "related": "public deliberation",
+    "pos": "noun",
+    "senses": [
+      "审慎讨论",
+      "仔细考虑"
+    ],
+    "collocations": [
+      "public deliberation"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-en-c1-b15-12",
+    "word": "revocable",
+    "pronunciation": "/ˈrevəkəbəl/",
+    "meaning": "可撤销的",
+    "example": "The permission is revocable, so its limits need to be clear.",
+    "translation": "这项许可可被撤销，因此其限制需要说清楚。",
+    "tag": "C1 · adjective",
+    "related": "revocable permission",
+    "pos": "adjective",
+    "senses": [
+      "可撤销的"
+    ],
+    "collocations": [
+      "revocable permission"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "formal",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
   }
 ]

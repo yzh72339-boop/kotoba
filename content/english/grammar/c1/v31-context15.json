@@ -1,0 +1,276 @@
+[
+  {
+    "id": "grammar-en-c1-would-rather-clause",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 4,
+    "tags": [
+      "v3-vocabulary-15",
+      "contextual-course",
+      "C1"
+    ],
+    "title": "Would rather: another person’s next action",
+    "pattern": "would rather + subject + past simple",
+    "meaningZh": "宁愿某人现在或接下来……",
+    "meaningEn": "A present or future preference expressed with a past-form clause",
+    "explanation": "would rather后如果出现另一个从句主语，可以用过去式表达对现在或未来行为的偏好：I would rather the committee published its criteria before it voted。这里published不一定描述过去发生的事，而是拉开语气距离。若前后是同一个主语，通常改用would rather publish，不把两种结构混在一起。",
+    "usage": "就他人的下一步安排表达偏好，保留语气距离和具体行动者。",
+    "nuance": "偏好并不等于对方已经同意，也不自动构成正式命令。否定置于从句动词前，如would rather you did not decide yet。that可出现也可省略；本课聚焦现在或未来，而不是过去反事实偏好。",
+    "structure": [
+      "would rather + subject + past simple (present/future preference)",
+      "would rather + subject + did not + base verb",
+      "would rather + base verb (same subject)"
+    ],
+    "formation": [
+      "would rather + subject + past simple (present/future preference)",
+      "would rather + subject + did not + base verb",
+      "would rather + base verb (same subject)"
+    ],
+    "examples": [
+      {
+        "target": "I would rather the committee published its criteria before it voted.",
+        "zh": "我宁愿委员会在表决前公布标准。"
+      },
+      {
+        "target": "We would rather you did not announce a result yet.",
+        "zh": "我们希望你暂时不要宣布结果。"
+      },
+      {
+        "target": "I would rather discuss the proposal in person.",
+        "zh": "我宁愿当面讨论提案。"
+      },
+      {
+        "target": "She would rather the meeting started after six.",
+        "zh": "她更希望会议在六点以后开始。"
+      }
+    ],
+    "notes": [
+      "学习目标：就他人的下一步安排表达偏好，保留语气距离和具体行动者。",
+      "等级为教学编排，不代表官方穷尽语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I would rather the committee publishes its criteria tomorrow.",
+        "correct": "I would rather the committee published its criteria tomorrow.",
+        "explanation": "对另一个从句主语的现在或未来偏好用过去式表达；tomorrow不要求这里改成现在式。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-c1-high-time-past",
+        "explanation": "would rather表达偏好，不必带批评；it is high time用过去式催促本应采取的行动，语气更急迫。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-b1-second-conditional"
+    ],
+    "relatedGrammar": [
+      "grammar-en-c1-high-time-past"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-c1-would-rather-clause-1",
+        "kind": "meaning",
+        "prompt": "“I would rather the meeting started after six.” 对started的正确理解是？",
+        "acceptedAnswers": [
+          "说话者更希望会议六点后开始"
+        ],
+        "explanation": "过去式在该结构中表达现在或未来偏好，不自动提供过去事件的证据。",
+        "options": [
+          "会议肯定已在昨天六点后开始",
+          "说话者更希望会议六点后开始",
+          "会议已被正式取消"
+        ]
+      },
+      {
+        "id": "grammar-en-c1-would-rather-clause-2",
+        "kind": "fill",
+        "prompt": "We would rather you（　）a result yet.",
+        "acceptedAnswers": [
+          "did not announce"
+        ],
+        "explanation": "不同从句主语you的否定偏好使用did not加动词原形。",
+        "options": [
+          "not announce",
+          "do not announce",
+          "did not announce"
+        ]
+      },
+      {
+        "id": "grammar-en-c1-would-rather-clause-3",
+        "kind": "error",
+        "prompt": "同一主语I想表达宁愿当面讨论，应选哪句？",
+        "acceptedAnswers": [
+          "I would rather discuss it in person."
+        ],
+        "explanation": "同一主语时would rather后接不带to的动词原形；不使用过去式从句。",
+        "options": [
+          "I would rather discuss it in person.",
+          "I would rather discussed it in person.",
+          "I would rather to discuss it in person."
+        ]
+      },
+      {
+        "id": "grammar-en-c1-would-rather-clause-4",
+        "kind": "context",
+        "prompt": "你偏好委员会明天先公布标准，并不声称它已经这样做。哪句合适？",
+        "acceptedAnswers": [
+          "I would rather the committee published its criteria tomorrow."
+        ],
+        "explanation": "published在此服务于对未来行为的偏好，tomorrow把时间指向明确保留。",
+        "options": [
+          "I would rather the committee had already published it last year.",
+          "I would rather the committee published its criteria tomorrow.",
+          "The committee published its criteria yesterday."
+        ]
+      },
+      {
+        "id": "grammar-en-c1-would-rather-clause-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“她更希望会议在六点以后开始。”译成英语。",
+        "acceptedAnswers": [
+          "She would rather the meeting started after six.",
+          "She would rather that the meeting started after six."
+        ],
+        "explanation": "不同从句主语the meeting后用started表达偏好；that可以省略。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-c1-high-time-past",
+    "kind": "grammar",
+    "language": "en",
+    "level": "C1",
+    "difficulty": 4,
+    "tags": [
+      "v3-vocabulary-15",
+      "contextual-course",
+      "C1"
+    ],
+    "title": "High time: an overdue change",
+    "pattern": "it is (high / about) time + subject + past simple",
+    "meaningZh": "早该……了；是时候……了",
+    "meaningEn": "Calling for present action with a past-form clause",
+    "explanation": "It is time加主语和过去式，可以提出现在该采取的行动；加high通常强调早该做了，带有不满或催促。It is high time we stopped treating every objection as resistance to change并不是说已经停止，而是在要求现在改变。较中性的It is time for us to act则用for加宾语及不定式。",
+    "usage": "表达需要立即改变的做法，并识别这种表达中的急迫或批评态度。",
+    "nuance": "high time可能让人感到被责备，不宜当作始终委婉的请求。过去式是语气距离，不保证动作已完成。about time常暗示终于该做了，具体强度仍取决于语境。",
+    "structure": [
+      "It is time / high time / about time + subject + past simple",
+      "It is time for + object + to + base verb (more neutral)"
+    ],
+    "formation": [
+      "It is time / high time / about time + subject + past simple",
+      "It is time for + object + to + base verb (more neutral)"
+    ],
+    "examples": [
+      {
+        "target": "It is high time we stopped treating every objection as resistance to change.",
+        "zh": "我们早该停止把每个异议都当成抗拒改变了。"
+      },
+      {
+        "target": "It is time the council explained its decision.",
+        "zh": "是时候让议会解释其决定了。"
+      },
+      {
+        "target": "It is about time we reviewed the rules.",
+        "zh": "我们也该审查这些规则了。"
+      },
+      {
+        "target": "It is time for us to act.",
+        "zh": "是我们采取行动的时候了。"
+      }
+    ],
+    "notes": [
+      "学习目标：表达需要立即改变的做法，并识别这种表达中的急迫或批评态度。",
+      "等级为教学编排，不代表官方穷尽语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "It is high time we to review the rules.",
+        "correct": "It is high time we reviewed the rules.",
+        "explanation": "带主语we的从句使用过去式reviewed；若用to review，应改成it is time for us to review。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-c1-would-rather-clause",
+        "explanation": "would rather主要表达行为偏好；high time认为行动已经迟了，可能含批评或催促，不能忽略两者语气差异。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-b1-second-conditional"
+    ],
+    "relatedGrammar": [
+      "grammar-en-c1-would-rather-clause"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-c1-high-time-past-1",
+        "kind": "meaning",
+        "prompt": "“It is high time we reviewed the rules.” 必然意味着什么？",
+        "acceptedAnswers": [
+          "说话者认为现在早该审查规则了"
+        ],
+        "explanation": "reviewed并不证明已完成，high time表达对当下行动的催促。",
+        "options": [
+          "审查已在过去完成",
+          "规则不能再被审查",
+          "说话者认为现在早该审查规则了"
+        ]
+      },
+      {
+        "id": "grammar-en-c1-high-time-past-2",
+        "kind": "fill",
+        "prompt": "It is time the council（　）its decision.",
+        "acceptedAnswers": [
+          "explained"
+        ],
+        "explanation": "带the council作主语时，使用过去式从句。",
+        "options": [
+          "explained",
+          "to explain",
+          "explaining"
+        ]
+      },
+      {
+        "id": "grammar-en-c1-high-time-past-3",
+        "kind": "context",
+        "prompt": "你需要较中性的行动建议，而不突出“早该做了”的责备。哪句更合适？",
+        "acceptedAnswers": [
+          "It is time for us to act."
+        ],
+        "explanation": "for us to act是较中性的结构；另外两句均以high time强调行动迟了。",
+        "options": [
+          "It is high time you finally acted.",
+          "It is time for us to act.",
+          "It is high time you stopped delaying."
+        ]
+      },
+      {
+        "id": "grammar-en-c1-high-time-past-4",
+        "kind": "error",
+        "prompt": "哪句正确使用带主语的high time结构？",
+        "acceptedAnswers": [
+          "It is high time we reviewed the rules."
+        ],
+        "explanation": "we作从句主语后接过去式reviewed，不能同时拼接for或to不定式结构。",
+        "options": [
+          "It is high time we reviewed the rules.",
+          "It is high time we to review the rules.",
+          "It is high time for we reviewed the rules."
+        ]
+      },
+      {
+        "id": "grammar-en-c1-high-time-past-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“是时候让议会解释其决定了。”译成英语。",
+        "acceptedAnswers": [
+          "It is time the council explained its decision.",
+          "It is time that the council explained its decision."
+        ],
+        "explanation": "用explained表达现在该采取的行动，而非把解释说成已经发生；that可以省略。"
+      }
+    ]
+  }
+]

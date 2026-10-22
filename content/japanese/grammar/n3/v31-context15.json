@@ -1,0 +1,283 @@
+[
+  {
+    "id": "grammar-ja-n3-ta-totan-ni",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N3",
+    "difficulty": 3,
+    "tags": [
+      "v3-vocabulary-15",
+      "contextual-course",
+      "N3"
+    ],
+    "title": "〜たとたんに：直后突然发生",
+    "pattern": "Vた + とたん（に）",
+    "meaningZh": "刚一……就突然……",
+    "meaningEn": "An immediate, often unexpected event after another action",
+    "explanation": "とたんに接在动词た形后，把前项刚发生的瞬间和后项的突然变化紧密连接起来。畑に着いたとたんに雨が降り始めた强调刚到就下雨，而不是过了一阵才下雨。后项常是说话者未预料的事件或状态变化，通常不接自己事先计划要做的意志、邀请或命令。",
+    "usage": "叙述某个动作刚结束或刚发生时，紧接着出现的突然事件。",
+    "nuance": "に有时可以省略。重点是瞬间的紧接关系，不能把任何先后顺序都替换成とたんに；后项也不需要一定是坏事。",
+    "structure": [
+      "动词た形 + とたんに + 突然发生的事件／变化",
+      "动词た形 + とたん + 突然发生的事件／变化"
+    ],
+    "formation": [
+      "动词た形 + とたんに + 突然发生的事件／变化",
+      "动词た形 + とたん + 突然发生的事件／变化"
+    ],
+    "examples": [
+      {
+        "target": "畑に着いたとたんに、雨が降り始めた。",
+        "reading": "はたけについたとたんに、あめがふりはじめた。",
+        "zh": "刚到菜地，就突然下起了雨。"
+      },
+      {
+        "target": "箱を開けたとたんに、猫が飛び出した。",
+        "reading": "はこをあけたとたんに、ねこがとびだした。",
+        "zh": "刚打开箱子，猫就窜了出来。"
+      },
+      {
+        "target": "電話を切ったとたんに、また電話が鳴った。",
+        "reading": "でんわをきったとたんに、またでんわがなった。",
+        "zh": "电话刚挂断，就又响了。"
+      },
+      {
+        "target": "立ち上がったとたんに、足が痛くなった。",
+        "reading": "たちあがったとたんに、あしがいたくなった。",
+        "zh": "刚一站起来，腿就疼了。"
+      }
+    ],
+    "notes": [
+      "学习目标：叙述某个动作刚结束或刚发生时，紧接着出现的突然事件。",
+      "等级为教学编排，不代表官方穷尽语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "畑に着くとたんに、雨が降り始めた。",
+        "correct": "畑に着いたとたんに、雨が降り始めた。",
+        "explanation": "とたんに前需要た形，着く要先变成着いた；不能直接接辞书形。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n3-uchi-ni",
+        "explanation": "うちに表示某种状态持续的期间；とたんに把后项放在前项刚发生的瞬间，时间关系不同。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n3-uchi-ni"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n3-ta-totan-ni-1",
+        "kind": "meaning",
+        "prompt": "「畑に着いたとたんに、雨が降り始めた」强调什么？",
+        "acceptedAnswers": [
+          "刚到达就突然下起雨"
+        ],
+        "explanation": "とたんに突出到达瞬间紧接着发生的降雨。",
+        "options": [
+          "到达后过了很久才下雨",
+          "刚到达就突然下起雨",
+          "到达之前雨已停了"
+        ]
+      },
+      {
+        "id": "grammar-ja-n3-ta-totan-ni-2",
+        "kind": "fill",
+        "prompt": "箱を（　）とたんに、猫が飛び出した。",
+        "acceptedAnswers": [
+          "開けた"
+        ],
+        "explanation": "とたんに接动词た形；開ける的一段动词た形是開けた。",
+        "options": [
+          "開ける",
+          "開けて",
+          "開けた"
+        ]
+      },
+      {
+        "id": "grammar-ja-n3-ta-totan-ni-3",
+        "kind": "context",
+        "prompt": "哪句最适合叙述未预料的突然变化？",
+        "acceptedAnswers": [
+          "立ち上がったとたんに、足が痛くなった。"
+        ],
+        "explanation": "突然腿疼符合刚发生就出现的变化；邀请或预定安排通常不用这个结构。",
+        "options": [
+          "立ち上がったとたんに、足が痛くなった。",
+          "明日は立ち上がったとたんに、挨拶しましょう。",
+          "毎週、とたんに図書館へ行く予定です。"
+        ]
+      },
+      {
+        "id": "grammar-ja-n3-ta-totan-ni-4",
+        "kind": "error",
+        "prompt": "哪句正确使用本课接续？",
+        "acceptedAnswers": [
+          "電話を切ったとたんに、また電話が鳴った。"
+        ],
+        "explanation": "切る是五段动词，た形为切った；不能使用辞书形或て形直接接とたんに。",
+        "options": [
+          "電話を切るとたんに、また電話が鳴った。",
+          "電話を切ったとたんに、また電話が鳴った。",
+          "電話を切ってとたんに、また電話が鳴った。"
+        ]
+      },
+      {
+        "id": "grammar-ja-n3-ta-totan-ni-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“刚打开箱子，猫就窜了出来。”译成日语。",
+        "acceptedAnswers": [
+          "箱を開けたとたんに、猫が飛び出した。",
+          "箱を開けたとたん、猫が飛び出した。"
+        ],
+        "explanation": "用開けた接とたんに，再说明紧接着发生的飞窜；に也可省略。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n3-ta-tokoro-result",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N3",
+    "difficulty": 3,
+    "tags": [
+      "v3-vocabulary-15",
+      "contextual-course",
+      "N3"
+    ],
+    "title": "〜たところ：做过以后发现",
+    "pattern": "Vた + ところ、結果・発見",
+    "meaningZh": "做了……之后发现／结果……",
+    "meaningEn": "Reporting a finding or result after taking an action",
+    "explanation": "动词た形加ところ，可以先交代采取了什么行动，再报告由此得到的结果或发现。土を掘ってみたところ、根が残っていた表示动手查看以后发现根还在。这里的ところ后接逗号及结果从句，与開けたところだ表示“刚打开”的阶段用法不同，也不是表示地点的普通名词。",
+    "usage": "汇报询问、查看或尝试以后得到的信息，保留行动与发现的顺序。",
+    "nuance": "后项既可以是意外结果，也可以是普通发现；结构本身不保证结果令人满意。不要在报告已做过的发现时把前项写成辞书形。",
+    "structure": [
+      "动词た形 + ところ、结果／发现",
+      "动词て + みたところ、尝试后的结果／发现"
+    ],
+    "formation": [
+      "动词た形 + ところ、结果／发现",
+      "动词て + みたところ、尝试后的结果／发现"
+    ],
+    "examples": [
+      {
+        "target": "土を掘ってみたところ、古い根が残っていた。",
+        "reading": "つちをほってみたところ、ふるいねがのこっていた。",
+        "zh": "试着挖了一下土，发现旧根还留在里面。"
+      },
+      {
+        "target": "店に電話したところ、今日は休みだった。",
+        "reading": "みせにでんわしたところ、きょうはやすみだった。",
+        "zh": "给店里打了电话，得知今天休息。"
+      },
+      {
+        "target": "箱を開けたところ、中は空だった。",
+        "reading": "はこをあけたところ、なかはからだった。",
+        "zh": "打开箱子后，发现里面是空的。"
+      },
+      {
+        "target": "先生に聞いたところ、この苗は元気だそうだ。",
+        "reading": "せんせいにきいたところ、このなえはげんきだそうだ。",
+        "zh": "问过老师后，得知这株苗长得很好。"
+      }
+    ],
+    "notes": [
+      "学习目标：汇报询问、查看或尝试以后得到的信息，保留行动与发现的顺序。",
+      "等级为教学编排，不代表官方穷尽语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "箱を開けるところ、中は空だった。",
+        "correct": "箱を開けたところ、中は空だった。",
+        "explanation": "先实际打开，随后报告发现，前项需た形；開けるところだ另可表示正要打开。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n3-tokoro-stage",
+        "explanation": "Vたところだ表示刚完成的阶段；Vたところ、结果从句报告采取行动后的发现，不能只看たところ几个字就混同。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form",
+      "grammar-ja-n3-tokoro-stage"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n3-tokoro-stage"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n3-ta-tokoro-result-1",
+        "kind": "meaning",
+        "prompt": "「箱を開けたところ、中は空だった」在报告什么？",
+        "acceptedAnswers": [
+          "打开之后发现里面是空的"
+        ],
+        "explanation": "前项是已采取的行动，后项是由此得到的发现。",
+        "options": [
+          "正打算打开，还不知道里面有什么",
+          "在一个叫箱子的地方休息",
+          "打开之后发现里面是空的"
+        ]
+      },
+      {
+        "id": "grammar-ja-n3-ta-tokoro-result-2",
+        "kind": "fill",
+        "prompt": "先生に（　）ところ、この苗は元気だそうだ。",
+        "acceptedAnswers": [
+          "聞いた"
+        ],
+        "explanation": "报告询问之后得到的信息，用聞く的た形聞いた。",
+        "options": [
+          "聞いた",
+          "聞く",
+          "聞いて"
+        ]
+      },
+      {
+        "id": "grammar-ja-n3-ta-tokoro-result-3",
+        "kind": "context",
+        "prompt": "你动手挖土后发现旧根还在。应选哪句？",
+        "acceptedAnswers": [
+          "土を掘ってみたところ、古い根が残っていた。"
+        ],
+        "explanation": "掘ってみたところ明确连接尝试挖土和随后观察到的结果。",
+        "options": [
+          "土を掘るところだから、まだ何も分からない。",
+          "土を掘ってみたところ、古い根が残っていた。",
+          "古い根のところに、明日行こう。"
+        ]
+      },
+      {
+        "id": "grammar-ja-n3-ta-tokoro-result-4",
+        "kind": "error",
+        "prompt": "哪句是在报告发现，而不只是描述动作阶段？",
+        "acceptedAnswers": [
+          "箱を開けたところ、中は空だった。"
+        ],
+        "explanation": "后接中は空だった提供发现；其余两句加だ分别说明刚打开或正要打开。",
+        "options": [
+          "箱を開けたところ、中は空だった。",
+          "箱を開けたところだ。",
+          "箱を開けるところだ。"
+        ]
+      },
+      {
+        "id": "grammar-ja-n3-ta-tokoro-result-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“打开箱子后，发现里面是空的。”译成日语。",
+        "acceptedAnswers": [
+          "箱を開けたところ、中は空だった。",
+          "箱を開けたところ、中は空でした。"
+        ],
+        "explanation": "先用開けたところ交代查看，再报告空的发现；常体和礼貌体均可。"
+      }
+    ]
+  }
+]
