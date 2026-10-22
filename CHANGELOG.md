@@ -1,3 +1,9 @@
+## 3.1.0-preview.19 — 2026-10-22
+
+- Add24 N3/C1 source cards, four full grammar topics and two original readers with30 explained practice items; total1107/238/111. Two batches this turn add48 cards, eight grammar and four readers.
+- Connect instant/result findings and present preferences/overdue action to garden contexts, existing lookup/ruby, source review and offline recovery. Preserve343 previous courses and1083 word payloads/IDs.
+- No dependency, Auth/RLS, quota, schema, sync, scheduler or migration changes. Full targets, real owner/device and independent language-editor acceptance remain incomplete.
+
 ## 3.1.0-preview.18 — 2026-10-22
 
 - Add24 distinct N5/B1 cards, four full grammar topics and two original readers with30 explained practice items; total1083/234/109, full targets pending.

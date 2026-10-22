@@ -756,5 +756,300 @@
     "frequency": "medium",
     "register": "neutral",
     "sourceRef": "Kotoba 3.1 original vocabulary batch10"
+  },
+  {
+    "id": "context-ja-n3-b15-01",
+    "word": "畑",
+    "pronunciation": "はたけ",
+    "meaning": "田地；旱地",
+    "example": "駅の近くの畑へ行きます。",
+    "translation": "我去车站附近的菜地。",
+    "tag": "JLPT N3 · noun",
+    "related": "畑で働く",
+    "pos": "noun",
+    "senses": [
+      "田地",
+      "旱地"
+    ],
+    "collocations": [
+      "畑で働く"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-ja-n3-b15-02",
+    "word": "野菜",
+    "pronunciation": "やさい",
+    "meaning": "蔬菜",
+    "example": "畑で野菜を育てます。",
+    "translation": "我们在菜地种蔬菜。",
+    "tag": "JLPT N3 · noun",
+    "related": "野菜を育てる",
+    "pos": "noun",
+    "senses": [
+      "蔬菜"
+    ],
+    "collocations": [
+      "野菜を育てる"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-ja-n3-b15-03",
+    "word": "種",
+    "pronunciation": "たね",
+    "meaning": "种子",
+    "example": "小さな種を土にまきます。",
+    "translation": "把小小的种子播进土里。",
+    "tag": "JLPT N3 · noun",
+    "related": "種をまく",
+    "pos": "noun",
+    "senses": [
+      "种子"
+    ],
+    "collocations": [
+      "種をまく"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-ja-n3-b15-04",
+    "word": "苗",
+    "pronunciation": "なえ",
+    "meaning": "幼苗；秧苗",
+    "example": "この苗は元気です。",
+    "translation": "这株苗长得很好。",
+    "tag": "JLPT N3 · noun",
+    "related": "苗を植える",
+    "pos": "noun",
+    "senses": [
+      "幼苗",
+      "秧苗"
+    ],
+    "collocations": [
+      "苗を植える"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-ja-n3-b15-05",
+    "word": "土",
+    "pronunciation": "つち",
+    "meaning": "土；土壤",
+    "example": "土を少し掘ります。",
+    "translation": "稍微挖一下土。",
+    "tag": "JLPT N3 · noun",
+    "related": "土を掘る",
+    "pos": "noun",
+    "senses": [
+      "土",
+      "土壤"
+    ],
+    "collocations": [
+      "土を掘る"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-ja-n3-b15-06",
+    "word": "根",
+    "pronunciation": "ね",
+    "meaning": "根",
+    "example": "土の中に根が残っています。",
+    "translation": "土里还留着根。",
+    "tag": "JLPT N3 · noun",
+    "related": "根が伸びる",
+    "pos": "noun",
+    "senses": [
+      "根"
+    ],
+    "collocations": [
+      "根が伸びる"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-ja-n3-b15-07",
+    "word": "収穫",
+    "pronunciation": "しゅうかく",
+    "meaning": "收获；采收",
+    "example": "収穫はまだ先です。",
+    "translation": "离收获还早。",
+    "tag": "JLPT N3 · noun",
+    "related": "野菜の収穫",
+    "pos": "noun",
+    "senses": [
+      "收获",
+      "采收"
+    ],
+    "collocations": [
+      "野菜の収穫"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-ja-n3-b15-08",
+    "word": "育てる",
+    "pronunciation": "そだてる",
+    "meaning": "培育；抚养",
+    "example": "野菜を育てるのが楽しみです。",
+    "translation": "我很期待种菜。",
+    "tag": "JLPT N3 · verb",
+    "related": "苗を育てる",
+    "pos": "verb",
+    "senses": [
+      "培育",
+      "抚养"
+    ],
+    "collocations": [
+      "苗を育てる"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-ja-n3-b15-09",
+    "word": "植える",
+    "pronunciation": "うえる",
+    "meaning": "种植；栽种",
+    "example": "苗を植える前に土を見ます。",
+    "translation": "栽苗前先看看土。",
+    "tag": "JLPT N3 · verb",
+    "related": "花を植える",
+    "pos": "verb",
+    "senses": [
+      "种植",
+      "栽种"
+    ],
+    "collocations": [
+      "花を植える"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-ja-n3-b15-10",
+    "word": "抜く",
+    "pronunciation": "ぬく",
+    "meaning": "拔出；抽出",
+    "example": "草を抜くときは根も見ます。",
+    "translation": "拔草时也看看根。",
+    "tag": "JLPT N3 · verb",
+    "related": "草を抜く",
+    "pos": "verb",
+    "senses": [
+      "拔出",
+      "抽出"
+    ],
+    "collocations": [
+      "草を抜く"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-ja-n3-b15-11",
+    "word": "肥料",
+    "pronunciation": "ひりょう",
+    "meaning": "肥料",
+    "example": "肥料の袋を読みます。",
+    "translation": "读一下肥料袋上的说明。",
+    "tag": "JLPT N3 · noun",
+    "related": "肥料を使う",
+    "pos": "noun",
+    "senses": [
+      "肥料"
+    ],
+    "collocations": [
+      "肥料を使う"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
+  },
+  {
+    "id": "context-ja-n3-b15-12",
+    "word": "水やり",
+    "pronunciation": "みずやり",
+    "meaning": "浇水",
+    "example": "毎朝の水やりを記録します。",
+    "translation": "记录每天早晨的浇水情况。",
+    "tag": "JLPT N3 · noun",
+    "related": "水やりをする",
+    "pos": "noun",
+    "senses": [
+      "浇水"
+    ],
+    "collocations": [
+      "水やりをする"
+    ],
+    "topics": [
+      "contextual-learning",
+      "community-garden"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch15"
   }
 ]
