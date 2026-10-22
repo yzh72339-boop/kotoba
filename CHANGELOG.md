@@ -1,3 +1,9 @@
+## 3.1.0-preview.18 — 2026-10-22
+
+- Add24 distinct N5/B1 cards, four full grammar topics and two original readers with30 explained practice items; total1083/234/109, full targets pending.
+- Reuse WanaKana fuku/shatsu lookup, local kneading→knead analysis, exact reading sources, duplicate-safe collection/SRS and offline restoration. Preserve337 prior courses and1059 word payloads/IDs.
+- No dependency, Auth/RLS, quota, schema, sync, scheduler or historical migration change. Physical-device/live-owner and independent language-editor acceptance remain separate.
+
 ## 3.1.0-preview.17 — 2026-10-21
 
 - Add24 distinct A1/C2 source cards, four grammar topics and two original readers with30 explained practice items; total1059/230/107, full targets pending.

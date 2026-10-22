@@ -462,5 +462,296 @@
     "frequency": "high",
     "register": "neutral",
     "sourceRef": "Kotoba 2.7 original context vocabulary"
+  },
+  {
+    "id": "context-ja-n5-b14-01",
+    "word": "白い",
+    "pronunciation": "しろい",
+    "meaning": "白色的",
+    "example": "白いシャツを見ます。",
+    "translation": "我看白衬衫。",
+    "tag": "JLPT N5 · i-adjective",
+    "related": "白い服",
+    "pos": "i-adjective",
+    "senses": [
+      "白色的"
+    ],
+    "collocations": [
+      "白い服"
+    ],
+    "topics": [
+      "contextual-learning",
+      "clothing"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-ja-n5-b14-02",
+    "word": "黒い",
+    "pronunciation": "くろい",
+    "meaning": "黑色的",
+    "example": "黒いシャツを買います。",
+    "translation": "我买黑衬衫。",
+    "tag": "JLPT N5 · i-adjective",
+    "related": "黒い服",
+    "pos": "i-adjective",
+    "senses": [
+      "黑色的"
+    ],
+    "collocations": [
+      "黒い服"
+    ],
+    "topics": [
+      "contextual-learning",
+      "clothing"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-ja-n5-b14-03",
+    "word": "長い",
+    "pronunciation": "ながい",
+    "meaning": "长的",
+    "example": "このシャツは長いです。",
+    "translation": "这件衬衫很长。",
+    "tag": "JLPT N5 · i-adjective",
+    "related": "長い時間",
+    "pos": "i-adjective",
+    "senses": [
+      "长的"
+    ],
+    "collocations": [
+      "長い時間"
+    ],
+    "topics": [
+      "contextual-learning",
+      "clothing"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-ja-n5-b14-04",
+    "word": "短い",
+    "pronunciation": "みじかい",
+    "meaning": "短的",
+    "example": "このシャツは短いです。",
+    "translation": "这件衬衫很短。",
+    "tag": "JLPT N5 · i-adjective",
+    "related": "短い時間",
+    "pos": "i-adjective",
+    "senses": [
+      "短的"
+    ],
+    "collocations": [
+      "短い時間"
+    ],
+    "topics": [
+      "contextual-learning",
+      "clothing"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-ja-n5-b14-05",
+    "word": "高い",
+    "pronunciation": "たかい",
+    "meaning": "贵的；高的",
+    "example": "白いシャツは高いです。",
+    "translation": "白衬衫很贵。",
+    "tag": "JLPT N5 · i-adjective",
+    "related": "値段が高い",
+    "pos": "i-adjective",
+    "senses": [
+      "贵的",
+      "高的"
+    ],
+    "collocations": [
+      "値段が高い"
+    ],
+    "topics": [
+      "contextual-learning",
+      "clothing"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-ja-n5-b14-06",
+    "word": "安い",
+    "pronunciation": "やすい",
+    "meaning": "便宜的",
+    "example": "黒いシャツは安いです。",
+    "translation": "黑衬衫很便宜。",
+    "tag": "JLPT N5 · i-adjective",
+    "related": "安い服",
+    "pos": "i-adjective",
+    "senses": [
+      "便宜的"
+    ],
+    "collocations": [
+      "安い服"
+    ],
+    "topics": [
+      "contextual-learning",
+      "clothing"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-ja-n5-b14-07",
+    "word": "暑い",
+    "pronunciation": "あつい",
+    "meaning": "天气或环境热的",
+    "example": "今日は暑いです。",
+    "translation": "今天天气很热。",
+    "tag": "JLPT N5 · i-adjective",
+    "related": "暑い日",
+    "pos": "i-adjective",
+    "senses": [
+      "天气或环境热的"
+    ],
+    "collocations": [
+      "暑い日"
+    ],
+    "topics": [
+      "contextual-learning",
+      "clothing"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-ja-n5-b14-08",
+    "word": "寒い",
+    "pronunciation": "さむい",
+    "meaning": "冷的；寒冷的",
+    "example": "店の中は寒いです。",
+    "translation": "店里很冷。",
+    "tag": "JLPT N5 · i-adjective",
+    "related": "寒い朝",
+    "pos": "i-adjective",
+    "senses": [
+      "冷的",
+      "寒冷的"
+    ],
+    "collocations": [
+      "寒い朝"
+    ],
+    "topics": [
+      "contextual-learning",
+      "clothing"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-ja-n5-b14-09",
+    "word": "きれい",
+    "pronunciation": "きれい",
+    "meaning": "漂亮的；干净的",
+    "example": "妹のシャツはきれいです。",
+    "translation": "妹妹的衬衫很漂亮。",
+    "tag": "JLPT N5 · na-adjective",
+    "related": "きれいな服",
+    "pos": "na-adjective",
+    "senses": [
+      "漂亮的",
+      "干净的"
+    ],
+    "collocations": [
+      "きれいな服"
+    ],
+    "topics": [
+      "contextual-learning",
+      "clothing"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-ja-n5-b14-10",
+    "word": "にぎやか",
+    "pronunciation": "にぎやか",
+    "meaning": "热闹的",
+    "example": "店はにぎやかです。",
+    "translation": "店里很热闹。",
+    "tag": "JLPT N5 · na-adjective",
+    "related": "にぎやかな町",
+    "pos": "na-adjective",
+    "senses": [
+      "热闹的"
+    ],
+    "collocations": [
+      "にぎやかな町"
+    ],
+    "topics": [
+      "contextual-learning",
+      "clothing"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-ja-n5-b14-11",
+    "word": "シャツ",
+    "pronunciation": "シャツ",
+    "meaning": "衬衫",
+    "example": "このシャツは白いです。",
+    "translation": "这件衬衫是白色的。",
+    "tag": "JLPT N5 · noun",
+    "related": "シャツを着る",
+    "pos": "noun",
+    "senses": [
+      "衬衫"
+    ],
+    "collocations": [
+      "シャツを着る"
+    ],
+    "topics": [
+      "contextual-learning",
+      "clothing"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-ja-n5-b14-12",
+    "word": "服",
+    "pronunciation": "ふく",
+    "meaning": "衣服",
+    "example": "妹と服を見ます。",
+    "translation": "我和妹妹一起看衣服。",
+    "tag": "JLPT N5 · noun",
+    "related": "服を買う",
+    "pos": "noun",
+    "senses": [
+      "衣服"
+    ],
+    "collocations": [
+      "服を買う"
+    ],
+    "topics": [
+      "contextual-learning",
+      "clothing"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
   }
 ]

@@ -1,0 +1,287 @@
+[
+  {
+    "id": "grammar-ja-n5-i-adjective-polite",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "v3-vocabulary-14",
+      "contextual-course",
+      "N5"
+    ],
+    "title": "い形容词：礼貌地描述与否定",
+    "pattern": "い形容詞 + です／語尾い → くないです",
+    "meaningZh": "……；不……",
+    "meaningEn": "Polite present descriptions and negatives with i-adjectives",
+    "explanation": "い形容词可以直接加です作礼貌的现在描述，如高いです。否定时去掉末尾い，加くないです：高い→高くないです。也可用高くありません，语气稍正式。です本身不能代替形容词的否定变化，因此不能说高いではありません。这里学习现在的状态和一般特征，不涉及过去时。",
+    "usage": "用礼貌语描述价格、颜色、长度和气温，并表达相应的否定。",
+    "nuance": "いい的否定是よくないです，不能套成いくないです。暑い多描述天气或环境热，物品发烫常用熱い；本课例句不把两者混用。",
+    "structure": [
+      "い形容词（保持末尾い）+ です",
+      "去掉末尾い + くないです／くありません",
+      "いい → よくないです"
+    ],
+    "formation": [
+      "い形容词（保持末尾い）+ です",
+      "去掉末尾い + くないです／くありません",
+      "いい → よくないです"
+    ],
+    "examples": [
+      {
+        "target": "白いシャツは高いです。",
+        "reading": "しろいしゃつはたかいです。",
+        "zh": "白衬衫很贵。"
+      },
+      {
+        "target": "黒いシャツは高くないです。",
+        "reading": "くろいしゃつはたかくないです。",
+        "zh": "黑衬衫不贵。"
+      },
+      {
+        "target": "今日は寒くありません。",
+        "reading": "きょうはさむくありません。",
+        "zh": "今天不冷。"
+      },
+      {
+        "target": "この服は安いです。",
+        "reading": "このふくはやすいです。",
+        "zh": "这件衣服很便宜。"
+      }
+    ],
+    "notes": [
+      "学习目标：用礼貌语描述价格、颜色、长度和气温，并表达相应的否定。",
+      "等级为教学编排，不代表官方穷尽语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "このシャツは高いではありません。",
+        "correct": "このシャツは高くないです。",
+        "explanation": "い形容词先把い变成くない，再加礼貌的です；高くありません也正确。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n5-na-adjective-polite",
+        "explanation": "い形容词自身改变词尾；な形容词用词干加ではありません。きれい虽然写作い结尾，仍属于な形容词。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-wa-topic"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n5-na-adjective-polite"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n5-i-adjective-polite-1",
+        "kind": "meaning",
+        "prompt": "「高くないです」表示什么？",
+        "acceptedAnswers": [
+          "不贵"
+        ],
+        "explanation": "高い的现在否定是高くないです，不是在说明过去价格。",
+        "options": [
+          "不贵",
+          "很贵",
+          "以前很贵"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-i-adjective-polite-2",
+        "kind": "fill",
+        "prompt": "このシャツは（　）です。请选择安い的否定形式。",
+        "acceptedAnswers": [
+          "安くない"
+        ],
+        "explanation": "去掉安い末尾的い后加くない，再接です。",
+        "options": [
+          "安いない",
+          "安くない",
+          "安いではない"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-i-adjective-polite-3",
+        "kind": "error",
+        "prompt": "哪句正确表达“今天不冷”？",
+        "acceptedAnswers": [
+          "今日は寒くありません。"
+        ],
+        "explanation": "寒くありません是寒い的正式礼貌否定，寒くないです也可以。",
+        "options": [
+          "今日は寒いないです。",
+          "今日は寒いではありません。",
+          "今日は寒くありません。"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-i-adjective-polite-4",
+        "kind": "context",
+        "prompt": "只否定价格贵，没有评价质量时，应说哪句？",
+        "acceptedAnswers": [
+          "この服は高くないです。"
+        ],
+        "explanation": "高くない只否定贵；よくない评价不好，古い说明旧。",
+        "options": [
+          "この服は高くないです。",
+          "この服はよくないです。",
+          "この服は古いです。"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-i-adjective-polite-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“这件衣服很便宜。”译成日语。",
+        "acceptedAnswers": [
+          "この服は安いです。",
+          "この服は安いです"
+        ],
+        "explanation": "安い保留末尾い，直接加です作礼貌描述。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n5-na-adjective-polite",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N5",
+    "difficulty": 1,
+    "tags": [
+      "v3-vocabulary-14",
+      "contextual-course",
+      "N5"
+    ],
+    "title": "な形容词：です与ではありません",
+    "pattern": "な形容詞の語幹 + です／ではありません",
+    "meaningZh": "……；不……",
+    "meaningEn": "Polite present descriptions and negatives with na-adjectives",
+    "explanation": "な形容词作句子的谓语时，词干直接接です，如静かです；否定用静かではありません或较口语的静かじゃないです。修饰名词时才加な，如静かな店。きれい是な形容词，不能因为最后写作い就变成きれくない。现在的肯定或否定与过去的情况应分开学习。",
+    "usage": "描述店铺、环境和人的特点，分清谓语用法与名词前的な。",
+    "nuance": "ではありません较完整、正式；じゃないです较口语但仍有礼貌。にぎやか可以是热闹的积极描述，不等于一定吵闹到令人讨厌。",
+    "structure": [
+      "な形容词词干 + です",
+      "な形容词词干 + ではありません／じゃないです",
+      "な形容词词干 + な + 名词"
+    ],
+    "formation": [
+      "な形容词词干 + です",
+      "な形容词词干 + ではありません／じゃないです",
+      "な形容词词干 + な + 名词"
+    ],
+    "examples": [
+      {
+        "target": "店はにぎやかです。",
+        "reading": "みせはにぎやかです。",
+        "zh": "店里很热闹。"
+      },
+      {
+        "target": "この店は静かではありません。",
+        "reading": "このみせはしずかではありません。",
+        "zh": "这家店不安静。"
+      },
+      {
+        "target": "妹のシャツはきれいです。",
+        "reading": "いもうとのしゃつはきれいです。",
+        "zh": "妹妹的衬衫很漂亮。"
+      },
+      {
+        "target": "店の人は親切です。",
+        "reading": "みせのひとはしんせつです。",
+        "zh": "店员很亲切。"
+      }
+    ],
+    "notes": [
+      "学习目标：描述店铺、环境和人的特点，分清谓语用法与名词前的な。",
+      "等级为教学编排，不代表官方穷尽语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "この店は静かなです。",
+        "correct": "この店は静かです。",
+        "explanation": "な用于修饰名词；谓语静か直接接です，不能在中间保留な。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n5-i-adjective-polite",
+        "explanation": "高い→高くない改变い形容词词尾；静か→静かではありません不套用该规则。きれい也用ではありません。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-wa-topic",
+      "grammar-ja-n5-no-noun-link"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n5-i-adjective-polite"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n5-na-adjective-polite-1",
+        "kind": "meaning",
+        "prompt": "「静かではありません」说明什么？",
+        "acceptedAnswers": [
+          "不安静"
+        ],
+        "explanation": "ではありません否定静か，只说明不安静，并不评价外观。",
+        "options": [
+          "很安静",
+          "不安静",
+          "一定非常漂亮"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-na-adjective-polite-2",
+        "kind": "fill",
+        "prompt": "妹のシャツはきれい（　）。请选礼貌肯定形式。",
+        "acceptedAnswers": [
+          "です"
+        ],
+        "explanation": "きれい是な形容词，但作谓语时直接加です。",
+        "options": [
+          "なです",
+          "くです",
+          "です"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-na-adjective-polite-3",
+        "kind": "error",
+        "prompt": "哪句正确描述一家安静的店？",
+        "acceptedAnswers": [
+          "静かな店です。"
+        ],
+        "explanation": "修饰名词店时，静か后面需要な；不能换成の或添加い。",
+        "options": [
+          "静かな店です。",
+          "静かの店です。",
+          "静かい店です。"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-na-adjective-polite-4",
+        "kind": "context",
+        "prompt": "店里有人交谈，不太安静。哪句只说明这一观察？",
+        "acceptedAnswers": [
+          "この店は静かではありません。"
+        ],
+        "explanation": "静か的否定描述声音环境；高くない谈价格或高度，不能表达安静与否。",
+        "options": [
+          "この店は静かです。",
+          "この店は静かではありません。",
+          "この店は高くないです。"
+        ]
+      },
+      {
+        "id": "grammar-ja-n5-na-adjective-polite-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“店员很亲切。”译成日语。",
+        "acceptedAnswers": [
+          "店の人は親切です。",
+          "店の人は親切です"
+        ],
+        "explanation": "親切作谓语直接接です，不说親切なです。"
+      }
+    ]
+  }
+]

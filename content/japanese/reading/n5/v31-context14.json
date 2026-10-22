@@ -1,0 +1,117 @@
+{
+  "id": "article-ja-n5-two-shirts-in-the-shop",
+  "kind": "reading",
+  "language": "ja",
+  "level": "N5",
+  "difficulty": 1,
+  "tags": [
+    "v3-vocabulary-14",
+    "contextual-course",
+    "N5"
+  ],
+  "title": "白いシャツと黒いシャツ",
+  "topic": "日常生活",
+  "genre": "story",
+  "estimatedMinutes": 1,
+  "paragraphs": [
+    "今日は暑いです。妹と服の店へ行きます。店はにぎやかです。でも、中は寒いです。",
+    "白いシャツと黒いシャツを見ます。白いシャツは長いです。黒いシャツは短いです。白いシャツは高いですが、黒いシャツは高くないです。安いです。",
+    "妹は黒いシャツを買います。「きれいですね」と店の人が言います。私は何も買いません。店は静かではありませんが、店の人は親切です。"
+  ],
+  "translation": [
+    "今天天气很热。我和妹妹去服装店。店里很热闹，但里面很冷。",
+    "我们看白衬衫和黑衬衫。白衬衫很长，黑衬衫很短。白衬衫很贵，但黑衬衫不贵，很便宜。",
+    "妹妹买了黑衬衫。店员说：“很漂亮呢。”我什么也没买。店里不安静，但店员很亲切。"
+  ],
+  "vocabulary": [
+    "context-ja-n5-b14-01",
+    "context-ja-n5-b14-02",
+    "context-ja-n5-b14-03",
+    "context-ja-n5-b14-04",
+    "context-ja-n5-b14-05",
+    "context-ja-n5-b14-06",
+    "context-ja-n5-b14-07",
+    "context-ja-n5-b14-08",
+    "context-ja-n5-b14-09",
+    "context-ja-n5-b14-10",
+    "context-ja-n5-b14-11",
+    "context-ja-n5-b14-12"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-ja-n5-i-adjective-polite",
+      "surface": "高くないです"
+    },
+    {
+      "id": "grammar-ja-n5-na-adjective-polite",
+      "surface": "静かではありません"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-ja-n5-two-shirts-in-the-shop-q1",
+      "type": "detail",
+      "prompt": "谁买了黑衬衫？",
+      "options": [
+        "妹妹",
+        "说话者",
+        "店员"
+      ],
+      "answer": 0,
+      "explanation": "第三段明确说妹は黒いシャツを買います；说话者随后说明自己什么也没买。"
+    },
+    {
+      "id": "article-ja-n5-two-shirts-in-the-shop-q2",
+      "type": "detail",
+      "prompt": "哪件衬衫比较短？",
+      "options": [
+        "白衬衫",
+        "没有提到长度",
+        "黑衬衫"
+      ],
+      "answer": 2,
+      "explanation": "第二段分别写白いシャツは長いです和黒いシャツは短いです。"
+    },
+    {
+      "id": "article-ja-n5-two-shirts-in-the-shop-q3",
+      "type": "grammar",
+      "prompt": "「高くないです」在这里说明黑衬衫什么特点？",
+      "options": [
+        "很长",
+        "不贵",
+        "不漂亮"
+      ],
+      "answer": 1,
+      "explanation": "高い在这段价格比较中表示贵，否定高くないです表示不贵。"
+    },
+    {
+      "id": "article-ja-n5-two-shirts-in-the-shop-q4",
+      "type": "inference",
+      "prompt": "店里不安静，能否因此判断店员不亲切？",
+      "options": [
+        "不能，文章明确说店员很亲切",
+        "能，因为热闹一定代表服务差",
+        "能，因为没有任何人买东西"
+      ],
+      "answer": 0,
+      "explanation": "末段用が连接不安静和店员亲切两个观察，不能从声音环境推出服务态度。"
+    },
+    {
+      "id": "article-ja-n5-two-shirts-in-the-shop-q5",
+      "type": "main-idea",
+      "prompt": "这篇短文主要写什么？",
+      "options": [
+        "妹妹去图书馆借书",
+        "两人看衣服并比较店铺和衬衫的特点",
+        "店员教两人做面包"
+      ],
+      "answer": 1,
+      "explanation": "全文围绕服装店、两件衬衫的颜色长度价格，以及谁购买展开。"
+    }
+  ],
+  "notes": [
+    "学习重点：い形容词的礼貌现在否定，与な形容词谓语的です／ではありません。",
+    "暑い描述当天的天气；中は寒い描述店内较冷，两个观察的场所不同。",
+    "きれい虽以い结尾，仍按な形容词使用；不要机械按文字结尾分类。"
+  ]
+}
