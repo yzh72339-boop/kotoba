@@ -1,0 +1,280 @@
+[
+  {
+    "id": "grammar-en-b1-ed-ing-adjectives",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B1",
+    "difficulty": 3,
+    "tags": [
+      "v3-vocabulary-14",
+      "contextual-course",
+      "B1"
+    ],
+    "title": "-ed or -ing: feelings and their causes",
+    "pattern": "-ed adjective (feeling) / -ing adjective (causing a feeling)",
+    "meaningZh": "感到……；令人……",
+    "meaningEn": "Distinguishing an experienced feeling from what causes it",
+    "explanation": "许多情绪形容词有-ed和-ing两种形式。interested描述体验兴趣的主体，interesting描述引起兴趣的事物：I was interested in the lesson，而The lesson was interesting。不要机械理解成“人只能用-ed，物只能用-ing”，因为一个人也可以令人感兴趣。这里的形式是形容词，不是看到-ed就判定过去时。",
+    "usage": "描述学习活动给人的感受，并分清体验者与引发感受的原因。",
+    "nuance": "常见成对表达包括interested/interesting、confused/confusing、excited/exciting和tired/tiring。be的时态由am/is/was等决定；I am interested仍是现在。",
+    "structure": [
+      "Experiencer + be / feel + -ed adjective",
+      "Cause + be + -ing adjective",
+      "interested in / excited about + noun or -ing"
+    ],
+    "formation": [
+      "Experiencer + be / feel + -ed adjective",
+      "Cause + be + -ing adjective",
+      "interested in / excited about + noun or -ing"
+    ],
+    "examples": [
+      {
+        "target": "I was interested in the bread lesson.",
+        "zh": "我对这堂面包课很感兴趣。"
+      },
+      {
+        "target": "The bread lesson was interesting.",
+        "zh": "这堂面包课很有趣。"
+      },
+      {
+        "target": "The instructions were confusing, so I asked for help.",
+        "zh": "说明让人困惑，所以我请求了帮助。"
+      },
+      {
+        "target": "We felt tired after a tiring morning.",
+        "zh": "经过一个累人的上午，我们感到疲倦。"
+      }
+    ],
+    "notes": [
+      "学习目标：描述学习活动给人的感受，并分清体验者与引发感受的原因。",
+      "等级为教学编排，不代表官方穷尽语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "I was very interesting in the lesson.",
+        "correct": "I was very interested in the lesson.",
+        "explanation": "这里说明我体验到兴趣，需要interested；interesting会把我描述为引起别人兴趣的原因。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-b1-reflexive-pronouns",
+        "explanation": "情绪形容词区分体验者和原因；反身代词则连接同一个动作的施事与对象，或强调谁亲自完成。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-a1-be-identity",
+      "grammar-en-a2-past-simple"
+    ],
+    "relatedGrammar": [
+      "grammar-en-b1-reflexive-pronouns"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-b1-ed-ing-adjectives-1",
+        "kind": "meaning",
+        "prompt": "“The instructions were confusing.” 表示什么？",
+        "acceptedAnswers": [
+          "说明让人感到困惑"
+        ],
+        "explanation": "confusing描述产生困惑的原因，不能据此断定学习者最后的掌握程度。",
+        "options": [
+          "说明让人感到困惑",
+          "说明本身体验到困惑",
+          "学习者一定已经掌握全部说明"
+        ]
+      },
+      {
+        "id": "grammar-en-b1-ed-ing-adjectives-2",
+        "kind": "fill",
+        "prompt": "I felt（　）because I could not follow the instructions.",
+        "acceptedAnswers": [
+          "confused"
+        ],
+        "explanation": "I是体验困惑的人，feel后用confused形容这种感受。",
+        "options": [
+          "confusing",
+          "confused",
+          "confuse"
+        ]
+      },
+      {
+        "id": "grammar-en-b1-ed-ing-adjectives-3",
+        "kind": "error",
+        "prompt": "哪句表达“这堂课令人兴奋”？",
+        "acceptedAnswers": [
+          "The lesson was exciting."
+        ],
+        "explanation": "课是引发兴奋的原因，使用exciting；excited描述体验兴奋的主体。",
+        "options": [
+          "The lesson was excited.",
+          "The lesson exciting was.",
+          "The lesson was exciting."
+        ]
+      },
+      {
+        "id": "grammar-en-b1-ed-ing-adjectives-4",
+        "kind": "context",
+        "prompt": "老师讲了有趣的故事，听众被吸引。哪句搭配合适？",
+        "acceptedAnswers": [
+          "The story was interesting, and we were interested."
+        ],
+        "explanation": "story是引发兴趣的内容，用interesting；we是体验兴趣的听众，用interested。",
+        "options": [
+          "The story was interesting, and we were interested.",
+          "The story was interested, and we were interesting in it.",
+          "The story was interested in us."
+        ]
+      },
+      {
+        "id": "grammar-en-b1-ed-ing-adjectives-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“这堂面包课很有趣。”译成英语。",
+        "acceptedAnswers": [
+          "The bread lesson was interesting.",
+          "The bread lesson was interesting"
+        ],
+        "explanation": "用interesting描述课程引起兴趣，过去的情况由was表示。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b1-reflexive-pronouns",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B1",
+    "difficulty": 3,
+    "tags": [
+      "v3-vocabulary-14",
+      "contextual-course",
+      "B1"
+    ],
+    "title": "Reflexive pronouns: doing it ourselves",
+    "pattern": "myself / yourself / himself / herself / itself / ourselves / yourselves / themselves",
+    "meaningZh": "动作回到自身；亲自；by oneself表示独自",
+    "meaningEn": "Reflexive objects, emphasis and doing something alone",
+    "explanation": "当动作的主语和宾语是同一人或事物时，可用反身代词，如I cut myself，而不是用me表达这个自身关系。反身代词还可以强调谁亲自完成：We made the bread ourselves不表示没有获得帮助。加by后，by ourselves才常表示独自或没有他人陪伴。形式要与所指主语的人称和数一致。",
+    "usage": "区分动作作用于自身、强调亲自完成，以及by oneself表示独自的含义。",
+    "nuance": "不要为了礼貌把普通主语I随意改成myself，也不要因为动作由本人执行就给所有动词添加反身代词。I washed my hands已经表达清楚，通常不需再加myself。",
+    "structure": [
+      "Subject + verb + matching reflexive object",
+      "Subject + verb + object + reflexive pronoun (emphasis)",
+      "by + reflexive pronoun (alone / without help, according to context)"
+    ],
+    "formation": [
+      "Subject + verb + matching reflexive object",
+      "Subject + verb + object + reflexive pronoun (emphasis)",
+      "by + reflexive pronoun (alone / without help, according to context)"
+    ],
+    "examples": [
+      {
+        "target": "I cut myself while slicing the bread.",
+        "zh": "我切面包时割到了自己。"
+      },
+      {
+        "target": "We made the bread ourselves.",
+        "zh": "我们亲手做了面包。"
+      },
+      {
+        "target": "She introduced herself to the group.",
+        "zh": "她向小组介绍了自己。"
+      },
+      {
+        "target": "I did not work by myself; a friend helped me.",
+        "zh": "我不是独自工作的；一位朋友帮了我。"
+      }
+    ],
+    "notes": [
+      "学习目标：区分动作作用于自身、强调亲自完成，以及by oneself表示独自的含义。",
+      "等级为教学编排，不代表官方穷尽语法清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "We made the bread ourself.",
+        "correct": "We made the bread ourselves.",
+        "explanation": "we指复数，强调自己完成时需要ourselves，不能套用单数的-self词尾。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-a1-possessive-pronouns",
+        "explanation": "ours表示“属于我们的”，ourselves表示动作对象回到我们自身或强调我们亲自做，两个形式不能互换。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-a1-possessive-pronouns",
+      "grammar-en-a2-past-simple"
+    ],
+    "relatedGrammar": [
+      "grammar-en-a1-possessive-pronouns"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-b1-reflexive-pronouns-1",
+        "kind": "meaning",
+        "prompt": "“We made the bread ourselves.” 必然说明什么？",
+        "acceptedAnswers": [
+          "面包由我们亲手制作"
+        ],
+        "explanation": "ourselves在这里强调完成者；句子本身不排除老师指导或他人协助。",
+        "options": [
+          "我们完全没有得到帮助",
+          "面包由我们亲手制作",
+          "面包一定只供我们吃"
+        ]
+      },
+      {
+        "id": "grammar-en-b1-reflexive-pronouns-2",
+        "kind": "fill",
+        "prompt": "Sara introduced（　）to the group.",
+        "acceptedAnswers": [
+          "herself"
+        ],
+        "explanation": "Sara在本句指女性，介绍的对象也是自己，因此用herself。",
+        "options": [
+          "himself",
+          "itself",
+          "herself"
+        ]
+      },
+      {
+        "id": "grammar-en-b1-reflexive-pronouns-3",
+        "kind": "error",
+        "prompt": "哪句正确表达“我们亲手做了面包”？",
+        "acceptedAnswers": [
+          "We made the bread ourselves."
+        ],
+        "explanation": "ourselves与we一致并强调亲自完成；ours是物主代词，不能用于这里的强调结构。",
+        "options": [
+          "We made the bread ourselves.",
+          "We made the bread ourself.",
+          "We made the bread ours."
+        ]
+      },
+      {
+        "id": "grammar-en-b1-reflexive-pronouns-4",
+        "kind": "context",
+        "prompt": "你想说明当时没有别人在场，而不只是强调自己动手。应选哪句？",
+        "acceptedAnswers": [
+          "I was there by myself."
+        ],
+        "explanation": "by myself在这里表示独自一人在场；其他选项分别表达为自己骄傲和自我介绍。",
+        "options": [
+          "I was proud of myself.",
+          "I was there by myself.",
+          "I introduced myself."
+        ]
+      },
+      {
+        "id": "grammar-en-b1-reflexive-pronouns-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“她向小组介绍了自己。”译成英语。",
+        "acceptedAnswers": [
+          "She introduced herself to the group.",
+          "She introduced herself to the group"
+        ],
+        "explanation": "动作主体与介绍的对象都是她本人，因此宾语用herself。"
+      }
+    ]
+  }
+]

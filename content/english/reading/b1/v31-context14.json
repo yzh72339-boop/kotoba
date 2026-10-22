@@ -1,0 +1,119 @@
+{
+  "id": "article-en-b1-the-loaf-we-made",
+  "kind": "reading",
+  "language": "en",
+  "level": "B1",
+  "difficulty": 3,
+  "tags": [
+    "v3-vocabulary-14",
+    "contextual-course",
+    "B1"
+  ],
+  "title": "The loaf we made ourselves",
+  "topic": "饮食",
+  "genre": "story",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "Last Saturday I joined a bread workshop at our community centre. I was interested in cooking, but I had never made a loaf from the beginning. At the door, a volunteer gave me an apron and showed me a clean table. I expected a demonstration that I could watch from my chair. Instead, the teacher asked everyone to wash their hands and find a partner. The lesson was going to be more practical than I had imagined.",
+    "Our first job was to read the ingredient list and measure the flour. We added water slowly until the mixture became a soft dough. Mine was sticky, and I felt confused when it stayed on my fingers. The teacher showed us how to knead it. While she was kneading a small piece, she explained that adding too much flour could make the bread dry. Her explanation was interesting because I could see each change in front of me.",
+    "My partner, Rosa, introduced herself and admitted that she was nervous too. We helped each other measure the water, but each of us shaped a separate piece. “We made it ourselves,” she said when our bread was ready for the oven. She did not mean that we had worked without help. The teacher had guided us several times. We were pleased because we had done the actual work rather than only watched someone else.",
+    "The teacher handled the hot tray while we cleared the table. After the bread had cooled a little, she cut a small slice for each person. There was still a little steam above the centre, and we waited before tasting it. My loaf was not as smooth as hers, but it tasted good. I left with flour on my apron and a simple plan: try again at home, with enough time to make mistakes. I felt tired after a tiring morning, but I was no longer afraid to begin."
+  ],
+  "translation": [
+    "上周六我参加了社区中心的面包工作坊。我对烹饪感兴趣，却从没从头做过一个完整面包。门口的志愿者给我围裙，并指给我一张干净的桌子。我本以为会坐着观看示范，没想到老师要求大家洗手并找搭档。课程将比我原先想象的更注重动手。",
+    "首先要读原料清单，称量面粉。我们慢慢加水，直到混合物变成柔软的面团。我的面团很黏，粘在手指上时让我感到困惑。老师示范如何揉面，一边揉一小块面团，一边解释加太多面粉会让面包干。我能直接看到每一个变化，因此她的讲解很有趣。",
+    "搭档Rosa做了自我介绍，承认她也紧张。我们互相帮助量水，但各自为一块面团整形。面包可以进烤箱时，她说：“这是我们亲手做的。”她不是说完全没人帮忙，老师已指导过多次。我们高兴，是因为自己实际动手，而不是只看别人做。",
+    "老师负责操作热烤盘，我们清理桌子。面包放凉一些后，她为每人切了一小片。中心还冒着一点蒸汽，我们又等了一会儿才品尝。我的面包不如老师的光滑，却很好吃。我离开时围裙上沾着面粉，心里有个简单计划：在家再试，给犯错留出足够时间。这个上午很累，我也感到疲倦，但已不再害怕开始。"
+  ],
+  "vocabulary": [
+    "context-en-b1-b14-01",
+    "context-en-b1-b14-02",
+    "context-en-b1-b14-03",
+    "context-en-b1-b14-04",
+    "context-en-b1-b14-05",
+    "context-en-b1-b14-06",
+    "context-en-b1-b14-07",
+    "context-en-b1-b14-08",
+    "context-en-b1-b14-09",
+    "context-en-b1-b14-10",
+    "context-en-b1-b14-11",
+    "context-en-b1-b14-12"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-b1-ed-ing-adjectives",
+      "surface": "Her explanation was interesting"
+    },
+    {
+      "id": "grammar-en-b1-reflexive-pronouns",
+      "surface": "We made it ourselves"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-b1-the-loaf-we-made-q1",
+      "type": "main-idea",
+      "prompt": "What changed most during the workshop?",
+      "options": [
+        "The narrator decided that bread could only be made by experts.",
+        "The narrator stopped enjoying practical activities.",
+        "The narrator became more willing to try making bread."
+      ],
+      "answer": 2,
+      "explanation": "The final plan to try again at home and the reduced fear of beginning show greater willingness, not proof of expert skill."
+    },
+    {
+      "id": "article-en-b1-the-loaf-we-made-q2",
+      "type": "detail",
+      "prompt": "Why did the teacher warn against adding too much flour?",
+      "options": [
+        "It would stop everyone measuring the water.",
+        "It could make the bread dry.",
+        "It would make the apron impossible to clean."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph two directly explains the effect of too much flour while the teacher demonstrates kneading."
+    },
+    {
+      "id": "article-en-b1-the-loaf-we-made-q3",
+      "type": "grammar",
+      "prompt": "What does “We made it ourselves” emphasise in paragraph three?",
+      "options": [
+        "They performed the practical work, although they received guidance.",
+        "They had no help or instructions from anyone.",
+        "They owned the community centre."
+      ],
+      "answer": 0,
+      "explanation": "The next sentences explicitly mention the teacher’s guidance and contrast doing the work with only watching."
+    },
+    {
+      "id": "article-en-b1-the-loaf-we-made-q4",
+      "type": "vocabulary",
+      "prompt": "What is the dough in the second paragraph?",
+      "options": [
+        "The clean cloth worn over clothes.",
+        "The metal surface inside an oven.",
+        "The soft mixture that will become bread."
+      ],
+      "answer": 2,
+      "explanation": "Water and flour become a soft dough, which the learners knead and shape before baking."
+    },
+    {
+      "id": "article-en-b1-the-loaf-we-made-q5",
+      "type": "inference",
+      "prompt": "Why does the narrator mention flour on the apron at the end?",
+      "options": [
+        "To prove the teacher failed to explain the recipe.",
+        "To connect the imperfect result with active participation and another attempt.",
+        "To suggest nobody had washed their hands."
+      ],
+      "answer": 1,
+      "explanation": "The ending accepts an imperfect loaf and plans another attempt; the flour is evidence of hands-on work, not a claim of failure or unsafe behaviour."
+    }
+  ],
+  "notes": [
+    "ourselves在本文强调亲自做，并不否认搭档和老师提供帮助。",
+    "形容词tired描述体验，tiring描述引发疲劳的活动；同样，interesting描述讲解引起兴趣。",
+    "阅读时间采用160英语词/分钟向上取整的统一规则，不是测得的个人阅读速度。"
+  ]
+}

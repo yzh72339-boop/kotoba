@@ -757,5 +757,297 @@
     "frequency": "medium",
     "register": "neutral",
     "sourceRef": "Kotoba 3.1 original vocabulary batch09"
+  },
+  {
+    "id": "context-en-b1-b14-01",
+    "word": "apron",
+    "pronunciation": "/ˈeɪprən/",
+    "meaning": "围裙",
+    "example": "I put on an apron before mixing the flour.",
+    "translation": "搅拌面粉前，我穿上了围裙。",
+    "tag": "B1 · noun",
+    "related": "wear an apron",
+    "pos": "noun",
+    "senses": [
+      "围裙"
+    ],
+    "collocations": [
+      "wear an apron"
+    ],
+    "topics": [
+      "contextual-learning",
+      "bread-workshop"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-en-b1-b14-02",
+    "word": "dough",
+    "pronunciation": "/dəʊ/",
+    "meaning": "面团",
+    "example": "The dough feels soft under my hands.",
+    "translation": "我手下的面团摸起来很软。",
+    "tag": "B1 · noun",
+    "related": "bread dough",
+    "pos": "noun",
+    "senses": [
+      "面团"
+    ],
+    "collocations": [
+      "bread dough"
+    ],
+    "topics": [
+      "contextual-learning",
+      "bread-workshop"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-en-b1-b14-03",
+    "word": "knead",
+    "pronunciation": "/niːd/",
+    "meaning": "揉；揉捏面团",
+    "example": "We knead the dough slowly.",
+    "translation": "我们慢慢揉面。",
+    "tag": "B1 · verb",
+    "related": "knead the dough",
+    "pos": "verb",
+    "senses": [
+      "揉",
+      "揉捏面团"
+    ],
+    "collocations": [
+      "knead the dough"
+    ],
+    "topics": [
+      "contextual-learning",
+      "bread-workshop"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-en-b1-b14-04",
+    "word": "ingredient",
+    "pronunciation": "/ɪnˈɡriːdiənt/",
+    "meaning": "成分；原料",
+    "example": "Flour is the main ingredient in this bread.",
+    "translation": "面粉是这种面包的主要原料。",
+    "tag": "B1 · noun",
+    "related": "a main ingredient",
+    "pos": "noun",
+    "senses": [
+      "成分",
+      "原料"
+    ],
+    "collocations": [
+      "a main ingredient"
+    ],
+    "topics": [
+      "contextual-learning",
+      "bread-workshop"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-en-b1-b14-05",
+    "word": "flour",
+    "pronunciation": "/ˈflaʊə/",
+    "meaning": "面粉",
+    "example": "There is flour on the table.",
+    "translation": "桌上有面粉。",
+    "tag": "B1 · noun",
+    "related": "plain flour",
+    "pos": "noun",
+    "senses": [
+      "面粉"
+    ],
+    "collocations": [
+      "plain flour"
+    ],
+    "topics": [
+      "contextual-learning",
+      "bread-workshop"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-en-b1-b14-06",
+    "word": "oven",
+    "pronunciation": "/ˈʌvən/",
+    "meaning": "烤箱",
+    "example": "The teacher puts the bread in the oven.",
+    "translation": "老师把面包放进烤箱。",
+    "tag": "B1 · noun",
+    "related": "a hot oven",
+    "pos": "noun",
+    "senses": [
+      "烤箱"
+    ],
+    "collocations": [
+      "a hot oven"
+    ],
+    "topics": [
+      "contextual-learning",
+      "bread-workshop"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-en-b1-b14-07",
+    "word": "tray",
+    "pronunciation": "/treɪ/",
+    "meaning": "托盘；烤盘",
+    "example": "The small loaf rests on a tray.",
+    "translation": "小面包放在烤盘上。",
+    "tag": "B1 · noun",
+    "related": "a baking tray",
+    "pos": "noun",
+    "senses": [
+      "托盘",
+      "烤盘"
+    ],
+    "collocations": [
+      "a baking tray"
+    ],
+    "topics": [
+      "contextual-learning",
+      "bread-workshop"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-en-b1-b14-08",
+    "word": "steam",
+    "pronunciation": "/stiːm/",
+    "meaning": "蒸汽",
+    "example": "Steam rises from the warm bread.",
+    "translation": "热面包冒出了蒸汽。",
+    "tag": "B1 · noun",
+    "related": "a cloud of steam",
+    "pos": "noun",
+    "senses": [
+      "蒸汽"
+    ],
+    "collocations": [
+      "a cloud of steam"
+    ],
+    "topics": [
+      "contextual-learning",
+      "bread-workshop"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-en-b1-b14-09",
+    "word": "loaf",
+    "pronunciation": "/ləʊf/",
+    "meaning": "一条或一个完整的面包",
+    "example": "We share a loaf after the lesson.",
+    "translation": "课后我们分享了一个面包。",
+    "tag": "B1 · noun",
+    "related": "a loaf of bread",
+    "pos": "noun",
+    "senses": [
+      "一条或一个完整的面包"
+    ],
+    "collocations": [
+      "a loaf of bread"
+    ],
+    "topics": [
+      "contextual-learning",
+      "bread-workshop"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-en-b1-b14-10",
+    "word": "mixture",
+    "pronunciation": "/ˈmɪkstʃə/",
+    "meaning": "混合物",
+    "example": "Add water to the mixture slowly.",
+    "translation": "慢慢往混合物中加水。",
+    "tag": "B1 · noun",
+    "related": "a smooth mixture",
+    "pos": "noun",
+    "senses": [
+      "混合物"
+    ],
+    "collocations": [
+      "a smooth mixture"
+    ],
+    "topics": [
+      "contextual-learning",
+      "bread-workshop"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-en-b1-b14-11",
+    "word": "sticky",
+    "pronunciation": "/ˈstɪki/",
+    "meaning": "黏的",
+    "example": "The sticky dough stays on my fingers.",
+    "translation": "黏面团粘在了我的手指上。",
+    "tag": "B1 · adjective",
+    "related": "sticky dough",
+    "pos": "adjective",
+    "senses": [
+      "黏的"
+    ],
+    "collocations": [
+      "sticky dough"
+    ],
+    "topics": [
+      "contextual-learning",
+      "bread-workshop"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-en-b1-b14-12",
+    "word": "slice",
+    "pronunciation": "/slaɪs/",
+    "meaning": "一片；切片",
+    "example": "I give my neighbour a slice of bread.",
+    "translation": "我给邻居一片面包。",
+    "tag": "B1 · noun",
+    "related": "a slice of bread",
+    "pos": "noun",
+    "senses": [
+      "一片",
+      "切片"
+    ],
+    "collocations": [
+      "a slice of bread"
+    ],
+    "topics": [
+      "contextual-learning",
+      "bread-workshop"
+    ],
+    "frequency": "high",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch14"
   }
 ]
