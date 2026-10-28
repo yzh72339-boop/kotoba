@@ -1,0 +1,117 @@
+{
+  "id": "article-ja-n4-a-ticket-and-a-small-note",
+  "kind": "reading",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "v3-vocabulary-16",
+    "linked-practical-unit"
+  ],
+  "title": "切符と小さなメモ",
+  "topic": "旅行",
+  "genre": "story",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "明日、姉と電車で小さな町へ行く。今夜、時刻表と運賃を調べた。片道の切符と往復の切符では値段が違うので、帰る時間も相談した。",
+    "この駅の案内では、普通列車の座席は予約しなくてもいい。しかし、特急の案内は別にある。私は二つの案内を混ぜないように、それぞれ写真に撮った。",
+    "姉とは九時に改札で会う。私は九時までに駅に着かなければならない。発車は九時二十分だが、乗り場を探す時間も必要だ。",
+    "途中の駅で乗り換えがある。ホームの番号を小さな紙に書いた。スマートフォンでも見られるが、紙を持って行ってもいい。持たなければならないわけではないけれど、私はこのメモがあると安心する。"
+  ],
+  "translation": [
+    "明天我和姐姐坐火车去一座小镇。今晚查了时刻表和车费。单程票和往返票价格不同，因此也商量了返回时间。",
+    "这座车站的说明写着，普通列车不必预约座位，但特快另有说明。我分别拍照，免得把两种说明混在一起。",
+    "和姐姐约好九点在检票口见。我必须九点前到站。虽然九点二十分才发车，但还需要找乘车处的时间。",
+    "途中有一次换乘。我把站台号码写在小纸上。手机也能查看，但带纸去也可以。虽然不是非带不可，这张便条却让我安心。"
+  ],
+  "vocabulary": [
+    "context-ja-n4-b16-01",
+    "context-ja-n4-b16-02",
+    "context-ja-n4-b16-03",
+    "context-ja-n4-b16-04",
+    "context-ja-n4-b16-05",
+    "context-ja-n4-b16-06",
+    "context-ja-n4-b16-07",
+    "context-ja-n4-b16-08",
+    "context-ja-n4-b16-09",
+    "context-ja-n4-b16-10",
+    "context-ja-n4-b16-11",
+    "context-ja-n4-b16-12"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-ja-n4-nakutemo-ii",
+      "surface": "予約しなくてもいい"
+    },
+    {
+      "id": "grammar-ja-n4-nakereba-naranai",
+      "surface": "駅に着かなければならない"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-ja-n4-a-ticket-and-a-small-note-q1",
+      "type": "detail",
+      "prompt": "为什么要商量返回时间？",
+      "options": [
+        "因为必须在车站住宿",
+        "因为单程票与往返票价格不同",
+        "因为手机完全不能查看信息"
+      ],
+      "answer": 1,
+      "explanation": "第一段明确连接两种票的价格区别与返程时间安排。"
+    },
+    {
+      "id": "article-ja-n4-a-ticket-and-a-small-note-q2",
+      "type": "grammar",
+      "prompt": "「予約しなくてもいい」在这段说明中意味着什么？",
+      "options": [
+        "普通列车的这项座位预约不是必须",
+        "任何列车都禁止预约",
+        "必须只乘特快"
+      ],
+      "answer": 0,
+      "explanation": "第二段只说明该处普通列车的安排，并另提特快说明；不能把适用范围扩大。"
+    },
+    {
+      "id": "article-ja-n4-a-ticket-and-a-small-note-q3",
+      "type": "detail",
+      "prompt": "为什么九点就要到站，而不等到九点二十分？",
+      "options": [
+        "因为已经错过发车",
+        "因为没有任何集合安排",
+        "因为约好九点见，且要留时间找乘车处"
+      ],
+      "answer": 2,
+      "explanation": "第三段同时交代集合时间和找乘车处需要的时间。"
+    },
+    {
+      "id": "article-ja-n4-a-ticket-and-a-small-note-q4",
+      "type": "inference",
+      "prompt": "纸质便条在文中是什么性质？",
+      "options": [
+        "每位旅客必须出示的证明",
+        "说话者自行选择的安心准备",
+        "所有手机失效的证据"
+      ],
+      "answer": 1,
+      "explanation": "末段明说手机也能看，纸并非非带不可，但带着使说话者安心。"
+    },
+    {
+      "id": "article-ja-n4-a-ticket-and-a-small-note-q5",
+      "type": "main-idea",
+      "prompt": "本文主要强调哪种准备？",
+      "options": [
+        "只看一个标题，忽略票种和集合",
+        "把所有规则理解为禁止",
+        "分清具体要求与可选准备，并记下行程"
+      ],
+      "answer": 2,
+      "explanation": "全文区分票种说明、必须按时到达，以及可选的纸质备忘。"
+    }
+  ],
+  "notes": [
+    "原创架空出行情境，车票与座位条件只属于文中说明；实际旅行应以所乘服务的最新规则为准。",
+    "なくてもいい不是禁止，なければならない也不等于说话者已经完成了行动。"
+  ]
+}

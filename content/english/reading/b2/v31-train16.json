@@ -1,0 +1,119 @@
+{
+  "id": "article-en-b2-the-train-we-were-expecting",
+  "kind": "reading",
+  "language": "en",
+  "level": "B2",
+  "difficulty": 3,
+  "tags": [
+    "v3-vocabulary-16",
+    "linked-practical-unit"
+  ],
+  "title": "The train we were expecting",
+  "topic": "旅行",
+  "genre": "story",
+  "estimatedMinutes": 3,
+  "paragraphs": [
+    "Our train was supposed to leave at nine, and my friend Leila had planned the rest of the day around that departure. We reached the platform early. Her suitcase stood beside my backpack, and we checked the number of the carriage on our tickets. Our destination was a small coastal town where a friend was opening a photography exhibition. A later connection would still get us there, but perhaps not in time for the short introduction we wanted to hear.",
+    "At ten past nine, the screen still showed the original time. A passenger nearby said that everyone was allowed to take the next train. He had heard this from another traveller, not from a notice. Leila nearly started moving our luggage, but I suggested asking the conductor first. Being late did not by itself tell us which ticket conditions had changed. The answer mattered because the next service followed a different route, and we would need to transfer again.",
+    "The conductor checked a message before replying. For our particular tickets, the operator had agreed that we were allowed to use one specified alternative. That was a permission with a clear limit, not an invitation to board any service we preferred. She showed us the new route and explained where transferring would be necessary. She also asked us to keep the aisle clear while other passengers passed. We moved our bags and wrote down the name of the transfer station. The notice applied to this journey only; it did not change the conditions of tickets we might buy another day.",
+    "The alternative train was supposed to arrive twenty minutes later. That gave us time to buy water and tell our friend about the delay. We sent the revised plan rather than promising an exact arrival time. A timetable described what was expected, but we had just seen how an expectation could fail. Leila kept the original ticket and the written message together so that we could explain the change if someone checked our journey again.",
+    "In the end, we missed the introduction but reached the exhibition before lunch. Our friend had left a copy of the opening notes for us. The day had not followed our first plan, yet it had not become a complete failure either. Looking back, the useful distinction was small: what a train was supposed to do, what we were allowed to do, and what actually happened were three different questions. Asking them separately made the situation easier to manage."
+  ],
+  "translation": [
+    "列车原定九点发车，Leila据此安排了整天。我们早早到站台，将行李放在一起，核对票上的车厢号。目的地是海边小镇，朋友在那里办摄影展。晚一点的接驳也能到，但可能赶不上我们想听的开场介绍。",
+    "九点十分，屏幕仍是原来的时间。旁边旅客说所有人都可乘下一班，但他只是从另一位乘客处听说。Leila差点就搬行李，我建议先问列车员。晚点本身不能说明票务条件怎样改变；下一班线路不同，我们还要再换乘。",
+    "列车员核对消息后回答：针对我们的特定票，运营方允许使用一条指定替代方案。许可有明确范围，不是可以随意登上喜欢的任何车。她指出线路与换乘地点，也提醒过道让人通行。我们挪开行李，记下换乘站。这项通知只适用于本次行程，不改变日后买票的条件。",
+    "替代列车预计再过二十分钟到达，够我们买水并通知朋友晚点。我们发送调整后的安排，没有保证精确到达时间。时刻表反映预期，而我们刚见过预期也会落空。Leila把原票与书面消息放一起，方便再次解释变更。",
+    "最终错过了介绍，却在午饭前到展览，朋友给我们留了开场笔记。一天没有照原计划走，也非完全失败。关键区别在于：列车原应怎样、我们获准怎样、实际发生怎样，是三个问题。分别询问，使情况更容易处理。"
+  ],
+  "vocabulary": [
+    "context-en-a2-b16-01",
+    "context-en-a2-b16-02",
+    "context-en-a2-b16-03",
+    "context-en-a2-b16-04",
+    "context-en-b1-b16-05",
+    "context-en-b1-b16-06",
+    "context-en-b1-b16-07",
+    "context-en-b1-b16-08",
+    "context-en-b1-b16-09",
+    "context-en-b1-b16-10",
+    "context-en-a2-b16-11",
+    "context-en-b1-b16-12"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-b2-be-supposed-to",
+      "surface": "was supposed to leave"
+    },
+    {
+      "id": "grammar-en-b2-be-allowed-to",
+      "surface": "were allowed to use"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-b2-the-train-we-were-expecting-q1",
+      "type": "main-idea",
+      "prompt": "Which distinction helps the travellers most?",
+      "options": [
+        "Treating a timetable as a guarantee of arrival.",
+        "Separating expectations, permission and actual events.",
+        "Assuming all passengers have identical ticket conditions."
+      ],
+      "answer": 1,
+      "explanation": "The final paragraph explicitly distinguishes these three questions and the story shows why each needs separate evidence."
+    },
+    {
+      "id": "article-en-b2-the-train-we-were-expecting-q2",
+      "type": "detail",
+      "prompt": "Why did they ask the conductor instead of relying on the nearby passenger?",
+      "options": [
+        "They wanted confirmation of the conditions applying to their tickets.",
+        "The passenger had supplied an official written instruction.",
+        "They had decided not to travel anywhere."
+      ],
+      "answer": 0,
+      "explanation": "The passenger’s claim was second-hand and broad; the conductor checked a message and identified a specified alternative."
+    },
+    {
+      "id": "article-en-b2-the-train-we-were-expecting-q3",
+      "type": "grammar",
+      "prompt": "What does “was supposed to leave at nine” establish?",
+      "options": [
+        "That departure certainly occurred at nine.",
+        "That travel after nine was forbidden.",
+        "That nine was the expected departure time."
+      ],
+      "answer": 2,
+      "explanation": "Supposed to reports the arrangement; the delayed departure shows that the arrangement was not a guaranteed event."
+    },
+    {
+      "id": "article-en-b2-the-train-we-were-expecting-q4",
+      "type": "inference",
+      "prompt": "Why did Leila retain the ticket and written message together?",
+      "options": [
+        "To show that no alternative had been approved.",
+        "To preserve evidence explaining the permitted change.",
+        "To ensure nobody could check their journey."
+      ],
+      "answer": 1,
+      "explanation": "The fourth paragraph says they could explain the change if checked again; the two documents support that explanation."
+    },
+    {
+      "id": "article-en-b2-the-train-we-were-expecting-q5",
+      "type": "author-intent",
+      "prompt": "Why does the ending mention both the missed introduction and the available notes?",
+      "options": [
+        "To prove the original plan happened exactly as expected.",
+        "To blame the friend for the delay.",
+        "To recognise a real loss without treating the whole day as a failure."
+      ],
+      "answer": 2,
+      "explanation": "The ending preserves the inconvenience while showing that the broader visit still had value."
+    }
+  ],
+  "notes": [
+    "Original fictional journey. The permission in this story applies only to its stated tickets and alternative; it is not a claim about any real rail operator.",
+    "Reading time uses the existing160 English words/minute rule, rounded up."
+  ]
+}

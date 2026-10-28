@@ -753,5 +753,125 @@
     "frequency": "medium",
     "register": "neutral",
     "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-a2-b16-01",
+    "word": "suitcase",
+    "pronunciation": "/ˈsuːtkeɪs/",
+    "meaning": "行李箱",
+    "example": "I put my suitcase beside my seat.",
+    "translation": "我把行李箱放在座位旁。",
+    "tag": "A2 · noun",
+    "related": "a small suitcase",
+    "pos": "noun",
+    "senses": [
+      "行李箱"
+    ],
+    "collocations": [
+      "a small suitcase"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-a2-b16-02",
+    "word": "luggage",
+    "pronunciation": "/ˈlʌɡɪdʒ/",
+    "meaning": "行李",
+    "example": "Keep your luggage clear of the aisle.",
+    "translation": "请不要让行李挡住过道。",
+    "tag": "A2 · noun",
+    "related": "hand luggage",
+    "pos": "noun",
+    "senses": [
+      "行李"
+    ],
+    "collocations": [
+      "hand luggage"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-a2-b16-03",
+    "word": "backpack",
+    "pronunciation": "/ˈbækpæk/",
+    "meaning": "双肩背包",
+    "example": "My backpack fits under the seat.",
+    "translation": "我的背包能放进座位下面。",
+    "tag": "A2 · noun",
+    "related": "carry a backpack",
+    "pos": "noun",
+    "senses": [
+      "双肩背包"
+    ],
+    "collocations": [
+      "carry a backpack"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-a2-b16-04",
+    "word": "platform",
+    "pronunciation": "/ˈplætfɔːm/",
+    "meaning": "站台",
+    "example": "We waited on the platform together.",
+    "translation": "我们一起在站台等候。",
+    "tag": "A2 · noun",
+    "related": "a station platform",
+    "pos": "noun",
+    "senses": [
+      "站台"
+    ],
+    "collocations": [
+      "a station platform"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-a2-b16-11",
+    "word": "passenger",
+    "pronunciation": "/ˈpæsɪndʒə/",
+    "meaning": "乘客",
+    "example": "One passenger asked for a quieter place to wait.",
+    "translation": "一位乘客要求去较安静的地方等候。",
+    "tag": "A2 · noun",
+    "related": "a rail passenger",
+    "pos": "noun",
+    "senses": [
+      "乘客"
+    ],
+    "collocations": [
+      "a rail passenger"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
   }
 ]

@@ -1,0 +1,562 @@
+[
+  {
+    "id": "grammar-en-b2-be-supposed-to",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B2",
+    "difficulty": 3,
+    "tags": [
+      "v3-vocabulary-16",
+      "linked-practical-unit"
+    ],
+    "title": "Be supposed to: expectations and arrangements",
+    "pattern": "be supposed to + base verb",
+    "meaningZh": "按安排应该……；被要求……",
+    "meaningEn": "Expectations, arrangements and norms, not guaranteed events",
+    "explanation": "be supposed to可以说明安排、他人的预期或某种规则。The train was supposed to leave at nine说明原定九点发车，不保证它真的准点离开。You are not supposed to block the aisle表达规范上的不应做，不是说身体上做不到。使用时要结合上下文说明预期来自时刻表、通知还是某个人的理解。",
+    "usage": "区分计划或规则与实际发生的事，保留预期的信息来源。",
+    "nuance": "was supposed to常用于解释安排未实现，但单凭结构仍不能断言一定失败。不要把supposed与表示猜测的I suppose简单等同。",
+    "structure": [
+      "am/is/are/was/were supposed to + base verb",
+      "be not supposed to + base verb (a norm or expectation)"
+    ],
+    "formation": [
+      "am/is/are/was/were supposed to + base verb",
+      "be not supposed to + base verb (a norm or expectation)"
+    ],
+    "examples": [
+      {
+        "target": "The train was supposed to leave at nine.",
+        "zh": "这趟列车原定九点发车。"
+      },
+      {
+        "target": "We are supposed to meet on the platform.",
+        "zh": "按安排，我们应在站台见面。"
+      },
+      {
+        "target": "You are not supposed to leave luggage in the aisle.",
+        "zh": "按规定，不应把行李留在过道。"
+      },
+      {
+        "target": "The conductor was supposed to check our tickets before departure.",
+        "zh": "按安排，列车员应在发车前检查我们的车票。"
+      }
+    ],
+    "notes": [
+      "学习目标：区分计划或规则与实际发生的事，保留预期的信息来源。",
+      "等级是教学编排，不声称官方穷尽JLPT/CEFR清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "The train supposed to leave at nine.",
+        "correct": "The train was supposed to leave at nine.",
+        "explanation": "supposed前需要与主语和时间匹配的be；不能省略was。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-b2-be-allowed-to",
+        "explanation": "supposed to着重预期或规范；allowed to着重是否获得许可。被允许并不表示一定会执行。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-b1-passive-processes"
+    ],
+    "relatedGrammar": [
+      "grammar-en-b2-be-allowed-to"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-b2-be-supposed-to-1",
+        "kind": "meaning",
+        "prompt": "“The train was supposed to leave at nine.” 能确定什么？",
+        "options": [
+          "列车确实九点离开",
+          "列车原定九点离开",
+          "列车九点一定已到终点"
+        ],
+        "acceptedAnswers": [
+          "列车原定九点离开"
+        ],
+        "explanation": "结构报告安排，不提供实际发车时间的保证。"
+      },
+      {
+        "id": "grammar-en-b2-be-supposed-to-2",
+        "kind": "fill",
+        "prompt": "We（　）supposed to meet on the platform.",
+        "options": [
+          "do",
+          "have",
+          "are"
+        ],
+        "acceptedAnswers": [
+          "are"
+        ],
+        "explanation": "复数主语we在现在的安排中使用are supposed to。"
+      },
+      {
+        "id": "grammar-en-b2-be-supposed-to-3",
+        "kind": "error",
+        "prompt": "哪句正确表达“不应挡住过道”的规范？",
+        "options": [
+          "You are not supposed to block the aisle.",
+          "You not supposed block the aisle.",
+          "You are not suppose blocking the aisle."
+        ],
+        "acceptedAnswers": [
+          "You are not supposed to block the aisle."
+        ],
+        "explanation": "需要be、supposed及to加动词原形，否定放在be后。"
+      },
+      {
+        "id": "grammar-en-b2-be-supposed-to-4",
+        "kind": "context",
+        "prompt": "时刻表原定九点，但现在还不知道实际发车时间。哪句保留这个区别？",
+        "options": [
+          "It definitely left at nine.",
+          "It was supposed to leave at nine.",
+          "It cannot ever leave after nine."
+        ],
+        "acceptedAnswers": [
+          "It was supposed to leave at nine."
+        ],
+        "explanation": "supposed to保留预期与实际之间的区别，不应替换成确定发生。"
+      },
+      {
+        "id": "grammar-en-b2-be-supposed-to-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“按安排，我们应在站台见面。”译成英语。",
+        "acceptedAnswers": [
+          "We are supposed to meet on the platform.",
+          "We are supposed to meet on the platform"
+        ],
+        "explanation": "are supposed to说明约定，meet保持原形。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b2-be-allowed-to",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B2",
+    "difficulty": 3,
+    "tags": [
+      "v3-vocabulary-16",
+      "linked-practical-unit"
+    ],
+    "title": "Be allowed to: permission, not ability",
+    "pattern": "be allowed to + base verb",
+    "meaningZh": "获准……；被允许……",
+    "meaningEn": "Permission granted by a person or rule",
+    "explanation": "be allowed to加动词原形表示得到许可。Passengers are allowed to wait here说明此处允许等候，而不是说明旅客有等候的身体能力。过去式was allowed to可以说明某次获准的情况。否定was not allowed to是否定许可，不能与did not have to的“不必”混同。",
+    "usage": "阅读具体规则或描述获准行动，分清许可、能力和必要性。",
+    "nuance": "许可可能受地点、票种或时间限制。报告被允许，并不一定说明后来真的执行了；除非上下文另外明确。",
+    "structure": [
+      "be allowed to + base verb",
+      "be not allowed to + base verb",
+      "was/were allowed to + base verb (past permission)"
+    ],
+    "formation": [
+      "be allowed to + base verb",
+      "be not allowed to + base verb",
+      "was/were allowed to + base verb (past permission)"
+    ],
+    "examples": [
+      {
+        "target": "Passengers are allowed to wait in this room.",
+        "zh": "旅客获准在这间屋里等候。"
+      },
+      {
+        "target": "We were allowed to use the earlier connection.",
+        "zh": "我们获准乘坐更早的接驳班次。"
+      },
+      {
+        "target": "Passengers are not allowed to block the aisle with large suitcases.",
+        "zh": "不允许乘客用大行李箱堵住过道。"
+      },
+      {
+        "target": "Was she allowed to transfer without another ticket?",
+        "zh": "她当时获准不另买票就换乘吗？"
+      }
+    ],
+    "notes": [
+      "学习目标：阅读具体规则或描述获准行动，分清许可、能力和必要性。",
+      "等级是教学编排，不声称官方穷尽JLPT/CEFR清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "We were allowed use the earlier connection.",
+        "correct": "We were allowed to use the earlier connection.",
+        "explanation": "allowed后需要to加动词原形；不能省略to。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-b2-be-supposed-to",
+        "explanation": "被要求或原定做与获准做不同；are supposed to meet不等于只是可以选择见面。"
+      },
+      {
+        "grammarId": "grammar-en-a1-can-ability",
+        "explanation": "can可谈能力，也可在语境中谈许可；allowed to明确把焦点放在许可。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-b1-passive-processes"
+    ],
+    "relatedGrammar": [
+      "grammar-en-b2-be-supposed-to",
+      "grammar-en-a1-can-ability"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-b2-be-allowed-to-1",
+        "kind": "meaning",
+        "prompt": "“We were allowed to use the earlier connection.” 直接说明什么？",
+        "options": [
+          "我们一定已坐上该班次",
+          "我们没有能力换乘",
+          "我们获得了使用该班次的许可"
+        ],
+        "acceptedAnswers": [
+          "我们获得了使用该班次的许可"
+        ],
+        "explanation": "句子本身报告许可，实际有没有乘坐还需更多信息。"
+      },
+      {
+        "id": "grammar-en-b2-be-allowed-to-2",
+        "kind": "fill",
+        "prompt": "Passengers are allowed（　）in this room.",
+        "options": [
+          "to wait",
+          "wait",
+          "waiting"
+        ],
+        "acceptedAnswers": [
+          "to wait"
+        ],
+        "explanation": "be allowed to后使用动词原形wait。"
+      },
+      {
+        "id": "grammar-en-b2-be-allowed-to-3",
+        "kind": "context",
+        "prompt": "你想说明不许堵过道，而不是不必堵。应选哪句？",
+        "options": [
+          "Passengers do not have to block the aisle.",
+          "Passengers are not allowed to block the aisle.",
+          "Passengers are unable to see an aisle."
+        ],
+        "acceptedAnswers": [
+          "Passengers are not allowed to block the aisle."
+        ],
+        "explanation": "not allowed明确禁止许可；do not have to只是说没有必要，意义不同。"
+      },
+      {
+        "id": "grammar-en-b2-be-allowed-to-4",
+        "kind": "error",
+        "prompt": "哪句保留正确过去许可结构？",
+        "options": [
+          "We were allowed to transfer.",
+          "We were allow to transfer.",
+          "We allowed transferring by the notice."
+        ],
+        "acceptedAnswers": [
+          "We were allowed to transfer."
+        ],
+        "explanation": "需要were allowed to加动词原形；其他选项没有正确构成该被动许可表达。"
+      },
+      {
+        "id": "grammar-en-b2-be-allowed-to-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“旅客获准在这间屋里等候。”译成英语。",
+        "acceptedAnswers": [
+          "Passengers are allowed to wait in this room.",
+          "Passengers are allowed to wait in this room"
+        ],
+        "explanation": "are allowed to wait说明许可，并不声称人人都正在等候。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b2-had-better",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B2",
+    "difficulty": 3,
+    "tags": [
+      "v3-vocabulary-16",
+      "linked-practical-unit"
+    ],
+    "title": "Had better: a specific warning or recommendation",
+    "pattern": "had better (not) + base verb",
+    "meaningZh": "最好……；最好别……",
+    "meaningEn": "Strong situational advice with an implied consequence",
+    "explanation": "had better通常针对当前或即将发生的具体情况提出较强建议，并暗示不这样做可能有不利后果。We had better keep the test report强调这次应保留报告。虽然形式有had，意义通常不在过去。后面直接接不带to的动词原形，否定为had better not do。",
+    "usage": "提出有具体理由的当前建议，识别比一般should更强的语气。",
+    "nuance": "had better有时听起来像警告或催促；不能当作任何场合都客气的建议。过去已经发生的错误通常另用should have等结构，本课不将两者混用。",
+    "structure": [
+      "had better + base verb",
+      "had better not + base verb",
+      "I had better / I’d better (contraction)"
+    ],
+    "formation": [
+      "had better + base verb",
+      "had better not + base verb",
+      "I had better / I’d better (contraction)"
+    ],
+    "examples": [
+      {
+        "target": "We had better keep the diagnostic report.",
+        "zh": "我们最好保留诊断报告。"
+      },
+      {
+        "target": "You had better not install unverified firmware.",
+        "zh": "你最好不要安装未经核验的固件。"
+      },
+      {
+        "target": "I had better ask which tests the retailer performed.",
+        "zh": "我最好问清零售商做了哪些测试。"
+      },
+      {
+        "target": "We had better leave enough time for the return journey.",
+        "zh": "我们最好给返程留出足够时间。"
+      }
+    ],
+    "notes": [
+      "学习目标：提出有具体理由的当前建议，识别比一般should更强的语气。",
+      "等级是教学编排，不声称官方穷尽JLPT/CEFR清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "We had better to keep the report.",
+        "correct": "We had better keep the report.",
+        "explanation": "had better后直接接动词原形，不加to。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-a2-should-advice",
+        "explanation": "should适合一般建议；had better常针对具体情境暗示不做的后果，语气可能更强。"
+      },
+      {
+        "grammarId": "grammar-en-b2-may-as-well",
+        "explanation": "had better提出较强建议；may as well表示没有明显更好的替代，通常语气较轻。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-a2-should-advice"
+    ],
+    "relatedGrammar": [
+      "grammar-en-a2-should-advice",
+      "grammar-en-b2-may-as-well"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-b2-had-better-1",
+        "kind": "meaning",
+        "prompt": "“We had better keep the report.” 通常表达什么？",
+        "options": [
+          "只是陈述我们昨天保留过报告",
+          "针对当前情况较强地建议保留报告",
+          "禁止阅读任何报告"
+        ],
+        "acceptedAnswers": [
+          "针对当前情况较强地建议保留报告"
+        ],
+        "explanation": "had是结构的一部分，不把建议自动放到过去。"
+      },
+      {
+        "id": "grammar-en-b2-had-better-2",
+        "kind": "fill",
+        "prompt": "You had better（　）unverified firmware.",
+        "options": [
+          "not to install",
+          "not install",
+          "do not installing"
+        ],
+        "acceptedAnswers": [
+          "not install"
+        ],
+        "explanation": "否定是had better not加动词原形，不能插入to。"
+      },
+      {
+        "id": "grammar-en-b2-had-better-3",
+        "kind": "error",
+        "prompt": "哪句正确提出当前建议？",
+        "options": [
+          "I had better to ask first.",
+          "I had better asking first.",
+          "I had better ask first."
+        ],
+        "acceptedAnswers": [
+          "I had better ask first."
+        ],
+        "explanation": "had better后直接接ask，不接to或-ing。"
+      },
+      {
+        "id": "grammar-en-b2-had-better-4",
+        "kind": "context",
+        "prompt": "返程车次很少，不留时间可能赶不上。哪句最符合本课语气？",
+        "options": [
+          "We had better leave enough time.",
+          "We left early yesterday.",
+          "We may have left earlier than usual."
+        ],
+        "acceptedAnswers": [
+          "We had better leave enough time."
+        ],
+        "explanation": "当前具体风险支持较强的情境建议；其他两句描述过去，不是所需建议。"
+      },
+      {
+        "id": "grammar-en-b2-had-better-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“我们最好保留诊断报告。”译成英语。",
+        "acceptedAnswers": [
+          "We had better keep the diagnostic report.",
+          "We’d better keep the diagnostic report.",
+          "We'd better keep the diagnostic report."
+        ],
+        "explanation": "had better加keep原形；We’d是We had在该结构中的缩写。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-en-b2-may-as-well",
+    "kind": "grammar",
+    "language": "en",
+    "level": "B2",
+    "difficulty": 3,
+    "tags": [
+      "v3-vocabulary-16",
+      "linked-practical-unit"
+    ],
+    "title": "May as well: no clearly better alternative",
+    "pattern": "may / might as well + base verb",
+    "meaningZh": "不如就……；还是……吧",
+    "meaningEn": "A practical option when alternatives offer little advantage",
+    "explanation": "may as well或might as well加动词原形，常表示在当前选择中没有明显更好的办法，不如做某事。We may as well wait for the test result提出顺便等候，而不是推测“我们可能同样好”。它不保证行动最佳，也不同于may well表示很可能或有理由的判断。",
+    "usage": "基于当前替代方案提出务实选择，区分建议与概率推测。",
+    "nuance": "有时带一点无奈或接受现实的意味；也可以是轻松的顺便建议。不要把as well拆成和另一人一样好的比较。",
+    "structure": [
+      "may as well + base verb",
+      "might as well + base verb"
+    ],
+    "formation": [
+      "may as well + base verb",
+      "might as well + base verb"
+    ],
+    "examples": [
+      {
+        "target": "We may as well wait for the test result.",
+        "zh": "我们不如等一等测试结果。"
+      },
+      {
+        "target": "The next train is much later, so we might as well have lunch here.",
+        "zh": "下一班车晚很多，我们不如就在这里吃午饭。"
+      },
+      {
+        "target": "You may as well ask for a written explanation while you are here.",
+        "zh": "既然你在这里，不如顺便要一份书面说明。"
+      },
+      {
+        "target": "I might as well check the return time now.",
+        "zh": "我不如现在查一下返程时间。"
+      }
+    ],
+    "notes": [
+      "学习目标：基于当前替代方案提出务实选择，区分建议与概率推测。",
+      "等级是教学编排，不声称官方穷尽JLPT/CEFR清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "We may as well to wait for the result.",
+        "correct": "We may as well wait for the result.",
+        "explanation": "may as well后接不带to的动词原形wait。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-en-b2-had-better",
+        "explanation": "may as well着重当前没有更有利的替代；had better常强调不照做的潜在后果。"
+      },
+      {
+        "grammarId": "grammar-en-c1-may-well-epistemic",
+        "explanation": "may well是有理由的可能性判断；may as well是务实选择，两者不能仅凭may相同就互换。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-en-a2-should-advice"
+    ],
+    "relatedGrammar": [
+      "grammar-en-b2-had-better",
+      "grammar-en-c1-may-well-epistemic"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-en-b2-may-as-well-1",
+        "kind": "meaning",
+        "prompt": "“We may as well wait for the result.” 最贴近什么？",
+        "options": [
+          "我们已经知道结果一定有利",
+          "我们比其他人等得更好",
+          "当前不如就等一下结果"
+        ],
+        "acceptedAnswers": [
+          "当前不如就等一下结果"
+        ],
+        "explanation": "结构提出一个在现有替代中务实的行动，不保证结果。"
+      },
+      {
+        "id": "grammar-en-b2-may-as-well-2",
+        "kind": "fill",
+        "prompt": "We might as well（　）the return time now.",
+        "options": [
+          "check",
+          "to check",
+          "checking"
+        ],
+        "acceptedAnswers": [
+          "check"
+        ],
+        "explanation": "may/might as well后使用动词原形，不接to或-ing。"
+      },
+      {
+        "id": "grammar-en-b2-may-as-well-3",
+        "kind": "context",
+        "prompt": "下一班车很晚，附近又有餐馆。哪句是在提出务实选择？",
+        "options": [
+          "We might have eaten before we arrived.",
+          "We might as well have lunch here.",
+          "We were supposed to bring our own lunch."
+        ],
+        "acceptedAnswers": [
+          "We might as well have lunch here."
+        ],
+        "explanation": "缺少更有利的替代时，might as well自然提出就在此吃午饭。"
+      },
+      {
+        "id": "grammar-en-b2-may-as-well-4",
+        "kind": "error",
+        "prompt": "哪句正确使用本课结构？",
+        "options": [
+          "I might as well ask now.",
+          "I might as well to ask now.",
+          "I might as well asking now."
+        ],
+        "acceptedAnswers": [
+          "I might as well ask now."
+        ],
+        "explanation": "ask是动词原形；另外两句错误加入to或-ing。"
+      },
+      {
+        "id": "grammar-en-b2-may-as-well-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“我不如现在查一下返程时间。”译成英语。",
+        "acceptedAnswers": [
+          "I might as well check the return time now.",
+          "I may as well check the return time now."
+        ],
+        "explanation": "may as well和might as well都可以提出这里的务实选择。"
+      }
+    ]
+  }
+]
