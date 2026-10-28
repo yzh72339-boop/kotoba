@@ -1,0 +1,119 @@
+{
+  "id": "article-en-b2-a-test-before-a-decision",
+  "kind": "reading",
+  "language": "en",
+  "level": "B2",
+  "difficulty": 3,
+  "tags": [
+    "v3-vocabulary-16",
+    "linked-practical-unit"
+  ],
+  "title": "A test before a decision",
+  "topic": "日常生活",
+  "genre": "story",
+  "estimatedMinutes": 3,
+  "paragraphs": [
+    "I bought a second-hand camera for a weekend trip, but some of the first photographs looked unusually soft. I assumed the sensor was damaged. At the shop, the retailer asked whether the problem appeared in every image or only under particular conditions. I could not answer. I had deleted several disappointing pictures, keeping only the one that seemed to prove my explanation. The question made me realise how little of the original evidence I had preserved.",
+    "The assistant suggested comparing the same subject under fixed conditions. We noted the aperture and exposure settings, the lens in use and whether image stabilisation was active. A calibration check formed part of the test, but it was not a promise that one adjustment would solve everything. The shop first confirmed that the equipment was compatible. It also recorded the firmware version before changing anything, so that a later result could be compared with the starting point.",
+    "The problem was intermittent. One set of pictures looked normal, while another showed the same softness that had worried me. The assistant called it a possible malfunction rather than declaring a cause. “We had better keep the diagnostic report,” I said. The report separated what had been observed from what still needed testing. I had arrived wanting an immediate explanation; now I wanted a record that would allow someone else to inspect how the explanation was reached. Such malfunctions can be difficult to reproduce on demand.",
+    "The shop could continue checking the camera while I stayed nearby. We may as well wait for the test result, my friend suggested, since returning the next day would take another journey. While we waited, I asked about the process if the camera needed to be sent away. The retailer explained which costs might qualify for reimbursement and said that an estimate would be supplied before any paid work. I asked for that explanation in writing instead of assuming that every cost would be covered.",
+    "We eventually agreed on a further test, not on a final diagnosis. That was less satisfying than an instant answer, but it was a clearer next step. Before leaving, I saved the remaining original pictures and the settings used to produce them. My friend reminded me that a warning and a practical choice do different work: we had better preserve the evidence because losing it would make comparison harder; we might as well wait when the alternatives offered little advantage. Neither expression could replace the evidence itself."
+  ],
+  "translation": [
+    "我为周末旅行买了二手相机，但最初几张照片异常模糊，便认定感光元件坏了。零售商询问问题是每张都有，还是仅在特定条件下出现，我却答不上来。我删掉了几张不满意的，只留看似证明自己解释的一张，才发现原始证据保留得很少。",
+    "店员建议在固定条件下拍同一主体，记录光圈、曝光、镜头和防抖状态。测试包括校准检查，却不保证一次调整能解决所有问题。店里先确认设备兼容，也在改动前记录固件版本，方便之后与起点比较。",
+    "问题是间歇性的：一组正常，另一组又模糊。店员称其可能是故障，没有断言原因。我说最好保留诊断报告。报告区分已观察到的情况和仍需测试的部分。我原先只想立刻得到解释，现在想要一份让别人能审查解释如何得出的记录。这类故障未必能在需要时立即重现。",
+    "店里能继续检查，我们也在附近。朋友说既然明天再来还要多跑一趟，不如等结果。等候时，我询问若需送修怎么办。零售商解释哪些费用可能获得补偿，并说付费工作前会先报价。我要求书面说明，没有假定全部费用都能报销。",
+    "最后约定进一步测试，而非得出最终诊断。这不如立即有答案令人满意，却是更明确的下一步。离开前，我保存剩余原片及设置。朋友提醒：警告和务实选择作用不同。保留证据是较强建议，因为丢失会妨碍比较；没有更好替代时，等候是务实选择。两种表达都代替不了证据。"
+  ],
+  "vocabulary": [
+    "context-en-b2-b16-13",
+    "context-en-b2-b16-14",
+    "context-en-b2-b16-15",
+    "context-en-b2-b16-16",
+    "context-en-b2-b16-17",
+    "context-en-b2-b16-18",
+    "context-en-b2-b16-19",
+    "context-en-b2-b16-20",
+    "context-en-b2-b16-21",
+    "context-en-b2-b16-22",
+    "context-en-b2-b16-23",
+    "context-en-b2-b16-24"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-en-b2-had-better",
+      "surface": "had better keep the diagnostic report"
+    },
+    {
+      "id": "grammar-en-b2-may-as-well",
+      "surface": "may as well wait for the test result"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-en-b2-a-test-before-a-decision-q1",
+      "type": "main-idea",
+      "prompt": "What changes most in the narrator’s approach?",
+      "options": [
+        "The narrator moves from an assumed cause to preserving evidence and a testable next step.",
+        "The narrator proves that all soft photographs have one cause.",
+        "The narrator decides that records prevent any further test."
+      ],
+      "answer": 0,
+      "explanation": "The story moves from a deleted, selectively retained image to saved originals, recorded settings and a further test rather than a final unsupported diagnosis."
+    },
+    {
+      "id": "article-en-b2-a-test-before-a-decision-q2",
+      "type": "detail",
+      "prompt": "Why was the firmware version recorded before changes?",
+      "options": [
+        "To guarantee an immediate repair.",
+        "To replace the need for any original images.",
+        "To support comparison with the starting condition."
+      ],
+      "answer": 2,
+      "explanation": "Paragraph two states that a later result could be compared with the starting point."
+    },
+    {
+      "id": "article-en-b2-a-test-before-a-decision-q3",
+      "type": "vocabulary",
+      "prompt": "What does intermittent mean here?",
+      "options": [
+        "Constant in every single test.",
+        "Appearing on some occasions rather than continuously.",
+        "Already proved to be a sensor defect."
+      ],
+      "answer": 1,
+      "explanation": "The next sentences contrast a normal set of pictures with a set showing the problem; the cause remains unsettled."
+    },
+    {
+      "id": "article-en-b2-a-test-before-a-decision-q4",
+      "type": "grammar",
+      "prompt": "Why does “may as well wait” fit the friend’s suggestion?",
+      "options": [
+        "Waiting is presented as practical when returning offers little advantage.",
+        "It guarantees a favourable diagnostic result.",
+        "It reports a test completed on a previous day."
+      ],
+      "answer": 0,
+      "explanation": "Staying nearby avoids another journey; the phrase proposes an action without guaranteeing the outcome."
+    },
+    {
+      "id": "article-en-b2-a-test-before-a-decision-q5",
+      "type": "inference",
+      "prompt": "Why does the narrator ask for written reimbursement details?",
+      "options": [
+        "Because every cost has already been paid automatically.",
+        "To clarify the limits instead of assuming all costs are covered.",
+        "To refuse every possible further test."
+      ],
+      "answer": 1,
+      "explanation": "Paragraph four explicitly contrasts a written explanation of qualifying costs with an unsupported assumption that all costs would be covered."
+    }
+  ],
+  "notes": [
+    "Original fictional consumer scenario. It models evidence and language choices, not a guaranteed diagnosis or a real retailer’s policy.",
+    "Reading time uses160 English words/minute, rounded up."
+  ]
+}

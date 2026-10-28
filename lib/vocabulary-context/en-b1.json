@@ -1049,5 +1049,177 @@
     "frequency": "high",
     "register": "neutral",
     "sourceRef": "Kotoba 3.1 original vocabulary batch14"
+  },
+  {
+    "id": "context-en-b1-b16-05",
+    "word": "carriage",
+    "pronunciation": "/ˈkærɪdʒ/",
+    "meaning": "铁路车厢",
+    "example": "The first carriage was crowded.",
+    "translation": "第一节车厢很拥挤。",
+    "tag": "B1 · noun",
+    "related": "a railway carriage",
+    "pos": "noun",
+    "senses": [
+      "铁路车厢"
+    ],
+    "collocations": [
+      "a railway carriage"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b1-b16-06",
+    "word": "aisle",
+    "pronunciation": "/aɪl/",
+    "meaning": "过道",
+    "example": "Please leave the aisle clear.",
+    "translation": "请保持过道畅通。",
+    "tag": "B1 · noun",
+    "related": "an aisle seat",
+    "pos": "noun",
+    "senses": [
+      "过道"
+    ],
+    "collocations": [
+      "an aisle seat"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b1-b16-07",
+    "word": "departure",
+    "pronunciation": "/dɪˈpɑːtʃə/",
+    "meaning": "出发；发车",
+    "example": "The screen showed a later departure.",
+    "translation": "屏幕显示发车时间推迟。",
+    "tag": "B1 · noun",
+    "related": "departure time",
+    "pos": "noun",
+    "senses": [
+      "出发",
+      "发车"
+    ],
+    "collocations": [
+      "departure time"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b1-b16-08",
+    "word": "destination",
+    "pronunciation": "/ˌdestɪˈneɪʃən/",
+    "meaning": "目的地",
+    "example": "Our destination was a town beside the sea.",
+    "translation": "我们的目的地是海边的一座小镇。",
+    "tag": "B1 · noun",
+    "related": "reach a destination",
+    "pos": "noun",
+    "senses": [
+      "目的地"
+    ],
+    "collocations": [
+      "reach a destination"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b1-b16-09",
+    "word": "connection",
+    "pronunciation": "/kəˈnekʃən/",
+    "meaning": "接驳班次；连接",
+    "example": "We asked about the next connection.",
+    "translation": "我们询问了下一班接驳车。",
+    "tag": "B1 · noun",
+    "related": "miss a connection",
+    "pos": "noun",
+    "senses": [
+      "接驳班次",
+      "连接"
+    ],
+    "collocations": [
+      "miss a connection"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b1-b16-10",
+    "word": "transfer",
+    "pronunciation": "/trænsˈfɜː/",
+    "meaning": "换乘；转移",
+    "example": "We need to transfer at the next station.",
+    "translation": "我们需要在下一站换乘。",
+    "tag": "B1 · verb",
+    "related": "transfer to another train",
+    "pos": "verb",
+    "senses": [
+      "换乘",
+      "转移"
+    ],
+    "collocations": [
+      "transfer to another train"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b1-b16-12",
+    "word": "conductor",
+    "pronunciation": "/kənˈdʌktə/",
+    "meaning": "列车员；指挥",
+    "example": "The conductor checked the notice before answering.",
+    "translation": "列车员回答前先核对了通知。",
+    "tag": "B1 · noun",
+    "related": "a train conductor",
+    "pos": "noun",
+    "senses": [
+      "列车员",
+      "指挥"
+    ],
+    "collocations": [
+      "a train conductor"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
   }
 ]

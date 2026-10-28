@@ -1,0 +1,573 @@
+[
+  {
+    "id": "grammar-ja-n4-nakutemo-ii",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "v3-vocabulary-16",
+      "linked-practical-unit"
+    ],
+    "title": "〜なくてもいい：没有必要做",
+    "pattern": "Vない形のい → くてもいい",
+    "meaningZh": "不做……也可以；不必……",
+    "meaningEn": "Absence of necessity, not a prohibition",
+    "explanation": "动词ない形去掉末尾い，加くてもいい，表示不做这件事也可以。予約しなくてもいい说明不要求预约，并不禁止预约。礼貌说法为しなくてもいいです；还可以说しなくてもかまいません。本课聚焦动词，不能把なくてもいい误解成绝对不能做。",
+    "usage": "看懂某项手续或准备并非必须，区分可以省略和禁止。",
+    "nuance": "许可省略仍需明确适用范围。切符を見せなくてもいい可能只指某个具体情境，不能推出任何车站都不用出示车票。",
+    "structure": [
+      "动词ない形去い + くてもいい（です）",
+      "する → しなくてもいい；行く → 行かなくてもいい"
+    ],
+    "formation": [
+      "动词ない形去い + くてもいい（です）",
+      "する → しなくてもいい；行く → 行かなくてもいい"
+    ],
+    "examples": [
+      {
+        "target": "この電車は予約しなくてもいいです。",
+        "reading": "このでんしゃはよやくしなくてもいいです。",
+        "zh": "这趟列车不必预约。"
+      },
+      {
+        "target": "紙の地図を持って行かなくてもいいです。",
+        "reading": "かみのちずをもっていかなくてもいいです。",
+        "zh": "不带纸质地图也可以。"
+      },
+      {
+        "target": "全部の写真を印刷しなくてもいいです。",
+        "reading": "ぜんぶのしゃしんをいんさつしなくてもいいです。",
+        "zh": "不必把全部照片都打印出来。"
+      },
+      {
+        "target": "今日は早く起きなくてもいいです。",
+        "reading": "きょうははやくおきなくてもいいです。",
+        "zh": "今天不必早起。"
+      }
+    ],
+    "notes": [
+      "学习目标：看懂某项手续或准备并非必须，区分可以省略和禁止。",
+      "等级是教学编排，不声称官方穷尽JLPT/CEFR清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "予約しないてもいいです。",
+        "correct": "予約しなくてもいいです。",
+        "explanation": "しない去掉末尾い，再接くてもいい；不能把ない直接接ても。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n4-nakereba-naranai",
+        "explanation": "なくてもいい否定必要性；なければならない要求执行，两者的行动要求相反。"
+      },
+      {
+        "grammarId": "grammar-ja-n5-te-mo-ii-permission",
+        "explanation": "てもいい允许做；なくてもいい允许不做，不能遗漏否定部分。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-nai-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n4-nakereba-naranai",
+      "grammar-ja-n5-te-mo-ii-permission"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n4-nakutemo-ii-1",
+        "kind": "meaning",
+        "prompt": "「予約しなくてもいいです」表示什么？",
+        "options": [
+          "不要求预约，但没有禁止预约",
+          "绝对不能预约",
+          "必须提前预约"
+        ],
+        "acceptedAnswers": [
+          "不要求预约，但没有禁止预约"
+        ],
+        "explanation": "本结构表示没有必要，不等于禁止。"
+      },
+      {
+        "id": "grammar-ja-n4-nakutemo-ii-2",
+        "kind": "fill",
+        "prompt": "紙の地図を持って（　）いいです。请选择“不必带去”的接续。",
+        "options": [
+          "行かないても",
+          "行かなくても",
+          "行くなくても"
+        ],
+        "acceptedAnswers": [
+          "行かなくても"
+        ],
+        "explanation": "行く的ない形是行かない，去い后加くても。"
+      },
+      {
+        "id": "grammar-ja-n4-nakutemo-ii-3",
+        "kind": "error",
+        "prompt": "哪句正确表达“不必全部打印”？",
+        "options": [
+          "全部印刷しないてもいいです。",
+          "全部印刷するなくてもいいです。",
+          "全部印刷しなくてもいいです。"
+        ],
+        "acceptedAnswers": [
+          "全部印刷しなくてもいいです。"
+        ],
+        "explanation": "する变成しない，再构成しなくてもいい。"
+      },
+      {
+        "id": "grammar-ja-n4-nakutemo-ii-4",
+        "kind": "context",
+        "prompt": "工作人员说不带纸地图也可，但你愿意带。能从原句推出什么？",
+        "options": [
+          "带纸地图没有被这句话禁止",
+          "带纸地图一定违法",
+          "所有地图都不能使用"
+        ],
+        "acceptedAnswers": [
+          "带纸地图没有被这句话禁止"
+        ],
+        "explanation": "没有必要做，并不自动等于不许做；其他规定需另外确认。"
+      },
+      {
+        "id": "grammar-ja-n4-nakutemo-ii-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“今天不必早起。”译成日语。",
+        "acceptedAnswers": [
+          "今日は早く起きなくてもいいです。",
+          "今日は早く起きなくてもいい。"
+        ],
+        "explanation": "起きない去い，加くてもいい；末尾です使语气礼貌。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n4-nakereba-naranai",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "v3-vocabulary-16",
+      "linked-practical-unit"
+    ],
+    "title": "〜なければならない：必须做",
+    "pattern": "Vない形のい → ければならない",
+    "meaningZh": "必须……；不得不……",
+    "meaningEn": "An obligation or necessary action",
+    "explanation": "动词ない形去掉末尾い，接ければならない，表达必须做的事情。切符を買わなければならない要求买票，而不是要求不买。礼貌形为なければなりません。这个形式由否定条件构成，但整体表达肯定的义务；不要只看到ない便判断为禁止。",
+    "usage": "说明有根据的规则或必要步骤，并与没有必要做区分。",
+    "nuance": "口语中有なきゃ等缩略说法；本课先掌握完整形式。描述要求时应注明谁、何时、在哪种情境下必须做，不把个别规则说成普遍规定。",
+    "structure": [
+      "动词ない形去い + ければならない／ければなりません",
+      "買う → 買わない → 買わなければならない"
+    ],
+    "formation": [
+      "动词ない形去い + ければならない／ければなりません",
+      "買う → 買わない → 買わなければならない"
+    ],
+    "examples": [
+      {
+        "target": "この旅行では、九時までに駅に着かなければなりません。",
+        "reading": "このりょこうでは、くじまでにえきにつかなければなりません。",
+        "zh": "这次旅行必须在九点前到站。"
+      },
+      {
+        "target": "乗る前に切符を買わなければなりません。",
+        "reading": "のるまえにきっぷをかわなければなりません。",
+        "zh": "乘车前必须买票。"
+      },
+      {
+        "target": "集合の時間を確認しなければなりません。",
+        "reading": "しゅうごうのじかんをかくにんしなければなりません。",
+        "zh": "必须确认集合时间。"
+      },
+      {
+        "target": "今日は早く帰らなければなりません。",
+        "reading": "きょうははやくかえらなければなりません。",
+        "zh": "今天必须早点回去。"
+      }
+    ],
+    "notes": [
+      "学习目标：说明有根据的规则或必要步骤，并与没有必要做区分。",
+      "等级是教学编排，不声称官方穷尽JLPT/CEFR清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "切符を買うなければなりません。",
+        "correct": "切符を買わなければなりません。",
+        "explanation": "買う要先变成買わない，再去掉い接ければなりません。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n4-nakutemo-ii",
+        "explanation": "なければならない提出义务；なくてもいい表示该行动不是必须，不等于命令不做。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-nai-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n4-nakutemo-ii"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n4-nakereba-naranai-1",
+        "kind": "meaning",
+        "prompt": "「切符を買わなければなりません」的要求是？",
+        "options": [
+          "不用买票",
+          "必须买票",
+          "禁止买票"
+        ],
+        "acceptedAnswers": [
+          "必须买票"
+        ],
+        "explanation": "整体表示买票的义务，不能按ない字面误解成不许买。"
+      },
+      {
+        "id": "grammar-ja-n4-nakereba-naranai-2",
+        "kind": "fill",
+        "prompt": "集合の時間を確認（　）。",
+        "options": [
+          "するなければなりません",
+          "しないければなりません",
+          "しなければなりません"
+        ],
+        "acceptedAnswers": [
+          "しなければなりません"
+        ],
+        "explanation": "する的ない形是しない，去い接ければなりません。"
+      },
+      {
+        "id": "grammar-ja-n4-nakereba-naranai-3",
+        "kind": "error",
+        "prompt": "哪句正确要求早点回家？",
+        "options": [
+          "早く帰らなければなりません。",
+          "早く帰るなければなりません。",
+          "早く帰りなければなりません。"
+        ],
+        "acceptedAnswers": [
+          "早く帰らなければなりません。"
+        ],
+        "explanation": "帰る是五段动词，ない形为帰らない，因此是帰らなければ。"
+      },
+      {
+        "id": "grammar-ja-n4-nakereba-naranai-4",
+        "kind": "context",
+        "prompt": "此行有九点集合要求，应选哪句？",
+        "options": [
+          "九時までに着かなくてもいいです。",
+          "九時までに着かなければなりません。",
+          "九時までに着いてはいけません。"
+        ],
+        "acceptedAnswers": [
+          "九時までに着かなければなりません。"
+        ],
+        "explanation": "需要表达必须到达，不能改成不必或不许。"
+      },
+      {
+        "id": "grammar-ja-n4-nakereba-naranai-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“今天必须早点回去。”译成日语。",
+        "acceptedAnswers": [
+          "今日は早く帰らなければなりません。",
+          "今日は早く帰らなければならない。"
+        ],
+        "explanation": "帰らない去い加ければならない；礼貌形用なりません。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n4-te-kara-order",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "v3-vocabulary-16",
+      "linked-practical-unit"
+    ],
+    "title": "〜てから：完成一步再继续",
+    "pattern": "Vて + から、次の動作",
+    "meaningZh": "做完……以后再……",
+    "meaningEn": "Completing one step before the next action",
+    "explanation": "动词て形加から，可以把前项作为后项之前需先完成的步骤。写真を撮ってから休みます说明先拍照再休息，强调这次安排中的顺序。它不保证两项之间完全没有间隔，也不表示所有类似场合都必须遵守同一顺序。与时间名词后的から“从某时起”要区分。",
+    "usage": "清楚安排旅行、拍照或学习中的先后步骤。",
+    "nuance": "前后项通常需要有合理的顺序关系。不要把名词的から起点用法直接套到动词辞书形上；拍照后再查看与拍照前检查也不能混同。",
+    "structure": [
+      "动词て形 + から + 下一步",
+      "撮る → 撮ってから；見る → 見てから"
+    ],
+    "formation": [
+      "动词て形 + から + 下一步",
+      "撮る → 撮ってから；見る → 見てから"
+    ],
+    "examples": [
+      {
+        "target": "写真を撮ってから、少し休みます。",
+        "reading": "しゃしんをとってから、すこしやすみます。",
+        "zh": "拍完照以后，稍微休息一下。"
+      },
+      {
+        "target": "時刻表を見てから、出発の時間を決めます。",
+        "reading": "じこくひょうをみてから、しゅっぱつのじかんをきめます。",
+        "zh": "先看时刻表，再决定出发时间。"
+      },
+      {
+        "target": "橋を渡ってから、右に曲がります。",
+        "reading": "はしをわたってから、みぎにまがります。",
+        "zh": "过桥以后向右转。"
+      },
+      {
+        "target": "家に帰ってから、写真を選びます。",
+        "reading": "いえにかえってから、しゃしんをえらびます。",
+        "zh": "回家以后再挑选照片。"
+      }
+    ],
+    "notes": [
+      "学习目标：清楚安排旅行、拍照或学习中的先后步骤。",
+      "等级是教学编排，不声称官方穷尽JLPT/CEFR清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "写真を撮るから、少し休みます。",
+        "correct": "写真を撮ってから、少し休みます。",
+        "explanation": "表达先拍照再休息用てから；撮るから可能被理解为“因为要拍照”，意义不同。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n4-ta-ato-de",
+        "explanation": "あとで也表达之后；てから常突出前项作为先完成的步骤，但不强制表示紧接同一瞬间。"
+      },
+      {
+        "grammarId": "grammar-ja-n5-mae-ni-before",
+        "explanation": "前に表示前项尚未发生之前，动词用辞书形；てから明确前项之后。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-te-mo-ii-permission"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n4-ta-ato-de",
+      "grammar-ja-n5-mae-ni-before"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n4-te-kara-order-1",
+        "kind": "meaning",
+        "prompt": "「写真を撮ってから休みます」安排的顺序是？",
+        "options": [
+          "先休息，再拍照",
+          "同时拍照和休息",
+          "先拍照，再休息"
+        ],
+        "acceptedAnswers": [
+          "先拍照，再休息"
+        ],
+        "explanation": "てから把拍照放在休息之前，不表示同时进行。"
+      },
+      {
+        "id": "grammar-ja-n4-te-kara-order-2",
+        "kind": "fill",
+        "prompt": "時刻表を（　）から、時間を決めます。",
+        "options": [
+          "見て",
+          "見る",
+          "見た"
+        ],
+        "acceptedAnswers": [
+          "見て"
+        ],
+        "explanation": "本结构使用て形見て，再接から。"
+      },
+      {
+        "id": "grammar-ja-n4-te-kara-order-3",
+        "kind": "context",
+        "prompt": "你想先过桥再转弯，应选哪句？",
+        "options": [
+          "橋を渡る前に、右に曲がります。",
+          "橋を渡ってから、右に曲がります。",
+          "橋を渡る前に、左に曲がります。"
+        ],
+        "acceptedAnswers": [
+          "橋を渡ってから、右に曲がります。"
+        ],
+        "explanation": "渡ってから保留先过桥后转弯的步骤；前に把顺序反了。"
+      },
+      {
+        "id": "grammar-ja-n4-te-kara-order-4",
+        "kind": "error",
+        "prompt": "哪句明确表达回家之后再挑照片？",
+        "options": [
+          "家に帰ってから、写真を選びます。",
+          "家に帰るから、写真を選びます。",
+          "家に帰ってまでから、写真を選びます。"
+        ],
+        "acceptedAnswers": [
+          "家に帰ってから、写真を選びます。"
+        ],
+        "explanation": "帰って是帰る的て形；其他两项没有所需的てから接续。"
+      },
+      {
+        "id": "grammar-ja-n4-te-kara-order-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“过桥以后向右转。”译成日语。",
+        "acceptedAnswers": [
+          "橋を渡ってから、右に曲がります。",
+          "橋を渡ってから右に曲がります。"
+        ],
+        "explanation": "渡ってから先交代完成过桥，再接后续转弯。"
+      }
+    ]
+  },
+  {
+    "id": "grammar-ja-n4-ta-ato-de",
+    "kind": "grammar",
+    "language": "ja",
+    "level": "N4",
+    "difficulty": 2,
+    "tags": [
+      "v3-vocabulary-16",
+      "linked-practical-unit"
+    ],
+    "title": "〜たあとで：某事之后",
+    "pattern": "Vた + あとで／Nの + あとで",
+    "meaningZh": "……之后",
+    "meaningEn": "Locating an action after another event",
+    "explanation": "动词た形加あとで，说明后项发生在该动作之后；名词则用Nのあとで，如散歩のあとで。橋を渡ったあとで写真を撮った交代拍照发生在过桥之后，不保证立刻拍，也不自动表示这项顺序是一条硬性规定。与辞书形加前に的形式不同。",
+    "usage": "叙述活动先后，分清动词和名词前的接续。",
+    "nuance": "あと可写作後。日常叙述中で有时省略；本课以あとで为主。动词前项的た形在未来安排中也可使用，不等于整件事已经完成。",
+    "structure": [
+      "动词た形 + あとで + 后项",
+      "名词 + の + あとで + 后项"
+    ],
+    "formation": [
+      "动词た形 + あとで + 后项",
+      "名词 + の + あとで + 后项"
+    ],
+    "examples": [
+      {
+        "target": "橋を渡ったあとで、写真を撮りました。",
+        "reading": "はしをわたったあとで、しゃしんをとりました。",
+        "zh": "过桥后拍了照片。"
+      },
+      {
+        "target": "散歩のあとで、喫茶店に入りました。",
+        "reading": "さんぽのあとで、きっさてんにはいりました。",
+        "zh": "散步后进了咖啡馆。"
+      },
+      {
+        "target": "写真を選んだあとで、友達に送ります。",
+        "reading": "しゃしんをえらんだあとで、ともだちにおくります。",
+        "zh": "选好照片后发给朋友。"
+      },
+      {
+        "target": "昼ご飯を食べたあとで、町を歩きます。",
+        "reading": "ひるごはんをたべたあとで、まちをあるきます。",
+        "zh": "吃过午饭后在镇上散步。"
+      }
+    ],
+    "notes": [
+      "学习目标：叙述活动先后，分清动词和名词前的接续。",
+      "等级是教学编排，不声称官方穷尽JLPT/CEFR清单。"
+    ],
+    "commonMistakes": [
+      {
+        "wrong": "散歩したのあとで、休みました。",
+        "correct": "散歩したあとで、休みました。",
+        "explanation": "动词た形直接接あとで，不加の；若用名词散歩，才是散歩のあとで。"
+      }
+    ],
+    "comparison": [
+      {
+        "grammarId": "grammar-ja-n4-te-kara-order",
+        "explanation": "两者都可表示之后；あとで较直接说明时间先后，てから常突出先完成一步再进行下一步。"
+      },
+      {
+        "grammarId": "grammar-ja-n5-mae-ni-before",
+        "explanation": "食べる前に在吃饭前；食べたあとで在吃饭后，前项动词形式也不同。"
+      }
+    ],
+    "prerequisites": [
+      "grammar-ja-n5-plain-form"
+    ],
+    "relatedGrammar": [
+      "grammar-ja-n4-te-kara-order",
+      "grammar-ja-n5-mae-ni-before"
+    ],
+    "exercises": [
+      {
+        "id": "grammar-ja-n4-ta-ato-de-1",
+        "kind": "meaning",
+        "prompt": "「散歩のあとで休みました」说明什么？",
+        "options": [
+          "散步以后休息了",
+          "一边散步一边休息",
+          "休息以后才散步"
+        ],
+        "acceptedAnswers": [
+          "散步以后休息了"
+        ],
+        "explanation": "名词散歩通过の接あとで，把休息放到散步之后。"
+      },
+      {
+        "id": "grammar-ja-n4-ta-ato-de-2",
+        "kind": "fill",
+        "prompt": "写真を（　）あとで、友達に送ります。",
+        "options": [
+          "選ぶ",
+          "選んだ",
+          "選んで"
+        ],
+        "acceptedAnswers": [
+          "選んだ"
+        ],
+        "explanation": "动词使用た形選んだ接あとで，即使后面的发送是未来安排。"
+      },
+      {
+        "id": "grammar-ja-n4-ta-ato-de-3",
+        "kind": "error",
+        "prompt": "哪句正确使用名词接续？",
+        "options": [
+          "散歩あとで休みます。",
+          "散歩なのあとで休みます。",
+          "散歩のあとで休みます。"
+        ],
+        "acceptedAnswers": [
+          "散歩のあとで休みます。"
+        ],
+        "explanation": "名词散歩要加の；不使用なの。"
+      },
+      {
+        "id": "grammar-ja-n4-ta-ato-de-4",
+        "kind": "context",
+        "prompt": "你还没选照片，计划选好再发送，应说哪句？",
+        "options": [
+          "写真を選んだあとで送ります。",
+          "写真を選ぶ前に必ず送ってあります。",
+          "写真を選ばずに送ります。"
+        ],
+        "acceptedAnswers": [
+          "写真を選んだあとで送ります。"
+        ],
+        "explanation": "前项た形表示相对后项的先行完成，不要求说话时已选好照片。"
+      },
+      {
+        "id": "grammar-ja-n4-ta-ato-de-5",
+        "kind": "translation",
+        "prompt": "参照例句，把“散步后进了咖啡馆。”译成日语。",
+        "acceptedAnswers": [
+          "散歩のあとで、喫茶店に入りました。",
+          "散歩の後で、喫茶店に入りました。"
+        ],
+        "explanation": "散歩是名词，通过の接あとで；後是相同表达的汉字写法。"
+      }
+    ]
+  }
+]

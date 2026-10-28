@@ -756,5 +756,585 @@
     "frequency": "medium",
     "register": "neutral",
     "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-ja-n4-b16-01",
+    "word": "切符",
+    "pronunciation": "きっぷ",
+    "meaning": "车票",
+    "example": "切符を二枚買います。",
+    "translation": "买两张车票。",
+    "tag": "JLPT N4 · noun",
+    "related": "切符を買う",
+    "pos": "noun",
+    "senses": [
+      "车票"
+    ],
+    "collocations": [
+      "切符を買う"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-02",
+    "word": "乗り場",
+    "pronunciation": "のりば",
+    "meaning": "乘车处",
+    "example": "乗り場を確認します。",
+    "translation": "确认乘车处。",
+    "tag": "JLPT N4 · noun",
+    "related": "バスの乗り場",
+    "pos": "noun",
+    "senses": [
+      "乘车处"
+    ],
+    "collocations": [
+      "バスの乗り場"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-03",
+    "word": "改札",
+    "pronunciation": "かいさつ",
+    "meaning": "检票口；检票",
+    "example": "改札で友達を待ちます。",
+    "translation": "在检票口等朋友。",
+    "tag": "JLPT N4 · noun",
+    "related": "改札を通る",
+    "pos": "noun",
+    "senses": [
+      "检票口",
+      "检票"
+    ],
+    "collocations": [
+      "改札を通る"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-04",
+    "word": "ホーム",
+    "pronunciation": "ホーム",
+    "meaning": "站台",
+    "example": "ホームで電車を待ちます。",
+    "translation": "在站台等列车。",
+    "tag": "JLPT N4 · noun",
+    "related": "駅のホーム",
+    "pos": "noun",
+    "senses": [
+      "站台"
+    ],
+    "collocations": [
+      "駅のホーム"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-05",
+    "word": "乗り換え",
+    "pronunciation": "のりかえ",
+    "meaning": "换乘",
+    "example": "この駅で乗り換えです。",
+    "translation": "在这个站换乘。",
+    "tag": "JLPT N4 · noun",
+    "related": "乗り換えの駅",
+    "pos": "noun",
+    "senses": [
+      "换乘"
+    ],
+    "collocations": [
+      "乗り換えの駅"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-06",
+    "word": "往復",
+    "pronunciation": "おうふく",
+    "meaning": "往返",
+    "example": "往復の切符を買います。",
+    "translation": "买往返票。",
+    "tag": "JLPT N4 · noun",
+    "related": "往復の運賃",
+    "pos": "noun",
+    "senses": [
+      "往返"
+    ],
+    "collocations": [
+      "往復の運賃"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-07",
+    "word": "片道",
+    "pronunciation": "かたみち",
+    "meaning": "单程",
+    "example": "片道の時間を調べます。",
+    "translation": "查一下单程所需时间。",
+    "tag": "JLPT N4 · noun",
+    "related": "片道の切符",
+    "pos": "noun",
+    "senses": [
+      "单程"
+    ],
+    "collocations": [
+      "片道の切符"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-08",
+    "word": "座席",
+    "pronunciation": "ざせき",
+    "meaning": "座位",
+    "example": "座席の番号を見ます。",
+    "translation": "看一下座位号码。",
+    "tag": "JLPT N4 · noun",
+    "related": "座席を予約する",
+    "pos": "noun",
+    "senses": [
+      "座位"
+    ],
+    "collocations": [
+      "座席を予約する"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-09",
+    "word": "時刻表",
+    "pronunciation": "じこくひょう",
+    "meaning": "时刻表",
+    "example": "時刻表を読んでから出かけます。",
+    "translation": "读完时刻表再出门。",
+    "tag": "JLPT N4 · noun",
+    "related": "電車の時刻表",
+    "pos": "noun",
+    "senses": [
+      "时刻表"
+    ],
+    "collocations": [
+      "電車の時刻表"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-10",
+    "word": "運賃",
+    "pronunciation": "うんちん",
+    "meaning": "车费；运费",
+    "example": "運賃を窓口で聞きます。",
+    "translation": "在窗口询问车费。",
+    "tag": "JLPT N4 · noun",
+    "related": "運賃を払う",
+    "pos": "noun",
+    "senses": [
+      "车费",
+      "运费"
+    ],
+    "collocations": [
+      "運賃を払う"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-11",
+    "word": "特急",
+    "pronunciation": "とっきゅう",
+    "meaning": "特快列车",
+    "example": "今日は特急に乗りません。",
+    "translation": "今天不乘特快列车。",
+    "tag": "JLPT N4 · noun",
+    "related": "特急の切符",
+    "pos": "noun",
+    "senses": [
+      "特快列车"
+    ],
+    "collocations": [
+      "特急の切符"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-12",
+    "word": "発車",
+    "pronunciation": "はっしゃ",
+    "meaning": "发车",
+    "example": "発車の時間は九時です。",
+    "translation": "发车时间是九点。",
+    "tag": "JLPT N4 · noun",
+    "related": "発車の時刻",
+    "pos": "noun",
+    "senses": [
+      "发车"
+    ],
+    "collocations": [
+      "発車の時刻"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-13",
+    "word": "写真",
+    "pronunciation": "しゃしん",
+    "meaning": "照片",
+    "example": "橋の写真を撮ります。",
+    "translation": "拍桥的照片。",
+    "tag": "JLPT N4 · noun",
+    "related": "写真を選ぶ",
+    "pos": "noun",
+    "senses": [
+      "照片"
+    ],
+    "collocations": [
+      "写真を選ぶ"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-14",
+    "word": "撮る",
+    "pronunciation": "とる",
+    "meaning": "拍摄",
+    "example": "美しい景色を撮るのが好きです。",
+    "translation": "我喜欢拍摄美丽的景色。",
+    "tag": "JLPT N4 · verb",
+    "related": "写真を撮る",
+    "pos": "verb",
+    "senses": [
+      "拍摄"
+    ],
+    "collocations": [
+      "写真を撮る"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-15",
+    "word": "写す",
+    "pronunciation": "うつす",
+    "meaning": "拍摄；誊写",
+    "example": "何を写すか先に考えます。",
+    "translation": "先想好要拍什么。",
+    "tag": "JLPT N4 · verb",
+    "related": "風景を写す",
+    "pos": "verb",
+    "senses": [
+      "拍摄",
+      "誊写"
+    ],
+    "collocations": [
+      "風景を写す"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-16",
+    "word": "景色",
+    "pronunciation": "けしき",
+    "meaning": "景色",
+    "example": "窓から景色を見ます。",
+    "translation": "从窗户看景色。",
+    "tag": "JLPT N4 · noun",
+    "related": "美しい景色",
+    "pos": "noun",
+    "senses": [
+      "景色"
+    ],
+    "collocations": [
+      "美しい景色"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-17",
+    "word": "建物",
+    "pronunciation": "たてもの",
+    "meaning": "建筑物",
+    "example": "古い建物の前で会います。",
+    "translation": "在旧建筑前见面。",
+    "tag": "JLPT N4 · noun",
+    "related": "大きな建物",
+    "pos": "noun",
+    "senses": [
+      "建筑物"
+    ],
+    "collocations": [
+      "大きな建物"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-18",
+    "word": "橋",
+    "pronunciation": "はし",
+    "meaning": "桥",
+    "example": "橋を渡ってから休みます。",
+    "translation": "过桥以后休息。",
+    "tag": "JLPT N4 · noun",
+    "related": "橋を渡る",
+    "pos": "noun",
+    "senses": [
+      "桥"
+    ],
+    "collocations": [
+      "橋を渡る"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-19",
+    "word": "散歩",
+    "pronunciation": "さんぽ",
+    "meaning": "散步",
+    "example": "散歩のあとでお茶を飲みます。",
+    "translation": "散步后喝茶。",
+    "tag": "JLPT N4 · noun",
+    "related": "町を散歩する",
+    "pos": "noun",
+    "senses": [
+      "散步"
+    ],
+    "collocations": [
+      "町を散歩する"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-20",
+    "word": "夕方",
+    "pronunciation": "ゆうがた",
+    "meaning": "傍晚",
+    "example": "夕方は家で写真を選びます。",
+    "translation": "傍晚在家挑选照片。",
+    "tag": "JLPT N4 · noun",
+    "related": "夕方に帰る",
+    "pos": "noun",
+    "senses": [
+      "傍晚"
+    ],
+    "collocations": [
+      "夕方に帰る"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-21",
+    "word": "昼間",
+    "pronunciation": "ひるま",
+    "meaning": "白天",
+    "example": "昼間は町を歩きます。",
+    "translation": "白天在镇上散步。",
+    "tag": "JLPT N4 · noun",
+    "related": "昼間の景色",
+    "pos": "noun",
+    "senses": [
+      "白天"
+    ],
+    "collocations": [
+      "昼間の景色"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-22",
+    "word": "晴れる",
+    "pronunciation": "はれる",
+    "meaning": "天气放晴",
+    "example": "明日は晴れるそうです。",
+    "translation": "听说明天会放晴。",
+    "tag": "JLPT N4 · verb",
+    "related": "空が晴れる",
+    "pos": "verb",
+    "senses": [
+      "天气放晴"
+    ],
+    "collocations": [
+      "空が晴れる"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-23",
+    "word": "曇る",
+    "pronunciation": "くもる",
+    "meaning": "天气转阴；变模糊",
+    "example": "夕方は曇るかもしれません。",
+    "translation": "傍晚可能会转阴。",
+    "tag": "JLPT N4 · verb",
+    "related": "空が曇る",
+    "pos": "verb",
+    "senses": [
+      "天气转阴",
+      "变模糊"
+    ],
+    "collocations": [
+      "空が曇る"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-ja-n4-b16-24",
+    "word": "美しい",
+    "pronunciation": "うつくしい",
+    "meaning": "美丽的",
+    "example": "ここから美しい景色が見えます。",
+    "translation": "从这里能看到美丽的景色。",
+    "tag": "JLPT N4 · i-adjective",
+    "related": "美しい町",
+    "pos": "i-adjective",
+    "senses": [
+      "美丽的"
+    ],
+    "collocations": [
+      "美しい町"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
   }
 ]

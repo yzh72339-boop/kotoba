@@ -1,3 +1,9 @@
+## 3.1.0-preview.20 — 2026-10-28
+
+- Add8 N4/B2 full grammar,4 original readers,48 source word cards and60 explained practice items in one build/release batch. Total1155/246/115; full target gap1489 remains.
+- Preserve349 course and1107 word payloads/IDs. Keep cross-grade travel vocabulary labels and reuse actual local kana/morphology, source-backed collection/review and offline recovery.
+- No dependency, Auth/RLS, quota, schema, sync, scheduler or historical migration change. Real owner/device and independent language-editor acceptance remain separate.
+
 ## 3.1.0-preview.19 — 2026-10-22
 
 - Add24 N3/C1 source cards, four full grammar topics and two original readers with30 explained practice items; total1107/238/111. Two batches this turn add48 cards, eight grammar and four readers.

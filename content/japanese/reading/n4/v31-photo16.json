@@ -1,0 +1,117 @@
+{
+  "id": "article-ja-n4-after-crossing-the-bridge",
+  "kind": "reading",
+  "language": "ja",
+  "level": "N4",
+  "difficulty": 2,
+  "tags": [
+    "v3-vocabulary-16",
+    "linked-practical-unit"
+  ],
+  "title": "橋を渡ったあとで",
+  "topic": "日常生活",
+  "genre": "story",
+  "estimatedMinutes": 2,
+  "paragraphs": [
+    "日曜日、友達と町を散歩した。天気予報では、昼間は晴れるが、夕方は曇るそうだった。私たちは早めに出かけ、古い建物の前で会った。",
+    "友達は写真を撮るのが好きだ。でも、すぐには撮らず、まず何を写すか考えていた。川の向こうには美しい景色が見えた。私たちは橋を渡ったあとで、建物と川が一緒に見える場所を探した。",
+    "写真を撮ってから、少し休んだ。同じ場所でも、立つ位置を変えると見えるものが違う。友達はたくさん撮るより、気に入った一枚を選びたいと言った。",
+    "散歩のあとで喫茶店に入り、写真を見せ合った。帰る前に、夕方の電車の時間を確認した。家に帰ってからもう一度見たら、その日の楽しかった会話も思い出した。"
+  ],
+  "translation": [
+    "星期天和朋友在镇上散步。预报说白天会放晴，傍晚会转阴。我们早点出门，在旧建筑前会面。",
+    "朋友喜欢拍照，却不急着拍，先想要拍什么。河对岸景色很美。过桥后，我们找了一个能同时看见建筑和河的位置。",
+    "拍完照稍微休息。同一地方，站位改变后看到的东西也不同。朋友说，比起拍很多，更想挑一张喜欢的照片。",
+    "散步后进咖啡馆互相看照片，回去前确认傍晚的火车时间。回家后再看，又想起那天愉快的交谈。"
+  ],
+  "vocabulary": [
+    "context-ja-n4-b16-13",
+    "context-ja-n4-b16-14",
+    "context-ja-n4-b16-15",
+    "context-ja-n4-b16-16",
+    "context-ja-n4-b16-17",
+    "context-ja-n4-b16-18",
+    "context-ja-n4-b16-19",
+    "context-ja-n4-b16-20",
+    "context-ja-n4-b16-21",
+    "context-ja-n4-b16-22",
+    "context-ja-n4-b16-23",
+    "context-ja-n4-b16-24"
+  ],
+  "grammar": [
+    {
+      "id": "grammar-ja-n4-te-kara-order",
+      "surface": "写真を撮ってから"
+    },
+    {
+      "id": "grammar-ja-n4-ta-ato-de",
+      "surface": "橋を渡ったあとで"
+    }
+  ],
+  "questions": [
+    {
+      "id": "article-ja-n4-after-crossing-the-bridge-q1",
+      "type": "detail",
+      "prompt": "两人在哪里见面？",
+      "options": [
+        "河中间",
+        "家里的客厅",
+        "旧建筑前"
+      ],
+      "answer": 2,
+      "explanation": "首段明确说古い建物の前で会った。"
+    },
+    {
+      "id": "article-ja-n4-after-crossing-the-bridge-q2",
+      "type": "grammar",
+      "prompt": "「橋を渡ったあとで」把找拍摄位置放在什么时候？",
+      "options": [
+        "过桥之后",
+        "过桥之前",
+        "尚未决定是否过桥时"
+      ],
+      "answer": 0,
+      "explanation": "第二段先过桥，再找可同时看见建筑与河的位置。"
+    },
+    {
+      "id": "article-ja-n4-after-crossing-the-bridge-q3",
+      "type": "detail",
+      "prompt": "朋友更想怎样拍照？",
+      "options": [
+        "完全不看取景就拍很多",
+        "挑选自己喜欢的一张",
+        "只拍车票号码"
+      ],
+      "answer": 1,
+      "explanation": "第三段将たくさん撮る与気に入った一枚作比较，重点是选择喜欢的画面。"
+    },
+    {
+      "id": "article-ja-n4-after-crossing-the-bridge-q4",
+      "type": "inference",
+      "prompt": "为什么末段提到再次看照片时想起交谈？",
+      "options": [
+        "因为照片只能记录文字",
+        "因为两人没有真实散步",
+        "因为照片也与当天共同经历的记忆相连"
+      ],
+      "answer": 2,
+      "explanation": "再次看照片引出愉快交谈的回忆，说明照片与当天的经历有联系。"
+    },
+    {
+      "id": "article-ja-n4-after-crossing-the-bridge-q5",
+      "type": "main-idea",
+      "prompt": "最符合文章的顺序是哪项？",
+      "options": [
+        "先过桥找位置、拍照，之后休息看照片",
+        "先回家看照片，第二天才第一次见面",
+        "先坐返程车，再决定是否出门"
+      ],
+      "answer": 0,
+      "explanation": "正文依次描述会面、过桥找位置、拍照休息，以及看照片和回家。"
+    }
+  ],
+  "notes": [
+    "写す在这里指拍摄画面；同一词也能表示誊写，应按上下文理解。",
+    "てから与あとで都可表示之后，不自动保证两件事毫无间隔。"
+  ]
+}

@@ -1059,5 +1059,299 @@
     "frequency": "medium",
     "register": "neutral",
     "sourceRef": "Kotoba 3.1 original vocabulary batch11"
+  },
+  {
+    "id": "context-en-b2-b16-13",
+    "word": "sensor",
+    "pronunciation": "/ˈsensə/",
+    "meaning": "传感器；感光元件",
+    "example": "The technician tested the sensor carefully.",
+    "translation": "技术员仔细测试了感光元件。",
+    "tag": "B2 · noun",
+    "related": "a camera sensor",
+    "pos": "noun",
+    "senses": [
+      "传感器",
+      "感光元件"
+    ],
+    "collocations": [
+      "a camera sensor"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b2-b16-14",
+    "word": "aperture",
+    "pronunciation": "/ˈæpətʃə/",
+    "meaning": "光圈；孔径",
+    "example": "The aperture setting changed the result.",
+    "translation": "光圈设置改变了结果。",
+    "tag": "B2 · noun",
+    "related": "a wide aperture",
+    "pos": "noun",
+    "senses": [
+      "光圈",
+      "孔径"
+    ],
+    "collocations": [
+      "a wide aperture"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b2-b16-15",
+    "word": "exposure",
+    "pronunciation": "/ɪkˈspəʊʒə/",
+    "meaning": "摄影曝光；暴露",
+    "example": "We compared the exposure of two photographs.",
+    "translation": "我们比较了两张照片的曝光情况。",
+    "tag": "B2 · noun",
+    "related": "adjust the exposure",
+    "pos": "noun",
+    "senses": [
+      "摄影曝光",
+      "暴露"
+    ],
+    "collocations": [
+      "adjust the exposure"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b2-b16-16",
+    "word": "stabilisation",
+    "pronunciation": "/ˌsteɪbəlaɪˈzeɪʃən/",
+    "meaning": "防抖；稳定化",
+    "example": "Image stabilisation was part of the test.",
+    "translation": "图像防抖是测试的一部分。",
+    "tag": "B2 · noun",
+    "related": "image stabilisation",
+    "pos": "noun",
+    "senses": [
+      "防抖",
+      "稳定化"
+    ],
+    "collocations": [
+      "image stabilisation"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b2-b16-17",
+    "word": "calibration",
+    "pronunciation": "/ˌkælɪˈbreɪʃən/",
+    "meaning": "校准",
+    "example": "The report described a calibration check.",
+    "translation": "报告描述了一项校准检查。",
+    "tag": "B2 · noun",
+    "related": "sensor calibration",
+    "pos": "noun",
+    "senses": [
+      "校准"
+    ],
+    "collocations": [
+      "sensor calibration"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b2-b16-18",
+    "word": "firmware",
+    "pronunciation": "/ˈfɜːmweə/",
+    "meaning": "固件",
+    "example": "We noted the firmware version before the test.",
+    "translation": "测试前，我们记下了固件版本。",
+    "tag": "B2 · noun",
+    "related": "a firmware update",
+    "pos": "noun",
+    "senses": [
+      "固件"
+    ],
+    "collocations": [
+      "a firmware update"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b2-b16-19",
+    "word": "diagnostic",
+    "pronunciation": "/ˌdaɪəɡˈnɒstɪk/",
+    "meaning": "诊断性的",
+    "example": "The shop supplied a diagnostic report.",
+    "translation": "商店提供了一份诊断报告。",
+    "tag": "B2 · adjective",
+    "related": "a diagnostic test",
+    "pos": "adjective",
+    "senses": [
+      "诊断性的"
+    ],
+    "collocations": [
+      "a diagnostic test"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b2-b16-20",
+    "word": "compatible",
+    "pronunciation": "/kəmˈpætəbəl/",
+    "meaning": "兼容的",
+    "example": "The shop confirmed that the lens was compatible.",
+    "translation": "商店确认镜头是兼容的。",
+    "tag": "B2 · adjective",
+    "related": "compatible equipment",
+    "pos": "adjective",
+    "senses": [
+      "兼容的"
+    ],
+    "collocations": [
+      "compatible equipment"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b2-b16-21",
+    "word": "malfunction",
+    "pronunciation": "/mælˈfʌŋkʃən/",
+    "meaning": "故障；失灵",
+    "example": "The malfunction did not appear in every test.",
+    "translation": "不是每次测试都会出现故障。",
+    "tag": "B2 · noun",
+    "related": "an intermittent malfunction",
+    "pos": "noun",
+    "senses": [
+      "故障",
+      "失灵"
+    ],
+    "collocations": [
+      "an intermittent malfunction"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b2-b16-22",
+    "word": "intermittent",
+    "pronunciation": "/ˌɪntəˈmɪtənt/",
+    "meaning": "间歇性的",
+    "example": "An intermittent fault can be hard to repeat.",
+    "translation": "间歇性故障可能很难重现。",
+    "tag": "B2 · adjective",
+    "related": "an intermittent fault",
+    "pos": "adjective",
+    "senses": [
+      "间歇性的"
+    ],
+    "collocations": [
+      "an intermittent fault"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b2-b16-23",
+    "word": "reimbursement",
+    "pronunciation": "/ˌriːɪmˈbɜːsmənt/",
+    "meaning": "报销；费用补偿",
+    "example": "We asked whether reimbursement covered the return postage.",
+    "translation": "我们询问费用补偿是否涵盖退件邮费。",
+    "tag": "B2 · noun",
+    "related": "request reimbursement",
+    "pos": "noun",
+    "senses": [
+      "报销",
+      "费用补偿"
+    ],
+    "collocations": [
+      "request reimbursement"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
+  },
+  {
+    "id": "context-en-b2-b16-24",
+    "word": "retailer",
+    "pronunciation": "/ˈriːteɪlə/",
+    "meaning": "零售商",
+    "example": "The retailer explained the next step in writing.",
+    "translation": "零售商以书面方式解释了下一步。",
+    "tag": "B2 · noun",
+    "related": "an equipment retailer",
+    "pos": "noun",
+    "senses": [
+      "零售商"
+    ],
+    "collocations": [
+      "an equipment retailer"
+    ],
+    "topics": [
+      "contextual-learning",
+      "travel-photography"
+    ],
+    "frequency": "medium",
+    "register": "neutral",
+    "sourceRef": "Kotoba 3.1 original vocabulary batch16"
   }
 ]
